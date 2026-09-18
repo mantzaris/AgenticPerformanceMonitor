@@ -1,0 +1,26 @@
+{
+  "attempts": [
+    {
+      "command": "GIT_TERMINAL_PROMPT=0 git push -u origin stage2/scientific-pilot",
+      "reason": "Potentially sensitive 95 MB research artifacts/logs to an unverified destination; no push executed.",
+      "status": "automatic_review_rejected"
+    },
+    {
+      "command": "GIT_TERMINAL_PROMPT=0 git push -u origin stage2/scientific-pilot",
+      "exit_code": 128,
+      "new_evidence": "Existing remote main matches starting commit; public CC BY 4.0 OULAD provenance and payload checks in push_preflight.json",
+      "status": "automatic_review_permitted_then_git_authentication_failed",
+      "stderr": "fatal: could not read Username for 'https://github.com': terminal prompts disabled"
+    }
+  ],
+  "branch": "stage2/scientific-pilot",
+  "branch_pushed": false,
+  "destination": "https://github.com/mantzaris/AgenticPerformanceMonitor.git",
+  "force_push_used": false,
+  "main_merged": false,
+  "manual_command_after_authentication": "git push -u origin stage2/scientific-pilot",
+  "push_candidate_commit": "d9608c00fbae24f8f3823f89e9a63fee2523dbcc",
+  "recorded_utc": "2026-09-18T18:40:39.259057+00:00",
+  "remaining_blocker": "GitHub HTTPS credentials unavailable in this environment; complete local branch is ready.",
+  "remote": "origin"
+}

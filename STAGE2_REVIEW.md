@@ -14,6 +14,16 @@ Frozen pilot execution commit: `5163ac032465a294b02684e80e94bf2e11a22164`.
 The final handoff commit is the branch tip, available with `git rev-parse HEAD`
 and reported in the completion message. No merge into main was performed.
 
+**Push status:** the branch is committed locally. Automatic review initially
+rejected the push over destination/payload concerns. Read-only verification showed
+that the existing origin's main ref exactly matched the starting commit; the
+public OULAD source/license and proposed artifact contents were checked. The
+same direct push was then permitted, but GitHub HTTPS authentication failed:
+`could not read Username`, with terminal prompts disabled. No branch was pushed.
+After authenticating, run `git push -u origin stage2/scientific-pilot`.
+See [transport evidence](artifacts/stage2/checks/git_transport.json) and
+[destination/payload checks](artifacts/stage2/checks/push_preflight.json).
+
 ## Read first
 
 - [Frozen scope](docs/stage2/SCOPE.md), [analysis protocol](docs/stage2/ANALYSIS_PROTOCOL.md), [evaluation protocol](docs/stage2/EVALUATION_PROTOCOL.md).
@@ -233,7 +243,8 @@ Both processes exited. The final GPU query showed no compute processes and
 after verification. Stage wall time to completed handoff artifacts was **3729.78 seconds
 (62.16 minutes)**, from 17:33:59 UTC to 2026-09-18T18:36:08.777044+00:00. The
 [run manifest](artifacts/stage2/run_manifest.json) records this separately; final
-Git transport is outside that measurement. Neither metric is RunPod billing time.
+Git transport is outside that measurement. Including transport checks and final
+metadata, elapsed stage time was **66.67 minutes** through 2026-09-18T18:40:39.259057+00:00. Neither metric is RunPod billing time.
 
 [Execution ledger](artifacts/stage2/execution.jsonl) and
 [model budget ledger](artifacts/stage2/model_ledger.jsonl) are append-only across
