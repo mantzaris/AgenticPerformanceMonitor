@@ -1,0 +1,37 @@
+[
+  {
+    "feature": "clicks_per_eligible_day",
+    "question_id": "s5_06",
+    "reference": "course",
+    "tool": "analyze",
+    "window": "recent"
+  },
+  {
+    "feature": "clicks_per_eligible_day",
+    "question_id": "s5_06",
+    "reference": "early_stage",
+    "tool": "analyze",
+    "window": "recent"
+  },
+  {
+    "feature": "clicks_per_eligible_day",
+    "question_id": "s5_06",
+    "reference": "same_prior_attempt",
+    "tool": "analyze",
+    "window": "recent"
+  },
+  {
+    "feature": "nonbanked_submissions",
+    "question_id": "s5_06",
+    "reference": "course",
+    "tool": "analyze",
+    "window": "recent"
+  },
+  {
+    "feature": "scheduled_no_submission",
+    "question_id": "s5_06",
+    "reference": "course",
+    "tool": "analyze",
+    "window": "recent"
+  }
+]

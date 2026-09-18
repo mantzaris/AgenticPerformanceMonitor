@@ -1,0 +1,330 @@
+{
+  "created_utc": "2026-09-18T22:53:21.041364+00:00",
+  "generation_partitions": {
+    "comparison": 137,
+    "setup": 6
+  },
+  "interpretation": "Twelve paired development cases, two fixed checkpoints, known families; descriptive comparison, not a pure model-size effect or general agent-capability claim.",
+  "model_process_seconds": 1558.8240611217916,
+  "model_processes": [
+    {
+      "elapsed_seconds": 116.9858210789971,
+      "event": "process_finished",
+      "generation_count": 2,
+      "process_id": "qwen14b_setup_01",
+      "status": "completed",
+      "utc": "2026-09-18T22:16:48.676887+00:00"
+    },
+    {
+      "elapsed_seconds": 58.549152235966176,
+      "event": "process_finished",
+      "generation_count": 4,
+      "process_id": "qwen7b_setup_02",
+      "status": "completed",
+      "utc": "2026-09-18T22:17:48.203513+00:00"
+    },
+    {
+      "elapsed_seconds": 635.9503076677211,
+      "event": "process_finished",
+      "generation_count": 86,
+      "process_id": "qwen7b_comparison_03",
+      "status": "completed",
+      "utc": "2026-09-18T22:40:30.304265+00:00"
+    },
+    {
+      "elapsed_seconds": 747.3387801391073,
+      "event": "process_finished",
+      "generation_count": 143,
+      "process_id": "qwen14b_comparison_04",
+      "status": "completed",
+      "utc": "2026-09-18T22:52:58.745226+00:00"
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparison": "primary_checkpoint_compact",
+      "denominator": 12,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure.",
+      "left": "qwen7b_semantic",
+      "net_complete_gain": 7,
+      "outcomes": {
+        "both_complete": 2,
+        "both_incomplete": 3,
+        "right_only_complete": 7
+      },
+      "right": "qwen14b_semantic",
+      "selected_outcomes": {
+        "both_complete": 2,
+        "both_incomplete": 4,
+        "right_only_complete": 6
+      }
+    },
+    {
+      "comparison": "secondary_checkpoint_full",
+      "denominator": 12,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure.",
+      "left": "qwen7b_full_spec",
+      "net_complete_gain": 1,
+      "outcomes": {
+        "both_complete": 5,
+        "both_incomplete": 4,
+        "left_only_complete": 1,
+        "right_only_complete": 2
+      },
+      "right": "qwen14b_full_spec",
+      "selected_outcomes": {
+        "both_complete": 5,
+        "both_incomplete": 5,
+        "right_only_complete": 2
+      }
+    },
+    {
+      "comparison": "interface_7b",
+      "denominator": 12,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure.",
+      "left": "qwen7b_full_spec",
+      "net_complete_gain": -4,
+      "outcomes": {
+        "both_complete": 2,
+        "both_incomplete": 6,
+        "left_only_complete": 4
+      },
+      "right": "qwen7b_semantic",
+      "selected_outcomes": {
+        "both_complete": 2,
+        "both_incomplete": 7,
+        "left_only_complete": 3
+      }
+    },
+    {
+      "comparison": "interface_14b",
+      "denominator": 12,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure.",
+      "left": "qwen14b_full_spec",
+      "net_complete_gain": 2,
+      "outcomes": {
+        "both_complete": 6,
+        "both_incomplete": 2,
+        "left_only_complete": 1,
+        "right_only_complete": 3
+      },
+      "right": "qwen14b_semantic",
+      "selected_outcomes": {
+        "both_complete": 6,
+        "both_incomplete": 3,
+        "left_only_complete": 1,
+        "right_only_complete": 2
+      }
+    }
+  ],
+  "primary_decision_rule_result": "substantial gain but gate missed; review remaining mechanism before a bounded intervention",
+  "summaries": [
+    {
+      "accepted_dashboard_omissions": 0,
+      "attempted": 12,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "complete_method_selected": 12,
+      "complete_visible": 12,
+      "completion_tokens": 0,
+      "condition": "baseline",
+      "cuda_event_seconds": 0,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 0,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": true,
+      "episode_seconds": 18.48106055893004,
+      "error_episode_counts": {},
+      "failed_questions": [],
+      "fallbacks": 0,
+      "first_final_valid": 12,
+      "generation_seconds": 0,
+      "generations": 0,
+      "missing_analysis_items": 0,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 12,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "prompt_tokens": 0,
+      "repairs": 0,
+      "retrieved_but_omitted_items": 0,
+      "scoped_insufficient_items": 4,
+      "tool_calls": 42,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 12
+    },
+    {
+      "accepted_dashboard_omissions": 1,
+      "attempted": 12,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 1,
+      "complete_method_selected": 5,
+      "complete_visible": 6,
+      "completion_tokens": 15141,
+      "condition": "qwen7b_full_spec",
+      "cuda_event_seconds": 365.84201037597654,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 6,
+      "duplicate_exact_calls": 2,
+      "engineering_gate_met": false,
+      "episode_seconds": 388.8672203840688,
+      "error_episode_counts": {
+        "json_or_schema": 1,
+        "layout_or_claim_contract": 6
+      },
+      "failed_questions": [
+        "s5_05",
+        "s5_06",
+        "s5_08",
+        "s5_09",
+        "s5_12"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 5,
+      "generation_seconds": 368.10793747287244,
+      "generations": 41,
+      "missing_analysis_items": 0,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 12,
+      "peak_allocated_bytes": 17062434816,
+      "peak_reserved_bytes": 23045603328,
+      "prompt_tokens": 185088,
+      "repairs": 7,
+      "retrieved_but_omitted_items": 24,
+      "scoped_insufficient_items": 1,
+      "tool_calls": 53,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 7
+    },
+    {
+      "accepted_dashboard_omissions": 11,
+      "attempted": 12,
+      "compiler_added_panels": 11,
+      "compiler_supplied_answer_items": 2,
+      "complete_method_selected": 2,
+      "complete_visible": 2,
+      "completion_tokens": 8245,
+      "condition": "qwen7b_semantic",
+      "cuda_event_seconds": 203.520212890625,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 3,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": false,
+      "episode_seconds": 219.8384701902978,
+      "error_episode_counts": {
+        "identifier": 2,
+        "json_or_schema": 8,
+        "scope": 1,
+        "support": 1
+      },
+      "failed_questions": [
+        "s5_05",
+        "s5_06",
+        "s5_07",
+        "s5_08",
+        "s5_09"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 7,
+      "generation_seconds": 205.75305929221213,
+      "generations": 40,
+      "missing_analysis_items": 10,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 10,
+      "peak_allocated_bytes": 16698348544,
+      "peak_reserved_bytes": 21158166528,
+      "prompt_tokens": 149994,
+      "repairs": 5,
+      "retrieved_but_omitted_items": 21,
+      "scoped_insufficient_items": 0,
+      "tool_calls": 37,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 7
+    },
+    {
+      "accepted_dashboard_omissions": 2,
+      "attempted": 12,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "complete_method_selected": 7,
+      "complete_visible": 7,
+      "completion_tokens": 9163,
+      "condition": "qwen14b_full_spec",
+      "cuda_event_seconds": 440.64509619140625,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 2,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": false,
+      "episode_seconds": 456.943529357668,
+      "error_episode_counts": {
+        "layout_or_claim_contract": 4
+      },
+      "failed_questions": [
+        "s5_05",
+        "s5_09",
+        "s5_10"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 7,
+      "generation_seconds": 442.37971357023343,
+      "generations": 31,
+      "missing_analysis_items": 0,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 12,
+      "peak_allocated_bytes": 31450980352,
+      "peak_reserved_bytes": 34588327936,
+      "prompt_tokens": 115007,
+      "repairs": 5,
+      "retrieved_but_omitted_items": 16,
+      "scoped_insufficient_items": 2,
+      "tool_calls": 36,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 9
+    },
+    {
+      "accepted_dashboard_omissions": 2,
+      "attempted": 12,
+      "compiler_added_panels": 14,
+      "compiler_supplied_answer_items": 1,
+      "complete_method_selected": 8,
+      "complete_visible": 9,
+      "completion_tokens": 4905,
+      "condition": "qwen14b_semantic",
+      "cuda_event_seconds": 230.47924633789063,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 4,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": false,
+      "episode_seconds": 249.28595075849444,
+      "error_episode_counts": {
+        "scope": 1
+      },
+      "failed_questions": [
+        "s5_06"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 11,
+      "generation_seconds": 232.1207131696865,
+      "generations": 25,
+      "missing_analysis_items": 0,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 12,
+      "peak_allocated_bytes": 31775897600,
+      "peak_reserved_bytes": 34588327936,
+      "prompt_tokens": 86368,
+      "repairs": 1,
+      "retrieved_but_omitted_items": 8,
+      "scoped_insufficient_items": 2,
+      "tool_calls": 40,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 11
+    }
+  ],
+  "total_generations": 143,
+  "unclosed_processes": []
+}

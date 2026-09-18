@@ -1,0 +1,438 @@
+{
+  "acquisition": {
+    "download_and_hash_seconds": 179.40718651097268,
+    "existing_7b_preserved": true,
+    "metadata_seconds": 1.1651697037741542,
+    "model_bytes": 29551687352,
+    "weights_in_git": false
+  },
+  "all_comparison_outputs_reached_eos": true,
+  "attempted_generations": 143,
+  "backend": "transformers 4.55.2",
+  "billing_note": "Unknown; neither wall time nor GPU process time is a billing estimate.",
+  "branch": "main",
+  "capacity_execution_commit": "c68457916f2479f0ff7ced572b2d476441e9aeb1",
+  "checks": {
+    "accepted_replays": 46,
+    "browser_errors": 0,
+    "browser_rejected_slots": 8,
+    "browser_rendered_pages": 23,
+    "codex_visually_inspected_screenshots": 10,
+    "focused_tests": "6 passed; one pre-freeze fixture-key failure preserved",
+    "frozen_files_unchanged": 88,
+    "historical_files_unchanged": 4041,
+    "saved_stage4_scores_reproduced": 24,
+    "semantic_recompilations": 18
+  },
+  "comparison_execution_commit": "7616198845d29f5262ec6ca0d9c3fcda17fe9d65",
+  "conditions": [
+    {
+      "accepted_dashboard_omissions": 0,
+      "attempted": 12,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "complete_method_selected": 12,
+      "complete_visible": 12,
+      "completion_tokens": 0,
+      "condition": "baseline",
+      "cuda_event_seconds": 0,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 0,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": true,
+      "episode_seconds": 18.48106055893004,
+      "error_episode_counts": {},
+      "failed_questions": [],
+      "fallbacks": 0,
+      "first_final_valid": 12,
+      "generation_seconds": 0,
+      "generations": 0,
+      "missing_analysis_items": 0,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 12,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "prompt_tokens": 0,
+      "repairs": 0,
+      "retrieved_but_omitted_items": 0,
+      "scoped_insufficient_items": 4,
+      "tool_calls": 42,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 12
+    },
+    {
+      "accepted_dashboard_omissions": 1,
+      "attempted": 12,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 1,
+      "complete_method_selected": 5,
+      "complete_visible": 6,
+      "completion_tokens": 15141,
+      "condition": "qwen7b_full_spec",
+      "cuda_event_seconds": 365.84201037597654,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 6,
+      "duplicate_exact_calls": 2,
+      "engineering_gate_met": false,
+      "episode_seconds": 388.8672203840688,
+      "error_episode_counts": {
+        "json_or_schema": 1,
+        "layout_or_claim_contract": 6
+      },
+      "failed_questions": [
+        "s5_05",
+        "s5_06",
+        "s5_08",
+        "s5_09",
+        "s5_12"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 5,
+      "generation_seconds": 368.10793747287244,
+      "generations": 41,
+      "missing_analysis_items": 0,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 12,
+      "peak_allocated_bytes": 17062434816,
+      "peak_reserved_bytes": 23045603328,
+      "prompt_tokens": 185088,
+      "repairs": 7,
+      "retrieved_but_omitted_items": 24,
+      "scoped_insufficient_items": 1,
+      "tool_calls": 53,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 7
+    },
+    {
+      "accepted_dashboard_omissions": 11,
+      "attempted": 12,
+      "compiler_added_panels": 11,
+      "compiler_supplied_answer_items": 2,
+      "complete_method_selected": 2,
+      "complete_visible": 2,
+      "completion_tokens": 8245,
+      "condition": "qwen7b_semantic",
+      "cuda_event_seconds": 203.520212890625,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 3,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": false,
+      "episode_seconds": 219.8384701902978,
+      "error_episode_counts": {
+        "identifier": 2,
+        "json_or_schema": 8,
+        "scope": 1,
+        "support": 1
+      },
+      "failed_questions": [
+        "s5_05",
+        "s5_06",
+        "s5_07",
+        "s5_08",
+        "s5_09"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 7,
+      "generation_seconds": 205.75305929221213,
+      "generations": 40,
+      "missing_analysis_items": 10,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 10,
+      "peak_allocated_bytes": 16698348544,
+      "peak_reserved_bytes": 21158166528,
+      "prompt_tokens": 149994,
+      "repairs": 5,
+      "retrieved_but_omitted_items": 21,
+      "scoped_insufficient_items": 0,
+      "tool_calls": 37,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 7
+    },
+    {
+      "accepted_dashboard_omissions": 2,
+      "attempted": 12,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "complete_method_selected": 7,
+      "complete_visible": 7,
+      "completion_tokens": 9163,
+      "condition": "qwen14b_full_spec",
+      "cuda_event_seconds": 440.64509619140625,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 2,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": false,
+      "episode_seconds": 456.943529357668,
+      "error_episode_counts": {
+        "layout_or_claim_contract": 4
+      },
+      "failed_questions": [
+        "s5_05",
+        "s5_09",
+        "s5_10"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 7,
+      "generation_seconds": 442.37971357023343,
+      "generations": 31,
+      "missing_analysis_items": 0,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 12,
+      "peak_allocated_bytes": 31450980352,
+      "peak_reserved_bytes": 34588327936,
+      "prompt_tokens": 115007,
+      "repairs": 5,
+      "retrieved_but_omitted_items": 16,
+      "scoped_insufficient_items": 2,
+      "tool_calls": 36,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 9
+    },
+    {
+      "accepted_dashboard_omissions": 2,
+      "attempted": 12,
+      "compiler_added_panels": 14,
+      "compiler_supplied_answer_items": 1,
+      "complete_method_selected": 8,
+      "complete_visible": 9,
+      "completion_tokens": 4905,
+      "condition": "qwen14b_semantic",
+      "cuda_event_seconds": 230.47924633789063,
+      "denominator": 12,
+      "duplicate_equivalent_calls": 4,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": false,
+      "episode_seconds": 249.28595075849444,
+      "error_episode_counts": {
+        "scope": 1
+      },
+      "failed_questions": [
+        "s5_06"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 11,
+      "generation_seconds": 232.1207131696865,
+      "generations": 25,
+      "missing_analysis_items": 0,
+      "not_attempted_questions": [],
+      "oracle_retrieved_upper_bound": 12,
+      "peak_allocated_bytes": 31775897600,
+      "peak_reserved_bytes": 34588327936,
+      "prompt_tokens": 86368,
+      "repairs": 1,
+      "retrieved_but_omitted_items": 8,
+      "scoped_insufficient_items": 2,
+      "tool_calls": 40,
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 11
+    }
+  ],
+  "cpu_offload": false,
+  "decoding": "greedy; standard EOS termination for comparison",
+  "evidence_paths": [
+    "STAGE5_REVIEW.md",
+    "artifacts/stage5/reports/comparison.json",
+    "artifacts/stage5/reports/per_case.json",
+    "artifacts/stage5/reports/trace_audit.json",
+    "artifacts/stage5/checks/final_verification.json",
+    "artifacts/stage5/inspection/browser.json",
+    "artifacts/stage5/inspection/VISUAL_REVIEW.md",
+    "artifacts/stage5/model_ledger.jsonl",
+    "artifacts/stage5/execution.jsonl"
+  ],
+  "execution_deviations": [],
+  "external_human_review": "Outstanding; automated source checks and Codex inspection are not independent human review.",
+  "final_commit_information": "Publication record and final session completion identify the delivered main commit.",
+  "freeze_file_bytes_sha256": "cbbf0cf913cdaca792ca15cb2afe478e75b532cf4d9f212395bfd725af13cd24",
+  "freeze_sha256": "8658768c142060bc154a87005e5b0e77a0b981ac104ed825216ff902dfead348",
+  "frozen_decision_result": "substantial gain but gate missed; review remaining mechanism before a bounded intervention",
+  "generation_partitions": {
+    "comparison": 137,
+    "setup": 6
+  },
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "infrastructure_blocked_conditions": 0,
+  "input_token_ceiling": 16000,
+  "limits": {
+    "comparison_generations": 192,
+    "model_process_seconds": 7200,
+    "overall_generations": 208,
+    "per_episode_analytical_calls": 6,
+    "per_episode_generations": 4,
+    "per_episode_repairs": 1,
+    "setup_generations": 16,
+    "stage_seconds": 18000
+  },
+  "model_process_seconds": 1558.8240611217916,
+  "model_processes": [
+    {
+      "elapsed_seconds": 116.9858210789971,
+      "event": "process_finished",
+      "generation_count": 2,
+      "process_id": "qwen14b_setup_01",
+      "status": "completed",
+      "utc": "2026-09-18T22:16:48.676887+00:00"
+    },
+    {
+      "elapsed_seconds": 58.549152235966176,
+      "event": "process_finished",
+      "generation_count": 4,
+      "process_id": "qwen7b_setup_02",
+      "status": "completed",
+      "utc": "2026-09-18T22:17:48.203513+00:00"
+    },
+    {
+      "elapsed_seconds": 635.9503076677211,
+      "event": "process_finished",
+      "generation_count": 86,
+      "process_id": "qwen7b_comparison_03",
+      "status": "completed",
+      "utc": "2026-09-18T22:40:30.304265+00:00"
+    },
+    {
+      "elapsed_seconds": 747.3387801391073,
+      "event": "process_finished",
+      "generation_count": 143,
+      "process_id": "qwen14b_comparison_04",
+      "status": "completed",
+      "utc": "2026-09-18T22:52:58.745226+00:00"
+    }
+  ],
+  "models": {
+    "qwen14b": {
+      "manifest": "artifacts/stage5/models/qwen14b/manifest.json",
+      "repo_id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    },
+    "qwen7b": {
+      "manifest": "artifacts/gpu/model_manifest.json",
+      "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+    }
+  },
+  "operational_recommendation": "Retain deterministic enumeration for the predefined registry; no agent met 11/12 complete answers.",
+  "output_token_ceiling": 1500,
+  "paired_comparisons": [
+    {
+      "comparison": "primary_checkpoint_compact",
+      "denominator": 12,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure.",
+      "left": "qwen7b_semantic",
+      "net_complete_gain": 7,
+      "outcomes": {
+        "both_complete": 2,
+        "both_incomplete": 3,
+        "right_only_complete": 7
+      },
+      "right": "qwen14b_semantic",
+      "selected_outcomes": {
+        "both_complete": 2,
+        "both_incomplete": 4,
+        "right_only_complete": 6
+      }
+    },
+    {
+      "comparison": "secondary_checkpoint_full",
+      "denominator": 12,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure.",
+      "left": "qwen7b_full_spec",
+      "net_complete_gain": 1,
+      "outcomes": {
+        "both_complete": 5,
+        "both_incomplete": 4,
+        "left_only_complete": 1,
+        "right_only_complete": 2
+      },
+      "right": "qwen14b_full_spec",
+      "selected_outcomes": {
+        "both_complete": 5,
+        "both_incomplete": 5,
+        "right_only_complete": 2
+      }
+    },
+    {
+      "comparison": "interface_7b",
+      "denominator": 12,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure.",
+      "left": "qwen7b_full_spec",
+      "net_complete_gain": -4,
+      "outcomes": {
+        "both_complete": 2,
+        "both_incomplete": 6,
+        "left_only_complete": 4
+      },
+      "right": "qwen7b_semantic",
+      "selected_outcomes": {
+        "both_complete": 2,
+        "both_incomplete": 7,
+        "left_only_complete": 3
+      }
+    },
+    {
+      "comparison": "interface_14b",
+      "denominator": 12,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure.",
+      "left": "qwen14b_full_spec",
+      "net_complete_gain": 2,
+      "outcomes": {
+        "both_complete": 6,
+        "both_incomplete": 2,
+        "left_only_complete": 1,
+        "right_only_complete": 3
+      },
+      "right": "qwen14b_semantic",
+      "selected_outcomes": {
+        "both_complete": 6,
+        "both_incomplete": 3,
+        "left_only_complete": 1,
+        "right_only_complete": 2
+      }
+    }
+  ],
+  "pod_billing_seconds": null,
+  "precision": "BF16",
+  "process_status": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation, 2 MiB, 49140 MiB",
+    "gpu_compute_processes": "",
+    "local_servers_started": 0,
+    "owned_model_processes": {
+      "qwen14b_comparison_04": {
+        "pid": 118585,
+        "still_exists": false
+      },
+      "qwen14b_setup_01": {
+        "pid": 110660,
+        "still_exists": false
+      },
+      "qwen7b_comparison_03": {
+        "pid": 115325,
+        "still_exists": false
+      },
+      "qwen7b_setup_02": {
+        "pid": 111342,
+        "still_exists": false
+      }
+    },
+    "pod_terminated": false,
+    "status": "PASS",
+    "utc": "2026-09-18T22:53:58.903987+00:00"
+  },
+  "publication_target": "origin main",
+  "quantization": false,
+  "reporting_note": "Post-hoc trace_audit.json supplements incomplete string-based error categories without changing frozen scores.",
+  "research_recommendation": "Substantial compact checkpoint gain supports external review of one bounded public-question-to-evidence binding intervention, not broader evaluation or a model sweep. No next stage executed.",
+  "reserved_data": "Only split identifiers read for exclusion; no reserved observations opened",
+  "review_snapshot_utc": "2026-09-18T23:05:59.728251+00:00",
+  "setup_note": "Full capacity probes continue computation past EOS, solely as unscored setup; comparison decoding remains unchanged.",
+  "stage": "Stage 5 controlled checkpoint comparison",
+  "stage_elapsed_seconds_to_review_snapshot": 4035.728251,
+  "stage_started_utc": "2026-09-18T21:58:44+00:00",
+  "starting_commit": "a9c3a39fbdff144271ced07607e21098e927c6da",
+  "status": "completed; agent engineering gate not met",
+  "torch": "2.8.0+cu128"
+}

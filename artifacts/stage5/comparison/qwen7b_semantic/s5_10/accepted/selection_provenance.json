@@ -1,0 +1,126 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "per-evidence claim requirement; shared measurement boilerplate only"
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "method_selected",
+    "scope": "selected"
+  },
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "semantic",
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common assessment context"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "per-evidence quantitative panel requirement"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_28a23d2be0b926193b22",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_50967a75f08f05a9705f",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_787ba46f9b0580572ff2",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_28a23d2be0b926193b22",
+        "kind": "observation_status",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_aa946d3ebba4ecbeef10",
+        "kind": "observation_status",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

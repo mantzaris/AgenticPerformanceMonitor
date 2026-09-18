@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-09-18T22:42:42.796272+00:00",
+  "completion_tokens": 877,
+  "condition": "qwen14b_full_spec",
+  "elapsed_seconds": 38.53571148822084,
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 3,
+  "method": "full_spec",
+  "model_key": "qwen14b",
+  "prompt_tokens": 10461,
+  "question_id": "s5_02",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T22:42:04.258218+00:00",
+  "status": "agent_generated_and_repaired",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 2,
+  "tool_calls_executed": 2
+}

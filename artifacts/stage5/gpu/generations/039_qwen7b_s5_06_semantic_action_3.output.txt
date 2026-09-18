@@ -1,0 +1,35 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "clicks_per_eligible_day_recent_course",
+      "support": "describe"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "clicks_per_eligible_day_baseline_course",
+      "support": "describe"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "nonbanked_submissions_recent_course",
+      "support": "describe"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "scheduled_no_submission_recent_course",
+      "support": "describe"
+    }
+  ],
+  "conclusion": {
+    "kind": "descriptive",
+    "scope": "selected",
+    "evidence_ids": [
+      "clicks_per_eligible_day_recent_course",
+      "clicks_per_eligible_day_baseline_course",
+      "nonbanked_submissions_recent_course",
+      "scheduled_no_submission_recent_course"
+    ]
+  }
+}

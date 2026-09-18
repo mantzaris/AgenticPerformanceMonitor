@@ -1,0 +1,23 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "s5_06",
+    "cutoff_day": 83,
+    "evidence_ids": ["s2_ba461ff488760e0a2ec8", "s2_9b684d2ff6b41788154d", "s2_66c25657c189ca430446", "s2_3e7308708d26b25e56c0"],
+    "claims": [
+      {"template": "measurement_limits", "evidence_id": "s2_ba461ff488760e0a2ec8"},
+      {"template": "measurement_limits", "evidence_id": "s2_9b684d2ff6b41788154d"},
+      {"template": "measurement_limits", "evidence_id": "s2_66c25657c189ca430446"},
+      {"template": "comparison", "evidence_id": "s2_3e7308708d26b25e56c0"}
+    ],
+    "panels": [
+      {"kind": "comparison", "evidence_id": "s2_ba461ff488760e0a2ec8"},
+      {"kind": "comparison", "evidence_id": "s2_9b684d2ff6b41788154d"},
+      {"kind": "comparison", "evidence_id": "s2_66c25657c189ca430446"},
+      {"kind": "comparison", "evidence_id": "s2_3e7308708d26b25e56c0"},
+      {"kind": "observation_status", "evidence_id": "s2_ba461ff488760e0a2ec8"}
+    ],
+    "conclusion": "insufficient_evidence",
+    "followups": ["change_reference", "change_window"]
+  }
+}

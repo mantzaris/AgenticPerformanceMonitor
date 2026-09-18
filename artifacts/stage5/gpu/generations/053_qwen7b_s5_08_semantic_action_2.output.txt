@@ -1,0 +1,13 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s5_08",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "answers": [],
+  "conclusion": null
+}

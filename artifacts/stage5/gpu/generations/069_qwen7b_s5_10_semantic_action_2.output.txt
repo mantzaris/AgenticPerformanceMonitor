@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s5_10",
+      "feature": "nonbanked_submissions",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s5_10",
+      "feature": "nonbanked_submissions",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    }
+  ],
+  "answers": [],
+  "conclusion": null
+}

@@ -1,0 +1,106 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "method_selected",
+    "scope": "selected"
+  },
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "semantic",
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_0a8f9044d51d66352fff",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_a288556c374a009ed863",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_f8c7bdffa764e2707b17",
+        "kind": "personal_change",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_e09c5cd2f483b323be1f",
+        "kind": "personal_change",
+        "support": "insufficient_evidence"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

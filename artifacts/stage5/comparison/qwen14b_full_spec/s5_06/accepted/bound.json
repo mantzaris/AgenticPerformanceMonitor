@@ -1,0 +1,123 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_ba461ff488760e0a2ec8",
+      "selection_origin": "method_selected",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_9b684d2ff6b41788154d",
+      "selection_origin": "method_selected",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_66c25657c189ca430446",
+      "selection_origin": "method_selected",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_3e7308708d26b25e56c0",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 11.55; peer mean 13.06; difference -1.51 recorded clicks / eligible day, focal weeks 0\u20133. 229 distinct peers / 912 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [11.78, 14.20]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "At least one selected comparison or personal-history contrast has insufficient observed support. Available descriptive quantities remain visible with their counts.",
+  "evidence_hashes": {
+    "s2_3e7308708d26b25e56c0": "8b1a3f605d055caa3a3108e8e4d55a1b8104a68bacc50585b783569fa97dae0e",
+    "s2_66c25657c189ca430446": "b653dca577eaee3ea3dfed48c1febd830130571649efd883b49dafcffb89a7a4",
+    "s2_9b684d2ff6b41788154d": "7e7501d6c6eece6c5d1c5a89bf067551bf06b746923fbd3921ed1093ac80baac",
+    "s2_ba461ff488760e0a2ec8": "19f5afe87f1dbdeacb09fff4a345adbccf69bc3baf365740940bc3e4019ab260"
+  },
+  "interface_provenance": {
+    "additional_analyses": 0,
+    "boilerplate": "Standard renderer caveats; not agent investigation",
+    "claims": [
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      }
+    ],
+    "conclusion": {
+      "origin": "method_selected"
+    },
+    "inserted_comparison_or_personal_claims": 0,
+    "interface": "full_spec",
+    "panels": [
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      }
+    ]
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent repaired",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s5_01",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s5_01",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ],
+  "answers": [],
+  "conclusion": null
+}

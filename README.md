@@ -1,17 +1,19 @@
 # Reference-sensitive longitudinal dashboards
 
-OULAD research prototype. Start with **[STAGE4_REVIEW.md](STAGE4_REVIEW.md)** for
-the saved Stage 3 failure diagnosis and frozen comparison of full dashboard
-specifications with compact semantic answers on twelve new development people.
-Complete valid answers were 12/12 for enumeration, 3/12 for the full interface and
-4/12 for compact. Compact improved validity and cost but missed the 11/12 readiness
-target; retain deterministic enumeration for this task class. The unchanged
+OULAD research prototype. Start with **[STAGE5_REVIEW.md](STAGE5_REVIEW.md)** for
+the controlled Qwen2.5-7B versus 14B checkpoint comparison on twelve fresh development
+people, using unchanged full and compact interfaces. Complete valid answers were
+12/12 for enumeration, 6/12 and 2/12 for 7B full/compact, and 7/12 and 9/12 for 14B
+full/compact. The larger compact condition improved substantially but missed the
+11/12 target; retain enumeration operationally and review the remaining answer-binding
+failures before another bounded study. The unchanged **[Stage 4](STAGE4_REVIEW.md)**,
 **[Stage 3](STAGE3_REVIEW.md)**, **[Stage 2](STAGE2_REVIEW.md)** and
 **[Stage 1](STAGE1_REVIEW.md)** handoffs preserve earlier work. The reserved
 population and full research evaluation remain untouched.
 
-Stage 4 [reproduction commands](docs/stage4/REPRODUCTION.md) replay and recompile
+Stage 5 [reproduction commands](docs/stage5/REPRODUCTION.md) replay and recompile
 saved dashboards without inference, with explicit method/compiler provenance.
+The historical Stage 4 [commands](docs/stage4/REPRODUCTION.md) remain available.
 
 Stage 3 [reproduction commands](docs/stage3/REPRODUCTION.md) replay saved dashboards
 without inference. Its local follow-up server is

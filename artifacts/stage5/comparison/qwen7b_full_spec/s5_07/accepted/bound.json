@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_7cc9a78705beb8d890bf",
+      "selection_origin": "method_selected",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20131 (2 observed weeks) to weeks 2\u20133 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_a567b93a4e73d21a82c9",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 3.57; peer mean 7.31; difference -3.74 recorded clicks / eligible day, focal weeks 0\u20131. 1144 distinct peers / 2279 person-weeks; 2 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20131. Peer mean 95% bootstrap interval [6.70, 7.93]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_855685e95705918c6f90",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 2\u20133. 218 distinct peers / 436 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (repeat_attempt); reference weeks 2\u20133.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "At least one selected comparison or personal-history contrast has insufficient observed support. Available descriptive quantities remain visible with their counts.",
+  "evidence_hashes": {
+    "s2_7cc9a78705beb8d890bf": "fbdc1508eb5e2c30851ccdb5a2bcc9190ac58709a0fed3555f8ece6590163710",
+    "s2_855685e95705918c6f90": "b6b1197663854ef02794af16685cc04351eedf76119a454ac1f123a192504534",
+    "s2_a567b93a4e73d21a82c9": "c1903ddb8c09d040124bfac5b109008a5fbdee4f915314ea00f9d37529be0e33"
+  },
+  "interface_provenance": {
+    "additional_analyses": 0,
+    "boilerplate": "Standard renderer caveats; not agent investigation",
+    "claims": [
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      }
+    ],
+    "conclusion": {
+      "origin": "method_selected"
+    },
+    "inserted_comparison_or_personal_claims": 0,
+    "interface": "full_spec",
+    "panels": [
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      },
+      {
+        "answer_indices": [],
+        "origin": "method_selected"
+      }
+    ]
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      1
+    ],
+    "cutoff_day": 27,
+    "recent": [
+      2,
+      3
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

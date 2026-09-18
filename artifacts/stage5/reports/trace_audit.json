@@ -1,0 +1,102 @@
+{
+  "comparison_finish_reasons": {
+    "eos": 137
+  },
+  "created_utc": "2026-09-18T22:58:50.410691+00:00",
+  "external_review": "Codex trace inspection, not independent human review",
+  "frozen_taxonomy_omissions": [
+    {
+      "condition": "qwen7b_full_spec",
+      "frozen_categories": [],
+      "original_error": "ValueError: Fix all of these specification errors in the single repair: Selected evidence coverage: claims missing for []; trajectory/comparison panels missing for ['s2_53742205e7560cced0b2', 's2_e5f476ba8c86dc7a2c28']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.",
+      "question_id": "s5_01",
+      "supplemental_observable_categories": [
+        "layout_or_claim_contract"
+      ],
+      "turn": 3
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "frozen_categories": [],
+      "original_error": "ValueError: Fix all of these specification errors in the single repair: specification.conclusion: selected results support 'descriptive', not 'same_direction'. 'descriptive' is also admissible.",
+      "question_id": "s5_02",
+      "supplemental_observable_categories": [
+        "unsupported_directional_conclusion"
+      ],
+      "turn": 2
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "frozen_categories": [],
+      "original_error": "ValueError: Fix all of these specification errors in the single repair: Selected evidence coverage: claims missing for []; trajectory/comparison panels missing for ['s2_9b684d2ff6b41788154d', 's2_66c25657c189ca430446']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.",
+      "question_id": "s5_06",
+      "supplemental_observable_categories": [
+        "layout_or_claim_contract"
+      ],
+      "turn": 4
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "frozen_categories": [],
+      "original_error": "ValueError: Analytical request budget exceeded; select existing evidence and return final",
+      "question_id": "s5_11",
+      "supplemental_observable_categories": [
+        "tool_budget_request_denied"
+      ],
+      "turn": 2
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "frozen_categories": [],
+      "original_error": "ValueError: Analytical request budget exceeded; select existing evidence and return final",
+      "question_id": "s5_11",
+      "supplemental_observable_categories": [
+        "tool_budget_request_denied"
+      ],
+      "turn": 2
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "frozen_categories": [],
+      "original_error": "ValueError: Analytical request budget exceeded; select existing evidence and return final",
+      "question_id": "s5_12",
+      "supplemental_observable_categories": [
+        "tool_budget_request_denied"
+      ],
+      "turn": 2
+    }
+  ],
+  "interpretation": "Frozen string categories miss one 7B full layout episode, one 14B full unsupported directional-conclusion attempt, and three tool-budget denials. Primary validity/completeness already reflect these events. The semantic support error on 7B compact s5_08 is an unsupported insufficiency declaration, not an accepted invented quantitative value.",
+  "json_parse_failures": [],
+  "largest_compact_remaining_cases": [
+    {
+      "mechanism": "Peer insufficient answers paired with an unselected personal conclusion scope; same error after one repair.",
+      "question_id": "s5_06",
+      "status": "rejected"
+    },
+    {
+      "mechanism": "Recent course evidence retrieved, but peer selections use baseline course and recent early_stage. Personal insufficiency displayed; requested recent course insufficiency omitted.",
+      "question_id": "s5_07",
+      "status": "valid_incomplete"
+    },
+    {
+      "mechanism": "Recent course evidence selected only as personal_change; peer selections use baseline windows. Required recent course comparison omitted.",
+      "question_id": "s5_08",
+      "status": "valid_incomplete"
+    },
+    {
+      "mechanism": "All numeric/unavailable answers selected; dated assessment-state context supplied mechanically by compiler.",
+      "question_id": "s5_05",
+      "status": "visible_complete_not_fully_method_selected"
+    }
+  ],
+  "per_case_sha256": "79051405ca0302f098c2fab31fb2e09d9f43d4aeed817f67f71df1f6f017cb2e",
+  "status": "Post-hoc trace annotation; no primary score, prompt, selection, inference or frozen report changed",
+  "truncation_basis": "All 137 comparison outputs reach recorded EOS below the 1500-token ceiling; this is observed termination metadata, not an inference from output length alone.",
+  "truncation_observed": false,
+  "unsupported_quantitative_accounting": {
+    "accepted_unsupported_quantitative_answers": 0,
+    "note": "Both schemas disallow arbitrary numerical values. False insufficiency, invented identifiers and unsupported directional/scope conclusions remain separately reported; zero invented quantitative estimates is not zero semantic errors.",
+    "rejected_explicit_describe_on_unsupported_evidence": 0
+  }
+}

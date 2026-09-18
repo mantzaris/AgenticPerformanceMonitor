@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-09-18T22:33:41.558746+00:00",
+  "completion_tokens": 1293,
+  "condition": "qwen7b_full_spec",
+  "elapsed_seconds": 32.982319828122854,
+  "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "full_spec",
+  "model_key": "qwen7b",
+  "prompt_tokens": 19947,
+  "question_id": "s5_05",
+  "redundant_requests": 1,
+  "repairs": 1,
+  "started_utc": "2026-09-18T22:33:08.574539+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 5,
+  "tool_calls_executed": 5
+}

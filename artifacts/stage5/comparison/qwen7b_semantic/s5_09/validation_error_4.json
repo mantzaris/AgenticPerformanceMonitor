@@ -1,0 +1,4 @@
+{
+  "error": "ValueError: Descriptive conclusion uses scope=selected and empty evidence_ids",
+  "raw_output": "{\n  \"action\": \"final\",\n  \"answers\": [\n    {\n      \"kind\": \"peer_comparison\",\n      \"evidence_id\": \"s2_6487372fa523554999c6\",\n      \"support\": \"describe\"\n    },\n    {\n      \"kind\": \"peer_comparison\",\n      \"evidence_id\": \"s2_e7428ec0b5f2aa3bcd44\",\n      \"support\": \"describe\"\n    }\n  ],\n  \"conclusion\": {\n    \"kind\": \"descriptive\",\n    \"scope\": \"peer\",\n    \"evidence_ids\": []\n  }\n}"
+}

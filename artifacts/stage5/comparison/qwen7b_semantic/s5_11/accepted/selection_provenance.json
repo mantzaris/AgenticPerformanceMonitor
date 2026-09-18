@@ -1,0 +1,144 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "method_selected",
+    "scope": "selected"
+  },
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "semantic",
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_c5d3f552fe429061d06f",
+        "kind": "personal_change",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_28896fc927f3a627dc0b",
+        "kind": "personal_change",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_8b1e8e6fc2468e8fbea3",
+        "kind": "personal_change",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_ceab726e6b9bf92db1ac",
+        "kind": "personal_change",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_d8e50a43105f324269f8",
+        "kind": "personal_change",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_1c729784b1baed1d5590",
+        "kind": "personal_change",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

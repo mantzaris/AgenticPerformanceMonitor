@@ -1,0 +1,23 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_6487372fa523554999c6",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_e7428ec0b5f2aa3bcd44",
+      "support": "describe"
+    }
+  ],
+  "conclusion": {
+    "kind": "descriptive",
+    "scope": "selected",
+    "evidence_ids": [
+      "s2_6487372fa523554999c6",
+      "s2_e7428ec0b5f2aa3bcd44"
+    ]
+  }
+}

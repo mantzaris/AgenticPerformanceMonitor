@@ -1,0 +1,26 @@
+{
+  "utc": "2026-09-18T22:53:58.903987+00:00",
+  "status": "PASS",
+  "owned_model_processes": {
+    "qwen14b_setup_01": {
+      "pid": 110660,
+      "still_exists": false
+    },
+    "qwen7b_setup_02": {
+      "pid": 111342,
+      "still_exists": false
+    },
+    "qwen7b_comparison_03": {
+      "pid": 115325,
+      "still_exists": false
+    },
+    "qwen14b_comparison_04": {
+      "pid": 118585,
+      "still_exists": false
+    }
+  },
+  "gpu_compute_processes": "",
+  "gpu": "NVIDIA RTX 6000 Ada Generation, 2 MiB, 49140 MiB",
+  "local_servers_started": 0,
+  "pod_terminated": false
+}

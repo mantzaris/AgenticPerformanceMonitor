@@ -1,0 +1,170 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_a567b93a4e73d21a82c9",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 3.57; peer mean 7.31; difference -3.74 recorded clicks / eligible day, focal weeks 0\u20131. 1144 distinct peers / 2279 person-weeks; 2 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20131. Peer mean 95% bootstrap interval [6.70, 7.93]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_125de80d9b8056ed47f5",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 2\u20133. 1144 distinct peers / 2279 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20131.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_a567b93a4e73d21a82c9",
+      "selection_origin": "method_selected",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20131 (2 observed weeks) to weeks 2\u20133 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_125de80d9b8056ed47f5",
+      "selection_origin": "method_selected",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20131 (2 observed weeks) to weeks 2\u20133 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_125de80d9b8056ed47f5": "28f1495054934b9f65c5f02f15bd8a72338b0b9d621c3e70fff0fd7b748f8197",
+    "s2_a567b93a4e73d21a82c9": "92a598d2645b17095eccb049feb8e190dd4052b3941681c05a34dc0ef65c34c1"
+  },
+  "interface_provenance": {
+    "additional_analyses": 0,
+    "boilerplate": "Standard renderer caveats; not agent investigation",
+    "claims": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          3
+        ],
+        "origin": "method_selected",
+        "reason": null
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "origin": "method_selected",
+      "scope": "selected"
+    },
+    "inserted_comparison_or_personal_claims": 0,
+    "interface": "semantic",
+    "panels": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          3
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "common observation context"
+      }
+    ],
+    "semantic_answer": {
+      "answers": [
+        {
+          "evidence_id": "s2_a567b93a4e73d21a82c9",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_125de80d9b8056ed47f5",
+          "kind": "peer_comparison",
+          "support": "insufficient_evidence"
+        },
+        {
+          "evidence_id": "s2_a567b93a4e73d21a82c9",
+          "kind": "personal_change",
+          "support": "insufficient_evidence"
+        },
+        {
+          "evidence_id": "s2_125de80d9b8056ed47f5",
+          "kind": "personal_change",
+          "support": "insufficient_evidence"
+        }
+      ],
+      "conclusion": {
+        "evidence_ids": [],
+        "kind": "descriptive",
+        "scope": "selected"
+      }
+    }
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      1
+    ],
+    "cutoff_day": 27,
+    "recent": [
+      2,
+      3
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

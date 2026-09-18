@@ -1,0 +1,128 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "method_selected",
+    "scope": "selected"
+  },
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "semantic",
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common assessment context"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_fda8c5e060e23e74241b",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_3dc829e9be32059f67a5",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_40f4a0d33a8a2d94c423",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_fda8c5e060e23e74241b",
+        "kind": "measurement_limit",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_3dc829e9be32059f67a5",
+        "kind": "observation_status",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_40f4a0d33a8a2d94c423",
+        "kind": "observation_status",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

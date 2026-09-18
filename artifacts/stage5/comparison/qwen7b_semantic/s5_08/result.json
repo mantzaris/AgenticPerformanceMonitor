@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-09-18T22:35:53.216723+00:00",
+  "completion_tokens": 826,
+  "condition": "qwen7b_semantic",
+  "elapsed_seconds": 21.27056700596586,
+  "error": "ValueError: answers[3].support: this peer_comparison requires describe; do not assert an unsupported estimate or unsupported insufficiency",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "model_key": "qwen7b",
+  "prompt_tokens": 17422,
+  "question_id": "s5_08",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T22:35:31.944551+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 4,
+  "tool_calls_executed": 4
+}

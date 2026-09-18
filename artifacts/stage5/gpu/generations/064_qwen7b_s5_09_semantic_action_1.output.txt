@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s5_09",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s5_09",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "answers": [],
+  "conclusion": null
+}

@@ -1,0 +1,47 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s5_11",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s5_11",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s5_11",
+      "feature": "active_days",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s5_11",
+      "feature": "active_days",
+      "reference": "same_prior_attempt",
+      "window": "baseline"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s5_11",
+      "feature": "active_days",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s5_11",
+      "feature": "active_days",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ]
+}

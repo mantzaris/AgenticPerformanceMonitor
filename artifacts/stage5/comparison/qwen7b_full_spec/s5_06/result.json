@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-09-18T22:34:58.883896+00:00",
+  "completion_tokens": 1345,
+  "condition": "qwen7b_full_spec",
+  "elapsed_seconds": 37.59406309016049,
+  "error": "ValueError: Fix all of these specification errors in the single repair: Selected evidence coverage: claims missing for []; trajectory/comparison panels missing for ['s2_9b684d2ff6b41788154d', 's2_66c25657c189ca430446']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "full_spec",
+  "model_key": "qwen7b",
+  "prompt_tokens": 19953,
+  "question_id": "s5_06",
+  "redundant_requests": 1,
+  "repairs": 1,
+  "started_utc": "2026-09-18T22:34:21.287437+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 5,
+  "tool_calls_executed": 5
+}

@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-09-18T22:40:29.998851+00:00",
+  "completion_tokens": 3341,
+  "condition": "qwen7b_full_spec",
+  "elapsed_seconds": 79.17414693487808,
+  "error": "ValidationError: 2 validation errors for Action\nspecification.claims\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'template': 'comparison..._9cd3c96ecd6f38376fd9'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long\nspecification.panels\n  List should have at most 10 items after validation, not 18 [type=too_long, input_value=[{'kind': 'comparison', '..._a823c7b5417496ba1c3e'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "full_spec",
+  "model_key": "qwen7b",
+  "prompt_tokens": 25799,
+  "question_id": "s5_12",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T22:39:10.819067+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 6,
+  "tool_calls_executed": 6
+}

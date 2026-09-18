@@ -1,0 +1,330 @@
+{
+  "created_utc": "2026-09-18T22:53:21.041364+00:00",
+  "summaries": [
+    {
+      "condition": "baseline",
+      "denominator": 12,
+      "attempted": 12,
+      "first_final_valid": 12,
+      "valid_after_repair": 12,
+      "complete_visible": 12,
+      "complete_method_selected": 12,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 0,
+      "accepted_dashboard_omissions": 0,
+      "oracle_retrieved_upper_bound": 12,
+      "scoped_insufficient_items": 4,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "error_episode_counts": {},
+      "tool_calls": 42,
+      "duplicate_exact_calls": 0,
+      "duplicate_equivalent_calls": 0,
+      "generations": 0,
+      "repairs": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "episode_seconds": 18.48106055893004,
+      "generation_seconds": 0,
+      "cuda_event_seconds": 0,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "fallbacks": 0,
+      "failed_questions": [],
+      "not_attempted_questions": [],
+      "engineering_gate_met": true
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "denominator": 12,
+      "attempted": 12,
+      "first_final_valid": 5,
+      "valid_after_repair": 7,
+      "complete_visible": 6,
+      "complete_method_selected": 5,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 24,
+      "accepted_dashboard_omissions": 1,
+      "oracle_retrieved_upper_bound": 12,
+      "scoped_insufficient_items": 1,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "error_episode_counts": {
+        "layout_or_claim_contract": 6,
+        "json_or_schema": 1
+      },
+      "tool_calls": 53,
+      "duplicate_exact_calls": 2,
+      "duplicate_equivalent_calls": 6,
+      "generations": 41,
+      "repairs": 7,
+      "prompt_tokens": 185088,
+      "completion_tokens": 15141,
+      "episode_seconds": 388.8672203840688,
+      "generation_seconds": 368.10793747287244,
+      "cuda_event_seconds": 365.84201037597654,
+      "peak_allocated_bytes": 17062434816,
+      "peak_reserved_bytes": 23045603328,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 1,
+      "fallbacks": 0,
+      "failed_questions": [
+        "s5_05",
+        "s5_06",
+        "s5_08",
+        "s5_09",
+        "s5_12"
+      ],
+      "not_attempted_questions": [],
+      "engineering_gate_met": false
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "denominator": 12,
+      "attempted": 12,
+      "first_final_valid": 7,
+      "valid_after_repair": 7,
+      "complete_visible": 2,
+      "complete_method_selected": 2,
+      "missing_analysis_items": 10,
+      "retrieved_but_omitted_items": 21,
+      "accepted_dashboard_omissions": 11,
+      "oracle_retrieved_upper_bound": 10,
+      "scoped_insufficient_items": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "error_episode_counts": {
+        "json_or_schema": 8,
+        "identifier": 2,
+        "scope": 1,
+        "support": 1
+      },
+      "tool_calls": 37,
+      "duplicate_exact_calls": 0,
+      "duplicate_equivalent_calls": 3,
+      "generations": 40,
+      "repairs": 5,
+      "prompt_tokens": 149994,
+      "completion_tokens": 8245,
+      "episode_seconds": 219.8384701902978,
+      "generation_seconds": 205.75305929221213,
+      "cuda_event_seconds": 203.520212890625,
+      "peak_allocated_bytes": 16698348544,
+      "peak_reserved_bytes": 21158166528,
+      "compiler_added_panels": 11,
+      "compiler_supplied_answer_items": 2,
+      "fallbacks": 0,
+      "failed_questions": [
+        "s5_05",
+        "s5_06",
+        "s5_07",
+        "s5_08",
+        "s5_09"
+      ],
+      "not_attempted_questions": [],
+      "engineering_gate_met": false
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "denominator": 12,
+      "attempted": 12,
+      "first_final_valid": 7,
+      "valid_after_repair": 9,
+      "complete_visible": 7,
+      "complete_method_selected": 7,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 16,
+      "accepted_dashboard_omissions": 2,
+      "oracle_retrieved_upper_bound": 12,
+      "scoped_insufficient_items": 2,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "error_episode_counts": {
+        "layout_or_claim_contract": 4
+      },
+      "tool_calls": 36,
+      "duplicate_exact_calls": 0,
+      "duplicate_equivalent_calls": 2,
+      "generations": 31,
+      "repairs": 5,
+      "prompt_tokens": 115007,
+      "completion_tokens": 9163,
+      "episode_seconds": 456.943529357668,
+      "generation_seconds": 442.37971357023343,
+      "cuda_event_seconds": 440.64509619140625,
+      "peak_allocated_bytes": 31450980352,
+      "peak_reserved_bytes": 34588327936,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "fallbacks": 0,
+      "failed_questions": [
+        "s5_05",
+        "s5_09",
+        "s5_10"
+      ],
+      "not_attempted_questions": [],
+      "engineering_gate_met": false
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "denominator": 12,
+      "attempted": 12,
+      "first_final_valid": 11,
+      "valid_after_repair": 11,
+      "complete_visible": 9,
+      "complete_method_selected": 8,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 8,
+      "accepted_dashboard_omissions": 2,
+      "oracle_retrieved_upper_bound": 12,
+      "scoped_insufficient_items": 2,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "error_episode_counts": {
+        "scope": 1
+      },
+      "tool_calls": 40,
+      "duplicate_exact_calls": 0,
+      "duplicate_equivalent_calls": 4,
+      "generations": 25,
+      "repairs": 1,
+      "prompt_tokens": 86368,
+      "completion_tokens": 4905,
+      "episode_seconds": 249.28595075849444,
+      "generation_seconds": 232.1207131696865,
+      "cuda_event_seconds": 230.47924633789063,
+      "peak_allocated_bytes": 31775897600,
+      "peak_reserved_bytes": 34588327936,
+      "compiler_added_panels": 14,
+      "compiler_supplied_answer_items": 1,
+      "fallbacks": 0,
+      "failed_questions": [
+        "s5_06"
+      ],
+      "not_attempted_questions": [],
+      "engineering_gate_met": false
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparison": "primary_checkpoint_compact",
+      "left": "qwen7b_semantic",
+      "right": "qwen14b_semantic",
+      "denominator": 12,
+      "outcomes": {
+        "right_only_complete": 7,
+        "both_complete": 2,
+        "both_incomplete": 3
+      },
+      "selected_outcomes": {
+        "right_only_complete": 6,
+        "both_complete": 2,
+        "both_incomplete": 4
+      },
+      "net_complete_gain": 7,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure."
+    },
+    {
+      "comparison": "secondary_checkpoint_full",
+      "left": "qwen7b_full_spec",
+      "right": "qwen14b_full_spec",
+      "denominator": 12,
+      "outcomes": {
+        "both_complete": 5,
+        "both_incomplete": 4,
+        "right_only_complete": 2,
+        "left_only_complete": 1
+      },
+      "selected_outcomes": {
+        "both_complete": 5,
+        "both_incomplete": 5,
+        "right_only_complete": 2
+      },
+      "net_complete_gain": 1,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure."
+    },
+    {
+      "comparison": "interface_7b",
+      "left": "qwen7b_full_spec",
+      "right": "qwen7b_semantic",
+      "denominator": 12,
+      "outcomes": {
+        "left_only_complete": 4,
+        "both_complete": 2,
+        "both_incomplete": 6
+      },
+      "selected_outcomes": {
+        "left_only_complete": 3,
+        "both_complete": 2,
+        "both_incomplete": 7
+      },
+      "net_complete_gain": -4,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure."
+    },
+    {
+      "comparison": "interface_14b",
+      "left": "qwen14b_full_spec",
+      "right": "qwen14b_semantic",
+      "denominator": 12,
+      "outcomes": {
+        "both_complete": 6,
+        "right_only_complete": 3,
+        "left_only_complete": 1,
+        "both_incomplete": 2
+      },
+      "selected_outcomes": {
+        "both_complete": 6,
+        "both_incomplete": 3,
+        "left_only_complete": 1,
+        "right_only_complete": 2
+      },
+      "net_complete_gain": 2,
+      "infrastructure_note": "Unattempted cases are identified separately; not a reasoning failure."
+    }
+  ],
+  "primary_decision_rule_result": "substantial gain but gate missed; review remaining mechanism before a bounded intervention",
+  "generation_partitions": {
+    "setup": 6,
+    "comparison": 137
+  },
+  "total_generations": 143,
+  "model_process_seconds": 1558.8240611217916,
+  "model_processes": [
+    {
+      "utc": "2026-09-18T22:16:48.676887+00:00",
+      "event": "process_finished",
+      "process_id": "qwen14b_setup_01",
+      "elapsed_seconds": 116.9858210789971,
+      "generation_count": 2,
+      "status": "completed"
+    },
+    {
+      "utc": "2026-09-18T22:17:48.203513+00:00",
+      "event": "process_finished",
+      "process_id": "qwen7b_setup_02",
+      "elapsed_seconds": 58.549152235966176,
+      "generation_count": 4,
+      "status": "completed"
+    },
+    {
+      "utc": "2026-09-18T22:40:30.304265+00:00",
+      "event": "process_finished",
+      "process_id": "qwen7b_comparison_03",
+      "elapsed_seconds": 635.9503076677211,
+      "generation_count": 86,
+      "status": "completed"
+    },
+    {
+      "utc": "2026-09-18T22:52:58.745226+00:00",
+      "event": "process_finished",
+      "process_id": "qwen14b_comparison_04",
+      "elapsed_seconds": 747.3387801391073,
+      "generation_count": 143,
+      "status": "completed"
+    }
+  ],
+  "unclosed_processes": [],
+  "interpretation": "Twelve paired development cases, two fixed checkpoints, known families; descriptive comparison, not a pure model-size effect or general agent-capability claim."
+}

@@ -1,0 +1,192 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_28a23d2be0b926193b22",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "nonbanked_submissions (non-banked submissions / week): Focal mean 0.25; peer mean 0.23; difference 0.02 non-banked submissions / week, focal weeks 8\u201311. 1034 distinct peers / 4068 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [0.22, 0.24]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_50967a75f08f05a9705f",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "nonbanked_submissions (non-banked submissions / week): Focal mean 0.25; peer mean 0.20; difference 0.05 non-banked submissions / week, focal weeks 8\u201311. 1144 distinct peers / 4510 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [0.19, 0.20]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_787ba46f9b0580572ff2",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "nonbanked_submissions (non-banked submissions / week): Focal mean 0.25; peer mean 0.23; difference 0.02 non-banked submissions / week, focal weeks 8\u201311. 835 distinct peers / 3286 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 8\u201311. Peer mean 95% bootstrap interval [0.23, 0.24]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_aa946d3ebba4ecbeef10",
+      "selection_origin": "compiler_supplied",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_28a23d2be0b926193b22": "e31e2f29b6304026612e3d2242c87919342fed05c769d017d760f9cdc89b0cca",
+    "s2_50967a75f08f05a9705f": "cfa289813c0cb7b9a95624f055706c5fc62af90b49df924982ed090aafd3ee64",
+    "s2_787ba46f9b0580572ff2": "97a92db5c00dd185501da8e01d7bbef587ecef8c589aca8fcfe6b665a5a0ba59",
+    "s2_aa946d3ebba4ecbeef10": "db9ed408d79073d611013803fcc3211527724d0d1b3977b97eb91cff03cc6804"
+  },
+  "interface_provenance": {
+    "additional_analyses": 0,
+    "boilerplate": "Standard renderer caveats; not agent investigation",
+    "claims": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "per-evidence claim requirement; shared measurement boilerplate only"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "origin": "method_selected",
+      "scope": "selected"
+    },
+    "inserted_comparison_or_personal_claims": 0,
+    "interface": "semantic",
+    "panels": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          3
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          4
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "common trajectory requirement"
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "common assessment context"
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "per-evidence quantitative panel requirement"
+      }
+    ],
+    "semantic_answer": {
+      "answers": [
+        {
+          "evidence_id": "s2_28a23d2be0b926193b22",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_50967a75f08f05a9705f",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_787ba46f9b0580572ff2",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_28a23d2be0b926193b22",
+          "kind": "observation_status",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_aa946d3ebba4ecbeef10",
+          "kind": "observation_status",
+          "support": "describe"
+        }
+      ],
+      "conclusion": {
+        "evidence_ids": [],
+        "kind": "descriptive",
+        "scope": "selected"
+      }
+    }
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

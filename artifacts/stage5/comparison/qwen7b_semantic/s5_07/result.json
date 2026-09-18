@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-09-18T22:35:31.901328+00:00",
+  "completion_tokens": 615,
+  "condition": "qwen7b_semantic",
+  "elapsed_seconds": 16.993840056937188,
+  "error": "ValueError: Insufficiency conclusion requires a nonempty peer/personal scope with explicitly selected insufficient answers",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "model_key": "qwen7b",
+  "prompt_tokens": 16292,
+  "question_id": "s5_07",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T22:35:14.905765+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 3,
+  "tool_calls_executed": 3
+}

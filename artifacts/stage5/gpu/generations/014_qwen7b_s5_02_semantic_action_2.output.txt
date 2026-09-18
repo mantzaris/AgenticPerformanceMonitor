@@ -1,0 +1,29 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s5_02",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s5_02",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "answers": [
+    {
+      "kind": "personal_change",
+      "evidence_id": "s2_e6193965ef30705d0198",
+      "support": "describe"
+    }
+  ],
+  "conclusion": {
+    "kind": "descriptive",
+    "scope": "selected",
+    "evidence_ids": []
+  }
+}

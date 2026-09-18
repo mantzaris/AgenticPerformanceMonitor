@@ -1,0 +1,4 @@
+{
+  "error": "ValueError: Conclusion scope must contain distinct identifiers explicitly selected in answers",
+  "raw_output": "{\n  \"action\": \"final\",\n  \"answers\": [\n    {\n      \"kind\": \"peer_comparison\",\n      \"evidence_id\": \"s2_a567b93a4e73d21a82c9\",\n      \"support\": \"describe\"\n    }\n  ],\n  \"conclusion\": {\n    \"kind\": \"insufficient_evidence\",\n    \"scope\": \"peer\",\n    \"evidence_ids\": [\"s2_7cc9a78705beb8d890bf\", \"s2_125de80d9b8056ed47f5\"]\n  }\n}"
+}

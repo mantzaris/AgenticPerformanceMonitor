@@ -1,0 +1,29 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_049496a5bf94fa39cda5",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_8ded676fdb49f9d1e8ba",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_dabc393329d52c463011",
+      "support": "describe"
+    }
+  ],
+  "conclusion": {
+    "kind": "same_direction",
+    "scope": "peer",
+    "evidence_ids": [
+      "s2_049496a5bf94fa39cda5",
+      "s2_8ded676fdb49f9d1e8ba",
+      "s2_dabc393329d52c463011"
+    ]
+  }
+}

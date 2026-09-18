@@ -1,0 +1,172 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_0a8f9044d51d66352fff",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 0.00; peer mean 6.96; difference -6.96 recorded clicks / eligible day, focal weeks 0\u20133. 1144 distinct peers / 4510 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [6.44, 7.53]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_a288556c374a009ed863",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 0.00; peer mean 6.96; difference -6.96 recorded clicks / eligible day, focal weeks 0\u20133. 1144 distinct peers / 4510 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [6.41, 7.57]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_f8c7bdffa764e2707b17",
+      "selection_origin": "method_selected",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20133 (4 observed weeks) to weeks 10\u201311 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_e09c5cd2f483b323be1f",
+      "selection_origin": "method_selected",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20133 (4 observed weeks) to weeks 10\u201311 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_0a8f9044d51d66352fff": "b9ec08de8a8345f7bcbfac574020cd6e7a34a196a0821cddf3d2f0728e2be030",
+    "s2_a288556c374a009ed863": "5b3968eb1ebc1d07957eea1dc547be69d501dd11dbdaa75cb3ca8fdfd4439739",
+    "s2_e09c5cd2f483b323be1f": "c7bc80f315b2b9e55c7f60e63609a204ed7ed71c841bf3730e77f7ff77e5e9f0",
+    "s2_f8c7bdffa764e2707b17": "d1de5558bd4a3cd8cef16f7f6c07e269e16457901c7bfc15693823e54d12936a"
+  },
+  "interface_provenance": {
+    "additional_analyses": 0,
+    "boilerplate": "Standard renderer caveats; not agent investigation",
+    "claims": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          3
+        ],
+        "origin": "method_selected",
+        "reason": null
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "origin": "method_selected",
+      "scope": "selected"
+    },
+    "inserted_comparison_or_personal_claims": 0,
+    "interface": "semantic",
+    "panels": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          3
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "common observation context"
+      }
+    ],
+    "semantic_answer": {
+      "answers": [
+        {
+          "evidence_id": "s2_0a8f9044d51d66352fff",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_a288556c374a009ed863",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_f8c7bdffa764e2707b17",
+          "kind": "personal_change",
+          "support": "insufficient_evidence"
+        },
+        {
+          "evidence_id": "s2_e09c5cd2f483b323be1f",
+          "kind": "personal_change",
+          "support": "insufficient_evidence"
+        }
+      ],
+      "conclusion": {
+        "evidence_ids": [],
+        "kind": "descriptive",
+        "scope": "selected"
+      }
+    }
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      10,
+      11
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}
