@@ -1,0 +1,346 @@
+{
+  "agent_order": [
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_01",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_01",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_02",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_02",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_03",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_03",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_04",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_04",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_05",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_05",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_06",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_06",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_07",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_07",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_08",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_08",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_09",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_09",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_10",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_10",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_11",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_11",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen7b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen7b",
+      "question_id": "s5_12",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen7b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen7b",
+      "question_id": "s5_12",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_01",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_01",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_02",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_02",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_03",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_03",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_04",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_04",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_05",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_05",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_06",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_06",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_07",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_07",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_08",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_08",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_09",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_09",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_10",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_10",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_11",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_11",
+      "within_case_position": 2
+    },
+    {
+      "condition": "qwen14b_semantic",
+      "interface": "semantic",
+      "model_key": "qwen14b",
+      "question_id": "s5_12",
+      "within_case_position": 1
+    },
+    {
+      "condition": "qwen14b_full_spec",
+      "interface": "full_spec",
+      "model_key": "qwen14b",
+      "question_id": "s5_12",
+      "within_case_position": 2
+    }
+  ],
+  "baseline": "All twelve on GPU-host CPU before model comparison",
+  "counterbalance": "Within each checkpoint, full first for odd cases, compact for even; six first positions each. Checkpoint blocks are 7B then 14B; timing is descriptive.",
+  "model_blocks": [
+    "qwen7b",
+    "qwen14b"
+  ]
+}

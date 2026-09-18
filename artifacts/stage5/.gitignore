@@ -1,0 +1,4 @@
+# This directory contains checkpoint metadata only; weights live outside the repo.
+!models/
+!models/**
+model_budget.lock

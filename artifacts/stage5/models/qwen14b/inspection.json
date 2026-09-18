@@ -1,0 +1,103 @@
+{
+  "disk_free_bytes_before": 63875182592,
+  "existing_cache_config_paths": [
+    "/workspace/apm-stage1/models/qwen/config.json"
+  ],
+  "existing_gpu_processes": [],
+  "files": {
+    "LICENSE": {
+      "git_blob_id": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "lfs_sha256": null,
+      "size": 11343
+    },
+    "README.md": {
+      "git_blob_id": "cdb53558f3d3871db6823dd95ecac029044757a0",
+      "lfs_sha256": null,
+      "size": 6010
+    },
+    "config.json": {
+      "git_blob_id": "172d20a3d7fc27df9ed89628cafdbaf1a773ddc1",
+      "lfs_sha256": null,
+      "size": 663
+    },
+    "generation_config.json": {
+      "git_blob_id": "bf077f03dc569cfb8a90b3ec1ad20365a620bad6",
+      "lfs_sha256": null,
+      "size": 242
+    },
+    "merges.txt": {
+      "git_blob_id": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "lfs_sha256": null,
+      "size": 1671839
+    },
+    "model-00001-of-00008.safetensors": {
+      "git_blob_id": "c6c7ea67ef51963bf77dd66108bc4ec5532beacf",
+      "lfs_sha256": "b477be7572f0ab3ae3cbba38d508cc33e70600b2045669c4ad848051c3432094",
+      "size": 3885154816
+    },
+    "model-00002-of-00008.safetensors": {
+      "git_blob_id": "8cc56e73cc8dee7aff0511c99bfa78797f7ae405",
+      "lfs_sha256": "eb356aacae443e30f52712b1e98fadf206976365e2f5ee886321b0bb38c7cea8",
+      "size": 3995327992
+    },
+    "model-00003-of-00008.safetensors": {
+      "git_blob_id": "3bb47df7c057b1cfed9653dea14bc00d8c3edb1b",
+      "lfs_sha256": "cee9dbdf738ce61adb21c70ad5c5585747caaab6457c9ffc3bfa20d73127c2c6",
+      "size": 3995328080
+    },
+    "model-00004-of-00008.safetensors": {
+      "git_blob_id": "1249bc9d6ed7fdd756c2602cf199b74804178e93",
+      "lfs_sha256": "b1201a6edcac8ef96a37040524fe37a5a84e446513ed40491e764a37302385fa",
+      "size": 3995338432
+    },
+    "model-00005-of-00008.safetensors": {
+      "git_blob_id": "56978537eb377eb7c7c0e2e051d1dd76a53107ce",
+      "lfs_sha256": "fbbda3cdee31895d0c57d617449af5579d219df34f3d63f7a23acbfe7fb0a647",
+      "size": 3979624824
+    },
+    "model-00006-of-00008.safetensors": {
+      "git_blob_id": "dde28241d511dfecb2daf77cd77c099696851b16",
+      "lfs_sha256": "f7ac652aa101717c97cfeccf5109985cca5b04529b57d3f4d2ec7a802266296b",
+      "size": 3995328080
+    },
+    "model-00007-of-00008.safetensors": {
+      "git_blob_id": "7edc60652ea939883c94bd6f1fcc14bb3aa7508b",
+      "lfs_sha256": "e9115e615b575acb6e8b3a06524b32cbf7f680f07517125e4334f62c3f4acb0d",
+      "size": 3995328080
+    },
+    "model-00008-of-00008.safetensors": {
+      "git_blob_id": "ba2875256480be476dae2bf47a169225f13e34a2",
+      "lfs_sha256": "a77f603d8368749c19d3ac9cf2a300e476edcc794ea41af8e473ee12935eadb8",
+      "size": 1698703696
+    },
+    "model.safetensors.index.json": {
+      "git_blob_id": "76830d05f05b79fd413acb4a718b32bb68d96211",
+      "lfs_sha256": null,
+      "size": 47472
+    },
+    "tokenizer.json": {
+      "git_blob_id": "443909a61d429dff23010e5bddd28ff530edda00",
+      "lfs_sha256": null,
+      "size": 7031645
+    },
+    "tokenizer_config.json": {
+      "git_blob_id": "07bfe0640cb5a0037f9322287fbfc682806cf672",
+      "lfs_sha256": null,
+      "size": 7305
+    },
+    "vocab.json": {
+      "git_blob_id": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "lfs_sha256": null,
+      "size": 2776833
+    }
+  },
+  "gpu": "NVIDIA RTX 6000 Ada Generation, 49140 MiB, 2 MiB, 580.159.04",
+  "license": "apache-2.0",
+  "metadata_seconds": 1.1651697037741542,
+  "repo_id": "Qwen/Qwen2.5-14B-Instruct",
+  "resolved_utc": "2026-09-18T22:02:22.783988+00:00",
+  "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "selected_file_bytes": 29551687352,
+  "source": "Official Qwen organization on Hugging Face",
+  "source_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/tree/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+}
