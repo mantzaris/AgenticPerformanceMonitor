@@ -11,8 +11,11 @@ Starting commit: `a9c3a39fbdff144271ced07607e21098e927c6da`.
 Capacity-check execution: `c68457916f2479f0ff7ced572b2d476441e9aeb1`.
 Final pre-freeze protocol/reporting: `7062e52f0ead0b2c858f4bc0a0642261703f1844`.
 Frozen comparison execution: `7616198845d29f5262ec6ca0d9c3fcda17fe9d65`.
-The final main commit is reported at completion; later handoff commits preserve
-these execution commits and historical artifacts without force-push.
+Complete results/review commit: `88c13df8264d0b9f89e01c985a5591c114b97aca`.
+The final handoff commit adds [publication metadata](artifacts/stage5/publication.json);
+resolve it with `git log -1 --format=%H -- artifacts/stage5/publication.json`.
+Its full SHA and verified push status are also reported in the session completion.
+These commits preserve the execution commits and historical artifacts without force-push.
 
 ## Read first
 
@@ -253,7 +256,8 @@ not assigned to either interface. [Model ledger](artifacts/stage5/model_ledger.j
 [runtime records](artifacts/stage5/gpu), [stage ledger](artifacts/stage5/execution.jsonl)
 and [run manifest](artifacts/stage5/run_manifest.json) separate model, acquisition
 and wall-clock time. Stage start was 2026-09-18 21:58:44 UTC; the manifest records
-the handoff snapshot and elapsed duration. Pod billing time is unknown.
+the review snapshot and elapsed duration. The [publication record](artifacts/stage5/publication.json)
+records the later handoff snapshot. Pod billing time is unknown.
 
 [Post-run device check](artifacts/stage5/checks/device_after_completion.json) confirms
 all four owned model PIDs exited, no GPU compute process remained and GPU memory

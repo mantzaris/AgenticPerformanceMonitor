@@ -1,0 +1,20 @@
+{
+  "artifacts_commit": "88c13df8264d0b9f89e01c985a5591c114b97aca",
+  "attempted_generations": 143,
+  "branch": "main",
+  "comparison_generations": 137,
+  "elapsed_seconds_to_publication_snapshot": 4199.648681,
+  "execution_commit": "7616198845d29f5262ec6ca0d9c3fcda17fe9d65",
+  "final_commit_note": "The final handoff commit adds this record and is reported with verified push status in the session completion; its own hash cannot be embedded in itself.",
+  "final_commit_resolution": "git log -1 --format=%H -- artifacts/stage5/publication.json",
+  "model_process_seconds": 1558.8240611217916,
+  "model_processes_stopped": true,
+  "next_stage_executed": false,
+  "pod_terminated": false,
+  "publication_snapshot_utc": "2026-09-18T23:08:43.648681+00:00",
+  "readiness": "Enumeration retained; 14B compact improves to 9/12 but misses 11/12 gate.",
+  "remote_target": "origin main",
+  "servers_started": 0,
+  "setup_generations": 6,
+  "stage": "Stage 5"
+}
