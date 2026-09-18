@@ -1,0 +1,409 @@
+{
+  "archive_sha256": "f2ed1902616c1fe8d2824d872c0b7d2d72be435bf0124d077044fe4be2c6d3e4",
+  "attribution": "Kuzilek, Hlosta, Zdrahal (2015), DOI:10.24432/C5KK69; source data unmodified; weekly derived summaries added.",
+  "counts": {
+    "banked_assessments": 1909,
+    "course_presentations": [
+      {
+        "code_module": "AAA",
+        "code_presentation": "2013J",
+        "module_presentation_length": 268
+      },
+      {
+        "code_module": "AAA",
+        "code_presentation": "2014J",
+        "module_presentation_length": 269
+      },
+      {
+        "code_module": "BBB",
+        "code_presentation": "2013B",
+        "module_presentation_length": 240
+      },
+      {
+        "code_module": "BBB",
+        "code_presentation": "2013J",
+        "module_presentation_length": 268
+      },
+      {
+        "code_module": "BBB",
+        "code_presentation": "2014B",
+        "module_presentation_length": 234
+      },
+      {
+        "code_module": "BBB",
+        "code_presentation": "2014J",
+        "module_presentation_length": 262
+      },
+      {
+        "code_module": "CCC",
+        "code_presentation": "2014B",
+        "module_presentation_length": 241
+      },
+      {
+        "code_module": "CCC",
+        "code_presentation": "2014J",
+        "module_presentation_length": 269
+      },
+      {
+        "code_module": "DDD",
+        "code_presentation": "2013B",
+        "module_presentation_length": 240
+      },
+      {
+        "code_module": "DDD",
+        "code_presentation": "2013J",
+        "module_presentation_length": 261
+      },
+      {
+        "code_module": "DDD",
+        "code_presentation": "2014B",
+        "module_presentation_length": 241
+      },
+      {
+        "code_module": "DDD",
+        "code_presentation": "2014J",
+        "module_presentation_length": 262
+      },
+      {
+        "code_module": "EEE",
+        "code_presentation": "2013J",
+        "module_presentation_length": 268
+      },
+      {
+        "code_module": "EEE",
+        "code_presentation": "2014B",
+        "module_presentation_length": 241
+      },
+      {
+        "code_module": "EEE",
+        "code_presentation": "2014J",
+        "module_presentation_length": 269
+      },
+      {
+        "code_module": "FFF",
+        "code_presentation": "2013B",
+        "module_presentation_length": 240
+      },
+      {
+        "code_module": "FFF",
+        "code_presentation": "2013J",
+        "module_presentation_length": 268
+      },
+      {
+        "code_module": "FFF",
+        "code_presentation": "2014B",
+        "module_presentation_length": 241
+      },
+      {
+        "code_module": "FFF",
+        "code_presentation": "2014J",
+        "module_presentation_length": 269
+      },
+      {
+        "code_module": "GGG",
+        "code_presentation": "2013J",
+        "module_presentation_length": 261
+      },
+      {
+        "code_module": "GGG",
+        "code_presentation": "2014B",
+        "module_presentation_length": 241
+      },
+      {
+        "code_module": "GGG",
+        "code_presentation": "2014J",
+        "module_presentation_length": 269
+      }
+    ],
+    "distinct_students": 28785,
+    "interaction_date_range": [
+      -25,
+      269
+    ],
+    "interaction_exact_duplicate_excess": 787170,
+    "interaction_repetitions": {
+      "max_days": 286,
+      "max_rows": 3078,
+      "median_days": 47.0,
+      "median_rows": 242.0,
+      "min_days": 1,
+      "min_rows": 1
+    },
+    "people_with_multiple_registrations": 3538,
+    "registration_date_range": [
+      -322,
+      167,
+      -365,
+      444
+    ],
+    "student_assessments": 173912,
+    "student_course_registrations": 32593,
+    "submission_date_range": [
+      -11,
+      608
+    ],
+    "unknown_registration_date": 45,
+    "withdrawal_recorded": 10072
+  },
+  "dataset": "OULAD creator-deposited UCI archive 349",
+  "files": {
+    "OULAD.names": {
+      "bytes": 12278,
+      "sha256": "e497bc5232f385ece30a7e964b0339bd9b74ba9b9083508b66628fed9dc23ebe"
+    },
+    "assessments.csv": {
+      "bytes": 8211,
+      "candidate_key": [
+        "id_assessment"
+      ],
+      "duplicate_excess_rows": 0,
+      "missing": {
+        "assessment_type": 0,
+        "code_module": 0,
+        "code_presentation": 0,
+        "date": 11,
+        "id_assessment": 0,
+        "weight": 0
+      },
+      "rows": 206,
+      "schema": {
+        "assessment_type": "VARCHAR",
+        "code_module": "VARCHAR",
+        "code_presentation": "VARCHAR",
+        "date": "BIGINT",
+        "id_assessment": "BIGINT",
+        "weight": "DOUBLE"
+      },
+      "sha256": "9ce92381e4a0ac457f8e251b2eb2c179ed51e023ab30d1d671a0268bd62316ba"
+    },
+    "courses.csv": {
+      "bytes": 526,
+      "candidate_key": [
+        "code_module",
+        "code_presentation"
+      ],
+      "duplicate_excess_rows": 0,
+      "missing": {
+        "code_module": 0,
+        "code_presentation": 0,
+        "module_presentation_length": 0
+      },
+      "rows": 22,
+      "schema": {
+        "code_module": "VARCHAR",
+        "code_presentation": "VARCHAR",
+        "module_presentation_length": "BIGINT"
+      },
+      "sha256": "4f16eee7454b15e109b0a21a0e43be820e6846ed6f9301bb7feb5ab5ad737a75"
+    },
+    "studentAssessment.csv": {
+      "bytes": 5690483,
+      "candidate_key": [
+        "id_assessment",
+        "id_student"
+      ],
+      "duplicate_excess_rows": 0,
+      "missing": {
+        "date_submitted": 0,
+        "id_assessment": 0,
+        "id_student": 0,
+        "is_banked": 0,
+        "score": 173
+      },
+      "rows": 173912,
+      "schema": {
+        "date_submitted": "BIGINT",
+        "id_assessment": "BIGINT",
+        "id_student": "BIGINT",
+        "is_banked": "BIGINT",
+        "score": "BIGINT"
+      },
+      "sha256": "b1839e17618a5de36b6d189a242d3123f7939a56c8c9ccef0c17b9199c614a6b"
+    },
+    "studentInfo.csv": {
+      "bytes": 3462763,
+      "candidate_key": [
+        "code_module",
+        "code_presentation",
+        "id_student"
+      ],
+      "duplicate_excess_rows": 0,
+      "missing": {
+        "age_band": 0,
+        "code_module": 0,
+        "code_presentation": 0,
+        "disability": 0,
+        "final_result": 0,
+        "gender": 0,
+        "highest_education": 0,
+        "id_student": 0,
+        "imd_band": 1111,
+        "num_of_prev_attempts": 0,
+        "region": 0,
+        "studied_credits": 0
+      },
+      "rows": 32593,
+      "schema": {
+        "age_band": "VARCHAR",
+        "code_module": "VARCHAR",
+        "code_presentation": "VARCHAR",
+        "disability": "VARCHAR",
+        "final_result": "VARCHAR",
+        "gender": "VARCHAR",
+        "highest_education": "VARCHAR",
+        "id_student": "BIGINT",
+        "imd_band": "VARCHAR",
+        "num_of_prev_attempts": "BIGINT",
+        "region": "VARCHAR",
+        "studied_credits": "BIGINT"
+      },
+      "sha256": "815fbc3e2de29f79900bc63f0345a35db62c9146afaa1d86e7107b8b3beffc60"
+    },
+    "studentRegistration.csv": {
+      "bytes": 1132550,
+      "candidate_key": [
+        "code_module",
+        "code_presentation",
+        "id_student"
+      ],
+      "duplicate_excess_rows": 0,
+      "missing": {
+        "code_module": 0,
+        "code_presentation": 0,
+        "date_registration": 45,
+        "date_unregistration": 22521,
+        "id_student": 0
+      },
+      "rows": 32593,
+      "schema": {
+        "code_module": "VARCHAR",
+        "code_presentation": "VARCHAR",
+        "date_registration": "BIGINT",
+        "date_unregistration": "BIGINT",
+        "id_student": "BIGINT"
+      },
+      "sha256": "bbc87a0de1fe2a9ec6decce1ca6c1a02cf17b54ad3bdcc673fc6413b41c61d47"
+    },
+    "studentVle.csv": {
+      "bytes": 453836331,
+      "candidate_key": [
+        "code_module",
+        "code_presentation",
+        "id_student",
+        "id_site",
+        "date"
+      ],
+      "duplicate_excess_rows": 2195960,
+      "missing": {
+        "code_module": 0,
+        "code_presentation": 0,
+        "date": 0,
+        "id_site": 0,
+        "id_student": 0,
+        "sum_click": 0
+      },
+      "rows": 10655280,
+      "schema": {
+        "code_module": "VARCHAR",
+        "code_presentation": "VARCHAR",
+        "date": "BIGINT",
+        "id_site": "BIGINT",
+        "id_student": "BIGINT",
+        "sum_click": "BIGINT"
+      },
+      "sha256": "52668253d876c5becbcb72185977152700cecab2942aca807fecc3dd54b937f0"
+    },
+    "vle.csv": {
+      "bytes": 270612,
+      "candidate_key": [
+        "code_module",
+        "code_presentation",
+        "id_site"
+      ],
+      "duplicate_excess_rows": 0,
+      "missing": {
+        "activity_type": 0,
+        "code_module": 0,
+        "code_presentation": 0,
+        "id_site": 0,
+        "week_from": 5243,
+        "week_to": 5243
+      },
+      "rows": 6364,
+      "schema": {
+        "activity_type": "VARCHAR",
+        "code_module": "VARCHAR",
+        "code_presentation": "VARCHAR",
+        "id_site": "BIGINT",
+        "week_from": "BIGINT",
+        "week_to": "BIGINT"
+      },
+      "sha256": "d7a146497edd0e47ef536144b58796c07b554002d3753e848b8e4cd8a56f4c38"
+    }
+  },
+  "license": "CC BY 4.0",
+  "observation_states": {
+    "ineligible": "No administratively eligible day in this week.",
+    "recorded_activity": "Positive recorded clicks within eligible days.",
+    "scheduled_no_submission": "Scheduled non-exam assessment due while eligible with no non-banked submission recorded by week end; exemptions unknown.",
+    "unknown": "Registration date unavailable; values withheld.",
+    "zero_recorded_activity": "No positive recorded clicks; logging completeness unknown."
+  },
+  "relationships": {
+    "assessment_definition": {
+      "key": [
+        "id_assessment"
+      ],
+      "left_join_rows": 173912,
+      "left_rows": 173912,
+      "multiplication": 0,
+      "unmatched_rows": 0
+    },
+    "assessment_registration_unmatched": 0,
+    "info_registration": {
+      "key": [
+        "code_module",
+        "code_presentation",
+        "id_student"
+      ],
+      "left_join_rows": 32593,
+      "left_rows": 32593,
+      "multiplication": 0,
+      "unmatched_rows": 0
+    },
+    "interaction_registration": {
+      "key": [
+        "code_module",
+        "code_presentation",
+        "id_student"
+      ],
+      "left_join_rows": 10655280,
+      "left_rows": 10655280,
+      "multiplication": 0,
+      "unmatched_rows": 0
+    },
+    "interaction_resource": {
+      "key": [
+        "code_module",
+        "code_presentation",
+        "id_site"
+      ],
+      "left_join_rows": 10655280,
+      "left_rows": 10655280,
+      "multiplication": 0,
+      "unmatched_rows": 0
+    }
+  },
+  "retrieved_utc": "2026-09-18T16:14:52.928113+00:00",
+  "source_url": "https://archive.ics.uci.edu/static/public/349/open+university+learning+analytics+dataset.zip",
+  "time_semantics": {
+    "banking": "Credit from earlier attempts; approval availability unknown; excluded from non-banked submissions.",
+    "date": "Daily VLE aggregate day or scheduled assessment day (table dependent).",
+    "date_registration": "Administrative registration day; null means unknown.",
+    "date_submitted": "Submission day, not grade availability.",
+    "date_unregistration": "Withdrawal day; future values are censored at the query cutoff.",
+    "origin": "Day 0 is presentation start; negative dates are before start.",
+    "presentation": "B starts February; J starts October; code is not an equal-length measurement scale.",
+    "scores": "No release timestamp; withheld from prospective features."
+  }
+}

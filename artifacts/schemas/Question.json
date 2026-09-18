@@ -1,0 +1,61 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "course": {
+      "title": "Course",
+      "type": "string"
+    },
+    "cutoff_day": {
+      "minimum": 0,
+      "title": "Cutoff Day",
+      "type": "integer"
+    },
+    "kind": {
+      "enum": [
+        "personal_change",
+        "reference_sensitivity",
+        "measurement_limits"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "person_id": {
+      "title": "Person Id",
+      "type": "integer"
+    },
+    "question_id": {
+      "title": "Question Id",
+      "type": "string"
+    },
+    "role": {
+      "enum": [
+        "learner",
+        "instructor",
+        "researcher"
+      ],
+      "title": "Role",
+      "type": "string"
+    },
+    "split": {
+      "const": "development",
+      "default": "development",
+      "title": "Split",
+      "type": "string"
+    },
+    "text": {
+      "title": "Text",
+      "type": "string"
+    }
+  },
+  "required": [
+    "question_id",
+    "role",
+    "kind",
+    "text",
+    "person_id",
+    "course",
+    "cutoff_day"
+  ],
+  "title": "Question",
+  "type": "object"
+}

@@ -1,0 +1,73 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "code_commit": {
+      "title": "Code Commit",
+      "type": "string"
+    },
+    "code_sha256": {
+      "title": "Code Sha256",
+      "type": "string"
+    },
+    "completed_utc": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Completed Utc"
+    },
+    "config_sha256": {
+      "title": "Config Sha256",
+      "type": "string"
+    },
+    "dataset_sha256": {
+      "title": "Dataset Sha256",
+      "type": "string"
+    },
+    "environment": {
+      "additionalProperties": true,
+      "title": "Environment",
+      "type": "object"
+    },
+    "resource_use": {
+      "additionalProperties": true,
+      "title": "Resource Use",
+      "type": "object"
+    },
+    "results": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Results",
+      "type": "array"
+    },
+    "stage": {
+      "const": "stage1",
+      "default": "stage1",
+      "title": "Stage",
+      "type": "string"
+    },
+    "started_utc": {
+      "title": "Started Utc",
+      "type": "string"
+    }
+  },
+  "required": [
+    "started_utc",
+    "code_commit",
+    "code_sha256",
+    "config_sha256",
+    "dataset_sha256",
+    "environment",
+    "resource_use",
+    "results"
+  ],
+  "title": "RunManifest",
+  "type": "object"
+}

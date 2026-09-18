@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {
+      "evidence_id": "ev_9856df36637ea858",
+      "template": "comparison",
+      "text": "Focal mean 8.79; peer mean 4.20; difference 4.59 recorded clicks / eligible day, focal weeks 8\u201311. 239 distinct peers / 946 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: other development students, eligible weeks (weeks 8\u201311). Peer mean 95% bootstrap interval [3.53, 4.91]; not an individual prediction interval."
+    },
+    {
+      "evidence_id": "ev_9856df36637ea858",
+      "template": "personal_change",
+      "text": "Personal mean changed from 29.04 in weeks 0\u20133 (4 observed weeks) to 8.79 in weeks 8\u201311 (4 observed weeks): change -20.25 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval."
+    }
+  ],
+  "evidence_hashes": {
+    "ev_9856df36637ea858": "ae09fba4072495abde510ef829f5961ffe987994be7250dcf462567eb8cfca24"
+  },
+  "question_id": "dev_1",
+  "renderer": "controlled Altair \u2192 Vega-Lite \u2192 SVG/PNG; HTML inspector requires no network",
+  "validation": "PASS"
+}

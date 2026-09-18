@@ -1,0 +1,124 @@
+{
+  "$defs": {
+    "ClaimRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "template": {
+          "enum": [
+            "comparison",
+            "personal_change",
+            "measurement_limits"
+          ],
+          "title": "Template",
+          "type": "string"
+        }
+      },
+      "required": [
+        "template",
+        "evidence_id"
+      ],
+      "title": "ClaimRecord",
+      "type": "object"
+    },
+    "Panel": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "trajectory",
+            "comparison",
+            "observation_status",
+            "assessment_status"
+          ],
+          "title": "Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "evidence_id"
+      ],
+      "title": "Panel",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "annotation": {
+      "enum": [
+        "descriptive_only",
+        "reference_dependent",
+        "measurement_limited"
+      ],
+      "title": "Annotation",
+      "type": "string"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/ClaimRecord"
+      },
+      "maxItems": 6,
+      "minItems": 1,
+      "title": "Claims",
+      "type": "array"
+    },
+    "cutoff_day": {
+      "title": "Cutoff Day",
+      "type": "integer"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 6,
+      "minItems": 1,
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "followups": {
+      "items": {
+        "enum": [
+          "inspect_reference",
+          "inspect_personal_history",
+          "check_assessment_availability"
+        ],
+        "type": "string"
+      },
+      "maxItems": 3,
+      "title": "Followups",
+      "type": "array"
+    },
+    "panels": {
+      "items": {
+        "$ref": "#/$defs/Panel"
+      },
+      "maxItems": 6,
+      "minItems": 2,
+      "title": "Panels",
+      "type": "array"
+    },
+    "question_id": {
+      "title": "Question Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "question_id",
+    "cutoff_day",
+    "evidence_ids",
+    "claims",
+    "panels",
+    "annotation",
+    "followups"
+  ],
+  "title": "DashboardSpecification",
+  "type": "object"
+}

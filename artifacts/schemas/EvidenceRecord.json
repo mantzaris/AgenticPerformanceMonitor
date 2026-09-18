@@ -1,0 +1,216 @@
+{
+  "$defs": {
+    "AnalysisRequest": {
+      "additionalProperties": false,
+      "properties": {
+        "end_week": {
+          "minimum": 0,
+          "title": "End Week",
+          "type": "integer"
+        },
+        "feature": {
+          "enum": [
+            "clicks_per_eligible_day",
+            "active_days",
+            "distinct_resources",
+            "nonbanked_submissions",
+            "scheduled_no_submission"
+          ],
+          "title": "Feature",
+          "type": "string"
+        },
+        "question_id": {
+          "title": "Question Id",
+          "type": "string"
+        },
+        "reference": {
+          "enum": [
+            "course",
+            "same_prior_attempt",
+            "early_stage"
+          ],
+          "title": "Reference",
+          "type": "string"
+        },
+        "start_week": {
+          "minimum": 0,
+          "title": "Start Week",
+          "type": "integer"
+        },
+        "tool": {
+          "const": "analyze",
+          "default": "analyze",
+          "title": "Tool",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question_id",
+        "feature",
+        "reference",
+        "start_week",
+        "end_week"
+      ],
+      "title": "AnalysisRequest",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "assessment_status": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Assessment Status",
+      "type": "array"
+    },
+    "cutoff_day": {
+      "title": "Cutoff Day",
+      "type": "integer"
+    },
+    "evidence_id": {
+      "title": "Evidence Id",
+      "type": "string"
+    },
+    "feature": {
+      "title": "Feature",
+      "type": "string"
+    },
+    "focal_id": {
+      "title": "Focal Id",
+      "type": "integer"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "observation_status": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Observation Status",
+      "type": "array"
+    },
+    "observations": {
+      "minimum": 0,
+      "title": "Observations",
+      "type": "integer"
+    },
+    "peer_ids": {
+      "items": {
+        "type": "integer"
+      },
+      "title": "Peer Ids",
+      "type": "array"
+    },
+    "peer_summary_rows": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Peer Summary Rows",
+      "type": "array"
+    },
+    "people": {
+      "minimum": 0,
+      "title": "People",
+      "type": "integer"
+    },
+    "provenance": {
+      "additionalProperties": true,
+      "title": "Provenance",
+      "type": "object"
+    },
+    "question_id": {
+      "title": "Question Id",
+      "type": "string"
+    },
+    "reference": {
+      "title": "Reference",
+      "type": "string"
+    },
+    "reference_label": {
+      "title": "Reference Label",
+      "type": "string"
+    },
+    "reference_window": {
+      "items": {
+        "type": "integer"
+      },
+      "title": "Reference Window",
+      "type": "array"
+    },
+    "request": {
+      "$ref": "#/$defs/AnalysisRequest"
+    },
+    "status": {
+      "enum": [
+        "supported",
+        "insufficient_evidence"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "summary": {
+      "additionalProperties": true,
+      "title": "Summary",
+      "type": "object"
+    },
+    "trajectory": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Trajectory",
+      "type": "array"
+    },
+    "uncertainty": {
+      "additionalProperties": true,
+      "title": "Uncertainty",
+      "type": "object"
+    },
+    "unit": {
+      "title": "Unit",
+      "type": "string"
+    },
+    "window": {
+      "items": {
+        "type": "integer"
+      },
+      "title": "Window",
+      "type": "array"
+    }
+  },
+  "required": [
+    "evidence_id",
+    "question_id",
+    "request",
+    "feature",
+    "unit",
+    "reference",
+    "reference_label",
+    "window",
+    "reference_window",
+    "cutoff_day",
+    "status",
+    "people",
+    "observations",
+    "peer_ids",
+    "focal_id",
+    "summary",
+    "peer_summary_rows",
+    "trajectory",
+    "observation_status",
+    "assessment_status",
+    "uncertainty",
+    "limitations",
+    "provenance"
+  ],
+  "title": "EvidenceRecord",
+  "type": "object"
+}

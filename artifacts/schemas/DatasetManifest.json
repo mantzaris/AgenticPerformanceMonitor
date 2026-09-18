@@ -1,0 +1,76 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "archive_sha256": {
+      "title": "Archive Sha256",
+      "type": "string"
+    },
+    "attribution": {
+      "title": "Attribution",
+      "type": "string"
+    },
+    "counts": {
+      "additionalProperties": true,
+      "title": "Counts",
+      "type": "object"
+    },
+    "dataset": {
+      "title": "Dataset",
+      "type": "string"
+    },
+    "files": {
+      "additionalProperties": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Files",
+      "type": "object"
+    },
+    "license": {
+      "title": "License",
+      "type": "string"
+    },
+    "observation_states": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Observation States",
+      "type": "object"
+    },
+    "relationships": {
+      "additionalProperties": true,
+      "title": "Relationships",
+      "type": "object"
+    },
+    "retrieved_utc": {
+      "title": "Retrieved Utc",
+      "type": "string"
+    },
+    "source_url": {
+      "title": "Source Url",
+      "type": "string"
+    },
+    "time_semantics": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Time Semantics",
+      "type": "object"
+    }
+  },
+  "required": [
+    "dataset",
+    "source_url",
+    "retrieved_utc",
+    "license",
+    "attribution",
+    "archive_sha256",
+    "files",
+    "counts",
+    "relationships",
+    "time_semantics",
+    "observation_states"
+  ],
+  "title": "DatasetManifest",
+  "type": "object"
+}

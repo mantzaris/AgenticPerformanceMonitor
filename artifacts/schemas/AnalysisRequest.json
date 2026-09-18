@@ -1,0 +1,54 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "end_week": {
+      "minimum": 0,
+      "title": "End Week",
+      "type": "integer"
+    },
+    "feature": {
+      "enum": [
+        "clicks_per_eligible_day",
+        "active_days",
+        "distinct_resources",
+        "nonbanked_submissions",
+        "scheduled_no_submission"
+      ],
+      "title": "Feature",
+      "type": "string"
+    },
+    "question_id": {
+      "title": "Question Id",
+      "type": "string"
+    },
+    "reference": {
+      "enum": [
+        "course",
+        "same_prior_attempt",
+        "early_stage"
+      ],
+      "title": "Reference",
+      "type": "string"
+    },
+    "start_week": {
+      "minimum": 0,
+      "title": "Start Week",
+      "type": "integer"
+    },
+    "tool": {
+      "const": "analyze",
+      "default": "analyze",
+      "title": "Tool",
+      "type": "string"
+    }
+  },
+  "required": [
+    "question_id",
+    "feature",
+    "reference",
+    "start_week",
+    "end_week"
+  ],
+  "title": "AnalysisRequest",
+  "type": "object"
+}
