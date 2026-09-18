@@ -1,0 +1,89 @@
+{
+  "episodes": [
+    {
+      "method": "coverage_aware",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "personal_change",
+        "person_id": 268733,
+        "profile": "standard",
+        "question_id": "s3_build_c01",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recent recorded activity changed from my earlier history, and how does it compare with peers? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      }
+    },
+    {
+      "method": "coverage_aware",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "reference_sensitivity",
+        "person_id": 2442685,
+        "profile": "standard",
+        "question_id": "s3_build_c02",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is the direction of my recent activity comparison the same for presentation peers, peers with similar prior-attempt history, and peers at an earlier study stage? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      }
+    },
+    {
+      "method": "coverage_aware",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "observation_limits",
+        "person_id": 483309,
+        "profile": "standard",
+        "question_id": "s3_build_c03",
+        "role": "researcher",
+        "split": "development",
+        "text": "My recorded activity looks incomplete. What can these records establish, given registration eligibility, unknown logging completeness, and assessment records? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      }
+    },
+    {
+      "method": "coverage_aware",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "insufficient_support",
+        "person_id": 200863,
+        "profile": "standard",
+        "question_id": "s3_build_c04",
+        "role": "researcher",
+        "split": "development",
+        "text": "Do I have enough recent eligible observations to compare my activity with my earlier history and peers? Please say when the data cannot support a comparison. Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      }
+    },
+    {
+      "method": "coverage_aware",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "assessment_availability",
+        "person_id": 278447,
+        "profile": "mid",
+        "question_id": "s3_build_c05",
+        "role": "researcher",
+        "split": "development",
+        "text": "What do recorded assessment submissions and scheduled non-submissions tell us so far? Can they tell us my marks or learning progress? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      }
+    },
+    {
+      "method": "coverage_aware",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 69,
+        "kind": "alternate_windows",
+        "person_id": 553442,
+        "profile": "alternate",
+        "question_id": "s3_build_c06",
+        "role": "researcher",
+        "split": "development",
+        "text": "Using the stated earlier and recent windows, how does my activity compare with my own history and with different peer definitions? Earlier weeks 2\u20135; recent weeks 6\u20139; information through day 69."
+      }
+    }
+  ],
+  "note": "Known Stage 2 people/questions; diagnosis only, never new pilot evidence."
+}

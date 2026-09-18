@@ -1,0 +1,36 @@
+{
+  "agent_reruns": 0,
+  "created_utc": "2026-09-18T19:17:02.131829+00:00",
+  "external_review": "Outstanding; automated audit is not human review",
+  "historical_scores_sha256": "ba6081e3390d6e6c75d33a342e3c994bb248d9f7f172233e0dc9959b5c87bf3c",
+  "label": "POST-HOC Stage 2 reanalysis; not replacement primary scores",
+  "summary": [
+    {
+      "denominator": 12,
+      "method": "baseline",
+      "original_appropriate_insufficiency": 4,
+      "original_full_context": 12,
+      "revised_complete_method_selected": 12,
+      "revised_complete_requested": 12,
+      "supported_global_insufficiency": 4
+    },
+    {
+      "denominator": 12,
+      "method": "generic",
+      "original_appropriate_insufficiency": 3,
+      "original_full_context": 4,
+      "revised_complete_method_selected": 2,
+      "revised_complete_requested": 2,
+      "supported_global_insufficiency": 1
+    },
+    {
+      "denominator": 12,
+      "method": "reference_sensitive",
+      "original_appropriate_insufficiency": 0,
+      "original_full_context": 2,
+      "revised_complete_method_selected": 2,
+      "revised_complete_requested": 2,
+      "supported_global_insufficiency": 4
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "agent_order": [
+    {
+      "case_id": "s3_01",
+      "method": "generic",
+      "position": 1,
+      "question_id": "s3_01a"
+    },
+    {
+      "case_id": "s3_01",
+      "method": "reference_sensitive",
+      "position": 2,
+      "question_id": "s3_01a"
+    },
+    {
+      "case_id": "s3_01",
+      "method": "coverage_aware",
+      "position": 3,
+      "question_id": "s3_01a"
+    },
+    {
+      "case_id": "s3_01",
+      "method": "coverage_aware",
+      "position": 1,
+      "question_id": "s3_01b"
+    },
+    {
+      "case_id": "s3_01",
+      "method": "reference_sensitive",
+      "position": 2,
+      "question_id": "s3_01b"
+    },
+    {
+      "case_id": "s3_01",
+      "method": "generic",
+      "position": 3,
+      "question_id": "s3_01b"
+    },
+    {
+      "case_id": "s3_02",
+      "method": "generic",
+      "position": 1,
+      "question_id": "s3_02b"
+    },
+    {
+      "case_id": "s3_02",
+      "method": "coverage_aware",
+      "position": 2,
+      "question_id": "s3_02b"
+    },
+    {
+      "case_id": "s3_02",
+      "method": "reference_sensitive",
+      "position": 3,
+      "question_id": "s3_02b"
+    },
+    {
+      "case_id": "s3_02",
+      "method": "reference_sensitive",
+      "position": 1,
+      "question_id": "s3_02a"
+    },
+    {
+      "case_id": "s3_02",
+      "method": "coverage_aware",
+      "position": 2,
+      "question_id": "s3_02a"
+    },
+    {
+      "case_id": "s3_02",
+      "method": "generic",
+      "position": 3,
+      "question_id": "s3_02a"
+    },
+    {
+      "case_id": "s3_03",
+      "method": "reference_sensitive",
+      "position": 1,
+      "question_id": "s3_03a"
+    },
+    {
+      "case_id": "s3_03",
+      "method": "generic",
+      "position": 2,
+      "question_id": "s3_03a"
+    },
+    {
+      "case_id": "s3_03",
+      "method": "coverage_aware",
+      "position": 3,
+      "question_id": "s3_03a"
+    },
+    {
+      "case_id": "s3_03",
+      "method": "coverage_aware",
+      "position": 1,
+      "question_id": "s3_03b"
+    },
+    {
+      "case_id": "s3_03",
+      "method": "generic",
+      "position": 2,
+      "question_id": "s3_03b"
+    },
+    {
+      "case_id": "s3_03",
+      "method": "reference_sensitive",
+      "position": 3,
+      "question_id": "s3_03b"
+    },
+    {
+      "case_id": "s3_04",
+      "method": "reference_sensitive",
+      "position": 1,
+      "question_id": "s3_04b"
+    },
+    {
+      "case_id": "s3_04",
+      "method": "coverage_aware",
+      "position": 2,
+      "question_id": "s3_04b"
+    },
+    {
+      "case_id": "s3_04",
+      "method": "generic",
+      "position": 3,
+      "question_id": "s3_04b"
+    },
+    {
+      "case_id": "s3_04",
+      "method": "generic",
+      "position": 1,
+      "question_id": "s3_04a"
+    },
+    {
+      "case_id": "s3_04",
+      "method": "coverage_aware",
+      "position": 2,
+      "question_id": "s3_04a"
+    },
+    {
+      "case_id": "s3_04",
+      "method": "reference_sensitive",
+      "position": 3,
+      "question_id": "s3_04a"
+    },
+    {
+      "case_id": "s3_05",
+      "method": "coverage_aware",
+      "position": 1,
+      "question_id": "s3_05a"
+    },
+    {
+      "case_id": "s3_05",
+      "method": "generic",
+      "position": 2,
+      "question_id": "s3_05a"
+    },
+    {
+      "case_id": "s3_05",
+      "method": "reference_sensitive",
+      "position": 3,
+      "question_id": "s3_05a"
+    },
+    {
+      "case_id": "s3_05",
+      "method": "reference_sensitive",
+      "position": 1,
+      "question_id": "s3_05b"
+    },
+    {
+      "case_id": "s3_05",
+      "method": "generic",
+      "position": 2,
+      "question_id": "s3_05b"
+    },
+    {
+      "case_id": "s3_05",
+      "method": "coverage_aware",
+      "position": 3,
+      "question_id": "s3_05b"
+    },
+    {
+      "case_id": "s3_06",
+      "method": "coverage_aware",
+      "position": 1,
+      "question_id": "s3_06b"
+    },
+    {
+      "case_id": "s3_06",
+      "method": "reference_sensitive",
+      "position": 2,
+      "question_id": "s3_06b"
+    },
+    {
+      "case_id": "s3_06",
+      "method": "generic",
+      "position": 3,
+      "question_id": "s3_06b"
+    },
+    {
+      "case_id": "s3_06",
+      "method": "generic",
+      "position": 1,
+      "question_id": "s3_06a"
+    },
+    {
+      "case_id": "s3_06",
+      "method": "reference_sensitive",
+      "position": 2,
+      "question_id": "s3_06a"
+    },
+    {
+      "case_id": "s3_06",
+      "method": "coverage_aware",
+      "position": 3,
+      "question_id": "s3_06a"
+    },
+    {
+      "case_id": "s3_07",
+      "method": "generic",
+      "position": 1,
+      "question_id": "s3_07a"
+    },
+    {
+      "case_id": "s3_07",
+      "method": "reference_sensitive",
+      "position": 2,
+      "question_id": "s3_07a"
+    },
+    {
+      "case_id": "s3_07",
+      "method": "coverage_aware",
+      "position": 3,
+      "question_id": "s3_07a"
+    },
+    {
+      "case_id": "s3_07",
+      "method": "coverage_aware",
+      "position": 1,
+      "question_id": "s3_07b"
+    },
+    {
+      "case_id": "s3_07",
+      "method": "reference_sensitive",
+      "position": 2,
+      "question_id": "s3_07b"
+    },
+    {
+      "case_id": "s3_07",
+      "method": "generic",
+      "position": 3,
+      "question_id": "s3_07b"
+    },
+    {
+      "case_id": "s3_08",
+      "method": "generic",
+      "position": 1,
+      "question_id": "s3_08b"
+    },
+    {
+      "case_id": "s3_08",
+      "method": "coverage_aware",
+      "position": 2,
+      "question_id": "s3_08b"
+    },
+    {
+      "case_id": "s3_08",
+      "method": "reference_sensitive",
+      "position": 3,
+      "question_id": "s3_08b"
+    },
+    {
+      "case_id": "s3_08",
+      "method": "reference_sensitive",
+      "position": 1,
+      "question_id": "s3_08a"
+    },
+    {
+      "case_id": "s3_08",
+      "method": "coverage_aware",
+      "position": 2,
+      "question_id": "s3_08a"
+    },
+    {
+      "case_id": "s3_08",
+      "method": "generic",
+      "position": 3,
+      "question_id": "s3_08a"
+    },
+    {
+      "case_id": "s3_09",
+      "method": "reference_sensitive",
+      "position": 1,
+      "question_id": "s3_09a"
+    },
+    {
+      "case_id": "s3_09",
+      "method": "generic",
+      "position": 2,
+      "question_id": "s3_09a"
+    },
+    {
+      "case_id": "s3_09",
+      "method": "coverage_aware",
+      "position": 3,
+      "question_id": "s3_09a"
+    },
+    {
+      "case_id": "s3_09",
+      "method": "coverage_aware",
+      "position": 1,
+      "question_id": "s3_09b"
+    },
+    {
+      "case_id": "s3_09",
+      "method": "generic",
+      "position": 2,
+      "question_id": "s3_09b"
+    },
+    {
+      "case_id": "s3_09",
+      "method": "reference_sensitive",
+      "position": 3,
+      "question_id": "s3_09b"
+    },
+    {
+      "case_id": "s3_10",
+      "method": "reference_sensitive",
+      "position": 1,
+      "question_id": "s3_10b"
+    },
+    {
+      "case_id": "s3_10",
+      "method": "coverage_aware",
+      "position": 2,
+      "question_id": "s3_10b"
+    },
+    {
+      "case_id": "s3_10",
+      "method": "generic",
+      "position": 3,
+      "question_id": "s3_10b"
+    },
+    {
+      "case_id": "s3_10",
+      "method": "generic",
+      "position": 1,
+      "question_id": "s3_10a"
+    },
+    {
+      "case_id": "s3_10",
+      "method": "coverage_aware",
+      "position": 2,
+      "question_id": "s3_10a"
+    },
+    {
+      "case_id": "s3_10",
+      "method": "reference_sensitive",
+      "position": 3,
+      "question_id": "s3_10a"
+    },
+    {
+      "case_id": "s3_11",
+      "method": "coverage_aware",
+      "position": 1,
+      "question_id": "s3_11a"
+    },
+    {
+      "case_id": "s3_11",
+      "method": "generic",
+      "position": 2,
+      "question_id": "s3_11a"
+    },
+    {
+      "case_id": "s3_11",
+      "method": "reference_sensitive",
+      "position": 3,
+      "question_id": "s3_11a"
+    },
+    {
+      "case_id": "s3_11",
+      "method": "reference_sensitive",
+      "position": 1,
+      "question_id": "s3_11b"
+    },
+    {
+      "case_id": "s3_11",
+      "method": "generic",
+      "position": 2,
+      "question_id": "s3_11b"
+    },
+    {
+      "case_id": "s3_11",
+      "method": "coverage_aware",
+      "position": 3,
+      "question_id": "s3_11b"
+    },
+    {
+      "case_id": "s3_12",
+      "method": "coverage_aware",
+      "position": 1,
+      "question_id": "s3_12b"
+    },
+    {
+      "case_id": "s3_12",
+      "method": "reference_sensitive",
+      "position": 2,
+      "question_id": "s3_12b"
+    },
+    {
+      "case_id": "s3_12",
+      "method": "generic",
+      "position": 3,
+      "question_id": "s3_12b"
+    },
+    {
+      "case_id": "s3_12",
+      "method": "generic",
+      "position": 1,
+      "question_id": "s3_12a"
+    },
+    {
+      "case_id": "s3_12",
+      "method": "reference_sensitive",
+      "position": 2,
+      "question_id": "s3_12a"
+    },
+    {
+      "case_id": "s3_12",
+      "method": "coverage_aware",
+      "position": 3,
+      "question_id": "s3_12a"
+    }
+  ],
+  "baseline": "All 24 instances on the GPU host CPU before model loading; time recorded individually.",
+  "counterbalance": "Six permutations repeated across 12 cases, reversed for the paired phrasing; a/b order alternates by case."
+}
