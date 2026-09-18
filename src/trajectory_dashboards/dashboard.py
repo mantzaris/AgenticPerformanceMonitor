@@ -167,7 +167,7 @@ def claim_text(claim, e):
         return f"Personal mean changed from {number(s['baseline_mean'])} in weeks {s['baseline_window'][0]}–{s['baseline_window'][1]} ({s['baseline_observations']} observed weeks) to {number(s['recent_mean'])} in weeks {s['recent_window'][0]}–{s['recent_window'][1]} ({s['recent_observations']} observed weeks): change {number(s['personal_change'])} {e.unit}. This descriptive personal change has no uncertainty interval."
     support = f"{e.people} distinct peers / {e.observations} person-weeks; {s['focal_observations']} observed focal weeks."
     if e.status != "supported":
-        return f"Insufficient evidence for a focal comparison in weeks {e.window[0]}–{e.window[1]}. {support} Reference: {e.reference_label}."
+        return f"Insufficient evidence for a focal {e.feature.replace('_', ' ')} comparison in weeks {e.window[0]}–{e.window[1]}. {support} Reference: {e.reference_label}."
     return f"Focal mean {number(s['focal_mean'])}; peer mean {number(s['peer_mean'])}; difference {number(s['contrast'])} {e.unit}, focal weeks {e.window[0]}–{e.window[1]}. {support} Reference: {e.reference_label}. Peer mean 95% bootstrap interval [{number(s['peer_ci_low'])}, {number(s['peer_ci_high'])}]; not an individual prediction interval."
 
 

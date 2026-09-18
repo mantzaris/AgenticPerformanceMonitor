@@ -1,0 +1,68 @@
+{
+  "exact_duplicate_excess": 15937,
+  "examples": [
+    {
+      "course": "AAA_2013J",
+      "drop_exact_repeated_rows_sensitivity": {
+        "contrast": 4.657750547917912,
+        "focal_mean": 8.75,
+        "peer_mean": 4.092249452082088
+      },
+      "preserve_source_rows": {
+        "contrast": 4.585873680015938,
+        "focal_mean": 8.785714285714285,
+        "peer_mean": 4.199840605698347
+      },
+      "question_id": "dev_1",
+      "reference": "course",
+      "unit": "recorded clicks / eligible day",
+      "window": [
+        8,
+        11
+      ]
+    },
+    {
+      "course": "BBB_2013B",
+      "drop_exact_repeated_rows_sensitivity": {
+        "contrast": -1.9980898319592737,
+        "focal_mean": 1.2142857142857144,
+        "peer_mean": 3.212375546244988
+      },
+      "preserve_source_rows": {
+        "contrast": -2.040794176390203,
+        "focal_mean": 1.392857142857143,
+        "peer_mean": 3.4336513192473457
+      },
+      "question_id": "dev_2",
+      "reference": "course",
+      "unit": "recorded clicks / eligible day",
+      "window": [
+        8,
+        11
+      ]
+    },
+    {
+      "course": "BBB_2013B",
+      "drop_exact_repeated_rows_sensitivity": {
+        "contrast": null,
+        "focal_mean": null,
+        "peer_mean": 3.21048699252858
+      },
+      "preserve_source_rows": {
+        "contrast": null,
+        "focal_mean": null,
+        "peer_mean": 3.4317224022564288
+      },
+      "question_id": "dev_3",
+      "reference": "course",
+      "unit": "recorded clicks / eligible day",
+      "window": [
+        8,
+        11
+      ]
+    }
+  ],
+  "limitation": "Equal student/site/day/count records need not be accidental duplication; absent event IDs make true unique events unidentifiable. This analysis measures one preprocessing sensitivity, not the truth of either interpretation.",
+  "scope": "Selected development registrations; eligible days <=83 only. All source rows retained in main path. This alternative is not asserted to be a correction.",
+  "source_rows": 193708
+}

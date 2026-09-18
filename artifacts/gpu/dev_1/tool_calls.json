@@ -1,0 +1,26 @@
+[
+  {
+    "end_week": 11,
+    "feature": "clicks_per_eligible_day",
+    "question_id": "dev_1",
+    "reference": "course",
+    "start_week": 8,
+    "tool": "analyze"
+  },
+  {
+    "end_week": 11,
+    "feature": "clicks_per_eligible_day",
+    "question_id": "dev_1",
+    "reference": "same_prior_attempt",
+    "start_week": 8,
+    "tool": "analyze"
+  },
+  {
+    "end_week": 11,
+    "feature": "clicks_per_eligible_day",
+    "question_id": "dev_1",
+    "reference": "early_stage",
+    "start_week": 8,
+    "tool": "analyze"
+  }
+]

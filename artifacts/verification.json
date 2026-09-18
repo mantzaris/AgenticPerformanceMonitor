@@ -1,0 +1,78 @@
+{
+  "agent_results": [
+    {
+      "final_repairs": 1,
+      "question_id": "dev_1",
+      "status": "agent_generated_and_repaired",
+      "tool_calls_executed": 3
+    },
+    {
+      "final_repairs": 0,
+      "question_id": "dev_2",
+      "status": "agent_generated_and_accepted",
+      "tool_calls_executed": 3
+    },
+    {
+      "error": "ValueError: Required comparison/observation panels omitted",
+      "fallback_status": "deterministic_fallback; NOT agent success",
+      "final_repairs": 1,
+      "question_id": "dev_3",
+      "status": "failed",
+      "tool_calls_executed": 2
+    }
+  ],
+  "checks": [
+    "Unique person/course/week grid",
+    "No reserved people in prepared data",
+    "No post-cutoff feature or forbidden raw field",
+    "Audited dimension joins preserve row counts",
+    "Saved quantitative claims and chart specifications replay exactly",
+    "All HTML evidence links resolve",
+    "Intended GPU device, dtype, CUDA device events and budget ledger verified"
+  ],
+  "replays": [
+    {
+      "bound_sha256": "770270ada4e8b02d0ba209e9a29351ec6500ffe314e8a9b80a11b62d3d6b9221",
+      "png_bytes": 330107,
+      "source": "artifacts/deterministic/dev_1",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "bound_sha256": "3bced66e84233db767a0d46cfcc1f81d7015cdfe77bc17d3d33edda9f6ffd330",
+      "png_bytes": 581032,
+      "source": "artifacts/deterministic/dev_2",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "bound_sha256": "2e4a8640b2a1b4e1882a16ccf1ada034e6a96182ea7db6374ac684b2c57d6eb1",
+      "png_bytes": 539275,
+      "source": "artifacts/deterministic/dev_3",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "bound_sha256": "00b9f31314706a45b8bc00cafdfe7703633a406a4f7f28e62abaa898155cd36c",
+      "png_bytes": 439581,
+      "source": "artifacts/gpu/dev_1/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "bound_sha256": "3eee1911ae6f3965b29c2fc6449ab766fdbfc66fc9a565820398f0f19c23fa6c",
+      "png_bytes": 580939,
+      "source": "artifacts/gpu/dev_2/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "bound_sha256": "2901c873349a7edc34aa925f0719f36a70fc8c8c2c9558af45a85cbba569bde9",
+      "png_bytes": 539275,
+      "source": "artifacts/gpu/dev_3/deterministic_fallback",
+      "status": "PASS",
+      "svg_exact_replay": true
+    }
+  ],
+  "verified_utc": "2026-09-18T16:42:10.158588+00:00"
+}

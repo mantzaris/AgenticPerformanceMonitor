@@ -1,0 +1,85 @@
+{
+  "backend": "transformers",
+  "code_commit": "53187de3a55be7be0331d1e0fd200339af1c4c82",
+  "code_sha256": "7ff34cfc7e4850e9cfbc1ae31cba1117970d4c971b8dec82cf45aa04777df833",
+  "cpu_offload": false,
+  "cuda_kernel_proof": {
+    "generation": 1,
+    "kernel_events": 202477,
+    "sample_kernel_names": [
+      "Memcpy HtoD (Pageable -> Device)",
+      "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<bool>, std::array<char*, 1ul> >(int, at::native::FillFunctor<bool>, std::array<char*, 1ul>)",
+      "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> > const&)::{lambda(int)#1})",
+      "void at::native::reduce_kernel<256, 2, at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4, 4> >(at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4, 4>)",
+      "Memcpy DtoD (Device -> Device)",
+      "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4, 4> >(at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4, 4>)",
+      "Memcpy DtoH (Device -> Pinned)",
+      "void at::native::vectorized_elementwise_kernel<4, at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, long)::{lambda(long)#1}, std::array<char*, 2ul> >(int, at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, long)::{lambda(long)#1}, std::array<char*, 2ul>)",
+      "void at::native::vectorized_elementwise_kernel<2, at::native::FillFunctor<long>, std::array<char*, 1ul> >(int, at::native::FillFunctor<long>, std::array<char*, 1ul>)",
+      "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<long, true> >(at_cuda_detail::cub::ScanTileState<long, true>, int)",
+      "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<long, std::plus<long> >::Policy900, long const*, long*, at_cuda_detail::cub::ScanTileState<long, true>, std::plus<long>, at_cuda_detail::cub::NullType, unsigned int, long, false>(long const*, long*, at_cuda_detail::cub::ScanTileState<long, true>, int, std::plus<long>, at_cuda_detail::cub::NullType, unsigned int)",
+      "void at::native::vectorized_elementwise_kernel<2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul> >(int, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul>)"
+    ],
+    "total_device_time_us": 3016311.143000038
+  },
+  "environment": {
+    "accelerate": "1.10.1",
+    "cuda_runtime": "12.8",
+    "huggingface-hub": "0.34.4",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "pydantic": "2.11.7",
+    "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.2"
+  },
+  "generation_count_before": 0,
+  "gpu": "NVIDIA RTX 6000 Ada Generation, 580.159.04, 49140 MiB",
+  "memory_after_load_bytes": 15234903552,
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "nvidia_smi_own_process_after_load": [
+    "14664, .venv/bin/python, 14976"
+  ],
+  "parameter_devices": [
+    "cuda:0"
+  ],
+  "parameter_dtypes": [
+    "torch.bfloat16"
+  ],
+  "precision": "bfloat16",
+  "prepared_data_sha256": {
+    "assessment_status.parquet": "78ce825cf83a18ba5bc834b3ef69f00a5224b210112bd38b98a4fe4979625342",
+    "weekly.parquet": "b894b2a583ef387203806b6c92c14037a9f3e61fe28b05837117e17d8de88200"
+  },
+  "quantization": "none",
+  "results": [
+    {
+      "final_repairs": 1,
+      "question_id": "dev_1",
+      "status": "agent_generated_and_repaired",
+      "tool_calls_executed": 3
+    },
+    {
+      "final_repairs": 0,
+      "question_id": "dev_2",
+      "status": "agent_generated_and_accepted",
+      "tool_calls_executed": 3
+    },
+    {
+      "error": "ValueError: Required comparison/observation panels omitted",
+      "fallback_status": "deterministic_fallback; NOT agent success",
+      "final_repairs": 1,
+      "question_id": "dev_3",
+      "status": "failed",
+      "tool_calls_executed": 2
+    }
+  ],
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "sampling": {
+    "do_sample": false,
+    "max_new_tokens": 1800
+  },
+  "started_utc": "2026-09-18T16:33:37.333688+00:00",
+  "status": "running",
+  "warmup_generations": 0
+}

@@ -1,0 +1,834 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "background": "#fbfaf7",
+    "font": "sans-serif",
+    "title": {
+      "anchor": "start",
+      "color": "#142e38",
+      "fontSize": 17,
+      "subtitleFontSize": 11
+    },
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300,
+      "stroke": null
+    }
+  },
+  "datasets": {
+    "data-0021f55af16eb463a5075f462447e533": [
+      {
+        "end_day": 6,
+        "focal_value": 0.0,
+        "peer_ci_high": 8.805827385992501,
+        "peer_ci_low": 7.303389984274828,
+        "peer_mean": 8.042699891133424,
+        "peer_observations": 1181,
+        "peer_people": 1181,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 0.0,
+        "peer_ci_high": 7.012790553454514,
+        "peer_ci_low": 5.833358596641048,
+        "peer_mean": 6.426200642511488,
+        "peer_observations": 1171,
+        "peer_people": 1171,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 0.0,
+        "peer_ci_high": 8.469396391369047,
+        "peer_ci_low": 7.129196118551587,
+        "peer_mean": 7.763010499338624,
+        "peer_observations": 1152,
+        "peer_people": 1152,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 0.0,
+        "peer_ci_high": 6.35305944055944,
+        "peer_ci_low": 4.76291520979021,
+        "peer_mean": 5.558628871128872,
+        "peer_observations": 1144,
+        "peer_people": 1144,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": null,
+        "peer_ci_high": 6.704506108880542,
+        "peer_ci_low": 5.254643180935112,
+        "peer_mean": 5.968959115831282,
+        "peer_observations": 1103,
+        "peer_people": 1103,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": null,
+        "peer_ci_high": 5.876032977059436,
+        "peer_ci_low": 4.640030848105666,
+        "peer_mean": 5.2839763642683355,
+        "peer_observations": 1096,
+        "peer_people": 1096,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": null,
+        "peer_ci_high": 7.7800864303285895,
+        "peer_ci_low": 6.265077260147602,
+        "peer_mean": 7.027170093129503,
+        "peer_observations": 1084,
+        "peer_people": 1084,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": null,
+        "peer_ci_high": 6.845468833600855,
+        "peer_ci_low": 5.420448769395399,
+        "peer_mean": 6.136837881219903,
+        "peer_observations": 1068,
+        "peer_people": 1068,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": null,
+        "peer_ci_high": 3.9405321698622733,
+        "peer_ci_low": 2.988680630569808,
+        "peer_mean": 3.4716918714555765,
+        "peer_observations": 1058,
+        "peer_people": 1058,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": null,
+        "peer_ci_high": 3.312057431041581,
+        "peer_ci_low": 2.498641416220667,
+        "peer_mean": 2.921298202278029,
+        "peer_observations": 1041,
+        "peer_people": 1041,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": null,
+        "peer_ci_high": 4.051376811594203,
+        "peer_ci_low": 3.210993213710605,
+        "peer_mean": 3.586312399355878,
+        "peer_observations": 1035,
+        "peer_people": 1035,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": null,
+        "peer_ci_high": 4.463595700416088,
+        "peer_ci_low": 3.434883263985206,
+        "peer_mean": 3.9618816458622286,
+        "peer_observations": 1030,
+        "peer_people": 1030,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 11
+      }
+    ],
+    "data-742c6a8fb82c8370de9a3a588a9fd194": [
+      {
+        "eligible_days": 7.0,
+        "end_day": 6,
+        "logging_completeness": "unknown",
+        "observation_status": "zero_recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 0,
+        "value": 0.0,
+        "week": 0
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 13,
+        "logging_completeness": "unknown",
+        "observation_status": "zero_recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 7,
+        "value": 0.0,
+        "week": 1
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 20,
+        "logging_completeness": "unknown",
+        "observation_status": "zero_recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 14,
+        "value": 0.0,
+        "week": 2
+      },
+      {
+        "eligible_days": 6.0,
+        "end_day": 27,
+        "logging_completeness": "unknown",
+        "observation_status": "zero_recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 21,
+        "value": 0.0,
+        "week": 3
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 34,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 28,
+        "value": null,
+        "week": 4
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 41,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 35,
+        "value": null,
+        "week": 5
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 48,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 42,
+        "value": null,
+        "week": 6
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 55,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 49,
+        "value": null,
+        "week": 7
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 62,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 56,
+        "value": null,
+        "week": 8
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 69,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 63,
+        "value": null,
+        "week": 9
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 76,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 70,
+        "value": null,
+        "week": 10
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 83,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 77,
+        "value": null,
+        "week": 11
+      }
+    ],
+    "data-ea80d459db51dd3426a4340c70c08077": [
+      {
+        "end_day": 6,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1181,
+        "peer_people": 1181,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1171,
+        "peer_people": 1171,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 1.0,
+        "peer_ci_high": 0.27823350694444443,
+        "peer_ci_low": 0.22569444444444445,
+        "peer_mean": 0.2517361111111111,
+        "peer_observations": 1152,
+        "peer_people": 1152,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1144,
+        "peer_people": 1144,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1103,
+        "peer_people": 1103,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1096,
+        "peer_people": 1096,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": null,
+        "peer_ci_high": 0.3865313653136531,
+        "peer_ci_low": 0.3316190036900369,
+        "peer_mean": 0.3607011070110701,
+        "peer_observations": 1084,
+        "peer_people": 1084,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": null,
+        "peer_ci_high": 0.9962546816479401,
+        "peer_ci_low": 0.9859550561797753,
+        "peer_mean": 0.9915730337078652,
+        "peer_observations": 1068,
+        "peer_people": 1068,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1058,
+        "peer_people": 1058,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1041,
+        "peer_people": 1041,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1035,
+        "peer_people": 1035,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 1030,
+        "peer_people": 1030,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 11
+      }
+    ],
+    "data-ff9765e3422a4aa2a152b5585da6fc39": [
+      {
+        "as_of_day": 20,
+        "assessment_id": 14984,
+        "course": "BBB_2013B",
+        "due_day": 19,
+        "person_id": 143854,
+        "score_status": "withheld_release_time_unknown",
+        "state": "no_nonbanked_submission_by_week_end",
+        "week": 2
+      },
+      {
+        "as_of_day": 48,
+        "assessment_id": 14985,
+        "course": "BBB_2013B",
+        "due_day": 47,
+        "person_id": 143854,
+        "score_status": "withheld_release_time_unknown",
+        "state": "ineligible_on_due_date",
+        "week": 6
+      },
+      {
+        "as_of_day": 55,
+        "assessment_id": 14991,
+        "course": "BBB_2013B",
+        "due_day": 54,
+        "person_id": 143854,
+        "score_status": "withheld_release_time_unknown",
+        "state": "ineligible_on_due_date",
+        "week": 7
+      }
+    ]
+  },
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "spacing": 28,
+  "vconcat": [
+    {
+      "data": {
+        "name": "data-0021f55af16eb463a5075f462447e533"
+      },
+      "height": 190,
+      "layer": [
+        {
+          "encoding": {
+            "x": {
+              "axis": {
+                "tickMinStep": 1
+              },
+              "field": "week",
+              "title": "Week since presentation start",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_ci_low",
+              "scale": {
+                "zero": true
+              },
+              "title": "recorded clicks / eligible day",
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "peer_ci_high"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "opacity": 0.16,
+            "type": "area"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_mean",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_people",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_observations",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_mean",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "strokeWidth": 2,
+            "type": "line"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "focal_value",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "focal_value",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#b64c35",
+            "point": {
+              "color": "#b64c35"
+            },
+            "strokeWidth": 2.5,
+            "type": "line"
+          }
+        }
+      ],
+      "title": {
+        "subtitle": [
+          "Rust: focal student \u00b7 teal: same-week peers; band: 95% peer-mean bootstrap interval",
+          "Individual prediction uncertainty is not estimated."
+        ],
+        "text": "Clicks per eligible day"
+      },
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-742c6a8fb82c8370de9a3a588a9fd194"
+      },
+      "encoding": {
+        "color": {
+          "field": "observation_status",
+          "legend": {
+            "labelLimit": 260,
+            "orient": "bottom"
+          },
+          "scale": {
+            "domain": [
+              "recorded_activity",
+              "zero_recorded_activity",
+              "ineligible",
+              "unknown"
+            ],
+            "range": [
+              "#286f83",
+              "#e4bb64",
+              "#aaaeb3",
+              "#ac78a5"
+            ]
+          },
+          "title": "Observation status",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "week",
+            "type": "quantitative"
+          },
+          {
+            "field": "eligible_days",
+            "type": "quantitative"
+          },
+          {
+            "field": "observation_status",
+            "type": "nominal"
+          },
+          {
+            "field": "logging_completeness",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "field": "week",
+          "title": "Week",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "row",
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 30,
+      "mark": {
+        "type": "rect"
+      },
+      "title": "Observation status \u00b7 registration is not study time",
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-ea80d459db51dd3426a4340c70c08077"
+      },
+      "height": 190,
+      "layer": [
+        {
+          "encoding": {
+            "x": {
+              "axis": {
+                "tickMinStep": 1
+              },
+              "field": "week",
+              "title": "Week since presentation start",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_ci_low",
+              "scale": {
+                "zero": true
+              },
+              "title": [
+                "Scheduled assessments without",
+                "recorded submission / week"
+              ],
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "peer_ci_high"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "opacity": 0.16,
+            "type": "area"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_mean",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_people",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_observations",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_mean",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "strokeWidth": 2,
+            "type": "line"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "focal_value",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "focal_value",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#b64c35",
+            "point": {
+              "color": "#b64c35"
+            },
+            "strokeWidth": 2.5,
+            "type": "line"
+          }
+        }
+      ],
+      "title": {
+        "subtitle": [
+          "Rust: focal student \u00b7 teal: same-week peers; band: 95% peer-mean bootstrap interval",
+          "Individual prediction uncertainty is not estimated."
+        ],
+        "text": "Scheduled no submission"
+      },
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-ff9765e3422a4aa2a152b5585da6fc39"
+      },
+      "encoding": {
+        "color": {
+          "field": "state",
+          "legend": {
+            "labelLimit": 400,
+            "orient": "bottom"
+          },
+          "title": "Record state",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "assessment_id",
+            "type": "quantitative"
+          },
+          {
+            "field": "due_day",
+            "type": "quantitative"
+          },
+          {
+            "field": "as_of_day",
+            "type": "quantitative"
+          },
+          {
+            "field": "state",
+            "type": "nominal"
+          },
+          {
+            "field": "score_status",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "field": "due_day",
+          "title": "Scheduled due day since presentation start",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "assessment_id",
+          "title": "Assessment",
+          "type": "nominal"
+        }
+      },
+      "height": 120,
+      "mark": {
+        "filled": true,
+        "size": 150,
+        "type": "point"
+      },
+      "title": {
+        "subtitle": "No grade-release timestamps; scores withheld. Exemptions are not verified.",
+        "text": "Scheduled assessment record state"
+      },
+      "width": 760
+    }
+  ]
+}

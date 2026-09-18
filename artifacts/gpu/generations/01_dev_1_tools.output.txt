@@ -1,0 +1,25 @@
+{
+  "tool_calls": [
+    {
+      "question_id": "dev_1",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "start_week": 8,
+      "end_week": 11
+    },
+    {
+      "question_id": "dev_1",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "start_week": 8,
+      "end_week": 11
+    },
+    {
+      "question_id": "dev_1",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "start_week": 8,
+      "end_week": 11
+    }
+  ]
+}

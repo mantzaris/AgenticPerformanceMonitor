@@ -1,0 +1,20 @@
+{
+  "tool_calls": [
+    {
+      "tool": "analyze",
+      "question_id": "dev_3",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "start_week": 8,
+      "end_week": 11
+    },
+    {
+      "tool": "analyze",
+      "question_id": "dev_3",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "start_week": 8,
+      "end_week": 11
+    }
+  ]
+}

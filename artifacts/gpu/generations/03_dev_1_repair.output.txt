@@ -1,0 +1,51 @@
+{
+  "question_id": "dev_1",
+  "cutoff_day": 83,
+  "evidence_ids": [
+    "ev_9856df36637ea858",
+    "ev_27b025a23ed8bc7b",
+    "ev_b8bec2615e9b8312"
+  ],
+  "claims": [
+    {
+      "template": "comparison",
+      "evidence_id": "ev_9856df36637ea858"
+    },
+    {
+      "template": "comparison",
+      "evidence_id": "ev_27b025a23ed8bc7b"
+    },
+    {
+      "template": "comparison",
+      "evidence_id": "ev_b8bec2615e9b8312"
+    },
+    {
+      "template": "personal_change",
+      "evidence_id": "ev_9856df36637ea858"
+    },
+    {
+      "template": "measurement_limits",
+      "evidence_id": "ev_9856df36637ea858"
+    }
+  ],
+  "panels": [
+    {
+      "kind": "trajectory",
+      "evidence_id": "ev_9856df36637ea858"
+    },
+    {
+      "kind": "comparison",
+      "evidence_id": "ev_27b025a23ed8bc7b"
+    },
+    {
+      "kind": "comparison",
+      "evidence_id": "ev_b8bec2615e9b8312"
+    },
+    {
+      "kind": "observation_status",
+      "evidence_id": "ev_9856df36637ea858"
+    }
+  ],
+  "annotation": "descriptive_only",
+  "followups": []
+}

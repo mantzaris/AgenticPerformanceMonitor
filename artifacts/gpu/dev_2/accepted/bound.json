@@ -1,0 +1,37 @@
+{
+  "claims": [
+    {
+      "evidence_id": "ev_320ed8b9b5f037ae",
+      "template": "comparison",
+      "text": "Focal mean 1.39; peer mean 3.43; difference -2.04 recorded clicks / eligible day, focal weeks 8\u201311. 1057 distinct peers / 4160 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: other development students, eligible weeks (weeks 8\u201311). Peer mean 95% bootstrap interval [3.08, 3.82]; not an individual prediction interval."
+    },
+    {
+      "evidence_id": "ev_ebb7b92e6a8f72b2",
+      "template": "comparison",
+      "text": "Focal mean 1.39; peer mean 3.68; difference -2.29 recorded clicks / eligible day, focal weeks 8\u201311. 850 distinct peers / 3346 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: other development students, eligible weeks, first_attempt (weeks 8\u201311). Peer mean 95% bootstrap interval [3.26, 4.17]; not an individual prediction interval."
+    },
+    {
+      "evidence_id": "ev_09866e407e25e08b",
+      "template": "comparison",
+      "text": "Focal mean 1.39; peer mean 6.87; difference -5.48 recorded clicks / eligible day, focal weeks 8\u201311. 1182 distinct peers / 4648 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: other development students, eligible weeks, earlier study stage (weeks 0\u20133). Peer mean 95% bootstrap interval [6.34, 7.47]; not an individual prediction interval."
+    },
+    {
+      "evidence_id": "ev_320ed8b9b5f037ae",
+      "template": "personal_change",
+      "text": "Personal mean changed from 3.93 in weeks 0\u20133 (4 observed weeks) to 1.39 in weeks 8\u201311 (4 observed weeks): change -2.54 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval."
+    },
+    {
+      "evidence_id": "ev_320ed8b9b5f037ae",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown."
+    }
+  ],
+  "evidence_hashes": {
+    "ev_09866e407e25e08b": "8d5944b881f92d166c4c1f6dcdd878e576122ad799c6ae95fda1fce096cf0cc0",
+    "ev_320ed8b9b5f037ae": "be365177540b84db82e9056ba610db0927cb39c7541e621a6ae938264bbb17fe",
+    "ev_ebb7b92e6a8f72b2": "82872409491df58174dfa743f7c85c0a26615d41f0f1d787d0d8e7a97012a739"
+  },
+  "question_id": "dev_2",
+  "renderer": "controlled Altair \u2192 Vega-Lite \u2192 SVG/PNG; HTML inspector requires no network",
+  "validation": "PASS"
+}

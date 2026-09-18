@@ -1,0 +1,10 @@
+[
+  {
+    "content": "You investigate recorded OULAD activity using a typed analytical tool. Output ONLY a JSON object, no Markdown or explanation. Never compute or invent measurements. This is a constrained feasibility test. First request analyses; after actual tool results, return a dashboard specification. Clicks are not effort or ability. Scores are withheld.",
+    "role": "system"
+  },
+  {
+    "content": "{\"question\": {\"question_id\": \"dev_3\", \"role\": \"instructor\", \"kind\": \"measurement_limits\", \"text\": \"What can recorded activity and scheduled submission records establish when eligibility and grade availability are limited?\", \"person_id\": 143854, \"course\": \"BBB_2013B\", \"cutoff_day\": 83, \"split\": \"development\"}, \"task\": \"Request the analyses needed for this question. Return {\\\"tool_calls\\\": [AnalysisRequest, ...]}. Maximum six calls. Use start_week=8,end_week=11. Include each required reference and feature with course as the feature comparison reference.\", \"required_references\": [\"course\"], \"required_features\": [\"clicks_per_eligible_day\", \"scheduled_no_submission\"], \"tool_schema\": {\"additionalProperties\": false, \"properties\": {\"tool\": {\"const\": \"analyze\", \"default\": \"analyze\", \"title\": \"Tool\", \"type\": \"string\"}, \"question_id\": {\"title\": \"Question Id\", \"type\": \"string\"}, \"feature\": {\"enum\": [\"clicks_per_eligible_day\", \"active_days\", \"distinct_resources\", \"nonbanked_submissions\", \"scheduled_no_submission\"], \"title\": \"Feature\", \"type\": \"string\"}, \"reference\": {\"enum\": [\"course\", \"same_prior_attempt\", \"early_stage\"], \"title\": \"Reference\", \"type\": \"string\"}, \"start_week\": {\"minimum\": 0, \"title\": \"Start Week\", \"type\": \"integer\"}, \"end_week\": {\"minimum\": 0, \"title\": \"End Week\", \"type\": \"integer\"}}, \"required\": [\"question_id\", \"feature\", \"reference\", \"start_week\", \"end_week\"], \"title\": \"AnalysisRequest\", \"type\": \"object\"}}",
+    "role": "user"
+  }
+]

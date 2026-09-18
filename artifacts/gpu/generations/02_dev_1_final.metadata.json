@@ -1,0 +1,18 @@
+{
+  "allocated_bytes": 15243493376,
+  "completion_tokens": 469,
+  "cuda_event_ms": 10583.7607421875,
+  "elapsed_seconds": 10.628165221773088,
+  "generation": 2,
+  "input_device": "cuda:0",
+  "nvidia_smi_own_process": [
+    "14664, .venv/bin/python, 15744"
+  ],
+  "output_device": "cuda:0",
+  "peak_allocated_bytes": 15792657408,
+  "phase": "final",
+  "prompt_tokens": 2733,
+  "question_id": "dev_1",
+  "started_utc": "2026-09-18T16:34:47.702315+00:00",
+  "status": "completed"
+}

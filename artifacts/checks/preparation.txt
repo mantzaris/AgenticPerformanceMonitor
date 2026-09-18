@@ -1,0 +1,8 @@
+Audited courses: 22 rows, 0 duplicate key excess
+Audited assessments: 206 rows, 0 duplicate key excess
+Audited vle: 6364 rows, 0 duplicate key excess
+Audited studentInfo: 32593 rows, 0 duplicate key excess
+Audited studentRegistration: 32593 rows, 0 duplicate key excess
+Audited studentAssessment: 173912 rows, 0 duplicate key excess
+Audited studentVle: 10655280 rows, 2195960 duplicate key excess
+{'courses': ['AAA_2013J', 'BBB_2013B'], 'weekly_rows': 18276, 'questions': [{'question_id': 'dev_1', 'role': 'learner', 'kind': 'personal_change', 'text': 'How does my recent recorded activity compare with my earlier baseline and course peers?', 'person_id': 2412002, 'course': 'AAA_2013J', 'cutoff_day': 83, 'split': 'development'}, {'question_id': 'dev_2', 'role': 'researcher', 'kind': 'reference_sensitivity', 'text': 'Does the comparison change for same-prior-attempt peers or for an earlier study stage?', 'person_id': 537464, 'course': 'BBB_2013B', 'cutoff_day': 83, 'split': 'development'}, {'question_id': 'dev_3', 'role': 'instructor', 'kind': 'measurement_limits', 'text': 'What can recorded activity and scheduled submission records establish when eligibility and grade availability are limited?', 'person_id': 143854, 'course': 'BBB_2013B', 'cutoff_day': 83, 'split': 'development'}]}

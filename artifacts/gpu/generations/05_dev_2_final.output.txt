@@ -1,0 +1,58 @@
+{
+  "question_id": "dev_2",
+  "cutoff_day": 83,
+  "evidence_ids": [
+    "ev_320ed8b9b5f037ae",
+    "ev_ebb7b92e6a8f72b2",
+    "ev_09866e407e25e08b"
+  ],
+  "claims": [
+    {
+      "template": "comparison",
+      "evidence_id": "ev_320ed8b9b5f037ae"
+    },
+    {
+      "template": "comparison",
+      "evidence_id": "ev_ebb7b92e6a8f72b2"
+    },
+    {
+      "template": "comparison",
+      "evidence_id": "ev_09866e407e25e08b"
+    },
+    {
+      "template": "personal_change",
+      "evidence_id": "ev_320ed8b9b5f037ae"
+    },
+    {
+      "template": "measurement_limits",
+      "evidence_id": "ev_320ed8b9b5f037ae"
+    }
+  ],
+  "panels": [
+    {
+      "kind": "comparison",
+      "evidence_id": "ev_320ed8b9b5f037ae"
+    },
+    {
+      "kind": "comparison",
+      "evidence_id": "ev_ebb7b92e6a8f72b2"
+    },
+    {
+      "kind": "comparison",
+      "evidence_id": "ev_09866e407e25e08b"
+    },
+    {
+      "kind": "observation_status",
+      "evidence_id": "ev_320ed8b9b5f037ae"
+    },
+    {
+      "kind": "trajectory",
+      "evidence_id": "ev_320ed8b9b5f037ae"
+    }
+  ],
+  "annotation": "reference_dependent",
+  "followups": [
+    "inspect_reference",
+    "check_assessment_availability"
+  ]
+}
