@@ -1,0 +1,28 @@
+{
+  "agent_order_entries": 72,
+  "attempted_generations": 30,
+  "checks": [
+    "person-disjoint structural selection",
+    "fixed reference exclusions",
+    "unmodified development observations",
+    "identical paired facts/contracts",
+    "balanced serial positions",
+    "historical/frozen hashes",
+    "bounds and actual CUDA tensor/kernel proof",
+    "exact bound/chart/SVG replay when requested"
+  ],
+  "created_utc": "2026-09-18T19:32:11.609315+00:00",
+  "frozen_files_unchanged": 0,
+  "historical_files_unchanged": 1043,
+  "model_process_seconds": 414.39659557817504,
+  "new_people": 12,
+  "old_policy_texts_unchanged": true,
+  "paired_facts_and_requirements_equal": true,
+  "pilot_result_count": 0,
+  "question_instances": 24,
+  "replay_count": 0,
+  "replayed": [],
+  "reserved_people_excluded": 8583,
+  "stage2_frozen_files_unchanged": 45,
+  "status": "PASS"
+}

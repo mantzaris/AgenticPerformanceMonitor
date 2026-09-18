@@ -12,6 +12,8 @@ def main():
     if output.exists():raise ValueError('Verification output already exists; choose a new path')
     history=read_json(ROOT/'checks/history_inventory.json')['files']
     assert all(file_hash(p)==sha for p,sha in history.items())
+    stage2_frozen=read_json('artifacts/stage2/protocol/freeze.json')['files']
+    assert all(file_hash(p)==sha for p,sha in stage2_frozen.items())
     freeze=ROOT/'protocol/freeze.json'
     frozen=read_json(freeze)['files'] if freeze.exists() else {}
     assert all(file_hash(p)==sha for p,sha in frozen.items())
@@ -57,7 +59,7 @@ def main():
         for p in (ROOT/'gpu/generations').glob('*.metadata.json'):
             r=read_json(p)
             if r['status']=='completed':assert r['input_device']=='cuda:0' and r['output_device']=='cuda:0' and r['nvidia_smi_own_process']
-    write_json(output,{'created_utc':now(),'status':'PASS','historical_files_unchanged':len(history),'frozen_files_unchanged':len(frozen),'new_people':12,'question_instances':24,'agent_order_entries':72,'paired_facts_and_requirements_equal':True,'reserved_people_excluded':len(splits['reserved']),'old_policy_texts_unchanged':True,'replayed':replayed,'replay_count':len(replayed),'pilot_result_count':len(results),'attempted_generations':len(gens),'model_process_seconds':sum(e['elapsed_seconds'] for e in process),'checks':['person-disjoint structural selection','fixed reference exclusions','unmodified development observations','identical paired facts/contracts','balanced serial positions','historical/frozen hashes','bounds and actual CUDA tensor/kernel proof','exact bound/chart/SVG replay when requested']})
+    write_json(output,{'created_utc':now(),'status':'PASS','historical_files_unchanged':len(history),'stage2_frozen_files_unchanged':len(stage2_frozen),'frozen_files_unchanged':len(frozen),'new_people':12,'question_instances':24,'agent_order_entries':72,'paired_facts_and_requirements_equal':True,'reserved_people_excluded':len(splits['reserved']),'old_policy_texts_unchanged':True,'replayed':replayed,'replay_count':len(replayed),'pilot_result_count':len(results),'attempted_generations':len(gens),'model_process_seconds':sum(e['elapsed_seconds'] for e in process),'checks':['person-disjoint structural selection','fixed reference exclusions','unmodified development observations','identical paired facts/contracts','balanced serial positions','historical/frozen hashes','bounds and actual CUDA tensor/kernel proof','exact bound/chart/SVG replay when requested']})
     print('PASS',output,'replays',len(replayed))
 
 if __name__=='__main__':main()

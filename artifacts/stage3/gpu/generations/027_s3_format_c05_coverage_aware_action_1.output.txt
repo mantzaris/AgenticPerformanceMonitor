@@ -1,0 +1,25 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_format_c05",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "What do recorded assessment submissions and scheduled non-submissions tell us so far?",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Can they tell us my marks or learning progress?",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55.",
+      "status": "uninvestigated"
+    }
+  ]
+}

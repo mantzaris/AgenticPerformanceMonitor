@@ -1,0 +1,64 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_format_c01",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_format_c01",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_format_c01",
+      "feature": "distinct_resources",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_format_c01",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_format_c01",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "s3_format_c01 recent clicks_per_eligible_day compared to peers",
+      "status": "answered",
+      "evidence_ids": ["s2_0b81691c5242472e644b"]
+    },
+    {
+      "request": "s3_format_c01 earlier weeks 0\u20133 clicks_per_eligible_day compared to peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "s3_format_c01 recent active_days compared to peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "s3_format_c01 recent distinct_resources compared to peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "s3_format_c01 recent nonbanked_submissions compared to peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "s3_format_c01 recent scheduled_no_submission compared to peers",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

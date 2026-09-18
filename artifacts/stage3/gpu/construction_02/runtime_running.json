@@ -1,0 +1,127 @@
+{
+  "allocated_bytes_after_load": 15234903552,
+  "backend": "transformers",
+  "cpu_offload": false,
+  "cuda_execution_proof": {
+    "device_events": 1451,
+    "generation": 22,
+    "kernel_names": [
+      "Memcpy HtoD (Pageable -> Device)",
+      "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<bool>, std::array<char*, 1ul> >(int, at::native::FillFunctor<bool>, std::array<char*, 1ul>)",
+      "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> > const&)::{lambda(int)#1})",
+      "void at::native::reduce_kernel<256, 2, at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4, 4> >(at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4, 4>)",
+      "Memcpy DtoD (Device -> Device)",
+      "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4, 4> >(at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4, 4>)",
+      "Memcpy DtoH (Device -> Pinned)",
+      "void at::native::vectorized_elementwise_kernel<4, at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, long)::{lambda(long)#1}, std::array<char*, 2ul> >(int, at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, long)::{lambda(long)#1}, std::array<char*, 2ul>)",
+      "void at::native::vectorized_elementwise_kernel<2, at::native::FillFunctor<long>, std::array<char*, 1ul> >(int, at::native::FillFunctor<long>, std::array<char*, 1ul>)",
+      "void at_cuda_detail::cub::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<long, true> >(at_cuda_detail::cub::ScanTileState<long, true>, int)",
+      "void at_cuda_detail::cub::DeviceScanKernel<at_cuda_detail::cub::DeviceScanPolicy<long, std::plus<long> >::Policy900, long const*, long*, at_cuda_detail::cub::ScanTileState<long, true>, std::plus<long>, at_cuda_detail::cub::NullType, unsigned int, long, false>(long const*, long*, at_cuda_detail::cub::ScanTileState<long, true>, int, std::plus<long>, at_cuda_detail::cub::NullType, unsigned int)",
+      "void at::native::vectorized_elementwise_kernel<2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul> >(int, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul>)",
+      "void at::native::unrolled_elementwise_kernel<at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, long)::{lambda(long)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, long)::{lambda(long)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)",
+      "void at::native::vectorized_elementwise_kernel<4, at::native::AUnaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> >, std::array<char*, 2ul> >(int, at::native::AUnaryFunctor<long, long, bool, at::native::(anonymous namespace)::CompareEqFunctor<long> >, std::array<char*, 2ul>)",
+      "void at::native::vectorized_elementwise_kernel<2, at::native::(anonymous namespace)::masked_fill_kernel(at::TensorIterator&, c10::Scalar const&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, bool)#1}, std::array<char*, 3ul> >(int, at::native::(anonymous namespace)::masked_fill_kernel(at::TensorIterator&, c10::Scalar const&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, bool)#1}, std::array<char*, 3ul>)",
+      "void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)"
+    ],
+    "total_device_time_us": 20092.70099999926
+  },
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 1500
+  },
+  "environment": {
+    "accelerate": "1.10.1",
+    "altair": "5.5.0",
+    "cuda_runtime": "12.8",
+    "huggingface-hub": "0.34.4",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "pydantic": "2.11.7",
+    "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.2",
+    "vl-convert-python": "1.8.0"
+  },
+  "execution_commit": "637732f7efeab99e88ff3092d9be4845f50b451c",
+  "freeze_sha256": null,
+  "generations_before": 21,
+  "gpu": "NVIDIA RTX 6000 Ada Generation, 580.159.04, 49140 MiB",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_files_verified": [
+    "LICENSE",
+    "README.md",
+    "config.json",
+    "generation_config.json",
+    "merges.txt",
+    "model-00001-of-00004.safetensors",
+    "model-00002-of-00004.safetensors",
+    "model-00003-of-00004.safetensors",
+    "model-00004-of-00004.safetensors",
+    "model.safetensors.index.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.json"
+  ],
+  "model_manifest_sha256": "3bcc54684e5559685a267488140a0555f26f9e73cfa04d022c06c1f41a5363f8",
+  "nvidia_smi_after_load": [
+    "61493, /workspace/apm-stage1/.venv/bin/python, 14976"
+  ],
+  "parameter_devices": [
+    "cuda:0"
+  ],
+  "parameter_dtypes": [
+    "torch.bfloat16"
+  ],
+  "precision": "bfloat16",
+  "process_id": "construction_02",
+  "profiling_in_pilot_episode": false,
+  "quantization": "none",
+  "results": [
+    {
+      "completed_utc": "2026-09-18T19:28:35.105065+00:00",
+      "completion_tokens": 2907,
+      "elapsed_seconds": 68.6877278983593,
+      "fallback": false,
+      "first_attempt_valid": false,
+      "generations": 4,
+      "method": "coverage_aware",
+      "prompt_tokens": 22905,
+      "question_id": "s3_format_c01",
+      "redundant_requests": 0,
+      "repairs": 1,
+      "started_utc": "2026-09-18T19:27:26.408247+00:00",
+      "status": "agent_generated_and_repaired",
+      "subsequent_analysis_after_results": true,
+      "tool_calls_attempted": 6,
+      "tool_calls_executed": 6
+    },
+    {
+      "completed_utc": "2026-09-18T19:29:19.193519+00:00",
+      "completion_tokens": 1789,
+      "elapsed_seconds": 44.05964269768447,
+      "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.",
+      "fallback": false,
+      "first_attempt_valid": false,
+      "generations": 4,
+      "method": "coverage_aware",
+      "prompt_tokens": 21227,
+      "question_id": "s3_format_c05",
+      "redundant_requests": 0,
+      "repairs": 1,
+      "started_utc": "2026-09-18T19:28:35.130721+00:00",
+      "status": "failed",
+      "subsequent_analysis_after_results": true,
+      "tool_calls_attempted": 5,
+      "tool_calls_executed": 5
+    }
+  ],
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "shared_initialization_seconds": 23.67511127796024,
+  "shared_profile_warmup_seconds": 1.3196289278566837,
+  "started_utc": "2026-09-18T19:27:04.463291+00:00",
+  "status": "running",
+  "subset": "construction",
+  "timing_note": "Shared load/hash/import/profile overhead is not assigned to any method; CPU baseline runs separately on this same host",
+  "warmup_budget_partition": "construction_setup",
+  "warmup_generations": 1
+}

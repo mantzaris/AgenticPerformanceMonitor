@@ -1,0 +1,107 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_format_c01",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_0b81691c5242472e644b",
+      "s2_ea60d35855faf2f3efa2",
+      "s2_9fcb64a62a780a2a4b92",
+      "s2_dfc736ddc24eb53c3d7b",
+      "s2_b30ea20ab7885454bec8",
+      "s2_af0c341ad70f19c495c6"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_0b81691c5242472e644b"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_ea60d35855faf2f3efa2"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_9fcb64a62a780a2a4b92"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_dfc736ddc24eb53c3d7b"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_b30ea20ab7885454bec8"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_af0c341ad70f19c495c6"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_0b81691c5242472e644b"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_ea60d35855faf2f3efa2"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_9fcb64a62a780a2a4b92"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_dfc736ddc24eb53c3d7b"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_b30ea20ab7885454bec8"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_af0c341ad70f19c495c6"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_0b81691c5242472e644b"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "s3_format_c01 recent clicks_per_eligible_day compared to peers",
+      "status": "answered",
+      "evidence_ids": ["s2_0b81691c5242472e644b"]
+    },
+    {
+      "request": "s3_format_c01 earlier weeks 0\u20133 clicks_per_eligible_day compared to peers",
+      "status": "answered",
+      "evidence_ids": ["s2_ea60d35855faf2f3efa2"]
+    },
+    {
+      "request": "s3_format_c01 recent active_days compared to peers",
+      "status": "answered",
+      "evidence_ids": ["s2_9fcb64a62a780a2a4b92"]
+    },
+    {
+      "request": "s3_format_c01 recent distinct_resources compared to peers",
+      "status": "answered",
+      "evidence_ids": ["s2_dfc736ddc24eb53c3d7b"]
+    },
+    {
+      "request": "s3_format_c01 recent nonbanked_submissions compared to peers",
+      "status": "answered",
+      "evidence_ids": ["s2_b30ea20ab7885454bec8"]
+    },
+    {
+      "request": "s3_format_c01 recent scheduled_no_submission compared to peers",
+      "status": "answered",
+      "evidence_ids": ["s2_af0c341ad70f19c495c6"]
+    }
+  ],
+  "stopping_status": "complete"
+}
