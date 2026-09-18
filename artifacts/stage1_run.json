@@ -19,6 +19,7 @@
       "statsmodels": "0.14.5",
       "vl-convert-python": "1.8.0"
     },
+    "push_status": "Attempted; unavailable because configured GitHub HTTPS authentication had no credentials. Local branch ready.",
     "python": "3.10.18"
   },
   "resource_use": {
@@ -26,9 +27,11 @@
     "generation_limit": 20,
     "gpu_process_limit_seconds": 7200,
     "gpu_process_seconds": 138.15159073797986,
+    "last_stage_wall_measurement_utc": "2026-09-18T16:48:20.192475+00:00",
     "local_model_generations": 8,
     "model_download_bytes": 15242805751,
     "pod_left_running": true,
+    "stage_wall_seconds_through_push_attempt": 2356.192475,
     "stage_wall_seconds_to_artifact_freeze": 2231.026661,
     "wall_limit_seconds": 21600
   },

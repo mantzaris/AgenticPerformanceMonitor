@@ -14,6 +14,11 @@ The final handoff commit is the branch tip (`git rev-parse HEAD`), reported in t
 completion message. This documentation/metadata commit leaves the validated
 implementation source unchanged. No default-branch merge or force-push is intended.
 
+**Remote status:** the authorized branch push was attempted and failed because
+GitHub HTTPS credentials were unavailable (`could not read Username`, terminal
+prompts disabled). No branch was published. The complete local branch is ready
+for review; after authenticating, use `git push -u origin stage1/research-foundations`.
+
 Stage started **2026-09-18 16:09:04 UTC**. Handoff artifacts froze at
 **2026-09-18T16:46:15.026661+00:00**, after **2231.03 seconds** of stage wall time.
 Final Git transport is outside that artifact-freeze measurement. Local model
