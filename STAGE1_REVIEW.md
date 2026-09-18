@@ -7,17 +7,20 @@ the two mixed-model fits failed. Neither is represented as success. This stage
 does not establish agent superiority, generalization, estimator calibration or
 publication readiness.
 
-Branch: `stage1/research-foundations`.
+Current branch: `main`. At the user's request, `main` was fast-forwarded to the
+completed Stage 1 history and the fully merged `stage1/research-foundations`
+branch was deleted. Historical run metadata retains the original execution branch.
 Validated implementation commit: `c801f1bda91fa9ee4e7e84c3dcb6b3e4227cf6ea`.
 GPU execution source commit: `53187de3a55be7be0331d1e0fd200339af1c4c82`.
 The final handoff commit is the branch tip (`git rev-parse HEAD`), reported in the
 completion message. This documentation/metadata commit leaves the validated
-implementation source unchanged. No default-branch merge or force-push is intended.
+implementation source unchanged. Branch consolidation preserved all commits;
+no force-push was performed.
 
 **Remote status:** the authorized branch push was attempted and failed because
 GitHub HTTPS credentials were unavailable (`could not read Username`, terminal
 prompts disabled). No branch was published. The complete local branch is ready
-for review; after authenticating, use `git push -u origin stage1/research-foundations`.
+for review; after authenticating, use `git push origin main`.
 
 Stage started **2026-09-18 16:09:04 UTC**. Handoff artifacts froze at
 **2026-09-18T16:46:15.026661+00:00**, after **2231.03 seconds** of stage wall time.
