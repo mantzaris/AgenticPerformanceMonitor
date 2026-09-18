@@ -1,0 +1,113 @@
+{
+  "$defs": {
+    "DerivedSelection": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "peer_comparison",
+            "personal_change",
+            "assessment_status",
+            "observation_status",
+            "measurement_limit"
+          ],
+          "title": "Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "evidence_id"
+      ],
+      "title": "DerivedSelection",
+      "type": "object"
+    },
+    "Request": {
+      "additionalProperties": false,
+      "properties": {
+        "feature": {
+          "enum": [
+            "clicks_per_eligible_day",
+            "active_days",
+            "distinct_resources",
+            "nonbanked_submissions",
+            "scheduled_no_submission"
+          ],
+          "title": "Feature",
+          "type": "string"
+        },
+        "question_id": {
+          "title": "Question Id",
+          "type": "string"
+        },
+        "reference": {
+          "enum": [
+            "course",
+            "same_prior_attempt",
+            "early_stage"
+          ],
+          "title": "Reference",
+          "type": "string"
+        },
+        "tool": {
+          "const": "analyze",
+          "default": "analyze",
+          "title": "Tool",
+          "type": "string"
+        },
+        "window": {
+          "default": "recent",
+          "enum": [
+            "recent",
+            "baseline"
+          ],
+          "title": "Window",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question_id",
+        "feature",
+        "reference"
+      ],
+      "title": "Request",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "action": {
+      "enum": [
+        "analyze",
+        "final"
+      ],
+      "title": "Action",
+      "type": "string"
+    },
+    "answers": {
+      "items": {
+        "$ref": "#/$defs/DerivedSelection"
+      },
+      "maxItems": 10,
+      "title": "Answers",
+      "type": "array"
+    },
+    "requests": {
+      "items": {
+        "$ref": "#/$defs/Request"
+      },
+      "maxItems": 6,
+      "title": "Requests",
+      "type": "array"
+    }
+  },
+  "required": [
+    "action"
+  ],
+  "title": "DerivedAction",
+  "type": "object"
+}
