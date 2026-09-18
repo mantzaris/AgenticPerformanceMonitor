@@ -11,8 +11,14 @@ Work is on `main`, following [AGENTS.md](AGENTS.md). Starting commit:
 Initial construction used `690f1a4`; the two format checks used `637732f`.
 Final scientific/execution implementation: `6f07d4e0cf706e6589bc3d1a20bfe96a59256d82`.
 Frozen pilot execution commit: `6c0020b103a8485549cfa7659df3246e07cafb0d`.
+Completed results/review package: `6b784823ac2b305e531396c4b7a4f731f79dbd29`.
 The final handoff is the subsequent `main` tip (`git rev-parse HEAD`), reported in
 the completion message. No historical commit was rewritten.
+
+The results package was pushed to `origin main`. Plain HTTPS initially lacked a
+configured credential helper; the existing authenticated GitHub CLI account worked
+with a command-scoped helper. No credential was printed or stored in this repository,
+and no permanent authentication configuration changed. [Push record](artifacts/stage3/checks/push_result.json).
 
 ## Read first
 
@@ -209,7 +215,8 @@ and all original [generation messages/metadata](artifacts/stage3/gpu/generations
 substantiate usage. [Device check after completion](artifacts/stage3/checks/device_after_completion.json)
 found no compute processes and 2 MiB used. All three model processes exited; the
 local follow-up server also stopped. The pod was not terminated. Exact stage
-wall-clock and handoff status are in [run metadata](artifacts/stage3/run_manifest.json).
+wall-clock and handoff status are in [run metadata](artifacts/stage3/run_manifest.json):
+approximately **93 minutes**, below the six-hour ceiling.
 
 ## Checks, dashboards and remaining limitations
 
@@ -259,6 +266,7 @@ simulations, new models, training and manuscript work closed pending that review
 ```bash
 .venv/bin/python -m pytest -q tests/test_stage3.py
 .venv/bin/python scripts/stage3/verify.py --replay --output /tmp/stage3-verification.json
+.venv/bin/python scripts/stage3/summarize_handoff.py --output /tmp/stage3-summary.json
 .venv/bin/python -m trajectory_dashboards.stage3.followup --port 8766
 ```
 

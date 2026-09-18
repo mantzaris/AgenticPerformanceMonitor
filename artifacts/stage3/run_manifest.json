@@ -9,6 +9,7 @@
     "tests": "artifacts/stage3/checks/final_prefreeze_tests.xml",
     "verification": "artifacts/stage3/checks/final_verification.json"
   },
+  "completed_utc": "2026-09-18T20:37:03.763103+00:00",
   "counts": {
     "accepted_pilot_dashboards": 68,
     "agent_episodes": 72,
@@ -90,8 +91,12 @@
   "pod_terminated": false,
   "precision": "bfloat16",
   "push": {
-    "preflight": "authentication unavailable",
-    "status": "pending final ordinary push"
+    "authentication": "existing GitHub CLI, command-scoped credential helper",
+    "branch": "main",
+    "force": false,
+    "pushed_results_commit": "6b784823ac2b305e531396c4b7a4f731f79dbd29",
+    "remote": "origin",
+    "status": "results pushed; final handoff metadata follows on same main branch"
   },
   "readiness": "Ready for external scientific review with limitations; do not advance coverage-aware policy unchanged to full evaluation.",
   "report_prepared_utc": "2026-09-18T20:34:22.703781+00:00",
@@ -107,14 +112,16 @@
     "primary": "artifacts/stage3/reports/comparison.json",
     "stage2_posthoc": "artifacts/stage3/stage2_reanalysis/REANALYSIS.md"
   },
+  "results_commit": "6b784823ac2b305e531396c4b7a4f731f79dbd29",
   "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
   "scientific_implementation_commit": "6f07d4e0cf706e6589bc3d1a20bfe96a59256d82",
   "scientific_result": "No measured completeness/cost benefit for coverage-aware policy; deterministic baseline complete and cheaper.",
   "stage": 3,
   "started_utc": "2026-09-18T19:03:18Z",
   "starting_commit": "367fce597a4ba1d1277e9f84db5b5cc5241cbf69",
-  "status": "executed_and_verified_handoff_pending_git",
+  "status": "stage3_complete",
   "unclosed_model_processes": [],
   "wall_limit_seconds": 21600,
+  "wall_seconds": 5625.763103,
   "wall_seconds_at_report": 5464.703781
 }

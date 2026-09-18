@@ -1,0 +1,22 @@
+{
+  "branch": "main",
+  "credentials_logged": false,
+  "existing_github_cli_login": true,
+  "exit_code": 0,
+  "force_push": false,
+  "handoff_note": "Final metadata commit will use the same command. Final tip is reported in the completion message and git history.",
+  "initial_https_push": {
+    "error": "fatal: could not read Username for 'https://github.com': terminal prompts disabled",
+    "exit_code": 128
+  },
+  "permanent_config_changed": false,
+  "pushed_range": "367fce5..6b78482",
+  "recorded_utc": "2026-09-18T20:37:03.763103+00:00",
+  "remote": "origin",
+  "results_commit": "6b784823ac2b305e531396c4b7a4f731f79dbd29",
+  "ssh_check": {
+    "error": "Permission denied (publickey)",
+    "exit_code": 255
+  },
+  "successful_command": "GIT_TERMINAL_PROMPT=0 git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin main"
+}
