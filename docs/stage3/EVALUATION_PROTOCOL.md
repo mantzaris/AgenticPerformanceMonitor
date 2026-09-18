@@ -86,8 +86,8 @@ states, not private reasoning, and are not automatically filled by gold rules.
 All timed analytical work runs on the same GPU host CPU. One pinned local model,
 backend, BF16 CUDA device, greedy decoding, 1,500 output tokens, 16,000 input tokens,
 six tools/four generations/one final repair are shared by the three agents. No
-fallback counts as success. Six known Stage 2 construction episodes may inform
-pre-freeze changes. Setup/profiling generates a single-token model response and
+fallback counts as success. Six known Stage 2 construction episodes inform pre-freeze changes, followed by
+two format checks on reused construction people after phase-only reminders. Setup/profiling generates a single-token model response and
 counts toward the 32 construction/setup budget. Pilot generations have a separate
 288 cap. No failed pilot episode is rerun. At least one shared model load is reused
 for the full pilot; shared loading and profiler warm-up are reported separately.

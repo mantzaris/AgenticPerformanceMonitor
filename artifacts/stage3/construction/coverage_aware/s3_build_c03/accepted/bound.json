@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_f13ab7bf877d8147e0b1",
+      "selection_origin": "agent repaired",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20133 (4 observed weeks) to weeks 8\u201311 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_7359d75059e4aae6de21",
+      "selection_origin": "agent repaired",
+      "template": "personal_change",
+      "text": "active_days (days with recorded activity / week): Insufficient personal comparison from weeks 0\u20133 (4 observed weeks) to weeks 8\u201311 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_3c8ccda484bebbfdb83b",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 8\u201311. 1044 distinct peers / 4108 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_f71c64ec036cca750ae4",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "active_days (days with recorded activity / week): Focal mean 0.00; peer mean 2.30; difference -2.30 days with recorded activity / week, focal weeks 0\u20133. 1160 distinct peers / 4568 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [2.21, 2.41]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_3c8ccda484bebbfdb83b": "3324adeeb5401e0e1318572c3c975af4bf3251cd7319e2aae9602d7d97fda8e0",
+    "s2_7359d75059e4aae6de21": "f55db6d4d4c6e1ff16cdae436b379329ef1fb81f1191180a244efe0ce20c5d1a",
+    "s2_f13ab7bf877d8147e0b1": "66654fed7a6fbba3e6ad77a6223f0d766f54f980f7deea42531199cc5c3cb80a",
+    "s2_f71c64ec036cca750ae4": "31b51ada271d540b073832aa8bd2a09e31c8ba43b98fa12a9d731e503b0c2b26"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent repaired",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

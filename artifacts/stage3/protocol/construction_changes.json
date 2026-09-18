@@ -1,0 +1,29 @@
+{
+  "additional_construction_episode_ids": [
+    "s3_format_c01",
+    "s3_format_c05"
+  ],
+  "changes": [
+    "Add proposed-policy phase reminders using only public question/result state; no gold checklist or coverage feedback",
+    "Count a generation attempt before calling the backend so generation exceptions stay in per-episode usage",
+    "Continue to next distinct episode after a non-budget generation failure, preserving failed episode",
+    "Shared scoped feature/window wording unchanged; no integrity or support rule weakened"
+  ],
+  "created_utc": "2026-09-18T19:26:19.067081+00:00",
+  "initial_execution_commit": "690f1a4",
+  "initial_generations": 21,
+  "initial_outcomes": {
+    "failed": 2,
+    "first_valid": 2,
+    "repaired": 2
+  },
+  "observations": [
+    "First-turn batching despite one-request policy",
+    "Analyze action combined with final specification",
+    "One repair still omitted observation_status",
+    "One final/repair exceeded ten panels",
+    "Some request maps claimed complete despite omitted answers"
+  ],
+  "pilot_outputs_seen": false,
+  "worst_case_setup_total_including_pilot_profile": 31
+}

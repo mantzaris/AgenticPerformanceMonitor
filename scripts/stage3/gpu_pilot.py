@@ -144,7 +144,16 @@ def main():
         runtime['shared_profile_warmup_seconds']=time.monotonic()-warm_start
         runtime['profiling_in_pilot_episode']=False
         for q,method in episodes:
-            result=episode(engine,q,method,generate,ROOT/args.subset/method/q['question_id'])
+            case=ROOT/args.subset/method/q['question_id']
+            try:
+                result=episode(engine,q,method,generate,case)
+            except Exception as exc:
+                result=read_json(case/'result.json')
+                if isinstance(exc,TimeoutError) or time.monotonic()-PROCESS_START>=remaining or datetime.now(timezone.utc)>=deadline:
+                    raise
+                # Preserve a failed generation/episode, do not retry it. A fresh
+                # next episode may still run within the existing reservations.
+                gc.collect();torch.cuda.empty_cache()
             runtime['results'].append(result)
             write_json(out/'runtime_running.json',runtime)
             print(json.dumps(result),flush=True)

@@ -1,0 +1,78 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "s3_build_c01",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_203d4b7a58fcd72d1e4c",
+      "s2_fdd4eec41a652c542c18",
+      "s2_6c7fb3da1d23965060b7",
+      "s2_11c149ae2bde93d94e2f"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_203d4b7a58fcd72d1e4c"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_fdd4eec41a652c542c18"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_6c7fb3da1d23965060b7"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_11c149ae2bde93d94e2f"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_203d4b7a58fcd72d1e4c"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_fdd4eec41a652c542c18"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_6c7fb3da1d23965060b7"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_11c149ae2bde93d94e2f"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_203d4b7a58fcd72d1e4c"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "recent clicks_per_eligible_day compared to course peers",
+      "status": "answered",
+      "evidence_ids": ["s2_203d4b7a58fcd72d1e4c"]
+    },
+    {
+      "request": "baseline clicks_per_eligible_day compared to course peers",
+      "status": "answered",
+      "evidence_ids": ["s2_fdd4eec41a652c542c18"]
+    },
+    {
+      "request": "recent clicks_per_eligible_day compared to early stage peers",
+      "status": "answered",
+      "evidence_ids": ["s2_6c7fb3da1d23965060b7"]
+    },
+    {
+      "request": "baseline clicks_per_eligible_day compared to early stage peers",
+      "status": "answered",
+      "evidence_ids": ["s2_11c149ae2bde93d94e2f"]
+    }
+  ],
+  "stopping_status": "complete"
+}

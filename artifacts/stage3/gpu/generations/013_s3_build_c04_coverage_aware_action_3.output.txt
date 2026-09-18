@@ -1,0 +1,36 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_build_c04",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_99820926e049108959e4"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_99820926e049108959e4"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_99820926e049108959e4"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_99820926e049108959e4"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "s3_build_c04 baseline clicks_per_eligible_day compared to course peers",
+      "status": "answered"
+    }
+  ],
+  "stopping_status": "complete"
+}

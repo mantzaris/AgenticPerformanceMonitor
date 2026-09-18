@@ -20,14 +20,18 @@ def episode(engine,question,method,generate,case):
     # The complete registry is universal affordance information, never a task-specific answer/tool checklist.
     payload={'question':q.model_dump(),'windows':engine.registry.profile(q),'available_features':FEATURES,'available_references':engine.cfg['references'],'tool_window_choices':['recent','baseline'],'action_schema':Action.model_json_schema(),'public_interpretation_rules':Path('docs/stage3/PUBLIC_INTERPRETATION.md').read_text().split('For the historical')[0]}
     messages=[{'role':'system','content':prompts['common']+'\n'+prompts[method]},{'role':'user','content':json.dumps(payload)}]
+    if method=='coverage_aware':
+        messages.append({'role':'user','content':'First phase: extract the distinct user requests into a concise request_map. Request exactly ONE analysis now. An analyze action has requests and no specification. Your map describes requested answers, not a list of every possible tool call. Personal earlier/recent means are returned together.'})
     evidence={};sequence=[];seen_requests=set();final_attempted=False;repair_pending=False
     start=time.monotonic()
     try:
         for turn in range(engine.cfg['episode']['generations']):
             if turn:
                 messages.append({'role':'user','content':json.dumps({'generations_remaining_including_this':engine.cfg['episode']['generations']-turn,'analytical_requests_remaining':engine.cfg['episode']['tool_calls']-result['tool_calls_attempted'],'instruction':'Return final now.' if turn>=2 or repair_pending else 'Choose the next useful analysis or return final, based on the observed results.'})})
-            raw,metrics=generate(messages,q.question_id,method,'repair' if repair_pending else f'action_{turn+1}',case)
+                if method=='coverage_aware' and turn==1 and not repair_pending:
+                    messages.append({'role':'user','content':'Update your request_map from the returned evidence. If requested answers still need analysis, batch useful unresolved requests now, with specification omitted/null. Otherwise return final. Do not combine analyze requests and a final specification in one Action. No hidden checklist exists; use only the public question and returned results.'})
             result['generations']+=1
+            raw,metrics=generate(messages,q.question_id,method,'repair' if repair_pending else f'action_{turn+1}',case)
             for k in ('prompt_tokens','completion_tokens'):result[k]+=metrics.get(k,0)
             step={'turn':turn+1,'raw_output':raw,'generation_metadata':metrics}
             sequence.append(step)

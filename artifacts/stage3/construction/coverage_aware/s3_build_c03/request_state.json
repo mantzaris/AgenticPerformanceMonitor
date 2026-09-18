@@ -1,0 +1,29 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_f13ab7bf877d8147e0b1",
+        "s2_7359d75059e4aae6de21"
+      ],
+      "request": "What can these records establish regarding my recorded activity completeness?",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_7359d75059e4aae6de21"
+      ],
+      "request": "Recent recorded activity completeness",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_f13ab7bf877d8147e0b1"
+      ],
+      "request": "Baseline recorded activity completeness",
+      "status": "answered"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 4
+}

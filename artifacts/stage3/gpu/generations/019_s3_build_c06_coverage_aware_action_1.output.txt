@@ -1,0 +1,69 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_build_c06",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c06",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_build_c06",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c06",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_build_c06",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c06",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "recent course clicks_per_eligible_day",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "baseline course clicks_per_eligible_day",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "recent same_prior_attempt clicks_per_eligible_day",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "baseline same_prior_attempt clicks_per_eligible_day",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "recent early_stage clicks_per_eligible_day",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "baseline early_stage clicks_per_eligible_day",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

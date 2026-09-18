@@ -1,0 +1,35 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_203d4b7a58fcd72d1e4c"
+      ],
+      "request": "recent clicks_per_eligible_day compared to course peers",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_fdd4eec41a652c542c18"
+      ],
+      "request": "baseline clicks_per_eligible_day compared to course peers",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_6c7fb3da1d23965060b7"
+      ],
+      "request": "recent clicks_per_eligible_day compared to early stage peers",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_11c149ae2bde93d94e2f"
+      ],
+      "request": "baseline clicks_per_eligible_day compared to early stage peers",
+      "status": "answered"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 3
+}

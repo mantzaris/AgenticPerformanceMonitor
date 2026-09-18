@@ -1,0 +1,29 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_build_c04",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c04",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "s3_build_c04 recent clicks_per_eligible_day compared to course peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "s3_build_c04 baseline clicks_per_eligible_day compared to course peers",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

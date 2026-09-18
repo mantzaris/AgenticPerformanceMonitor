@@ -90,6 +90,12 @@ def test_personal_summary_from_baseline_request_is_equivalent():
     assert assess_item(item('personal'),spec(claims=[('personal_change','e')]),{'e':record(window='baseline')})['covered']
 
 
+def test_insufficiency_cannot_change_feature_or_requested_peer_window():
+    s=spec(claims=[('comparison','e')])
+    assert not assess_item(item(),s,{'e':record(feature='active_days',peer='insufficient_evidence')})['covered']
+    assert not assess_item(item(),s,{'e':record(window='baseline',peer='insufficient_evidence')})['covered']
+
+
 def test_unavailable_measurement_provenance_is_not_agent_credit():
     out=assess_item(item('availability'),spec(),{'e':record()})
     assert out['origin']=='compiler_supplied' and out['outcome']=='unavailable_measurement'

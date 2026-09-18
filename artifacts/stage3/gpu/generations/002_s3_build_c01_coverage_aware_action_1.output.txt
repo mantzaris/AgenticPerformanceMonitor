@@ -1,0 +1,49 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_build_c01",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c01",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_build_c01",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c01",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "recent clicks_per_eligible_day compared to course peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "baseline clicks_per_eligible_day compared to course peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "recent clicks_per_eligible_day compared to early stage peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "baseline clicks_per_eligible_day compared to early stage peers",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

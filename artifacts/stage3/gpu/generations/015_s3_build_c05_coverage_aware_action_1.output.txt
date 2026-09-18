@@ -1,0 +1,23 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_build_c05",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c05",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "What do recorded assessment submissions and scheduled non-submissions tell us so far?",
+      "status": "uninvestigated"
+    }
+  ]
+}

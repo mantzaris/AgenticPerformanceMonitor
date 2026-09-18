@@ -1,0 +1,22 @@
+{
+  "allocated_bytes": 15243529216,
+  "budget_partition": "construction_setup",
+  "completed_utc": "2026-09-18T19:21:02.129724+00:00",
+  "completion_tokens": 215,
+  "cuda_event_ms": 5314.6826171875,
+  "elapsed_seconds": 5.362071516923606,
+  "generation": 8,
+  "input_device": "cuda:0",
+  "method": "coverage_aware",
+  "nvidia_smi_own_process": [
+    "58988, /workspace/apm-stage1/.venv/bin/python, 17928"
+  ],
+  "output_device": "cuda:0",
+  "peak_allocated_bytes": 16774953472,
+  "phase": "action_2",
+  "process_id": "construction_01",
+  "prompt_tokens": 4329,
+  "question_id": "s3_build_c03",
+  "started_utc": "2026-09-18T19:20:56.767640+00:00",
+  "status": "completed"
+}

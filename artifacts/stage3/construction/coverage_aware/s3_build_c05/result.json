@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T19:22:40.077879+00:00",
+  "completion_tokens": 1422,
+  "elapsed_seconds": 35.943702068179846,
+  "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "coverage_aware",
+  "prompt_tokens": 19663,
+  "question_id": "s3_build_c05",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T19:22:04.131728+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 4,
+  "tool_calls_executed": 4
+}

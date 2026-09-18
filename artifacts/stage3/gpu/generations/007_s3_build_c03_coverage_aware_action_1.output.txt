@@ -1,0 +1,26 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_build_c03",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c03",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "What can these records establish regarding my recorded activity completeness?",
+      "status": "uninvestigated",
+      "evidence_ids": []
+    }
+  ],
+  "stopping_status": "continue"
+}

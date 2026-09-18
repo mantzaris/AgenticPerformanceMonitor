@@ -1,0 +1,27 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_build_c05",
+      "feature": "nonbanked_submissions",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_build_c05",
+      "feature": "scheduled_no_submission",
+      "reference": "early_stage",
+      "window": "recent"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "What do recorded assessment submissions and scheduled non-submissions tell us so far?",
+      "status": "evidence_available",
+      "evidence_ids": [
+        "s2_ba179549600b3b5946e1",
+        "s2_7ab91364ef719ff49ecf"
+      ]
+    }
+  ]
+}

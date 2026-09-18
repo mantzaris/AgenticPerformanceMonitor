@@ -83,7 +83,35 @@
         "split": "development",
         "text": "Using the stated earlier and recent windows, how does my activity compare with my own history and with different peer definitions? Earlier weeks 2\u20135; recent weeks 6\u20139; information through day 69."
       }
+    },
+    {
+      "method": "coverage_aware",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "personal_change",
+        "person_id": 268733,
+        "profile": "standard",
+        "question_id": "s3_format_c01",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recent recorded activity changed from my earlier history, and how does it compare with peers? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      }
+    },
+    {
+      "method": "coverage_aware",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "assessment_availability",
+        "person_id": 278447,
+        "profile": "mid",
+        "question_id": "s3_format_c05",
+        "role": "researcher",
+        "split": "development",
+        "text": "What do recorded assessment submissions and scheduled non-submissions tell us so far? Can they tell us my marks or learning progress? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      }
     }
   ],
-  "note": "Known Stage 2 people/questions; diagnosis only, never new pilot evidence."
+  "note": "Six known Stage 2 diagnosis episodes, then two pre-freeze format checks on reused people after phase-only prompt clarification. No pilot people; all attempts retained."
 }
