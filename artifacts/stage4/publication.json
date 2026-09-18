@@ -1,0 +1,21 @@
+{
+  "all_stage4_model_processes_stopped": true,
+  "attempted_generations": 108,
+  "branch": "main",
+  "final_metadata_commit": "This publication record is committed after the results commit; final main SHA is reported in the completion message.",
+  "force_push": false,
+  "inspection_browser_closed": true,
+  "local_servers_started": false,
+  "next_stage_started": false,
+  "pod_left_running": true,
+  "push_status": "successful",
+  "recorded_utc": "2026-09-18T21:46:16.786696+00:00",
+  "ref": "refs/heads/main",
+  "remote": "origin",
+  "remote_results_commit_verified": "0beb1bc509831d907662185f65f68ca8ccec8a70",
+  "results_commit": "0beb1bc509831d907662185f65f68ca8ccec8a70",
+  "stage4_model_process_seconds": 911.2660969141871,
+  "stage_wall_note": "Includes implementation, inference, verification, handoff preparation and verified results push; excludes only the short final metadata commit/push.",
+  "stage_wall_seconds_through_results_publication": 3659.786696,
+  "working_tree_after_results_push": "clean"
+}

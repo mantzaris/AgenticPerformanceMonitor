@@ -126,6 +126,7 @@
   "pod_terminated": false,
   "prefreeze_commit": "227653149b87121d05f570852ba186597e08c7ed",
   "prior_focal_people_excluded": 33,
+  "publication_record": "artifacts/stage4/publication.json",
   "recommendation": "Retain deterministic enumeration for this task class. External review of saved contracts and failure cases before any separately authorized architecture revision.",
   "reserved_population_opened": false,
   "results": [
@@ -234,11 +235,14 @@
       "valid_after_repair": 7
     }
   ],
+  "results_commit": "0beb1bc509831d907662185f65f68ca8ccec8a70",
+  "results_publication_utc": "2026-09-18T21:46:16.786696+00:00",
   "review_entry": "STAGE4_REVIEW.md",
   "shared_pilot_initialization_seconds": 24.054502465762198,
   "shared_pilot_profile_seconds": 1.3344293860718608,
   "stage": "stage4-v1",
   "stage_wall_seconds_through_handoff_preparation": 3483.764551,
+  "stage_wall_seconds_through_results_publication": 3659.786696,
   "started_utc": "2026-09-18T20:45:17+00:00",
   "starting_commit": "64c28dff1c2ba82c5abef789c9b21e2fe67f6740",
   "status": "completed; readiness target failed",

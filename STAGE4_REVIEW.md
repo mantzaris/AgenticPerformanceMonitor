@@ -13,7 +13,10 @@ Initial construction: `7a1220fa3c97702e31d79ba9099aedf6b531bdb2`.
 Flat-envelope format check: `d6283f162108998c18360654693b49cce72a1033`.
 Final pre-freeze implementation/protocol: `227653149b87121d05f570852ba186597e08c7ed`.
 Frozen pilot execution: `05f3cdcdb67bb6d1760d398b805bd962b60140b5`.
-The final handoff is the subsequent main tip (`git rev-parse HEAD`), with its full
+Results/handoff commit: `0beb1bc509831d907662185f65f68ca8ccec8a70`; pushed and verified on
+`origin main`. [Publication record](artifacts/stage4/publication.json) records the
+successful push and total elapsed time of **61.00 minutes**
+through results publication. The final metadata commit is the subsequent main tip (`git rev-parse HEAD`), with its full
 SHA reported in the completion message. History is preserved without force-push.
 
 ## Read first
