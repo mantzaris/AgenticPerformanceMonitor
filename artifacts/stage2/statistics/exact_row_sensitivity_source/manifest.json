@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-09-18T17:45:45.486555+00:00",
+  "description": "Small allowlisted derived development bundle for independent semantic checks and offline replay; no raw scores/outcomes or reserved trajectories",
+  "excluded_reference_people": [
+    28400,
+    143854,
+    174782,
+    200863,
+    268733,
+    278447,
+    351543,
+    354858,
+    369212,
+    482710,
+    483309,
+    483411,
+    518879,
+    537464,
+    550960,
+    553442,
+    554482,
+    1996746,
+    2412002,
+    2442685,
+    2486127
+  ],
+  "files": {
+    "assessment_status.parquet": "78ce825cf83a18ba5bc834b3ef69f00a5224b210112bd38b98a4fe4979625342",
+    "weekly.parquet": "4d1fb1a0573dc8753b7d0f88f8e296008d72c2ed2f9ffdc728cce14a5baf8480"
+  },
+  "primary_source_sha256": "25debc4c5af10423140ecdf955e0906ea7126ae67dabaf169d78986054449079",
+  "split_sha256": "019b1744e922c4e0ac7474b95e26fccc97556f30ee17cee99488d21ebc189e92",
+  "stage1_source_manifest_sha256": "a10915ec621b735680c47b7b18752efc8d311f45a1777f8eb8e4a46c2ffe79a8",
+  "version": "exact-row-deduplication sensitivity; not a correction"
+}

@@ -1,0 +1,37 @@
+{
+  "version": "stage2-v1",
+  "started_utc": "2026-09-18T17:33:59Z",
+  "deadline_utc": "2026-09-18T23:33:59Z",
+  "wall_seconds_limit": 21600,
+  "gpu_process_seconds_limit": 7200,
+  "generation_limit": 120,
+  "episode": {"tool_calls": 6, "generations": 4, "repairs": 1},
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "backend": "transformers",
+  "decoding": {"do_sample": false, "max_new_tokens": 1500},
+  "seed": 20260918,
+  "bootstrap_replicates": 500,
+  "minimum_peer_people": 20,
+  "minimum_focal_weeks": 2,
+  "profiles": {
+    "standard": {"cutoff_day": 83, "baseline": [0, 3], "recent": [8, 11]},
+    "mid": {"cutoff_day": 55, "baseline": [0, 3], "recent": [4, 7]},
+    "alternate": {"cutoff_day": 69, "baseline": [2, 5], "recent": [6, 9]},
+    "short": {"cutoff_day": 27, "baseline": [0, 1], "recent": [2, 3]},
+    "narrow": {"cutoff_day": 83, "baseline": [0, 3], "recent": [10, 11]}
+  },
+  "references": {
+    "course": {"group": "all", "time": "requested", "description": "Other development people in this presentation, excluding all task focal people"},
+    "same_prior_attempt": {"group": "same_prior_attempt", "time": "requested", "description": "Same binary prior-attempt group in this presentation, excluding all task focal people"},
+    "early_stage": {"group": "all", "time": "baseline", "description": "Presentation peers during the question's earlier baseline window, excluding all task focal people"}
+  },
+  "question_kinds": {
+    "personal_change": {"feature": "clicks_per_eligible_day", "context": ["personal_history", "observation"]},
+    "reference_sensitivity": {"feature": "clicks_per_eligible_day", "context": ["references", "personal_history", "observation"]},
+    "observation_limits": {"feature": "clicks_per_eligible_day", "context": ["observation", "assessment"]},
+    "insufficient_support": {"feature": "clicks_per_eligible_day", "context": ["observation", "personal_history"]},
+    "assessment_availability": {"feature": "nonbanked_submissions", "context": ["assessment", "observation"]},
+    "alternate_windows": {"feature": "clicks_per_eligible_day", "context": ["personal_history", "references", "observation"]}
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "construction_people": [
+    200863,
+    268733,
+    278447,
+    483309,
+    553442,
+    2442685
+  ],
+  "original_demo_people_excluded": [
+    143854,
+    537464,
+    2412002
+  ],
+  "pilot_people": [
+    28400,
+    174782,
+    351543,
+    354858,
+    369212,
+    482710,
+    483411,
+    518879,
+    550960,
+    554482,
+    1996746,
+    2486127
+  ],
+  "reference_population": "Development people in the selected presentation, excluding all 18 task focal people and the three original demonstration people across registrations. All methods share this population.",
+  "reserved_people": 8583,
+  "selected_utc": "2026-09-18T17:45:45.488082+00:00",
+  "selection_rule": "Only eligibility counts, prior-attempt category, course and profile; no activity magnitudes, outcomes or model results used.",
+  "synthetic_tasks": 0,
+  "tasks": [
+    {
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "personal_change",
+        "person_id": 268733,
+        "profile": "standard",
+        "question_id": "c01",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recent recorded activity changed from my earlier history, and how does it compare with peers? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 235,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "construction"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "reference_sensitivity",
+        "person_id": 2442685,
+        "profile": "standard",
+        "question_id": "c02",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is the direction of my recent activity comparison the same for presentation peers, peers with similar prior-attempt history, and peers at an earlier study stage? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 202,
+        "criterion": "repeat",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "construction"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "observation_limits",
+        "person_id": 483309,
+        "profile": "standard",
+        "question_id": "c03",
+        "role": "researcher",
+        "split": "development",
+        "text": "My recorded activity looks incomplete. What can these records establish, given registration eligibility, unknown logging completeness, and assessment records? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 147,
+        "criterion": "partial",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "construction"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "insufficient_support",
+        "person_id": 200863,
+        "profile": "standard",
+        "question_id": "c04",
+        "role": "researcher",
+        "split": "development",
+        "text": "Do I have enough recent eligible observations to compare my activity with my earlier history and peers? Please say when the data cannot support a comparison. Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 140,
+        "criterion": "insufficient",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "construction"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "assessment_availability",
+        "person_id": 278447,
+        "profile": "mid",
+        "question_id": "c05",
+        "role": "researcher",
+        "split": "development",
+        "text": "What do recorded assessment submissions and scheduled non-submissions tell us so far? Can they tell us my marks or learning progress? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      },
+      "selection": {
+        "candidate_people": 1082,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "construction"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 69,
+        "kind": "alternate_windows",
+        "person_id": 553442,
+        "profile": "alternate",
+        "question_id": "c06",
+        "role": "researcher",
+        "split": "development",
+        "text": "Using the stated earlier and recent windows, how does my activity compare with my own history and with different peer definitions? Earlier weeks 2\u20135; recent weeks 6\u20139; information through day 69."
+      },
+      "selection": {
+        "candidate_people": 1055,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "construction"
+    },
+    {
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "personal_change",
+        "person_id": 28400,
+        "profile": "standard",
+        "question_id": "p01",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recent recorded activity changed from my earlier history, and how does it compare with peers? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 234,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "personal_change",
+        "person_id": 550960,
+        "profile": "mid",
+        "question_id": "p02",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recent recorded activity changed from my earlier history, and how does it compare with peers? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      },
+      "selection": {
+        "candidate_people": 1080,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "reference_sensitivity",
+        "person_id": 483411,
+        "profile": "standard",
+        "question_id": "p03",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is the direction of my recent activity comparison the same for presentation peers, peers with similar prior-attempt history, and peers at an earlier study stage? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 201,
+        "criterion": "repeat",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "reference_sensitivity",
+        "person_id": 482710,
+        "profile": "standard",
+        "question_id": "p04",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is the direction of my recent activity comparison the same for presentation peers, peers with similar prior-attempt history, and peers at an earlier study stage? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 829,
+        "criterion": "first",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "observation_limits",
+        "person_id": 1996746,
+        "profile": "mid",
+        "question_id": "p05",
+        "role": "researcher",
+        "split": "development",
+        "text": "My recorded activity looks incomplete. What can these records establish, given registration eligibility, unknown logging completeness, and assessment records? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      },
+      "selection": {
+        "candidate_people": 96,
+        "criterion": "partial",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "observation_limits",
+        "person_id": 354858,
+        "profile": "standard",
+        "question_id": "p06",
+        "role": "researcher",
+        "split": "development",
+        "text": "My recorded activity looks incomplete. What can these records establish, given registration eligibility, unknown logging completeness, and assessment records? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 12,
+        "criterion": "partial",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 27,
+        "kind": "insufficient_support",
+        "person_id": 554482,
+        "profile": "short",
+        "question_id": "p07",
+        "role": "researcher",
+        "split": "development",
+        "text": "Do I have enough recent eligible observations to compare my activity with my earlier history and peers? Please say when the data cannot support a comparison. Earlier weeks 0\u20131; recent weeks 2\u20133; information through day 27."
+      },
+      "selection": {
+        "candidate_people": 37,
+        "criterion": "insufficient",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "insufficient_support",
+        "person_id": 369212,
+        "profile": "narrow",
+        "question_id": "p08",
+        "role": "researcher",
+        "split": "development",
+        "text": "Do I have enough recent eligible observations to compare my activity with my earlier history and peers? Please say when the data cannot support a comparison. Earlier weeks 0\u20133; recent weeks 10\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 148,
+        "criterion": "insufficient",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "assessment_availability",
+        "person_id": 2486127,
+        "profile": "standard",
+        "question_id": "p09",
+        "role": "researcher",
+        "split": "development",
+        "text": "What do recorded assessment submissions and scheduled non-submissions tell us so far? Can they tell us my marks or learning progress? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 233,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "assessment_availability",
+        "person_id": 351543,
+        "profile": "standard",
+        "question_id": "p10",
+        "role": "researcher",
+        "split": "development",
+        "text": "What do recorded assessment submissions and scheduled non-submissions tell us so far? Can they tell us my marks or learning progress? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection": {
+        "candidate_people": 1028,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 55,
+        "kind": "alternate_windows",
+        "person_id": 174782,
+        "profile": "mid",
+        "question_id": "p11",
+        "role": "researcher",
+        "split": "development",
+        "text": "Using the stated earlier and recent windows, how does my activity compare with my own history and with different peer definitions? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      },
+      "selection": {
+        "candidate_people": 236,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    },
+    {
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 69,
+        "kind": "alternate_windows",
+        "person_id": 518879,
+        "profile": "alternate",
+        "question_id": "p12",
+        "role": "researcher",
+        "split": "development",
+        "text": "Using the stated earlier and recent windows, how does my activity compare with my own history and with different peer definitions? Earlier weeks 2\u20135; recent weeks 6\u20139; information through day 69."
+      },
+      "selection": {
+        "candidate_people": 1050,
+        "criterion": "adequate",
+        "hash_rule": "minimum SHA256(stage2-structural-v1, task ID, person ID)",
+        "synthetic": false
+      },
+      "subset": "pilot"
+    }
+  ],
+  "version": "v1"
+}

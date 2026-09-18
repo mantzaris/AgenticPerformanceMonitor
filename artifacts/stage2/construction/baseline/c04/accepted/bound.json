@@ -1,0 +1,49 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_cdb1cb7d9651edb9fee8",
+      "selection_origin": "deterministic baseline",
+      "template": "comparison",
+      "text": "Insufficient evidence for a focal clicks per eligible day comparison in weeks 8\u201311. 1049 distinct peers / 4128 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_cdb1cb7d9651edb9fee8",
+      "selection_origin": "deterministic baseline",
+      "template": "personal_change",
+      "text": "Insufficient eligible personal history for a baseline-to-recent comparison.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "At least one selected comparison or personal-history contrast has insufficient observed support. Available descriptive quantities remain visible with their counts.",
+  "evidence_hashes": {
+    "s2_cdb1cb7d9651edb9fee8": "8e6117437bf6b751ecdf630d2f22ec4bbc5ae2af77e02759dd57b7a909232636"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "deterministic baseline",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

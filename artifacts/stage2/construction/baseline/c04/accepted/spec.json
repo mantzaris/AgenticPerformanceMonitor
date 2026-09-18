@@ -1,0 +1,37 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_cdb1cb7d9651edb9fee8",
+      "template": "comparison"
+    },
+    {
+      "evidence_id": "s2_cdb1cb7d9651edb9fee8",
+      "template": "personal_change"
+    }
+  ],
+  "conclusion": "insufficient_evidence",
+  "cutoff_day": 83,
+  "evidence_ids": [
+    "s2_cdb1cb7d9651edb9fee8"
+  ],
+  "followups": [
+    "change_reference",
+    "change_window",
+    "check_assessment_availability"
+  ],
+  "panels": [
+    {
+      "evidence_id": "s2_cdb1cb7d9651edb9fee8",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_cdb1cb7d9651edb9fee8",
+      "kind": "observation_status"
+    },
+    {
+      "evidence_id": "s2_cdb1cb7d9651edb9fee8",
+      "kind": "comparison"
+    }
+  ],
+  "question_id": "c04"
+}

@@ -1,0 +1,155 @@
+{
+  "alternative": "drop_exact_source_rows.json",
+  "contrasts": [
+    {
+      "alternative": -4.042603850050658,
+      "direction_changed": false,
+      "primary": -4.144883485309017,
+      "question_id": "c01",
+      "reference": "course",
+      "supported": "supported"
+    },
+    {
+      "alternative": -4.042603850050658,
+      "direction_changed": false,
+      "primary": -4.144883485309017,
+      "question_id": "c01",
+      "reference": "same_prior_attempt",
+      "supported": "supported"
+    },
+    {
+      "alternative": -12.866587630902986,
+      "direction_changed": false,
+      "primary": -13.137541987749458,
+      "question_id": "c01",
+      "reference": "early_stage",
+      "supported": "supported"
+    },
+    {
+      "alternative": -2.7214512687820602,
+      "direction_changed": false,
+      "primary": -2.8711815485647705,
+      "question_id": "c02",
+      "reference": "course",
+      "supported": "supported"
+    },
+    {
+      "alternative": -1.7653011204481794,
+      "direction_changed": false,
+      "primary": -1.8633403361344538,
+      "question_id": "c02",
+      "reference": "same_prior_attempt",
+      "supported": "supported"
+    },
+    {
+      "alternative": -6.0954368476842795,
+      "direction_changed": false,
+      "primary": -6.344295974668405,
+      "question_id": "c02",
+      "reference": "early_stage",
+      "supported": "supported"
+    },
+    {
+      "alternative": null,
+      "direction_changed": null,
+      "primary": null,
+      "question_id": "c03",
+      "reference": "course",
+      "supported": "insufficient_evidence"
+    },
+    {
+      "alternative": null,
+      "direction_changed": null,
+      "primary": null,
+      "question_id": "c03",
+      "reference": "same_prior_attempt",
+      "supported": "insufficient_evidence"
+    },
+    {
+      "alternative": null,
+      "direction_changed": null,
+      "primary": null,
+      "question_id": "c03",
+      "reference": "early_stage",
+      "supported": "insufficient_evidence"
+    },
+    {
+      "alternative": null,
+      "direction_changed": null,
+      "primary": null,
+      "question_id": "c04",
+      "reference": "course",
+      "supported": "insufficient_evidence"
+    },
+    {
+      "alternative": null,
+      "direction_changed": null,
+      "primary": null,
+      "question_id": "c04",
+      "reference": "same_prior_attempt",
+      "supported": "insufficient_evidence"
+    },
+    {
+      "alternative": null,
+      "direction_changed": null,
+      "primary": null,
+      "question_id": "c04",
+      "reference": "early_stage",
+      "supported": "insufficient_evidence"
+    },
+    {
+      "alternative": -2.0439448728561267,
+      "direction_changed": false,
+      "primary": -1.73949665257991,
+      "question_id": "c05",
+      "reference": "course",
+      "supported": "supported"
+    },
+    {
+      "alternative": -2.4313424036281166,
+      "direction_changed": false,
+      "primary": -2.1433560090702954,
+      "question_id": "c05",
+      "reference": "same_prior_attempt",
+      "supported": "supported"
+    },
+    {
+      "alternative": -2.9168654191128507,
+      "direction_changed": false,
+      "primary": -2.5942959746684053,
+      "question_id": "c05",
+      "reference": "early_stage",
+      "supported": "supported"
+    },
+    {
+      "alternative": -2.513963455149501,
+      "direction_changed": false,
+      "primary": -2.452346622369879,
+      "question_id": "c06",
+      "reference": "course",
+      "supported": "supported"
+    },
+    {
+      "alternative": -2.7905919312169307,
+      "direction_changed": false,
+      "primary": -2.738715277777778,
+      "question_id": "c06",
+      "reference": "same_prior_attempt",
+      "supported": "supported"
+    },
+    {
+      "alternative": -3.6801660401002505,
+      "direction_changed": false,
+      "primary": -3.676622110832637,
+      "question_id": "c06",
+      "reference": "early_stage",
+      "supported": "supported"
+    }
+  ],
+  "exact_duplicate_excess": 15937,
+  "executed_utc": "2026-09-18T17:50:53.416940+00:00",
+  "limitation": "Exact equal source rows can represent repeated contributions, not necessarily ingestion errors. Neither interpretation proves unique click events.",
+  "primary": "preserve_source_rows.json",
+  "scope": "Six construction examples, three references each; source-row sums remain the primary choice",
+  "source_rows": 193708
+}

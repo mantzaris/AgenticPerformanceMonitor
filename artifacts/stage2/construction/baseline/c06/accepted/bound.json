@@ -1,0 +1,65 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_db039ba6402b337fceb9",
+      "selection_origin": "deterministic baseline",
+      "template": "comparison",
+      "text": "Focal mean 2.39; peer mean 4.85; difference -2.45 recorded clicks / eligible day, focal weeks 6\u20139. 1075 distinct peers / 4215 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 6\u20139. Peer mean 95% bootstrap interval [4.34, 5.42]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_472e51ac4e51cf999639",
+      "selection_origin": "deterministic baseline",
+      "template": "comparison",
+      "text": "Focal mean 2.39; peer mean 5.13; difference -2.74 recorded clicks / eligible day, focal weeks 6\u20139. 864 distinct peers / 3393 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 6\u20139. Peer mean 95% bootstrap interval [4.52, 5.79]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_defac4947729f7544710",
+      "selection_origin": "deterministic baseline",
+      "template": "comparison",
+      "text": "Focal mean 2.39; peer mean 6.07; difference -3.68 recorded clicks / eligible day, focal weeks 6\u20139. 1140 distinct peers / 4451 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 2\u20135. Peer mean 95% bootstrap interval [5.52, 6.71]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_db039ba6402b337fceb9",
+      "selection_origin": "deterministic baseline",
+      "template": "personal_change",
+      "text": "Personal mean changed from 6.68 in weeks 2\u20135 (4 observed weeks) to 2.39 in weeks 6\u20139 (4 observed weeks): change -4.29 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "The selected recent activity contrasts have the same direction across the selected references. Magnitudes can differ. This is not a significance or invariance test.",
+  "evidence_hashes": {
+    "s2_472e51ac4e51cf999639": "a800156d9d9f1d51fa31d7dfe63bfdfb97231364c3acea66bd2d98b648929317",
+    "s2_db039ba6402b337fceb9": "acae7701c2c0ffd15a0fdd030d16f39fc1d8010d5a6db392c47724244ce4f484",
+    "s2_defac4947729f7544710": "73aad2d9d6d525c453db324b929afa5ac20d7dacc9b661a51fc44a9542964fcd"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      2,
+      5
+    ],
+    "cutoff_day": 69,
+    "recent": [
+      6,
+      9
+    ]
+  },
+  "selection_origin": "deterministic baseline",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

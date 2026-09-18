@@ -1,0 +1,68 @@
+{
+  "attempts": 1,
+  "between_person_mean_variance": 0.5999351309696833,
+  "completed_utc": "2026-09-18T17:50:53.857956+00:00",
+  "dashboard_use": false,
+  "design_condition_number": 12.783009606658329,
+  "design_rank": 12,
+  "design_shape": [
+    2884,
+    12
+  ],
+  "diagnostic_only": true,
+  "elapsed_seconds": 0.3676044060011918,
+  "fixed_effects": {
+    "C(week)[T.10]": -1.0975443403522807,
+    "C(week)[T.11]": -1.41151726822839,
+    "C(week)[T.1]": 0.1064091189206404,
+    "C(week)[T.2]": 0.4005970872684659,
+    "C(week)[T.3]": -0.40761834535762215,
+    "C(week)[T.4]": -0.49301753861049136,
+    "C(week)[T.5]": -0.5488850448281182,
+    "C(week)[T.6]": -0.5749627403146135,
+    "C(week)[T.7]": -0.31268588661048985,
+    "C(week)[T.8]": -0.8415706621533856,
+    "C(week)[T.9]": -1.0021329120008653,
+    "Intercept": 2.131286950196908
+  },
+  "historical_result": {
+    "completed_utc": "2026-09-18T16:25:51.776458+00:00",
+    "course": "AAA_2013J",
+    "cutoff_day": 83,
+    "data_sha256": "b894b2a583ef387203806b6c92c14037a9f3e61fe28b05837117e17d8de88200",
+    "error": "LinAlgError: Singular matrix",
+    "excluded_focal_people": [
+      2412002,
+      537464,
+      143854
+    ],
+    "fallback": "Descriptive peer means and personal baseline are always available; no mixed-model interval is substituted.",
+    "formula": "log_rate ~ C(week)",
+    "limitations": [
+      "Gaussian model of log counts is a working approximation.",
+      "Conditional residual serial independence, normal random effects and ignorable missingness are not validated.",
+      "Fit is descriptive at cutoff, not a prospective forecast or calibrated anomaly score.",
+      "Subgroup and week effects are associational. No model-based individual interval is displayed."
+    ],
+    "observations": 2884,
+    "people": 247,
+    "random_effect": "person intercept",
+    "started_utc": "2026-09-18T16:25:51.658146+00:00",
+    "status": "failed",
+    "unit": "log(1 + recorded clicks / eligible day)",
+    "warnings": [
+      "Random effects covariance is singular"
+    ]
+  },
+  "interpretation": "Full-rank fixed-effects design rules out simple fixed-column collinearity. The original singular random covariance warning is consistent with an optimizer/boundary path failure, but the exact numerical path was not reconstructed. An alternative converged variance would not validate the working model assumptions or an individual detector.",
+  "log_likelihood": -3572.670891704727,
+  "maxiter": 100,
+  "mean_within_person_variance": 0.8285284096853287,
+  "random_intercept_variance": 0.5465099772272638,
+  "residual_variance": 0.5555489178759784,
+  "retry_method": "powell",
+  "started_utc": "2026-09-18T17:50:53.487920+00:00",
+  "status": "converged",
+  "timeout_seconds": 90,
+  "warnings": []
+}

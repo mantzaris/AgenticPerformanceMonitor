@@ -1,0 +1,15 @@
+# Stage 2 scope (v1)
+
+Started 2026-09-18 17:33:59 UTC; deadline 23:33:59 UTC. Starting commit: `dd87aaf012b2ecb8f9a45f00f782fabeebb4450c`. Work is on `stage2/scientific-pilot`, not main. Stage 1 artifacts and ledgers remain historical.
+
+Question: can a constrained local agent use observed results to choose useful comparisons and communicate when a descriptive individual contrast depends on reference, history, study stage, or measurement availability? A requested sensitivity analysis does not imply sensitivity was found.
+
+Minimum system: shared configurable descriptive tools, independent numerical integrity checks, six construction tasks and twelve frozen development pilot tasks, three methods using the same backend, and one local form that executes and saves a linked follow-up. The separate mixed model remains a diagnostic artifact. Pilot rubrics await external scientific review.
+
+Limits: six hours elapsed; two cumulative hours for model processes including startup; 120 attempted generations across restarts; each episode at most six analytical requests, four generations, one final repair. One existing pinned Qwen2.5-7B-Instruct, Transformers, BF16 CUDA on the existing RTX 6000 Ada. No new weights, paid API, infrastructure changes, training, model sweep, second dataset, multi-agent system, reserved-person analysis, full evaluation, or paper. Model processes started here are stopped; pod remains running.
+
+Acceptance: Stage 1 regression checks reproduced; configurable complete-week cutoffs/windows; requested question separated from empirical conclusion; resealed numerical corruption rejected; explicit statistical protocol and bounded source-row sensitivity/fit diagnostic; independent numerical checks; 18 person-disjoint focal tasks selected structurally; pilot materials frozen before inference; all 36 method/task outcomes retained; actual adaptive tool loop on GPU; real recomputing follow-up and replay; tests/exports/logs/resource ledger; committed review entry point. Any unmet criterion is reported rather than relabeled.
+
+Assumptions: Stage 1 allowlisted development features are reused. Analyses are supported only at complete-week cutoffs through day 83. Earlier observations carry their contemporaneous weekly state; assessment records mean status at that week's end, not retrospectively updated status. Scores remain withheld. Registration/withdrawal timing approximates administrative opportunity, not actual exposure. All 18 task focal people and the three original demonstration people are excluded from the common reference pool, across registrations. This fixed development reference pool is not a held-out population.
+
+Unknowns for review: source-row duplication, informative withdrawal and logging completeness, validity of administrative support thresholds, scientific utility of the reference family, representativeness of task selection, and validity of the automatically derived rubric. Pilot results are engineering observations from one deterministic decoding run per method/task, without human review or repeatability estimates.
