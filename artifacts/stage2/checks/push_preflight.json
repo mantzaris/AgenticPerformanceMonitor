@@ -1,0 +1,25 @@
+{
+  "artifact_description": "Generated public-OULAD development summaries, deterministic evidence/dashboard exports, local-model transcripts restricted to these summaries and typed schemas, configuration and scientific documentation.",
+  "branch": "stage2/scientific-pilot",
+  "candidate_commit": "e49a2b904b47b894fb399ddab764c403ac386537",
+  "checked_utc": "2026-09-18T18:38:25.272335+00:00",
+  "configured_origin": "https://github.com/mantzaris/AgenticPerformanceMonitor.git",
+  "data_origin": "https://archive.ics.uci.edu/static/public/349/open+university+learning+analytics+dataset.zip",
+  "initial_auto_review_rejection": "Potentially sensitive 95MB research/log payload to an unverified destination. No push occurred.",
+  "largest_file_bytes": 1357687,
+  "license": "CC BY 4.0",
+  "local_main_and_origin_main": "dd87aaf012b2ecb8f9a45f00f782fabeebb4450c",
+  "new_changed_file_count": 932,
+  "primary_license_verification": "https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset",
+  "private_connection_and_credential_marker_scan": "PASS for all new/changed text artifacts; known RunPod identifiers/connection details and common key/token markers absent",
+  "raw_dataset_or_model_weight_paths": [],
+  "read_only_remote_verification": {
+    "checked_utc": "2026-09-18T18:38:56.768884+00:00",
+    "command": "GIT_TERMINAL_PROMPT=0 git ls-remote origin refs/heads/main",
+    "matches_starting_commit": true,
+    "returned_commit": "dd87aaf012b2ecb8f9a45f00f782fabeebb4450c"
+  },
+  "remaining_transport_status": "Existing destination verified against starting main commit; same direct push will be retried with this evidence.",
+  "reserved_longitudinal_data_in_bundle": false,
+  "user_authorization": "User explicitly requested committing the completed Stage 2 work on this branch and pushing it if credentials permit, without merging main."
+}
