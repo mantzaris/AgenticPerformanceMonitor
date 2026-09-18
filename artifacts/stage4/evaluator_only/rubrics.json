@@ -1,0 +1,1592 @@
+{
+  "agent_visibility": "Never provided to policy, tool, compiler or model; only offline scoring",
+  "rubrics": [
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 905,
+          "people": 228,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 15.607142857142858,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -2.343097326649958,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 1.7857142857142858,
+            "focal_observations": 4,
+            "peer_ci_high": 4.782805973266499,
+            "peer_ci_low": 3.3594389619883036,
+            "peer_mean": 4.1288116123642435,
+            "personal_change": -13.821428571428571,
+            "personal_status": "supported",
+            "recent_mean": 1.7857142857142858,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      "question_id": "s4_01",
+      "required_answers": [
+        {
+          "category": "personal",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "personal_change",
+          "justification": "Question explicitly requests comparison with own earlier history.",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "course_comparison",
+          "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+          "reference": "course",
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 4271,
+          "people": 1082,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 19.714285714285715,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": 3.555599565765924,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 9.642857142857142,
+            "focal_observations": 4,
+            "peer_ci_high": 6.793393242232198,
+            "peer_ci_low": 5.471261057565355,
+            "peer_mean": 6.0872575770912185,
+            "personal_change": -10.071428571428573,
+            "personal_status": "supported",
+            "recent_mean": 9.642857142857142,
+            "recent_observations": 4,
+            "recent_window": [
+              4,
+              7
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            4,
+            7
+          ]
+        }
+      },
+      "question_id": "s4_02",
+      "required_answers": [
+        {
+          "category": "personal",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "personal_change",
+          "justification": "Question explicitly requests comparison with own earlier history.",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "course_comparison",
+          "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+          "reference": "course",
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 4088,
+          "people": 1039,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.2857142857142858,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -2.743824571856333,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.7142857142857143,
+            "focal_observations": 4,
+            "peer_ci_high": 3.850852897703836,
+            "peer_ci_low": 3.0863635096322777,
+            "peer_mean": 3.4581102861420474,
+            "personal_change": -0.5714285714285715,
+            "personal_status": "supported",
+            "recent_mean": 0.7142857142857143,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        },
+        "clicks_per_eligible_day:early_stage": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 4540,
+          "people": 1152,
+          "reference": "early_stage",
+          "reference_label": "BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.2857142857142858,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -6.233388792438272,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.7142857142857143,
+            "focal_observations": 4,
+            "peer_ci_high": 7.50404091056272,
+            "peer_ci_low": 6.363665330136685,
+            "peer_mean": 6.9476745067239865,
+            "personal_change": -0.5714285714285715,
+            "personal_status": "supported",
+            "recent_mean": 0.7142857142857143,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        },
+        "clicks_per_eligible_day:same_prior_attempt": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 786,
+          "people": 200,
+          "reference": "same_prior_attempt",
+          "reference_label": "BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (repeat_attempt); reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.2857142857142858,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -1.7006071428571428,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.7142857142857143,
+            "focal_observations": 4,
+            "peer_ci_high": 3.02309375,
+            "peer_ci_low": 1.8496517857142858,
+            "peer_mean": 2.414892857142857,
+            "personal_change": -0.5714285714285715,
+            "personal_status": "supported",
+            "recent_mean": 0.7142857142857143,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      "question_id": "s4_03",
+      "required_answers": [
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_course",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "course",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_same_prior_attempt",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "same_prior_attempt",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_early_stage",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "early_stage",
+          "window": "recent"
+        },
+        {
+          "category": "direction",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "reference_direction",
+          "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+          "references": [
+            "course",
+            "same_prior_attempt",
+            "early_stage"
+          ],
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 4088,
+          "people": 1039,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.3928571428571428,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -1.743824571856333,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 1.7142857142857144,
+            "focal_observations": 4,
+            "peer_ci_high": 3.877852874788028,
+            "peer_ci_low": 3.0334173961532,
+            "peer_mean": 3.4581102861420474,
+            "personal_change": 0.3214285714285716,
+            "personal_status": "supported",
+            "recent_mean": 1.7142857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        },
+        "clicks_per_eligible_day:early_stage": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 4540,
+          "people": 1152,
+          "reference": "early_stage",
+          "reference_label": "BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.3928571428571428,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -5.233388792438272,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 1.7142857142857144,
+            "focal_observations": 4,
+            "peer_ci_high": 7.501730401579033,
+            "peer_ci_low": 6.443178676490851,
+            "peer_mean": 6.9476745067239865,
+            "personal_change": 0.3214285714285716,
+            "personal_status": "supported",
+            "recent_mean": 1.7142857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        },
+        "clicks_per_eligible_day:same_prior_attempt": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 3302,
+          "people": 839,
+          "reference": "same_prior_attempt",
+          "reference_label": "BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.3928571428571428,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -1.9925057229884402,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 1.7142857142857144,
+            "focal_observations": 4,
+            "peer_ci_high": 4.177859897932156,
+            "peer_ci_low": 3.2918837027262233,
+            "peer_mean": 3.7067914372741546,
+            "personal_change": 0.3214285714285716,
+            "personal_status": "supported",
+            "recent_mean": 1.7142857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      "question_id": "s4_04",
+      "required_answers": [
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_course",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "course",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_same_prior_attempt",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "same_prior_attempt",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_early_stage",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "early_stage",
+          "window": "recent"
+        },
+        {
+          "category": "direction",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "reference_direction",
+          "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+          "references": [
+            "course",
+            "same_prior_attempt",
+            "early_stage"
+          ],
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 4271,
+          "people": 1082,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.0,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -6.015829005662647,
+            "focal_eligible_days": 10.0,
+            "focal_mean": 0.07142857142857142,
+            "focal_observations": 2,
+            "peer_ci_high": 6.682076108323797,
+            "peer_ci_low": 5.485790203327173,
+            "peer_mean": 6.0872575770912185,
+            "personal_change": 0.07142857142857142,
+            "personal_status": "supported",
+            "recent_mean": 0.07142857142857142,
+            "recent_observations": 2,
+            "recent_window": [
+              4,
+              7
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            4,
+            7
+          ]
+        },
+        "nonbanked_submissions:course": {
+          "feature": "nonbanked_submissions",
+          "observations": 4271,
+          "people": 1082,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.0,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -0.18930991990141713,
+            "focal_eligible_days": 10.0,
+            "focal_mean": 0.0,
+            "focal_observations": 2,
+            "peer_ci_high": 0.1959738909426987,
+            "peer_ci_low": 0.18284041897720268,
+            "peer_mean": 0.18930991990141713,
+            "personal_change": 0.0,
+            "personal_status": "supported",
+            "recent_mean": 0.0,
+            "recent_observations": 2,
+            "recent_window": [
+              4,
+              7
+            ]
+          },
+          "unit": "non-banked submissions / week",
+          "window": [
+            4,
+            7
+          ]
+        },
+        "scheduled_no_submission:course": {
+          "feature": "scheduled_no_submission",
+          "observations": 4271,
+          "people": 1082,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.25,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -0.32948243992606285,
+            "focal_eligible_days": 10.0,
+            "focal_mean": 0.0,
+            "focal_observations": 2,
+            "peer_ci_high": 0.33733826247689463,
+            "peer_ci_low": 0.3222427603203943,
+            "peer_mean": 0.32948243992606285,
+            "personal_change": -0.25,
+            "personal_status": "supported",
+            "recent_mean": 0.0,
+            "recent_observations": 2,
+            "recent_window": [
+              4,
+              7
+            ]
+          },
+          "unit": "scheduled assessments without recorded submission / week",
+          "window": [
+            4,
+            7
+          ]
+        }
+      },
+      "question_id": "s4_05",
+      "required_answers": [
+        {
+          "category": "focal",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "recent_activity",
+          "justification": "Question asks what the recent recorded activity can establish.",
+          "window": "recent"
+        },
+        {
+          "category": "observation",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "eligibility_states",
+          "justification": "Question explicitly mentions administrative eligibility and incomplete observations.",
+          "window": "recent"
+        },
+        {
+          "category": "focal",
+          "features": [
+            "nonbanked_submissions"
+          ],
+          "id": "nonbanked_submissions",
+          "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+          "window": "recent"
+        },
+        {
+          "category": "focal",
+          "features": [
+            "scheduled_no_submission"
+          ],
+          "id": "scheduled_no_submission",
+          "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+          "window": "recent"
+        },
+        {
+          "category": "assessment_records",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "assessment_records",
+          "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+          "window": "recent"
+        },
+        {
+          "category": "availability",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "measurement_availability",
+          "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 905,
+          "people": 228,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "summary": {
+            "baseline_mean": 23.607142857142858,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": null,
+            "focal_eligible_days": 0.0,
+            "focal_mean": null,
+            "focal_observations": 0,
+            "peer_ci_high": 4.868577694235589,
+            "peer_ci_low": 3.4364661654135333,
+            "peer_mean": 4.1288116123642435,
+            "personal_change": null,
+            "personal_status": "insufficient_evidence",
+            "recent_mean": null,
+            "recent_observations": 0,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        },
+        "nonbanked_submissions:course": {
+          "feature": "nonbanked_submissions",
+          "observations": 905,
+          "people": 228,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "summary": {
+            "baseline_mean": 0.25,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": null,
+            "focal_eligible_days": 0.0,
+            "focal_mean": null,
+            "focal_observations": 0,
+            "peer_ci_high": 0.08061951754385963,
+            "peer_ci_low": 0.05043859649122807,
+            "peer_mean": 0.06578947368421052,
+            "personal_change": null,
+            "personal_status": "insufficient_evidence",
+            "recent_mean": null,
+            "recent_observations": 0,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "non-banked submissions / week",
+          "window": [
+            8,
+            11
+          ]
+        },
+        "scheduled_no_submission:course": {
+          "feature": "scheduled_no_submission",
+          "observations": 905,
+          "people": 228,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "summary": {
+            "baseline_mean": 0.0,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": null,
+            "focal_eligible_days": 0.0,
+            "focal_mean": null,
+            "focal_observations": 0,
+            "peer_ci_high": 0.0,
+            "peer_ci_low": 0.0,
+            "peer_mean": 0.0,
+            "personal_change": null,
+            "personal_status": "insufficient_evidence",
+            "recent_mean": null,
+            "recent_observations": 0,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "scheduled assessments without recorded submission / week",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      "question_id": "s4_06",
+      "required_answers": [
+        {
+          "category": "focal",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "recent_activity",
+          "justification": "Question asks what the recent recorded activity can establish.",
+          "window": "recent"
+        },
+        {
+          "category": "observation",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "eligibility_states",
+          "justification": "Question explicitly mentions administrative eligibility and incomplete observations.",
+          "window": "recent"
+        },
+        {
+          "category": "focal",
+          "features": [
+            "nonbanked_submissions"
+          ],
+          "id": "nonbanked_submissions",
+          "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+          "window": "recent"
+        },
+        {
+          "category": "focal",
+          "features": [
+            "scheduled_no_submission"
+          ],
+          "id": "scheduled_no_submission",
+          "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+          "window": "recent"
+        },
+        {
+          "category": "assessment_records",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "assessment_records",
+          "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+          "window": "recent"
+        },
+        {
+          "category": "availability",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "measurement_availability",
+          "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 2245,
+          "people": 1126,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 2\u20133",
+          "reference_window": [
+            2,
+            3
+          ],
+          "status": "insufficient_evidence",
+          "summary": {
+            "baseline_mean": 0.0,
+            "baseline_observations": 1,
+            "baseline_window": [
+              0,
+              1
+            ],
+            "contrast": null,
+            "focal_eligible_days": 0.0,
+            "focal_mean": null,
+            "focal_observations": 0,
+            "peer_ci_high": 7.400126607037131,
+            "peer_ci_low": 6.103622970058361,
+            "peer_mean": 6.735335786179481,
+            "personal_change": null,
+            "personal_status": "insufficient_evidence",
+            "recent_mean": null,
+            "recent_observations": 0,
+            "recent_window": [
+              2,
+              3
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            2,
+            3
+          ]
+        }
+      },
+      "question_id": "s4_07",
+      "required_answers": [
+        {
+          "category": "personal",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "personal_change",
+          "justification": "Question explicitly requests comparison with own earlier history.",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "course_comparison",
+          "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+          "reference": "course",
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 2027,
+          "people": 1016,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 10\u201311",
+          "reference_window": [
+            10,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "summary": {
+            "baseline_mean": 3.130952380952381,
+            "baseline_observations": 3,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": null,
+            "focal_eligible_days": 0.0,
+            "focal_mean": null,
+            "focal_observations": 0,
+            "peer_ci_high": 4.2741648504874385,
+            "peer_ci_low": 3.382727842613423,
+            "peer_mean": 3.7981463254593173,
+            "personal_change": null,
+            "personal_status": "insufficient_evidence",
+            "recent_mean": null,
+            "recent_observations": 0,
+            "recent_window": [
+              10,
+              11
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            10,
+            11
+          ]
+        }
+      },
+      "question_id": "s4_08",
+      "required_answers": [
+        {
+          "category": "personal",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "personal_change",
+          "justification": "Question explicitly requests comparison with own earlier history.",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "course_comparison",
+          "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+          "reference": "course",
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "nonbanked_submissions:course": {
+          "feature": "nonbanked_submissions",
+          "observations": 905,
+          "people": 228,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.25,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -0.06578947368421052,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.0,
+            "focal_observations": 4,
+            "peer_ci_high": 0.0800438596491228,
+            "peer_ci_low": 0.049342105263157895,
+            "peer_mean": 0.06578947368421052,
+            "personal_change": -0.25,
+            "personal_status": "supported",
+            "recent_mean": 0.0,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "non-banked submissions / week",
+          "window": [
+            8,
+            11
+          ]
+        },
+        "scheduled_no_submission:course": {
+          "feature": "scheduled_no_submission",
+          "observations": 905,
+          "people": 228,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.0,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": 0.0,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.0,
+            "focal_observations": 4,
+            "peer_ci_high": 0.0,
+            "peer_ci_low": 0.0,
+            "peer_mean": 0.0,
+            "personal_change": 0.0,
+            "personal_status": "supported",
+            "recent_mean": 0.0,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "scheduled assessments without recorded submission / week",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      "question_id": "s4_09",
+      "required_answers": [
+        {
+          "category": "focal",
+          "features": [
+            "nonbanked_submissions"
+          ],
+          "id": "nonbanked_submissions",
+          "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+          "window": "recent"
+        },
+        {
+          "category": "focal",
+          "features": [
+            "scheduled_no_submission"
+          ],
+          "id": "scheduled_no_submission",
+          "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+          "window": "recent"
+        },
+        {
+          "category": "assessment_records",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "assessment_records",
+          "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+          "window": "recent"
+        },
+        {
+          "category": "availability",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "measurement_availability",
+          "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "nonbanked_submissions:course": {
+          "feature": "nonbanked_submissions",
+          "observations": 4088,
+          "people": 1039,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.25,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": 0.019890920757138275,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.25,
+            "focal_observations": 4,
+            "peer_ci_high": 0.2382519249278152,
+            "peer_ci_low": 0.22232916265640038,
+            "peer_mean": 0.23010907924286172,
+            "personal_change": 0.0,
+            "personal_status": "supported",
+            "recent_mean": 0.25,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "non-banked submissions / week",
+          "window": [
+            8,
+            11
+          ]
+        },
+        "scheduled_no_submission:course": {
+          "feature": "scheduled_no_submission",
+          "observations": 4088,
+          "people": 1039,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.0,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": 0.0,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.0,
+            "focal_observations": 4,
+            "peer_ci_high": 0.0,
+            "peer_ci_low": 0.0,
+            "peer_mean": 0.0,
+            "personal_change": 0.0,
+            "personal_status": "supported",
+            "recent_mean": 0.0,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "unit": "scheduled assessments without recorded submission / week",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      "question_id": "s4_10",
+      "required_answers": [
+        {
+          "category": "focal",
+          "features": [
+            "nonbanked_submissions"
+          ],
+          "id": "nonbanked_submissions",
+          "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+          "window": "recent"
+        },
+        {
+          "category": "focal",
+          "features": [
+            "scheduled_no_submission"
+          ],
+          "id": "scheduled_no_submission",
+          "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+          "window": "recent"
+        },
+        {
+          "category": "assessment_records",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "assessment_records",
+          "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+          "window": "recent"
+        },
+        {
+          "category": "availability",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "measurement_availability",
+          "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 913,
+          "people": 230,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.0714285714285714,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -3.1542701863354035,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 4.178571428571429,
+            "focal_observations": 4,
+            "peer_ci_high": 8.19077251552795,
+            "peer_ci_low": 6.570079580745341,
+            "peer_mean": 7.332841614906832,
+            "personal_change": 3.1071428571428577,
+            "personal_status": "supported",
+            "recent_mean": 4.178571428571429,
+            "recent_observations": 4,
+            "recent_window": [
+              4,
+              7
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            4,
+            7
+          ]
+        },
+        "clicks_per_eligible_day:early_stage": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 928,
+          "people": 233,
+          "reference": "early_stage",
+          "reference_label": "AAA_2013J: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.0714285714285714,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -8.866513386470467,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 4.178571428571429,
+            "focal_observations": 4,
+            "peer_ci_high": 14.293545626405068,
+            "peer_ci_low": 11.840969241773962,
+            "peer_mean": 13.045084815041896,
+            "personal_change": 3.1071428571428577,
+            "personal_status": "supported",
+            "recent_mean": 4.178571428571429,
+            "recent_observations": 4,
+            "recent_window": [
+              4,
+              7
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            4,
+            7
+          ]
+        },
+        "clicks_per_eligible_day:same_prior_attempt": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 913,
+          "people": 230,
+          "reference": "same_prior_attempt",
+          "reference_label": "AAA_2013J: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 4\u20137",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.0714285714285714,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -3.1542701863354035,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 4.178571428571429,
+            "focal_observations": 4,
+            "peer_ci_high": 8.225772515527948,
+            "peer_ci_low": 6.539926242236024,
+            "peer_mean": 7.332841614906832,
+            "personal_change": 3.1071428571428577,
+            "personal_status": "supported",
+            "recent_mean": 4.178571428571429,
+            "recent_observations": 4,
+            "recent_window": [
+              4,
+              7
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            4,
+            7
+          ]
+        }
+      },
+      "question_id": "s4_11",
+      "required_answers": [
+        {
+          "category": "personal",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "personal_change",
+          "justification": "Question explicitly requests comparison with own earlier history.",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_course",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "course",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_same_prior_attempt",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "same_prior_attempt",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_early_stage",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "early_stage",
+          "window": "recent"
+        },
+        {
+          "category": "direction",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "reference_direction",
+          "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+          "references": [
+            "course",
+            "same_prior_attempt",
+            "early_stage"
+          ],
+          "window": "recent"
+        }
+      ]
+    },
+    {
+      "external_review": "Awaiting independent human scientific review; row-loop cross-check is not human review",
+      "independent_facts": {
+        "clicks_per_eligible_day:course": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 4175,
+          "people": 1065,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 6\u20139",
+          "reference_window": [
+            6,
+            9
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.0714285714285714,
+            "baseline_observations": 4,
+            "baseline_window": [
+              2,
+              5
+            ],
+            "contrast": -4.798109769729488,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.07142857142857142,
+            "focal_observations": 4,
+            "peer_ci_high": 5.376618516655489,
+            "peer_ci_low": 4.375463056114465,
+            "peer_mean": 4.8695383411580595,
+            "personal_change": -1.0,
+            "personal_status": "supported",
+            "recent_mean": 0.07142857142857142,
+            "recent_observations": 4,
+            "recent_window": [
+              6,
+              9
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            6,
+            9
+          ]
+        },
+        "clicks_per_eligible_day:early_stage": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 4402,
+          "people": 1126,
+          "reference": "early_stage",
+          "reference_label": "BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 2\u20135",
+          "reference_window": [
+            2,
+            5
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.0714285714285714,
+            "baseline_observations": 4,
+            "baseline_window": [
+              2,
+              5
+            ],
+            "contrast": -6.0262236037102825,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.07142857142857142,
+            "focal_observations": 4,
+            "peer_ci_high": 6.730731237136654,
+            "peer_ci_low": 5.571012186698244,
+            "peer_mean": 6.097652175138854,
+            "personal_change": -1.0,
+            "personal_status": "supported",
+            "recent_mean": 0.07142857142857142,
+            "recent_observations": 4,
+            "recent_window": [
+              6,
+              9
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            6,
+            9
+          ]
+        },
+        "clicks_per_eligible_day:same_prior_attempt": {
+          "feature": "clicks_per_eligible_day",
+          "observations": 3369,
+          "people": 858,
+          "reference": "same_prior_attempt",
+          "reference_label": "BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 6\u20139",
+          "reference_window": [
+            6,
+            9
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.0714285714285714,
+            "baseline_observations": 4,
+            "baseline_window": [
+              2,
+              5
+            ],
+            "contrast": -5.087745587745588,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.07142857142857142,
+            "focal_observations": 4,
+            "peer_ci_high": 5.752864496614496,
+            "peer_ci_low": 4.566646547896547,
+            "peer_mean": 5.159174159174159,
+            "personal_change": -1.0,
+            "personal_status": "supported",
+            "recent_mean": 0.07142857142857142,
+            "recent_observations": 4,
+            "recent_window": [
+              6,
+              9
+            ]
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            6,
+            9
+          ]
+        }
+      },
+      "question_id": "s4_12",
+      "required_answers": [
+        {
+          "category": "personal",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "personal_change",
+          "justification": "Question explicitly requests comparison with own earlier history.",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_course",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "course",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_same_prior_attempt",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "same_prior_attempt",
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "peer_early_stage",
+          "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+          "reference": "early_stage",
+          "window": "recent"
+        },
+        {
+          "category": "direction",
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "id": "reference_direction",
+          "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+          "references": [
+            "course",
+            "same_prior_attempt",
+            "early_stage"
+          ],
+          "window": "recent"
+        }
+      ]
+    }
+  ],
+  "version": "unchanged Stage 3 answer semantics with explicit compiler attribution"
+}

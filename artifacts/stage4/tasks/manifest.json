@@ -1,0 +1,408 @@
+{
+  "cases": [
+    {
+      "candidate_people": 228,
+      "case_id": "s4_01",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "personal_change",
+      "person_id": 227517,
+      "profile": "standard",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1070,
+      "case_id": "s4_02",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "personal_change",
+      "person_id": 1747892,
+      "profile": "mid",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 196,
+      "case_id": "s4_03",
+      "course": "BBB_2013B",
+      "criterion": "repeat",
+      "family": "reference_sensitivity",
+      "person_id": 2654302,
+      "profile": "standard",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 824,
+      "case_id": "s4_04",
+      "course": "BBB_2013B",
+      "criterion": "first",
+      "family": "reference_sensitivity",
+      "person_id": 533365,
+      "profile": "standard",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 90,
+      "case_id": "s4_05",
+      "course": "BBB_2013B",
+      "criterion": "partial",
+      "family": "observation_limits",
+      "person_id": 423317,
+      "profile": "mid",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 10,
+      "case_id": "s4_06",
+      "course": "AAA_2013J",
+      "criterion": "partial",
+      "family": "observation_limits",
+      "person_id": 342007,
+      "profile": "standard",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 35,
+      "case_id": "s4_07",
+      "course": "BBB_2013B",
+      "criterion": "insufficient",
+      "family": "insufficient_support",
+      "person_id": 399108,
+      "profile": "short",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 142,
+      "case_id": "s4_08",
+      "course": "BBB_2013B",
+      "criterion": "insufficient",
+      "family": "insufficient_support",
+      "person_id": 2415962,
+      "profile": "narrow",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 227,
+      "case_id": "s4_09",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "assessment_availability",
+      "person_id": 2516503,
+      "profile": "standard",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1018,
+      "case_id": "s4_10",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "assessment_availability",
+      "person_id": 553508,
+      "profile": "standard",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 228,
+      "case_id": "s4_11",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "alternate_windows",
+      "person_id": 1976139,
+      "profile": "mid",
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1040,
+      "case_id": "s4_12",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "alternate_windows",
+      "person_id": 527020,
+      "profile": "alternate",
+      "synthetic": false
+    }
+  ],
+  "design": "12 development people, one question each, two per existing family; not held-out evaluation or new families.",
+  "external_review": "Awaiting human scientific review",
+  "new_focal_people": [
+    227517,
+    342007,
+    399108,
+    423317,
+    527020,
+    533365,
+    553508,
+    1747892,
+    1976139,
+    2415962,
+    2516503,
+    2654302
+  ],
+  "prior_focal_people_excluded": [
+    28400,
+    143854,
+    164259,
+    174782,
+    188278,
+    200863,
+    268733,
+    278447,
+    351543,
+    354858,
+    369212,
+    388722,
+    482710,
+    483309,
+    483411,
+    486099,
+    494927,
+    509130,
+    518879,
+    533839,
+    537464,
+    542748,
+    550960,
+    553442,
+    554482,
+    555995,
+    560185,
+    1996746,
+    2255601,
+    2412002,
+    2442685,
+    2486127,
+    2692384
+  ],
+  "reference_pool_excluded_people": [
+    28400,
+    143854,
+    164259,
+    174782,
+    188278,
+    200863,
+    227517,
+    268733,
+    278447,
+    342007,
+    351543,
+    354858,
+    369212,
+    388722,
+    399108,
+    423317,
+    482710,
+    483309,
+    483411,
+    486099,
+    494927,
+    509130,
+    518879,
+    527020,
+    533365,
+    533839,
+    537464,
+    542748,
+    550960,
+    553442,
+    553508,
+    554482,
+    555995,
+    560185,
+    1747892,
+    1976139,
+    1996746,
+    2255601,
+    2412002,
+    2415962,
+    2442685,
+    2486127,
+    2516503,
+    2654302,
+    2692384
+  ],
+  "seed": "stage4-structural-v1-20260918",
+  "selected_utc": "2026-09-18T20:54:35.892211+00:00",
+  "selection_rule": "Minimum SHA256(seed, Stage 4 case ID, person ID) among unused people meeting declared administrative eligibility/prior-attempt/course/profile conditions. No activity magnitudes or method results used.",
+  "tasks": [
+    {
+      "case_id": "s4_01",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "personal_change",
+        "person_id": 227517,
+        "profile": "standard",
+        "question_id": "s4_01",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recorded click rate (clicks per eligible day) changed from my earlier history to the recent window, and how does my recent rate compare with presentation peers? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_02",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "personal_change",
+        "person_id": 1747892,
+        "profile": "mid",
+        "question_id": "s4_02",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recorded click rate (clicks per eligible day) changed from my earlier history to the recent window, and how does my recent rate compare with presentation peers? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_03",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "reference_sensitivity",
+        "person_id": 2654302,
+        "profile": "standard",
+        "question_id": "s4_03",
+        "role": "researcher",
+        "split": "development",
+        "text": "For recent clicks per eligible day, is the direction of my comparison the same for presentation peers, same-prior-attempt peers, and presentation peers in the earlier study window? Show each of the three comparisons. Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_04",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "reference_sensitivity",
+        "person_id": 533365,
+        "profile": "standard",
+        "question_id": "s4_04",
+        "role": "researcher",
+        "split": "development",
+        "text": "For recent clicks per eligible day, is the direction of my comparison the same for presentation peers, same-prior-attempt peers, and presentation peers in the earlier study window? Show each of the three comparisons. Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_05",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "observation_limits",
+        "person_id": 423317,
+        "profile": "mid",
+        "question_id": "s4_05",
+        "role": "researcher",
+        "split": "development",
+        "text": "What is my recent mean clicks per eligible day, and what limits follow from administrative eligibility and unknown logging completeness? Also show recent weekly means of nonbanked submissions and scheduled assessments without recorded submission, with assessment record states. What can these measurements establish? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_06",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "observation_limits",
+        "person_id": 342007,
+        "profile": "standard",
+        "question_id": "s4_06",
+        "role": "researcher",
+        "split": "development",
+        "text": "What is my recent mean clicks per eligible day, and what limits follow from administrative eligibility and unknown logging completeness? Also show recent weekly means of nonbanked submissions and scheduled assessments without recorded submission, with assessment record states. What can these measurements establish? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_07",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 27,
+        "kind": "insufficient_support",
+        "person_id": 399108,
+        "profile": "short",
+        "question_id": "s4_07",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is there enough observed support to compare my recent clicks per eligible day with my own earlier mean and with presentation peers? Answer each comparison separately, saying which is unsupported if necessary. Earlier weeks 0\u20131; recent weeks 2\u20133; information through day 27."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_08",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "insufficient_support",
+        "person_id": 2415962,
+        "profile": "narrow",
+        "question_id": "s4_08",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is there enough observed support to compare my recent clicks per eligible day with my own earlier mean and with presentation peers? Answer each comparison separately, saying which is unsupported if necessary. Earlier weeks 0\u20133; recent weeks 10\u201311; information through day 83."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_09",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "assessment_availability",
+        "person_id": 2516503,
+        "profile": "standard",
+        "question_id": "s4_09",
+        "role": "researcher",
+        "split": "development",
+        "text": "What are my recent observed-week means for nonbanked submissions and scheduled assessments without a recorded submission? Include dated assessment record states. Can these records establish my marks or learning progress? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_10",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "assessment_availability",
+        "person_id": 553508,
+        "profile": "standard",
+        "question_id": "s4_10",
+        "role": "researcher",
+        "split": "development",
+        "text": "What are my recent observed-week means for nonbanked submissions and scheduled assessments without a recorded submission? Include dated assessment record states. Can these records establish my marks or learning progress? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_11",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 55,
+        "kind": "alternate_windows",
+        "person_id": 1976139,
+        "profile": "mid",
+        "question_id": "s4_11",
+        "role": "researcher",
+        "split": "development",
+        "text": "Using these earlier and recent windows, compare my clicks per eligible day with my own earlier mean and with each of the presentation, same-prior-attempt, and earlier-stage peer references. Show whether the peer comparison direction changes. Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      },
+      "synthetic": false
+    },
+    {
+      "case_id": "s4_12",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 69,
+        "kind": "alternate_windows",
+        "person_id": 527020,
+        "profile": "alternate",
+        "question_id": "s4_12",
+        "role": "researcher",
+        "split": "development",
+        "text": "Using these earlier and recent windows, compare my clicks per eligible day with my own earlier mean and with each of the presentation, same-prior-attempt, and earlier-stage peer references. Show whether the peer comparison direction changes. Earlier weeks 2\u20135; recent weeks 6\u20139; information through day 69."
+      },
+      "synthetic": false
+    }
+  ],
+  "version": "stage4-v1"
+}

@@ -1,0 +1,89 @@
+{
+  "episodes": [
+    {
+      "method": "semantic",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "personal_change",
+        "person_id": 164259,
+        "profile": "standard",
+        "question_id": "s4_build_s3_01",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recorded click rate (clicks per eligible day) changed from my earlier history to the recent window, and how does my recent rate compare with presentation peers? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      }
+    },
+    {
+      "method": "semantic",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "reference_sensitivity",
+        "person_id": 486099,
+        "profile": "standard",
+        "question_id": "s4_build_s3_03",
+        "role": "researcher",
+        "split": "development",
+        "text": "For recent clicks per eligible day, is the direction of my comparison the same for presentation peers, same-prior-attempt peers, and presentation peers in the earlier study window? Show each of the three comparisons. Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      }
+    },
+    {
+      "method": "semantic",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "observation_limits",
+        "person_id": 555995,
+        "profile": "mid",
+        "question_id": "s4_build_s3_05",
+        "role": "researcher",
+        "split": "development",
+        "text": "What is my recent mean clicks per eligible day, and what limits follow from administrative eligibility and unknown logging completeness? Also show recent weekly means of nonbanked submissions and scheduled assessments without recorded submission, with assessment record states. What can these measurements establish? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      }
+    },
+    {
+      "method": "semantic",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 27,
+        "kind": "insufficient_support",
+        "person_id": 560185,
+        "profile": "short",
+        "question_id": "s4_build_s3_07",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is there enough observed support to compare my recent clicks per eligible day with my own earlier mean and with presentation peers? Answer each comparison separately, saying which is unsupported if necessary. Earlier weeks 0\u20131; recent weeks 2\u20133; information through day 27."
+      }
+    },
+    {
+      "method": "semantic",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "assessment_availability",
+        "person_id": 2255601,
+        "profile": "standard",
+        "question_id": "s4_build_s3_09",
+        "role": "researcher",
+        "split": "development",
+        "text": "What are my recent observed-week means for nonbanked submissions and scheduled assessments without a recorded submission? Include dated assessment record states. Can these records establish my marks or learning progress? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      }
+    },
+    {
+      "method": "semantic",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 55,
+        "kind": "alternate_windows",
+        "person_id": 388722,
+        "profile": "mid",
+        "question_id": "s4_build_s3_11",
+        "role": "researcher",
+        "split": "development",
+        "text": "Using these earlier and recent windows, compare my clicks per eligible day with my own earlier mean and with each of the presentation, same-prior-attempt, and earlier-stage peer references. Show whether the peer comparison direction changes. Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      }
+    }
+  ],
+  "note": "Six already known Stage 3 people, one per family; at most 24 construction generations, not new pilot evidence."
+}

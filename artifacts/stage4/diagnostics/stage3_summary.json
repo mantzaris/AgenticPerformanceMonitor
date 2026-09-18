@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-09-18T20:51:56.066768+00:00",
+  "instructions": "No logically contradictory panel obligations identified: six comparison panels plus shared trajectory, observation and assessment need at most nine of ten panels. Instruction complexity remains a hypothesis, not an observed cause.",
+  "interpretation": "Multiple mechanisms coexist. Structural rejection is observed, but interface causation is a hypothesis. Oracle-assisted upper bounds cannot be counted as agent successes.",
+  "source_bound_retrieved_evidence_verified": true,
+  "summaries": [
+    {
+      "accepted_complete": 24,
+      "failed": 0,
+      "labels": {},
+      "method": "baseline",
+      "oracle_upper_bound": 24,
+      "output_ceiling_hits": 0,
+      "questions": 24,
+      "rejected_complete_intentions": 0
+    },
+    {
+      "accepted_complete": 11,
+      "failed": 10,
+      "labels": {
+        "incorrect_claim_of_completion": 3,
+        "intended_answer_rejected_by_structure": 10,
+        "redundant_analytical_requests": 1,
+        "retrieved_but_not_selected_in_attempted_answer": 12,
+        "substantive_or_unsupported_error": 1
+      },
+      "method": "generic",
+      "oracle_upper_bound": 24,
+      "output_ceiling_hits": 0,
+      "questions": 24,
+      "rejected_complete_intentions": 6
+    },
+    {
+      "accepted_complete": 11,
+      "failed": 8,
+      "labels": {
+        "incorrect_claim_of_completion": 4,
+        "intended_answer_rejected_by_structure": 8,
+        "necessary_evidence_not_requested": 2,
+        "redundant_analytical_requests": 1,
+        "retrieved_but_not_selected_in_attempted_answer": 12
+      },
+      "method": "reference_sensitive",
+      "oracle_upper_bound": 22,
+      "output_ceiling_hits": 0,
+      "questions": 24,
+      "rejected_complete_intentions": 6
+    },
+    {
+      "accepted_complete": 6,
+      "failed": 10,
+      "labels": {
+        "incorrect_claim_of_completion": 11,
+        "intended_answer_rejected_by_structure": 9,
+        "necessary_evidence_not_requested": 1,
+        "redundant_analytical_requests": 10,
+        "retrieved_but_not_selected_in_attempted_answer": 15,
+        "substantive_or_unsupported_error": 1
+      },
+      "method": "coverage_aware",
+      "oracle_upper_bound": 23,
+      "output_ceiling_hits": 0,
+      "questions": 24,
+      "rejected_complete_intentions": 5
+    }
+  ],
+  "truncation": "No output hit 1500 tokens. Stage 3 did not record EOS/finish reasons; malformed JSON is not labeled truncation merely from its length."
+}

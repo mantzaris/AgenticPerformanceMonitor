@@ -1,0 +1,126 @@
+{
+  "agent_order": [
+    {
+      "method": "full_spec",
+      "position": 1,
+      "question_id": "s4_01"
+    },
+    {
+      "method": "semantic",
+      "position": 2,
+      "question_id": "s4_01"
+    },
+    {
+      "method": "semantic",
+      "position": 1,
+      "question_id": "s4_02"
+    },
+    {
+      "method": "full_spec",
+      "position": 2,
+      "question_id": "s4_02"
+    },
+    {
+      "method": "full_spec",
+      "position": 1,
+      "question_id": "s4_03"
+    },
+    {
+      "method": "semantic",
+      "position": 2,
+      "question_id": "s4_03"
+    },
+    {
+      "method": "semantic",
+      "position": 1,
+      "question_id": "s4_04"
+    },
+    {
+      "method": "full_spec",
+      "position": 2,
+      "question_id": "s4_04"
+    },
+    {
+      "method": "full_spec",
+      "position": 1,
+      "question_id": "s4_05"
+    },
+    {
+      "method": "semantic",
+      "position": 2,
+      "question_id": "s4_05"
+    },
+    {
+      "method": "semantic",
+      "position": 1,
+      "question_id": "s4_06"
+    },
+    {
+      "method": "full_spec",
+      "position": 2,
+      "question_id": "s4_06"
+    },
+    {
+      "method": "full_spec",
+      "position": 1,
+      "question_id": "s4_07"
+    },
+    {
+      "method": "semantic",
+      "position": 2,
+      "question_id": "s4_07"
+    },
+    {
+      "method": "semantic",
+      "position": 1,
+      "question_id": "s4_08"
+    },
+    {
+      "method": "full_spec",
+      "position": 2,
+      "question_id": "s4_08"
+    },
+    {
+      "method": "full_spec",
+      "position": 1,
+      "question_id": "s4_09"
+    },
+    {
+      "method": "semantic",
+      "position": 2,
+      "question_id": "s4_09"
+    },
+    {
+      "method": "semantic",
+      "position": 1,
+      "question_id": "s4_10"
+    },
+    {
+      "method": "full_spec",
+      "position": 2,
+      "question_id": "s4_10"
+    },
+    {
+      "method": "full_spec",
+      "position": 1,
+      "question_id": "s4_11"
+    },
+    {
+      "method": "semantic",
+      "position": 2,
+      "question_id": "s4_11"
+    },
+    {
+      "method": "semantic",
+      "position": 1,
+      "question_id": "s4_12"
+    },
+    {
+      "method": "full_spec",
+      "position": 2,
+      "question_id": "s4_12"
+    }
+  ],
+  "baseline": "All twelve on the same GPU host CPU before model loading",
+  "counterbalance": "Full interface first in odd cases, compact first in even cases; six of each, one of each per family."
+}

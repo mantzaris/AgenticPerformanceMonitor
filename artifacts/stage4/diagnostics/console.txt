@@ -1,0 +1,61 @@
+[
+  {
+    "method": "baseline",
+    "questions": 24,
+    "accepted_complete": 24,
+    "oracle_upper_bound": 24,
+    "failed": 0,
+    "labels": {},
+    "rejected_complete_intentions": 0,
+    "output_ceiling_hits": 0
+  },
+  {
+    "method": "generic",
+    "questions": 24,
+    "accepted_complete": 11,
+    "oracle_upper_bound": 24,
+    "failed": 10,
+    "labels": {
+      "retrieved_but_not_selected_in_attempted_answer": 12,
+      "redundant_analytical_requests": 1,
+      "intended_answer_rejected_by_structure": 10,
+      "incorrect_claim_of_completion": 3,
+      "substantive_or_unsupported_error": 1
+    },
+    "rejected_complete_intentions": 6,
+    "output_ceiling_hits": 0
+  },
+  {
+    "method": "reference_sensitive",
+    "questions": 24,
+    "accepted_complete": 11,
+    "oracle_upper_bound": 22,
+    "failed": 8,
+    "labels": {
+      "retrieved_but_not_selected_in_attempted_answer": 12,
+      "intended_answer_rejected_by_structure": 8,
+      "redundant_analytical_requests": 1,
+      "incorrect_claim_of_completion": 4,
+      "necessary_evidence_not_requested": 2
+    },
+    "rejected_complete_intentions": 6,
+    "output_ceiling_hits": 0
+  },
+  {
+    "method": "coverage_aware",
+    "questions": 24,
+    "accepted_complete": 6,
+    "oracle_upper_bound": 23,
+    "failed": 10,
+    "labels": {
+      "retrieved_but_not_selected_in_attempted_answer": 15,
+      "incorrect_claim_of_completion": 11,
+      "redundant_analytical_requests": 10,
+      "intended_answer_rejected_by_structure": 9,
+      "necessary_evidence_not_requested": 1,
+      "substantive_or_unsupported_error": 1
+    },
+    "rejected_complete_intentions": 5,
+    "output_ceiling_hits": 0
+  }
+]
