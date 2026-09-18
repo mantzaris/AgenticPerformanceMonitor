@@ -154,7 +154,7 @@ def main():
                 record.update(last_generated_token_id=last_token, eos_reached=reached_eos,
                               output_token_ceiling=ceiling,
                               finish_reason='eos' if reached_eos else ('output_ceiling' if generated.shape[1]-ids.shape[1]>=ceiling else 'other'))
-                record.update(status='completed',completion_tokens=int(generated.shape[1]-ids.shape[1]),output_device=str(generated.device),cuda_event_ms=float(event_start.elapsed_time(event_end)),allocated_bytes=int(torch.cuda.memory_allocated()),peak_allocated_bytes=int(torch.cuda.max_memory_allocated()),nvidia_smi_own_process=own_gpu_process())
+                record.update(status='completed',completion_tokens=int(generated.shape[1]-ids.shape[1]),output_device=str(generated.device),cuda_event_ms=float(event_start.elapsed_time(event_end)),allocated_bytes=int(torch.cuda.memory_allocated()),peak_allocated_bytes=int(torch.cuda.max_memory_allocated()),peak_reserved_bytes=int(torch.cuda.max_memory_reserved()),nvidia_smi_own_process=own_gpu_process())
                 runtime['process_peak_allocated_bytes']=max(runtime.get('process_peak_allocated_bytes',0),record['peak_allocated_bytes'])
                 if phase=='capacity_probe':record['finish_reason']='fixed_steps_capacity_only'
                 return raw,record
