@@ -1,0 +1,166 @@
+{
+  "cases": [
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": true,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_01",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": true,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_02",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": true,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_03",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": true,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_04",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [
+        "assessment_records"
+      ],
+      "complete_method_selected_coverage": false,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_05",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": false,
+      "complete_requested_coverage": false,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_06",
+      "retrieved_but_omitted": [
+        "recent_activity",
+        "eligibility_states",
+        "nonbanked_submissions",
+        "scheduled_no_submission",
+        "assessment_records",
+        "measurement_availability"
+      ],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": false
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": false,
+      "complete_requested_coverage": false,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_07",
+      "retrieved_but_omitted": [
+        "course_comparison"
+      ],
+      "scoped_insufficiency_items": [
+        "personal_change"
+      ],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": false,
+      "complete_requested_coverage": false,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_08",
+      "retrieved_but_omitted": [
+        "course_comparison"
+      ],
+      "scoped_insufficiency_items": [
+        "personal_change"
+      ],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": true,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_09",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": true,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_10",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": true,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_11",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    },
+    {
+      "compiler_supplied_answers": [],
+      "complete_method_selected_coverage": true,
+      "complete_requested_coverage": true,
+      "missing_requested_analyses": [],
+      "oracle_retrieved_upper_bound": true,
+      "question_id": "s5_12",
+      "retrieved_but_omitted": [],
+      "scoped_insufficiency_items": [],
+      "valid_after_repair": true
+    }
+  ],
+  "diagnosis": {
+    "s5_06": "peer selections with unselected personal conclusion scope; repair keeps mismatch",
+    "s5_07": "recent course record retrieved; baseline course and earlier-stage peer answers selected instead",
+    "s5_08": "recent course evidence selected as personal change only; peer answers use baseline windows"
+  },
+  "method": "Offline unchanged scorer plus original trace inspection; no model inference",
+  "method_selected_complete": 8,
+  "original_report_sha256": "79051405ca0302f098c2fab31fb2e09d9f43d4aeed817f67f71df1f6f017cb2e",
+  "retrieved_upper_bound": 12,
+  "status": "PASS",
+  "use": "Known construction material, not new confirmation evidence",
+  "utc": "2026-09-18T23:27:14.686341+00:00",
+  "visible_complete": 9
+}

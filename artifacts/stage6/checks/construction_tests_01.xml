@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="10" time="3.718" timestamp="2026-09-18T19:27:14.965062-04:00" hostname="resort"><testcase classname="tests.test_stage6" name="test_mismatched_binding_rejected_without_substitution[change0]" time="0.995" /><testcase classname="tests.test_stage6" name="test_mismatched_binding_rejected_without_substitution[change1]" time="0.037" /><testcase classname="tests.test_stage6" name="test_mismatched_binding_rejected_without_substitution[change2]" time="0.036" /><testcase classname="tests.test_stage6" name="test_personal_selection_is_still_incomplete_and_adds_no_peer[derived_b]" time="0.047" /><testcase classname="tests.test_stage6" name="test_personal_selection_is_still_incomplete_and_adds_no_peer[binding_c]" time="0.052" /><testcase classname="tests.test_stage6" name="test_personal_aliases_require_exact_temporal_numerical_agreement" time="0.082"><failure message="AssertionError: Regex pattern did not match.&#10; Regex: 'trusted source'&#10; Input: 'evidence.s2_544cac6cfb5723bc3e3e.summary.recent_mean: expected None, got 12.5'">known = (&lt;trajectory_dashboards.stage5.core.Engine object at 0x7fcb1c52a290&gt;, {'course': 'BBB_2013B', 'cutoff_day': 27, 'kind'...ay': 19, ...}], 'cutoff_day': 27, 'evidence_id': 's2_7cc9a78705beb8d890bf', 'feature': 'clicks_per_eligible_day', ...})
+
+    def test_personal_aliases_require_exact_temporal_numerical_agreement(known):
+        eng,q,records,e=known
+        handle=identity(q,e,'personal_change')
+        assert 'reference=' not in handle
+        eid,kind,record,aliases=resolve(q,handle,records)
+        assert len(aliases)==4 and eid==min(records) and kind=='personal_change'
+        changed=copy.deepcopy(records);changed[e['evidence_id']]['summary']['recent_mean']=12.5
+        with pytest.raises(ValueError,match='Ambiguous binding'):resolve(q,handle,changed)
+        forged=seal(changed[e['evidence_id']]).model_dump()
+        changed.pop(e['evidence_id']);changed[forged['evidence_id']]=forged
+        with pytest.raises(ValueError,match='trusted source'):
+&gt;           compile_selection(eng,q,{'answers':[{'identity':handle}]},changed,'binding_c')
+
+tests/test_stage6.py:56: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/trajectory_dashboards/stage6/binding.py:125: in compile_selection
+    records = {eid: validate_evidence(engine, q, value) for eid, value in evidence.items()}
+src/trajectory_dashboards/stage6/binding.py:125: in &lt;dictcomp&gt;
+    records = {eid: validate_evidence(engine, q, value) for eid, value in evidence.items()}
+src/trajectory_dashboards/stage2/integrity.py:101: in validate_evidence
+    compare(actual[k],v,f"evidence.{e.evidence_id}.{k}")
+src/trajectory_dashboards/stage2/integrity.py:78: in compare
+    compare(actual[k], v, f"{path}.{k}")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+actual = 12.5, expected = None
+path = 'evidence.s2_544cac6cfb5723bc3e3e.summary.recent_mean'
+
+    def compare(actual, expected, path):
+        if isinstance(expected, dict):
+            if not isinstance(actual, dict) or set(actual) != set(expected):
+                raise ValueError(f"{path}: keys must be {sorted(expected)}")
+            for k,v in expected.items():
+                compare(actual[k], v, f"{path}.{k}")
+        elif isinstance(expected, list):
+            if not isinstance(actual,list) or len(actual) != len(expected):
+                raise ValueError(f"{path}: expected {len(expected)} bound rows/items")
+            for i,v in enumerate(expected):
+                compare(actual[i], v, f"{path}[{i}]")
+        elif isinstance(expected, (int,float)) and not isinstance(expected,bool):
+            if actual is None or isinstance(actual,bool) or not isinstance(actual,(int,float)) or not math.isclose(actual,expected,rel_tol=1e-10,abs_tol=1e-10):
+                raise ValueError(f"{path}: value disagrees with trusted source; expected {expected!r}, got {actual!r}")
+        elif actual != expected:
+&gt;           raise ValueError(f"{path}: expected {expected!r}, got {actual!r}")
+E           ValueError: evidence.s2_544cac6cfb5723bc3e3e.summary.recent_mean: expected None, got 12.5
+
+src/trajectory_dashboards/stage2/integrity.py:88: ValueError
+
+During handling of the above exception, another exception occurred:
+
+known = (&lt;trajectory_dashboards.stage5.core.Engine object at 0x7fcb1c52a290&gt;, {'course': 'BBB_2013B', 'cutoff_day': 27, 'kind'...ay': 19, ...}], 'cutoff_day': 27, 'evidence_id': 's2_7cc9a78705beb8d890bf', 'feature': 'clicks_per_eligible_day', ...})
+
+    def test_personal_aliases_require_exact_temporal_numerical_agreement(known):
+        eng,q,records,e=known
+        handle=identity(q,e,'personal_change')
+        assert 'reference=' not in handle
+        eid,kind,record,aliases=resolve(q,handle,records)
+        assert len(aliases)==4 and eid==min(records) and kind=='personal_change'
+        changed=copy.deepcopy(records);changed[e['evidence_id']]['summary']['recent_mean']=12.5
+        with pytest.raises(ValueError,match='Ambiguous binding'):resolve(q,handle,changed)
+        forged=seal(changed[e['evidence_id']]).model_dump()
+        changed.pop(e['evidence_id']);changed[forged['evidence_id']]=forged
+&gt;       with pytest.raises(ValueError,match='trusted source'):
+E       AssertionError: Regex pattern did not match.
+E        Regex: 'trusted source'
+E        Input: 'evidence.s2_544cac6cfb5723bc3e3e.summary.recent_mean: expected None, got 12.5'
+
+tests/test_stage6.py:55: AssertionError</failure></testcase><testcase classname="tests.test_stage6" name="test_support_and_unavailable_measurements_are_separate" time="0.099" /><testcase classname="tests.test_stage6" name="test_model_cannot_supply_redundant_metadata" time="0.001" /><testcase classname="tests.test_stage6" name="test_a_messages_exactly_unchanged_and_bc_same_catalogue" time="0.145" /><testcase classname="tests.test_stage6" name="test_historical_files_and_scientific_components_unchanged" time="0.976" /></testsuite></testsuites>
