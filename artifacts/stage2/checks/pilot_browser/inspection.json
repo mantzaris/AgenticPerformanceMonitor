@@ -1,0 +1,34 @@
+{
+  "browser": "153.0.8010.36",
+  "checks": [
+    {
+      "browser_errors": [],
+      "claim_texts_present": 4,
+      "evidence_inspectors": 3,
+      "method": "baseline",
+      "screenshot": "artifacts/stage2/checks/pilot_browser/p03_baseline.png",
+      "status": "PASS",
+      "task": "p03"
+    },
+    {
+      "browser_errors": [],
+      "claim_texts_present": 4,
+      "evidence_inspectors": 4,
+      "method": "reference_sensitive",
+      "screenshot": "artifacts/stage2/checks/pilot_browser/p08_reference_sensitive.png",
+      "status": "PASS",
+      "task": "p08"
+    },
+    {
+      "browser_errors": [],
+      "claim_texts_present": 4,
+      "evidence_inspectors": 4,
+      "method": "reference_sensitive",
+      "screenshot": "artifacts/stage2/checks/pilot_browser/p09_reference_sensitive.png",
+      "status": "PASS",
+      "task": "p09"
+    }
+  ],
+  "inspected_utc": "2026-09-18T18:25:02.087572+00:00",
+  "selection": "One representative reference-comparison baseline, insufficient-support agent case and assessment-availability agent case; an export inspection, not additional pilot evidence."
+}

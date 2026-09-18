@@ -1,0 +1,17 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "p08",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "p08",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ]
+}

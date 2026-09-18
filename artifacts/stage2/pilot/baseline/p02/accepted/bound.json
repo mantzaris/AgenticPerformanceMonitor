@@ -1,0 +1,49 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_665d7b9a0e2d0aa3a9c4",
+      "selection_origin": "deterministic baseline",
+      "template": "comparison",
+      "text": "Focal mean 9.54; peer mean 6.06; difference 3.47 recorded clicks / eligible day, focal weeks 4\u20137. 1093 distinct peers / 4313 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137. Peer mean 95% bootstrap interval [5.50, 6.76]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_665d7b9a0e2d0aa3a9c4",
+      "selection_origin": "deterministic baseline",
+      "template": "personal_change",
+      "text": "Personal mean changed from 9.89 in weeks 0\u20133 (4 observed weeks) to 9.54 in weeks 4\u20137 (4 observed weeks): change -0.36 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_665d7b9a0e2d0aa3a9c4": "afbf315770070b45749c55dd19882a81131e71664671f860f5a02c13a2bc3ef4"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 55,
+    "recent": [
+      4,
+      7
+    ]
+  },
+  "selection_origin": "deterministic baseline",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

@@ -1,0 +1,94 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_cbb0dbc1797fca386724",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "Focal mean 0.18; peer mean 3.44; difference -3.26 recorded clicks / eligible day, focal weeks 8\u201311. 1049 distinct peers / 4128 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [3.09, 3.87]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_114669da18b0498e1ca7",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "Focal mean 0.00; peer mean 0.23; difference -0.23 non-banked submissions / week, focal weeks 8\u201311. 1049 distinct peers / 4128 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [0.22, 0.24]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_cbb0dbc1797fca386724",
+      "selection_origin": "agent repaired",
+      "template": "personal_change",
+      "text": "Personal mean changed from 0.00 in weeks 0\u20133 (4 observed weeks) to 0.18 in weeks 8\u201311 (4 observed weeks): change 0.18 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_114669da18b0498e1ca7",
+      "selection_origin": "agent repaired",
+      "template": "personal_change",
+      "text": "Personal mean changed from 0.00 in weeks 0\u20133 (4 observed weeks) to 0.00 in weeks 8\u201311 (4 observed weeks): change 0.00 non-banked submissions / week. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_cbb0dbc1797fca386724",
+      "selection_origin": "agent repaired",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_114669da18b0498e1ca7",
+      "selection_origin": "agent repaired",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_0c53bd1d21543c6df2e0",
+      "selection_origin": "agent repaired",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_a17e20941448d42f845c",
+      "selection_origin": "agent repaired",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_0c53bd1d21543c6df2e0": "dfb28299ca806e26730c0cee0a19f819185a225a0ddbb24d5e153b3c97b64a22",
+    "s2_114669da18b0498e1ca7": "7cf5440e5ffc2b1e446d97d791178b74ff036f5a8aada62c72f2a59f36514705",
+    "s2_a17e20941448d42f845c": "3f938927b096b031fa62ece55adce4fdbbfeb8d6d4206100adccc4fd7472664c",
+    "s2_cbb0dbc1797fca386724": "735c5958adc91c449ff47a4bc137216b2a8048665f54cbde5b965328382714f2"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent repaired",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

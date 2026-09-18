@@ -1,0 +1,65 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_4bf461c14fd9628bce11",
+      "selection_origin": "deterministic baseline",
+      "template": "comparison",
+      "text": "Insufficient evidence for a focal clicks per eligible day comparison in weeks 8\u201311. 235 distinct peers / 930 person-weeks; 0 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_30b916fa71b355b73615",
+      "selection_origin": "deterministic baseline",
+      "template": "comparison",
+      "text": "Insufficient evidence for a focal nonbanked submissions comparison in weeks 8\u201311. 235 distinct peers / 930 person-weeks; 0 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_c4fbc706ec007bb59ffb",
+      "selection_origin": "deterministic baseline",
+      "template": "comparison",
+      "text": "Insufficient evidence for a focal scheduled no submission comparison in weeks 8\u201311. 235 distinct peers / 930 person-weeks; 0 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_30b916fa71b355b73615",
+      "selection_origin": "deterministic baseline",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "At least one selected comparison or personal-history contrast has insufficient observed support. Available descriptive quantities remain visible with their counts.",
+  "evidence_hashes": {
+    "s2_30b916fa71b355b73615": "981550d2eb67ebd30c729a565af589a10a66fa31789f3cf4e0665b5d467450ad",
+    "s2_4bf461c14fd9628bce11": "bb3361d007acb5cebf37b54ee9df3102e3a4aa1545e460a10b90066fc840584f",
+    "s2_c4fbc706ec007bb59ffb": "b27c2c132f72783f630fdbc6856d93e12cba21510a4ff6004ef5cb3eca7db4a2"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "deterministic baseline",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

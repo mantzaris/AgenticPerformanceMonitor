@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_665d7b9a0e2d0aa3a9c4",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Personal mean changed from 9.89 in weeks 0\u20133 (4 observed weeks) to 9.54 in weeks 4\u20137 (4 observed weeks): change -0.36 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_c1f60120cab9ee92baa3",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Personal mean changed from 4.25 in weeks 0\u20133 (4 observed weeks) to 2.75 in weeks 4\u20137 (4 observed weeks): change -1.50 days with recorded activity / week. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_4d46cdbfafe9fc855387",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "Focal mean 9.89; peer mean 6.92; difference 2.98 recorded clicks / eligible day, focal weeks 0\u20133. 1168 distinct peers / 4598 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [6.40, 7.43]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_0542e011756950fd8352",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "Focal mean 4.25; peer mean 2.30; difference 1.95 days with recorded activity / week, focal weeks 0\u20133. 1168 distinct peers / 4598 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [2.21, 2.40]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_0542e011756950fd8352": "a2ce62e875c692bb829d9bdb00f2fce0740bb4141fb12e7ffe8fb60a77c50d51",
+    "s2_4d46cdbfafe9fc855387": "ab3d61de863cfb38d1aa1967f9f31c318fa23d6fb1f4cc88caafd10df5e70fc2",
+    "s2_665d7b9a0e2d0aa3a9c4": "3ce1e99bcc6f7792fa3899a1f89e72cfbb53128d2af52e06721b754125433aa5",
+    "s2_c1f60120cab9ee92baa3": "b5fc19bcf27cdaa7c07e980aef429d0f74e76de05cafa4033a3c2b90f21f6d2c"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 55,
+    "recent": [
+      4,
+      7
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

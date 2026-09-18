@@ -1,0 +1,289 @@
+{
+  "branch": "stage2/scientific-pilot",
+  "construction_execution_commit": "4e80e4e38a7b7db924e033fe4a53f8b36aba45ea",
+  "final_git_transport_included_in_wall_measurement": false,
+  "final_handoff_commit": "Resolve with git rev-parse HEAD on the delivered branch; full SHA also in completion message",
+  "freeze_sha256": "329aced0d58e05fb38eb74df13104c32bc4ed210d9a337a2a7d40b6316d0e7b9",
+  "frozen_files_unchanged": true,
+  "handoff_artifacts_completed_utc": "2026-09-18T18:36:08.777044+00:00",
+  "hardened_scientific_source_commit": "39c68e9e6d916141f9883fa5f962673a30ef02d1",
+  "ledgers": [
+    "artifacts/stage2/execution.jsonl",
+    "artifacts/stage2/model_ledger.jsonl"
+  ],
+  "limitations": [
+    "Frozen insufficiency scoring is not a valid complete handling measure; external review required",
+    "Only 12 once-run development pilot tasks; no held-out/generalization/repeatability inference",
+    "Agents omit requested context and can produce repetitive panels/claims",
+    "Descriptive bootstrap and administrative support rules are unvalidated for individual detection",
+    "Latency is not hardware controlled; first generic generation includes CUDA profiler overhead"
+  ],
+  "limits": {
+    "backend": "transformers",
+    "bootstrap_replicates": 500,
+    "deadline_utc": "2026-09-18T23:33:59Z",
+    "decoding": {
+      "do_sample": false,
+      "max_new_tokens": 1500
+    },
+    "episode": {
+      "generations": 4,
+      "repairs": 1,
+      "tool_calls": 6
+    },
+    "generation_limit": 120,
+    "gpu_process_seconds_limit": 7200,
+    "minimum_focal_weeks": 2,
+    "minimum_peer_people": 20,
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "profiles": {
+      "alternate": {
+        "baseline": [
+          2,
+          5
+        ],
+        "cutoff_day": 69,
+        "recent": [
+          6,
+          9
+        ]
+      },
+      "mid": {
+        "baseline": [
+          0,
+          3
+        ],
+        "cutoff_day": 55,
+        "recent": [
+          4,
+          7
+        ]
+      },
+      "narrow": {
+        "baseline": [
+          0,
+          3
+        ],
+        "cutoff_day": 83,
+        "recent": [
+          10,
+          11
+        ]
+      },
+      "short": {
+        "baseline": [
+          0,
+          1
+        ],
+        "cutoff_day": 27,
+        "recent": [
+          2,
+          3
+        ]
+      },
+      "standard": {
+        "baseline": [
+          0,
+          3
+        ],
+        "cutoff_day": 83,
+        "recent": [
+          8,
+          11
+        ]
+      }
+    },
+    "question_kinds": {
+      "alternate_windows": {
+        "context": [
+          "personal_history",
+          "references",
+          "observation"
+        ],
+        "feature": "clicks_per_eligible_day"
+      },
+      "assessment_availability": {
+        "context": [
+          "assessment",
+          "observation"
+        ],
+        "feature": "nonbanked_submissions"
+      },
+      "insufficient_support": {
+        "context": [
+          "observation",
+          "personal_history"
+        ],
+        "feature": "clicks_per_eligible_day"
+      },
+      "observation_limits": {
+        "context": [
+          "observation",
+          "assessment"
+        ],
+        "feature": "clicks_per_eligible_day"
+      },
+      "personal_change": {
+        "context": [
+          "personal_history",
+          "observation"
+        ],
+        "feature": "clicks_per_eligible_day"
+      },
+      "reference_sensitivity": {
+        "context": [
+          "references",
+          "personal_history",
+          "observation"
+        ],
+        "feature": "clicks_per_eligible_day"
+      }
+    },
+    "references": {
+      "course": {
+        "description": "Other development people in this presentation, excluding all task focal people",
+        "group": "all",
+        "time": "requested"
+      },
+      "early_stage": {
+        "description": "Presentation peers during the question's earlier baseline window, excluding all task focal people",
+        "group": "all",
+        "time": "baseline"
+      },
+      "same_prior_attempt": {
+        "description": "Same binary prior-attempt group in this presentation, excluding all task focal people",
+        "group": "same_prior_attempt",
+        "time": "requested"
+      }
+    },
+    "seed": 20260918,
+    "started_utc": "2026-09-18T17:33:59Z",
+    "version": "stage2-v1",
+    "wall_seconds_limit": 21600
+  },
+  "pilot_execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+  "pilot_method_comparison": [
+    {
+      "adaptive_episodes": 0,
+      "all_task_context_covered": 12,
+      "appropriate_insufficiency": 4,
+      "attempted": 12,
+      "completion_tokens": 0,
+      "cuda_event_seconds": 0,
+      "denominator": 12,
+      "episode_seconds": 21.112604579995605,
+      "failed_or_not_attempted": 0,
+      "fallbacks": 0,
+      "first_attempt_valid": 12,
+      "generation_seconds": 0,
+      "generations": 0,
+      "insufficiency_tasks": 4,
+      "mean_coverage_fraction_all_tasks": 1.0,
+      "method": "baseline",
+      "prompt_tokens": 0,
+      "repaired": 0,
+      "tool_calls_attempted": 42,
+      "tool_calls_executed": 42,
+      "unsupported_claims_in_accepted_output": 0,
+      "valid_after_repair": 12
+    },
+    {
+      "adaptive_episodes": 10,
+      "all_task_context_covered": 4,
+      "appropriate_insufficiency": 3,
+      "attempted": 12,
+      "completion_tokens": 14128,
+      "cuda_event_seconds": 335.1109987792969,
+      "denominator": 12,
+      "episode_seconds": 433.5662579233758,
+      "failed_or_not_attempted": 2,
+      "fallbacks": 0,
+      "first_attempt_valid": 7,
+      "generation_seconds": 398.78006458841264,
+      "generations": 39,
+      "insufficiency_tasks": 4,
+      "mean_coverage_fraction_all_tasks": 0.65,
+      "method": "generic",
+      "prompt_tokens": 159067,
+      "repaired": 3,
+      "tool_calls_attempted": 64,
+      "tool_calls_executed": 64,
+      "unsupported_claims_in_accepted_output": 0,
+      "valid_after_repair": 10
+    },
+    {
+      "adaptive_episodes": 12,
+      "all_task_context_covered": 2,
+      "appropriate_insufficiency": 0,
+      "attempted": 12,
+      "completion_tokens": 10425,
+      "cuda_event_seconds": 247.25135668945313,
+      "denominator": 12,
+      "episode_seconds": 263.91191649856046,
+      "failed_or_not_attempted": 0,
+      "fallbacks": 0,
+      "first_attempt_valid": 9,
+      "generation_seconds": 249.3379846313037,
+      "generations": 39,
+      "insufficiency_tasks": 4,
+      "mean_coverage_fraction_all_tasks": 0.7111111111111111,
+      "method": "reference_sensitive",
+      "prompt_tokens": 134668,
+      "repaired": 3,
+      "tool_calls_attempted": 46,
+      "tool_calls_executed": 46,
+      "unsupported_claims_in_accepted_output": 0,
+      "valid_after_repair": 12
+    }
+  ],
+  "preserved_stage1_files": 111,
+  "process_status": {
+    "local_followup_server": "stopped after browser verification",
+    "model_processes": "both exited; GPU compute-app list empty; 2 MiB driver memory",
+    "pod": "left running; no allocation change"
+  },
+  "protocol_deviations": [
+    {
+      "description": "Frozen insufficiency score ignores the valid explicit conclusion channel. Added a separate display audit after observing the defect; original scores and all frozen inputs are unchanged. No model rerun or additional repair.",
+      "id": "D1",
+      "paths": [
+        "artifacts/stage2/reports/INSUFFICIENCY_SCORING_AUDIT.md",
+        "artifacts/stage2/reports/insufficiency_display_audit.json"
+      ],
+      "primary_result_replaced": false,
+      "type": "post-hoc scoring audit"
+    }
+  ],
+  "reproduction": "docs/stage2/REPRODUCTION.md",
+  "reserved_population_access": "No reserved longitudinal analysis, task selection, model fitting, agent input or prompt tuning in Stage 2",
+  "resources": {
+    "attempted_generations_total": 101,
+    "completion_tokens_total": 33026,
+    "construction_generations": 23,
+    "construction_model_process_seconds": 313.51054483186454,
+    "maximum_episode_generations_observed": 4,
+    "maximum_episode_repairs_observed": 1,
+    "maximum_episode_tool_calls_observed": 6,
+    "model_process_seconds": 1044.1446340405382,
+    "new_model_download_bytes": 0,
+    "pilot_generations": 78,
+    "pilot_model_process_seconds": 730.6340892086737,
+    "prompt_tokens_total": 390688,
+    "runpod_billing_time": "unknown; not equivalent to model-process or CUDA-event time"
+  },
+  "stage": "stage2",
+  "stage_wall_seconds_to_handoff_artifacts": 3729.777044,
+  "started_utc": "2026-09-18T17:33:59Z",
+  "starting_commit": "dd87aaf012b2ecb8f9a45f00f782fabeebb4450c",
+  "status": "execution_complete_ready_for_independent_review_with_limitations",
+  "verification": {
+    "accepted_dashboard_replays": 42,
+    "browser_followup": "PASS; real form recomputed and preserved parent",
+    "browser_pilot_examples": 3,
+    "exact_chart_and_svg_replays": 42,
+    "gpu_execution": "PASS; pinned weight hashes, CUDA parameter/input/output placement, profiler device events and own-process VRAM",
+    "posthoc_audit": "Frozen insufficiency claim-template item ignores conclusion channel; original scores preserved, display audit reproducible with scripts/stage2/audit_insufficiency.py",
+    "tests": "28 passed before pilot freeze (12 original plus 16 focused Stage 2 cases)"
+  }
+}

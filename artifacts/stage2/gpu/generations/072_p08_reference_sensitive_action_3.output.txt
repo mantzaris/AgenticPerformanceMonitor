@@ -1,0 +1,55 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "p08",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_02ef055cfd7f27883813",
+      "s2_9bfd21266b6e7dcba298",
+      "s2_b2ce45e2e78a5d3f80a2",
+      "s2_5d6f89e7b7616bf4d550"
+    ],
+    "claims": [
+      {
+        "template": "measurement_limits",
+        "evidence_id": "s2_02ef055cfd7f27883813"
+      },
+      {
+        "template": "measurement_limits",
+        "evidence_id": "s2_b2ce45e2e78a5d3f80a2"
+      },
+      {
+        "template": "measurement_limits",
+        "evidence_id": "s2_9bfd21266b6e7dcba298"
+      },
+      {
+        "template": "measurement_limits",
+        "evidence_id": "s2_5d6f89e7b7616bf4d550"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_02ef055cfd7f27883813"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_9bfd21266b6e7dcba298"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_b2ce45e2e78a5d3f80a2"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_5d6f89e7b7616bf4d550"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_02ef055cfd7f27883813"
+      }
+    ],
+    "conclusion": "insufficient_evidence",
+    "followups": []
+  }
+}

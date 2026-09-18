@@ -1,0 +1,80 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_4bf461c14fd9628bce11",
+      "selection_origin": "agent repaired",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_9221de5a314fbf20584a",
+      "selection_origin": "agent repaired",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_2bc482b7f7781e9a67eb",
+      "selection_origin": "agent repaired",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_e0550f3d12f7bcde061c",
+      "selection_origin": "agent repaired",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_2bc482b7f7781e9a67eb",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "Insufficient evidence for a focal clicks per eligible day comparison in weeks 0\u20133. 241 distinct peers / 960 person-weeks; 1 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_e0550f3d12f7bcde061c",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "Insufficient evidence for a focal active days comparison in weeks 0\u20133. 241 distinct peers / 960 person-weeks; 1 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_2bc482b7f7781e9a67eb": "eb94a9edaeb67a51fc5cadcf383d4f56ff0078bb2b2216cec408177421cb81ba",
+    "s2_4bf461c14fd9628bce11": "d668dae6fd1702a6fb8c911b118bc430b384ae573ddeb2f625da9b1feca4d1c6",
+    "s2_9221de5a314fbf20584a": "19e368ed0e0aa136b1a7a5f403e0ceddefef48c1602de7a378a3d32448027ce1",
+    "s2_e0550f3d12f7bcde061c": "94d1b92ed5681108312aec2f2ba555f716ca4e7ca179c3fd847424f77d6c75ef"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent repaired",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_142a1139637247d093c5",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Insufficient eligible personal history for a baseline-to-recent comparison.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_25c613a983f7ed04726f",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Insufficient eligible personal history for a baseline-to-recent comparison.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_dba00adeb9e7d76eabbc",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Insufficient eligible personal history for a baseline-to-recent comparison.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_3f8e3dd70aac07db28a4",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Insufficient eligible personal history for a baseline-to-recent comparison.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "At least one selected comparison or personal-history contrast has insufficient observed support. Available descriptive quantities remain visible with their counts.",
+  "evidence_hashes": {
+    "s2_142a1139637247d093c5": "eeb8a48cfd37c13ceae2bdb4986b54ac3b31757d31befbb718f13d26e2859ade",
+    "s2_25c613a983f7ed04726f": "2b29b09fc1a7d6254cde1e54213cbd572aed56cf787641308e5611a49255f368",
+    "s2_3f8e3dd70aac07db28a4": "1ba064fa4b7c47134422337b6b0d32c218b543d233c22bf862bf0962d8260866",
+    "s2_dba00adeb9e7d76eabbc": "9de18f4c53eed186c4398509cef10c26ec02cd0ca78e2d04064102be3a519e74"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      1
+    ],
+    "cutoff_day": 27,
+    "recent": [
+      2,
+      3
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

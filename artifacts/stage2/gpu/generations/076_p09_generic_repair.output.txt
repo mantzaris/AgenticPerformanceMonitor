@@ -1,0 +1,109 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "p09",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_202bafe1fff23051389d",
+      "s2_87e071c6a638a3442568",
+      "s2_9dfb8e3034316edfb3c1",
+      "s2_b3bd32db7a715922c567",
+      "s2_3ce2537e21a240921c80",
+      "s2_e36d86f53150a396dfdc"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_202bafe1fff23051389d"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_87e071c6a638a3442568"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_3ce2537e21a240921c80"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_e36d86f53150a396dfdc"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_202bafe1fff23051389d"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_87e071c6a638a3442568"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_3ce2537e21a240921c80"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_e36d86f53150a396dfdc"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_9dfb8e3034316edfb3c1"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_b3bd32db7a715922c567"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_202bafe1fff23051389d"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_87e071c6a638a3442568"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_3ce2537e21a240921c80"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_e36d86f53150a396dfdc"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_9dfb8e3034316edfb3c1"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_b3bd32db7a715922c567"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_202bafe1fff23051389d"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_87e071c6a638a3442568"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_3ce2537e21a240921c80"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_e36d86f53150a396dfdc"
+      },
+      {
+        "kind": "assessment_status",
+        "evidence_id": "s2_9dfb8e3034316edfb3c1"
+      },
+      {
+        "kind": "assessment_status",
+        "evidence_id": "s2_b3bd32db7a715922c567"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  }
+}

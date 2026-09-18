@@ -1,9 +1,24 @@
 # Reference-sensitive longitudinal dashboards
 
-Stage 1 research feasibility prototype using OULAD. Start with
-**[STAGE1_REVIEW.md](STAGE1_REVIEW.md)** for acceptance evidence, limitations and
-the independent-review handoff. The supplied full research plan is preserved;
-later stages are not implemented.
+OULAD research prototype. Start with **[STAGE2_REVIEW.md](STAGE2_REVIEW.md)** for
+the scientific hardening, frozen development pilot and working local dashboard
+follow-up. **[STAGE1_REVIEW.md](STAGE1_REVIEW.md)** remains the unchanged historical
+feasibility handoff. The supplied full research plan is preserved; the full
+held-out research evaluation has not been started.
+
+Stage 2 reproduction and review commands are in
+[docs/stage2/REPRODUCTION.md](docs/stage2/REPRODUCTION.md). Its saved dashboards
+replay from a small, hash-checked development feature bundle without raw data,
+weights or inference. Start the local follow-up application with:
+
+```bash
+.venv/bin/python -m trajectory_dashboards.stage2.followup --port 8765
+```
+
+Open `http://127.0.0.1:8765/artifacts/stage2/construction/baseline/c04/accepted/dashboard.html`.
+The form executes a new analysis and saves a linked child dashboard. The commands
+below describe the historical Stage 1 path; run data regeneration in a fresh
+directory to preserve the committed research artifacts.
 
 The system compares a student's recorded activity with course peers, a prior-
 attempt subgroup, an earlier study stage and personal history. Deterministic

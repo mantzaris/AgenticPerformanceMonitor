@@ -1,0 +1,82 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_7f0defb27ac4b040f07c",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Personal mean changed from 6.32 in weeks 0\u20133 (4 observed weeks) to 2.36 in weeks 8\u201311 (4 observed weeks): change -3.96 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_3624a2a4563e3922215a",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Personal mean changed from 6.32 in weeks 0\u20133 (4 observed weeks) to 2.36 in weeks 8\u201311 (4 observed weeks): change -3.96 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_28fda93e989605a5c75d",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Personal mean changed from 6.32 in weeks 0\u20133 (4 observed weeks) to 2.36 in weeks 8\u201311 (4 observed weeks): change -3.96 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_25c9872ff05a660edcb5",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Personal mean changed from 6.32 in weeks 0\u20133 (4 observed weeks) to 2.36 in weeks 8\u201311 (4 observed weeks): change -3.96 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_3dcfd3605cb7e3dfa567",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Personal mean changed from 6.32 in weeks 0\u20133 (4 observed weeks) to 2.36 in weeks 8\u201311 (4 observed weeks): change -3.96 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_dee9262a44bc6dfd391c",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "Personal mean changed from 6.32 in weeks 0\u20133 (4 observed weeks) to 2.36 in weeks 8\u201311 (4 observed weeks): change -3.96 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "The selected recent activity contrasts have the same direction across the selected references. Magnitudes can differ. This is not a significance or invariance test.",
+  "evidence_hashes": {
+    "s2_25c9872ff05a660edcb5": "418a82c4c98fbfd84c9101912afc420f5f8238711a7cfec938efa656ccb9760f",
+    "s2_28fda93e989605a5c75d": "104b62ab895c40cf8dca28593db3119f560b6cf4d215597c3d4f9e00d37b5837",
+    "s2_3624a2a4563e3922215a": "433360c72a6218059557e27fd5b3b882062bc4b74aef7bf26826516d119fff86",
+    "s2_3dcfd3605cb7e3dfa567": "e4666eb65019ca80eb9a39d8b40ddb27f4a6445a9ff79141088aec0d399e6927",
+    "s2_7f0defb27ac4b040f07c": "174b19cca9542efcc66def076c87de0e9998eeaf2baf7d31a02c2230dddfee20",
+    "s2_dee9262a44bc6dfd391c": "2d64ae4fdc3546ada4e9bc42e09e69c71c0148bcd5e1bc2bda16adfd8e4d4121"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-09-18T18:24:48.713904+00:00",
+  "commands": [
+    "nvidia-smi --query-gpu=name,driver_version,memory.used --format=csv,noheader",
+    "nvidia-smi --query-compute-apps=pid,process_name,used_memory --format=csv,noheader"
+  ],
+  "compute_processes": [],
+  "driver": "580.159.04",
+  "evidence": "Direct queries after the pilot process returned to the shell; compute-app output was empty.",
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "model_processes_started_for_stage2": "exited; both ledger reservations closed",
+  "pod_status": "left running; no provisioning or GPU-allocation change",
+  "used_memory_mib": 2
+}

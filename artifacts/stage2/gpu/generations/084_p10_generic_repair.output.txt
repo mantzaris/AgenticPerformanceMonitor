@@ -1,0 +1,81 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "p10",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_cbb0dbc1797fca386724",
+      "s2_0c53bd1d21543c6df2e0",
+      "s2_787b49203286ae54c484",
+      "s2_4f70e09b5bdc195d8e46",
+      "s2_5d664a13215176c72f4d",
+      "s2_2910570af95369adeedc"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_cbb0dbc1797fca386724"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_0c53bd1d21543c6df2e0"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_787b49203286ae54c484"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_4f70e09b5bdc195d8e46"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_5d664a13215176c72f4d"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_2910570af95369adeedc"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_cbb0dbc1797fca386724"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_0c53bd1d21543c6df2e0"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_787b49203286ae54c484"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_4f70e09b5bdc195d8e46"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_5d664a13215176c72f4d"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_2910570af95369adeedc"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_cbb0dbc1797fca386724"
+      },
+      {
+        "kind": "assessment_status",
+        "evidence_id": "s2_4f70e09b5bdc195d8e46"
+      },
+      {
+        "kind": "assessment_status",
+        "evidence_id": "s2_787b49203286ae54c484"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  }
+}

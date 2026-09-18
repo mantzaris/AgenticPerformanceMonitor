@@ -1,0 +1,314 @@
+{
+  "checks": [
+    "Historical Stage 1 hashes unchanged",
+    "Frozen pilot hashes unchanged",
+    "Every accepted evidence record independently checked against source",
+    "Claims, chart tables and evidence links replay without model imports",
+    "Reserved identities excluded by engine",
+    "All frozen pilot tasks/methods retained",
+    "CUDA parameter placement, recorded device events and own-process VRAM",
+    "Episode and cumulative budgets; every model process closed"
+  ],
+  "frozen_inputs_unchanged": true,
+  "historical_files_unchanged": 111,
+  "model_generations": 101,
+  "model_process_seconds": 1044.1446340405382,
+  "replays": [
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c01/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c02/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c03/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c04/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c05/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c06/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/generic/c03/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/followups/c04_followup_7dc4249cfd",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p01/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p02/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p03/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p04/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p05/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p06/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p07/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p08/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p09/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p10/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p11/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/baseline/p12/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p01/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p02/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p03/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p04/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p05/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p06/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p07/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p10/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p11/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/generic/p12/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p01/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p02/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p03/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p04/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p05/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p06/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p07/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p08/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p09/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p10/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p11/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/pilot/reference_sensitive/p12/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    }
+  ],
+  "status": "PASS",
+  "verified_utc": "2026-09-18T18:26:05.596134+00:00"
+}

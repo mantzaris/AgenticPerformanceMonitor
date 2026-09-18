@@ -1,0 +1,29 @@
+{
+  "inspected": [
+    "artifacts/stage2/followup_demo/before.browser.png",
+    "artifacts/stage2/followup_demo/after.browser.png",
+    "artifacts/stage2/checks/pilot_browser/p03_baseline.png",
+    "artifacts/stage2/checks/pilot_browser/p08_reference_sensitive.png",
+    "artifacts/stage2/checks/pilot_browser/p09_reference_sensitive.png"
+  ],
+  "inspected_utc": "2026-09-18T18:13:33.445918+00:00",
+  "inspector": "Codex image inspection plus Chromium/Playwright browser interaction; not external human scientific review",
+  "observations": [
+    "Original insufficient-support message is prominent with zero recent observed weeks",
+    "New cutoff and both window definitions are visible; earlier-stage summary is labeled separately from same-week trajectory",
+    "Recorded-zero periods are yellow and administratively ineligible periods gray, with unavailable focal trajectory after eligibility ends",
+    "Peer-mean interval labels distinguish individual prediction uncertainty",
+    "Evidence inspector expands; form submits and navigates to a newly saved result; no browser page errors",
+    "p03 baseline visibly reports same-sign recent contrasts with different magnitudes; no automatic reference-change claim",
+    "p08 reference-sensitive output prominently declares insufficient evidence, supporting the documented post-hoc scorer-defect diagnosis",
+    "p09 reference-sensitive output labels banked/grade limitations and renders only the selected available assessment measurements"
+  ],
+  "pilot_inspection_utc": "2026-09-18T18:30:45.309357+00:00",
+  "remaining_limitations": [
+    "Long peer labels make dense pages; static SVG inspection uses the expandable source table for per-week denominators",
+    "Desktop Chromium only; accessibility, mobile and concurrent-user behavior not evaluated",
+    "Follow-up reference selector defaults to course for the next request; current evidence definition is shown in the question, claims and inspector",
+    "Agent-selected p08 repeats trajectories and measurement-limit claims; p09 repeats assessment-status panels. These are preserved selection/usability defects, not silently cleaned up.",
+    "Frozen insufficiency scoring ignores the explicit conclusion channel; see the separate post-hoc display audit."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "p06",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    }
+  ]
+}

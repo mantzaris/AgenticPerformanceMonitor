@@ -1,0 +1,82 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_91e05880a886eae04135",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "Focal mean 1.43; peer mean 3.44; difference -2.01 recorded clicks / eligible day, focal weeks 8\u201311. 1049 distinct peers / 4128 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [3.06, 3.84]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_e6b0635aeadbb8325a9c",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "Focal mean 1.43; peer mean 3.69; difference -2.26 recorded clicks / eligible day, focal weeks 8\u201311. 845 distinct peers / 3326 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 8\u201311. Peer mean 95% bootstrap interval [3.19, 4.20]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_321b3f785bf16663e720",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "Focal mean 1.43; peer mean 6.92; difference -5.49 recorded clicks / eligible day, focal weeks 8\u201311. 1168 distinct peers / 4598 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [6.40, 7.49]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_16103d55d03997965ef9",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "Focal mean 0.50; peer mean 6.92; difference -6.42 recorded clicks / eligible day, focal weeks 0\u20133. 1168 distinct peers / 4598 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [6.40, 7.46]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_c83600ccdf39c43fa69a",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "Focal mean 0.50; peer mean 7.24; difference -6.74 recorded clicks / eligible day, focal weeks 0\u20133. 934 distinct peers / 3685 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 0\u20133. Peer mean 95% bootstrap interval [6.67, 7.93]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_6733dd7f8ae3030697dd",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "Focal mean 0.50; peer mean 6.92; difference -6.42 recorded clicks / eligible day, focal weeks 0\u20133. 1168 distinct peers / 4598 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [6.42, 7.48]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "The selected recent activity contrasts have the same direction across the selected references. Magnitudes can differ. This is not a significance or invariance test.",
+  "evidence_hashes": {
+    "s2_16103d55d03997965ef9": "c329ae8136ce4eaf6f8c71f02e2a1cf39b736c9fc5cfaacf87c0b1bfd15f6d17",
+    "s2_321b3f785bf16663e720": "63779b3e7811cdf304a0fac4d0f70889402c5ec9fd89c04d32157c12205a1945",
+    "s2_6733dd7f8ae3030697dd": "1994a87cf678628dfaf7b3f9fb33f6a9e44a9793597004ba3c7130f8e2c660e9",
+    "s2_91e05880a886eae04135": "914bce9f828f62f0a04cdaacfb390ac8af7e27e8d3e191ac4fdef79a8111a527",
+    "s2_c83600ccdf39c43fa69a": "b6fd8f83428b025295080f3291867a3d75ca64fa7867bd1f51c9d909c7d8aadf",
+    "s2_e6b0635aeadbb8325a9c": "1afbc4ffa40f8a83661d0ab09ad1f98ff5aa2ce500da5418daa87101c98b8228"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

@@ -1,0 +1,34 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_4bf461c14fd9628bce11",
+      "template": "measurement_limits"
+    },
+    {
+      "evidence_id": "s2_9221de5a314fbf20584a",
+      "template": "measurement_limits"
+    }
+  ],
+  "conclusion": "insufficient_evidence",
+  "cutoff_day": 83,
+  "evidence_ids": [
+    "s2_4bf461c14fd9628bce11",
+    "s2_9221de5a314fbf20584a"
+  ],
+  "followups": [],
+  "panels": [
+    {
+      "evidence_id": "s2_4bf461c14fd9628bce11",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_9221de5a314fbf20584a",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_4bf461c14fd9628bce11",
+      "kind": "observation_status"
+    }
+  ],
+  "question_id": "p06"
+}

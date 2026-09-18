@@ -1,0 +1,9 @@
+{
+  "command": ".venv/bin/pytest -q",
+  "execution_phase": "Final pre-pilot source checks, completed before the freeze; no new model calls",
+  "note": "Subsequent final verification replayed all 42 accepted exports and checked complete model logs, rather than rerunning the pilot.",
+  "observed_output": "............................ [100%]\n28 passed in 10.76s",
+  "scientific_source_commit": "39c68e9",
+  "stage1_original_tests": 12,
+  "stage2_focused_cases": 16
+}

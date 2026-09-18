@@ -1,0 +1,1955 @@
+[
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:35.946267+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 1.3547456249998504,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": false,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p01",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:34.591521+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p01",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:12:04.099257+00:00",
+    "completion_tokens": 1004,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "cuda_event_seconds": 25.928869873046875,
+    "elapsed_seconds": 90.66825432702899,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 87.79860964836553,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 12857,
+    "question_id": "p01",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:10:33.426215+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p01",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:12:18.788043+00:00",
+    "completion_tokens": 582,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "cuda_event_seconds": 13.655925659179687,
+    "elapsed_seconds": 14.624359813984483,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 13.924328280147165,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 9375,
+    "question_id": "p01",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:12:04.159450+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p01",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:37.019762+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 1.0601894230003381,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": false,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p02",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:35.959571+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p02",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:12:49.134546+00:00",
+    "completion_tokens": 1011,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "cuda_event_seconds": 26.423128662109374,
+    "elapsed_seconds": 30.330438318196684,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 26.570056544151157,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 12775,
+    "question_id": "p02",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:12:18.800758+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p02",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:13:07.336825+00:00",
+    "completion_tokens": 712,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "cuda_event_seconds": 17.0209443359375,
+    "elapsed_seconds": 18.15619980590418,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 17.17355864169076,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 9960,
+    "question_id": "p02",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:12:49.178635+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p02",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:39.472181+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 2.4455446979991393,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": false,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p03",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:37.026636+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p03",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:13:33.950333+00:00",
+    "completion_tokens": 1000,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "cuda_event_seconds": 22.52440771484375,
+    "elapsed_seconds": 26.575327780097723,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 22.610948716290295,
+    "generations": 2,
+    "insufficient_expected": false,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 8106,
+    "question_id": "p03",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:13:07.373175+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": false,
+    "subset": "pilot",
+    "task_id": "p03",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:13:59.058674+00:00",
+    "completion_tokens": 1011,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.8,
+    "cuda_event_seconds": 23.5039111328125,
+    "elapsed_seconds": 25.05039313295856,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 23.63878871500492,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "personal_history_claim"
+    ],
+    "prompt_tokens": 12575,
+    "question_id": "p03",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:13:34.006495+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p03",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:42.183713+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 2.6982882560005237,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": false,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p04",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:39.485423+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p04",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:14:18.184496+00:00",
+    "completion_tokens": 699,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.8,
+    "cuda_event_seconds": 16.367734375,
+    "elapsed_seconds": 19.089653653092682,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 16.478516958188266,
+    "generations": 2,
+    "insufficient_expected": false,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "personal_history_claim"
+    ],
+    "prompt_tokens": 7949,
+    "question_id": "p04",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:13:59.092976+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": false,
+    "subset": "pilot",
+    "task_id": "p04",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:14:47.545020+00:00",
+    "completion_tokens": 1022,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.8,
+    "cuda_event_seconds": 26.1971650390625,
+    "elapsed_seconds": 29.311407783068717,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 26.34765482135117,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "personal_history_claim"
+    ],
+    "prompt_tokens": 12363,
+    "question_id": "p04",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:14:18.231636+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p04",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": true,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:44.625749+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 2.428891437999482,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": true,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p05",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:42.196855+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p05",
+    "tool_calls_attempted": 5,
+    "tool_calls_executed": 5,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": true,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:15:20.447432+00:00",
+    "completion_tokens": 1300,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.5,
+    "cuda_event_seconds": 30.12169140625,
+    "elapsed_seconds": 32.854377238079906,
+    "fallback": false,
+    "first_attempt_valid": false,
+    "generation_seconds": 30.32433549873531,
+    "generations": 4,
+    "insufficient_expected": true,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:nonbanked_submissions:course:recent",
+      "evidence:scheduled_no_submission:course:recent",
+      "assessment_context_panel"
+    ],
+    "prompt_tokens": 14515,
+    "question_id": "p05",
+    "repairs": 1,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:14:47.591297+00:00",
+    "status": "agent_generated_and_repaired",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p05",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": false,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:15:31.818027+00:00",
+    "completion_tokens": 447,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.5,
+    "cuda_event_seconds": 10.608643676757813,
+    "elapsed_seconds": 11.33981238398701,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 10.749342245049775,
+    "generations": 3,
+    "insufficient_expected": true,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:nonbanked_submissions:course:recent",
+      "evidence:scheduled_no_submission:course:recent",
+      "assessment_context_panel"
+    ],
+    "prompt_tokens": 7537,
+    "question_id": "p05",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:15:20.476173+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p05",
+    "tool_calls_attempted": 2,
+    "tool_calls_executed": 2,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": true,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:46.356778+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 1.7242157780001435,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": true,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p06",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:44.632562+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p06",
+    "tool_calls_attempted": 5,
+    "tool_calls_executed": 5,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": true,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:16:03.365520+00:00",
+    "completion_tokens": 1289,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.5,
+    "cuda_event_seconds": 29.86812060546875,
+    "elapsed_seconds": 31.53124555805698,
+    "fallback": false,
+    "first_attempt_valid": false,
+    "generation_seconds": 30.05217967601493,
+    "generations": 4,
+    "insufficient_expected": true,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:nonbanked_submissions:course:recent",
+      "evidence:scheduled_no_submission:course:recent",
+      "assessment_context_panel"
+    ],
+    "prompt_tokens": 14506,
+    "question_id": "p06",
+    "repairs": 1,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:15:31.832528+00:00",
+    "status": "agent_generated_and_repaired",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p06",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": false,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:16:14.559705+00:00",
+    "completion_tokens": 436,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.5,
+    "cuda_event_seconds": 10.41833203125,
+    "elapsed_seconds": 11.1829520650208,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 10.585453494917601,
+    "generations": 3,
+    "insufficient_expected": true,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:nonbanked_submissions:course:recent",
+      "evidence:scheduled_no_submission:course:recent",
+      "assessment_context_panel"
+    ],
+    "prompt_tokens": 7536,
+    "question_id": "p06",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:16:03.374659+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p06",
+    "tool_calls_attempted": 2,
+    "tool_calls_executed": 2,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": true,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:47.169792+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 0.8061958589987626,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": true,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p07",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:46.363597+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p07",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": true,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:16:33.104516+00:00",
+    "completion_tokens": 720,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "cuda_event_seconds": 16.6360732421875,
+    "elapsed_seconds": 18.53781192097813,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 16.76798146031797,
+    "generations": 3,
+    "insufficient_expected": true,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 9303,
+    "question_id": "p07",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:16:14.564966+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p07",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": false,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:16:51.315431+00:00",
+    "completion_tokens": 720,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.6666666666666666,
+    "cuda_event_seconds": 17.08552197265625,
+    "elapsed_seconds": 18.171105361077935,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 17.222508172038943,
+    "generations": 3,
+    "insufficient_expected": true,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "personal_history_claim"
+    ],
+    "prompt_tokens": 9606,
+    "question_id": "p07",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:16:33.142036+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p07",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": true,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:48.476176+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 1.2930529919995024,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": true,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p08",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:47.183124+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p08",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": false,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": false,
+    "completed_utc": "2026-09-18T18:17:20.735967+00:00",
+    "completion_tokens": 1086,
+    "coverage": [
+      {
+        "covered": false,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": false,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.0,
+    "cuda_event_seconds": 25.743517333984375,
+    "elapsed_seconds": 29.38918816577643,
+    "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.",
+    "fallback": false,
+    "first_attempt_valid": false,
+    "generation_seconds": 25.966568124480546,
+    "generations": 4,
+    "insufficient_expected": true,
+    "method": "generic",
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "omitted_context": [
+      "evidence:clicks_per_eligible_day:course:recent",
+      "personal_history_claim",
+      "observation_context_panel"
+    ],
+    "prompt_tokens": 14726,
+    "question_id": "p08",
+    "repairs": 1,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:16:51.344816+00:00",
+    "status": "failed",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p08",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": null,
+    "valid_after_permitted_repair": false
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": false,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:17:38.940770+00:00",
+    "completion_tokens": 724,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.6666666666666666,
+    "cuda_event_seconds": 16.8719580078125,
+    "elapsed_seconds": 18.169102229177952,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 17.056814989075065,
+    "generations": 3,
+    "insufficient_expected": true,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "personal_history_claim"
+    ],
+    "prompt_tokens": 9772,
+    "question_id": "p08",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:17:20.769892+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p08",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:49.808133+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 1.318901859998732,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": false,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p09",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:48.489230+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p09",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": false,
+    "completed_utc": "2026-09-18T18:18:31.658980+00:00",
+    "completion_tokens": 2236,
+    "coverage": [
+      {
+        "covered": false,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": false,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": false,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.0,
+    "cuda_event_seconds": 51.1534287109375,
+    "elapsed_seconds": 52.685808543115854,
+    "error": "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 12 [type=too_long, input_value=[{'kind': 'trajectory', '..._b3bd32db7a715922c567'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+    "fallback": false,
+    "first_attempt_valid": false,
+    "generation_seconds": 51.35337085975334,
+    "generations": 4,
+    "insufficient_expected": false,
+    "method": "generic",
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "omitted_context": [
+      "evidence:nonbanked_submissions:course:recent",
+      "evidence:scheduled_no_submission:course:recent",
+      "assessment_context_panel",
+      "explicit_measurement_qualification",
+      "observation_context_panel"
+    ],
+    "prompt_tokens": 19738,
+    "question_id": "p09",
+    "repairs": 1,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:17:38.971056+00:00",
+    "status": "failed",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p09",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": null,
+    "valid_after_permitted_repair": false
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:19:04.087146+00:00",
+    "completion_tokens": 1342,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": false,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.6,
+    "cuda_event_seconds": 31.21754541015625,
+    "elapsed_seconds": 32.388137778267264,
+    "fallback": false,
+    "first_attempt_valid": false,
+    "generation_seconds": 31.414691038429737,
+    "generations": 4,
+    "insufficient_expected": false,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:scheduled_no_submission:course:recent",
+      "explicit_measurement_qualification"
+    ],
+    "prompt_tokens": 15562,
+    "question_id": "p09",
+    "repairs": 1,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:18:31.696847+00:00",
+    "status": "agent_generated_and_repaired",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p09",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:52.094798+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 2.2800693249992037,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": false,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p10",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:49.814729+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p10",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:19:51.737031+00:00",
+    "completion_tokens": 1828,
+    "coverage": [
+      {
+        "covered": false,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": false,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.6,
+    "cuda_event_seconds": 42.39878173828125,
+    "elapsed_seconds": 47.63870369177312,
+    "fallback": false,
+    "first_attempt_valid": false,
+    "generation_seconds": 42.60089513845742,
+    "generations": 4,
+    "insufficient_expected": false,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:nonbanked_submissions:course:recent",
+      "explicit_measurement_qualification"
+    ],
+    "prompt_tokens": 19316,
+    "question_id": "p10",
+    "repairs": 1,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:19:04.096496+00:00",
+    "status": "agent_generated_and_repaired",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p10",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:20:30.477397+00:00",
+    "completion_tokens": 1563,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:nonbanked_submissions:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:scheduled_no_submission:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "assessment_context_panel"
+      },
+      {
+        "covered": true,
+        "id": "explicit_measurement_qualification"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.8,
+    "cuda_event_seconds": 36.2171904296875,
+    "elapsed_seconds": 38.693692109081894,
+    "fallback": false,
+    "first_attempt_valid": false,
+    "generation_seconds": 36.4132515755482,
+    "generations": 4,
+    "insufficient_expected": false,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:scheduled_no_submission:course:recent"
+    ],
+    "prompt_tokens": 15647,
+    "question_id": "p10",
+    "repairs": 1,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:19:51.781642+00:00",
+    "status": "agent_generated_and_repaired",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p10",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:53.376659+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 1.2683393320003233,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": false,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p11",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:52.108323+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p11",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:20:56.117947+00:00",
+    "completion_tokens": 986,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.8,
+    "cuda_event_seconds": 23.55941259765625,
+    "elapsed_seconds": 25.60708628501743,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 23.71182863181457,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+    ],
+    "prompt_tokens": 12666,
+    "question_id": "p11",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:20:30.509109+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p11",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:21:22.182343+00:00",
+    "completion_tokens": 1023,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.6,
+    "cuda_event_seconds": 25.157571044921873,
+    "elapsed_seconds": 26.043513543903828,
+    "fallback": false,
+    "first_attempt_valid": false,
+    "generation_seconds": 25.366141797509044,
+    "generations": 4,
+    "insufficient_expected": false,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:clicks_per_eligible_day:same_prior_attempt:recent",
+      "personal_history_claim"
+    ],
+    "prompt_tokens": 13985,
+    "question_id": "p11",
+    "repairs": 1,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:20:56.136031+00:00",
+    "status": "agent_generated_and_repaired",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p11",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": true,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:09:55.824900+00:00",
+    "completion_tokens": 0,
+    "config_sha256": "2eea738aa2f07a5cb116664a98ddbbe8c6097053c193210314b90ba71e978021",
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": true,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 1.0,
+    "elapsed_seconds": 2.4341699939996033,
+    "execution_commit": "5163ac032465a294b02684e80e94bf2e11a22164",
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generations": 0,
+    "insufficient_expected": false,
+    "method": "baseline",
+    "numerical_integrity": "PASS",
+    "omitted_context": [],
+    "prompt_tokens": 0,
+    "question_id": "p12",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:09:53.390729+00:00",
+    "status": "deterministic_accepted",
+    "subset": "pilot",
+    "task_id": "p12",
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:21:50.849850+00:00",
+    "completion_tokens": 969,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.6,
+    "cuda_event_seconds": 24.38583251953125,
+    "elapsed_seconds": 28.658362442161888,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 24.544773331843317,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "generic",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:clicks_per_eligible_day:same_prior_attempt:recent",
+      "personal_history_claim"
+    ],
+    "prompt_tokens": 12610,
+    "question_id": "p12",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:21:22.189730+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p12",
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  },
+  {
+    "all_task_context_covered": false,
+    "appropriate_insufficiency": null,
+    "compiler_context_credit": "Displayed and reported separately; not evidence of agent-selected investigation",
+    "compiler_context_present": true,
+    "completed_utc": "2026-09-18T18:22:11.677614+00:00",
+    "completion_tokens": 843,
+    "coverage": [
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:course:recent"
+      },
+      {
+        "covered": false,
+        "id": "evidence:clicks_per_eligible_day:same_prior_attempt:recent"
+      },
+      {
+        "covered": true,
+        "id": "evidence:clicks_per_eligible_day:early_stage:recent"
+      },
+      {
+        "covered": false,
+        "id": "personal_history_claim"
+      },
+      {
+        "covered": true,
+        "id": "observation_context_panel"
+      }
+    ],
+    "coverage_fraction": 0.6,
+    "cuda_event_seconds": 19.29664794921875,
+    "elapsed_seconds": 20.781240492127836,
+    "fallback": false,
+    "first_attempt_valid": true,
+    "generation_seconds": 19.445450860541314,
+    "generations": 3,
+    "insufficient_expected": false,
+    "method": "reference_sensitive",
+    "numerical_integrity": "PASS",
+    "omitted_context": [
+      "evidence:clicks_per_eligible_day:same_prior_attempt:recent",
+      "personal_history_claim"
+    ],
+    "prompt_tokens": 10750,
+    "question_id": "p12",
+    "repairs": 0,
+    "rubric_review_status": "awaiting external review",
+    "started_utc": "2026-09-18T18:21:50.894405+00:00",
+    "status": "agent_generated_and_accepted",
+    "subsequent_analysis_after_results": true,
+    "subset": "pilot",
+    "task_id": "p12",
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_claim_scope": "Controlled claim vocabulary and integrity checks; does not assess unconstrained natural-language reasoning or human usefulness. Invalid attempts remain in logs.",
+    "unsupported_claims_in_accepted_output": 0,
+    "valid_after_permitted_repair": true
+  }
+]

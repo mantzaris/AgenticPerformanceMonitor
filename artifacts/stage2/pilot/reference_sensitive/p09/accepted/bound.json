@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_202bafe1fff23051389d",
+      "selection_origin": "agent repaired",
+      "template": "personal_change",
+      "text": "Personal mean changed from 10.71 in weeks 0\u20133 (4 observed weeks) to 7.21 in weeks 8\u201311 (4 observed weeks): change -3.50 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_3ce2537e21a240921c80",
+      "selection_origin": "agent repaired",
+      "template": "personal_change",
+      "text": "Personal mean changed from 0.25 in weeks 0\u20133 (4 observed weeks) to 0.00 in weeks 8\u201311 (4 observed weeks): change -0.25 non-banked submissions / week. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_87e071c6a638a3442568",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "Focal mean 10.71; peer mean 13.14; difference -2.42 recorded clicks / eligible day, focal weeks 0\u20133. 241 distinct peers / 960 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [11.93, 14.42]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_e36d86f53150a396dfdc",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "Focal mean 0.25; peer mean 0.23; difference 0.02 non-banked submissions / week, focal weeks 0\u20133. 241 distinct peers / 960 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [0.23, 0.24]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_202bafe1fff23051389d": "45e2f0f15445663c832db185d6b0f0ecf38239b4c596b85c263cfab6fc0def21",
+    "s2_3ce2537e21a240921c80": "bceede644e2292e1ee87afb9dfad8b5e4ad2d4016e9ae4cecf45a1b5e4164c5d",
+    "s2_87e071c6a638a3442568": "6367bfd4903489495ab59ea1a05b5c27698d7a4bd95f39d511184c2a8e1fff9e",
+    "s2_e36d86f53150a396dfdc": "6039a19c9deff1c381938fdbf07992bd851611d30357daa816151a4b908c0444"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent repaired",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}
