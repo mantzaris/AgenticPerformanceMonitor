@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "phase": "post-pilot verification, not scoring or tuning",
+  "production_compiler_or_evaluator_called": false,
+  "accepted_semantic_pilot_dashboards": 7,
+  "records": [
+    {
+      "question_id": "s4_01",
+      "status": "PASS",
+      "raw_generation": 33,
+      "explicit_intents": 3,
+      "selected_evidence": [
+        "s2_1b83b32f0853eefbc397",
+        "s2_417cad9a2ed8591ec91d"
+      ],
+      "retrieved_unselected_evidence": [
+        "s2_24698ad8a8a8a9159175",
+        "s2_d40d4613a00f7634fa2d"
+      ],
+      "quantitative_claims": 3,
+      "compiler_panels": [
+        {
+          "evidence_id": "s2_417cad9a2ed8591ec91d",
+          "kind": "observation_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common observation context"
+        }
+      ],
+      "compiler_quantitative_claims": 0
+    },
+    {
+      "question_id": "s4_02",
+      "status": "PASS",
+      "raw_generation": 36,
+      "explicit_intents": 1,
+      "selected_evidence": [
+        "s2_e26b5e58c1f84dcec740"
+      ],
+      "retrieved_unselected_evidence": [
+        "s2_9ee74a2aa26e0f884b6e"
+      ],
+      "quantitative_claims": 1,
+      "compiler_panels": [
+        {
+          "evidence_id": "s2_e26b5e58c1f84dcec740",
+          "kind": "observation_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common observation context"
+        }
+      ],
+      "compiler_quantitative_claims": 0
+    },
+    {
+      "question_id": "s4_03",
+      "status": "PASS",
+      "raw_generation": 45,
+      "explicit_intents": 3,
+      "selected_evidence": [
+        "s2_09bcace7d58bb4c87171",
+        "s2_32c9b37d400679cf102f",
+        "s2_ed69244398484e4258d9"
+      ],
+      "retrieved_unselected_evidence": [],
+      "quantitative_claims": 3,
+      "compiler_panels": [
+        {
+          "evidence_id": "s2_09bcace7d58bb4c87171",
+          "kind": "trajectory",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common trajectory requirement"
+        },
+        {
+          "evidence_id": "s2_09bcace7d58bb4c87171",
+          "kind": "observation_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common observation context"
+        }
+      ],
+      "compiler_quantitative_claims": 0
+    },
+    {
+      "question_id": "s4_04",
+      "status": "PASS",
+      "raw_generation": 48,
+      "explicit_intents": 3,
+      "selected_evidence": [
+        "s2_9cb490fe14124cb14da3",
+        "s2_a5265b22c1d818edd77c",
+        "s2_b0c455434899557c5519"
+      ],
+      "retrieved_unselected_evidence": [],
+      "quantitative_claims": 3,
+      "compiler_panels": [
+        {
+          "evidence_id": "s2_a5265b22c1d818edd77c",
+          "kind": "trajectory",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common trajectory requirement"
+        },
+        {
+          "evidence_id": "s2_a5265b22c1d818edd77c",
+          "kind": "observation_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common observation context"
+        }
+      ],
+      "compiler_quantitative_claims": 0
+    },
+    {
+      "question_id": "s4_09",
+      "status": "PASS",
+      "raw_generation": 88,
+      "explicit_intents": 4,
+      "selected_evidence": [
+        "s2_9ace962b263402e46070",
+        "s2_b3b6fcb37251c1cc3414",
+        "s2_f12c50db613845914554"
+      ],
+      "retrieved_unselected_evidence": [
+        "s2_f5da7cd7b0e548f61648"
+      ],
+      "quantitative_claims": 4,
+      "compiler_panels": [
+        {
+          "evidence_id": "s2_b3b6fcb37251c1cc3414",
+          "kind": "observation_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common observation context"
+        },
+        {
+          "evidence_id": "s2_b3b6fcb37251c1cc3414",
+          "kind": "assessment_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common assessment context"
+        }
+      ],
+      "compiler_quantitative_claims": 0
+    },
+    {
+      "question_id": "s4_10",
+      "status": "PASS",
+      "raw_generation": 91,
+      "explicit_intents": 1,
+      "selected_evidence": [
+        "s2_3ebf7d202d7157b676fe"
+      ],
+      "retrieved_unselected_evidence": [
+        "s2_350a0f31237530ba6818",
+        "s2_e7058b92f600062f1a72"
+      ],
+      "quantitative_claims": 1,
+      "compiler_panels": [
+        {
+          "evidence_id": "s2_3ebf7d202d7157b676fe",
+          "kind": "trajectory",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common trajectory requirement"
+        },
+        {
+          "evidence_id": "s2_3ebf7d202d7157b676fe",
+          "kind": "observation_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common observation context"
+        },
+        {
+          "evidence_id": "s2_3ebf7d202d7157b676fe",
+          "kind": "assessment_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common assessment context"
+        }
+      ],
+      "compiler_quantitative_claims": 0
+    },
+    {
+      "question_id": "s4_11",
+      "status": "PASS",
+      "raw_generation": 101,
+      "explicit_intents": 6,
+      "selected_evidence": [
+        "s2_b87db49670938836eded",
+        "s2_d627a626da8758e81f28",
+        "s2_fce1be8a9649e8431fea"
+      ],
+      "retrieved_unselected_evidence": [
+        "s2_1c65d7639844a9a0579c",
+        "s2_3883b91906f909113945",
+        "s2_8f591201b762dbb0061a"
+      ],
+      "quantitative_claims": 6,
+      "compiler_panels": [
+        {
+          "evidence_id": "s2_d627a626da8758e81f28",
+          "kind": "observation_status",
+          "answer_indices": [],
+          "origin": "compiler_supplied",
+          "reason": "common observation context"
+        }
+      ],
+      "compiler_quantitative_claims": 0
+    }
+  ]
+}

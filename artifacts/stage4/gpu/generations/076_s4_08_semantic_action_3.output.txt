@@ -1,0 +1,29 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "insufficient_evidence",
+      "evidence_id": "s2_358adadb55462ec89d93",
+      "support": "insufficient_evidence"
+    },
+    {
+      "kind": "insufficient_evidence",
+      "evidence_id": "s2_da7690d6407b73fcbf97",
+      "support": "insufficient_evidence"
+    },
+    {
+      "kind": "insufficient_evidence",
+      "evidence_id": "s2_31052c16db3b84baa9c2",
+      "support": "insufficient_evidence"
+    }
+  ],
+  "conclusion": {
+    "kind": "insufficient_evidence",
+    "scope": "personal",
+    "evidence_ids": [
+      "s2_358adadb55462ec89d93",
+      "s2_da7690d6407b73fcbf97",
+      "s2_31052c16db3b84baa9c2"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s4_02",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s4_02",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "baseline"
+    }
+  ]
+}

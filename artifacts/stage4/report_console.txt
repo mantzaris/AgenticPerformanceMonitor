@@ -1,0 +1,171 @@
+{
+  "created_utc": "2026-09-18T21:29:06.367713+00:00",
+  "summaries": [
+    {
+      "method": "baseline",
+      "denominator": 12,
+      "first_final_valid": 12,
+      "valid_after_repair": 12,
+      "complete_visible": 12,
+      "complete_method_selected": 12,
+      "oracle_retrieved_upper_bound": 12,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 0,
+      "scoped_insufficient_items": 4,
+      "structural_error_episodes": 0,
+      "semantic_or_substantive_error_episodes": 0,
+      "compiler_supplied_answer_items": 0,
+      "compiler_added_panels": 0,
+      "compiler_added_boilerplate_claims": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "tools": 42,
+      "redundant_exact": 0,
+      "redundant_equivalent": 0,
+      "generations": 0,
+      "repairs": 0,
+      "fallbacks": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "episode_seconds": 18.13694463064894,
+      "generation_seconds": 0,
+      "cuda_event_seconds": 0,
+      "failed_questions": []
+    },
+    {
+      "method": "full_spec",
+      "denominator": 12,
+      "first_final_valid": 4,
+      "valid_after_repair": 5,
+      "complete_visible": 3,
+      "complete_method_selected": 3,
+      "oracle_retrieved_upper_bound": 12,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 34,
+      "scoped_insufficient_items": 1,
+      "structural_error_episodes": 8,
+      "semantic_or_substantive_error_episodes": 0,
+      "compiler_supplied_answer_items": 0,
+      "compiler_added_panels": 0,
+      "compiler_added_boilerplate_claims": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "tools": 54,
+      "redundant_exact": 1,
+      "redundant_equivalent": 5,
+      "generations": 42,
+      "repairs": 8,
+      "fallbacks": 0,
+      "prompt_tokens": 197891,
+      "completion_tokens": 16031,
+      "episode_seconds": 408.9635515403934,
+      "generation_seconds": 389.41260351706296,
+      "cuda_event_seconds": 387.13544519042966,
+      "failed_questions": [
+        "s4_05",
+        "s4_06",
+        "s4_08",
+        "s4_09",
+        "s4_10",
+        "s4_11",
+        "s4_12"
+      ]
+    },
+    {
+      "method": "semantic",
+      "denominator": 12,
+      "first_final_valid": 7,
+      "valid_after_repair": 7,
+      "complete_visible": 4,
+      "complete_method_selected": 4,
+      "oracle_retrieved_upper_bound": 11,
+      "missing_analysis_items": 5,
+      "retrieved_but_omitted_items": 19,
+      "scoped_insufficient_items": 0,
+      "structural_error_episodes": 0,
+      "semantic_or_substantive_error_episodes": 3,
+      "compiler_supplied_answer_items": 4,
+      "compiler_added_panels": 12,
+      "compiler_added_boilerplate_claims": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "tools": 42,
+      "redundant_exact": 0,
+      "redundant_equivalent": 3,
+      "generations": 39,
+      "repairs": 5,
+      "fallbacks": 0,
+      "prompt_tokens": 153878,
+      "completion_tokens": 8500,
+      "episode_seconds": 224.42211481230333,
+      "generation_seconds": 215.39327793428674,
+      "cuda_event_seconds": 213.1635263671875,
+      "failed_questions": [
+        "s4_05",
+        "s4_06",
+        "s4_07",
+        "s4_08",
+        "s4_12"
+      ]
+    }
+  ],
+  "paired_visible": {
+    "improved": 2,
+    "regressed": 1,
+    "unchanged_complete": 2,
+    "unchanged_incomplete": 7
+  },
+  "paired_method_selected": {
+    "improved": 2,
+    "regressed": 1,
+    "unchanged_complete": 2,
+    "unchanged_incomplete": 7
+  },
+  "engineering_target": {
+    "required_complete_visible": 11,
+    "denominator": 12,
+    "actual": 4,
+    "no_accepted_unsupported_quantitative": true,
+    "met": false
+  },
+  "generation_partitions": {
+    "setup": 3,
+    "construction": 24,
+    "pilot": 81
+  },
+  "total_generations": 108,
+  "model_process_seconds": 911.2660969141871,
+  "model_processes": [
+    {
+      "utc": "2026-09-18T21:01:25.784773+00:00",
+      "event": "process_finished",
+      "process_id": "construction_01",
+      "elapsed_seconds": 24.37548689590767,
+      "generation_count": 0,
+      "status": "failed"
+    },
+    {
+      "utc": "2026-09-18T21:06:28.524588+00:00",
+      "event": "process_finished",
+      "process_id": "construction_02",
+      "elapsed_seconds": 194.63802126375958,
+      "generation_count": 24,
+      "status": "completed"
+    },
+    {
+      "utc": "2026-09-18T21:12:52.571137+00:00",
+      "event": "process_finished",
+      "process_id": "construction_03",
+      "elapsed_seconds": 32.47026642085984,
+      "generation_count": 26,
+      "status": "completed"
+    },
+    {
+      "utc": "2026-09-18T21:27:57.112253+00:00",
+      "event": "process_finished",
+      "process_id": "pilot_04",
+      "elapsed_seconds": 659.78232233366,
+      "generation_count": 108,
+      "status": "completed"
+    }
+  ],
+  "unclosed_processes": [],
+  "interpretation": "Twelve development case units; paired interface comparison, not new task families, repeatability or held-out generalization. Oracle retrieval bounds are diagnostic only."
+}

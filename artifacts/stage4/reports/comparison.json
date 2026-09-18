@@ -1,0 +1,171 @@
+{
+  "created_utc": "2026-09-18T21:29:06.367713+00:00",
+  "engineering_target": {
+    "actual": 4,
+    "denominator": 12,
+    "met": false,
+    "no_accepted_unsupported_quantitative": true,
+    "required_complete_visible": 11
+  },
+  "generation_partitions": {
+    "construction": 24,
+    "pilot": 81,
+    "setup": 3
+  },
+  "interpretation": "Twelve development case units; paired interface comparison, not new task families, repeatability or held-out generalization. Oracle retrieval bounds are diagnostic only.",
+  "model_process_seconds": 911.2660969141871,
+  "model_processes": [
+    {
+      "elapsed_seconds": 24.37548689590767,
+      "event": "process_finished",
+      "generation_count": 0,
+      "process_id": "construction_01",
+      "status": "failed",
+      "utc": "2026-09-18T21:01:25.784773+00:00"
+    },
+    {
+      "elapsed_seconds": 194.63802126375958,
+      "event": "process_finished",
+      "generation_count": 24,
+      "process_id": "construction_02",
+      "status": "completed",
+      "utc": "2026-09-18T21:06:28.524588+00:00"
+    },
+    {
+      "elapsed_seconds": 32.47026642085984,
+      "event": "process_finished",
+      "generation_count": 26,
+      "process_id": "construction_03",
+      "status": "completed",
+      "utc": "2026-09-18T21:12:52.571137+00:00"
+    },
+    {
+      "elapsed_seconds": 659.78232233366,
+      "event": "process_finished",
+      "generation_count": 108,
+      "process_id": "pilot_04",
+      "status": "completed",
+      "utc": "2026-09-18T21:27:57.112253+00:00"
+    }
+  ],
+  "paired_method_selected": {
+    "improved": 2,
+    "regressed": 1,
+    "unchanged_complete": 2,
+    "unchanged_incomplete": 7
+  },
+  "paired_visible": {
+    "improved": 2,
+    "regressed": 1,
+    "unchanged_complete": 2,
+    "unchanged_incomplete": 7
+  },
+  "summaries": [
+    {
+      "compiler_added_boilerplate_claims": 0,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "complete_method_selected": 12,
+      "complete_visible": 12,
+      "completion_tokens": 0,
+      "cuda_event_seconds": 0,
+      "denominator": 12,
+      "episode_seconds": 18.13694463064894,
+      "failed_questions": [],
+      "fallbacks": 0,
+      "first_final_valid": 12,
+      "generation_seconds": 0,
+      "generations": 0,
+      "method": "baseline",
+      "missing_analysis_items": 0,
+      "oracle_retrieved_upper_bound": 12,
+      "prompt_tokens": 0,
+      "redundant_equivalent": 0,
+      "redundant_exact": 0,
+      "repairs": 0,
+      "retrieved_but_omitted_items": 0,
+      "scoped_insufficient_items": 4,
+      "semantic_or_substantive_error_episodes": 0,
+      "structural_error_episodes": 0,
+      "tools": 42,
+      "unsupported_accepted_quantitative_answers": 0,
+      "valid_after_repair": 12
+    },
+    {
+      "compiler_added_boilerplate_claims": 0,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "complete_method_selected": 3,
+      "complete_visible": 3,
+      "completion_tokens": 16031,
+      "cuda_event_seconds": 387.13544519042966,
+      "denominator": 12,
+      "episode_seconds": 408.9635515403934,
+      "failed_questions": [
+        "s4_05",
+        "s4_06",
+        "s4_08",
+        "s4_09",
+        "s4_10",
+        "s4_11",
+        "s4_12"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 4,
+      "generation_seconds": 389.41260351706296,
+      "generations": 42,
+      "method": "full_spec",
+      "missing_analysis_items": 0,
+      "oracle_retrieved_upper_bound": 12,
+      "prompt_tokens": 197891,
+      "redundant_equivalent": 5,
+      "redundant_exact": 1,
+      "repairs": 8,
+      "retrieved_but_omitted_items": 34,
+      "scoped_insufficient_items": 1,
+      "semantic_or_substantive_error_episodes": 0,
+      "structural_error_episodes": 8,
+      "tools": 54,
+      "unsupported_accepted_quantitative_answers": 0,
+      "valid_after_repair": 5
+    },
+    {
+      "compiler_added_boilerplate_claims": 0,
+      "compiler_added_panels": 12,
+      "compiler_supplied_answer_items": 4,
+      "complete_method_selected": 4,
+      "complete_visible": 4,
+      "completion_tokens": 8500,
+      "cuda_event_seconds": 213.1635263671875,
+      "denominator": 12,
+      "episode_seconds": 224.42211481230333,
+      "failed_questions": [
+        "s4_05",
+        "s4_06",
+        "s4_07",
+        "s4_08",
+        "s4_12"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 7,
+      "generation_seconds": 215.39327793428674,
+      "generations": 39,
+      "method": "semantic",
+      "missing_analysis_items": 5,
+      "oracle_retrieved_upper_bound": 11,
+      "prompt_tokens": 153878,
+      "redundant_equivalent": 3,
+      "redundant_exact": 0,
+      "repairs": 5,
+      "retrieved_but_omitted_items": 19,
+      "scoped_insufficient_items": 0,
+      "semantic_or_substantive_error_episodes": 3,
+      "structural_error_episodes": 0,
+      "tools": 42,
+      "unsupported_accepted_quantitative_answers": 0,
+      "valid_after_repair": 7
+    }
+  ],
+  "total_generations": 108,
+  "unclosed_processes": []
+}

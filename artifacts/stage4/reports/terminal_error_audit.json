@@ -1,0 +1,117 @@
+{
+  "phase": "Post-hoc reporting audit of terminal errors, no rescoring or reruns",
+  "primary_reports_unchanged": true,
+  "limitation": "The frozen coarse semantic_or_substantive_error_episodes counter reports 3 compact episodes; its string matching misses the context-support error in s4_06 and invalid intent kind in s4_07. Zero compact panel-contract errors does not mean zero schema errors. These terminal categories supplement, not replace, primary scores.",
+  "failed_full_episodes": 7,
+  "failed_compact_episodes": 5,
+  "records": [
+    {
+      "method": "full_spec",
+      "question_id": "s4_05",
+      "result_path": "artifacts/stage4/pilot/full_spec/s4_05/result.json",
+      "terminal_categories": [
+        "required_panel_missing"
+      ],
+      "original_error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels."
+    },
+    {
+      "method": "full_spec",
+      "question_id": "s4_06",
+      "result_path": "artifacts/stage4/pilot/full_spec/s4_06/result.json",
+      "terminal_categories": [
+        "required_panel_missing"
+      ],
+      "original_error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_a5bf4435ad220344ab4c', 's2_d9e47af56f69692e2f6b']"
+    },
+    {
+      "method": "full_spec",
+      "question_id": "s4_08",
+      "result_path": "artifacts/stage4/pilot/full_spec/s4_08/result.json",
+      "terminal_categories": [
+        "required_panel_missing"
+      ],
+      "original_error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels."
+    },
+    {
+      "method": "full_spec",
+      "question_id": "s4_09",
+      "result_path": "artifacts/stage4/pilot/full_spec/s4_09/result.json",
+      "terminal_categories": [
+        "required_panel_missing"
+      ],
+      "original_error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_b3b6fcb37251c1cc3414', 's2_f12c50db613845914554', 's2_f5da7cd7b0e548f61648']"
+    },
+    {
+      "method": "full_spec",
+      "question_id": "s4_10",
+      "result_path": "artifacts/stage4/pilot/full_spec/s4_10/result.json",
+      "terminal_categories": [
+        "required_panel_missing"
+      ],
+      "original_error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels."
+    },
+    {
+      "method": "full_spec",
+      "question_id": "s4_11",
+      "result_path": "artifacts/stage4/pilot/full_spec/s4_11/result.json",
+      "terminal_categories": [
+        "excessive_claim_or_panel_count"
+      ],
+      "original_error": "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._d627a626da8758e81f28'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long"
+    },
+    {
+      "method": "full_spec",
+      "question_id": "s4_12",
+      "result_path": "artifacts/stage4/pilot/full_spec/s4_12/result.json",
+      "terminal_categories": [
+        "excessive_claim_or_panel_count"
+      ],
+      "original_error": "ValidationError: 2 validation errors for Action\nspecification.claims\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'template': 'comparison..._899889dd7b49269c49cf'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._899889dd7b49269c49cf'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long"
+    },
+    {
+      "method": "semantic",
+      "question_id": "s4_05",
+      "result_path": "artifacts/stage4/pilot/semantic/s4_05/result.json",
+      "terminal_categories": [
+        "unknown_evidence_identifier"
+      ],
+      "original_error": "ValueError: Unknown evidence identifier; choose only returned identifiers: []"
+    },
+    {
+      "method": "semantic",
+      "question_id": "s4_06",
+      "result_path": "artifacts/stage4/pilot/semantic/s4_06/result.json",
+      "terminal_categories": [
+        "insufficiency_attached_to_context_instead_of_comparison"
+      ],
+      "original_error": "ValueError: Insufficient support belongs to a particular peer/personal comparison, not a general context intent"
+    },
+    {
+      "method": "semantic",
+      "question_id": "s4_07",
+      "result_path": "artifacts/stage4/pilot/semantic/s4_07/result.json",
+      "terminal_categories": [
+        "invalid_intent_kind"
+      ],
+      "original_error": "ValidationError: 3 validation errors for SemanticAction\nanswers.0.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.1.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.2.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+    },
+    {
+      "method": "semantic",
+      "question_id": "s4_08",
+      "result_path": "artifacts/stage4/pilot/semantic/s4_08/result.json",
+      "terminal_categories": [
+        "insufficiency_conclusion_scope_invalid"
+      ],
+      "original_error": "ValueError: Insufficiency conclusion requires a nonempty peer/personal scope with explicitly selected insufficient answers"
+    },
+    {
+      "method": "semantic",
+      "question_id": "s4_12",
+      "result_path": "artifacts/stage4/pilot/semantic/s4_12/result.json",
+      "terminal_categories": [
+        "reference_conclusion_scope_invalid"
+      ],
+      "original_error": "ValueError: Reference conclusion requires scope=peer and at least two explicitly selected peer comparisons"
+    }
+  ]
+}

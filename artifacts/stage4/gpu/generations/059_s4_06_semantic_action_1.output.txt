@@ -1,0 +1,25 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s4_06",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s4_06",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s4_06",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "answers": [],
+  "conclusion": null
+}

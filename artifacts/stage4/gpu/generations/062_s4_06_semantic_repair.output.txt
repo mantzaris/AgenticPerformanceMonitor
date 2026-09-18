@@ -1,0 +1,32 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "s2_b5b2657f81d9157b27cf",
+      "support": "insufficient_evidence"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "s2_a5bf4435ad220344ab4c",
+      "support": "insufficient_evidence"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "s2_d9e47af56f69692e2f6b",
+      "support": "insufficient_evidence"
+    },
+    {
+      "kind": "personal_change",
+      "evidence_id": "s2_ec11687ac974dd2c66af",
+      "support": "insufficient_evidence"
+    }
+  ],
+  "conclusion": {
+    "kind": "same_direction",
+    "scope": "peer",
+    "evidence_ids": [
+      "s2_ec11687ac974dd2c66af"
+    ]
+  }
+}

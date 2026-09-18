@@ -1,0 +1,13 @@
+{
+  "all_stage4_model_processes_stopped": true,
+  "checked_utc": "2026-09-18T21:29:14.934344+00:00",
+  "compute_processes": [],
+  "driver": "580.159.04",
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "last_process_finished_utc": "2026-09-18T21:27:57.112253+00:00",
+  "local_servers_started": false,
+  "model_run_exit_code": 0,
+  "pod_terminated": false,
+  "query": "nvidia-smi identity/memory and compute-process list after process exit",
+  "used_memory_mib": 2
+}

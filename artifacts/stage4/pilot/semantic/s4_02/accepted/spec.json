@@ -1,0 +1,25 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_e26b5e58c1f84dcec740",
+      "template": "personal_change"
+    }
+  ],
+  "conclusion": "descriptive",
+  "cutoff_day": 55,
+  "evidence_ids": [
+    "s2_e26b5e58c1f84dcec740"
+  ],
+  "followups": [],
+  "panels": [
+    {
+      "evidence_id": "s2_e26b5e58c1f84dcec740",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_e26b5e58c1f84dcec740",
+      "kind": "observation_status"
+    }
+  ],
+  "question_id": "s4_02"
+}

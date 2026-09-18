@@ -1,0 +1,35 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s4_05",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s4_05",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s4_05",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s4_05",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "answers": [],
+  "conclusion": {
+    "kind": "descriptive",
+    "scope": "selected",
+    "evidence_ids": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [
+      "s2_09bcace7d58bb4c87171",
+      "s2_32c9b37d400679cf102f",
+      "s2_ed69244398484e4258d9"
+    ],
+    "kind": "same_direction",
+    "origin": "method_selected",
+    "scope": "peer"
+  },
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "semantic",
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_09bcace7d58bb4c87171",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_32c9b37d400679cf102f",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_ed69244398484e4258d9",
+        "kind": "peer_comparison",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [
+        "s2_09bcace7d58bb4c87171",
+        "s2_32c9b37d400679cf102f",
+        "s2_ed69244398484e4258d9"
+      ],
+      "kind": "same_direction",
+      "scope": "peer"
+    }
+  }
+}

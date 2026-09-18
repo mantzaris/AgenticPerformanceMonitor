@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T21:26:01.674942+00:00",
+  "completion_tokens": 2649,
+  "elapsed_seconds": 63.40144138922915,
+  "error": "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._d627a626da8758e81f28'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "full_spec",
+  "prompt_tokens": 25081,
+  "question_id": "s4_11",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T21:24:58.271340+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 6,
+  "tool_calls_executed": 6
+}

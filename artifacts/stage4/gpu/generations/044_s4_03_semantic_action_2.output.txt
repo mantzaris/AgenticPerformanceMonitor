@@ -1,0 +1,40 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s4_03",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s4_03",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s4_03",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    }
+  ],
+  "answers": [
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_09bcace7d58bb4c87171",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_32c9b37d400679cf102f",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_ed69244398484e4258d9",
+      "support": "describe"
+    }
+  ]
+}

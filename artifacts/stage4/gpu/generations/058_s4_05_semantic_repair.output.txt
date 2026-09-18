@@ -1,0 +1,35 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "",
+      "support": "describe"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "",
+      "support": "describe"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "",
+      "support": "describe"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "",
+      "support": "describe"
+    }
+  ],
+  "conclusion": {
+    "kind": "insufficient_evidence",
+    "scope": "selected",
+    "evidence_ids": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}

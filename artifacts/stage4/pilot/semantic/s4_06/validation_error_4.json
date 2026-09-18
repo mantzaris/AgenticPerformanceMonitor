@@ -1,0 +1,4 @@
+{
+  "error": "ValueError: Insufficient support belongs to a particular peer/personal comparison, not a general context intent",
+  "raw_output": "{\n  \"action\": \"final\",\n  \"answers\": [\n    {\n      \"kind\": \"measurement_limit\",\n      \"evidence_id\": \"s2_b5b2657f81d9157b27cf\",\n      \"support\": \"insufficient_evidence\"\n    },\n    {\n      \"kind\": \"measurement_limit\",\n      \"evidence_id\": \"s2_a5bf4435ad220344ab4c\",\n      \"support\": \"insufficient_evidence\"\n    },\n    {\n      \"kind\": \"measurement_limit\",\n      \"evidence_id\": \"s2_d9e47af56f69692e2f6b\",\n      \"support\": \"insufficient_evidence\"\n    },\n    {\n      \"kind\": \"personal_change\",\n      \"evidence_id\": \"s2_ec11687ac974dd2c66af\",\n      \"support\": \"insufficient_evidence\"\n    }\n  ],\n  \"conclusion\": {\n    \"kind\": \"same_direction\",\n    \"scope\": \"peer\",\n    \"evidence_ids\": [\n      \"s2_ec11687ac974dd2c66af\"\n    ]\n  }\n}"
+}

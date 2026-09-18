@@ -1,0 +1,11 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s4_10",
+      "feature": "nonbanked_submissions",
+      "reference": "early_stage",
+      "window": "recent"
+    }
+  ]
+}

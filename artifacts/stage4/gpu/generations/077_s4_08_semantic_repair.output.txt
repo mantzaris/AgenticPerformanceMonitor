@@ -1,0 +1,34 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "personal_change",
+      "evidence_id": "s2_358adadb55462ec89d93",
+      "support": "insufficient_evidence"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_58c3b002d3ef3f962aa7",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_da7690d6407b73fcbf97",
+      "support": "insufficient_evidence"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_31052c16db3b84baa9c2",
+      "support": "insufficient_evidence"
+    }
+  ],
+  "conclusion": {
+    "kind": "insufficient_evidence",
+    "scope": "peer",
+    "evidence_ids": [
+      "s2_358adadb55462ec89d93",
+      "s2_da7690d6407b73fcbf97",
+      "s2_31052c16db3b84baa9c2"
+    ]
+  }
+}

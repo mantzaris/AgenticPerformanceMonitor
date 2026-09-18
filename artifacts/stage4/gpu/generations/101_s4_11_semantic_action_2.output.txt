@@ -1,0 +1,40 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_d627a626da8758e81f28",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_b87db49670938836eded",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_fce1be8a9649e8431fea",
+      "support": "describe"
+    },
+    {
+      "kind": "personal_change",
+      "evidence_id": "s2_d627a626da8758e81f28",
+      "support": "describe"
+    },
+    {
+      "kind": "personal_change",
+      "evidence_id": "s2_b87db49670938836eded",
+      "support": "describe"
+    },
+    {
+      "kind": "personal_change",
+      "evidence_id": "s2_fce1be8a9649e8431fea",
+      "support": "describe"
+    }
+  ],
+  "conclusion": {
+    "kind": "descriptive",
+    "scope": "selected",
+    "evidence_ids": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T21:21:03.971393+00:00",
+  "completion_tokens": 828,
+  "elapsed_seconds": 19.955327859148383,
+  "error": "ValueError: Unknown evidence identifier; choose only returned identifiers: []",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "prompt_tokens": 10744,
+  "question_id": "s4_05",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T21:20:44.014290+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 0,
+  "tool_calls_executed": 0
+}

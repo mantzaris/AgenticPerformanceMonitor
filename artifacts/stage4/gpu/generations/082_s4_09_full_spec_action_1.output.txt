@@ -1,0 +1,17 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s4_09",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s4_09",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ]
+}

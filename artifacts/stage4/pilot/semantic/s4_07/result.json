@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T21:22:50.793487+00:00",
+  "completion_tokens": 1166,
+  "elapsed_seconds": 28.833146488294005,
+  "error": "ValidationError: 3 validation errors for SemanticAction\nanswers.0.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.1.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.2.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "prompt_tokens": 17079,
+  "question_id": "s4_07",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T21:22:21.958157+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 3,
+  "tool_calls_executed": 3
+}

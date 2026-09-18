@@ -1,0 +1,5078 @@
+[
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:39.987453+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 1.4118180060759187,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "personal_change",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 1
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_01",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_417cad9a2ed8591ec91d"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_417cad9a2ed8591ec91d"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_01/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.5,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:17:38.872054+00:00",
+    "completion_tokens": 588,
+    "cuda_event_seconds": 14.260909545898437,
+    "elapsed_seconds": 16.141841669101268,
+    "errors": [],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "personal_change",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 14.407764818053693,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 0.5,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 10796,
+    "question_id": "s4_01",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_417cad9a2ed8591ec91d"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "unanswered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [
+      "course_comparison"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/full_spec/s4_01/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:17:22.718974+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 1,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:17:50.285329+00:00",
+    "completion_tokens": 419,
+    "cuda_event_seconds": 10.601801513671875,
+    "elapsed_seconds": 11.404707239940763,
+    "errors": [],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "personal_change",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 10.75321806780994,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 2
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 11305,
+    "question_id": "s4_01",
+    "redundant_equivalent_analyses": 1,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_417cad9a2ed8591ec91d"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_417cad9a2ed8591ec91d"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/semantic/s4_01/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:17:38.878909+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:41.030936+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 1.038132943212986,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "personal_change",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 1
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_02",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_e26b5e58c1f84dcec740"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_e26b5e58c1f84dcec740"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_02/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:18:28.340215+00:00",
+    "completion_tokens": 1032,
+    "cuda_event_seconds": 24.358640869140626,
+    "elapsed_seconds": 26.366548784077168,
+    "errors": [],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "personal_change",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 24.498901597689837,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 4
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 11601,
+    "question_id": "s4_02",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_76e79729ea38b11a75ab"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_e26b5e58c1f84dcec740"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/full_spec/s4_02/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:18:01.971566+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.5,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 1,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:18:01.952609+00:00",
+    "completion_tokens": 398,
+    "cuda_event_seconds": 10.537376220703125,
+    "elapsed_seconds": 11.654144962318242,
+    "errors": [
+      {
+        "error": "ValidationError: 1 validation error for SemanticAction\n  Value error, analyze requires 1\u20136 requests and no answers/conclusion [type=value_error, input_value={'action': 'analyze', 're...d', 'evidence_ids': []}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error",
+        "tags": [
+          "conflicting_action_fields"
+        ],
+        "turn": 2
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "personal_change",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 10.684332692995667,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 0.5,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 1
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 10010,
+    "question_id": "s4_02",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_e26b5e58c1f84dcec740"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "unanswered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [
+      "course_comparison"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/semantic/s4_02/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:17:50.296086+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 2,
+    "tool_calls_executed": 2,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:43.488958+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 2.453383628744632,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "reference_sensitivity",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": true,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_03",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_09bcace7d58bb4c87171"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_32c9b37d400679cf102f"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_ed69244398484e4258d9"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_09bcace7d58bb4c87171",
+          "s2_32c9b37d400679cf102f",
+          "s2_ed69244398484e4258d9"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "validated cross-reference conclusion",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_03/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:19:06.393651+00:00",
+    "completion_tokens": 1474,
+    "cuda_event_seconds": 34.727283203125,
+    "elapsed_seconds": 38.03425748972222,
+    "errors": [
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: Selected evidence coverage: claims missing for []; trajectory/comparison panels missing for ['s2_32c9b37d400679cf102f', 's2_6423a4579f6f3f53f34c', 's2_ed69244398484e4258d9', 's2_7ddae693e2e015615b2d']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.",
+        "tags": [
+          "structural_specification",
+          "excessive_items"
+        ],
+        "turn": 2
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "reference_sensitivity",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 34.87213949020952,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 5
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 17131,
+    "question_id": "s4_03",
+    "redundant_equivalent_analyses": 1,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_09bcace7d58bb4c87171"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_32c9b37d400679cf102f"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_ed69244398484e4258d9"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_09bcace7d58bb4c87171",
+          "s2_32c9b37d400679cf102f",
+          "s2_ed69244398484e4258d9"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "complete scoped comparisons allow the descriptive answer without a mandatory conclusion template",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/full_spec/s4_03/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:18:28.357458+00:00",
+    "status": "agent_generated_and_repaired",
+    "structural_error_episode": true,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 2,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:19:24.735021+00:00",
+    "completion_tokens": 711,
+    "cuda_event_seconds": 17.34987939453125,
+    "elapsed_seconds": 18.309570088982582,
+    "errors": [
+      {
+        "error": "ValidationError: 1 validation error for SemanticAction\n  Value error, analyze requires 1\u20136 requests and no answers/conclusion [type=value_error, input_value={'action': 'analyze', 're...'support': 'describe'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error",
+        "tags": [
+          "conflicting_action_fields"
+        ],
+        "turn": 2
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "reference_sensitivity",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 17.530984609387815,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 11766,
+    "question_id": "s4_03",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_09bcace7d58bb4c87171"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_32c9b37d400679cf102f"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_ed69244398484e4258d9"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_09bcace7d58bb4c87171",
+          "s2_32c9b37d400679cf102f",
+          "s2_ed69244398484e4258d9"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "validated cross-reference conclusion",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/semantic/s4_03/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:19:06.423811+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:46.033411+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 2.5396737651899457,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "reference_sensitivity",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": true,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_04",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5265b22c1d818edd77c"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b0c455434899557c5519"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_9cb490fe14124cb14da3"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5265b22c1d818edd77c",
+          "s2_b0c455434899557c5519",
+          "s2_9cb490fe14124cb14da3"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "validated cross-reference conclusion",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_04/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:20:04.505234+00:00",
+    "completion_tokens": 744,
+    "cuda_event_seconds": 18.36810205078125,
+    "elapsed_seconds": 19.662655075080693,
+    "errors": [],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "reference_sensitivity",
+    "finish_reasons": {
+      "eos": 2
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 18.47326724184677,
+    "generations": 2,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 9266,
+    "question_id": "s4_04",
+    "redundant_equivalent_analyses": 1,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5265b22c1d818edd77c"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b0c455434899557c5519"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_9cb490fe14124cb14da3"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5265b22c1d818edd77c",
+          "s2_b0c455434899557c5519",
+          "s2_9cb490fe14124cb14da3"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "complete scoped comparisons allow the descriptive answer without a mandatory conclusion template",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/full_spec/s4_04/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:19:44.840449+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 2,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:19:44.817699+00:00",
+    "completion_tokens": 727,
+    "cuda_event_seconds": 17.543645263671873,
+    "elapsed_seconds": 20.065986721776426,
+    "errors": [
+      {
+        "error": "ValidationError: 1 validation error for SemanticAction\n  Value error, analyze requires 1\u20136 requests and no answers/conclusion [type=value_error, input_value={'action': 'analyze', 're...'}], 'conclusion': None}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error",
+        "tags": [
+          "conflicting_action_fields"
+        ],
+        "turn": 2
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "reference_sensitivity",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 17.777590741869062,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 11761,
+    "question_id": "s4_04",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5265b22c1d818edd77c"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b0c455434899557c5519"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_9cb490fe14124cb14da3"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5265b22c1d818edd77c",
+          "s2_b0c455434899557c5519",
+          "s2_9cb490fe14124cb14da3"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "validated cross-reference conclusion",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/semantic/s4_04/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:19:24.750031+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:47.937835+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 1.900034738238901,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "observation_limits",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_05",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_9de2e4d9a0337282faf2"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "recent_activity",
+        "justification": "Question asks what the recent recorded activity can establish.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "observation",
+        "covered": true,
+        "evidence_ids": [
+          "s2_9de2e4d9a0337282faf2"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "administrative/recorded-state panel",
+        "id": "eligibility_states",
+        "justification": "Question explicitly mentions administrative eligibility and incomplete observations.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_6ca603abb7fa5a340f60"
+        ],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_c5114d783130440fd024"
+        ],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": true,
+        "evidence_ids": [
+          "s2_6ca603abb7fa5a340f60"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "dated assessment-state panel",
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": true,
+        "evidence_ids": [
+          "s2_6ca603abb7fa5a340f60"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "selected measurement-limits claim",
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_05/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 5,
+    "tool_calls_executed": 5,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:20:43.961424+00:00",
+    "completion_tokens": 1557,
+    "cuda_event_seconds": 37.057338867187504,
+    "elapsed_seconds": 39.41581879463047,
+    "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.",
+    "errors": [
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels. | specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_6ca603abb7fa5a340f60', 's2_c5114d783130440fd024']",
+        "tags": [
+          "structural_specification"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.",
+        "tags": [
+          "structural_specification"
+        ],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "observation_limits",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 37.253651794046164,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 20727,
+    "question_id": "s4_05",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "recent_activity",
+        "justification": "Question asks what the recent recorded activity can establish.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "observation",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "eligibility_states",
+        "justification": "Question explicitly mentions administrative eligibility and incomplete observations.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": null,
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": null,
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "recent_activity",
+      "eligibility_states",
+      "nonbanked_submissions",
+      "scheduled_no_submission",
+      "assessment_records",
+      "measurement_availability"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:20:04.543605+00:00",
+    "status": "failed",
+    "structural_error_episode": true,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 5,
+    "tool_calls_executed": 5,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:21:03.971393+00:00",
+    "completion_tokens": 828,
+    "cuda_event_seconds": 19.701677001953126,
+    "elapsed_seconds": 19.955327859148383,
+    "error": "ValueError: Unknown evidence identifier; choose only returned identifiers: []",
+    "errors": [
+      {
+        "error": "ValidationError: 1 validation error for SemanticAction\n  Value error, analyze requires 1\u20136 requests and no answers/conclusion [type=value_error, input_value={'action': 'analyze', 're...d', 'evidence_ids': []}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error",
+        "tags": [
+          "conflicting_action_fields"
+        ],
+        "turn": 1
+      },
+      {
+        "error": "ValidationError: 1 validation error for SemanticAction\n  Value error, analyze requires 1\u20136 requests and no answers/conclusion [type=value_error, input_value={'action': 'analyze', 're...d', 'evidence_ids': []}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error",
+        "tags": [
+          "conflicting_action_fields"
+        ],
+        "turn": 2
+      },
+      {
+        "error": "ValueError: Unknown evidence identifier; choose only returned identifiers: []",
+        "tags": [
+          "substantive_or_unsupported"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Unknown evidence identifier; choose only returned identifiers: []",
+        "tags": [
+          "substantive_or_unsupported"
+        ],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "observation_limits",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 19.93813773151487,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [
+      "recent_activity",
+      "eligibility_states",
+      "nonbanked_submissions",
+      "scheduled_no_submission",
+      "assessment_records"
+    ],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": false,
+    "prompt_tokens": 10744,
+    "question_id": "s4_05",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "recent_activity",
+        "justification": "Question asks what the recent recorded activity can establish.",
+        "omission_type": "requested_analysis_missing",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": false,
+        "window": "recent"
+      },
+      {
+        "category": "observation",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "eligibility_states",
+        "justification": "Question explicitly mentions administrative eligibility and incomplete observations.",
+        "omission_type": "requested_analysis_missing",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": false,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": null,
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "requested_analysis_missing",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": false,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": null,
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "requested_analysis_missing",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": false,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": "requested_analysis_missing",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": false,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "measurement_availability"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [
+      {
+        "error": "ValueError: Unknown evidence identifier; choose only returned identifiers: []",
+        "tags": [
+          "substantive_or_unsupported"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Unknown evidence identifier; choose only returned identifiers: []",
+        "tags": [
+          "substantive_or_unsupported"
+        ],
+        "turn": 4
+      }
+    ],
+    "started_utc": "2026-09-18T21:20:44.014290+00:00",
+    "status": "failed",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 0,
+    "tool_calls_executed": 0,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": true,
+    "valid_after_repair": false
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:49.125924+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 1.1835545212961733,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "observation_limits",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 6,
+    "global_supported_insufficiency": true,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_06",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b5b2657f81d9157b27cf"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "recent_activity",
+        "justification": "Question asks what the recent recorded activity can establish.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "observation",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b5b2657f81d9157b27cf"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "administrative/recorded-state panel",
+        "id": "eligibility_states",
+        "justification": "Question explicitly mentions administrative eligibility and incomplete observations.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5bf4435ad220344ab4c"
+        ],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_d9e47af56f69692e2f6b"
+        ],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5bf4435ad220344ab4c"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "dated assessment-state panel",
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": true,
+        "evidence_ids": [
+          "s2_a5bf4435ad220344ab4c"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "selected measurement-limits claim",
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_06/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 5,
+    "tool_calls_executed": 5,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:21:58.890492+00:00",
+    "completion_tokens": 1291,
+    "cuda_event_seconds": 32.25376623535156,
+    "elapsed_seconds": 33.395194336771965,
+    "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_a5bf4435ad220344ab4c', 's2_d9e47af56f69692e2f6b']",
+    "errors": [
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels. | specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_a5bf4435ad220344ab4c', 's2_d9e47af56f69692e2f6b'] | Selected evidence coverage: claims missing for []; trajectory/comparison panels missing for ['s2_a5bf4435ad220344ab4c', 's2_d9e47af56f69692e2f6b']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.",
+        "tags": [
+          "structural_specification",
+          "excessive_items"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_a5bf4435ad220344ab4c', 's2_d9e47af56f69692e2f6b']",
+        "tags": [
+          "structural_specification"
+        ],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "observation_limits",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 32.44952055532485,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 20064,
+    "question_id": "s4_06",
+    "redundant_equivalent_analyses": 1,
+    "redundant_requests": 1,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "recent_activity",
+        "justification": "Question asks what the recent recorded activity can establish.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "observation",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "eligibility_states",
+        "justification": "Question explicitly mentions administrative eligibility and incomplete observations.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": null,
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": null,
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "recent_activity",
+      "eligibility_states",
+      "nonbanked_submissions",
+      "scheduled_no_submission",
+      "assessment_records",
+      "measurement_availability"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:21:25.491983+00:00",
+    "status": "failed",
+    "structural_error_episode": true,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 5,
+    "tool_calls_executed": 5,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:21:25.463518+00:00",
+    "completion_tokens": 834,
+    "cuda_event_seconds": 21.058715087890626,
+    "elapsed_seconds": 21.48542337678373,
+    "error": "ValueError: Insufficient support belongs to a particular peer/personal comparison, not a general context intent",
+    "errors": [
+      {
+        "error": "ValueError: Insufficient support belongs to a particular peer/personal comparison, not a general context intent",
+        "tags": [],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Insufficient support belongs to a particular peer/personal comparison, not a general context intent",
+        "tags": [],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "observation_limits",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 21.271150534041226,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 17186,
+    "question_id": "s4_06",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "recent_activity",
+        "justification": "Question asks what the recent recorded activity can establish.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "observation",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "eligibility_states",
+        "justification": "Question explicitly mentions administrative eligibility and incomplete observations.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": null,
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": null,
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "recent_activity",
+      "eligibility_states",
+      "nonbanked_submissions",
+      "scheduled_no_submission",
+      "assessment_records",
+      "measurement_availability"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:21:03.974531+00:00",
+    "status": "failed",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:49.759538+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 0.6292907781898975,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "insufficient_support",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 2,
+    "global_supported_insufficiency": true,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 1
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_07",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_2e74d3e5a0bf1d2123f6"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "insufficient_evidence",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_2e74d3e5a0bf1d2123f6"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "insufficient_evidence",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [
+      "personal_change",
+      "course_comparison"
+    ],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_07/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.5,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:22:21.922373+00:00",
+    "completion_tokens": 874,
+    "cuda_event_seconds": 20.590795166015624,
+    "elapsed_seconds": 23.017822531983256,
+    "errors": [],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "insufficient_support",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 20.732490841764957,
+    "generations": 3,
+    "global_insufficiency_scope_count": 5,
+    "global_supported_insufficiency": true,
+    "method": "full_spec",
+    "method_selected_fraction": 0.5,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 4
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 11110,
+    "question_id": "s4_07",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_064eb3d9d0a7cc1380f4"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "insufficient_evidence",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "unanswered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [
+      "course_comparison"
+    ],
+    "scoped_insufficiency_items": [
+      "personal_change"
+    ],
+    "selection_provenance_path": "artifacts/stage4/pilot/full_spec/s4_07/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:21:58.902572+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:22:50.793487+00:00",
+    "completion_tokens": 1166,
+    "cuda_event_seconds": 28.4425791015625,
+    "elapsed_seconds": 28.833146488294005,
+    "error": "ValidationError: 3 validation errors for SemanticAction\nanswers.0.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.1.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.2.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error",
+    "errors": [
+      {
+        "error": "ValidationError: 3 validation errors for SemanticAction\nanswers.0.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.1.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.2.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error",
+        "tags": [],
+        "turn": 2
+      },
+      {
+        "error": "ValidationError: 3 validation errors for SemanticAction\nanswers.0.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.1.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.2.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error",
+        "tags": [],
+        "turn": 3
+      },
+      {
+        "error": "ValidationError: 3 validation errors for SemanticAction\nanswers.0.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.1.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.2.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error",
+        "tags": [],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "insufficient_support",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 28.676942417863756,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 17079,
+    "question_id": "s4_07",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "personal_change",
+      "course_comparison"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:22:21.958157+00:00",
+    "status": "failed",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:50.772222+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 1.0087884981185198,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "insufficient_support",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 2,
+    "global_supported_insufficiency": true,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 1
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_08",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_358adadb55462ec89d93"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "insufficient_evidence",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_358adadb55462ec89d93"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "insufficient_evidence",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [
+      "personal_change",
+      "course_comparison"
+    ],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_08/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:23:43.749846+00:00",
+    "completion_tokens": 943,
+    "cuda_event_seconds": 26.006884033203125,
+    "elapsed_seconds": 28.482146819122136,
+    "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.",
+    "errors": [
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels. | Selected evidence coverage: claims missing for ['s2_358adadb55462ec89d93']; trajectory/comparison panels missing for ['s2_358adadb55462ec89d93']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.",
+        "tags": [
+          "structural_specification",
+          "excessive_items"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.",
+        "tags": [
+          "structural_specification"
+        ],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "insufficient_support",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 26.250758225098252,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 15729,
+    "question_id": "s4_08",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "personal_change",
+      "course_comparison"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:23:15.265349+00:00",
+    "status": "failed",
+    "structural_error_episode": true,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:23:15.218907+00:00",
+    "completion_tokens": 827,
+    "cuda_event_seconds": 23.779347900390626,
+    "elapsed_seconds": 24.383975393138826,
+    "error": "ValueError: Insufficiency conclusion requires a nonempty peer/personal scope with explicitly selected insufficient answers",
+    "errors": [
+      {
+        "error": "ValidationError: 3 validation errors for SemanticAction\nanswers.0.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.1.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nanswers.2.kind\n  Input should be 'peer_comparison', 'personal_change', 'assessment_status', 'observation_status' or 'measurement_limit' [type=literal_error, input_value='insufficient_evidence', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error",
+        "tags": [],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Insufficiency conclusion requires a nonempty peer/personal scope with explicitly selected insufficient answers",
+        "tags": [],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "insufficient_support",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 24.032420312054455,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 17563,
+    "question_id": "s4_08",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "course_comparison",
+        "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "personal_change",
+      "course_comparison"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [
+      {
+        "error": "ValueError: Insufficiency conclusion requires a nonempty peer/personal scope with explicitly selected insufficient answers",
+        "tags": [],
+        "turn": 4
+      }
+    ],
+    "started_utc": "2026-09-18T21:22:50.833071+00:00",
+    "status": "failed",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": true,
+    "valid_after_repair": false
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:51.733412+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 0.956920578610152,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "assessment_availability",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 2
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_09",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b3b6fcb37251c1cc3414"
+        ],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_f5da7cd7b0e548f61648"
+        ],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b3b6fcb37251c1cc3414"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "dated assessment-state panel",
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b3b6fcb37251c1cc3414"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "selected measurement-limits claim",
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_09/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:24:08.762099+00:00",
+    "completion_tokens": 928,
+    "cuda_event_seconds": 23.812910888671876,
+    "elapsed_seconds": 24.954657485708594,
+    "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_b3b6fcb37251c1cc3414', 's2_f12c50db613845914554', 's2_f5da7cd7b0e548f61648']",
+    "errors": [
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_b3b6fcb37251c1cc3414', 's2_f12c50db613845914554', 's2_f5da7cd7b0e548f61648'] | Selected evidence coverage: claims missing for ['s2_f5da7cd7b0e548f61648']; trajectory/comparison panels missing for ['s2_f5da7cd7b0e548f61648']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.",
+        "tags": [
+          "structural_specification",
+          "excessive_items"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_b3b6fcb37251c1cc3414', 's2_f12c50db613845914554', 's2_f5da7cd7b0e548f61648']",
+        "tags": [
+          "structural_specification"
+        ],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "assessment_availability",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 24.048660004977137,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 15409,
+    "question_id": "s4_09",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": null,
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": null,
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "nonbanked_submissions",
+      "scheduled_no_submission",
+      "assessment_records",
+      "measurement_availability"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:23:43.803202+00:00",
+    "status": "failed",
+    "structural_error_episode": true,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "answer_fraction": 0.75,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 2,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [
+      "assessment_records",
+      "measurement_availability"
+    ],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:24:21.289813+00:00",
+    "completion_tokens": 460,
+    "cuda_event_seconds": 11.3579541015625,
+    "elapsed_seconds": 12.511488078627735,
+    "errors": [],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "assessment_availability",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 11.507079648785293,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 0.25,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": true,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 10801,
+    "question_id": "s4_09",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_9ace962b263402e46070"
+        ],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": null,
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "unanswered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b3b6fcb37251c1cc3414"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "dated assessment-state panel",
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": null,
+        "origin": "compiler_supplied",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": true,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "standard visible compiler caveat",
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": null,
+        "origin": "compiler_supplied",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [
+      "scheduled_no_submission"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/semantic/s4_09/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:24:08.776063+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:53.486240+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 1.7485008439980447,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "assessment_availability",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 2
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_10",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_350a0f31237530ba6818"
+        ],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_e7058b92f600062f1a72"
+        ],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": true,
+        "evidence_ids": [
+          "s2_350a0f31237530ba6818"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "dated assessment-state panel",
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": true,
+        "evidence_ids": [
+          "s2_350a0f31237530ba6818"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "selected measurement-limits claim",
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_10/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 4,
+    "tool_calls_executed": 4,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:24:58.250320+00:00",
+    "completion_tokens": 1074,
+    "cuda_event_seconds": 26.09390710449219,
+    "elapsed_seconds": 28.084799698088318,
+    "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.",
+    "errors": [
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels. | specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_350a0f31237530ba6818', 's2_3ebf7d202d7157b676fe', 's2_e7058b92f600062f1a72']",
+        "tags": [
+          "structural_specification"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.",
+        "tags": [
+          "structural_specification"
+        ],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "assessment_availability",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 26.335183538962156,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 15596,
+    "question_id": "s4_10",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": null,
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": null,
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "nonbanked_submissions",
+      "scheduled_no_submission",
+      "assessment_records",
+      "measurement_availability"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:24:30.163528+00:00",
+    "status": "failed",
+    "structural_error_episode": true,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "answer_fraction": 0.75,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 3,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [
+      "assessment_records",
+      "measurement_availability"
+    ],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:24:30.143923+00:00",
+    "completion_tokens": 275,
+    "cuda_event_seconds": 7.42340283203125,
+    "elapsed_seconds": 8.843748643063009,
+    "errors": [],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "assessment_availability",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 7.581974016968161,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 0.25,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 1
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 10176,
+    "question_id": "s4_10",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "focal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_3ebf7d202d7157b676fe"
+        ],
+        "features": [
+          "nonbanked_submissions"
+        ],
+        "form": "visible focal mean with window/unit (null means unavailable)",
+        "id": "nonbanked_submissions",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "focal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "scheduled_no_submission"
+        ],
+        "form": null,
+        "id": "scheduled_no_submission",
+        "justification": "Question explicitly asks about recorded submissions and scheduled non-submissions; Stage 3 asks their observed-week means.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "unanswered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "assessment_records",
+        "covered": true,
+        "evidence_ids": [
+          "s2_3ebf7d202d7157b676fe"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "dated assessment-state panel",
+        "id": "assessment_records",
+        "justification": "Assessment state/timestamp context is an explicit shared interpretation requirement for these measurement questions.",
+        "omission_type": null,
+        "origin": "compiler_supplied",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "availability",
+        "covered": true,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "standard visible compiler caveat",
+        "id": "measurement_availability",
+        "justification": "Question asks what records establish / whether marks or learning can be inferred; shared interpretation rules require withholding unavailable grades.",
+        "omission_type": null,
+        "origin": "compiler_supplied",
+        "outcome": "unavailable_measurement",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [
+      "scheduled_no_submission"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/semantic/s4_10/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:24:21.298271+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": true,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:54.366035+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 0.8750431761145592,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "alternate_windows",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_11",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_d627a626da8758e81f28"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_d627a626da8758e81f28"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b87db49670938836eded"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_fce1be8a9649e8431fea"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_d627a626da8758e81f28",
+          "s2_b87db49670938836eded",
+          "s2_fce1be8a9649e8431fea"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "validated cross-reference conclusion",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_11/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:26:01.674942+00:00",
+    "completion_tokens": 2649,
+    "cuda_event_seconds": 62.215802734374996,
+    "elapsed_seconds": 63.40144138922915,
+    "error": "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._d627a626da8758e81f28'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+    "errors": [
+      {
+        "error": "ValueError: Analytical request budget exceeded; select existing evidence and return final",
+        "tags": [],
+        "turn": 2
+      },
+      {
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.",
+        "tags": [
+          "structural_specification"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._d627a626da8758e81f28'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+        "tags": [
+          "structural_specification",
+          "excessive_items"
+        ],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "alternate_windows",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 62.47243706788868,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 25081,
+    "question_id": "s4_11",
+    "redundant_equivalent_analyses": 1,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "personal_change",
+      "peer_course",
+      "peer_same_prior_attempt",
+      "peer_early_stage",
+      "reference_direction"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:24:58.271340+00:00",
+    "status": "failed",
+    "structural_error_episode": true,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 1,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:26:18.230383+00:00",
+    "completion_tokens": 604,
+    "cuda_event_seconds": 15.4376396484375,
+    "elapsed_seconds": 16.521423044148833,
+    "errors": [],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "alternate_windows",
+    "finish_reasons": {
+      "eos": 2
+    },
+    "first_attempt_valid": true,
+    "generation_seconds": 15.552512747235596,
+    "generations": 2,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 9021,
+    "question_id": "s4_11",
+    "redundant_equivalent_analyses": 1,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b87db49670938836eded"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_d627a626da8758e81f28"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_b87db49670938836eded"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_fce1be8a9649e8431fea"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_d627a626da8758e81f28",
+          "s2_b87db49670938836eded",
+          "s2_fce1be8a9649e8431fea"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "complete scoped comparisons allow the descriptive answer without a mandatory conclusion template",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/semantic/s4_11/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:26:01.706206+00:00",
+    "status": "agent_generated_and_accepted",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "analysis_device": "CPU",
+    "answer_fraction": 1.0,
+    "attribution_note": "Stage 3 answer judgments unchanged; compiler-only context separately attributed through an explicit selection projection.",
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": true,
+    "complete_requested_coverage": true,
+    "complete_required_context": true,
+    "completed_utc": "2026-09-18T21:16:56.762252+00:00",
+    "completion_tokens": 0,
+    "cpu_architecture": "x86_64",
+    "cuda_event_seconds": 0,
+    "elapsed_seconds": 2.391803152859211,
+    "errors": [],
+    "execution_commit": "05f3cdcdb67bb6d1760d398b805bd962b60140b5",
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "alternate_windows",
+    "finish_reasons": {},
+    "first_attempt_valid": true,
+    "generation_seconds": 0,
+    "generations": 0,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+    "method": "baseline",
+    "method_selected_fraction": 1.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "PASS",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 3
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 0,
+    "question_id": "s4_12",
+    "redundant_equivalent_analyses": 0,
+    "redundant_requests": 0,
+    "repairs": 0,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": true,
+        "evidence_ids": [
+          "s2_10d3c0390b313e0b236f"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped personal-history claim",
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_10d3c0390b313e0b236f"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_65ef129b37ad9254c491"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": true,
+        "evidence_ids": [
+          "s2_899889dd7b49269c49cf"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "scoped comparison claim",
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": true,
+        "evidence_ids": [
+          "s2_10d3c0390b313e0b236f",
+          "s2_65ef129b37ad9254c491",
+          "s2_899889dd7b49269c49cf"
+        ],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": "validated cross-reference conclusion",
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": null,
+        "origin": "method_selected",
+        "outcome": "answered",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": true,
+      "observation_status_visible": true,
+      "source_validated_units_windows_counts_intervals": true
+    },
+    "retrieved_but_omitted": [],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": "artifacts/stage4/pilot/baseline/s4_12/accepted/selection_provenance.json",
+    "semantic_errors": [],
+    "status": "deterministic_accepted",
+    "structural_error_episode": false,
+    "tool_calls_attempted": 3,
+    "tool_calls_executed": 3,
+    "unsupported_accepted_quantitative_answers": 0,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": true
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:27:56.756243+00:00",
+    "completion_tokens": 2877,
+    "cuda_event_seconds": 67.3891044921875,
+    "elapsed_seconds": 68.00636746687815,
+    "error": "ValidationError: 2 validation errors for Action\nspecification.claims\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'template': 'comparison..._899889dd7b49269c49cf'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._899889dd7b49269c49cf'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+    "errors": [
+      {
+        "error": "ValueError: Analytical request budget exceeded; select existing evidence and return final",
+        "tags": [],
+        "turn": 2
+      },
+      {
+        "error": "ValidationError: 2 validation errors for Action\nspecification.claims\n  List should have at most 10 items after validation, not 12 [type=too_long, input_value=[{'template': 'comparison..._3685f93b69cd0c7b3ed4'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long\nspecification.panels\n  List should have at most 10 items after validation, not 12 [type=too_long, input_value=[{'kind': 'comparison', '..._3685f93b69cd0c7b3ed4'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+        "tags": [
+          "structural_specification",
+          "excessive_items"
+        ],
+        "turn": 3
+      },
+      {
+        "error": "ValidationError: 2 validation errors for Action\nspecification.claims\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'template': 'comparison..._899889dd7b49269c49cf'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._899889dd7b49269c49cf'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+        "tags": [
+          "structural_specification",
+          "excessive_items"
+        ],
+        "turn": 4
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "alternate_windows",
+    "finish_reasons": {
+      "eos": 4
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 67.61782834120095,
+    "generations": 4,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "full_spec",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 25381,
+    "question_id": "s4_12",
+    "redundant_equivalent_analyses": 1,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "personal_change",
+      "peer_course",
+      "peer_same_prior_attempt",
+      "peer_early_stage",
+      "reference_direction"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [],
+    "started_utc": "2026-09-18T21:26:48.747730+00:00",
+    "status": "failed",
+    "structural_error_episode": true,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": false,
+    "valid_after_repair": false
+  },
+  {
+    "answer_fraction": 0.0,
+    "compiler_added_claims": 0,
+    "compiler_added_panels": 0,
+    "compiler_inserted_substantive_comparisons_or_changes": 0,
+    "compiler_supplied_answers": [],
+    "complete_method_selected_coverage": false,
+    "complete_requested_coverage": false,
+    "complete_required_context": false,
+    "completed_utc": "2026-09-18T21:26:48.697062+00:00",
+    "completion_tokens": 1251,
+    "cuda_event_seconds": 29.92950830078125,
+    "elapsed_seconds": 30.453172916080803,
+    "error": "ValueError: Reference conclusion requires scope=peer and at least two explicitly selected peer comparisons",
+    "errors": [
+      {
+        "error": "ValueError: Reference conclusion requires scope=peer and at least two explicitly selected peer comparisons",
+        "tags": [],
+        "turn": 2
+      },
+      {
+        "error": "ValueError: Reference conclusion requires scope=peer and at least two explicitly selected peer comparisons",
+        "tags": [],
+        "turn": 3
+      }
+    ],
+    "external_review": "Awaiting independent human scientific review; executable checks are not human review",
+    "fallback": false,
+    "family": "alternate_windows",
+    "finish_reasons": {
+      "eos": 3
+    },
+    "first_attempt_valid": false,
+    "generation_seconds": 30.0869344137609,
+    "generations": 3,
+    "global_insufficiency_scope_count": 0,
+    "global_supported_insufficiency": false,
+    "method": "semantic",
+    "method_selected_fraction": 0.0,
+    "missing_requested_analyses": [],
+    "numerical_integrity": "NO ACCEPTED OUTPUT",
+    "optional": {
+      "personal_history_selected_but_not_requested": false,
+      "repeated_panel_signatures": 0,
+      "selected_evidence_count": 0
+    },
+    "oracle_retrieved_upper_bound": true,
+    "prompt_tokens": 16466,
+    "question_id": "s4_12",
+    "redundant_equivalent_analyses": 1,
+    "redundant_requests": 0,
+    "repairs": 1,
+    "requested_answers": [
+      {
+        "category": "personal",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "personal_change",
+        "justification": "Question explicitly requests comparison with own earlier history.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_course",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "course",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_same_prior_attempt",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "same_prior_attempt",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "peer",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "peer_early_stage",
+        "justification": "Question requests these peer comparisons (Stage 3 explicitly asks to show each).",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "reference": "early_stage",
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      },
+      {
+        "category": "direction",
+        "covered": false,
+        "evidence_ids": [],
+        "features": [
+          "clicks_per_eligible_day"
+        ],
+        "form": null,
+        "id": "reference_direction",
+        "justification": "Question asks whether interpretation/direction differs across the three stated peer definitions.",
+        "omission_type": "retrieved_but_omitted",
+        "origin": null,
+        "outcome": "no_accepted_dashboard",
+        "references": [
+          "course",
+          "same_prior_attempt",
+          "early_stage"
+        ],
+        "relevant_evidence_retrieved": true,
+        "window": "recent"
+      }
+    ],
+    "required_context": {
+      "logging_and_measurement_caveats_visible": false,
+      "observation_status_visible": false,
+      "source_validated_units_windows_counts_intervals": false
+    },
+    "retrieved_but_omitted": [
+      "personal_change",
+      "peer_course",
+      "peer_same_prior_attempt",
+      "peer_early_stage",
+      "reference_direction"
+    ],
+    "scoped_insufficiency_items": [],
+    "selection_provenance_path": null,
+    "semantic_errors": [
+      {
+        "error": "ValueError: Reference conclusion requires scope=peer and at least two explicitly selected peer comparisons",
+        "tags": [],
+        "turn": 2
+      },
+      {
+        "error": "ValueError: Reference conclusion requires scope=peer and at least two explicitly selected peer comparisons",
+        "tags": [],
+        "turn": 3
+      }
+    ],
+    "started_utc": "2026-09-18T21:26:18.242180+00:00",
+    "status": "failed",
+    "structural_error_episode": false,
+    "subsequent_analysis_after_results": false,
+    "tool_calls_attempted": 6,
+    "tool_calls_executed": 6,
+    "unsupported_accepted_quantitative_answers": null,
+    "unsupported_or_semantic_error_episode": true,
+    "valid_after_repair": false
+  }
+]

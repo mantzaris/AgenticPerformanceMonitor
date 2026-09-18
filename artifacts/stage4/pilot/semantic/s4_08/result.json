@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T21:23:15.218907+00:00",
+  "completion_tokens": 827,
+  "elapsed_seconds": 24.383975393138826,
+  "error": "ValueError: Insufficiency conclusion requires a nonempty peer/personal scope with explicitly selected insufficient answers",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "prompt_tokens": 17563,
+  "question_id": "s4_08",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T21:22:50.833071+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 4,
+  "tool_calls_executed": 4
+}

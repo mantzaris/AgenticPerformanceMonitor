@@ -1,0 +1,64 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_2e74d3e5a0bf1d2123f6",
+      "template": "personal_change"
+    },
+    {
+      "evidence_id": "s2_5231210607ba98b77f6e",
+      "template": "personal_change"
+    },
+    {
+      "evidence_id": "s2_fd8a0537759ecc693d2c",
+      "template": "personal_change"
+    },
+    {
+      "evidence_id": "s2_064eb3d9d0a7cc1380f4",
+      "template": "personal_change"
+    }
+  ],
+  "conclusion": "insufficient_evidence",
+  "cutoff_day": 27,
+  "evidence_ids": [
+    "s2_2e74d3e5a0bf1d2123f6",
+    "s2_5231210607ba98b77f6e",
+    "s2_fd8a0537759ecc693d2c",
+    "s2_064eb3d9d0a7cc1380f4"
+  ],
+  "followups": [],
+  "panels": [
+    {
+      "evidence_id": "s2_2e74d3e5a0bf1d2123f6",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_5231210607ba98b77f6e",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_fd8a0537759ecc693d2c",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_064eb3d9d0a7cc1380f4",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_2e74d3e5a0bf1d2123f6",
+      "kind": "observation_status"
+    },
+    {
+      "evidence_id": "s2_5231210607ba98b77f6e",
+      "kind": "observation_status"
+    },
+    {
+      "evidence_id": "s2_fd8a0537759ecc693d2c",
+      "kind": "observation_status"
+    },
+    {
+      "evidence_id": "s2_064eb3d9d0a7cc1380f4",
+      "kind": "observation_status"
+    }
+  ],
+  "question_id": "s4_07"
+}
