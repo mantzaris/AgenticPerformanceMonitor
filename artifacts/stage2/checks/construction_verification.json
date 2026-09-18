@@ -1,0 +1,76 @@
+{
+  "checks": [
+    "Historical Stage 1 hashes unchanged",
+    "Frozen pilot hashes unchanged",
+    "Every accepted evidence record independently checked against source",
+    "Claims, chart tables and evidence links replay without model imports",
+    "Reserved identities excluded by engine",
+    "All frozen pilot tasks/methods retained",
+    "CUDA parameter placement, recorded device events and own-process VRAM",
+    "Episode and cumulative budgets; every model process closed"
+  ],
+  "frozen_inputs_unchanged": false,
+  "historical_files_unchanged": 111,
+  "model_generations": 23,
+  "model_process_seconds": 313.51054483186454,
+  "replays": [
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c01/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c02/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c03/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c04/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c05/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/baseline/c06/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/construction/generic/c03/accepted",
+      "status": "PASS",
+      "svg_exact_replay": true
+    },
+    {
+      "chart_spec_exact_replay": true,
+      "numerical_integrity": "independent-source-bound",
+      "path": "artifacts/stage2/followups/c04_followup_7dc4249cfd",
+      "status": "PASS",
+      "svg_exact_replay": true
+    }
+  ],
+  "status": "PASS",
+  "verified_utc": "2026-09-18T18:06:19.910434+00:00"
+}

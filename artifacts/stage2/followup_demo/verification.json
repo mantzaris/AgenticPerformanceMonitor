@@ -1,0 +1,79 @@
+{
+  "automation": "playwright 1.55.0 with existing Chromium",
+  "browser": "153.0.8010.36",
+  "browser_errors": [],
+  "checks": [
+    "Actual browser form POST followed 303 to saved child",
+    "New analysis/evidence/specification and render created",
+    "Cutoff/window/reference labels updated",
+    "Original files unchanged",
+    "Evidence inspector expands",
+    "Observation and insufficiency states visible"
+  ],
+  "child": "artifacts/stage2/followups/c04_followup_7dc4249cfd",
+  "child_status": "supported",
+  "child_summary": {
+    "baseline_mean": 7.857142857142858,
+    "baseline_observations": 2,
+    "baseline_window": [
+      0,
+      1
+    ],
+    "contrast": -7.255676166014351,
+    "focal_eligible_days": 11.0,
+    "focal_mean": 0.0,
+    "focal_observations": 2,
+    "peer_ci_high": 7.836335769324853,
+    "peer_ci_low": 6.69202345278865,
+    "peer_mean": 7.255676166014351,
+    "personal_change": -7.857142857142858,
+    "personal_status": "supported",
+    "recent_mean": 0.0,
+    "recent_observations": 2,
+    "recent_window": [
+      2,
+      3
+    ]
+  },
+  "executed_utc": "2026-09-18T18:01:22.726610+00:00",
+  "limitations": [
+    "Single desktop Chromium interaction; no cross-browser, accessibility or concurrent-user evaluation"
+  ],
+  "parent": "artifacts/stage2/construction/baseline/c04/accepted",
+  "parent_hashes": {
+    "bound.json": "551816b6568b042542d2b14cf97d1eb3a23468babf79093e01667dc01b5c5f17",
+    "evidence.json": "d5e8f27acf3776ef4e1e8d031d9adf4729dcab4dff5dd31eaecd4ce354ce7691",
+    "question.json": "3a905425da5dd153589fdbd31caaec1e85f67863e79acd45e69096977cecad28",
+    "spec.json": "6afa453c16f8338889a0c68ba50f8f077c611566921cb386f08a1c98418116d6"
+  },
+  "parent_status": "insufficient_evidence",
+  "parent_summary": {
+    "baseline_mean": 3.928571428571429,
+    "baseline_observations": 4,
+    "baseline_window": [
+      0,
+      3
+    ],
+    "contrast": null,
+    "focal_eligible_days": 0.0,
+    "focal_mean": null,
+    "focal_observations": 0,
+    "peer_ci_high": 3.8447545943226347,
+    "peer_ci_low": 3.0504729561033184,
+    "peer_mean": 3.442610119993342,
+    "personal_change": null,
+    "personal_status": "insufficient_evidence",
+    "recent_mean": null,
+    "recent_observations": 0,
+    "recent_window": [
+      8,
+      11
+    ]
+  },
+  "parent_unchanged": true,
+  "request": {
+    "profile": "short",
+    "reference": "early_stage"
+  },
+  "status": "PASS"
+}

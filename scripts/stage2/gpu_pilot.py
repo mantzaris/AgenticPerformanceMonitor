@@ -44,6 +44,9 @@ def main():
     remaining=min(cfg['gpu_process_seconds_limit']-used_seconds,(deadline-datetime.now(timezone.utc)).total_seconds())
     tasks=[t for t in read_json(ROOT/'tasks/manifest.json')['tasks'] if t['subset']==args.subset]
     episodes=[(t['question'], 'generic' if i%2==0 else 'reference_sensitive') for i,t in enumerate(tasks)] if args.subset=='construction' else [(t['question'],m) for t in tasks for m in ('generic','reference_sensitive')]
+    episodes=[(q,m) for q,m in episodes if not (ROOT/args.subset/m/q['question_id']/'started.json').exists() and not (ROOT/args.subset/m/q['question_id']/'result.json').exists()]
+    if not episodes:
+        print('No unattempted episodes remain; historical attempts are preserved.');return
     if generations+4*len(episodes)>cfg['generation_limit']:raise RuntimeError('Insufficient generation budget reserved for complete requested subset')
     if remaining<=0:raise RuntimeError('Model/stage time exhausted')
     freeze_hash=verify_freeze() if args.subset=='pilot' else None
@@ -52,7 +55,8 @@ def main():
     append_event({'event':'process_started','process_id':process_id,'pid':os.getpid(),'subset':args.subset,'remaining_seconds':remaining,'generations_before':generations,'execution_commit':commit(),'freeze_sha256':freeze_hash},ledger)
     runtime={'process_id':process_id,'subset':args.subset,'started_utc':now(),'execution_commit':commit(),'freeze_sha256':freeze_hash,'model':cfg['model'],'revision':cfg['model_revision'],'backend':cfg['backend'],'precision':'bfloat16','quantization':'none','cpu_offload':False,'decoding':cfg['decoding'],'warmup_generations':0,'generations_before':generations,'results':[],'status':'running'}
     def stop(*args):raise TimeoutError('Stage/model process deadline reached')
-    signal.signal(signal.SIGALRM,stop);signal.signal(signal.SIGTERM,stop);signal.alarm(max(1,int(remaining)))
+    signal.signal(signal.SIGALRM,stop);signal.signal(signal.SIGTERM,stop)
+    signal.alarm(max(1,int(remaining-(time.monotonic()-PROCESS_START)-10)))
     model=None
     try:
         import torch

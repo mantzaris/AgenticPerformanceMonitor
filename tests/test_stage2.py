@@ -138,3 +138,19 @@ def test_registry_rejects_reversed_or_future_windows(tmp_path):
     cfg=Registry().cfg;cfg['profiles']['standard']['recent']=[8,12]
     write_json(tmp_path/'bad.json',cfg)
     with pytest.raises(ValueError,match='post-cutoff'):Registry(tmp_path/'bad.json')
+
+
+def test_followup_recomputes_and_preserves_parent(engine,tmp_path):
+    from trajectory_dashboards.common import file_hash
+    from trajectory_dashboards.stage2.followup import followup
+    parent=ROOT/'construction/baseline/c04/accepted'
+    before={n:file_hash(parent/n) for n in ('spec.json','question.json','evidence.json')}
+    child=followup(engine,parent,'early_stage','short',tmp_path)
+    old=next(iter(read_json(parent/'evidence.json').values()))
+    new=next(iter(read_json(child/'evidence.json').values()))
+    assert old['status']=='insufficient_evidence' and new['status']=='supported'
+    assert new['window']==[2,3] and new['reference_window']==[0,1]
+    assert new['evidence_id']!=old['evidence_id'] and len(new['trajectory'])==4
+    assert read_json(child/'link.json')['parent_question_id']=='c04'
+    assert before=={n:file_hash(parent/n) for n in before}
+    with pytest.raises(ValueError,match='admissible'):followup(engine,parent,'invented','short',tmp_path)

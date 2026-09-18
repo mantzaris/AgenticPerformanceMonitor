@@ -40,7 +40,7 @@ def independent_facts(engine, question, request):
         raise ValueError("No focal source observations")
     window, rw, label = engine.registry.context(q, req, focal[0]["prior_attempt_group"])
     peers = [r for r in rows if r["person_id"] not in engine.excluded | {q.person_id}]
-    if req.reference == "same_prior_attempt":
+    if engine.cfg['references'][req.reference]['group'] == "same_prior_attempt":
         peers = [r for r in peers if r["prior_attempt_group"] == focal[0]["prior_attempt_group"]]
     groups = defaultdict(list)
     for r in peers:
@@ -135,21 +135,24 @@ def validate(engine, question, spec, evidence):
         if item.evidence_id not in bound:
             raise ValueError(f"claims/panels[{i}].evidence_id: must appear in evidence_ids")
     kinds = {p.kind for p in spec.panels}
+    errors=[]
     for needed in ("trajectory","observation_status"):
         if needed not in kinds:
-            raise ValueError(f"specification.panels: missing kind='{needed}'; add it using a selected evidence_id. Keep other panels.")
-    if any(e.feature in {"nonbanked_submissions","scheduled_no_submission"} for e in bound.values()) and "assessment_status" not in kinds:
-        raise ValueError("specification.panels: assessment evidence requires kind='assessment_status' with its evidence_id")
-    for eid in bound:
-        if not any(c.evidence_id == eid for c in spec.claims):
-            raise ValueError(f"specification.claims: add a claim for selected evidence {eid}")
-        if not any(p.evidence_id == eid and p.kind in {"trajectory","comparison"} for p in spec.panels):
-            raise ValueError(f"specification.panels: selected evidence {eid} needs trajectory or comparison panel")
+            errors.append(f"specification.panels: missing kind='{needed}'; add it using a selected evidence_id. Keep other panels.")
+    assessment_ids={eid for eid,e in bound.items() if e.feature in {"nonbanked_submissions","scheduled_no_submission"}}
+    if assessment_ids and not any(p.kind=='assessment_status' and p.evidence_id in assessment_ids for p in spec.panels):
+        errors.append(f"specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: {sorted(assessment_ids)}")
+    missing_claims=[eid for eid in bound if not any(c.evidence_id==eid for c in spec.claims)]
+    missing_panels=[eid for eid in bound if not any(p.evidence_id==eid and p.kind in {"trajectory","comparison"} for p in spec.panels)]
+    if missing_claims or missing_panels:
+        errors.append(f"Selected evidence coverage: claims missing for {missing_claims}; trajectory/comparison panels missing for {missing_panels}. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.")
     if spec.conclusion in {"same_direction","direction_differs"}:
         expected = reference_conclusion(list(bound.values()))
         if spec.conclusion != expected:
-            raise ValueError(f"specification.conclusion: selected results support '{expected}', not '{spec.conclusion}'. 'descriptive' is also admissible.")
+            errors.append(f"specification.conclusion: selected results support '{expected}', not '{spec.conclusion}'. 'descriptive' is also admissible.")
     if spec.conclusion == "insufficient_evidence" and not any(e.status != "supported" or e.summary["personal_status"] != "supported" for e in bound.values()):
-        raise ValueError("specification.conclusion: selected results have sufficient descriptive support; use descriptive or an empirically supported reference conclusion")
+        errors.append("specification.conclusion: selected results have sufficient descriptive support; use descriptive or an empirically supported reference conclusion")
+    if errors:
+        raise ValueError("Fix all of these specification errors in the single repair: " + " | ".join(errors))
     # No task-kind/reference investigation policy is encoded in universal integrity.
     return spec,bound

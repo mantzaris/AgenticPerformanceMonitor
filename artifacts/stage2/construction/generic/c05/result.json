@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-09-18T18:01:54.608492+00:00",
+  "completion_tokens": 1445,
+  "elapsed_seconds": 34.626554406713694,
+  "error": "ValueError: specification.panels: assessment evidence requires kind='assessment_status' with its evidence_id",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 3,
+  "method": "generic",
+  "prompt_tokens": 11308,
+  "question_id": "c05",
+  "repairs": 1,
+  "started_utc": "2026-09-18T18:01:19.980161+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 4,
+  "tool_calls_executed": 4
+}

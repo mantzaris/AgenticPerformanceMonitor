@@ -1,0 +1,17 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "c03",
+      "feature": "distinct_resources",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "c03",
+      "feature": "distinct_resources",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ]
+}

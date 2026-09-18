@@ -1,0 +1,19 @@
+task_id,method,status,first_attempt_valid,valid_after_permitted_repair,coverage_fraction,all_task_context_covered,appropriate_insufficiency,tool_calls_attempted,generations,prompt_tokens,completion_tokens,elapsed_seconds,error
+c01,baseline,deterministic_accepted,True,True,1.0,True,,3,0,0,0,1.3826922770003875,
+c01,generic,failed,False,False,0.0,False,,6,4,18868,2047,115.60970907844603,ValueError: specification.panels: selected evidence s2_e3e6d72a57d37c6ee45e needs trajectory or comparison panel
+c01,reference_sensitive,not_attempted,False,False,0.0,False,,0,0,0,0,0,
+c02,baseline,deterministic_accepted,True,True,1.0,True,,3,0,0,0,2.59142202700059,
+c02,generic,not_attempted,False,False,0.0,False,,0,0,0,0,0,
+c02,reference_sensitive,failed,False,False,0.0,False,,6,4,19039,1672,42.21766812261194,ValueError: specification.panels: selected evidence s2_e09c1bf34e47740e2952 needs trajectory or comparison panel
+c03,baseline,deterministic_accepted,True,True,1.0,True,True,5,0,0,0,3.16921457799981,
+c03,generic,agent_generated_and_repaired,False,True,0.3333333333333333,False,False,6,4,18154,1063,32.39641253603622,
+c03,reference_sensitive,not_attempted,False,False,0.0,False,False,0,0,0,0,0,
+c04,baseline,deterministic_accepted,True,True,1.0,True,True,3,0,0,0,1.3013160640002752,
+c04,generic,not_attempted,False,False,0.0,False,False,0,0,0,0,0,
+c04,reference_sensitive,failed,False,False,0.0,False,False,4,4,14542,1038,26.904797960072756,ValueError: specification.panels: selected evidence s2_cdb1cb7d9651edb9fee8 needs trajectory or comparison panel
+c05,baseline,deterministic_accepted,True,True,1.0,True,,4,0,0,0,1.8759532390013192,
+c05,generic,failed,False,False,0.0,False,,4,3,11308,1445,34.626554406713694,ValueError: specification.panels: assessment evidence requires kind='assessment_status' with its evidence_id
+c05,reference_sensitive,not_attempted,False,False,0.0,False,,0,0,0,0,0,
+c06,baseline,deterministic_accepted,True,True,1.0,True,,3,0,0,0,2.4698176910005714,
+c06,generic,not_attempted,False,False,0.0,False,,0,0,0,0,0,
+c06,reference_sensitive,failed,False,False,0.0,False,,3,4,15042,1208,29.955589516088367,ValueError: specification.panels: selected evidence s2_defac4947729f7544710 needs trajectory or comparison panel

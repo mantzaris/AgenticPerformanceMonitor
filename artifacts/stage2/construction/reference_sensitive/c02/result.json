@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-09-18T18:00:20.526149+00:00",
+  "completion_tokens": 1672,
+  "elapsed_seconds": 42.21766812261194,
+  "error": "ValueError: specification.panels: selected evidence s2_e09c1bf34e47740e2952 needs trajectory or comparison panel",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "reference_sensitive",
+  "prompt_tokens": 19039,
+  "question_id": "c02",
+  "repairs": 1,
+  "started_utc": "2026-09-18T17:59:38.306378+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 6,
+  "tool_calls_executed": 6
+}

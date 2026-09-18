@@ -1,0 +1,29 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "c03",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "c03",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "c03",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "c03",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ]
+}

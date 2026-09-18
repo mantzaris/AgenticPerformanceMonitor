@@ -1,0 +1,17 @@
+{
+  "changes_before_freeze": [
+    "Universal prompt explains existing personal summaries, subset selection and compact admissible panel layout",
+    "Validation returns all missing panel/claim obligations in one error, with actionable evidence IDs",
+    "Assessment status panel must bind to selected assessment evidence",
+    "No support threshold, numerical integrity rule or empirical conclusion check was relaxed"
+  ],
+  "construction_accepted": 1,
+  "construction_execution_commit": "4e80e4e",
+  "construction_failed": 5,
+  "construction_generations": 23,
+  "construction_model_seconds": 313.51054483186454,
+  "extra_construction_model_retries": 0,
+  "maximum_reserved_for_pilot": 96,
+  "pilot_answers_or_results_used_for_tuning": false,
+  "remaining_generation_budget": 97
+}

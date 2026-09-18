@@ -1,0 +1,85 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "c01",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_2ca2bd0cd24a66faef25",
+      "s2_7eac015725bc64d2e68a",
+      "s2_d2de448f781ea0aa10ad",
+      "s2_68bcf471730ec2d4e497",
+      "s2_8dec7b5e4462a084e151",
+      "s2_e3e6d72a57d37c6ee45e"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_2ca2bd0cd24a66faef25"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_7eac015725bc64d2e68a"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_d2de448f781ea0aa10ad"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_68bcf471730ec2d4e497"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_8dec7b5e4462a084e151"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_e3e6d72a57d37c6ee45e"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_2ca2bd0cd24a66faef25"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_2ca2bd0cd24a66faef25"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_7eac015725bc64d2e68a"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_7eac015725bc64d2e68a"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_d2de448f781ea0aa10ad"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_d2de448f781ea0aa10ad"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_68bcf471730ec2d4e497"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_68bcf471730ec2d4e497"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_8dec7b5e4462a084e151"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_8dec7b5e4462a084e151"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  }
+}

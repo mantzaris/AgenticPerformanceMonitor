@@ -1,0 +1,38 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "c06",
+    "cutoff_day": 69,
+    "evidence_ids": [
+      "s2_db039ba6402b337fceb9",
+      "s2_a66d8ba13aad9db8b474",
+      "s2_defac4947729f7544710"
+    ],
+    "claims": [
+      {
+        "template": "comparison",
+        "evidence_id": "s2_db039ba6402b337fceb9"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_a66d8ba13aad9db8b474"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_defac4947729f7544710"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_db039ba6402b337fceb9"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_db039ba6402b337fceb9"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  }
+}
