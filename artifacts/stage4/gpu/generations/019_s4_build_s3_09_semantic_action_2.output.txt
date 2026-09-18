@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s4_build_s3_09",
+      "feature": "nonbanked_submissions",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s4_build_s3_09",
+      "feature": "scheduled_no_submission",
+      "reference": "early_stage",
+      "window": "recent"
+    }
+  ]
+}

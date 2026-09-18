@@ -1,0 +1,12 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s4_build_s3_05",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ]
+}

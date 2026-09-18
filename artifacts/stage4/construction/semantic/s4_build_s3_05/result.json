@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T21:04:55.801879+00:00",
+  "completion_tokens": 903,
+  "elapsed_seconds": 22.909912831149995,
+  "error": "ValidationError: 2 validation errors for SemanticAction\nanswers\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'kind': 'measurement_li...insufficient_evidence'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nconclusion\n  Extra inputs are not permitted [type=extra_forbidden, input_value={'kind': 'insufficient_ev..._1ad15547a964849ad56b']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "prompt_tokens": 19688,
+  "question_id": "s4_build_s3_05",
+  "redundant_requests": 1,
+  "repairs": 1,
+  "started_utc": "2026-09-18T21:04:32.889546+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 5,
+  "tool_calls_executed": 5
+}

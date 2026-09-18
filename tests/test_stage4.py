@@ -145,7 +145,7 @@ def test_real_dispatch_loop_with_scripted_model_and_replay(data,tmp_path,monkeyp
         else:
             tool=next(json.loads(x['content']) for x in messages if x['role']=='tool')[0]['result']
             eid=tool['evidence_id'];e=records[q.kind][0]
-            if method=='semantic':raw={'action':'final','answer':{'answers':[selection(e,'peer_comparison'),selection(e,'personal_change')]}}
+            if method=='semantic':raw={'action':'final','answers':[selection(e,'peer_comparison'),selection(e,'personal_change')]}
             else:
                 s,_=compile_answer(engine,q,{'answers':[selection(e,'peer_comparison'),selection(e,'personal_change')]},{eid:e})
                 raw={'action':'final','specification':s.model_dump()}

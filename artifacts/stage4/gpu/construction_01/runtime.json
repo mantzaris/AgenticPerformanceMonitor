@@ -1,0 +1,70 @@
+{
+  "allocated_bytes_after_load": 15234903552,
+  "backend": "transformers",
+  "billing_time": "Unknown; not inferred from model process or CUDA event time",
+  "completed_utc": "2026-09-18T21:01:25.784095+00:00",
+  "cpu_offload": false,
+  "cumulative_generations": 0,
+  "cumulative_gpu_process_seconds": 24.37548689590767,
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 1500
+  },
+  "environment": {
+    "accelerate": "1.10.1",
+    "altair": "5.5.0",
+    "cuda_runtime": "12.8",
+    "huggingface-hub": "0.34.4",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "pydantic": "2.11.7",
+    "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.2",
+    "vl-convert-python": "1.8.0"
+  },
+  "error": "FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data/splits.json'",
+  "execution_commit": "7a1220fa3c97702e31d79ba9099aedf6b531bdb2",
+  "freeze_sha256": null,
+  "generations_before": 0,
+  "generations_this_process": 0,
+  "gpu": "NVIDIA RTX 6000 Ada Generation, 580.159.04, 49140 MiB",
+  "gpu_process_seconds": 24.37548689590767,
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_files_verified": [
+    "LICENSE",
+    "README.md",
+    "config.json",
+    "generation_config.json",
+    "merges.txt",
+    "model-00001-of-00004.safetensors",
+    "model-00002-of-00004.safetensors",
+    "model-00003-of-00004.safetensors",
+    "model-00004-of-00004.safetensors",
+    "model.safetensors.index.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.json"
+  ],
+  "model_manifest_sha256": "3bcc54684e5559685a267488140a0555f26f9e73cfa04d022c06c1f41a5363f8",
+  "nvidia_smi_after_load": [
+    "88464, /workspace/apm-stage1/.venv/bin/python, 14976"
+  ],
+  "parameter_devices": [
+    "cuda:0"
+  ],
+  "parameter_dtypes": [
+    "torch.bfloat16"
+  ],
+  "precision": "bfloat16",
+  "process_id": "construction_01",
+  "quantization": "none",
+  "results": [],
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "started_utc": "2026-09-18T21:01:04.151065+00:00",
+  "status": "failed",
+  "subset": "construction",
+  "timing_note": "Shared load/hash/import/profile overhead is not assigned to any method; CPU baseline runs separately on this same host",
+  "warmup_budget_partition": "setup",
+  "warmup_generations": 1
+}

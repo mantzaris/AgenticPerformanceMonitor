@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s4_build_s3_07",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s4_build_s3_07",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ]
+}

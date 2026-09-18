@@ -30,15 +30,20 @@ class Answer(Contract):
 class SemanticAction(Contract):
     action: Literal['analyze', 'final']
     requests: list[Request] = Field(default_factory=list, max_length=6)
-    answer: Answer | None = None
+    answers: list[Intent] = Field(default_factory=list, max_length=10)
+    conclusion: Conclusion | None = None
 
     @model_validator(mode='after')
     def shape(self):
-        if self.action == 'analyze' and (not self.requests or self.answer is not None):
-            raise ValueError('analyze requires 1–6 requests and no answer')
-        if self.action == 'final' and (self.requests or self.answer is None):
-            raise ValueError('final requires answer and no requests')
+        if self.action == 'analyze' and (not self.requests or self.answers or self.conclusion is not None):
+            raise ValueError('analyze requires 1–6 requests and no answers/conclusion')
+        if self.action == 'final' and (self.requests or not self.answers):
+            raise ValueError('final requires nonempty answers and no requests')
         return self
+
+    @property
+    def answer(self):
+        return Answer(answers=self.answers, conclusion=self.conclusion or Conclusion())
 
 
 def compile_answer(engine, question, answer, evidence):

@@ -1,0 +1,47 @@
+{
+  "action": "final",
+  "answer": {
+    "answers": [
+      {
+        "kind": "personal_change",
+        "evidence_id": "s2_e5899126e0d8f57a3db1",
+        "support": "insufficient_evidence"
+      },
+      {
+        "kind": "peer_comparison",
+        "evidence_id": "s2_e5899126e0d8f57a3db1",
+        "support": "describe"
+      },
+      {
+        "kind": "personal_change",
+        "evidence_id": "s2_734da4e8e2f3c3698675",
+        "support": "insufficient_evidence"
+      },
+      {
+        "kind": "peer_comparison",
+        "evidence_id": "s2_734da4e8e2f3c3698675",
+        "support": "describe"
+      },
+      {
+        "kind": "personal_change",
+        "evidence_id": "s2_c0a98043f715f0570fb4",
+        "support": "insufficient_evidence"
+      },
+      {
+        "kind": "peer_comparison",
+        "evidence_id": "s2_c0a98043f715f0570fb4",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "kind": "insufficient_evidence",
+      "scope": "personal",
+      "evidence_ids": [
+        "s2_c44cad07d039bb07e8ec",
+        "s2_df38807063b6d98f4b2f",
+        "s2_734da4e8e2f3c3698675",
+        "s2_c0a98043f715f0570fb4"
+      ]
+    }
+  }
+}

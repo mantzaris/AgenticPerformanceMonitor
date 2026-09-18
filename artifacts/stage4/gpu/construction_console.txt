@@ -1,0 +1,23 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.87it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.71it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.77it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.84it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+Traceback (most recent call last):
+  File "/workspace/apm-stage4/scripts/stage4/gpu_pilot.py", line 177, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/apm-stage4/scripts/stage4/gpu_pilot.py", line 93, in main
+    engine=Engine()
+           ^^^^^^^^
+  File "/workspace/apm-stage4/src/trajectory_dashboards/stage4/core.py", line 12, in __init__
+    super().__init__(ROOT / 'source', Registry('configs/stage4.json'))
+  File "/workspace/apm-stage4/src/trajectory_dashboards/stage2/backend.py", line 23, in __init__
+    assignments = read_json("artifacts/data/splits.json")["assignments"]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/apm-stage4/src/trajectory_dashboards/common.py", line 27, in read_json
+    return json.loads(Path(path).read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data/splits.json'

@@ -26,8 +26,10 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--subset',choices=['construction','pilot'],required=True)
     parser.add_argument('--model-path',required=True)
+    parser.add_argument('--format-check',action='store_true',help='One known-case final-format generation, counted as construction')
     parser.add_argument('--authorization-start-utc',help='Explicit new independent rerun authorization; requires a fresh ledger and outputs, never reuse original results')
     args=parser.parse_args()
+    if args.format_check and args.subset!='construction':raise ValueError('Format check is construction only')
     cfg=read_json('configs/stage4.json')
     ledger=ROOT/'model_ledger.jsonl'
     lock=open(ROOT/'model_budget.lock','a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
@@ -51,11 +53,15 @@ def main():
     used={part:sum(e['event']=='generation_started' and e.get('budget_partition')==part for e in events) for part in ['construction','pilot','setup']}
     limits={'construction':cfg['construction_generation_limit'],'pilot':cfg['pilot_generation_limit'],'setup':cfg['setup_generation_limit']}
     episodes=[(q,m) for q,m in episodes if not (ROOT/args.subset/m/q['question_id']/'started.json').exists() and not (ROOT/args.subset/m/q['question_id']/'result.json').exists()]
+    if args.format_check:
+        if (ROOT/'construction_format/semantic/s4_build_s3_01/started.json').exists():raise ValueError('Format check already attempted')
+        episodes=[(read_json(ROOT/'tasks/construction.json')['episodes'][0]['question'],'semantic')]
     if not episodes:
         print('No unattempted episodes remain; historical attempts are preserved.');return
-    if used[args.subset]+4*len(episodes)>limits[args.subset]:
+    episode_reservation=1 if args.format_check else 4*len(episodes)
+    if used[args.subset]+episode_reservation>limits[args.subset]:
         raise RuntimeError('Insufficient reserved generation partition for unattempted episodes')
-    if used['setup']+1>limits['setup'] or generations+4*len(episodes)+1>cfg['generation_limit']:
+    if used['setup']+1>limits['setup'] or generations+episode_reservation+1>cfg['generation_limit']:
         raise RuntimeError('Total generation/setup budget exhausted')
     if remaining<=0:raise RuntimeError('Model/stage time exhausted')
     freeze_hash=verify_freeze() if args.subset=='pilot' else None
@@ -145,6 +151,10 @@ def main():
         generate([{'role':'user','content':'Return the word ready.'}],process_id,'setup','setup_profile',out)
         runtime['shared_profile_warmup_seconds']=time.monotonic()-warm_start
         runtime['profiling_in_pilot_episode']=False
+        if args.format_check:
+            from trajectory_dashboards.stage4.format_check import execute
+            runtime['results'].append(execute(engine,generate))
+            episodes=[]
         for q,method in episodes:
             case=ROOT/args.subset/method/q['question_id']
             try:

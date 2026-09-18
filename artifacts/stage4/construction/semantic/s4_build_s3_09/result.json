@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T21:06:08.948579+00:00",
+  "completion_tokens": 1796,
+  "elapsed_seconds": 42.07185527309775,
+  "error": "ValidationError: 1 validation error for SemanticAction\nanswers\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'kind': 'personal_chang... 'support': 'describe'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "prompt_tokens": 17117,
+  "question_id": "s4_build_s3_09",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T21:05:26.874625+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 4,
+  "tool_calls_executed": 4
+}

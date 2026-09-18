@@ -2,7 +2,8 @@
 
 An analyze Action is unchanged: one to six typed requests with feature, reference
 and baseline/recent window. Final full Actions contain the existing Specification.
-Final compact Actions contain `answer: {answers: [...], conclusion: {...}}`.
+Final compact Actions contain `action: final`, `answers: [...]` and an optional
+`conclusion: {...}` at the same level, with no nested answer wrapper.
 Each intent has `kind`, a returned `evidence_id`, and `support`.
 No arbitrary executable code, quantitative value or narrative claim is accepted.
 
@@ -52,3 +53,11 @@ an explicit-selection projection attributes answers to the method versus compile
 Fixtures require personal-only selection to leave peer requests unanswered, and
 peer-only selection to leave personal requests unanswered, even if both estimates
 were available in the tool result.
+
+Construction originally tested a nested `answer` envelope. Five of six known-case
+episodes misplaced fields at the root; all six failed for envelope or substantive
+support errors. Before freezing, the semantic envelope was flattened to the form
+above. No substantive support/conclusion check was relaxed. The failed originals
+remain associated with their construction commit. One remaining construction
+generation is allocated to a fixed final-format check using saved known-case tool
+results; it is not a new successful investigation episode or pilot evidence.

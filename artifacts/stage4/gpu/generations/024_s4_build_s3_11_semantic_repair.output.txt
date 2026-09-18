@@ -1,0 +1,20 @@
+{
+  "action": "final",
+  "answers": [
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_77a929db89ea2deed5f1",
+      "support": "describe"
+    },
+    {
+      "kind": "peer_comparison",
+      "evidence_id": "s2_3990cccd94e4e7dc26c7",
+      "support": "describe"
+    }
+  ],
+  "conclusion": {
+    "kind": "direction_differs",
+    "scope": "peer",
+    "evidence_ids": ["s2_77a929db89ea2deed5f1", "s2_3990cccd94e4e7dc26c7"]
+  }
+}

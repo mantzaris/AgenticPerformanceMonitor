@@ -1,0 +1,36 @@
+{
+  "action": "final",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s4_build_s3_01",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s4_build_s3_01",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "answers": [
+    {
+      "kind": "personal_change",
+      "evidence_id": "s2_50a050257781ea2cbe4c",
+      "support": "describe"
+    },
+    {
+      "kind": "personal_change",
+      "evidence_id": "s2_8a36c2bebd364bd6ae48",
+      "support": "describe"
+    }
+  ],
+  "conclusion": {
+    "kind": "same_direction",
+    "scope": "peer",
+    "evidence_ids": ["s2_50a050257781ea2cbe4c", "s2_8a36c2bebd364bd6ae48"]
+  }
+}

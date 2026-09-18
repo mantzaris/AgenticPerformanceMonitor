@@ -1,0 +1,435 @@
+[
+  {
+    "action": "analyze",
+    "generation_metadata": {
+      "allocated_bytes": 15243476480,
+      "budget_partition": "construction",
+      "completed_utc": "2026-09-18T21:03:42.946896+00:00",
+      "completion_tokens": 123,
+      "cuda_event_ms": 2993.525390625,
+      "elapsed_seconds": 3.0484037748537958,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 2,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "semantic",
+      "nvidia_smi_own_process": [
+        "89252, /workspace/apm-stage1/.venv/bin/python, 15572"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 15677648384,
+      "phase": "action_1",
+      "process_id": "construction_02",
+      "prompt_tokens": 2142,
+      "question_id": "s4_build_s3_01",
+      "started_utc": "2026-09-18T21:03:39.898466+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"analyze\",\n  \"requests\": [\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s4_build_s3_01\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"recent\"\n    },\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s4_build_s3_01\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"baseline\"\n    }\n  ]\n}",
+    "tool_results": [
+      {
+        "request": {
+          "feature": "clicks_per_eligible_day",
+          "question_id": "s4_build_s3_01",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "recent"
+        },
+        "result": {
+          "assessment_states": [
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_50a050257781ea2cbe4c",
+          "feature": "clicks_per_eligible_day",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity",
+            "zero_recorded_activity"
+          ],
+          "observations": 905,
+          "people": 228,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 2.7857142857142856,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -3.8788116123642435,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.25,
+            "focal_observations": 4,
+            "peer_ci_high": 4.844321741854636,
+            "peer_ci_low": 3.470518744778613,
+            "peer_mean": 4.1288116123642435,
+            "personal_change": -2.5357142857142856,
+            "personal_status": "supported",
+            "recent_mean": 0.25,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "clicks_per_eligible_day",
+          "question_id": "s4_build_s3_01",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "baseline"
+        },
+        "result": {
+          "assessment_states": [
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_27ba3896f0ba85bc9e2e",
+          "feature": "clicks_per_eligible_day",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity",
+            "zero_recorded_activity"
+          ],
+          "observations": 928,
+          "people": 233,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 2.7857142857142856,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -10.259370529327612,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 2.7857142857142856,
+            "focal_observations": 4,
+            "peer_ci_high": 14.483390813406906,
+            "peer_ci_low": 11.75783185162477,
+            "peer_mean": 13.045084815041896,
+            "personal_change": -2.5357142857142856,
+            "personal_status": "supported",
+            "recent_mean": 0.25,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            0,
+            3
+          ]
+        }
+      }
+    ],
+    "turn": 1
+  },
+  {
+    "action": "analyze",
+    "generation_metadata": {
+      "allocated_bytes": 15243514880,
+      "budget_partition": "construction",
+      "completed_utc": "2026-09-18T21:03:46.173229+00:00",
+      "completion_tokens": 113,
+      "cuda_event_ms": 3097.123291015625,
+      "elapsed_seconds": 3.144132051151246,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 3,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "semantic",
+      "nvidia_smi_own_process": [
+        "89252, /workspace/apm-stage1/.venv/bin/python, 15980"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 16001241088,
+      "phase": "action_2",
+      "process_id": "construction_02",
+      "prompt_tokens": 3761,
+      "question_id": "s4_build_s3_01",
+      "started_utc": "2026-09-18T21:03:43.029085+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"analyze\",\n  \"requests\": [\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s4_build_s3_01\",\n      \"feature\": \"active_days\",\n      \"reference\": \"course\",\n      \"window\": \"recent\"\n    },\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s4_build_s3_01\",\n      \"feature\": \"active_days\",\n      \"reference\": \"course\",\n      \"window\": \"baseline\"\n    }\n  ]\n}",
+    "tool_results": [
+      {
+        "request": {
+          "feature": "active_days",
+          "question_id": "s4_build_s3_01",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "recent"
+        },
+        "result": {
+          "assessment_states": [
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_8a36c2bebd364bd6ae48",
+          "feature": "active_days",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity",
+            "zero_recorded_activity"
+          ],
+          "observations": 905,
+          "people": 228,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.25,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -1.4762426900584795,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.5,
+            "focal_observations": 4,
+            "peer_ci_high": 2.1827576754385962,
+            "peer_ci_low": 1.7642543859649122,
+            "peer_mean": 1.9762426900584795,
+            "personal_change": -0.75,
+            "personal_status": "supported",
+            "recent_mean": 0.5,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "days with recorded activity / week",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "active_days",
+          "question_id": "s4_build_s3_01",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "baseline"
+        },
+        "result": {
+          "assessment_states": [
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_b2398e0af51c1b119839",
+          "feature": "active_days",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity",
+            "zero_recorded_activity"
+          ],
+          "observations": 928,
+          "people": 233,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 1.25,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -2.174892703862661,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 1.25,
+            "focal_observations": 4,
+            "peer_ci_high": 3.6583422746781116,
+            "peer_ci_low": 3.224704935622318,
+            "peer_mean": 3.424892703862661,
+            "personal_change": -0.75,
+            "personal_status": "supported",
+            "recent_mean": 0.5,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "days with recorded activity / week",
+          "window": [
+            0,
+            3
+          ]
+        }
+      }
+    ],
+    "turn": 2
+  },
+  {
+    "generation_metadata": {
+      "allocated_bytes": 15243552768,
+      "budget_partition": "construction",
+      "completed_utc": "2026-09-18T21:03:55.110601+00:00",
+      "completion_tokens": 292,
+      "cuda_event_ms": 8806.2041015625,
+      "elapsed_seconds": 8.85305150412023,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 4,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "semantic",
+      "nvidia_smi_own_process": [
+        "89252, /workspace/apm-stage1/.venv/bin/python, 16556"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 16303266816,
+      "phase": "action_3",
+      "process_id": "construction_02",
+      "prompt_tokens": 5265,
+      "question_id": "s4_build_s3_01",
+      "started_utc": "2026-09-18T21:03:46.257528+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"final\",\n  \"requests\": [\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s4_build_s3_01\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"recent\"\n    },\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s4_build_s3_01\",\n      \"feature\": \"active_days\",\n      \"reference\": \"course\",\n      \"window\": \"recent\"\n    }\n  ],\n  \"answers\": [\n    {\n      \"kind\": \"personal_change\",\n      \"evidence_id\": \"s2_50a050257781ea2cbe4c\",\n      \"support\": \"describe\"\n    },\n    {\n      \"kind\": \"personal_change\",\n      \"evidence_id\": \"s2_8a36c2bebd364bd6ae48\",\n      \"support\": \"describe\"\n    }\n  ],\n  \"conclusion\": {\n    \"kind\": \"same_direction\",\n    \"scope\": \"peer\",\n    \"evidence_ids\": [\"s2_50a050257781ea2cbe4c\", \"s2_8a36c2bebd364bd6ae48\"]\n  }\n}",
+    "turn": 3,
+    "validation_error": "ValidationError: 2 validation errors for SemanticAction\nanswers\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'kind': 'personal_chang... 'support': 'describe'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nconclusion\n  Extra inputs are not permitted [type=extra_forbidden, input_value={'kind': 'same_direction'..._8a36c2bebd364bd6ae48']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+  },
+  {
+    "generation_metadata": {
+      "allocated_bytes": 15243564032,
+      "budget_partition": "construction",
+      "completed_utc": "2026-09-18T21:03:59.614787+00:00",
+      "completion_tokens": 146,
+      "cuda_event_ms": 4437.0009765625,
+      "elapsed_seconds": 4.497711049858481,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 5,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "semantic",
+      "nvidia_smi_own_process": [
+        "89252, /workspace/apm-stage1/.venv/bin/python, 17186"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 16399660032,
+      "phase": "repair",
+      "process_id": "construction_02",
+      "prompt_tokens": 5764,
+      "question_id": "s4_build_s3_01",
+      "started_utc": "2026-09-18T21:03:55.117019+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"final\",\n  \"requests\": [],\n  \"answers\": [\n    {\n      \"kind\": \"personal_change\",\n      \"evidence_id\": \"s2_50a050257781ea2cbe4c\",\n      \"support\": \"describe\"\n    },\n    {\n      \"kind\": \"personal_change\",\n      \"evidence_id\": \"s2_8a36c2bebd364bd6ae48\",\n      \"support\": \"describe\"\n    }\n  ],\n  \"conclusion\": {\n    \"kind\": \"descriptive\",\n    \"scope\": \"selected\",\n    \"evidence_ids\": []\n  }\n}",
+    "stopping_decision": "failed final; repair unavailable",
+    "turn": 4,
+    "validation_error": "ValidationError: 2 validation errors for SemanticAction\nanswers\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'kind': 'personal_chang... 'support': 'describe'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden\nconclusion\n  Extra inputs are not permitted [type=extra_forbidden, input_value={'kind': 'descriptive', '...ed', 'evidence_ids': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden"
+  }
+]

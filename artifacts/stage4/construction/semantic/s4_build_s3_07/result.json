@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T21:05:26.824777+00:00",
+  "completion_tokens": 1257,
+  "elapsed_seconds": 30.978696506936103,
+  "error": "ValueError: answers[1].support: this peer_comparison requires describe; do not assert an unsupported estimate or unsupported insufficiency",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "prompt_tokens": 21230,
+  "question_id": "s4_build_s3_07",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T21:04:55.843915+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 6,
+  "tool_calls_executed": 6
+}
