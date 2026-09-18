@@ -1,0 +1,57 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_44a6e51140ec83393819",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20131 (2 observed weeks) to weeks 2\u20133 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_44a6e51140ec83393819",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 14.57; peer mean 7.26; difference 7.31 recorded clicks / eligible day, focal weeks 0\u20131. 1160 distinct peers / 2310 person-weeks; 2 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20131. Peer mean 95% bootstrap interval [6.65, 7.87]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_6b72578e1fda2d4a5c06",
+      "selection_origin": "agent original",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 2\u20133. 911 distinct peers / 1814 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 2\u20133.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_44a6e51140ec83393819": "0cb86b672a7cb2689f40faf43e05bdd0b11cf53f50dd749b704bf7801b66b112",
+    "s2_6b72578e1fda2d4a5c06": "4d1f40ded2fe51c050d91b477d5c128f0eb80b3a4ba22881e6701fcb5469193b"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      1
+    ],
+    "cutoff_day": 27,
+    "recent": [
+      2,
+      3
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

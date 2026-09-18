@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_06b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Describe my recent recorded click rate compared to course peers.",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

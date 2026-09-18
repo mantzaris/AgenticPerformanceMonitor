@@ -1,0 +1,22 @@
+{
+  "executed_utc": "2026-09-18T20:22:00.855057+00:00",
+  "new_evidence_id": "s2_1f233c5b6d33980c50c9",
+  "new_source_bundle_sha256": "d4b9495f700dd0a6c401b84cc4029c736fdae8c661084071435cf5a1fc92e639",
+  "parent_hashes": {
+    "bound.json": "cc6f7e650d1e68292dcc3fe2b8ef20f230092d897ef09d86d27802f87966171a",
+    "evidence.json": "c7a41ed22a9ba725716608de073876823d5945e338e1957a30b8a6852e064974",
+    "question.json": "05f78621df0bf22616e13cbfc988075e563d6ef3d9fa2f1dd120f49832040e61",
+    "spec.json": "6e747f0d26df1740eecf96cac862e35712c2e655ba69aa4a280951b831b5dbf3"
+  },
+  "parent_path": "artifacts/stage3/pilot/baseline/s3_07a/accepted",
+  "parent_question_id": "s3_07a",
+  "request": {
+    "feature": "clicks_per_eligible_day",
+    "question_id": "s3_07a_followup_0171394851",
+    "reference": "early_stage",
+    "tool": "analyze",
+    "window": "recent"
+  },
+  "requested_profile": "standard",
+  "requested_reference": "early_stage"
+}

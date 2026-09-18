@@ -1,0 +1,46 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_07b",
+    "cutoff_day": 27,
+    "evidence_ids": [
+      "s2_1fec5b02e50191e1f65b"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_1fec5b02e50191e1f65b"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_1fec5b02e50191e1f65b"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_1fec5b02e50191e1f65b"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_1fec5b02e50191e1f65b"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "Check the recent click rate compared to course peers.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_4b3837a304f9891dd3d6"]
+    },
+    {
+      "request": "Compare my recent click rate to my earlier history.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_1fec5b02e50191e1f65b"]
+    }
+  ],
+  "stopping_status": "complete"
+}

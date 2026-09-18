@@ -1,0 +1,41 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_06a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_06a",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_06a",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "Recent mean clicks per eligible day compared to course peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_aac0a767f35d26453e48"]
+    },
+    {
+      "request": "Recent weekly means of nonbanked submissions compared to course peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_075b047fc16be852ce70"]
+    },
+    {
+      "request": "Recent weekly means of scheduled assessments without recorded submission compared to course peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_a917baca1a429c306b0f"]
+    }
+  ],
+  "specification": null
+}

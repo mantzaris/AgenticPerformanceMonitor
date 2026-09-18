@@ -1,0 +1,35 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_1122c2cae602544e4ef6"
+      ],
+      "request": "nonbanked_submissions_recent_course",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_ce1cea838c2b1f317c12"
+      ],
+      "request": "scheduled_no_submission_recent_course",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_92201a0c21c955c187c4"
+      ],
+      "request": "nonbanked_submissions_recent_early_stage",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_cddb119b0675a4b19bba"
+      ],
+      "request": "nonbanked_submissions_recent_same_prior_attempt",
+      "status": "answered"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 4
+}

@@ -1,0 +1,184 @@
+{
+  "browser": "153.0.8010.36",
+  "browser_errors": [],
+  "created_utc": "2026-09-18T20:22:02.877132+00:00",
+  "followup": {
+    "checks": [
+      "Actual form POST and redirect",
+      "New deterministic dispatch/evidence/specification/render",
+      "Updated cutoff/reference/window definitions",
+      "Evidence inspector opens",
+      "Original result unchanged"
+    ],
+    "child": "artifacts/stage3/followups/s3_07a_followup_0171394851",
+    "evidence_id": "s2_1f233c5b6d33980c50c9",
+    "parent": "artifacts/stage3/pilot/baseline/s3_07a/accepted",
+    "parent_hashes": {
+      "bound.json": "cc6f7e650d1e68292dcc3fe2b8ef20f230092d897ef09d86d27802f87966171a",
+      "dashboard.html": "b00fdc08a5e0001cbb067c321b5b99dfe7a41504797bc3a9b50723ea9691202d",
+      "evidence.json": "c7a41ed22a9ba725716608de073876823d5945e338e1957a30b8a6852e064974",
+      "question.json": "05f78621df0bf22616e13cbfc988075e563d6ef3d9fa2f1dd120f49832040e61",
+      "spec.json": "6e747f0d26df1740eecf96cac862e35712c2e655ba69aa4a280951b831b5dbf3"
+    },
+    "parent_unchanged": true,
+    "request": {
+      "profile": "standard",
+      "reference": "early_stage"
+    },
+    "status": "insufficient_evidence",
+    "summary": {
+      "baseline_mean": 14.571428571428571,
+      "baseline_observations": 2,
+      "baseline_window": [
+        0,
+        3
+      ],
+      "contrast": null,
+      "focal_eligible_days": 0.0,
+      "focal_mean": null,
+      "focal_observations": 0,
+      "peer_ci_high": 7.501778761288998,
+      "peer_ci_low": 6.379241353653531,
+      "peer_mean": 6.926042350848384,
+      "personal_change": null,
+      "personal_status": "insufficient_evidence",
+      "recent_mean": null,
+      "recent_observations": 0,
+      "recent_window": [
+        8,
+        11
+      ]
+    }
+  },
+  "limitations": [
+    "One desktop Chromium browser; automated inspection and Codex visual review, not independent human scientific/usability review"
+  ],
+  "records": [
+    {
+      "claim_texts": [
+        "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 0.25; peer mean 4.14; difference -3.89 recorded clicks / eligible day, focal weeks 8\u201311. 231 distinct peers / 917 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [3.49, 4.82]; not an individual prediction interval.",
+        "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 2.79 in weeks 0\u20133 (4 observed weeks) to 0.25 in weeks 8\u201311 (4 observed weeks): change -2.54 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval."
+      ],
+      "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+      "method": "baseline",
+      "question_id": "s3_01a",
+      "screenshot": "artifacts/stage3/inspection/baseline_s3_01a.browser.png",
+      "spec": "artifacts/stage3/pilot/baseline/s3_01a/accepted/spec.json",
+      "status": "rendered"
+    },
+    {
+      "claim_texts": [
+        "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 2.79 in weeks 0\u20133 (4 observed weeks) to 0.25 in weeks 8\u201311 (4 observed weeks): change -2.54 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+        "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 2.79; peer mean 13.04; difference -10.25 recorded clicks / eligible day, focal weeks 0\u20133. 237 distinct peers / 944 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [11.82, 14.52]; not an individual prediction interval.",
+        "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 0.25; peer mean 13.04; difference -12.79 recorded clicks / eligible day, focal weeks 8\u201311. 237 distinct peers / 944 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [11.77, 14.36]; not an individual prediction interval.",
+        "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 2.79; peer mean 13.04; difference -10.25 recorded clicks / eligible day, focal weeks 0\u20133. 237 distinct peers / 944 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [11.79, 14.34]; not an individual prediction interval."
+      ],
+      "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+      "method": "coverage_aware",
+      "question_id": "s3_01a",
+      "screenshot": "artifacts/stage3/inspection/coverage_aware_s3_01a.browser.png",
+      "spec": "artifacts/stage3/pilot/coverage_aware/s3_01a/accepted/spec.json",
+      "status": "rendered"
+    },
+    {
+      "claim_texts": [
+        "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 1.14; peer mean 3.45; difference -2.31 recorded clicks / eligible day, focal weeks 8\u201311. 1044 distinct peers / 4108 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [3.06, 3.86]; not an individual prediction interval.",
+        "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 1.14; peer mean 6.93; difference -5.78 recorded clicks / eligible day, focal weeks 8\u201311. 1160 distinct peers / 4568 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [6.42, 7.49]; not an individual prediction interval.",
+        "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 1.14; peer mean 2.43; difference -1.29 recorded clicks / eligible day, focal weeks 8\u201311. 202 distinct peers / 794 person-weeks; 4 observed focal weeks. Reference: BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (repeat_attempt); reference weeks 8\u201311. Peer mean 95% bootstrap interval [1.89, 3.07]; not an individual prediction interval.",
+        "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 7.14 in weeks 0\u20133 (4 observed weeks) to 1.14 in weeks 8\u201311 (4 observed weeks): change -6.00 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval."
+      ],
+      "conclusion": "The selected recent activity contrasts have the same direction across the selected references. Magnitudes can differ. This is not a significance or invariance test.",
+      "method": "baseline",
+      "question_id": "s3_03a",
+      "screenshot": "artifacts/stage3/inspection/baseline_s3_03a.browser.png",
+      "spec": "artifacts/stage3/pilot/baseline/s3_03a/accepted/spec.json",
+      "status": "rendered"
+    },
+    {
+      "failure": {
+        "completed_utc": "2026-09-18T19:40:58.098911+00:00",
+        "completion_tokens": 1410,
+        "elapsed_seconds": 35.70704584708437,
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.",
+        "fallback": false,
+        "first_attempt_valid": false,
+        "generations": 4,
+        "method": "coverage_aware",
+        "prompt_tokens": 24627,
+        "question_id": "s3_03a",
+        "redundant_requests": 3,
+        "repairs": 1,
+        "started_utc": "2026-09-18T19:40:22.389032+00:00",
+        "status": "failed",
+        "subsequent_analysis_after_results": true,
+        "tool_calls_attempted": 6,
+        "tool_calls_executed": 6
+      },
+      "method": "coverage_aware",
+      "question_id": "s3_03a",
+      "status": "no accepted dashboard"
+    },
+    {
+      "claim_texts": [
+        "nonbanked_submissions (non-banked submissions / week): Focal mean 0.25; peer mean 0.06; difference 0.19 non-banked submissions / week, focal weeks 8\u201311. 231 distinct peers / 917 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [0.05, 0.08]; not an individual prediction interval.",
+        "scheduled_no_submission (scheduled assessments without recorded submission / week): Focal mean 0.00; peer mean 0.00; difference 0.00 scheduled assessments without recorded submission / week, focal weeks 8\u201311. 231 distinct peers / 917 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [0.00, 0.00]; not an individual prediction interval.",
+        "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown."
+      ],
+      "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+      "method": "baseline",
+      "question_id": "s3_09a",
+      "screenshot": "artifacts/stage3/inspection/baseline_s3_09a.browser.png",
+      "spec": "artifacts/stage3/pilot/baseline/s3_09a/accepted/spec.json",
+      "status": "rendered"
+    },
+    {
+      "failure": {
+        "completed_utc": "2026-09-18T20:01:36.049898+00:00",
+        "completion_tokens": 2097,
+        "elapsed_seconds": 50.47776018176228,
+        "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.",
+        "fallback": false,
+        "first_attempt_valid": false,
+        "generations": 4,
+        "method": "coverage_aware",
+        "prompt_tokens": 23240,
+        "question_id": "s3_09a",
+        "redundant_requests": 2,
+        "repairs": 1,
+        "started_utc": "2026-09-18T20:00:45.569003+00:00",
+        "status": "failed",
+        "subsequent_analysis_after_results": true,
+        "tool_calls_attempted": 6,
+        "tool_calls_executed": 6
+      },
+      "method": "coverage_aware",
+      "question_id": "s3_09a",
+      "status": "no accepted dashboard"
+    },
+    {
+      "claim_texts": [
+        "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 2\u20133. 1133 distinct peers / 2258 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 2\u20133.",
+        "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20131 (2 observed weeks) to weeks 2\u20133 (0 observed weeks)."
+      ],
+      "conclusion": "At least one selected comparison or personal-history contrast has insufficient observed support. Available descriptive quantities remain visible with their counts.",
+      "method": "baseline",
+      "question_id": "s3_07a",
+      "screenshot": "artifacts/stage3/inspection/baseline_s3_07a.browser.png",
+      "spec": "artifacts/stage3/pilot/baseline/s3_07a/accepted/spec.json",
+      "status": "rendered"
+    },
+    {
+      "claim_texts": [
+        "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 14.57; peer mean 7.26; difference 7.31 recorded clicks / eligible day, focal weeks 0\u20131. 1160 distinct peers / 2310 person-weeks; 2 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20131. Peer mean 95% bootstrap interval [6.65, 7.87]; not an individual prediction interval."
+      ],
+      "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+      "method": "coverage_aware",
+      "question_id": "s3_07a",
+      "screenshot": "artifacts/stage3/inspection/coverage_aware_s3_07a.browser.png",
+      "spec": "artifacts/stage3/pilot/coverage_aware/s3_07a/accepted/spec.json",
+      "status": "rendered"
+    }
+  ],
+  "selection_rule": "First case in each predeclared family, phrasing a, baseline and proposed when accepted; failures retained.",
+  "status": "PASS"
+}

@@ -1,0 +1,22 @@
+{
+  "allocated_bytes": 15243584000,
+  "budget_partition": "pilot",
+  "completed_utc": "2026-09-18T19:35:10.387955+00:00",
+  "completion_tokens": 537,
+  "cuda_event_ms": 12580.1044921875,
+  "elapsed_seconds": 12.645345594733953,
+  "generation": 38,
+  "input_device": "cuda:0",
+  "method": "reference_sensitive",
+  "nvidia_smi_own_process": [
+    "63822, /workspace/apm-stage1/.venv/bin/python, 17928"
+  ],
+  "output_device": "cuda:0",
+  "peak_allocated_bytes": 16539190784,
+  "phase": "repair",
+  "process_id": "pilot_03",
+  "prompt_tokens": 6465,
+  "question_id": "s3_01a",
+  "started_utc": "2026-09-18T19:34:57.742596+00:00",
+  "status": "completed"
+}

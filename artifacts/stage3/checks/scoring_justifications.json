@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-18T19:37:46.575848+00:00",
+  "external_human_review": "Outstanding",
+  "freeze_sha256": "1dbf2314800a51cdad919266ae54c6d41b732012d5c5a3248788f2157a787d7a",
+  "optional_items": "Personal history for peer-only questions, additional evidence records and repeated panels receive no requested-answer bonus.",
+  "purpose": "Review index for existing frozen scoring rules; does not alter scores, requirements, prompts or code.",
+  "required_answer_items": "Each item in evaluator_only/rubrics.json includes its wording/shared-interpretation justification; both phrasings share identical items.",
+  "required_context": {
+    "logging_and_measurement_caveats_visible": {
+      "basis": "Public interpretation rules require unknown logging, withheld release-time grades, and descriptive/noncausal interpretation. The renderer supplies these standard caveats equally; this flag does not credit the method with investigating them.",
+      "source": "docs/stage3/PUBLIC_INTERPRETATION.md"
+    },
+    "observation_status_visible": {
+      "basis": "The common public Action instructions require an observation_status panel; administrative eligibility and recorded activity must remain distinguishable.",
+      "source": "configs/stage3_prompts.json:common"
+    },
+    "source_validated_units_windows_counts_intervals": {
+      "basis": "Shared public rules require exact units, named windows/references, distinct people/contributing weeks and correct peer-mean interval labels. The common source integrity validator checks these independently.",
+      "source": "docs/stage3/PUBLIC_INTERPRETATION.md"
+    }
+  },
+  "semantic_review_limits": [
+    "Historical broad activity wording does not identify one uniquely correct estimand. The revised interpretation is disclosed and provisional.",
+    "Supported comparison charts are accepted visual answer forms; external reviewers should judge whether numeric text should also be required.",
+    "Model-authored request maps and stopping claims are observable process records, not trusted gold coverage judgments.",
+    "The intervention combines task-state tracking with public phase reminders; this pilot cannot isolate their separate effects."
+  ]
+}

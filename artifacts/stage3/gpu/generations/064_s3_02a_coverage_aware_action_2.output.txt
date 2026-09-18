@@ -1,0 +1,30 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_02a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_02a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "s3_02a: How has my recorded click rate changed from earlier weeks to recent weeks compared to course peers?",
+      "status": "answered",
+      "evidence_ids": ["s2_7aa117255b147407dea9"]
+    },
+    {
+      "request": "s3_02a: How has my recorded click rate changed from earlier weeks to recent weeks compared to peers with the same prior attempt?",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

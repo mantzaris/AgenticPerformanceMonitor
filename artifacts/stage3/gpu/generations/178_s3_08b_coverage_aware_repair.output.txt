@@ -1,0 +1,48 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_08b",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_53c1ecbf741e61ef9e2b"
+    ],
+    "claims": [
+      {
+        "template": "comparison",
+        "evidence_id": "s2_53c1ecbf741e61ef9e2b"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_53c1ecbf741e61ef9e2b"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_53c1ecbf741e61ef9e2b"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "recent versus course peers",
+      "status": "insufficient_evidence"
+    },
+    {
+      "request": "earlier versus recent personal change",
+      "status": "insufficient_evidence"
+    },
+    {
+      "request": "recent versus early stage peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "earlier versus early stage peers",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "complete"
+}

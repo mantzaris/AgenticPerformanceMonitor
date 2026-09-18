@@ -1,0 +1,20 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_10a",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_10a",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [],
+  "stopping_status": "continue"
+}

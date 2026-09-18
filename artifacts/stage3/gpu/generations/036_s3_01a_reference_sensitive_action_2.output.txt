@@ -1,0 +1,20 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_01a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_01a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [],
+  "stopping_status": "continue"
+}

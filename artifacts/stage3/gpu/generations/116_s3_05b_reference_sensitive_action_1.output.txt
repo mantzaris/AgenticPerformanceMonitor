@@ -1,0 +1,26 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_05b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_05b",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_05b",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [],
+  "stopping_status": "continue"
+}

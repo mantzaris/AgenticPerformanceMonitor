@@ -1,0 +1,47 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_2156f68674f5aab6297e",
+      "template": "comparison"
+    },
+    {
+      "evidence_id": "s2_da518c2c273596763dce",
+      "template": "comparison"
+    },
+    {
+      "evidence_id": "s2_a5e4ebebf3e8cf97bfff",
+      "template": "comparison"
+    }
+  ],
+  "conclusion": "same_direction",
+  "cutoff_day": 83,
+  "evidence_ids": [
+    "s2_2156f68674f5aab6297e",
+    "s2_da518c2c273596763dce",
+    "s2_a5e4ebebf3e8cf97bfff"
+  ],
+  "followups": [],
+  "panels": [
+    {
+      "evidence_id": "s2_2156f68674f5aab6297e",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_da518c2c273596763dce",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_a5e4ebebf3e8cf97bfff",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_2156f68674f5aab6297e",
+      "kind": "observation_status"
+    },
+    {
+      "evidence_id": "s2_2156f68674f5aab6297e",
+      "kind": "trajectory"
+    }
+  ],
+  "question_id": "s3_03a"
+}

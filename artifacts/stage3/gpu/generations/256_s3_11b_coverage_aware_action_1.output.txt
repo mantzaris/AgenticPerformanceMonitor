@@ -1,0 +1,99 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "comparison"
+    },
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "comparison"
+    },
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_11b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "comparison"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "personal_change for clicks_per_eligible_day in recent weeks 4\u20137",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in baseline weeks 0\u20133",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison for clicks_per_eligible_day between recent and baseline weeks",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in recent weeks 4\u20137 compared to same_prior_attempt peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in baseline weeks 0\u20133 compared to same_prior_attempt peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison for clicks_per_eligible_day between recent and baseline weeks for same_prior_attempt peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in recent weeks 4\u20137 compared to early_stage peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in baseline weeks 0\u20133 compared to early_stage peers",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison for clicks_per_eligible_day between recent and baseline weeks for early_stage peers",
+      "status": "uninvestigated"
+    }
+  ],
+  "specification": null,
+  "stopping_status": "continue"
+}

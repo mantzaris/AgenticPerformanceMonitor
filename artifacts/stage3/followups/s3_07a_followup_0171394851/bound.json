@@ -1,0 +1,70 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_1f233c5b6d33980c50c9",
+      "selection_origin": "deterministic follow-up requested by local user",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 8\u201311. 1160 distinct peers / 4568 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_1f233c5b6d33980c50c9",
+      "selection_origin": "deterministic follow-up requested by local user",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20133 (2 observed weeks) to weeks 8\u201311 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "At least one selected comparison or personal-history contrast has insufficient observed support. Available descriptive quantities remain visible with their counts.",
+  "evidence_hashes": {
+    "s2_1f233c5b6d33980c50c9": "137a5fb5019677b7e9b5c8c7f6df0c0f7294aeb30440392db7decb5941d95b83"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": {
+    "executed_utc": "2026-09-18T20:22:00.855057+00:00",
+    "new_evidence_id": "s2_1f233c5b6d33980c50c9",
+    "new_source_bundle_sha256": "d4b9495f700dd0a6c401b84cc4029c736fdae8c661084071435cf5a1fc92e639",
+    "parent_hashes": {
+      "bound.json": "cc6f7e650d1e68292dcc3fe2b8ef20f230092d897ef09d86d27802f87966171a",
+      "evidence.json": "c7a41ed22a9ba725716608de073876823d5945e338e1957a30b8a6852e064974",
+      "question.json": "05f78621df0bf22616e13cbfc988075e563d6ef3d9fa2f1dd120f49832040e61",
+      "spec.json": "6e747f0d26df1740eecf96cac862e35712c2e655ba69aa4a280951b831b5dbf3"
+    },
+    "parent_path": "artifacts/stage3/pilot/baseline/s3_07a/accepted",
+    "parent_question_id": "s3_07a",
+    "request": {
+      "feature": "clicks_per_eligible_day",
+      "question_id": "s3_07a_followup_0171394851",
+      "reference": "early_stage",
+      "tool": "analyze",
+      "window": "recent"
+    },
+    "requested_profile": "standard",
+    "requested_reference": "early_stage"
+  },
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "deterministic follow-up requested by local user",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

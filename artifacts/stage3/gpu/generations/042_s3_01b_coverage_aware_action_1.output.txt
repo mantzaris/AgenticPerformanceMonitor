@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_01b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Compare my recent mean clicks per eligible day with the mean for other development people in this presentation.",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

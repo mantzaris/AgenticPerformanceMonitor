@@ -1,0 +1,1760 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "background": "#fbfaf7",
+    "font": "sans-serif",
+    "title": {
+      "anchor": "start",
+      "color": "#142e38",
+      "fontSize": 17,
+      "subtitleFontSize": 11
+    },
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300,
+      "stroke": null
+    }
+  },
+  "datasets": {
+    "data-1780de9d693d314b144a5803b7844742": [
+      {
+        "end_day": 6,
+        "focal_value": 4.857142857142857,
+        "peer_ci_high": 8.818425674842844,
+        "peer_ci_low": 7.389053062985333,
+        "peer_mean": 8.100271169727598,
+        "peer_observations": 1159,
+        "peer_people": 1159,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 5.285714285714286,
+        "peer_ci_high": 7.094423534400728,
+        "peer_ci_low": 5.896967492035911,
+        "peer_mean": 6.456319556493319,
+        "peer_observations": 1151,
+        "peer_people": 1151,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 8.285714285714286,
+        "peer_ci_high": 8.582989219518346,
+        "peer_ci_low": 7.2383770962047675,
+        "peer_mean": 7.818675660908672,
+        "peer_observations": 1133,
+        "peer_people": 1133,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 6.714285714285714,
+        "peer_ci_high": 6.4095015873015875,
+        "peer_ci_low": 4.851230158730158,
+        "peer_mean": 5.607936507936508,
+        "peer_observations": 1125,
+        "peer_people": 1125,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 13.428571428571429,
+        "peer_ci_high": 6.7100205707282905,
+        "peer_ci_low": 5.233493084733893,
+        "peer_mean": 5.953825280112045,
+        "peer_observations": 1088,
+        "peer_people": 1088,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 2.5714285714285716,
+        "peer_ci_high": 5.955348883309105,
+        "peer_ci_low": 4.690527950310559,
+        "peer_mean": 5.310162547905378,
+        "peer_observations": 1081,
+        "peer_people": 1081,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 5.714285714285714,
+        "peer_ci_high": 7.877494993324432,
+        "peer_ci_low": 6.335349354695149,
+        "peer_mean": 7.064641744548287,
+        "peer_observations": 1070,
+        "peer_people": 1070,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 1.8571428571428572,
+        "peer_ci_high": 6.899474789915966,
+        "peer_ci_low": 5.497750067769043,
+        "peer_mean": 6.159934941718624,
+        "peer_observations": 1054,
+        "peer_people": 1054,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 3.936925287356322,
+        "peer_ci_low": 3.019570847016968,
+        "peer_mean": 3.4832170224411607,
+        "peer_observations": 1044,
+        "peer_people": 1044,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 0.8571428571428571,
+        "peer_ci_high": 3.38937091389623,
+        "peer_ci_low": 2.5470736541939076,
+        "peer_mean": 2.943316177493393,
+        "peer_observations": 1027,
+        "peer_people": 1027,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 4.086206333659811,
+        "peer_ci_low": 3.178790051769974,
+        "peer_mean": 3.609463178023413,
+        "peer_observations": 1021,
+        "peer_people": 1021,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": 4.714285714285714,
+        "peer_ci_high": 4.513225299962505,
+        "peer_ci_low": 3.5397356580427446,
+        "peer_mean": 3.9891966629171356,
+        "peer_observations": 1016,
+        "peer_people": 1016,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 11
+      }
+    ],
+    "data-3efce100d0aa5ae0888daa3e29f0aad8": [
+      {
+        "eligible_days": 7.0,
+        "end_day": 6,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 0,
+        "value": 4.857142857142857,
+        "week": 0
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 13,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 7,
+        "value": 5.285714285714286,
+        "week": 1
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 20,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 14,
+        "value": 8.285714285714286,
+        "week": 2
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 27,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 21,
+        "value": 6.714285714285714,
+        "week": 3
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 34,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 28,
+        "value": 13.428571428571429,
+        "week": 4
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 41,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 35,
+        "value": 2.5714285714285716,
+        "week": 5
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 48,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 42,
+        "value": 5.714285714285714,
+        "week": 6
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 55,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 49,
+        "value": 1.8571428571428572,
+        "week": 7
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 62,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 56,
+        "value": 1.1428571428571428,
+        "week": 8
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 69,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 63,
+        "value": 0.8571428571428571,
+        "week": 9
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 76,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 70,
+        "value": 1.1428571428571428,
+        "week": 10
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 83,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "row": "Administrative / recorded state",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 77,
+        "value": 4.714285714285714,
+        "week": 11
+      }
+    ],
+    "data-aa02a62adf71e54dfb645a2ba3e35f07": [
+      {
+        "end_day": 6,
+        "focal_value": 4.857142857142857,
+        "peer_ci_high": 8.918162208800691,
+        "peer_ci_low": 7.404010538641686,
+        "peer_mean": 8.100271169727598,
+        "peer_observations": 1159,
+        "peer_people": 1159,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 5.285714285714286,
+        "peer_ci_high": 7.180945451160482,
+        "peer_ci_low": 5.8955326113938185,
+        "peer_mean": 6.456319556493319,
+        "peer_observations": 1151,
+        "peer_people": 1151,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 8.285714285714286,
+        "peer_ci_high": 8.433127390408943,
+        "peer_ci_low": 7.198519785230951,
+        "peer_mean": 7.818675660908672,
+        "peer_observations": 1133,
+        "peer_people": 1133,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 6.714285714285714,
+        "peer_ci_high": 6.486684126984127,
+        "peer_ci_low": 4.856252380952381,
+        "peer_mean": 5.607936507936508,
+        "peer_observations": 1125,
+        "peer_people": 1125,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 13.428571428571429,
+        "peer_ci_high": 6.768913033963585,
+        "peer_ci_low": 5.251097470238095,
+        "peer_mean": 5.953825280112045,
+        "peer_observations": 1088,
+        "peer_people": 1088,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 2.5714285714285716,
+        "peer_ci_high": 5.992873661953218,
+        "peer_ci_low": 4.74332958900489,
+        "peer_mean": 5.310162547905378,
+        "peer_observations": 1081,
+        "peer_people": 1081,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 5.714285714285714,
+        "peer_ci_high": 7.910955996884736,
+        "peer_ci_low": 6.291576824655096,
+        "peer_mean": 7.064641744548287,
+        "peer_observations": 1070,
+        "peer_people": 1070,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 1.8571428571428572,
+        "peer_ci_high": 6.8350535375440495,
+        "peer_ci_low": 5.441735565193819,
+        "peer_mean": 6.159934941718624,
+        "peer_observations": 1054,
+        "peer_people": 1054,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 3.9344492337164754,
+        "peer_ci_low": 3.008134749589491,
+        "peer_mean": 3.4832170224411607,
+        "peer_observations": 1044,
+        "peer_people": 1044,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 0.8571428571428571,
+        "peer_ci_high": 3.382266309639727,
+        "peer_ci_low": 2.5934726665739327,
+        "peer_mean": 2.943316177493393,
+        "peer_observations": 1027,
+        "peer_people": 1027,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 4.079375378946877,
+        "peer_ci_low": 3.194660346998741,
+        "peer_mean": 3.609463178023413,
+        "peer_observations": 1021,
+        "peer_people": 1021,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": 4.714285714285714,
+        "peer_ci_high": 4.505948865766779,
+        "peer_ci_low": 3.486345261529809,
+        "peer_mean": 3.9891966629171356,
+        "peer_observations": 1016,
+        "peer_people": 1016,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 11
+      }
+    ],
+    "data-c176db2f0d0cfe8538ff2bd210405009": [
+      {
+        "end_day": 6,
+        "focal_value": 4.857142857142857,
+        "peer_ci_high": 8.860916122272895,
+        "peer_ci_low": 7.4095803032170595,
+        "peer_mean": 8.100271169727598,
+        "peer_observations": 1159,
+        "peer_people": 1159,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 5.285714285714286,
+        "peer_ci_high": 7.026319246204128,
+        "peer_ci_low": 5.873657223532332,
+        "peer_mean": 6.456319556493319,
+        "peer_observations": 1151,
+        "peer_people": 1151,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 8.285714285714286,
+        "peer_ci_high": 8.512825463371579,
+        "peer_ci_low": 7.182221399151011,
+        "peer_mean": 7.818675660908672,
+        "peer_observations": 1133,
+        "peer_people": 1133,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 6.714285714285714,
+        "peer_ci_high": 6.519025396825396,
+        "peer_ci_low": 4.898352380952381,
+        "peer_mean": 5.607936507936508,
+        "peer_observations": 1125,
+        "peer_people": 1125,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 13.428571428571429,
+        "peer_ci_high": 6.739592086834734,
+        "peer_ci_low": 5.278604254201681,
+        "peer_mean": 5.953825280112045,
+        "peer_observations": 1088,
+        "peer_people": 1088,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 2.5714285714285716,
+        "peer_ci_high": 5.9963889255979925,
+        "peer_ci_low": 4.666178802695917,
+        "peer_mean": 5.310162547905378,
+        "peer_observations": 1081,
+        "peer_people": 1081,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 5.714285714285714,
+        "peer_ci_high": 7.917259401424121,
+        "peer_ci_low": 6.379526869158879,
+        "peer_mean": 7.064641744548287,
+        "peer_observations": 1070,
+        "peer_people": 1070,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 1.8571428571428572,
+        "peer_ci_high": 6.890786798590404,
+        "peer_ci_low": 5.430936568175658,
+        "peer_mean": 6.159934941718624,
+        "peer_observations": 1054,
+        "peer_people": 1054,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 3.9835929802955663,
+        "peer_ci_low": 2.995877463054187,
+        "peer_mean": 3.4832170224411607,
+        "peer_observations": 1044,
+        "peer_people": 1044,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 0.8571428571428571,
+        "peer_ci_high": 3.3598918486576714,
+        "peer_ci_low": 2.549116706078731,
+        "peer_mean": 2.943316177493393,
+        "peer_observations": 1027,
+        "peer_people": 1027,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 4.0461673895807095,
+        "peer_ci_low": 3.1482183666806587,
+        "peer_mean": 3.609463178023413,
+        "peer_observations": 1021,
+        "peer_people": 1021,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": 4.714285714285714,
+        "peer_ci_high": 4.583072037870266,
+        "peer_ci_low": 3.51181629640045,
+        "peer_mean": 3.9891966629171356,
+        "peer_observations": 1016,
+        "peer_people": 1016,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 11
+      }
+    ],
+    "data-c990854f1ab63be10393a734ed249d41": [
+      {
+        "end_day": 6,
+        "focal_value": 4.857142857142857,
+        "peer_ci_high": 9.19899637848667,
+        "peer_ci_low": 7.538750192633688,
+        "peer_mean": 8.40044691015565,
+        "peer_observations": 927,
+        "peer_people": 927,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 5.285714285714286,
+        "peer_ci_high": 7.4962133947939265,
+        "peer_ci_low": 6.062262744034707,
+        "peer_mean": 6.7599008366904245,
+        "peer_observations": 922,
+        "peer_people": 922,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 8.285714285714286,
+        "peer_ci_high": 8.941734945899325,
+        "peer_ci_low": 7.421013995609221,
+        "peer_mean": 8.164797971878103,
+        "peer_observations": 911,
+        "peer_people": 911,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 6.714285714285714,
+        "peer_ci_high": 7.030914807783578,
+        "peer_ci_low": 5.064574434424933,
+        "peer_mean": 6.0064072140484095,
+        "peer_observations": 903,
+        "peer_people": 903,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 13.428571428571429,
+        "peer_ci_high": 7.38151621887287,
+        "peer_ci_low": 5.525434141546526,
+        "peer_mean": 6.41426387068589,
+        "peer_observations": 872,
+        "peer_people": 872,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 2.5714285714285716,
+        "peer_ci_high": 6.493326201448321,
+        "peer_ci_low": 4.90135780118499,
+        "peer_mean": 5.69980250164582,
+        "peer_observations": 868,
+        "peer_people": 868,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 5.714285714285714,
+        "peer_ci_high": 8.448704786792765,
+        "peer_ci_low": 6.699801932968309,
+        "peer_mean": 7.525206017366296,
+        "peer_observations": 861,
+        "peer_people": 861,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 1.8571428571428572,
+        "peer_ci_high": 7.193596638655462,
+        "peer_ci_low": 5.61477731092437,
+        "peer_mean": 6.395294117647059,
+        "peer_observations": 850,
+        "peer_people": 850,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 4.308801323379709,
+        "peer_ci_low": 3.2197192059721753,
+        "peer_mean": 3.7276467594163556,
+        "peer_observations": 842,
+        "peer_people": 842,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 0.8571428571428571,
+        "peer_ci_high": 3.6230676328502414,
+        "peer_ci_low": 2.6641778812974466,
+        "peer_mean": 3.135093167701863,
+        "peer_observations": 828,
+        "peer_people": 828,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 4.383305883032825,
+        "peer_ci_low": 3.3784457350901524,
+        "peer_mean": 3.877224919093851,
+        "peer_observations": 824,
+        "peer_people": 824,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": 4.714285714285714,
+        "peer_ci_high": 4.946091753774681,
+        "peer_ci_low": 3.689462108013937,
+        "peer_mean": 4.28069105691057,
+        "peer_observations": 820,
+        "peer_people": 820,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 11
+      }
+    ],
+    "data-c9f1d3f8e27481f265d0f4f7212e7e26": [
+      {
+        "end_day": 6,
+        "focal_value": 4.857142857142857,
+        "peer_ci_high": 8.870131270799952,
+        "peer_ci_low": 7.339319610501665,
+        "peer_mean": 8.100271169727598,
+        "peer_observations": 1159,
+        "peer_people": 1159,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 5.285714285714286,
+        "peer_ci_high": 7.085594358942535,
+        "peer_ci_low": 5.796574924496298,
+        "peer_mean": 6.456319556493319,
+        "peer_observations": 1151,
+        "peer_people": 1151,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 8.285714285714286,
+        "peer_ci_high": 8.459350964569412,
+        "peer_ci_low": 7.1756808725255325,
+        "peer_mean": 7.818675660908672,
+        "peer_observations": 1133,
+        "peer_people": 1133,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 6.714285714285714,
+        "peer_ci_high": 6.356001587301587,
+        "peer_ci_low": 4.862982539682539,
+        "peer_mean": 5.607936507936508,
+        "peer_observations": 1125,
+        "peer_people": 1125,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 13.428571428571429,
+        "peer_ci_high": 6.744494047619047,
+        "peer_ci_low": 5.281590292366947,
+        "peer_mean": 5.953825280112045,
+        "peer_observations": 1088,
+        "peer_people": 1088,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 2.5714285714285716,
+        "peer_ci_high": 5.940306594423153,
+        "peer_ci_low": 4.721646623496762,
+        "peer_mean": 5.310162547905378,
+        "peer_observations": 1081,
+        "peer_people": 1081,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 5.714285714285714,
+        "peer_ci_high": 7.768236815754339,
+        "peer_ci_low": 6.314762739207833,
+        "peer_mean": 7.064641744548287,
+        "peer_observations": 1070,
+        "peer_people": 1070,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 1.8571428571428572,
+        "peer_ci_high": 6.812954052588777,
+        "peer_ci_low": 5.51826375711575,
+        "peer_mean": 6.159934941718624,
+        "peer_observations": 1054,
+        "peer_people": 1054,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 3.9668154761904755,
+        "peer_ci_low": 2.9969398262178433,
+        "peer_mean": 3.4832170224411607,
+        "peer_observations": 1044,
+        "peer_people": 1044,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 0.8571428571428571,
+        "peer_ci_high": 3.3707834886632355,
+        "peer_ci_low": 2.5572176241480036,
+        "peer_mean": 2.943316177493393,
+        "peer_observations": 1027,
+        "peer_people": 1027,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 4.044763537148454,
+        "peer_ci_low": 3.185709038757521,
+        "peer_mean": 3.609463178023413,
+        "peer_observations": 1021,
+        "peer_people": 1021,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": 4.714285714285714,
+        "peer_ci_high": 4.48531765560555,
+        "peer_ci_low": 3.484372070678665,
+        "peer_mean": 3.9891966629171356,
+        "peer_observations": 1016,
+        "peer_people": 1016,
+        "reference": "early_stage",
+        "unit": "recorded clicks / eligible day",
+        "week": 11
+      }
+    ],
+    "data-feaa5248bc4803630d331f725ad17b03": [
+      {
+        "end_day": 6,
+        "focal_value": 4.857142857142857,
+        "peer_ci_high": 9.327876020958545,
+        "peer_ci_low": 7.68104099244876,
+        "peer_mean": 8.40044691015565,
+        "peer_observations": 927,
+        "peer_people": 927,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 5.285714285714286,
+        "peer_ci_high": 7.5845159978308025,
+        "peer_ci_low": 6.024635497365975,
+        "peer_mean": 6.7599008366904245,
+        "peer_observations": 922,
+        "peer_people": 922,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 8.285714285714286,
+        "peer_ci_high": 8.987679682191207,
+        "peer_ci_low": 7.447313914588888,
+        "peer_mean": 8.164797971878103,
+        "peer_observations": 911,
+        "peer_people": 911,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 6.714285714285714,
+        "peer_ci_high": 7.1251779781680105,
+        "peer_ci_low": 5.1566880240468285,
+        "peer_mean": 6.0064072140484095,
+        "peer_observations": 903,
+        "peer_people": 903,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 13.428571428571429,
+        "peer_ci_high": 7.281695063346438,
+        "peer_ci_low": 5.553062199650502,
+        "peer_mean": 6.41426387068589,
+        "peer_observations": 872,
+        "peer_people": 872,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 2.5714285714285716,
+        "peer_ci_high": 6.494136767610269,
+        "peer_ci_low": 4.894902073732719,
+        "peer_mean": 5.69980250164582,
+        "peer_observations": 868,
+        "peer_people": 868,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 5.714285714285714,
+        "peer_ci_high": 8.35612383164648,
+        "peer_ci_low": 6.620547466954261,
+        "peer_mean": 7.525206017366296,
+        "peer_observations": 861,
+        "peer_people": 861,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 1.8571428571428572,
+        "peer_ci_high": 7.303651260504202,
+        "peer_ci_low": 5.584029411764706,
+        "peer_mean": 6.395294117647059,
+        "peer_observations": 850,
+        "peer_people": 850,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 4.338900788937902,
+        "peer_ci_low": 3.1542606888361044,
+        "peer_mean": 3.7276467594163556,
+        "peer_observations": 842,
+        "peer_people": 842,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 0.8571428571428571,
+        "peer_ci_high": 3.5726233609385782,
+        "peer_ci_low": 2.726686507936508,
+        "peer_mean": 3.135093167701863,
+        "peer_observations": 828,
+        "peer_people": 828,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": 1.1428571428571428,
+        "peer_ci_high": 4.451126907073509,
+        "peer_ci_low": 3.4050169036061027,
+        "peer_mean": 3.877224919093851,
+        "peer_observations": 824,
+        "peer_people": 824,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": 4.714285714285714,
+        "peer_ci_high": 4.921439459930314,
+        "peer_ci_low": 3.67645325203252,
+        "peer_mean": 4.28069105691057,
+        "peer_observations": 820,
+        "peer_people": 820,
+        "reference": "same_prior_attempt",
+        "unit": "recorded clicks / eligible day",
+        "week": 11
+      }
+    ]
+  },
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "spacing": 28,
+  "vconcat": [
+    {
+      "data": {
+        "name": "data-c176db2f0d0cfe8538ff2bd210405009"
+      },
+      "height": 190,
+      "layer": [
+        {
+          "encoding": {
+            "x": {
+              "axis": {
+                "tickMinStep": 1
+              },
+              "field": "week",
+              "title": "Week since presentation start",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_ci_low",
+              "scale": {
+                "zero": true
+              },
+              "title": "recorded clicks / eligible day",
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "peer_ci_high"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "opacity": 0.16,
+            "type": "area"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_mean",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_people",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_observations",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_mean",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "strokeWidth": 2,
+            "type": "line"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "focal_value",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "focal_value",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#b64c35",
+            "point": {
+              "color": "#b64c35"
+            },
+            "strokeWidth": 2.5,
+            "type": "line"
+          }
+        }
+      ],
+      "title": {
+        "subtitle": [
+          "Rust: focal student \u00b7 teal: same-week peers; band: 95% peer-mean bootstrap interval",
+          "Individual prediction uncertainty is not estimated."
+        ],
+        "text": "Clicks per eligible day"
+      },
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-1780de9d693d314b144a5803b7844742"
+      },
+      "height": 190,
+      "layer": [
+        {
+          "encoding": {
+            "x": {
+              "axis": {
+                "tickMinStep": 1
+              },
+              "field": "week",
+              "title": "Week since presentation start",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_ci_low",
+              "scale": {
+                "zero": true
+              },
+              "title": "recorded clicks / eligible day",
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "peer_ci_high"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "opacity": 0.16,
+            "type": "area"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_mean",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_people",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_observations",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_mean",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "strokeWidth": 2,
+            "type": "line"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "focal_value",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "focal_value",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#b64c35",
+            "point": {
+              "color": "#b64c35"
+            },
+            "strokeWidth": 2.5,
+            "type": "line"
+          }
+        }
+      ],
+      "title": {
+        "subtitle": [
+          "Rust: focal student \u00b7 teal: same-week peers; band: 95% peer-mean bootstrap interval",
+          "Individual prediction uncertainty is not estimated."
+        ],
+        "text": "Clicks per eligible day"
+      },
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-c990854f1ab63be10393a734ed249d41"
+      },
+      "height": 190,
+      "layer": [
+        {
+          "encoding": {
+            "x": {
+              "axis": {
+                "tickMinStep": 1
+              },
+              "field": "week",
+              "title": "Week since presentation start",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_ci_low",
+              "scale": {
+                "zero": true
+              },
+              "title": "recorded clicks / eligible day",
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "peer_ci_high"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "opacity": 0.16,
+            "type": "area"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_mean",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_people",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_observations",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_mean",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "strokeWidth": 2,
+            "type": "line"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "focal_value",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "focal_value",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#b64c35",
+            "point": {
+              "color": "#b64c35"
+            },
+            "strokeWidth": 2.5,
+            "type": "line"
+          }
+        }
+      ],
+      "title": {
+        "subtitle": [
+          "Rust: focal student \u00b7 teal: same-week peers; band: 95% peer-mean bootstrap interval",
+          "Individual prediction uncertainty is not estimated."
+        ],
+        "text": "Clicks per eligible day"
+      },
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-feaa5248bc4803630d331f725ad17b03"
+      },
+      "height": 190,
+      "layer": [
+        {
+          "encoding": {
+            "x": {
+              "axis": {
+                "tickMinStep": 1
+              },
+              "field": "week",
+              "title": "Week since presentation start",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_ci_low",
+              "scale": {
+                "zero": true
+              },
+              "title": "recorded clicks / eligible day",
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "peer_ci_high"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "opacity": 0.16,
+            "type": "area"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_mean",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_people",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_observations",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_mean",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "strokeWidth": 2,
+            "type": "line"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "focal_value",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "focal_value",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#b64c35",
+            "point": {
+              "color": "#b64c35"
+            },
+            "strokeWidth": 2.5,
+            "type": "line"
+          }
+        }
+      ],
+      "title": {
+        "subtitle": [
+          "Rust: focal student \u00b7 teal: same-week peers; band: 95% peer-mean bootstrap interval",
+          "Individual prediction uncertainty is not estimated."
+        ],
+        "text": "Clicks per eligible day"
+      },
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-c9f1d3f8e27481f265d0f4f7212e7e26"
+      },
+      "height": 190,
+      "layer": [
+        {
+          "encoding": {
+            "x": {
+              "axis": {
+                "tickMinStep": 1
+              },
+              "field": "week",
+              "title": "Week since presentation start",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_ci_low",
+              "scale": {
+                "zero": true
+              },
+              "title": "recorded clicks / eligible day",
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "peer_ci_high"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "opacity": 0.16,
+            "type": "area"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_mean",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_people",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_observations",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_mean",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "strokeWidth": 2,
+            "type": "line"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "focal_value",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "focal_value",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#b64c35",
+            "point": {
+              "color": "#b64c35"
+            },
+            "strokeWidth": 2.5,
+            "type": "line"
+          }
+        }
+      ],
+      "title": {
+        "subtitle": [
+          "Rust: focal student \u00b7 teal: same-week peers; band: 95% peer-mean bootstrap interval",
+          "Individual prediction uncertainty is not estimated."
+        ],
+        "text": "Clicks per eligible day"
+      },
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-aa02a62adf71e54dfb645a2ba3e35f07"
+      },
+      "height": 190,
+      "layer": [
+        {
+          "encoding": {
+            "x": {
+              "axis": {
+                "tickMinStep": 1
+              },
+              "field": "week",
+              "title": "Week since presentation start",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_ci_low",
+              "scale": {
+                "zero": true
+              },
+              "title": "recorded clicks / eligible day",
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "peer_ci_high"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "opacity": 0.16,
+            "type": "area"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_mean",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_people",
+                "type": "quantitative"
+              },
+              {
+                "field": "peer_observations",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "peer_mean",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#286f83",
+            "strokeWidth": 2,
+            "type": "line"
+          }
+        },
+        {
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "week",
+                "type": "quantitative"
+              },
+              {
+                "field": "focal_value",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "field": "week",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "focal_value",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "#b64c35",
+            "point": {
+              "color": "#b64c35"
+            },
+            "strokeWidth": 2.5,
+            "type": "line"
+          }
+        }
+      ],
+      "title": {
+        "subtitle": [
+          "Rust: focal student \u00b7 teal: same-week peers; band: 95% peer-mean bootstrap interval",
+          "Individual prediction uncertainty is not estimated."
+        ],
+        "text": "Clicks per eligible day"
+      },
+      "width": 760
+    },
+    {
+      "data": {
+        "name": "data-3efce100d0aa5ae0888daa3e29f0aad8"
+      },
+      "encoding": {
+        "color": {
+          "field": "observation_status",
+          "legend": {
+            "labelLimit": 260,
+            "orient": "bottom"
+          },
+          "scale": {
+            "domain": [
+              "recorded_activity",
+              "zero_recorded_activity",
+              "ineligible",
+              "unknown"
+            ],
+            "range": [
+              "#286f83",
+              "#e4bb64",
+              "#aaaeb3",
+              "#ac78a5"
+            ]
+          },
+          "title": "Observation status",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "week",
+            "type": "quantitative"
+          },
+          {
+            "field": "eligible_days",
+            "type": "quantitative"
+          },
+          {
+            "field": "observation_status",
+            "type": "nominal"
+          },
+          {
+            "field": "logging_completeness",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "field": "week",
+          "title": "Week",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "row",
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 30,
+      "mark": {
+        "type": "rect"
+      },
+      "title": "Observation status \u00b7 registration is not study time",
+      "width": 760
+    }
+  ]
+}

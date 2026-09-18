@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T20:11:47.788915+00:00",
+  "completion_tokens": 3057,
+  "elapsed_seconds": 70.6214237390086,
+  "error": "ValidationError: 1 validation error for Action\nrequest_map\n  List should have at most 8 items after validation, not 9 [type=too_long, input_value=[{'request': 'personal_ch..., 'status': 'answered'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "coverage_aware",
+  "prompt_tokens": 17177,
+  "question_id": "s3_11b",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T20:10:37.165133+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 0,
+  "tool_calls_executed": 0
+}

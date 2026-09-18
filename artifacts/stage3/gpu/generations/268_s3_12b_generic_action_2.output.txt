@@ -1,0 +1,89 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "s3_12b",
+    "cutoff_day": 69,
+    "evidence_ids": [
+      "s2_45be7fa8c3c8e7ef392f",
+      "s2_a6b5bb3af26eb284585c",
+      "s2_d1f37cffe07e8ac9257c",
+      "s2_e7d4dc36f8a81d35c08b",
+      "s2_b77abda3643114974fa7",
+      "s2_37ff5c8b717946282c83"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_45be7fa8c3c8e7ef392f"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_a6b5bb3af26eb284585c"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_45be7fa8c3c8e7ef392f"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_a6b5bb3af26eb284585c"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_d1f37cffe07e8ac9257c"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_e7d4dc36f8a81d35c08b"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_b77abda3643114974fa7"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_37ff5c8b717946282c83"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_45be7fa8c3c8e7ef392f"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_a6b5bb3af26eb284585c"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_45be7fa8c3c8e7ef392f"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_a6b5bb3af26eb284585c"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_d1f37cffe07e8ac9257c"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_e7d4dc36f8a81d35c08b"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_b77abda3643114974fa7"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_37ff5c8b717946282c83"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_45be7fa8c3c8e7ef392f"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  }
+}

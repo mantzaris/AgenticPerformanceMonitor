@@ -1,0 +1,71 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s3_04a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s3_04a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "tool": "analyze",
+      "question_id": "s3_04a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    }
+  ],
+  "specification": {
+    "question_id": "s3_04a",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_51d5590e3d6230cf7a51",
+      "s2_6d694097b36fe38656ac",
+      "s2_ab4f2f22f0fcc74ba485"
+    ],
+    "claims": [
+      {
+        "template": "comparison",
+        "evidence_id": "s2_51d5590e3d6230cf7a51"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_6d694097b36fe38656ac"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_ab4f2f22f0fcc74ba485"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_51d5590e3d6230cf7a51"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_6d694097b36fe38656ac"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_ab4f2f22f0fcc74ba485"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_51d5590e3d6230cf7a51"
+      }
+    ],
+    "conclusion": "same_direction",
+    "followups": []
+  },
+  "request_map": [],
+  "stopping_status": "continue"
+}

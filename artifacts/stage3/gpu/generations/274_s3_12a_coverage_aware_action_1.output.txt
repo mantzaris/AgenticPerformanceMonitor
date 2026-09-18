@@ -1,0 +1,57 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Compare recent and baseline clicks per eligible day with course peers.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Compare recent and baseline clicks per eligible day with same prior attempt peers.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Compare recent and baseline clicks per eligible day with early stage peers.",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

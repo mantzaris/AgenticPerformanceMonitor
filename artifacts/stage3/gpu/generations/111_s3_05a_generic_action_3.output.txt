@@ -1,0 +1,28 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "s3_05a",
+    "cutoff_day": 55,
+    "evidence_ids": [
+      "s2_d7c1ca6b4f2c8f7a54ff"
+    ],
+    "claims": [
+      {
+        "template": "measurement_limits",
+        "evidence_id": "s2_d7c1ca6b4f2c8f7a54ff"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_d7c1ca6b4f2c8f7a54ff"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_d7c1ca6b4f2c8f7a54ff"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  }
+}

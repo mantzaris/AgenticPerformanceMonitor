@@ -1,0 +1,15 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s3_08a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [],
+  "stopping_status": "continue"
+}

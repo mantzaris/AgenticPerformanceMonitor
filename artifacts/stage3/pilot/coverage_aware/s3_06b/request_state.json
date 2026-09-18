@@ -1,0 +1,42 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_e29bf862c85759181e93"
+      ],
+      "request": "Describe my recent recorded click rate compared to course peers.",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_7e6b88f067c0c6e41029"
+      ],
+      "request": "Describe my recent active days compared to course peers.",
+      "status": "insufficient_evidence"
+    },
+    {
+      "evidence_ids": [
+        "s2_c544d380a8b53cd8ab6c"
+      ],
+      "request": "Describe my recent distinct resources compared to course peers.",
+      "status": "insufficient_evidence"
+    },
+    {
+      "evidence_ids": [
+        "s2_7f28666eb72e0ad8b623"
+      ],
+      "request": "Describe my recent nonbanked submissions compared to course peers.",
+      "status": "insufficient_evidence"
+    },
+    {
+      "evidence_ids": [
+        "s2_f52bb061a337334e0374"
+      ],
+      "request": "Describe my recent scheduled assessments without recorded submission compared to course peers.",
+      "status": "insufficient_evidence"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 4
+}

@@ -1,0 +1,29 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_07a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "Compare recent clicks per eligible day with course peers.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_8d45743438a9576ffa86"]
+    },
+    {
+      "request": "Compare baseline clicks per eligible day with course peers.",
+      "status": "supported",
+      "evidence_ids": ["s2_44a6e51140ec83393819"]
+    },
+    {
+      "request": "Compare recent clicks per eligible day with early stage peers.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_71d2648704cfb5eb5341"]
+    }
+  ],
+  "specification": null
+}

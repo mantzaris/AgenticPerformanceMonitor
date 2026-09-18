@@ -1,0 +1,37 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_08b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_08b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "recent versus course peers",
+      "status": "insufficient_evidence"
+    },
+    {
+      "request": "earlier versus recent personal change",
+      "status": "insufficient_evidence"
+    },
+    {
+      "request": "recent versus early stage peers",
+      "status": "supported"
+    },
+    {
+      "request": "earlier versus early stage peers",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

@@ -1,0 +1,74 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_08a",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_d2d520ab49587d5136e2",
+      "s2_5f8b1d4703ca8904199c",
+      "s2_e224ff764375ddd8635a",
+      "s2_c1779aaf7ce18b5ea40a"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_5f8b1d4703ca8904199c"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_d2d520ab49587d5136e2"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_e224ff764375ddd8635a"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_c1779aaf7ce18b5ea40a"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_5f8b1d4703ca8904199c"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_d2d520ab49587d5136e2"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_e224ff764375ddd8635a"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_c1779aaf7ce18b5ea40a"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_5f8b1d4703ca8904199c"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "Compare recent clicks per eligible day with course peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_d2d520ab49587d5136e2"]
+    },
+    {
+      "request": "Compare recent clicks per eligible day with early-stage peers.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_e224ff764375ddd8635a"]
+    },
+    {
+      "request": "Compare baseline clicks per eligible day with early-stage peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_c1779aaf7ce18b5ea40a"]
+    }
+  ],
+  "stopping_status": "complete"
+}

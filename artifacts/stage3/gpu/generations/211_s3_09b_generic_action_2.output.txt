@@ -1,0 +1,20 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_09b",
+      "feature": "nonbanked_submissions",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_09b",
+      "feature": "nonbanked_submissions",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [],
+  "stopping_status": "continue"
+}

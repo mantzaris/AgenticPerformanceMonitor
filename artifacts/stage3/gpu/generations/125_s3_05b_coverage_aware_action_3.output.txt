@@ -1,0 +1,93 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_05b",
+    "cutoff_day": 55,
+    "evidence_ids": [
+      "s2_d0db0f7391c1071618b0",
+      "s2_079054120ebef6cf7b33",
+      "s2_feb9f346021460c5f123",
+      "s2_7ee485aff9bdac40f1e7",
+      "s2_ee11b23f57b823ddde78"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_d0db0f7391c1071618b0"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_079054120ebef6cf7b33"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_feb9f346021460c5f123"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_7ee485aff9bdac40f1e7"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_ee11b23f57b823ddde78"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_d0db0f7391c1071618b0"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_079054120ebef6cf7b33"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_feb9f346021460c5f123"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_7ee485aff9bdac40f1e7"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_ee11b23f57b823ddde78"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_d0db0f7391c1071618b0"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "Describe my recent recorded click rate compared to other development people in this presentation.",
+      "status": "answered",
+      "evidence_ids": ["s2_d0db0f7391c1071618b0"]
+    },
+    {
+      "request": "Describe my recent active days compared to other development people in this presentation.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_079054120ebef6cf7b33"]
+    },
+    {
+      "request": "Describe my recent distinct resources compared to other development people in this presentation.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_feb9f346021460c5f123"]
+    },
+    {
+      "request": "Describe my recent nonbanked submissions compared to other development people in this presentation.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_7ee485aff9bdac40f1e7"]
+    },
+    {
+      "request": "Describe my recent scheduled assessments without recorded submission compared to other development people in this presentation.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_ee11b23f57b823ddde78"]
+    }
+  ],
+  "stopping_status": "complete"
+}

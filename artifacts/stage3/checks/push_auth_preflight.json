@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-09-18T19:41:50.589719+00:00",
+  "command": "GIT_TERMINAL_PROMPT=0 git push --dry-run origin main",
+  "exit_code": 128,
+  "next_step": "Retry ordinary origin/main push after completed handoff; preserve local commits if credentials remain unavailable.",
+  "published_changes": false,
+  "status": "authentication_unavailable",
+  "stderr": "fatal: could not read Username for 'https://github.com': terminal prompts disabled"
+}

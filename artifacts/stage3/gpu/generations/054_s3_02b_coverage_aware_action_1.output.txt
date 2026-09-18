@@ -1,0 +1,47 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_02b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_02b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_02b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_02b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "Compare my recent mean clicks per eligible day with the mean for other development people in this presentation.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Compare my recent mean clicks per eligible day with my own earlier mean.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Compare my baseline mean clicks per eligible day with the mean for other development people in this presentation.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Compare my baseline mean clicks per eligible day with my own earlier mean.",
+      "status": "uninvestigated"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_06b",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_06b",
+      "feature": "distinct_resources",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_06b",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_06b",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Describe my recent recorded click rate compared to course peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_e29bf862c85759181e93"]
+    },
+    {
+      "request": "Describe my recent active days compared to course peers.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Describe my recent distinct resources compared to course peers.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Describe my recent nonbanked submissions compared to course peers.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Describe my recent scheduled assessments without recorded submission compared to course peers.",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

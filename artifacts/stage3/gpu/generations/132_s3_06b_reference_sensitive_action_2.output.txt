@@ -1,0 +1,14 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_06b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [],
+  "stopping_status": "continue"
+}

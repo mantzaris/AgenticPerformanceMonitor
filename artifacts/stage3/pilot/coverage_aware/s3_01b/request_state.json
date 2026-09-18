@@ -1,0 +1,28 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_55292c3e8b1b31a2c519"
+      ],
+      "request": "Compare my recent mean clicks per eligible day with the mean for other development people in this presentation.",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_31b5aefd5a633c2231cc"
+      ],
+      "request": "Compare my recent mean clicks per eligible day with the mean for presentation peers during the question's earlier baseline window.",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_3465232e4d5a09af7193"
+      ],
+      "request": "Compare my recent mean clicks per eligible day with the mean for people in this presentation who had the same binary prior-attempt group as me.",
+      "status": "answered"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 3
+}

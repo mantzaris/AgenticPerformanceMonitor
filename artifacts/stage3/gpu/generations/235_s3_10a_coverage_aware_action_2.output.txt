@@ -1,0 +1,51 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_10a",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_10a",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_10a",
+      "feature": "nonbanked_submissions",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_10a",
+      "feature": "nonbanked_submissions",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "nonbanked_submissions_recent_course",
+      "status": "answered",
+      "evidence_ids": ["s2_2bc0d4a75112f577d498"]
+    },
+    {
+      "request": "scheduled_no_submission_recent_course",
+      "status": "answered",
+      "evidence_ids": ["s2_5e4133cdf5a426ad04a2"]
+    },
+    {
+      "request": "nonbanked_submissions_recent_early_stage",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "nonbanked_submissions_recent_same_prior_attempt",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

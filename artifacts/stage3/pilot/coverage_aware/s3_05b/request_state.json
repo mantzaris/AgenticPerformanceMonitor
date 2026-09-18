@@ -1,0 +1,42 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_d0db0f7391c1071618b0"
+      ],
+      "request": "Describe my recent recorded click rate compared to other development people in this presentation.",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_079054120ebef6cf7b33"
+      ],
+      "request": "Describe my recent active days compared to other development people in this presentation.",
+      "status": "insufficient_evidence"
+    },
+    {
+      "evidence_ids": [
+        "s2_feb9f346021460c5f123"
+      ],
+      "request": "Describe my recent distinct resources compared to other development people in this presentation.",
+      "status": "insufficient_evidence"
+    },
+    {
+      "evidence_ids": [
+        "s2_7ee485aff9bdac40f1e7"
+      ],
+      "request": "Describe my recent nonbanked submissions compared to other development people in this presentation.",
+      "status": "insufficient_evidence"
+    },
+    {
+      "evidence_ids": [
+        "s2_ee11b23f57b823ddde78"
+      ],
+      "request": "Describe my recent scheduled assessments without recorded submission compared to other development people in this presentation.",
+      "status": "insufficient_evidence"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 4
+}

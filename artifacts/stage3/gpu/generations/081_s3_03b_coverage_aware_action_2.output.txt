@@ -1,0 +1,41 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_03b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_03b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_03b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "Show my recent recorded click-rate comparison against the course presentation.",
+      "status": "answered",
+      "evidence_ids": ["s2_e2073bf1ade7247d8c74"]
+    },
+    {
+      "request": "Show my recent recorded click-rate comparison against the same prior-attempt group.",
+      "status": "answered",
+      "evidence_ids": ["s2_ea0d1eb7a2dccd01f93d"]
+    },
+    {
+      "request": "Show my recent recorded click-rate comparison against the earlier-stage presentation group.",
+      "status": "answered",
+      "evidence_ids": ["s2_b189e068d5629b149d55"]
+    }
+  ],
+  "specification": null
+}

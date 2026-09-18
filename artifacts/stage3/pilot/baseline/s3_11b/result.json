@@ -1,0 +1,20 @@
+{
+  "analysis_device": "CPU",
+  "completed_utc": "2026-09-18T19:33:40.000636+00:00",
+  "completion_tokens": 0,
+  "cpu_architecture": "x86_64",
+  "elapsed_seconds": 0.875202180352062,
+  "execution_commit": "6c0020b103a8485549cfa7659df3246e07cafb0d",
+  "fallback": false,
+  "first_attempt_valid": true,
+  "generations": 0,
+  "host_gpu": "NVIDIA RTX 6000 Ada Generation",
+  "method": "baseline",
+  "prompt_tokens": 0,
+  "question_id": "s3_11b",
+  "redundant_requests": 0,
+  "repairs": 0,
+  "status": "deterministic_accepted",
+  "tool_calls_attempted": 3,
+  "tool_calls_executed": 3
+}

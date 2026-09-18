@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T20:02:59.482490+00:00",
+  "completion_tokens": 1330,
+  "elapsed_seconds": 33.191256287973374,
+  "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "generic",
+  "prompt_tokens": 18309,
+  "question_id": "s3_09b",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T20:02:26.289029+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 4,
+  "tool_calls_executed": 4
+}

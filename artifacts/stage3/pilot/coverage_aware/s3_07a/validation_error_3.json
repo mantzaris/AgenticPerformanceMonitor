@@ -1,0 +1,4 @@
+{
+  "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.",
+  "raw_output": "{\n  \"action\": \"final\",\n  \"requests\": [],\n  \"specification\": {\n    \"question_id\": \"s3_07a\",\n    \"cutoff_day\": 27,\n    \"evidence_ids\": [\n      \"s2_44a6e51140ec83393819\"\n    ],\n    \"claims\": [\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"s2_44a6e51140ec83393819\"\n      }\n    ],\n    \"panels\": [\n      {\n        \"kind\": \"comparison\",\n        \"evidence_id\": \"s2_44a6e51140ec83393819\"\n      },\n      {\n        \"kind\": \"observation_status\",\n        \"evidence_id\": \"s2_44a6e51140ec83393819\"\n      }\n    ],\n    \"conclusion\": \"descriptive\",\n    \"followups\": []\n  }\n}"
+}

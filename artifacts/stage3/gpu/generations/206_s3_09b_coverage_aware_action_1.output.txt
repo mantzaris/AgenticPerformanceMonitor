@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_09b",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Summarize recent nonbanked submissions per observed week.",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

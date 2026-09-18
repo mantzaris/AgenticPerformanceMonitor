@@ -1,10 +1,16 @@
 # Reference-sensitive longitudinal dashboards
 
-OULAD research prototype. Start with **[STAGE2_REVIEW.md](STAGE2_REVIEW.md)** for
-the scientific hardening, frozen development pilot and working local dashboard
-follow-up. **[STAGE1_REVIEW.md](STAGE1_REVIEW.md)** remains the unchanged historical
-feasibility handoff. The supplied full research plan is preserved; the full
-held-out research evaluation has not been started.
+OULAD research prototype. Start with **[STAGE3_REVIEW.md](STAGE3_REVIEW.md)** for
+the revised answer evaluator, preserved Stage 2 reanalysis and frozen GPU pilot
+on twelve new development people with paired question phrasings. The deterministic
+baseline was more complete and cheaper than all three agents; the new coverage
+policy did not improve completeness. The unchanged **[Stage 2](STAGE2_REVIEW.md)**
+and **[Stage 1](STAGE1_REVIEW.md)** handoffs preserve the earlier work. The reserved
+population and full research evaluation remain untouched.
+
+Stage 3 [reproduction commands](docs/stage3/REPRODUCTION.md) replay saved dashboards
+without inference. Its local follow-up server is
+`python -m trajectory_dashboards.stage3.followup --port 8766` in the project `.venv`.
 
 Stage 2 reproduction and review commands are in
 [docs/stage2/REPRODUCTION.md](docs/stage2/REPRODUCTION.md). Its saved dashboards

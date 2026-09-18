@@ -1,0 +1,21 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_4b3837a304f9891dd3d6"
+      ],
+      "request": "Check the recent click rate compared to course peers.",
+      "status": "insufficient_evidence"
+    },
+    {
+      "evidence_ids": [
+        "s2_1fec5b02e50191e1f65b"
+      ],
+      "request": "Compare my recent click rate to my earlier history.",
+      "status": "insufficient_evidence"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 4
+}

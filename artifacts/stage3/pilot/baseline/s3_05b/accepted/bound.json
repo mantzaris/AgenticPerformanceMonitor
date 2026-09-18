@@ -1,0 +1,65 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_d0db0f7391c1071618b0",
+      "selection_origin": "deterministic enumeration baseline",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_7ee485aff9bdac40f1e7",
+      "selection_origin": "deterministic enumeration baseline",
+      "template": "comparison",
+      "text": "nonbanked_submissions (non-banked submissions / week): Insufficient evidence for a focal nonbanked submissions comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_ee11b23f57b823ddde78",
+      "selection_origin": "deterministic enumeration baseline",
+      "template": "comparison",
+      "text": "scheduled_no_submission (scheduled assessments without recorded submission / week): Insufficient evidence for a focal scheduled no submission comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_7ee485aff9bdac40f1e7",
+      "selection_origin": "deterministic enumeration baseline",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "At least one selected comparison or personal-history contrast has insufficient observed support. Available descriptive quantities remain visible with their counts.",
+  "evidence_hashes": {
+    "s2_7ee485aff9bdac40f1e7": "ae8acbf6ab764241a239ef1001386f13946557b84cb3bc40cf54c857ad780004",
+    "s2_d0db0f7391c1071618b0": "2bc805289222c9518ccf52b845b3088bfcf7f9e6c8166e5591abd0dfb3703585",
+    "s2_ee11b23f57b823ddde78": "8ab5a4f68885de74e5d2be57b9f127ecf230603ee904f5b8ed759675146c9ef8"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 55,
+    "recent": [
+      4,
+      7
+    ]
+  },
+  "selection_origin": "deterministic enumeration baseline",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

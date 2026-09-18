@@ -1,0 +1,68 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_02a",
+    "cutoff_day": 55,
+    "evidence_ids": [
+      "s2_7aa117255b147407dea9",
+      "s2_6ac09724b9d21eab3ebd",
+      "s2_9e6dd083be38c79a7f46"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_7aa117255b147407dea9"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_7aa117255b147407dea9"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_6ac09724b9d21eab3ebd"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_9e6dd083be38c79a7f46"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_7aa117255b147407dea9"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_7aa117255b147407dea9"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_6ac09724b9d21eab3ebd"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_9e6dd083be38c79a7f46"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_7aa117255b147407dea9"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "s3_02a: How has my recorded click rate changed from earlier weeks to recent weeks compared to course peers?",
+      "status": "answered",
+      "evidence_ids": ["s2_7aa117255b147407dea9"]
+    },
+    {
+      "request": "s3_02a: How has my recorded click rate changed from earlier weeks to recent weeks compared to peers with the same prior attempt?",
+      "status": "answered",
+      "evidence_ids": ["s2_9e6dd083be38c79a7f46"]
+    }
+  ],
+  "stopping_status": "complete"
+}

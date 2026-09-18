@@ -1,0 +1,32 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_01a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_01a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_01a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "s3_01a: How has my recorded click rate changed from earlier weeks 0-3 to recent weeks 8-11 compared to course peers?",
+      "status": "answered",
+      "evidence_ids": ["s2_d024b92456a4d945dd9f"]
+    }
+  ],
+  "stopping_status": "continue"
+}

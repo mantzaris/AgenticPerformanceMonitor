@@ -1,0 +1,113 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_11b",
+    "cutoff_day": 55,
+    "evidence_ids": [
+      "evid_1",
+      "evid_2",
+      "evid_3",
+      "evid_4",
+      "evid_5",
+      "evid_6"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "evid_1"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "evid_2"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "evid_3"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "evid_4"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "evid_5"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "evid_6"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "evid_1"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "evid_2"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "evid_3"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "evid_4"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "evid_5"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "evid_6"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "evid_1"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "personal_change for clicks_per_eligible_day in recent weeks 4\u20137",
+      "status": "answered"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in baseline weeks 0\u20133",
+      "status": "answered"
+    },
+    {
+      "request": "comparison for clicks_per_eligible_day between recent and baseline weeks",
+      "status": "answered"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in recent weeks 4\u20137 compared to same_prior_attempt peers",
+      "status": "answered"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in baseline weeks 0\u20133 compared to same_prior_attempt peers",
+      "status": "answered"
+    },
+    {
+      "request": "comparison for clicks_per_eligible_day between recent and baseline weeks for same_prior_attempt peers",
+      "status": "answered"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in recent weeks 4\u20137 compared to early_stage peers",
+      "status": "answered"
+    },
+    {
+      "request": "personal_change for clicks_per_eligible_day in baseline weeks 0\u20133 compared to early_stage peers",
+      "status": "answered"
+    },
+    {
+      "request": "comparison for clicks_per_eligible_day between recent and baseline weeks for early_stage peers",
+      "status": "answered"
+    }
+  ],
+  "stopping_status": "complete"
+}

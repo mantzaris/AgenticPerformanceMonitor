@@ -1,0 +1,34 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_01b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_01b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Compare my recent mean clicks per eligible day with the mean for other development people in this presentation.",
+      "status": "answered",
+      "evidence_ids": ["s2_55292c3e8b1b31a2c519"]
+    },
+    {
+      "request": "Compare my recent mean clicks per eligible day with the mean for presentation peers during the question's earlier baseline window.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Compare my recent mean clicks per eligible day with the mean for people in this presentation who had the same binary prior-attempt group as me.",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

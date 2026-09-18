@@ -1,0 +1,69 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Compare recent and baseline clicks per eligible day with course peers.",
+      "status": "answered",
+      "evidence_ids": [
+        "s2_054807cda136e754d58d",
+        "s2_7e9e9b404ff4a7cf3e10"
+      ]
+    },
+    {
+      "request": "Compare recent and baseline clicks per eligible day with same prior attempt peers.",
+      "status": "answered",
+      "evidence_ids": [
+        "s2_5db2d4e01aeca5e08d4b",
+        "s2_43326887bc11aa9c4a04"
+      ]
+    },
+    {
+      "request": "Compare recent and baseline clicks per eligible day with early stage peers.",
+      "status": "answered",
+      "evidence_ids": [
+        "s2_9c79e4fa26002569a8b8",
+        "s2_193b175063b9e70c9258"
+      ]
+    }
+  ],
+  "stopping_status": "continue"
+}

@@ -1,0 +1,82 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_054807cda136e754d58d",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 2.36 in weeks 2\u20135 (4 observed weeks) to 0.71 in weeks 6\u20139 (4 observed weeks): change -1.64 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_7e9e9b404ff4a7cf3e10",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 2.36 in weeks 2\u20135 (4 observed weeks) to 0.71 in weeks 6\u20139 (4 observed weeks): change -1.64 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_5db2d4e01aeca5e08d4b",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 2.36 in weeks 2\u20135 (4 observed weeks) to 0.71 in weeks 6\u20139 (4 observed weeks): change -1.64 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_43326887bc11aa9c4a04",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 2.36 in weeks 2\u20135 (4 observed weeks) to 0.71 in weeks 6\u20139 (4 observed weeks): change -1.64 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_9c79e4fa26002569a8b8",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 2.36 in weeks 2\u20135 (4 observed weeks) to 0.71 in weeks 6\u20139 (4 observed weeks): change -1.64 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_193b175063b9e70c9258",
+      "selection_origin": "agent original",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 2.36 in weeks 2\u20135 (4 observed weeks) to 0.71 in weeks 6\u20139 (4 observed weeks): change -1.64 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_054807cda136e754d58d": "1816e01fce969fe2455082a4c443628a34c88cdd4b35fb3591bdd02622e9fda7",
+    "s2_193b175063b9e70c9258": "e76f33a7a653cb24b8b1366d2c4335513ca24d84e33910f3581e0c14a2b1f9cf",
+    "s2_43326887bc11aa9c4a04": "6136f9a7c5a82befedaa6862c1cac0fa520315f59840517cab008f6e46fd0ab0",
+    "s2_5db2d4e01aeca5e08d4b": "da59f4da7866bd7b780f87cf43b0167bf95d51d30f29c7c9dfc67c56143907af",
+    "s2_7e9e9b404ff4a7cf3e10": "6be7facb9c3e895300cfb0936462a15002f2be2ef305fb96611049e42ff87257",
+    "s2_9c79e4fa26002569a8b8": "ac3c22a7d6e5e2cb21e164ecfc131bf08cf2bb01545a9dfd57d903e2682de850"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      2,
+      5
+    ],
+    "cutoff_day": 69,
+    "recent": [
+      6,
+      9
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

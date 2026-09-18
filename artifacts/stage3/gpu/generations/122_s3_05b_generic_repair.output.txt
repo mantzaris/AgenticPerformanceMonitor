@@ -1,0 +1,91 @@
+{
+  "action": "final",
+  "specification": {
+    "question_id": "s3_05b",
+    "cutoff_day": 55,
+    "evidence_ids": [
+      "s2_2f3d9c5640e87c95debc",
+      "s2_3c17b0f3cb5d6e465db8",
+      "s2_9f3f3db3956a785802cc",
+      "s2_d0db0f7391c1071618b0",
+      "s2_7ee485aff9bdac40f1e7",
+      "s2_ee11b23f57b823ddde78"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_2f3d9c5640e87c95debc"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_3c17b0f3cb5d6e465db8"
+      },
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_9f3f3db3956a785802cc"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_d0db0f7391c1071618b0"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_7ee485aff9bdac40f1e7"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_ee11b23f57b823ddde78"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_2f3d9c5640e87c95debc"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_3c17b0f3cb5d6e465db8"
+      },
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_9f3f3db3956a785802cc"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_d0db0f7391c1071618b0"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_7ee485aff9bdac40f1e7"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_ee11b23f57b823ddde78"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_2f3d9c5640e87c95debc"
+      },
+      {
+        "kind": "assessment_status",
+        "evidence_id": "s2_3c17b0f3cb5d6e465db8"
+      },
+      {
+        "kind": "assessment_status",
+        "evidence_id": "s2_7ee485aff9bdac40f1e7"
+      },
+      {
+        "kind": "assessment_status",
+        "evidence_id": "s2_9f3f3db3956a785802cc"
+      },
+      {
+        "kind": "assessment_status",
+        "evidence_id": "s2_ee11b23f57b823ddde78"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [],
+  "stopping_status": "complete"
+}

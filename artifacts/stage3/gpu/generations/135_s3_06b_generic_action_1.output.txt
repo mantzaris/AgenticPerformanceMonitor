@@ -1,0 +1,44 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_06b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_06b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_06b",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_06b",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_06b",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_06b",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [],
+  "stopping_status": "continue"
+}

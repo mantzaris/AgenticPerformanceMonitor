@@ -1,0 +1,115 @@
+{
+  "changes": [
+    {
+      "explanations": [
+        "Underspecified historical activity feature: permit coherent supported activity features, rather than a hidden click-rate-only requirement.",
+        "Genuine display omission under revised semantics: course_comparison"
+      ],
+      "method": "generic",
+      "missing": [],
+      "new_complete_requested": false,
+      "old_full_context": true,
+      "question_id": "p01",
+      "retrieved_but_omitted": [
+        "course_comparison"
+      ]
+    },
+    {
+      "explanations": [
+        "Underspecified historical activity feature: permit coherent supported activity features, rather than a hidden click-rate-only requirement.",
+        "Genuine display omission under revised semantics: course_comparison"
+      ],
+      "method": "reference_sensitive",
+      "missing": [],
+      "new_complete_requested": false,
+      "old_full_context": true,
+      "question_id": "p01",
+      "retrieved_but_omitted": [
+        "course_comparison"
+      ]
+    },
+    {
+      "explanations": [
+        "Underspecified historical activity feature: permit coherent supported activity features, rather than a hidden click-rate-only requirement.",
+        "Genuine display omission under revised semantics: course_comparison"
+      ],
+      "method": "generic",
+      "missing": [],
+      "new_complete_requested": false,
+      "old_full_context": true,
+      "question_id": "p02",
+      "retrieved_but_omitted": [
+        "course_comparison"
+      ]
+    },
+    {
+      "explanations": [
+        "Underspecified historical activity feature: permit coherent supported activity features, rather than a hidden click-rate-only requirement.",
+        "Genuine display omission under revised semantics: course_comparison"
+      ],
+      "method": "reference_sensitive",
+      "missing": [],
+      "new_complete_requested": false,
+      "old_full_context": true,
+      "question_id": "p02",
+      "retrieved_but_omitted": [
+        "course_comparison"
+      ]
+    },
+    {
+      "explanations": [
+        "Rubric defect: personal history was not requested; replace required retrieval/templates with the requested three-reference direction answer.",
+        "Underspecified historical activity feature: permit coherent supported activity features, rather than a hidden click-rate-only requirement."
+      ],
+      "method": "reference_sensitive",
+      "missing": [],
+      "new_complete_requested": true,
+      "old_full_context": false,
+      "question_id": "p03",
+      "retrieved_but_omitted": []
+    },
+    {
+      "explanations": [
+        "Rubric defect: personal history was not requested; replace required retrieval/templates with the requested three-reference direction answer.",
+        "Underspecified historical activity feature: permit coherent supported activity features, rather than a hidden click-rate-only requirement."
+      ],
+      "method": "generic",
+      "missing": [],
+      "new_complete_requested": true,
+      "old_full_context": false,
+      "question_id": "p04",
+      "retrieved_but_omitted": []
+    },
+    {
+      "explanations": [
+        "Rubric defect: personal history was not requested; replace required retrieval/templates with the requested three-reference direction answer.",
+        "Underspecified historical activity feature: permit coherent supported activity features, rather than a hidden click-rate-only requirement."
+      ],
+      "method": "reference_sensitive",
+      "missing": [],
+      "new_complete_requested": true,
+      "old_full_context": false,
+      "question_id": "p04",
+      "retrieved_but_omitted": []
+    },
+    {
+      "explanations": [
+        "Underspecified historical activity feature: permit coherent supported activity features, rather than a hidden click-rate-only requirement.",
+        "Scorer defect repaired: the supported insufficient_evidence conclusion is credited as a global finding. Multiple unsupported scopes still require attribution for individual requested answers.",
+        "Genuine display omission under revised semantics: course_comparison"
+      ],
+      "method": "generic",
+      "missing": [],
+      "new_complete_requested": false,
+      "old_full_context": true,
+      "question_id": "p07",
+      "retrieved_but_omitted": [
+        "course_comparison"
+      ]
+    }
+  ],
+  "pilot_results_used": false,
+  "reviewed_utc": "2026-09-18T19:48:26.701778+00:00",
+  "scoring_code_changed": false,
+  "status": "Automated index reviewed by implementation assistant; not external human review"
+}

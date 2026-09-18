@@ -1,0 +1,19 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_01a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "s3_01a: How has my recorded click rate changed from earlier weeks 0-3 to recent weeks 8-11 compared to course peers?",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

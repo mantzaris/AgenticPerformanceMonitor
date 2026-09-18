@@ -1,0 +1,589 @@
+[
+  {
+    "action": "analyze",
+    "generation_metadata": {
+      "allocated_bytes": 15243487232,
+      "budget_partition": "pilot",
+      "completed_utc": "2026-09-18T19:44:05.543762+00:00",
+      "completion_tokens": 351,
+      "cuda_event_ms": 9351.0810546875,
+      "elapsed_seconds": 9.397422587033361,
+      "generation": 93,
+      "input_device": "cuda:0",
+      "method": "generic",
+      "nvidia_smi_own_process": [
+        "63822, /workspace/apm-stage1/.venv/bin/python, 20664"
+      ],
+      "output_device": "cuda:0",
+      "peak_allocated_bytes": 16960056832,
+      "phase": "action_1",
+      "process_id": "pilot_03",
+      "prompt_tokens": 2500,
+      "question_id": "s3_04b",
+      "started_utc": "2026-09-18T19:43:56.146311+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"analyze\",\n  \"requests\": [\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s3_04b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"recent\"\n    },\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s3_04b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"baseline\"\n    },\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s3_04b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"same_prior_attempt\",\n      \"window\": \"recent\"\n    },\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s3_04b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"same_prior_attempt\",\n      \"window\": \"baseline\"\n    },\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s3_04b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"early_stage\",\n      \"window\": \"recent\"\n    },\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s3_04b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"early_stage\",\n      \"window\": \"baseline\"\n    }\n  ],\n  \"specification\": null,\n  \"request_map\": [],\n  \"stopping_status\": \"continue\"\n}",
+    "request_map": [],
+    "stopping_status": "continue",
+    "tool_results": [
+      {
+        "request": {
+          "feature": "clicks_per_eligible_day",
+          "question_id": "s3_04b",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "recent"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_57fd90b70ca2721ab84e",
+          "feature": "clicks_per_eligible_day",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity"
+          ],
+          "observations": 4108,
+          "people": 1044,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 6.2857142857142865,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -1.4873202122483735,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 1.9642857142857144,
+            "focal_observations": 4,
+            "peer_ci_high": 3.8398789663534636,
+            "peer_ci_low": 3.1130191133765126,
+            "peer_mean": 3.451605926534088,
+            "personal_change": -4.321428571428572,
+            "personal_status": "supported",
+            "recent_mean": 1.9642857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "clicks_per_eligible_day",
+          "question_id": "s3_04b",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "baseline"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_2a054ed18a1a0d607546",
+          "feature": "clicks_per_eligible_day",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity"
+          ],
+          "observations": 4568,
+          "people": 1160,
+          "reference": "course",
+          "reference_label": "BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 6.2857142857142865,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -0.6403280651340975,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 6.2857142857142865,
+            "focal_observations": 4,
+            "peer_ci_high": 7.464917102832512,
+            "peer_ci_low": 6.4615096469622335,
+            "peer_mean": 6.926042350848384,
+            "personal_change": -4.321428571428572,
+            "personal_status": "supported",
+            "recent_mean": 1.9642857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            0,
+            3
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "clicks_per_eligible_day",
+          "question_id": "s3_04b",
+          "reference": "same_prior_attempt",
+          "tool": "analyze",
+          "window": "recent"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_cdb3f4feed94f2f9c3bd",
+          "feature": "clicks_per_eligible_day",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity"
+          ],
+          "observations": 3314,
+          "people": 842,
+          "reference": "same_prior_attempt",
+          "reference_label": "BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 6.2857142857142865,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -1.7316739245183421,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 1.9642857142857144,
+            "focal_observations": 4,
+            "peer_ci_high": 4.172628178844776,
+            "peer_ci_low": 3.2512777235795345,
+            "peer_mean": 3.6959596388040565,
+            "personal_change": -4.321428571428572,
+            "personal_status": "supported",
+            "recent_mean": 1.9642857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "clicks_per_eligible_day",
+          "question_id": "s3_04b",
+          "reference": "same_prior_attempt",
+          "tool": "analyze",
+          "window": "baseline"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_8bb0f6780b784348eb59",
+          "feature": "clicks_per_eligible_day",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity"
+          ],
+          "observations": 3663,
+          "people": 928,
+          "reference": "same_prior_attempt",
+          "reference_label": "BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 6.2857142857142865,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -0.9753895559660641,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 6.2857142857142865,
+            "focal_observations": 4,
+            "peer_ci_high": 7.895999589490969,
+            "peer_ci_low": 6.682986474582649,
+            "peer_mean": 7.261103841680351,
+            "personal_change": -4.321428571428572,
+            "personal_status": "supported",
+            "recent_mean": 1.9642857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            0,
+            3
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "clicks_per_eligible_day",
+          "question_id": "s3_04b",
+          "reference": "early_stage",
+          "tool": "analyze",
+          "window": "recent"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_1398b805cc95d64e3587",
+          "feature": "clicks_per_eligible_day",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity"
+          ],
+          "observations": 4568,
+          "people": 1160,
+          "reference": "early_stage",
+          "reference_label": "BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 6.2857142857142865,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -4.9617566365626695,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 1.9642857142857144,
+            "focal_observations": 4,
+            "peer_ci_high": 7.48203355056103,
+            "peer_ci_low": 6.387522244458128,
+            "peer_mean": 6.926042350848384,
+            "personal_change": -4.321428571428572,
+            "personal_status": "supported",
+            "recent_mean": 1.9642857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "clicks_per_eligible_day",
+          "question_id": "s3_04b",
+          "reference": "early_stage",
+          "tool": "analyze",
+          "window": "baseline"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "evidence_id": "s2_e9019efba1d62f6fb37a",
+          "feature": "clicks_per_eligible_day",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity"
+          ],
+          "observations": 4568,
+          "people": 1160,
+          "reference": "early_stage",
+          "reference_label": "BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 6.2857142857142865,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -0.6403280651340975,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 6.2857142857142865,
+            "focal_observations": 4,
+            "peer_ci_high": 7.47089380644499,
+            "peer_ci_low": 6.427060567186644,
+            "peer_mean": 6.926042350848384,
+            "personal_change": -4.321428571428572,
+            "personal_status": "supported",
+            "recent_mean": 1.9642857142857144,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "recorded clicks / eligible day",
+          "window": [
+            0,
+            3
+          ]
+        }
+      }
+    ],
+    "turn": 1
+  },
+  {
+    "action": "final",
+    "generation_metadata": {
+      "allocated_bytes": 15243607040,
+      "budget_partition": "pilot",
+      "completed_utc": "2026-09-18T19:44:22.889545+00:00",
+      "completion_tokens": 728,
+      "cuda_event_ms": 16924.603515625,
+      "elapsed_seconds": 16.975851150229573,
+      "generation": 94,
+      "input_device": "cuda:0",
+      "method": "generic",
+      "nvidia_smi_own_process": [
+        "63822, /workspace/apm-stage1/.venv/bin/python, 20664"
+      ],
+      "output_device": "cuda:0",
+      "peak_allocated_bytes": 16960056832,
+      "phase": "action_2",
+      "process_id": "pilot_03",
+      "prompt_tokens": 7381,
+      "question_id": "s3_04b",
+      "started_utc": "2026-09-18T19:44:05.913683+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"final\",\n  \"specification\": {\n    \"question_id\": \"s3_04b\",\n    \"cutoff_day\": 83,\n    \"evidence_ids\": [\n      \"s2_57fd90b70ca2721ab84e\",\n      \"s2_2a054ed18a1a0d607546\",\n      \"s2_cdb3f4feed94f2f9c3bd\",\n      \"s2_8bb0f6780b784348eb59\",\n      \"s2_1398b805cc95d64e3587\",\n      \"s2_e9019efba1d62f6fb37a\"\n    ],\n    \"claims\": [\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"s2_57fd90b70ca2721ab84e\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"s2_2a054ed18a1a0d607546\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"s2_cdb3f4feed94f2f9c3bd\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"s2_8bb0f6780b784348eb59\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"s2_1398b805cc95d64e3587\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"s2_e9019efba1d62f6fb37a\"\n      }\n    ],\n    \"panels\": [\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"s2_57fd90b70ca2721ab84e\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"s2_2a054ed18a1a0d607546\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"s2_cdb3f4feed94f2f9c3bd\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"s2_8bb0f6780b784348eb59\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"s2_1398b805cc95d64e3587\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"s2_e9019efba1d62f6fb37a\"\n      },\n      {\n        \"kind\": \"observation_status\",\n        \"evidence_id\": \"s2_57fd90b70ca2721ab84e\"\n      }\n    ],\n    \"conclusion\": \"descriptive\",\n    \"followups\": []\n  }\n}",
+    "request_map": [],
+    "specification": {
+      "claims": [
+        {
+          "evidence_id": "s2_57fd90b70ca2721ab84e",
+          "template": "comparison"
+        },
+        {
+          "evidence_id": "s2_2a054ed18a1a0d607546",
+          "template": "comparison"
+        },
+        {
+          "evidence_id": "s2_cdb3f4feed94f2f9c3bd",
+          "template": "comparison"
+        },
+        {
+          "evidence_id": "s2_8bb0f6780b784348eb59",
+          "template": "comparison"
+        },
+        {
+          "evidence_id": "s2_1398b805cc95d64e3587",
+          "template": "comparison"
+        },
+        {
+          "evidence_id": "s2_e9019efba1d62f6fb37a",
+          "template": "comparison"
+        }
+      ],
+      "conclusion": "descriptive",
+      "cutoff_day": 83,
+      "evidence_ids": [
+        "s2_57fd90b70ca2721ab84e",
+        "s2_2a054ed18a1a0d607546",
+        "s2_cdb3f4feed94f2f9c3bd",
+        "s2_8bb0f6780b784348eb59",
+        "s2_1398b805cc95d64e3587",
+        "s2_e9019efba1d62f6fb37a"
+      ],
+      "followups": [],
+      "panels": [
+        {
+          "evidence_id": "s2_57fd90b70ca2721ab84e",
+          "kind": "trajectory"
+        },
+        {
+          "evidence_id": "s2_2a054ed18a1a0d607546",
+          "kind": "trajectory"
+        },
+        {
+          "evidence_id": "s2_cdb3f4feed94f2f9c3bd",
+          "kind": "trajectory"
+        },
+        {
+          "evidence_id": "s2_8bb0f6780b784348eb59",
+          "kind": "trajectory"
+        },
+        {
+          "evidence_id": "s2_1398b805cc95d64e3587",
+          "kind": "trajectory"
+        },
+        {
+          "evidence_id": "s2_e9019efba1d62f6fb37a",
+          "kind": "trajectory"
+        },
+        {
+          "evidence_id": "s2_57fd90b70ca2721ab84e",
+          "kind": "observation_status"
+        }
+      ],
+      "question_id": "s3_04b"
+    },
+    "stopping_decision": "valid final specification",
+    "stopping_status": "continue",
+    "turn": 2
+  }
+]

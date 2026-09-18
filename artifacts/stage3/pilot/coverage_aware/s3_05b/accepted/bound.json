@@ -1,0 +1,74 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_d0db0f7391c1071618b0",
+      "selection_origin": "agent repaired",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20133 (4 observed weeks) to weeks 4\u20137 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_079054120ebef6cf7b33",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "active_days (days with recorded activity / week): Insufficient evidence for a focal active days comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_feb9f346021460c5f123",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "distinct_resources (distinct recorded resources / week): Insufficient evidence for a focal distinct resources comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_7ee485aff9bdac40f1e7",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "nonbanked_submissions (non-banked submissions / week): Insufficient evidence for a focal nonbanked submissions comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_ee11b23f57b823ddde78",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "scheduled_no_submission (scheduled assessments without recorded submission / week): Insufficient evidence for a focal scheduled no submission comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_079054120ebef6cf7b33": "ec088cffd769a90883ea7f7ef9e8e78f7fb15462d4454518897c6188f8af9b7f",
+    "s2_7ee485aff9bdac40f1e7": "0a081a1671610d6106aa62c3217f64363608dcf44b7024e92241e025f23ee186",
+    "s2_d0db0f7391c1071618b0": "6626139c7f15e14c924547ace087c86d9ec27122370265974088a467feb4731b",
+    "s2_ee11b23f57b823ddde78": "1af4202d6df634e5bd5ff8053cdedc6bf28ba513ed9dc990e9cd360d29341aa0",
+    "s2_feb9f346021460c5f123": "582711f002db2a816a3a667b53b0a88cce91c56b5cba79779911ebdc1823a33c"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 55,
+    "recent": [
+      4,
+      7
+    ]
+  },
+  "selection_origin": "agent repaired",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

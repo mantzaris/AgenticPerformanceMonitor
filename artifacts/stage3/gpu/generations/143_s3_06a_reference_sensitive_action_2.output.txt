@@ -1,0 +1,11 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_06a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ]
+}

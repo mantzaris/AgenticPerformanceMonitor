@@ -1,0 +1,57 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_d1dd98deaf7ba3d872f4",
+      "selection_origin": "deterministic enumeration baseline",
+      "template": "comparison",
+      "text": "nonbanked_submissions (non-banked submissions / week): Focal mean 0.25; peer mean 0.06; difference 0.19 non-banked submissions / week, focal weeks 8\u201311. 231 distinct peers / 917 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [0.05, 0.08]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_ac213ef408c56a5e4418",
+      "selection_origin": "deterministic enumeration baseline",
+      "template": "comparison",
+      "text": "scheduled_no_submission (scheduled assessments without recorded submission / week): Focal mean 0.00; peer mean 0.00; difference 0.00 scheduled assessments without recorded submission / week, focal weeks 8\u201311. 231 distinct peers / 917 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [0.00, 0.00]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_d1dd98deaf7ba3d872f4",
+      "selection_origin": "deterministic enumeration baseline",
+      "template": "measurement_limits",
+      "text": "Grade availability and banking approval are unknown. Scheduled non-submission records cannot establish failure, effort, ability or learning. Logging completeness is unknown.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_ac213ef408c56a5e4418": "6fa2335fe60d4ad420184e8a3af4b6588c97092feba5d86636d7c83d9ebb600f",
+    "s2_d1dd98deaf7ba3d872f4": "45d768c4208ae46b9bd54cce2f7305ad83b86cc1649dc1ce117b16e4d9385826"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "deterministic enumeration baseline",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

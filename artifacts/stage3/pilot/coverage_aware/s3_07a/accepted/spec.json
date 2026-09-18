@@ -1,0 +1,29 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_44a6e51140ec83393819",
+      "template": "comparison"
+    }
+  ],
+  "conclusion": "descriptive",
+  "cutoff_day": 27,
+  "evidence_ids": [
+    "s2_44a6e51140ec83393819"
+  ],
+  "followups": [],
+  "panels": [
+    {
+      "evidence_id": "s2_44a6e51140ec83393819",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_44a6e51140ec83393819",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_44a6e51140ec83393819",
+      "kind": "observation_status"
+    }
+  ],
+  "question_id": "s3_07a"
+}

@@ -1,0 +1,35 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_d1dd98deaf7ba3d872f4"
+      ],
+      "request": "Summarize recent nonbanked submissions per observed week.",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_ac213ef408c56a5e4418"
+      ],
+      "request": "Summarize recent scheduled non-submissions per observed week.",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_b93d492b4ea26c1b24c7"
+      ],
+      "request": "Compare recent nonbanked submissions between the course and early-stage peers.",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_28a504f6ff36c293cfa6"
+      ],
+      "request": "Compare recent nonbanked submissions between the course and same prior-attempt peers.",
+      "status": "answered"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 4
+}

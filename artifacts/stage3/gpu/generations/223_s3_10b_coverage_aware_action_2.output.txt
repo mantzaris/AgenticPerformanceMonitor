@@ -1,0 +1,44 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_10b",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_10b",
+      "feature": "nonbanked_submissions",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_10b",
+      "feature": "nonbanked_submissions",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Summarize recent nonbanked submissions per observed week.",
+      "status": "answered",
+      "evidence_ids": ["s2_4df940c3587a378aaa9a"]
+    },
+    {
+      "request": "Summarize recent scheduled non-submissions per observed week.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Compare recent nonbanked submissions between the focal person and early-stage peers.",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "Compare recent nonbanked submissions between the focal person and peers with the same prior attempt.",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

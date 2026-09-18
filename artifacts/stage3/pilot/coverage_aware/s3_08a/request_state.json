@@ -1,0 +1,28 @@
+{
+  "origin": "model-authored public task state; no hidden evaluator checklist",
+  "request_map": [
+    {
+      "evidence_ids": [
+        "s2_d2d520ab49587d5136e2"
+      ],
+      "request": "Compare recent clicks per eligible day with course peers.",
+      "status": "answered"
+    },
+    {
+      "evidence_ids": [
+        "s2_e224ff764375ddd8635a"
+      ],
+      "request": "Compare recent clicks per eligible day with early-stage peers.",
+      "status": "insufficient_evidence"
+    },
+    {
+      "evidence_ids": [
+        "s2_c1779aaf7ce18b5ea40a"
+      ],
+      "request": "Compare baseline clicks per eligible day with early-stage peers.",
+      "status": "answered"
+    }
+  ],
+  "stopping_status": "complete",
+  "turn": 3
+}

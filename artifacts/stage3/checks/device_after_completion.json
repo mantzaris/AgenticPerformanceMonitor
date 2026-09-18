@@ -1,0 +1,11 @@
+{
+  "all_stage3_model_processes_stopped": true,
+  "checked_utc": "2026-09-18T20:19:01.139139+00:00",
+  "compute_processes": [],
+  "driver": "580.159.04",
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "observation": "Remote model command exited 0; final model ledger process_finished at 2026-09-18T20:17:13.557018+00:00.",
+  "pod_terminated": false,
+  "query": "nvidia-smi GPU identity/memory and compute-process list after pilot process exit",
+  "used_memory_mib": 2
+}

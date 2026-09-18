@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_2f3d9c5640e87c95debc",
+      "selection_origin": "agent repaired",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20133 (4 observed weeks) to weeks 4\u20137 (0 observed weeks).",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_d0db0f7391c1071618b0",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_7ee485aff9bdac40f1e7",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "nonbanked_submissions (non-banked submissions / week): Insufficient evidence for a focal nonbanked submissions comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_ee11b23f57b823ddde78",
+      "selection_origin": "agent repaired",
+      "template": "comparison",
+      "text": "scheduled_no_submission (scheduled assessments without recorded submission / week): Insufficient evidence for a focal scheduled no submission comparison in weeks 4\u20137. 1088 distinct peers / 4293 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 4\u20137.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_2f3d9c5640e87c95debc": "57ffc6b414f44b93b39995fdf992f63431c4f76091f5c767eaaf73c0cb698d91",
+    "s2_7ee485aff9bdac40f1e7": "1ebdb8259973ff1ba6b69e7f0bad364431902e39007412eb2e13a91457708f99",
+    "s2_d0db0f7391c1071618b0": "a70405204e2543e444d868390b4210449615bca31231a85ba4c1bd5712a82f85",
+    "s2_ee11b23f57b823ddde78": "3798451e7c24a8d6eba02241f3a36b4d487edd40491a57de5000aec63c748cfc"
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 55,
+    "recent": [
+      4,
+      7
+    ]
+  },
+  "selection_origin": "agent repaired",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

@@ -1,0 +1,77 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_12b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_12b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_12b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_12b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "personal_change: clicks_per_eligible_day (recent)",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison: clicks_per_eligible_day (course) (recent)",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison: clicks_per_eligible_day (early_stage) (recent)",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison: clicks_per_eligible_day (same_prior_attempt) (recent)",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "personal_change: clicks_per_eligible_day (baseline)",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison: clicks_per_eligible_day (course) (baseline)",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison: clicks_per_eligible_day (early_stage) (baseline)",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "comparison: clicks_per_eligible_day (same_prior_attempt) (baseline)",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

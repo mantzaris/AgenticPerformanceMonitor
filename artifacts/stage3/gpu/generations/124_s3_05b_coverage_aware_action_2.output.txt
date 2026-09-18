@@ -1,0 +1,38 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_05b",
+      "feature": "active_days",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_05b",
+      "feature": "distinct_resources",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_05b",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_05b",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Describe my recent recorded click rate compared to other development people in this presentation.",
+      "status": "answered",
+      "evidence_ids": ["s2_d0db0f7391c1071618b0"]
+    }
+  ],
+  "stopping_status": "continue"
+}

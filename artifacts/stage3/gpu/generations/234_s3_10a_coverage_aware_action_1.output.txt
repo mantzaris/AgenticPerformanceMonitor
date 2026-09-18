@@ -1,0 +1,29 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_10a",
+      "feature": "nonbanked_submissions",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_10a",
+      "feature": "scheduled_no_submission",
+      "reference": "course",
+      "window": "recent"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "nonbanked_submissions_recent_course",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "scheduled_no_submission_recent_course",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "continue"
+}

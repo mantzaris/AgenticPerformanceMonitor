@@ -1,0 +1,36 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_07b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_07b",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "specification": null,
+  "request_map": [
+    {
+      "request": "Check the recent click rate compared to course peers.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_4b3837a304f9891dd3d6"]
+    },
+    {
+      "request": "Compare my recent click rate to my earlier history.",
+      "status": "uninvestigated",
+      "evidence_ids": []
+    },
+    {
+      "request": "Compare my recent click rate to my earlier history.",
+      "status": "insufficient_evidence",
+      "evidence_ids": ["s2_1fec5b02e50191e1f65b"]
+    }
+  ],
+  "stopping_status": "continue"
+}

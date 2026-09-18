@@ -1,0 +1,72 @@
+{
+  "action": "final",
+  "requests": [],
+  "specification": {
+    "question_id": "s3_01a",
+    "cutoff_day": 83,
+    "evidence_ids": [
+      "s2_d024b92456a4d945dd9f",
+      "s2_8194b9e9932ec22518b8",
+      "s2_d940106951ad832c420f",
+      "s2_17cf268d3b5d848efaf8"
+    ],
+    "claims": [
+      {
+        "template": "personal_change",
+        "evidence_id": "s2_d024b92456a4d945dd9f"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_8194b9e9932ec22518b8"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_d940106951ad832c420f"
+      },
+      {
+        "template": "comparison",
+        "evidence_id": "s2_17cf268d3b5d848efaf8"
+      }
+    ],
+    "panels": [
+      {
+        "kind": "trajectory",
+        "evidence_id": "s2_d024b92456a4d945dd9f"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_8194b9e9932ec22518b8"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_d940106951ad832c420f"
+      },
+      {
+        "kind": "comparison",
+        "evidence_id": "s2_17cf268d3b5d848efaf8"
+      },
+      {
+        "kind": "observation_status",
+        "evidence_id": "s2_d024b92456a4d945dd9f"
+      }
+    ],
+    "conclusion": "descriptive",
+    "followups": []
+  },
+  "request_map": [
+    {
+      "request": "s3_01a: How has my recorded click rate changed from earlier weeks 0-3 to recent weeks 8-11 compared to course peers?",
+      "status": "answered",
+      "evidence_ids": ["s2_d024b92456a4d945dd9f"]
+    },
+    {
+      "request": "s3_01a: How has my recorded click rate changed from earlier weeks 0-3 to recent weeks 8-11 compared to early-stage peers?",
+      "status": "uninvestigated"
+    },
+    {
+      "request": "s3_01a: How has my recorded click rate changed from earlier weeks 0-3 to recent weeks 8-11 compared to early-stage peers in the earlier baseline window?",
+      "status": "uninvestigated"
+    }
+  ],
+  "stopping_status": "complete"
+}

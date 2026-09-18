@@ -1,0 +1,111 @@
+[
+  {
+    "generation_metadata": {
+      "allocated_bytes": 15243498496,
+      "budget_partition": "pilot",
+      "completed_utc": "2026-09-18T20:10:55.407219+00:00",
+      "completion_tokens": 807,
+      "cuda_event_ms": 18192.27734375,
+      "elapsed_seconds": 18.239232434891164,
+      "generation": 256,
+      "input_device": "cuda:0",
+      "method": "coverage_aware",
+      "nvidia_smi_own_process": [
+        "63822, /workspace/apm-stage1/.venv/bin/python, 21750"
+      ],
+      "output_device": "cuda:0",
+      "peak_allocated_bytes": 17248561152,
+      "phase": "action_1",
+      "process_id": "pilot_03",
+      "prompt_tokens": 2821,
+      "question_id": "s3_11b",
+      "started_utc": "2026-09-18T20:10:37.167970+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"analyze\",\n  \"requests\": [\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"recent\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"baseline\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"comparison\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"same_prior_attempt\",\n      \"window\": \"recent\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"same_prior_attempt\",\n      \"window\": \"baseline\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"same_prior_attempt\",\n      \"window\": \"comparison\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"early_stage\",\n      \"window\": \"recent\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"early_stage\",\n      \"window\": \"baseline\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"early_stage\",\n      \"window\": \"comparison\"\n    }\n  ],\n  \"request_map\": [\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137 compared to same_prior_attempt peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133 compared to same_prior_attempt peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks for same_prior_attempt peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137 compared to early_stage peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133 compared to early_stage peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks for early_stage peers\",\n      \"status\": \"uninvestigated\"\n    }\n  ],\n  \"specification\": null,\n  \"stopping_status\": \"continue\"\n}",
+    "turn": 1,
+    "validation_error": "ValidationError: 2 validation errors for Action\nrequests\n  List should have at most 6 items after validation, not 9 [type=too_long, input_value=[{'question_id': 's3_11b'...'window': 'comparison'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long\nrequest_map\n  List should have at most 8 items after validation, not 9 [type=too_long, input_value=[{'request': 'personal_ch...tus': 'uninvestigated'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long"
+  },
+  {
+    "generation_metadata": {
+      "allocated_bytes": 15243523584,
+      "budget_partition": "pilot",
+      "completed_utc": "2026-09-18T20:11:10.835657+00:00",
+      "completion_tokens": 672,
+      "cuda_event_ms": 15364.384765625,
+      "elapsed_seconds": 15.424679088871926,
+      "generation": 257,
+      "input_device": "cuda:0",
+      "method": "coverage_aware",
+      "nvidia_smi_own_process": [
+        "63822, /workspace/apm-stage1/.venv/bin/python, 21750"
+      ],
+      "output_device": "cuda:0",
+      "peak_allocated_bytes": 17248561152,
+      "phase": "action_2",
+      "process_id": "pilot_03",
+      "prompt_tokens": 3926,
+      "question_id": "s3_11b",
+      "started_utc": "2026-09-18T20:10:55.410958+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"analyze\",\n  \"requests\": [\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"recent\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"baseline\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"same_prior_attempt\",\n      \"window\": \"recent\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"same_prior_attempt\",\n      \"window\": \"baseline\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"early_stage\",\n      \"window\": \"recent\"\n    },\n    {\n      \"question_id\": \"s3_11b\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"early_stage\",\n      \"window\": \"baseline\"\n    }\n  ],\n  \"request_map\": [\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137 compared to same_prior_attempt peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133 compared to same_prior_attempt peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks for same_prior_attempt peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137 compared to early_stage peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133 compared to early_stage peers\",\n      \"status\": \"uninvestigated\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks for early_stage peers\",\n      \"status\": \"uninvestigated\"\n    }\n  ],\n  \"specification\": null,\n  \"stopping_status\": \"continue\"\n}",
+    "turn": 2,
+    "validation_error": "ValidationError: 1 validation error for Action\nrequest_map\n  List should have at most 8 items after validation, not 9 [type=too_long, input_value=[{'request': 'personal_ch...tus': 'uninvestigated'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long"
+  },
+  {
+    "generation_metadata": {
+      "allocated_bytes": 15243544576,
+      "budget_partition": "pilot",
+      "completed_utc": "2026-09-18T20:11:28.846721+00:00",
+      "completion_tokens": 789,
+      "cuda_event_ms": 17954.828125,
+      "elapsed_seconds": 18.0073439120315,
+      "generation": 258,
+      "input_device": "cuda:0",
+      "method": "coverage_aware",
+      "nvidia_smi_own_process": [
+        "63822, /workspace/apm-stage1/.venv/bin/python, 21750"
+      ],
+      "output_device": "cuda:0",
+      "peak_allocated_bytes": 17248561152,
+      "phase": "action_3",
+      "process_id": "pilot_03",
+      "prompt_tokens": 4750,
+      "question_id": "s3_11b",
+      "started_utc": "2026-09-18T20:11:10.839361+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"final\",\n  \"requests\": [],\n  \"specification\": {\n    \"question_id\": \"s3_11b\",\n    \"cutoff_day\": 55,\n    \"evidence_ids\": [\n      \"evid_1\",\n      \"evid_2\",\n      \"evid_3\",\n      \"evid_4\",\n      \"evid_5\",\n      \"evid_6\"\n    ],\n    \"claims\": [\n      {\n        \"template\": \"personal_change\",\n        \"evidence_id\": \"evid_1\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"evid_2\"\n      },\n      {\n        \"template\": \"personal_change\",\n        \"evidence_id\": \"evid_3\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"evid_4\"\n      },\n      {\n        \"template\": \"personal_change\",\n        \"evidence_id\": \"evid_5\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"evid_6\"\n      }\n    ],\n    \"panels\": [\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"evid_1\"\n      },\n      {\n        \"kind\": \"comparison\",\n        \"evidence_id\": \"evid_2\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"evid_3\"\n      },\n      {\n        \"kind\": \"comparison\",\n        \"evidence_id\": \"evid_4\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"evid_5\"\n      },\n      {\n        \"kind\": \"comparison\",\n        \"evidence_id\": \"evid_6\"\n      },\n      {\n        \"kind\": \"observation_status\",\n        \"evidence_id\": \"evid_1\"\n      }\n    ],\n    \"conclusion\": \"descriptive\",\n    \"followups\": []\n  },\n  \"request_map\": [\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137 compared to same_prior_attempt peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133 compared to same_prior_attempt peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks for same_prior_attempt peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137 compared to early_stage peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133 compared to early_stage peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks for early_stage peers\",\n      \"status\": \"answered\"\n    }\n  ],\n  \"stopping_status\": \"complete\"\n}",
+    "turn": 3,
+    "validation_error": "ValidationError: 1 validation error for Action\nrequest_map\n  List should have at most 8 items after validation, not 9 [type=too_long, input_value=[{'request': 'personal_ch..., 'status': 'answered'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long"
+  },
+  {
+    "generation_metadata": {
+      "allocated_bytes": 15243566592,
+      "budget_partition": "pilot",
+      "completed_utc": "2026-09-18T20:11:47.785909+00:00",
+      "completion_tokens": 789,
+      "cuda_event_ms": 18870.033203125,
+      "elapsed_seconds": 18.934187213890254,
+      "generation": 259,
+      "input_device": "cuda:0",
+      "method": "coverage_aware",
+      "nvidia_smi_own_process": [
+        "63822, /workspace/apm-stage1/.venv/bin/python, 21750"
+      ],
+      "output_device": "cuda:0",
+      "peak_allocated_bytes": 17248561152,
+      "phase": "repair",
+      "process_id": "pilot_03",
+      "prompt_tokens": 5680,
+      "question_id": "s3_11b",
+      "started_utc": "2026-09-18T20:11:28.851704+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\n  \"action\": \"final\",\n  \"requests\": [],\n  \"specification\": {\n    \"question_id\": \"s3_11b\",\n    \"cutoff_day\": 55,\n    \"evidence_ids\": [\n      \"evid_1\",\n      \"evid_2\",\n      \"evid_3\",\n      \"evid_4\",\n      \"evid_5\",\n      \"evid_6\"\n    ],\n    \"claims\": [\n      {\n        \"template\": \"personal_change\",\n        \"evidence_id\": \"evid_1\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"evid_2\"\n      },\n      {\n        \"template\": \"personal_change\",\n        \"evidence_id\": \"evid_3\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"evid_4\"\n      },\n      {\n        \"template\": \"personal_change\",\n        \"evidence_id\": \"evid_5\"\n      },\n      {\n        \"template\": \"comparison\",\n        \"evidence_id\": \"evid_6\"\n      }\n    ],\n    \"panels\": [\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"evid_1\"\n      },\n      {\n        \"kind\": \"comparison\",\n        \"evidence_id\": \"evid_2\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"evid_3\"\n      },\n      {\n        \"kind\": \"comparison\",\n        \"evidence_id\": \"evid_4\"\n      },\n      {\n        \"kind\": \"trajectory\",\n        \"evidence_id\": \"evid_5\"\n      },\n      {\n        \"kind\": \"comparison\",\n        \"evidence_id\": \"evid_6\"\n      },\n      {\n        \"kind\": \"observation_status\",\n        \"evidence_id\": \"evid_1\"\n      }\n    ],\n    \"conclusion\": \"descriptive\",\n    \"followups\": []\n  },\n  \"request_map\": [\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137 compared to same_prior_attempt peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133 compared to same_prior_attempt peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks for same_prior_attempt peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in recent weeks 4\\u20137 compared to early_stage peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"personal_change for clicks_per_eligible_day in baseline weeks 0\\u20133 compared to early_stage peers\",\n      \"status\": \"answered\"\n    },\n    {\n      \"request\": \"comparison for clicks_per_eligible_day between recent and baseline weeks for early_stage peers\",\n      \"status\": \"answered\"\n    }\n  ],\n  \"stopping_status\": \"complete\"\n}",
+    "stopping_decision": "failed final; repair unavailable",
+    "turn": 4,
+    "validation_error": "ValidationError: 1 validation error for Action\nrequest_map\n  List should have at most 8 items after validation, not 9 [type=too_long, input_value=[{'request': 'personal_ch..., 'status': 'answered'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long"
+  }
+]

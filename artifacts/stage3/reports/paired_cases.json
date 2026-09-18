@@ -1,0 +1,866 @@
+[
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_01",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "personal_change",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_01a",
+      "s3_01b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_02",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "personal_change",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_02a",
+      "s3_02b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_03",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "reference_sensitivity",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_03a",
+      "s3_03b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_04",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "reference_sensitivity",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_04a",
+      "s3_04b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_05",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "observation_limits",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_05a",
+      "s3_05b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_06",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "observation_limits",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_06a",
+      "s3_06b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_07",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "insufficient_support",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_07a",
+      "s3_07b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_08",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "insufficient_support",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_08a",
+      "s3_08b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_09",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "assessment_availability",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_09a",
+      "s3_09b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_10",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "assessment_availability",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_10a",
+      "s3_10b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_11",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "alternate_windows",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_11a",
+      "s3_11b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_12",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "alternate_windows",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "baseline",
+    "question_ids": [
+      "s3_12a",
+      "s3_12b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_01",
+    "complete_a": false,
+    "complete_b": true,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "personal_change",
+    "fraction_b_minus_a": 0.5,
+    "mean_answer_fraction": 0.75,
+    "method": "generic",
+    "question_ids": [
+      "s3_01a",
+      "s3_01b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_02",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "personal_change",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "generic",
+    "question_ids": [
+      "s3_02a",
+      "s3_02b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_03",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "reference_sensitivity",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "generic",
+    "question_ids": [
+      "s3_03a",
+      "s3_03b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_04",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "reference_sensitivity",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "generic",
+    "question_ids": [
+      "s3_04a",
+      "s3_04b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_05",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "observation_limits",
+    "fraction_b_minus_a": -0.3333333333333333,
+    "mean_answer_fraction": 0.16666666666666666,
+    "method": "generic",
+    "question_ids": [
+      "s3_05a",
+      "s3_05b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_06",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "observation_limits",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.0,
+    "method": "generic",
+    "question_ids": [
+      "s3_06a",
+      "s3_06b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_07",
+    "complete_a": false,
+    "complete_b": true,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "insufficient_support",
+    "fraction_b_minus_a": 1.0,
+    "mean_answer_fraction": 0.5,
+    "method": "generic",
+    "question_ids": [
+      "s3_07a",
+      "s3_07b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_08",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "insufficient_support",
+    "fraction_b_minus_a": 0.5,
+    "mean_answer_fraction": 0.25,
+    "method": "generic",
+    "question_ids": [
+      "s3_08a",
+      "s3_08b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_09",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "assessment_availability",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.0,
+    "method": "generic",
+    "question_ids": [
+      "s3_09a",
+      "s3_09b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_10",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "assessment_availability",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.0,
+    "method": "generic",
+    "question_ids": [
+      "s3_10a",
+      "s3_10b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_11",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "alternate_windows",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "generic",
+    "question_ids": [
+      "s3_11a",
+      "s3_11b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_12",
+    "complete_a": false,
+    "complete_b": true,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "alternate_windows",
+    "fraction_b_minus_a": 1.0,
+    "mean_answer_fraction": 0.5,
+    "method": "generic",
+    "question_ids": [
+      "s3_12a",
+      "s3_12b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_01",
+    "complete_a": false,
+    "complete_b": true,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "personal_change",
+    "fraction_b_minus_a": 0.5,
+    "mean_answer_fraction": 0.75,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_01a",
+      "s3_01b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_02",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "personal_change",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_02a",
+      "s3_02b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_03",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "reference_sensitivity",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_03a",
+      "s3_03b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_04",
+    "complete_a": true,
+    "complete_b": false,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "reference_sensitivity",
+    "fraction_b_minus_a": -1.0,
+    "mean_answer_fraction": 0.5,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_04a",
+      "s3_04b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_05",
+    "complete_a": false,
+    "complete_b": true,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "observation_limits",
+    "fraction_b_minus_a": 1.0,
+    "mean_answer_fraction": 0.5,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_05a",
+      "s3_05b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_06",
+    "complete_a": false,
+    "complete_b": true,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "observation_limits",
+    "fraction_b_minus_a": 1.0,
+    "mean_answer_fraction": 0.5,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_06a",
+      "s3_06b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_07",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "insufficient_support",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.5,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_07a",
+      "s3_07b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_08",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "insufficient_support",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_08a",
+      "s3_08b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_09",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "assessment_availability",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.0,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_09a",
+      "s3_09b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_10",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "assessment_availability",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.0,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_10a",
+      "s3_10b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_11",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "alternate_windows",
+    "fraction_b_minus_a": 0.6,
+    "mean_answer_fraction": 0.3,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_11a",
+      "s3_11b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_12",
+    "complete_a": true,
+    "complete_b": false,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "alternate_windows",
+    "fraction_b_minus_a": -0.4,
+    "mean_answer_fraction": 0.8,
+    "method": "reference_sensitive",
+    "question_ids": [
+      "s3_12a",
+      "s3_12b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_01",
+    "complete_a": false,
+    "complete_b": true,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "personal_change",
+    "fraction_b_minus_a": 0.5,
+    "mean_answer_fraction": 0.75,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_01a",
+      "s3_01b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_02",
+    "complete_a": true,
+    "complete_b": false,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "personal_change",
+    "fraction_b_minus_a": -0.5,
+    "mean_answer_fraction": 0.75,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_02a",
+      "s3_02b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_03",
+    "complete_a": false,
+    "complete_b": true,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "reference_sensitivity",
+    "fraction_b_minus_a": 1.0,
+    "mean_answer_fraction": 0.5,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_03a",
+      "s3_03b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_04",
+    "complete_a": true,
+    "complete_b": true,
+    "complete_phrasings": 2,
+    "completeness_agreement": true,
+    "family": "reference_sensitivity",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 1.0,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_04a",
+      "s3_04b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_05",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "observation_limits",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.8333333333333334,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_05a",
+      "s3_05b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_06",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "observation_limits",
+    "fraction_b_minus_a": -0.5,
+    "mean_answer_fraction": 0.25,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_06a",
+      "s3_06b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_07",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "insufficient_support",
+    "fraction_b_minus_a": 0.5,
+    "mean_answer_fraction": 0.25,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_07a",
+      "s3_07b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_08",
+    "complete_a": true,
+    "complete_b": false,
+    "complete_phrasings": 1,
+    "completeness_agreement": false,
+    "family": "insufficient_support",
+    "fraction_b_minus_a": -1.0,
+    "mean_answer_fraction": 0.5,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_08a",
+      "s3_08b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_09",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "assessment_availability",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.0,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_09a",
+      "s3_09b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": false,
+    "case_id": "s3_10",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "assessment_availability",
+    "fraction_b_minus_a": -0.75,
+    "mean_answer_fraction": 0.375,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_10a",
+      "s3_10b"
+    ],
+    "selected_analysis_agreement": false,
+    "validity_agreement": false
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_11",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "alternate_windows",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.0,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_11a",
+      "s3_11b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  },
+  {
+    "answer_pattern_agreement": true,
+    "case_id": "s3_12",
+    "complete_a": false,
+    "complete_b": false,
+    "complete_phrasings": 0,
+    "completeness_agreement": true,
+    "family": "alternate_windows",
+    "fraction_b_minus_a": 0.0,
+    "mean_answer_fraction": 0.0,
+    "method": "coverage_aware",
+    "question_ids": [
+      "s3_12a",
+      "s3_12b"
+    ],
+    "selected_analysis_agreement": true,
+    "validity_agreement": true
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_11a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_11a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_11a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_11a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "baseline"
+    },
+    {
+      "question_id": "s3_11a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_11a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "baseline"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "Compare recent clicks per eligible day with course peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_b7729eb094096bf9d9b9"]
+    },
+    {
+      "request": "Compare baseline clicks per eligible day with course peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_fe9e04284b947e089e90"]
+    },
+    {
+      "request": "Compare recent clicks per eligible day with same prior attempt peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_835bfe96f72e4cff7452"]
+    },
+    {
+      "request": "Compare baseline clicks per eligible day with same prior attempt peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_ffe782afe9d1ed77fe5f"]
+    },
+    {
+      "request": "Compare recent clicks per eligible day with early stage peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_c97f39adb116ea33835e"]
+    },
+    {
+      "request": "Compare baseline clicks per eligible day with early stage peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_5018088fa3027a980d38"]
+    }
+  ],
+  "stopping_status": "complete"
+}

@@ -1,0 +1,120 @@
+{
+  "backend": "transformers",
+  "billing_note": "Unknown; cannot infer billing time from model process, CUDA kernels or stage elapsed time",
+  "branch": "main",
+  "checks": {
+    "browser": "artifacts/stage3/inspection/browser.json",
+    "device_after_completion": "artifacts/stage3/checks/device_after_completion.json",
+    "publication_preflight": "artifacts/stage3/checks/publication_preflight.json",
+    "tests": "artifacts/stage3/checks/final_prefreeze_tests.xml",
+    "verification": "artifacts/stage3/checks/final_verification.json"
+  },
+  "counts": {
+    "accepted_pilot_dashboards": 68,
+    "agent_episodes": 72,
+    "construction_setup_generations": 31,
+    "deterministic_episodes": 24,
+    "failed_agent_episodes": 28,
+    "generation_attempts": 277,
+    "person_case_units": 12,
+    "pilot_generations": 246,
+    "question_instances": 24,
+    "replayed_saved_results": 74,
+    "stage3_tests": 16,
+    "tests_passed": 44
+  },
+  "cpu_offload": false,
+  "cuda_execution_proof_path": "artifacts/stage3/gpu/pilot_03/runtime.json",
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 1500
+  },
+  "environment": {
+    "accelerate": "1.10.1",
+    "altair": "5.5.0",
+    "cuda_runtime": "12.8",
+    "huggingface-hub": "0.34.4",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "pydantic": "2.11.7",
+    "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.2",
+    "vl-convert-python": "1.8.0"
+  },
+  "execution_commit": "6c0020b103a8485549cfa7659df3246e07cafb0d",
+  "external_human_review": "outstanding",
+  "final_handoff_commit": "Resolve main tip with git rev-parse HEAD; full SHA reported in completion message",
+  "freeze_digest": "41c89f8fe024a5c22e0c764163b90ef0350603c20269a0fa4f1fb79bb74573fb",
+  "frozen_pilot_protocol_deviations": [],
+  "gpu": "NVIDIA RTX 6000 Ada Generation, 580.159.04, 49140 MiB",
+  "historical_files_preserved": 1043,
+  "limits_met": true,
+  "local_followup_server_exit_code": 0,
+  "local_followup_server_stopped": true,
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_process_seconds": 3022.9896286511794,
+  "model_processes": [
+    {
+      "elapsed_seconds": 276.3188057602383,
+      "event": "process_finished",
+      "generation_count": 21,
+      "process_id": "construction_01",
+      "status": "completed",
+      "utc": "2026-09-18T19:23:36.134017+00:00"
+    },
+    {
+      "elapsed_seconds": 138.07778981793672,
+      "event": "process_finished",
+      "generation_count": 30,
+      "process_id": "construction_02",
+      "status": "completed",
+      "utc": "2026-09-18T19:29:19.491189+00:00"
+    },
+    {
+      "elapsed_seconds": 2608.5930330730043,
+      "event": "process_finished",
+      "generation_count": 277,
+      "process_id": "pilot_03",
+      "status": "completed",
+      "utc": "2026-09-18T20:17:13.557018+00:00"
+    }
+  ],
+  "model_processes_stopped": true,
+  "parameter_devices": [
+    "cuda:0"
+  ],
+  "pilot_shared_initialization_seconds": 25.865610364824533,
+  "pilot_shared_profile_warmup_seconds": 1.2897626729682088,
+  "pod_billing_time": null,
+  "pod_terminated": false,
+  "precision": "bfloat16",
+  "push": {
+    "preflight": "authentication unavailable",
+    "status": "pending final ordinary push"
+  },
+  "readiness": "Ready for external scientific review with limitations; do not advance coverage-aware policy unchanged to full evaluation.",
+  "report_prepared_utc": "2026-09-18T20:34:22.703781+00:00",
+  "reporting_notes": [
+    "Handoff aggregation added after freeze; it only tabulates original frozen scores.",
+    "One replay invocation left no result or captured error; a single repeated verification completed successfully.",
+    "Two pre-freeze format checks reused construction examples; all failed originals and 31 construction/setup generations preserved."
+  ],
+  "reserved_population": "closed; no reserved trajectories inspected",
+  "results": {
+    "paired_cases": "artifacts/stage3/reports/paired_cases.json",
+    "per_question": "artifacts/stage3/reports/per_question.json",
+    "primary": "artifacts/stage3/reports/comparison.json",
+    "stage2_posthoc": "artifacts/stage3/stage2_reanalysis/REANALYSIS.md"
+  },
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "scientific_implementation_commit": "6f07d4e0cf706e6589bc3d1a20bfe96a59256d82",
+  "scientific_result": "No measured completeness/cost benefit for coverage-aware policy; deterministic baseline complete and cheaper.",
+  "stage": 3,
+  "started_utc": "2026-09-18T19:03:18Z",
+  "starting_commit": "367fce597a4ba1d1277e9f84db5b5cc5241cbf69",
+  "status": "executed_and_verified_handoff_pending_git",
+  "unclosed_model_processes": [],
+  "wall_limit_seconds": 21600,
+  "wall_seconds_at_report": 5464.703781
+}

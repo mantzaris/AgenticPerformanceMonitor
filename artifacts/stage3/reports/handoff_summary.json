@@ -1,0 +1,224 @@
+{
+  "created_utc": "2026-09-18T20:30:37.727558+00:00",
+  "methods": [
+    {
+      "adaptive_episodes": 0,
+      "availability_answers": 8,
+      "availability_compiler_supplied": 0,
+      "availability_denominator": 8,
+      "availability_method_selected": 8,
+      "exact_repeated_selected_panels": 0,
+      "failure_messages": {},
+      "families": {
+        "alternate_windows": {
+          "complete": 4,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "assessment_availability": {
+          "complete": 4,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "insufficient_support": {
+          "complete": 4,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "observation_limits": {
+          "complete": 4,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "personal_change": {
+          "complete": 4,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "reference_sensitivity": {
+          "complete": 4,
+          "question_denominator": 4,
+          "valid": 4
+        }
+      },
+      "method": "baseline",
+      "optional_personal_history_questions": 4,
+      "retrieved_but_omitted_in_accepted": 0,
+      "retrieved_but_omitted_in_failed": 0,
+      "scoped_insufficiency_answers": 8,
+      "scoped_insufficiency_denominator": 8
+    },
+    {
+      "adaptive_episodes": 11,
+      "availability_answers": 1,
+      "availability_compiler_supplied": 0,
+      "availability_denominator": 8,
+      "availability_method_selected": 1,
+      "exact_repeated_selected_panels": 0,
+      "failure_messages": {
+        "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'trajectory', '..._ee11b23f57b823ddde78'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long": 1,
+        "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 18 [type=too_long, input_value=[{'kind': 'comparison', '..._193b175063b9e70c9258'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long": 1,
+        "ValueError: Fix all of these specification errors in the single repair: Selected evidence coverage: claims missing for []; trajectory/comparison panels missing for ['s2_075b047fc16be852ce70', 's2_a917baca1a429c306b0f']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.": 1,
+        "ValueError: Fix all of these specification errors in the single repair: Selected evidence coverage: claims missing for []; trajectory/comparison panels missing for ['s2_d2d520ab49587d5136e2', 's2_83e431ba0011ca589992']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels.": 1,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.": 1,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.": 4,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels. | Selected evidence coverage: claims missing for ['s2_8d45743438a9576ffa86']; trajectory/comparison panels missing for ['s2_8d45743438a9576ffa86']. Add a comparison panel and claim for every listed ID, or remove redundant IDs and all their references. One shared observation_status panel is enough; at most 10 total panels. | specification.conclusion: selected results support 'insufficient_evidence', not 'direction_differs'. 'descriptive' is also admissible.": 1
+      },
+      "families": {
+        "alternate_windows": {
+          "complete": 3,
+          "question_denominator": 4,
+          "valid": 3
+        },
+        "assessment_availability": {
+          "complete": 0,
+          "question_denominator": 4,
+          "valid": 0
+        },
+        "insufficient_support": {
+          "complete": 1,
+          "question_denominator": 4,
+          "valid": 2
+        },
+        "observation_limits": {
+          "complete": 0,
+          "question_denominator": 4,
+          "valid": 1
+        },
+        "personal_change": {
+          "complete": 3,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "reference_sensitivity": {
+          "complete": 4,
+          "question_denominator": 4,
+          "valid": 4
+        }
+      },
+      "method": "generic",
+      "optional_personal_history_questions": 0,
+      "retrieved_but_omitted_in_accepted": 6,
+      "retrieved_but_omitted_in_failed": 43,
+      "scoped_insufficiency_answers": 3,
+      "scoped_insufficiency_denominator": 8
+    },
+    {
+      "adaptive_episodes": 18,
+      "availability_answers": 2,
+      "availability_compiler_supplied": 1,
+      "availability_denominator": 8,
+      "availability_method_selected": 1,
+      "exact_repeated_selected_panels": 0,
+      "failure_messages": {
+        "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._57fd90b70ca2721ab84e'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long": 1,
+        "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._c97f39adb116ea33835e'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long": 1,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_01c3bb3ef475f1a4bc74', 's2_90b703db4178b6eed3a8']": 1,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_075b047fc16be852ce70', 's2_a917baca1a429c306b0f']": 1,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.": 4
+      },
+      "families": {
+        "alternate_windows": {
+          "complete": 1,
+          "question_denominator": 4,
+          "valid": 3
+        },
+        "assessment_availability": {
+          "complete": 0,
+          "question_denominator": 4,
+          "valid": 0
+        },
+        "insufficient_support": {
+          "complete": 2,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "observation_limits": {
+          "complete": 2,
+          "question_denominator": 4,
+          "valid": 2
+        },
+        "personal_change": {
+          "complete": 3,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "reference_sensitivity": {
+          "complete": 3,
+          "question_denominator": 4,
+          "valid": 3
+        }
+      },
+      "method": "reference_sensitive",
+      "optional_personal_history_questions": 1,
+      "retrieved_but_omitted_in_accepted": 3,
+      "retrieved_but_omitted_in_failed": 37,
+      "scoped_insufficiency_answers": 6,
+      "scoped_insufficiency_denominator": 8
+    },
+    {
+      "adaptive_episodes": 18,
+      "availability_answers": 4,
+      "availability_compiler_supplied": 4,
+      "availability_denominator": 8,
+      "availability_method_selected": 0,
+      "exact_repeated_selected_panels": 0,
+      "failure_messages": {
+        "JSONDecodeError: Expecting ',' delimiter: line 84 column 5 (char 2010)": 1,
+        "ValidationError: 1 validation error for Action\nrequest_map\n  List should have at most 8 items after validation, not 9 [type=too_long, input_value=[{'request': 'personal_ch..., 'status': 'answered'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long": 1,
+        "ValidationError: 1 validation error for Action\nspecification.panels\n  List should have at most 10 items after validation, not 11 [type=too_long, input_value=[{'kind': 'comparison', '..._9c79e4fa26002569a8b8'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.11/v/too_long": 1,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_7f28666eb72e0ad8b623', 's2_f52bb061a337334e0374']": 1,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='observation_status'; add it using a selected evidence_id. Keep other panels.": 4,
+        "ValueError: Fix all of these specification errors in the single repair: specification.panels: missing kind='trajectory'; add it using a selected evidence_id. Keep other panels.": 2
+      },
+      "families": {
+        "alternate_windows": {
+          "complete": 0,
+          "question_denominator": 4,
+          "valid": 0
+        },
+        "assessment_availability": {
+          "complete": 0,
+          "question_denominator": 4,
+          "valid": 1
+        },
+        "insufficient_support": {
+          "complete": 1,
+          "question_denominator": 4,
+          "valid": 3
+        },
+        "observation_limits": {
+          "complete": 0,
+          "question_denominator": 4,
+          "valid": 3
+        },
+        "personal_change": {
+          "complete": 2,
+          "question_denominator": 4,
+          "valid": 4
+        },
+        "reference_sensitivity": {
+          "complete": 3,
+          "question_denominator": 4,
+          "valid": 3
+        }
+      },
+      "method": "coverage_aware",
+      "optional_personal_history_questions": 4,
+      "retrieved_but_omitted_in_accepted": 11,
+      "retrieved_but_omitted_in_failed": 39,
+      "scoped_insufficiency_answers": 3,
+      "scoped_insufficiency_denominator": 8
+    }
+  ],
+  "notes": [
+    "Eight scoped insufficiency items: two comparisons in each of four phrasings (two people).",
+    "Eight availability requests: four observation-limit and four assessment questions.",
+    "Failures count as no accepted answer; omitted items in failed episodes are separately identified.",
+    "Exact repeated panels do not detect redundant semantic content under different evidence IDs.",
+    "All paired phrasings remain dependent; no significance test or new score definition."
+  ],
+  "source": "artifacts/stage3/reports/per_question.json",
+  "source_sha256": "be6727f74e49f8e70eda15f601c9782d999d4c592f2e922b71c7633c0071dd8a",
+  "status": "Post-execution descriptive aggregation of unchanged frozen scores"
+}

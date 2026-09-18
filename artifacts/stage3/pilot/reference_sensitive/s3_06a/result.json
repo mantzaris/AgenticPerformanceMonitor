@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-18T19:53:58.105663+00:00",
+  "completion_tokens": 1030,
+  "elapsed_seconds": 29.507530791219324,
+  "error": "ValueError: Fix all of these specification errors in the single repair: specification.panels: assessment evidence requires kind='assessment_status' with one of these evidence_ids: ['s2_075b047fc16be852ce70', 's2_a917baca1a429c306b0f']",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "reference_sensitive",
+  "prompt_tokens": 19289,
+  "question_id": "s3_06a",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-18T19:53:28.594874+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": true,
+  "tool_calls_attempted": 4,
+  "tool_calls_executed": 4
+}

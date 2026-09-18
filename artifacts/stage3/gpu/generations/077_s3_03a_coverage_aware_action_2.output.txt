@@ -1,0 +1,41 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "question_id": "s3_03a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_03a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "same_prior_attempt",
+      "window": "recent"
+    },
+    {
+      "question_id": "s3_03a",
+      "feature": "clicks_per_eligible_day",
+      "reference": "early_stage",
+      "window": "recent"
+    }
+  ],
+  "request_map": [
+    {
+      "request": "Compare recent clicks per eligible day for course peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_2156f68674f5aab6297e"]
+    },
+    {
+      "request": "Compare recent clicks per eligible day for same prior attempt peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_da518c2c273596763dce"]
+    },
+    {
+      "request": "Compare recent clicks per eligible day for early stage peers.",
+      "status": "answered",
+      "evidence_ids": ["s2_a5e4ebebf3e8cf97bfff"]
+    }
+  ],
+  "specification": null
+}
