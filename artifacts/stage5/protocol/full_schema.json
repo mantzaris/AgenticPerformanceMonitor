@@ -1,0 +1,213 @@
+{
+  "$defs": {
+    "ClaimRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "template": {
+          "enum": [
+            "comparison",
+            "personal_change",
+            "measurement_limits"
+          ],
+          "title": "Template",
+          "type": "string"
+        }
+      },
+      "required": [
+        "template",
+        "evidence_id"
+      ],
+      "title": "ClaimRecord",
+      "type": "object"
+    },
+    "Panel": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "trajectory",
+            "comparison",
+            "observation_status",
+            "assessment_status"
+          ],
+          "title": "Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "evidence_id"
+      ],
+      "title": "Panel",
+      "type": "object"
+    },
+    "Request": {
+      "additionalProperties": false,
+      "properties": {
+        "feature": {
+          "enum": [
+            "clicks_per_eligible_day",
+            "active_days",
+            "distinct_resources",
+            "nonbanked_submissions",
+            "scheduled_no_submission"
+          ],
+          "title": "Feature",
+          "type": "string"
+        },
+        "question_id": {
+          "title": "Question Id",
+          "type": "string"
+        },
+        "reference": {
+          "enum": [
+            "course",
+            "same_prior_attempt",
+            "early_stage"
+          ],
+          "title": "Reference",
+          "type": "string"
+        },
+        "tool": {
+          "const": "analyze",
+          "default": "analyze",
+          "title": "Tool",
+          "type": "string"
+        },
+        "window": {
+          "default": "recent",
+          "enum": [
+            "recent",
+            "baseline"
+          ],
+          "title": "Window",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question_id",
+        "feature",
+        "reference"
+      ],
+      "title": "Request",
+      "type": "object"
+    },
+    "Specification": {
+      "additionalProperties": false,
+      "properties": {
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/ClaimRecord"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Claims",
+          "type": "array"
+        },
+        "conclusion": {
+          "enum": [
+            "descriptive",
+            "same_direction",
+            "direction_differs",
+            "insufficient_evidence"
+          ],
+          "title": "Conclusion",
+          "type": "string"
+        },
+        "cutoff_day": {
+          "title": "Cutoff Day",
+          "type": "integer"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 6,
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "followups": {
+          "items": {
+            "enum": [
+              "change_reference",
+              "change_window",
+              "check_assessment_availability"
+            ],
+            "type": "string"
+          },
+          "maxItems": 3,
+          "title": "Followups",
+          "type": "array"
+        },
+        "panels": {
+          "items": {
+            "$ref": "#/$defs/Panel"
+          },
+          "maxItems": 10,
+          "minItems": 2,
+          "title": "Panels",
+          "type": "array"
+        },
+        "question_id": {
+          "title": "Question Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question_id",
+        "cutoff_day",
+        "evidence_ids",
+        "claims",
+        "panels",
+        "conclusion",
+        "followups"
+      ],
+      "title": "Specification",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "action": {
+      "enum": [
+        "analyze",
+        "final"
+      ],
+      "title": "Action",
+      "type": "string"
+    },
+    "requests": {
+      "items": {
+        "$ref": "#/$defs/Request"
+      },
+      "maxItems": 6,
+      "title": "Requests",
+      "type": "array"
+    },
+    "specification": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Specification"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "action"
+  ],
+  "title": "Action",
+  "type": "object"
+}

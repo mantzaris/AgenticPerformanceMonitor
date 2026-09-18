@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "immutable history and frozen inputs",
+    "unchanged source observations",
+    "person-disjoint structural selection and reference pool",
+    "balanced paired order",
+    "48 equivalent public initial messages across checkpoints",
+    "generic policy unchanged",
+    "compiler output reconstructed without extra analyses",
+    "no compiler comparison/change claims",
+    "exact bound/chart/SVG/provenance replay",
+    "CUDA proof and append-only ledger ceilings"
+  ],
+  "comparison_results": 0,
+  "created_utc": "2026-09-18T22:28:05.885969+00:00",
+  "frozen_files_unchanged": 88,
+  "generation_partitions": {
+    "setup": 4
+  },
+  "historical_files_unchanged": 4041,
+  "model_process_seconds": 175.53497331496328,
+  "new_people": 12,
+  "prior_people_excluded": 45,
+  "replay_count": 0,
+  "replayed": [],
+  "reserved_people_excluded": 8583,
+  "semantic_recompile_count": 0,
+  "semantic_recompiled": [],
+  "status": "PASS",
+  "total_generations": 4
+}
