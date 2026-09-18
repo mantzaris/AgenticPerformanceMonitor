@@ -6,21 +6,30 @@ covered all twelve pilot tasks. Both agents omitted requested context, and the
 frozen insufficiency-scoring item has a documented defect. All original results
 remain available; no failed pilot episode was rerun.
 
-Branch: `stage2/scientific-pilot`. Starting commit:
+Current branch: `main`. After Stage 2 completed, the repository owner requested
+consolidation onto `main` and deletion of the working branch. `main` was
+fast-forwarded, preserving every Stage 2 commit, and the local
+`stage2/scientific-pilot` branch was deleted. No corresponding remote branch
+existed. The frozen scope and execution ledgers retain the historical branch
+name. Future work follows the owner's workflow recorded in [AGENTS.md](AGENTS.md).
+
+Stage 2 starting commit:
 `dd87aaf012b2ecb8f9a45f00f782fabeebb4450c`.
 Construction GPU execution used `4e80e4e` (the source snapshot is recorded in its runtime).
 Scientific implementation and pre-pilot hardening are committed in `39c68e9`.
 Frozen pilot execution commit: `5163ac032465a294b02684e80e94bf2e11a22164`.
-The final handoff commit is the branch tip, available with `git rev-parse HEAD`
-and reported in the completion message. No merge into main was performed.
+Stage 2 completion commit: `2cce1156a3b41159a328b9c3a77b4d97b4e41abb`.
+Subsequent commits on `main` document the branch consolidation and workflow;
+the current tip is available with `git rev-parse HEAD`.
 
-**Push status:** the branch is committed locally. Automatic review initially
+**Transport history:** at the Stage 2 handoff, the work was committed locally.
+Automatic review initially
 rejected the push over destination/payload concerns. Read-only verification showed
 that the existing origin's main ref exactly matched the starting commit; the
 public OULAD source/license and proposed artifact contents were checked. The
 same direct push was then permitted, but GitHub HTTPS authentication failed:
 `could not read Username`, with terminal prompts disabled. No branch was pushed.
-After authenticating, run `git push -u origin stage2/scientific-pilot`.
+The publication command after consolidation is `git push origin main`.
 See [transport evidence](artifacts/stage2/checks/git_transport.json) and
 [destination/payload checks](artifacts/stage2/checks/push_preflight.json).
 
