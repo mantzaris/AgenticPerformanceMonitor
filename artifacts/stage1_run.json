@@ -1,0 +1,75 @@
+{
+  "code_commit": "c801f1bda91fa9ee4e7e84c3dcb6b3e4227cf6ea",
+  "code_sha256": "cbdfbaa271f5ae26da303ddcead933f1f143d6687cc156afcdd0c61a45fba733",
+  "completed_utc": "2026-09-18T16:46:15.026661+00:00",
+  "config_sha256": "6a8382d3cf6d53aed450f6f8449ef73511f64cf9434a695191d6be3bfdbc671b",
+  "dataset_sha256": "f2ed1902616c1fe8d2824d872c0b7d2d72be435bf0124d077044fe4be2c6d3e4",
+  "environment": {
+    "branch": "stage1/research-foundations",
+    "gpu_runtime_path": "artifacts/gpu/runtime.json",
+    "gpu_source_commit": "53187de3a55be7be0331d1e0fd200339af1c4c82",
+    "gpu_source_sha256": "7ff34cfc7e4850e9cfbc1ae31cba1117970d4c971b8dec82cf45aa04777df833",
+    "lock_sha256": "0dc161327dced7a140242a20822790c1ae71186771ed75a254688e0031b561ee",
+    "packages": {
+      "altair": "5.5.0",
+      "duckdb": "1.3.2",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "pydantic": "2.11.7",
+      "statsmodels": "0.14.5",
+      "vl-convert-python": "1.8.0"
+    },
+    "python": "3.10.18"
+  },
+  "resource_use": {
+    "billing_time": "unknown; not inferred from stage wall or model process time",
+    "generation_limit": 20,
+    "gpu_process_limit_seconds": 7200,
+    "gpu_process_seconds": 138.15159073797986,
+    "local_model_generations": 8,
+    "model_download_bytes": 15242805751,
+    "pod_left_running": true,
+    "stage_wall_seconds_to_artifact_freeze": 2231.026661,
+    "wall_limit_seconds": 21600
+  },
+  "results": [
+    {
+      "component": "deterministic_dashboards",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "component": "focused_tests",
+      "failed": 0,
+      "passed": 12,
+      "status": "PASS"
+    },
+    {
+      "component": "saved_replays",
+      "count": 6,
+      "status": "PASS"
+    },
+    {
+      "final_repairs": 1,
+      "question_id": "dev_1",
+      "status": "agent_generated_and_repaired",
+      "tool_calls_executed": 3
+    },
+    {
+      "final_repairs": 0,
+      "question_id": "dev_2",
+      "status": "agent_generated_and_accepted",
+      "tool_calls_executed": 3
+    },
+    {
+      "error": "ValueError: Required comparison/observation panels omitted",
+      "fallback_status": "deterministic_fallback; NOT agent success",
+      "final_repairs": 1,
+      "question_id": "dev_3",
+      "status": "failed",
+      "tool_calls_executed": 2
+    }
+  ],
+  "stage": "stage1",
+  "started_utc": "2026-09-18T16:09:04Z"
+}
