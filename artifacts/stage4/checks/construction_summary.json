@@ -1,0 +1,26 @@
+{
+  "construction_budget_remaining": 0,
+  "created_utc": "2026-09-18T21:14:51.174904+00:00",
+  "format_check": {
+    "completed_utc": "2026-09-18T21:12:52.347351+00:00",
+    "elapsed_seconds": 6.513245505746454,
+    "generations": 1,
+    "kind": "one-generation construction format check, not an investigation episode",
+    "question_id": "s4_build_s3_01",
+    "repairs": 0,
+    "started_utc": "2026-09-18T21:12:45.834122+00:00",
+    "status": "format_accepted",
+    "tool_calls": 0
+  },
+  "format_check_is_pilot_or_agent_success": false,
+  "generation_partitions": {
+    "construction": 24,
+    "setup": 2
+  },
+  "initial_model_startup_failure": "Split manifest omitted from transfer; added verified existing manifest; 24.37548689590767 seconds counted, zero generations.",
+  "interface_fix": "Flatten only the final semantic envelope; support and source validation unchanged. Generic investigation policy unchanged.",
+  "model_process_seconds": 251.4837745805271,
+  "original_accepted": 0,
+  "original_episodes": 6,
+  "original_failures_preserved": true
+}

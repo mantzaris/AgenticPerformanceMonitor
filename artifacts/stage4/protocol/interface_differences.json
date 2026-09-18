@@ -1,0 +1,16 @@
+{
+  "common_prompt_sha256": "a99f1cff53874d8ab2bfbdb99bf5bf938585c03d09f39372e92d480f8cada224",
+  "compact_only": "Flat semantic intents with returned IDs, support and explicit conclusion scope; deterministic layout/context compilation",
+  "compiler_mapping": "docs/stage4/INTERFACE.md",
+  "construction_scope": "The single final-format check is not part of the pilot; all six original failures remain.",
+  "full_only": "Full Specification selection, including manual claims/panels/global conclusion; original panel contract",
+  "generic_policy_identical_to_stage3": true,
+  "public_rules": "docs/stage4/PUBLIC_INTERPRETATION.md",
+  "same_loop": "Stage 3 generic schedule, batching, six calls/four generations/one final repair; no coverage map, phase reminders, deduplication or missing-answer routing",
+  "shared_changes": [
+    "Optional Stage 3 task-state fields absent in both interfaces",
+    "Stage 4 label/provenance display and read-only export wrapper",
+    "Explicit method-versus-compiler attribution using unchanged Stage 3 scoring predicates"
+  ],
+  "version": "stage4-v1"
+}
