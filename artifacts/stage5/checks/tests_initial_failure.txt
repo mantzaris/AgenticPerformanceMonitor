@@ -1,0 +1,28 @@
+....F.                                                                   [100%]
+=================================== FAILURES ===================================
+_______________ test_pins_tokenizers_budgets_and_disjoint_people _______________
+
+    def test_pins_tokenizers_budgets_and_disjoint_people():
+        cfg = read_json('configs/stage5.json')
+        assert cfg['models']['qwen7b']['revision'] == read_json('artifacts/gpu/model_manifest.json')['revision']
+        acquired = read_json(cfg['models']['qwen14b']['manifest'])
+        assert cfg['models']['qwen14b']['revision'] == acquired['revision']
+        assert acquired['total_file_bytes'] < cfg['new_model_bytes_limit'] == 40_000_000_000
+        assert cfg['generation_limit'] == 208 and cfg['comparison_generation_limit'] == 48 * 4
+        assert cfg['setup_generation_limit'] == 16 and cfg['gpu_process_seconds_limit'] == 7200
+        for key in ['decoding', 'episode', 'profiles', 'references', 'bootstrap_replicates', 'minimum_focal_weeks', 'minimum_peer_people']:
+            assert cfg[key] == read_json('configs/stage4.json')[key]
+        tokenizers = read_json(ROOT / 'models/tokenizer_comparison.json')
+        assert tokenizers['templates_identical'] and tokenizers['special_tokens_identical'] and tokenizers['tokenizer_files_identical']
+        manifest = read_json(ROOT / 'tasks/manifest.json')
+        new = set(manifest['new_focal_people'])
+        old = set(read_json('artifacts/stage4/tasks/manifest.json')['reference_pool_excluded_people'])
+        splits = read_json('artifacts/data/splits.json')
+>       reserved = set(splits['reserved_student_ids'])
+E       KeyError: 'reserved_student_ids'
+
+tests/test_stage5.py:70: KeyError
+- generated xml file: /home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/stage5/checks/tests.xml -
+=========================== short test summary info ============================
+FAILED tests/test_stage5.py::test_pins_tokenizers_budgets_and_disjoint_people
+1 failed, 5 passed in 2.66s

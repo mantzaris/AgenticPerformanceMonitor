@@ -32,9 +32,14 @@ def main():
     used_seconds=sum(e['elapsed_seconds'] for e in ends)
     generations=sum(e['event']=='generation_started' for e in events)
     deadline=datetime.fromisoformat(cfg['deadline_utc'].replace('Z','+00:00'))
+    prior_authorizations=[e for e in events if e['event']=='independent_rerun_authorized']
+    if prior_authorizations:
+        if len(prior_authorizations)!=1:raise ValueError('Ambiguous rerun authorization')
+        deadline=datetime.fromisoformat(prior_authorizations[0]['deadline_utc'])
     if args.authorization_start_utc:
         if events:raise ValueError('New authorization requires a fresh checkout/output ledger; historical attempts must be preserved')
         deadline=datetime.fromisoformat(args.authorization_start_utc.replace('Z','+00:00'))+timedelta(seconds=cfg['wall_seconds_limit'])
+        append_event({'event':'independent_rerun_authorized','started_utc':args.authorization_start_utc,'deadline_utc':deadline.isoformat()},ledger)
     remaining=min(cfg['gpu_process_seconds_limit']-used_seconds,(deadline-datetime.now(timezone.utc)).total_seconds())
     used={part:sum(e['event']=='generation_started' and e.get('budget_partition')==part for e in events) for part in ['comparison','setup']}
     limits={'comparison':cfg['comparison_generation_limit'],'setup':cfg['setup_generation_limit']}

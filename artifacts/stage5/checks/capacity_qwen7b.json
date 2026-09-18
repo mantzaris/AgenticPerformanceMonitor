@@ -1,0 +1,36 @@
+{
+  "comparison_cases_seen": false,
+  "metadata": {
+    "allocated_bytes": 15243883008,
+    "budget_partition": "setup",
+    "capacity_probe_note": "Same Transformers model/SDPA/BF16, 16000 input positions and 1500 greedy argmax steps; EOS is retained and computation continues for capacity only. No grammar constraints or scored answer.",
+    "completed_utc": "2026-09-18T22:17:47.907968+00:00",
+    "completion_tokens": 1500,
+    "cuda_event_ms": 33669.71875,
+    "elapsed_seconds": 33.74577802699059,
+    "eos_reached": false,
+    "finish_reason": "fixed_steps_capacity_only",
+    "generation": 4,
+    "input_device": "cuda:0",
+    "last_generated_token_id": 17,
+    "method": "setup",
+    "model_key": "qwen7b",
+    "nvidia_smi_own_process": [
+      "111342, /workspace/apm-stage1/.venv/bin/python, 18536"
+    ],
+    "output_device": "cuda:0",
+    "output_token_ceiling": 1500,
+    "peak_allocated_bytes": 18450055168,
+    "peak_reserved_bytes": 18889048064,
+    "phase": "capacity_probe",
+    "process_id": "qwen7b_setup_02",
+    "prompt_tokens": 16000,
+    "question_id": "known_construction_capacity",
+    "started_utc": "2026-09-18T22:17:14.162140+00:00",
+    "status": "completed"
+  },
+  "model_key": "qwen7b",
+  "process_id": "qwen7b_setup_02",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "status": "PASS"
+}

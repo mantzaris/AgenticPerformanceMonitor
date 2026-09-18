@@ -1,0 +1,29 @@
+{
+  "allocated_bytes": 29550095872,
+  "budget_partition": "setup",
+  "capacity_probe_note": "Same Transformers model/SDPA/BF16, 16000 input positions and 1500 greedy argmax steps; EOS is retained and computation continues for capacity only. No grammar constraints or scored answer.",
+  "completed_utc": "2026-09-18T22:16:48.359214+00:00",
+  "completion_tokens": 1500,
+  "cuda_event_ms": 72099.8203125,
+  "elapsed_seconds": 72.18288924871013,
+  "eos_reached": false,
+  "finish_reason": "fixed_steps_capacity_only",
+  "generation": 2,
+  "input_device": "cuda:0",
+  "last_generated_token_id": 2878,
+  "method": "setup",
+  "model_key": "qwen14b",
+  "nvidia_smi_own_process": [
+    "110660, /workspace/apm-stage1/.venv/bin/python, 34456"
+  ],
+  "output_device": "cuda:0",
+  "output_token_ceiling": 1500,
+  "peak_allocated_bytes": 34687351808,
+  "peak_reserved_bytes": 35582377984,
+  "phase": "capacity_probe",
+  "process_id": "qwen14b_setup_01",
+  "prompt_tokens": 16000,
+  "question_id": "known_construction_capacity",
+  "started_utc": "2026-09-18T22:15:36.176280+00:00",
+  "status": "completed"
+}

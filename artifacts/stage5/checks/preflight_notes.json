@@ -1,0 +1,9 @@
+{
+  "comparison_protocol_deviations": [],
+  "notes": [
+    "One local unit check used the wrong existing split JSON key; corrected the fixture before freeze. Original failed test log and final six-pass log retained.",
+    "SCP rejected a dot source basename while retrieving metadata; repeated with explicit directories, without downloading weights again or running inference.",
+    "Official model-card whitespace is preserved byte-for-byte and excluded from whitespace normalization.",
+    "Capacity setup ran on commit c68457916f2479f0ff7ced572b2d476441e9aeb1. Later code adds only independent-rerun authorization persistence; current-run loading/decoding and capacity computation are unchanged."
+  ]
+}

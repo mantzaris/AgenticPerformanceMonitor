@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="2.660" timestamp="2026-09-18T18:19:32.987295-04:00" hostname="resort"><testcase classname="tests.test_stage5" name="test_historical_implementation_and_artifacts_unchanged" time="0.767" /><testcase classname="tests.test_stage5" name="test_public_messages_identical_and_no_model_or_gold_inputs[full_spec]" time="0.066" /><testcase classname="tests.test_stage5" name="test_public_messages_identical_and_no_model_or_gold_inputs[semantic]" time="0.047" /><testcase classname="tests.test_stage5" name="test_saved_output_score_does_not_depend_on_checkpoint_label" time="0.489" /><testcase classname="tests.test_stage5" name="test_pins_tokenizers_budgets_and_disjoint_people" time="0.005"><failure message="KeyError: 'reserved_student_ids'">def test_pins_tokenizers_budgets_and_disjoint_people():
+        cfg = read_json('configs/stage5.json')
+        assert cfg['models']['qwen7b']['revision'] == read_json('artifacts/gpu/model_manifest.json')['revision']
+        acquired = read_json(cfg['models']['qwen14b']['manifest'])
+        assert cfg['models']['qwen14b']['revision'] == acquired['revision']
+        assert acquired['total_file_bytes'] &lt; cfg['new_model_bytes_limit'] == 40_000_000_000
+        assert cfg['generation_limit'] == 208 and cfg['comparison_generation_limit'] == 48 * 4
+        assert cfg['setup_generation_limit'] == 16 and cfg['gpu_process_seconds_limit'] == 7200
+        for key in ['decoding', 'episode', 'profiles', 'references', 'bootstrap_replicates', 'minimum_focal_weeks', 'minimum_peer_people']:
+            assert cfg[key] == read_json('configs/stage4.json')[key]
+        tokenizers = read_json(ROOT / 'models/tokenizer_comparison.json')
+        assert tokenizers['templates_identical'] and tokenizers['special_tokens_identical'] and tokenizers['tokenizer_files_identical']
+        manifest = read_json(ROOT / 'tasks/manifest.json')
+        new = set(manifest['new_focal_people'])
+        old = set(read_json('artifacts/stage4/tasks/manifest.json')['reference_pool_excluded_people'])
+        splits = read_json('artifacts/data/splits.json')
+&gt;       reserved = set(splits['reserved_student_ids'])
+E       KeyError: 'reserved_student_ids'
+
+tests/test_stage5.py:70: KeyError</failure></testcase><testcase classname="tests.test_stage5" name="test_error_taxonomy_covers_prior_missed_support_and_schema_failures" time="0.001" /></testsuite></testsuites>

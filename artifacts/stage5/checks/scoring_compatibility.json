@@ -1,0 +1,139 @@
+{
+  "created_utc": "2026-09-18T22:25:38.927758+00:00",
+  "fields": [
+    "complete_requested_coverage",
+    "complete_method_selected_coverage",
+    "answer_fraction",
+    "method_selected_fraction",
+    "missing_requested_analyses",
+    "retrieved_but_omitted",
+    "scoped_insufficiency_items",
+    "compiler_supplied_answers"
+  ],
+  "inference_calls": 0,
+  "note": "Same saved output receives identical unchanged Stage 4 scores under either checkpoint reporting label.",
+  "rows": [
+    {
+      "interface": "full_spec",
+      "question_id": "s4_01",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_01",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_02",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_02",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_03",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_03",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_04",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_04",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_05",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_05",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_06",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_06",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_07",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_07",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_08",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_08",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_09",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_09",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_10",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_10",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_11",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_11",
+      "status": "PASS"
+    },
+    {
+      "interface": "full_spec",
+      "question_id": "s4_12",
+      "status": "PASS"
+    },
+    {
+      "interface": "semantic",
+      "question_id": "s4_12",
+      "status": "PASS"
+    }
+  ],
+  "saved_stage4_agent_results": 24,
+  "status": "PASS"
+}
