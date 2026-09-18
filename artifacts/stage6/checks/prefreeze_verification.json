@@ -1,0 +1,31 @@
+{
+  "agent_recompile_count": 0,
+  "attempted_generations": 16,
+  "checks": [
+    "immutable historical/frozen files",
+    "unchanged source and scientific settings",
+    "person-disjoint selection and fixed exclusions",
+    "balanced order",
+    "independent facts agree with saved backend results",
+    "exact binding/provenance reconstruction",
+    "no compiler-added comparison/change claims",
+    "exact bound/chart/SVG/provenance replay",
+    "actual CUDA evidence and cumulative ceilings"
+  ],
+  "comparison_results": 0,
+  "frozen_files_unchanged": 0,
+  "generation_partitions": {
+    "setup": 16
+  },
+  "historical_files_unchanged": 5278,
+  "independent_facts_checked": 0,
+  "model_process_seconds": 153.0170250320807,
+  "new_people": 24,
+  "prior_focal_people_excluded": 57,
+  "recompiled": [],
+  "replay_count": 0,
+  "replayed": [],
+  "reserved_identifiers_excluded": 8583,
+  "status": "PASS",
+  "utc": "2026-09-18T23:43:48.709150+00:00"
+}

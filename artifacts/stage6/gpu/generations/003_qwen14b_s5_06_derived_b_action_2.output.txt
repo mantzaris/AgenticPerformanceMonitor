@@ -1,0 +1,18 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s5_06",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ],
+  "answers": [
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "s2_ba461ff488760e0a2ec8"
+    }
+  ]
+}

@@ -69,6 +69,17 @@ def test_support_and_unavailable_measurements_are_separate(known):
         assert proof['resolved_bindings'][0]['derived_metadata']['scope']=='peer'
 
 
+@pytest.mark.parametrize('condition',['derived_b','binding_c'])
+def test_explicit_separate_peer_and_personal_answers_are_complete(known,condition):
+    eng,q,records,e=known
+    answers=[{'kind':k,'evidence_id':e['evidence_id']} if condition=='derived_b' else {'identity':identity(q,e,k)}
+             for k in ['peer_comparison','personal_change']]
+    spec,proof=compile_selection(eng,q,{'answers':answers},records,condition)
+    score=evaluate(q,spec.model_dump(),records,records,proof,True)
+    assert score['complete_requested_coverage'] and score['complete_method_selected_coverage']
+    assert set(score['scoped_insufficiency_items'])=={'personal_change','course_comparison'}
+
+
 def test_model_cannot_supply_redundant_metadata(known):
     _,q,_,e=known
     for cls,sel in [(DerivedAction,{'kind':'peer_comparison','evidence_id':e['evidence_id']}),(BindingAction,{'identity':identity(q,e,'peer_comparison')})]:

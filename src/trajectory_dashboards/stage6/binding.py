@@ -118,6 +118,8 @@ def resolve(question, handle, records):
 
 
 def compile_selection(engine, question, answer, evidence, condition):
+    if condition not in {'derived_b', 'binding_c'}:
+        raise ValueError('Unknown derived-metadata interface')
     q = Question.model_validate(question)
     cls = DerivedAnswer if condition == 'derived_b' else BindingAnswer
     answer = cls.model_validate(answer)
