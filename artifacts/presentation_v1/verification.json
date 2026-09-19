@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "case": "s6_01",
+      "historical_replay": "PASS",
+      "method": "compact_a",
+      "records": 2,
+      "source_bound_numerical_validation": "PASS"
+    },
+    {
+      "case": "s6_05",
+      "historical_replay": "PASS",
+      "method": "compact_a",
+      "records": 3,
+      "source_bound_numerical_validation": "PASS"
+    },
+    {
+      "case": "s6_09",
+      "historical_replay": "PASS",
+      "method": "compact_a",
+      "records": 3,
+      "source_bound_numerical_validation": "PASS"
+    },
+    {
+      "case": "s6_17",
+      "historical_replay": "PASS",
+      "method": "compact_a",
+      "records": 2,
+      "source_bound_numerical_validation": "PASS"
+    },
+    {
+      "case": "s6_15",
+      "historical_replay": "PASS",
+      "method": "compact_a",
+      "records": 4,
+      "source_bound_numerical_validation": "PASS"
+    },
+    {
+      "case": "s6_15",
+      "historical_replay": "PASS",
+      "method": "baseline",
+      "records": 1,
+      "source_bound_numerical_validation": "PASS"
+    }
+  ],
+  "history": {
+    "starting_commit": "960c1dec9ccef105c2b6f23125be6e54a55847bf",
+    "status": "PASS",
+    "unchanged_files": 7254
+  },
+  "new_inference_generations": 0
+}

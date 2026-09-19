@@ -1,0 +1,47 @@
+{
+  "browser_validation": "inspection/browser_verification.json",
+  "clean_regeneration": {
+    "identical_export_files": 31,
+    "record": "reproducibility.json",
+    "status": "PASS"
+  },
+  "resolved_development_issues": [
+    {
+      "failure": "FileNotFoundError when an evidence URL fragment was appended to index.html",
+      "resolution": "urlsplit strips fragment for source path/hash; capture rerun passed",
+      "stage": "capture metadata"
+    },
+    {
+      "failure": "A new inspect.py shadowed Python standard inspect during Playwright import",
+      "resolution": "Renamed to browser_review.py; browser capture and inspection passed",
+      "stage": "browser imports"
+    },
+    {
+      "failure": "Snap Chromium cannot open the host /tmp via file URLs; subsequent composition had no capture manifest",
+      "resolution": "Documented and guarded Snap limitation; reproduced successfully into a new directory within the checkout.",
+      "stage": "clean reproduction"
+    },
+    {
+      "failure": "All PNGs matched but image path-dependent XObject identifiers changed PDF bytes across roots",
+      "resolution": "ReportLab image object names formerly included the file path. Content-based ImageReader plus invariant PDF metadata now gives identical PDFs across output roots.",
+      "stage": "PDF byte reproducibility"
+    }
+  ],
+  "scope": "Implementation checks only; no evaluation score recalculation, inference or usability study.",
+  "source_validation": "verification.json",
+  "tests": [
+    {
+      "command": ".venv/bin/python -m pytest -q tests/presentation_v1 tests/test_stage6.py",
+      "exit_code": 0,
+      "passed": 25,
+      "seconds": 5.0
+    },
+    {
+      "command": ".venv/bin/python -m pytest -q tests/presentation_v1",
+      "exit_code": 0,
+      "passed": 13,
+      "reason": "Rerun after final presentation content/availability mapping changes",
+      "seconds": 0.93
+    }
+  ]
+}

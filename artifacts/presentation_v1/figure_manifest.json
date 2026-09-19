@@ -1,0 +1,193 @@
+{
+  "assumed_figure_box_mm": [
+    180,
+    240
+  ],
+  "template": "No paper template found in the repository; 180 mm double-column width assumed.",
+  "font_files": {
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf": "437a5ecec2ec177cba9284cbffc56055311347f3e9fe4f2b4b40323d0290a6db",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf": "aa2ebed70cf6a389400a49feeb976c785de411f387d0cff998472590760cc2b6"
+  },
+  "Pillow": "9.4.0",
+  "ReportLab": "3.5.34",
+  "PNG_DPI": 300,
+  "proof_DPI": 96,
+  "figures": [
+    {
+      "name": "figure1",
+      "pdf": "figures/figure1.pdf",
+      "png": "figures/figure1.png",
+      "proof": "figures/figure1_proof_96dpi.png",
+      "physical_width_mm": 180,
+      "physical_height_mm": 178.57210144927535,
+      "scale_due_to_height_limit": 1,
+      "critical_html_font_pt": 8.041766518315645,
+      "note": "Preferred 180 mm wide candidate.",
+      "panels": [
+        {
+          "capture": "personal",
+          "source_capture_sha256": "15fbb7c093003a73ae5b088b1d369ab04b77dcc9515a0ec41e45589ff43d95a7",
+          "panel_label": "(a) Personal progress",
+          "external_annotation": "Own history and a selected peer comparison.",
+          "physical_width_mm": 87,
+          "physical_height_mm": 163.7554347826087
+        },
+        {
+          "capture": "references",
+          "source_capture_sha256": "84a531965776e9328546fbf9d93a45796219d13326f7796e7fc2c9d977ae79e3",
+          "panel_label": "(b) Reference comparison",
+          "external_annotation": "Same focal measure; saved peer definitions.",
+          "physical_width_mm": 87,
+          "physical_height_mm": 159.6576086956522
+        }
+      ],
+      "pdf_sha256": "fbc7d8fe73d97b4e71942ee055b2381693d124d4bd3cf9d65679e478efdb1456",
+      "png_sha256": "5dadf580b82efceba9e539498134ec12d44a49d0088bbcd4a7dcb8bd66f433d6",
+      "pdf_contains": "raster browser captures and vector panel lettering/annotations; not vector dashboards"
+    },
+    {
+      "name": "figureS2",
+      "pdf": "figures/figureS2.pdf",
+      "png": "figures/figureS2.png",
+      "proof": "figures/figureS2_proof_96dpi.png",
+      "physical_width_mm": 180,
+      "physical_height_mm": 172.8981884057971,
+      "scale_due_to_height_limit": 1,
+      "critical_html_font_pt": 8.041766518315645,
+      "note": "Preferred 180 mm wide candidate.",
+      "panels": [
+        {
+          "capture": "observations",
+          "source_capture_sha256": "15a830b84fbff61b0bccb4951b0cde0d4eff48f59f1b2035fb92884ba447076a",
+          "panel_label": "(c) Limited observations",
+          "external_annotation": "Ineligibility, recorded zeros and unavailable means.",
+          "physical_width_mm": 87,
+          "physical_height_mm": 158.08152173913044
+        },
+        {
+          "capture": "assessments",
+          "source_capture_sha256": "d62600099f6a692b914611673cfbef2d7aee3b2195535a9ec6e47fe019a142e3",
+          "panel_label": "(d) Assessment activity",
+          "external_annotation": "Submission measures and dated record states.",
+          "physical_width_mm": 87,
+          "physical_height_mm": 156.50543478260872
+        }
+      ],
+      "pdf_sha256": "7a0c299a2ab5e9746dba4a2983a39f041cbc2fa18277dc8e313d0483f4fddc3c",
+      "png_sha256": "80a1b4f8b1d51e835b90f6fed81c1703d4e92320d639ae8dcbca583b058994a1",
+      "pdf_contains": "raster browser captures and vector panel lettering/annotations; not vector dashboards"
+    },
+    {
+      "name": "figure2",
+      "pdf": "figures/figure2.pdf",
+      "png": "figures/figure2.png",
+      "proof": "figures/figure2_proof_96dpi.png",
+      "physical_width_mm": 180,
+      "physical_height_mm": 174.47427536231885,
+      "scale_due_to_height_limit": 1,
+      "critical_html_font_pt": 8.041766518315645,
+      "note": "Preferred 180 mm wide candidate.",
+      "panels": [
+        {
+          "capture": "reference-course",
+          "source_capture_sha256": "84a531965776e9328546fbf9d93a45796219d13326f7796e7fc2c9d977ae79e3",
+          "panel_label": "(a) Recent presentation peers",
+          "external_annotation": "Person: weeks 8\u201311. Reference: weeks 8\u201311.",
+          "physical_width_mm": 87,
+          "physical_height_mm": 159.6576086956522
+        },
+        {
+          "capture": "reference-early_stage",
+          "source_capture_sha256": "7bdfea7fd30f618136aec8d32c80f590863f4fea897fa37fa293a420f5402e0f",
+          "panel_label": "(b) Earlier presentation peers",
+          "external_annotation": "Person: weeks 8\u201311. Reference: weeks 0\u20133.",
+          "physical_width_mm": 87,
+          "physical_height_mm": 159.6576086956522
+        }
+      ],
+      "pdf_sha256": "582cb44e57782103f440f0fcfe30009400b7c028a1a619121c80bcab1ecddbf1",
+      "png_sha256": "4f70db8ee426487165d6e895b7282131792553121e645cc32850e82a2febefde",
+      "pdf_contains": "raster browser captures and vector panel lettering/annotations; not vector dashboards"
+    },
+    {
+      "name": "figureS1",
+      "pdf": "figures/figureS1.pdf",
+      "png": "figures/figureS1.png",
+      "proof": "figures/figureS1_proof_96dpi.png",
+      "physical_width_mm": 180,
+      "physical_height_mm": 203.98538647342997,
+      "scale_due_to_height_limit": 1,
+      "critical_html_font_pt": 8.041766518315645,
+      "note": "Preferred 180 mm wide candidate.",
+      "panels": [
+        {
+          "capture": "incomplete",
+          "source_capture_sha256": "c46698b78efe9eca0f29b29b2f94e1a1f0e6490137793c06d83af0d3b6cb35a2",
+          "panel_label": "(a) Saved agent answer",
+          "external_annotation": "Reviewer annotation: the selected peer answers use weeks 0\u20133. The requested recent peer-support answer is omitted; personal insufficiency does not supply it.",
+          "physical_width_mm": 87,
+          "physical_height_mm": 181.4076086956522
+        },
+        {
+          "capture": "baseline",
+          "source_capture_sha256": "7178266bd8971c5db71a893989e9dbe86da8cc33b98fe1649041c4c08af53599",
+          "panel_label": "(b) Saved enumeration answer",
+          "external_annotation": "Reviewer annotation: separate personal and recent-peer insufficiency answers are present. This is the original baseline selection, not a repair to the agent.",
+          "physical_width_mm": 87,
+          "physical_height_mm": 146.8913043478261
+        }
+      ],
+      "pdf_sha256": "1a38a22b89378acbc29daecb3540a158fbdfa6de7dec486fe52a3e9ca46f139e",
+      "png_sha256": "cc1316697501ec66950d718dd18f88a03b5c91abe95f3971da3aed7e77201cfc",
+      "pdf_contains": "raster browser captures and vector panel lettering/annotations; not vector dashboards"
+    },
+    {
+      "name": "figure1_grid",
+      "pdf": "figures/figure1_grid.pdf",
+      "png": "figures/figure1_grid.png",
+      "proof": "figures/figure1_grid_proof_96dpi.png",
+      "physical_width_mm": 180,
+      "physical_height_mm": 240.0,
+      "scale_due_to_height_limit": 0.670727755816214,
+      "critical_html_font_pt": 5.3938360096278215,
+      "note": "Rejected reduction proof: the four-panel layout exceeds the assumed 240 mm figure height at full width; fitting it reduces the critical text below the intended readable size. Use Figure 1 plus Figure S2.",
+      "panels": [
+        {
+          "capture": "personal",
+          "source_capture_sha256": "15fbb7c093003a73ae5b088b1d369ab04b77dcc9515a0ec41e45589ff43d95a7",
+          "panel_label": "(a) Personal progress",
+          "external_annotation": "Own history and peers.",
+          "physical_width_mm": 58.35331475601062,
+          "physical_height_mm": 109.83531527444752
+        },
+        {
+          "capture": "references",
+          "source_capture_sha256": "84a531965776e9328546fbf9d93a45796219d13326f7796e7fc2c9d977ae79e3",
+          "panel_label": "(b) Reference comparison",
+          "external_annotation": "Saved reference definitions.",
+          "physical_width_mm": 58.35331475601062,
+          "physical_height_mm": 107.08678957941805
+        },
+        {
+          "capture": "observations",
+          "source_capture_sha256": "15a830b84fbff61b0bccb4951b0cde0d4eff48f59f1b2035fb92884ba447076a",
+          "panel_label": "(c) Limited observations",
+          "external_annotation": "Unavailable is not zero.",
+          "physical_width_mm": 58.35331475601062,
+          "physical_height_mm": 106.02966431209902
+        },
+        {
+          "capture": "assessments",
+          "source_capture_sha256": "d62600099f6a692b914611673cfbef2d7aee3b2195535a9ec6e47fe019a142e3",
+          "panel_label": "(d) Assessment activity",
+          "external_annotation": "Submission records, not grades.",
+          "physical_width_mm": 58.35331475601062,
+          "physical_height_mm": 104.97253904477999
+        }
+      ],
+      "pdf_sha256": "e22eb5c65f0b59a11ccefa2225330851693fd8eaf5ca1d6f2e9abac99889a895",
+      "png_sha256": "c22cdddd4b97e7f8fb8aebd622582aea77f769371264f01ed0e96a00e561715b",
+      "pdf_contains": "raster browser captures and vector panel lettering/annotations; not vector dashboards"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "purpose": "External S1 reviewer annotation only; never read by the presentation renderer. Copied historical judgments, no rescoring.",
+  "saved_records": [
+    {
+      "complete_requested_coverage": true,
+      "condition": "baseline",
+      "numerical_integrity": "PASS",
+      "question_id": "s6_15",
+      "requested_answers": [
+        {
+          "category": "personal",
+          "covered": true,
+          "evidence_ids": [
+            "s2_0b2d8e34c67e47538724"
+          ],
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "form": "scoped personal-history claim",
+          "id": "personal_change",
+          "justification": "Question explicitly requests comparison with own earlier history.",
+          "omission_type": null,
+          "origin": "method_selected",
+          "outcome": "insufficient_evidence",
+          "relevant_evidence_retrieved": true,
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "covered": true,
+          "evidence_ids": [
+            "s2_0b2d8e34c67e47538724"
+          ],
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "form": "scoped comparison claim",
+          "id": "course_comparison",
+          "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+          "omission_type": null,
+          "origin": "method_selected",
+          "outcome": "insufficient_evidence",
+          "reference": "course",
+          "relevant_evidence_retrieved": true,
+          "window": "recent"
+        }
+      ],
+      "retrieved_but_omitted": []
+    },
+    {
+      "complete_requested_coverage": false,
+      "condition": "compact_a",
+      "numerical_integrity": "PASS",
+      "question_id": "s6_15",
+      "requested_answers": [
+        {
+          "category": "personal",
+          "covered": true,
+          "evidence_ids": [
+            "s2_0b2d8e34c67e47538724"
+          ],
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "form": "scoped personal-history claim",
+          "id": "personal_change",
+          "justification": "Question explicitly requests comparison with own earlier history.",
+          "omission_type": null,
+          "origin": "method_selected",
+          "outcome": "insufficient_evidence",
+          "relevant_evidence_retrieved": true,
+          "window": "recent"
+        },
+        {
+          "category": "peer",
+          "covered": false,
+          "evidence_ids": [],
+          "features": [
+            "clicks_per_eligible_day"
+          ],
+          "form": null,
+          "id": "course_comparison",
+          "justification": "Question requests a recent comparison with peers; shared bare-peers definition is presentation peers.",
+          "omission_type": "retrieved_but_omitted",
+          "origin": null,
+          "outcome": "unanswered",
+          "reference": "course",
+          "relevant_evidence_retrieved": true,
+          "window": "recent"
+        }
+      ],
+      "retrieved_but_omitted": [
+        "course_comparison"
+      ]
+    }
+  ],
+  "sources": {
+    "artifacts/stage6/inspection/VISUAL_REVIEW.md": "4b9bcdd225788d623e7907ec40a6433fc9729adb8b441188d3d47af03bcbfcfd",
+    "artifacts/stage6/inspection/trace_review.json": "e9fb559b70d5e16d0bc05039daa212d2d2c8fa1cfed7dd285235be10358693f6",
+    "artifacts/stage6/reports/per_case.json": "f3c90c3c628aec3160ae3ec0007bdc8a56f67a79a1176c4521a6a97af0a3b427"
+  }
+}

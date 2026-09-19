@@ -1,0 +1,818 @@
+{
+  "animations": "disabled in stylesheet and screenshot option",
+  "browser": "153.0.8010.36",
+  "browser_closed": true,
+  "browser_errors": [],
+  "browser_flags": [
+    "--no-sandbox",
+    "--disable-gpu"
+  ],
+  "captured_utc": "2026-09-19T04:07:31.230353+00:00",
+  "captures": [
+    {
+      "action": null,
+      "browser_source": "gallery/personal/index.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 1092.828125,
+        "width": 944,
+        "x": 28,
+        "y": 60.296875
+      },
+      "file": "captures/personal-expanded.png",
+      "html_sha256": "c45564a8d4321b82908825c8c839e822191f2039b1ab12ad24654e1b460a3cd4",
+      "name": "personal-expanded",
+      "route": "index.html",
+      "sha256": "0b55eced7a605dfdf6a526a80ab316f924616b9620f87fcd76181767e2373e03",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/bound.json": "9c7c16256004ffcb3dd3d25b5e4c1e482f090296f47d7418506417725b92d1b1",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/evidence.json": "4fe3417126cbbf4e79c27f09cd0b3ff50ec232459abf26d5996ba8c883b2246a",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/question.json": "3350a27d12dc4e2a10339f6aee730bc418cd3ff59767ae1737fdb2a2239594d0",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/selection_provenance.json": "9ba7657e1854aad2facfa05e8c8ff310f7f52385e6665e8f4983a5a718250cf3",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/spec.json": "c276c078681334ac4590d7b4c847dac5368d27d6dd655f31cd93ab6ff21cd6f9"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 1000
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/personal/figure.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 1038.265625,
+        "width": 552,
+        "x": 24,
+        "y": 52.296875
+      },
+      "file": "captures/personal.png",
+      "html_sha256": "3edac14ea1a465ffbf80a31c892d1405415828a7d6392f22d0e2bf042c8c1aaa",
+      "name": "personal",
+      "route": "figure.html",
+      "sha256": "15fbb7c093003a73ae5b088b1d369ab04b77dcc9515a0ec41e45589ff43d95a7",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/bound.json": "9c7c16256004ffcb3dd3d25b5e4c1e482f090296f47d7418506417725b92d1b1",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/evidence.json": "4fe3417126cbbf4e79c27f09cd0b3ff50ec232459abf26d5996ba8c883b2246a",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/question.json": "3350a27d12dc4e2a10339f6aee730bc418cd3ff59767ae1737fdb2a2239594d0",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/selection_provenance.json": "9ba7657e1854aad2facfa05e8c8ff310f7f52385e6665e8f4983a5a718250cf3",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/spec.json": "c276c078681334ac4590d7b4c847dac5368d27d6dd655f31cd93ab6ff21cd6f9"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/references/index.html",
+      "control_state": {
+        "evidence_id": "s2_c7a142ff4621aa246c1d",
+        "focal_window": [
+          8,
+          11
+        ],
+        "mode": "saved-analysis-only",
+        "reference": "course",
+        "reference_window": [
+          8,
+          11
+        ],
+        "summary": {
+          "baseline_mean": 37.92857142857142,
+          "baseline_observations": 4,
+          "baseline_window": [
+            0,
+            3
+          ],
+          "contrast": 0.04344501798115097,
+          "focal_eligible_days": 28,
+          "focal_mean": 3.5,
+          "focal_observations": 4,
+          "peer_ci_high": 3.8750189596509172,
+          "peer_ci_low": 3.075428001767113,
+          "peer_mean": 3.456554982018849,
+          "personal_change": -34.42857142857142,
+          "personal_status": "supported",
+          "recent_mean": 3.5,
+          "recent_observations": 4,
+          "recent_window": [
+            8,
+            11
+          ]
+        }
+      },
+      "crop_css_px": {
+        "height": 914.90625,
+        "width": 944,
+        "x": 28,
+        "y": 60.296875
+      },
+      "file": "captures/references-expanded.png",
+      "html_sha256": "37b9a9748a80d2efc9e7243221ad8e1eb3e4e4069348f46e7218e3aabd9d308c",
+      "name": "references-expanded",
+      "route": "index.html",
+      "sha256": "e7f592beb6352d09f0d193b277ab077b6c1ee34b07055ac6dd216074886a77d4",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/bound.json": "2acba2177f3d38118aafd364c0cf7d3ec64187eeb5b6ba9ffc22eaac7554dbd2",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/evidence.json": "96b1ce9e43b3a2bc1eb477935337fd25b3eca64d41a4939572b115d5330ef571",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/question.json": "971d9e2528aa6c9aa3d889631e166424383497ec443f9820b036e39da60305ed",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/selection_provenance.json": "d66550e4d5ac9da350fbb2247874264988943028a165e79ddde94ae1c0d07261",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/spec.json": "d7384adae587738e4f3c12fac915023dddac4d88b83c3c28505a605c1ef47db7"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 1000
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/references/figure.html",
+      "control_state": {
+        "evidence_id": "s2_c7a142ff4621aa246c1d",
+        "focal_window": [
+          8,
+          11
+        ],
+        "mode": "saved-analysis-only",
+        "reference": "course",
+        "reference_window": [
+          8,
+          11
+        ],
+        "summary": {
+          "baseline_mean": 37.92857142857142,
+          "baseline_observations": 4,
+          "baseline_window": [
+            0,
+            3
+          ],
+          "contrast": 0.04344501798115097,
+          "focal_eligible_days": 28,
+          "focal_mean": 3.5,
+          "focal_observations": 4,
+          "peer_ci_high": 3.8750189596509172,
+          "peer_ci_low": 3.075428001767113,
+          "peer_mean": 3.456554982018849,
+          "personal_change": -34.42857142857142,
+          "personal_status": "supported",
+          "recent_mean": 3.5,
+          "recent_observations": 4,
+          "recent_window": [
+            8,
+            11
+          ]
+        }
+      },
+      "crop_css_px": {
+        "height": 1012.5,
+        "width": 552,
+        "x": 24,
+        "y": 52.296875
+      },
+      "file": "captures/references.png",
+      "html_sha256": "793de8142bbea8d4843899c64b9b59e3384111412223fb1983976e66d325998c",
+      "name": "references",
+      "route": "figure.html",
+      "sha256": "84a531965776e9328546fbf9d93a45796219d13326f7796e7fc2c9d977ae79e3",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/bound.json": "2acba2177f3d38118aafd364c0cf7d3ec64187eeb5b6ba9ffc22eaac7554dbd2",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/evidence.json": "96b1ce9e43b3a2bc1eb477935337fd25b3eca64d41a4939572b115d5330ef571",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/question.json": "971d9e2528aa6c9aa3d889631e166424383497ec443f9820b036e39da60305ed",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/selection_provenance.json": "d66550e4d5ac9da350fbb2247874264988943028a165e79ddde94ae1c0d07261",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/spec.json": "d7384adae587738e4f3c12fac915023dddac4d88b83c3c28505a605c1ef47db7"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    },
+    {
+      "action": {
+        "event": "select_option",
+        "selector": "#reference-select",
+        "value": "s2_c7a142ff4621aa246c1d"
+      },
+      "browser_source": "gallery/references/figure.html",
+      "control_state": {
+        "evidence_id": "s2_c7a142ff4621aa246c1d",
+        "focal_window": [
+          8,
+          11
+        ],
+        "mode": "saved-analysis-only",
+        "reference": "course",
+        "reference_window": [
+          8,
+          11
+        ],
+        "summary": {
+          "baseline_mean": 37.92857142857142,
+          "baseline_observations": 4,
+          "baseline_window": [
+            0,
+            3
+          ],
+          "contrast": 0.04344501798115097,
+          "focal_eligible_days": 28,
+          "focal_mean": 3.5,
+          "focal_observations": 4,
+          "peer_ci_high": 3.8750189596509172,
+          "peer_ci_low": 3.075428001767113,
+          "peer_mean": 3.456554982018849,
+          "personal_change": -34.42857142857142,
+          "personal_status": "supported",
+          "recent_mean": 3.5,
+          "recent_observations": 4,
+          "recent_window": [
+            8,
+            11
+          ]
+        }
+      },
+      "crop_css_px": {
+        "height": 1012.5,
+        "width": 552,
+        "x": 24,
+        "y": -0.703125
+      },
+      "file": "captures/reference-course.png",
+      "html_sha256": "793de8142bbea8d4843899c64b9b59e3384111412223fb1983976e66d325998c",
+      "name": "reference-course",
+      "route": "figure.html",
+      "sha256": "84a531965776e9328546fbf9d93a45796219d13326f7796e7fc2c9d977ae79e3",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/bound.json": "2acba2177f3d38118aafd364c0cf7d3ec64187eeb5b6ba9ffc22eaac7554dbd2",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/evidence.json": "96b1ce9e43b3a2bc1eb477935337fd25b3eca64d41a4939572b115d5330ef571",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/question.json": "971d9e2528aa6c9aa3d889631e166424383497ec443f9820b036e39da60305ed",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/selection_provenance.json": "d66550e4d5ac9da350fbb2247874264988943028a165e79ddde94ae1c0d07261",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/spec.json": "d7384adae587738e4f3c12fac915023dddac4d88b83c3c28505a605c1ef47db7"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    },
+    {
+      "action": {
+        "event": "select_option",
+        "selector": "#reference-select",
+        "value": "s2_924d702302f3b56d999f"
+      },
+      "browser_source": "gallery/references/figure.html",
+      "control_state": {
+        "evidence_id": "s2_924d702302f3b56d999f",
+        "focal_window": [
+          8,
+          11
+        ],
+        "mode": "saved-analysis-only",
+        "reference": "same_prior_attempt",
+        "reference_window": [
+          8,
+          11
+        ],
+        "summary": {
+          "baseline_mean": 37.92857142857142,
+          "baseline_observations": 4,
+          "baseline_window": [
+            0,
+            3
+          ],
+          "contrast": 1.0660986221899926,
+          "focal_eligible_days": 28,
+          "focal_mean": 3.5,
+          "focal_observations": 4,
+          "peer_ci_high": 3.09988578680203,
+          "peer_ci_low": 1.8816397751994198,
+          "peer_mean": 2.4339013778100074,
+          "personal_change": -34.42857142857142,
+          "personal_status": "supported",
+          "recent_mean": 3.5,
+          "recent_observations": 4,
+          "recent_window": [
+            8,
+            11
+          ]
+        }
+      },
+      "crop_css_px": {
+        "height": 1012.5,
+        "width": 552,
+        "x": 24,
+        "y": -0.703125
+      },
+      "file": "captures/reference-same_prior_attempt.png",
+      "html_sha256": "793de8142bbea8d4843899c64b9b59e3384111412223fb1983976e66d325998c",
+      "name": "reference-same_prior_attempt",
+      "route": "figure.html",
+      "sha256": "b96b65d7d136df08c84c4fcdfa523858f39bfefe154375ce5d7c399c7eaa7c6d",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/bound.json": "2acba2177f3d38118aafd364c0cf7d3ec64187eeb5b6ba9ffc22eaac7554dbd2",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/evidence.json": "96b1ce9e43b3a2bc1eb477935337fd25b3eca64d41a4939572b115d5330ef571",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/question.json": "971d9e2528aa6c9aa3d889631e166424383497ec443f9820b036e39da60305ed",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/selection_provenance.json": "d66550e4d5ac9da350fbb2247874264988943028a165e79ddde94ae1c0d07261",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/spec.json": "d7384adae587738e4f3c12fac915023dddac4d88b83c3c28505a605c1ef47db7"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    },
+    {
+      "action": {
+        "event": "select_option",
+        "selector": "#reference-select",
+        "value": "s2_ea133cfd118a844e9a9d"
+      },
+      "browser_source": "gallery/references/figure.html",
+      "control_state": {
+        "evidence_id": "s2_ea133cfd118a844e9a9d",
+        "focal_window": [
+          8,
+          11
+        ],
+        "mode": "saved-analysis-only",
+        "reference": "early_stage",
+        "reference_window": [
+          0,
+          3
+        ],
+        "summary": {
+          "baseline_mean": 37.92857142857142,
+          "baseline_observations": 4,
+          "baseline_window": [
+            0,
+            3
+          ],
+          "contrast": -3.4804074496228745,
+          "focal_eligible_days": 28,
+          "focal_mean": 3.5,
+          "focal_observations": 4,
+          "peer_ci_high": 7.583035687901046,
+          "peer_ci_low": 6.497984123466172,
+          "peer_mean": 6.9804074496228745,
+          "personal_change": -34.42857142857142,
+          "personal_status": "supported",
+          "recent_mean": 3.5,
+          "recent_observations": 4,
+          "recent_window": [
+            8,
+            11
+          ]
+        }
+      },
+      "crop_css_px": {
+        "height": 1012.5,
+        "width": 552,
+        "x": 24,
+        "y": -0.703125
+      },
+      "file": "captures/reference-early_stage.png",
+      "html_sha256": "793de8142bbea8d4843899c64b9b59e3384111412223fb1983976e66d325998c",
+      "name": "reference-early_stage",
+      "route": "figure.html",
+      "sha256": "7bdfea7fd30f618136aec8d32c80f590863f4fea897fa37fa293a420f5402e0f",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/bound.json": "2acba2177f3d38118aafd364c0cf7d3ec64187eeb5b6ba9ffc22eaac7554dbd2",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/evidence.json": "96b1ce9e43b3a2bc1eb477935337fd25b3eca64d41a4939572b115d5330ef571",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/question.json": "971d9e2528aa6c9aa3d889631e166424383497ec443f9820b036e39da60305ed",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/selection_provenance.json": "d66550e4d5ac9da350fbb2247874264988943028a165e79ddde94ae1c0d07261",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/spec.json": "d7384adae587738e4f3c12fac915023dddac4d88b83c3c28505a605c1ef47db7"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/observations/index.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 835.96875,
+        "width": 944,
+        "x": 28,
+        "y": 60.296875
+      },
+      "file": "captures/observations-expanded.png",
+      "html_sha256": "f69ef79f2d3c4d2a0bf397decb09cd9a34c733a91e43e1fd7209c9e95da5e5d6",
+      "name": "observations-expanded",
+      "route": "index.html",
+      "sha256": "0f7e45f51cf0508904929511a374ba6abf3719356f458268f060d6848254a0ea",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/bound.json": "b263cbb4c33ae523f7f2efa586530326db22f7b0242917a044b5447f9da5d407",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/evidence.json": "d94ae00612dc0560ad62f1f8cbd035e27aa057f0b91cd3d925027c12a9152d9f",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/question.json": "10b8407b9e1eb82b049e7add7b305895fba5fd69b60479a08b9d0c9018d1ae77",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/selection_provenance.json": "1f272f7149bb917747ec08532e41b66bd77f89e91ca0ff141ac714eb0a57573a",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/spec.json": "8cdbbbaf2e3def881b0ef15af83afcff15cda04b3c3d5d0a5ca8aeb8419ca18d"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 1000
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/observations/figure.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 1002.28125,
+        "width": 552,
+        "x": 24,
+        "y": 52.296875
+      },
+      "file": "captures/observations.png",
+      "html_sha256": "179d9aa4c97a27a86a2a32d3448af3490b6a70c368fcaef8a3764a864d68bf28",
+      "name": "observations",
+      "route": "figure.html",
+      "sha256": "15a830b84fbff61b0bccb4951b0cde0d4eff48f59f1b2035fb92884ba447076a",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/bound.json": "b263cbb4c33ae523f7f2efa586530326db22f7b0242917a044b5447f9da5d407",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/evidence.json": "d94ae00612dc0560ad62f1f8cbd035e27aa057f0b91cd3d925027c12a9152d9f",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/question.json": "10b8407b9e1eb82b049e7add7b305895fba5fd69b60479a08b9d0c9018d1ae77",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/selection_provenance.json": "1f272f7149bb917747ec08532e41b66bd77f89e91ca0ff141ac714eb0a57573a",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/spec.json": "8cdbbbaf2e3def881b0ef15af83afcff15cda04b3c3d5d0a5ca8aeb8419ca18d"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/assessments/index.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 1004.453125,
+        "width": 944,
+        "x": 28,
+        "y": 60.296875
+      },
+      "file": "captures/assessments-expanded.png",
+      "html_sha256": "aa13f63c2cbc5d84337aae73fc3ebff249d1ebd6a903afa8ca3e5b9e0700f568",
+      "name": "assessments-expanded",
+      "route": "index.html",
+      "sha256": "6c476388af891551f668a35f530aa44b17dd4ef96384d57b4e69c9c25dbfe222",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/bound.json": "7b948c874ddbf554fb7039a9d057f4afa1628f566e2c8c12f3ee3791ccb54948",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/evidence.json": "1843f6d9037b8f39d69700a866036b687b66d312209aa1acd5c6eec41cb68024",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/question.json": "af4b92dd3ce1a8443628ab9e9530ed32a27b656f25cf5f0d3bafae602748b046",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/selection_provenance.json": "21d211ba55e503d16aff232de02cfea5be02af5e25a1b604c7b5db8ae5226ded",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/spec.json": "79a6714273a00e197566c21f79aa0e059b181b9de3850f4d1c404249842eac28"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 1000
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/assessments/figure.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 991.765625,
+        "width": 552,
+        "x": 24,
+        "y": 52.296875
+      },
+      "file": "captures/assessments.png",
+      "html_sha256": "07219a79b68127f1cccd1a4b8b8810b25a71b001f77e6259a9a0581365a3b8c8",
+      "name": "assessments",
+      "route": "figure.html",
+      "sha256": "d62600099f6a692b914611673cfbef2d7aee3b2195535a9ec6e47fe019a142e3",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/bound.json": "7b948c874ddbf554fb7039a9d057f4afa1628f566e2c8c12f3ee3791ccb54948",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/evidence.json": "1843f6d9037b8f39d69700a866036b687b66d312209aa1acd5c6eec41cb68024",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/question.json": "af4b92dd3ce1a8443628ab9e9530ed32a27b656f25cf5f0d3bafae602748b046",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/selection_provenance.json": "21d211ba55e503d16aff232de02cfea5be02af5e25a1b604c7b5db8ae5226ded",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/spec.json": "79a6714273a00e197566c21f79aa0e059b181b9de3850f4d1c404249842eac28"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/incomplete/index.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 1117.515625,
+        "width": 944,
+        "x": 28,
+        "y": 60.296875
+      },
+      "file": "captures/incomplete-expanded.png",
+      "html_sha256": "7631fced984432bbab3db5011d3c569ac5ae7fa2c3b6fe822f46d33cdd4ab285",
+      "name": "incomplete-expanded",
+      "route": "index.html",
+      "sha256": "e74051cb6298b081c5927192a1aa874e641b764dcaa7884bce9911d85b1864b8",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/bound.json": "682af4643aae79e29d18fa3e3c984b7c8da26ed881c220af0633279ad72c9f61",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/evidence.json": "858e2b92699a8fa9063e73ebb7ffd832fe8a34d0e84775e903c3086960109f40",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/question.json": "4b816f23b14e98c71cfd078334951e5c8b76ce5fc1b40749f3faefb7e9759740",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/selection_provenance.json": "4a5fdd7c768a31eb2526a898508afde9c1c2f927167673b40f2056331f1cc48d",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/spec.json": "a9d98d77e489ce45185a502dd8988c1f1c589935e08c4127ef459e5f7ade66b8"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 1000
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/incomplete/figure.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 1149.796875,
+        "width": 552,
+        "x": 24,
+        "y": 52.296875
+      },
+      "file": "captures/incomplete.png",
+      "html_sha256": "2d2b990a8db51e1c433b8f07a0f1d4788b1e3af2c8fd333c77859e75c4c9003f",
+      "name": "incomplete",
+      "route": "figure.html",
+      "sha256": "c46698b78efe9eca0f29b29b2f94e1a1f0e6490137793c06d83af0d3b6cb35a2",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/bound.json": "682af4643aae79e29d18fa3e3c984b7c8da26ed881c220af0633279ad72c9f61",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/evidence.json": "858e2b92699a8fa9063e73ebb7ffd832fe8a34d0e84775e903c3086960109f40",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/question.json": "4b816f23b14e98c71cfd078334951e5c8b76ce5fc1b40749f3faefb7e9759740",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/selection_provenance.json": "4a5fdd7c768a31eb2526a898508afde9c1c2f927167673b40f2056331f1cc48d",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/spec.json": "a9d98d77e489ce45185a502dd8988c1f1c589935e08c4127ef459e5f7ade66b8"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/baseline/index.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 933.1875,
+        "width": 944,
+        "x": 28,
+        "y": 60.296875
+      },
+      "file": "captures/baseline-expanded.png",
+      "html_sha256": "fde3b3b6c25b9a9b6b783eaa9e82b0893730ad73bf95b0c90596556fecbf0f7c",
+      "name": "baseline-expanded",
+      "route": "index.html",
+      "sha256": "e7d12e3e8f58ddc11ec0ad6f3abf16e6efec4576d0eb60caa40955889beb2aea",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/bound.json": "171edec019ae5996e1d3c3687453eb12f5beb6662ce61ecbe93152cf99235491",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/evidence.json": "c48a4d64d820779d2cb3220dd8b777d2d6fc60911100466d9f12fbc750d1ac5f",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/question.json": "4b816f23b14e98c71cfd078334951e5c8b76ce5fc1b40749f3faefb7e9759740",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/selection_provenance.json": "96fb498ed8afcc70f0adc124540ade4d9143b1ca70a8ad35dafb74df9958b468",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/spec.json": "481605f87194e5852a00bea156fdbc2f431973293217519e5fd74e9b55de8a50"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 1000
+      }
+    },
+    {
+      "action": null,
+      "browser_source": "gallery/baseline/figure.html",
+      "control_state": null,
+      "crop_css_px": {
+        "height": 931.484375,
+        "width": 552,
+        "x": 24,
+        "y": 52.296875
+      },
+      "file": "captures/baseline.png",
+      "html_sha256": "2659cd3d639f71073a699ae5905d03d6350e884fe638069ba03872f08020a267",
+      "name": "baseline",
+      "route": "figure.html",
+      "sha256": "7178266bd8971c5db71a893989e9dbe86da8cc33b98fe1649041c4c08af53599",
+      "source_artifacts": {
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/bound.json": "171edec019ae5996e1d3c3687453eb12f5beb6662ce61ecbe93152cf99235491",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/evidence.json": "c48a4d64d820779d2cb3220dd8b777d2d6fc60911100466d9f12fbc750d1ac5f",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/question.json": "4b816f23b14e98c71cfd078334951e5c8b76ce5fc1b40749f3faefb7e9759740",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/selection_provenance.json": "96fb498ed8afcc70f0adc124540ade4d9143b1ca70a8ad35dafb74df9958b468",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/spec.json": "481605f87194e5852a00bea156fdbc2f431973293217519e5fd74e9b55de8a50"
+      },
+      "viewport": {
+        "height": 1000,
+        "width": 600
+      }
+    }
+  ],
+  "device_scale_factor": 3,
+  "expanded_viewport": {
+    "height": 1000,
+    "width": 1000
+  },
+  "external_requests": [],
+  "font": "DejaVu Sans (local system font; no remote requests)",
+  "interaction_checks": [
+    {
+      "case": "personal",
+      "evidence_link": "#evidence-s2_b47f4d08db82284c0809",
+      "opens_correct_record": true
+    },
+    {
+      "case": "personal",
+      "original_claims_preserved": 4
+    },
+    {
+      "case": "references",
+      "evidence_link": "#evidence-s2_c7a142ff4621aa246c1d",
+      "opens_correct_record": true
+    },
+    {
+      "case": "references",
+      "coordinated_reference_switch": "PASS",
+      "new_analysis": false,
+      "states": [
+        {
+          "chart_domain": [
+            0,
+            8
+          ],
+          "reference": "course",
+          "state": {
+            "evidence_id": "s2_c7a142ff4621aa246c1d",
+            "focal_window": [
+              8,
+              11
+            ],
+            "mode": "saved-analysis-only",
+            "reference": "course",
+            "reference_window": [
+              8,
+              11
+            ],
+            "summary": {
+              "baseline_mean": 37.92857142857142,
+              "baseline_observations": 4,
+              "baseline_window": [
+                0,
+                3
+              ],
+              "contrast": 0.04344501798115097,
+              "focal_eligible_days": 28,
+              "focal_mean": 3.5,
+              "focal_observations": 4,
+              "peer_ci_high": 3.8750189596509172,
+              "peer_ci_low": 3.075428001767113,
+              "peer_mean": 3.456554982018849,
+              "personal_change": -34.42857142857142,
+              "personal_status": "supported",
+              "recent_mean": 3.5,
+              "recent_observations": 4,
+              "recent_window": [
+                8,
+                11
+              ]
+            }
+          }
+        },
+        {
+          "chart_domain": [
+            0,
+            8
+          ],
+          "reference": "same_prior_attempt",
+          "state": {
+            "evidence_id": "s2_924d702302f3b56d999f",
+            "focal_window": [
+              8,
+              11
+            ],
+            "mode": "saved-analysis-only",
+            "reference": "same_prior_attempt",
+            "reference_window": [
+              8,
+              11
+            ],
+            "summary": {
+              "baseline_mean": 37.92857142857142,
+              "baseline_observations": 4,
+              "baseline_window": [
+                0,
+                3
+              ],
+              "contrast": 1.0660986221899926,
+              "focal_eligible_days": 28,
+              "focal_mean": 3.5,
+              "focal_observations": 4,
+              "peer_ci_high": 3.09988578680203,
+              "peer_ci_low": 1.8816397751994198,
+              "peer_mean": 2.4339013778100074,
+              "personal_change": -34.42857142857142,
+              "personal_status": "supported",
+              "recent_mean": 3.5,
+              "recent_observations": 4,
+              "recent_window": [
+                8,
+                11
+              ]
+            }
+          }
+        },
+        {
+          "chart_domain": [
+            0,
+            8
+          ],
+          "reference": "early_stage",
+          "state": {
+            "evidence_id": "s2_ea133cfd118a844e9a9d",
+            "focal_window": [
+              8,
+              11
+            ],
+            "mode": "saved-analysis-only",
+            "reference": "early_stage",
+            "reference_window": [
+              0,
+              3
+            ],
+            "summary": {
+              "baseline_mean": 37.92857142857142,
+              "baseline_observations": 4,
+              "baseline_window": [
+                0,
+                3
+              ],
+              "contrast": -3.4804074496228745,
+              "focal_eligible_days": 28,
+              "focal_mean": 3.5,
+              "focal_observations": 4,
+              "peer_ci_high": 7.583035687901046,
+              "peer_ci_low": 6.497984123466172,
+              "peer_mean": 6.9804074496228745,
+              "personal_change": -34.42857142857142,
+              "personal_status": "supported",
+              "recent_mean": 3.5,
+              "recent_observations": 4,
+              "recent_window": [
+                8,
+                11
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "references",
+      "original_claims_preserved": 3
+    },
+    {
+      "case": "observations",
+      "evidence_link": "#evidence-s2_6e150ab0aa9dbfd9caa7",
+      "opens_correct_record": true
+    },
+    {
+      "case": "observations",
+      "original_claims_preserved": 3
+    },
+    {
+      "case": "assessments",
+      "evidence_link": "#evidence-s2_daac9acb9551c1cf1f13",
+      "opens_correct_record": true
+    },
+    {
+      "case": "assessments",
+      "original_claims_preserved": 3
+    },
+    {
+      "case": "incomplete",
+      "evidence_link": "#evidence-s2_0b2d8e34c67e47538724",
+      "opens_correct_record": true
+    },
+    {
+      "case": "incomplete",
+      "original_claims_preserved": 4
+    },
+    {
+      "case": "baseline",
+      "evidence_link": "#evidence-s2_0b2d8e34c67e47538724",
+      "opens_correct_record": true
+    },
+    {
+      "case": "baseline",
+      "original_claims_preserved": 2
+    }
+  ],
+  "responsive_viewport": {
+    "browser_source": "gallery/personal/index.html",
+    "file": "captures/responsive-personal.png",
+    "height": 1000,
+    "horizontal_overflow": false,
+    "selector": "viewport",
+    "sha256": "30bc2487d7b6458a25447bf5dc1bf63061a4a9516ef5e789b4bbb9a6d059a9a2",
+    "width": 600
+  },
+  "selector": ".figure-surface",
+  "viewport": {
+    "height": 1000,
+    "width": 600
+  }
+}

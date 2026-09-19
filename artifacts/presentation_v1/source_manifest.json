@@ -1,0 +1,298 @@
+{
+  "dataset": "Saved OULAD development results",
+  "deduplication": "Only personal claims with identical original wording, units, person/cutoff, windows, all personal numerical fields and selection origin. Original indices and IDs retained. Every original panel remains accessible, including differing bootstrap intervals.",
+  "entries": [
+    {
+      "anonymous_label": "Case A",
+      "case": "s6_01",
+      "chart_files": [
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/charts/focus-trajectory.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/charts/original-panel-1.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/charts/original-panel-2.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/charts/original-panel-3.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/charts/original-panel-4.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/charts/original-panel-5.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/charts/principal-observations.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/charts/principal-trajectory.svg"
+      ],
+      "duplicate_claims": [
+        {
+          "evidence_id": "s2_b47f4d08db82284c0809",
+          "evidence_ids": [
+            "s2_b47f4d08db82284c0809",
+            "s2_5608108cc34c5e38a21d"
+          ],
+          "origin": "method_selected",
+          "original_indices": [
+            0,
+            2
+          ],
+          "original_text": "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 14.07 in weeks 0\u20133 (4 observed weeks) to 3.54 in weeks 8\u201311 (4 observed weeks): change -10.54 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+          "template": "personal_change"
+        }
+      ],
+      "html": "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/personal/index.html",
+      "layout": "personal",
+      "method": "compact_a",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "personal_change",
+        "person_id": 1105478,
+        "profile": "standard",
+        "question_id": "s6_01",
+        "role": "researcher",
+        "split": "development",
+        "text": "How has my recorded click rate (clicks per eligible day) changed from my earlier history to the recent window, and how does my recent rate compare with presentation peers? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection_status": "agent original",
+      "slug": "personal",
+      "source": "artifacts/stage6/comparison/compact_a/s6_01/accepted",
+      "source_hashes": {
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/bound.json": "9c7c16256004ffcb3dd3d25b5e4c1e482f090296f47d7418506417725b92d1b1",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/evidence.json": "4fe3417126cbbf4e79c27f09cd0b3ff50ec232459abf26d5996ba8c883b2246a",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/question.json": "3350a27d12dc4e2a10339f6aee730bc418cd3ff59767ae1737fdb2a2239594d0",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/selection_provenance.json": "9ba7657e1854aad2facfa05e8c8ff310f7f52385e6665e8f4983a5a718250cf3",
+        "artifacts/stage6/comparison/compact_a/s6_01/accepted/spec.json": "c276c078681334ac4590d7b4c847dac5368d27d6dd655f31cd93ab6ff21cd6f9"
+      },
+      "source_person_id": 1105478,
+      "source_spec": "artifacts/stage6/comparison/compact_a/s6_01/accepted/spec.json"
+    },
+    {
+      "anonymous_label": "Case B",
+      "case": "s6_05",
+      "chart_files": [
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/focus-reference-s2_924d702302f3b56d999f.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/focus-reference-s2_c7a142ff4621aa246c1d.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/focus-reference-s2_ea133cfd118a844e9a9d.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/original-panel-1.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/original-panel-2.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/original-panel-3.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/original-panel-4.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/original-panel-5.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/reference-s2_924d702302f3b56d999f.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/reference-s2_c7a142ff4621aa246c1d.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/charts/reference-s2_ea133cfd118a844e9a9d.svg"
+      ],
+      "duplicate_claims": [],
+      "html": "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/references/index.html",
+      "layout": "references",
+      "method": "compact_a",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "reference_sensitivity",
+        "person_id": 521394,
+        "profile": "standard",
+        "question_id": "s6_05",
+        "role": "researcher",
+        "split": "development",
+        "text": "For recent clicks per eligible day, is the direction of my comparison the same for presentation peers, same-prior-attempt peers, and presentation peers in the earlier study window? Show each of the three comparisons. Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection_status": "agent original",
+      "slug": "references",
+      "source": "artifacts/stage6/comparison/compact_a/s6_05/accepted",
+      "source_hashes": {
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/bound.json": "2acba2177f3d38118aafd364c0cf7d3ec64187eeb5b6ba9ffc22eaac7554dbd2",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/evidence.json": "96b1ce9e43b3a2bc1eb477935337fd25b3eca64d41a4939572b115d5330ef571",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/question.json": "971d9e2528aa6c9aa3d889631e166424383497ec443f9820b036e39da60305ed",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/selection_provenance.json": "d66550e4d5ac9da350fbb2247874264988943028a165e79ddde94ae1c0d07261",
+        "artifacts/stage6/comparison/compact_a/s6_05/accepted/spec.json": "d7384adae587738e4f3c12fac915023dddac4d88b83c3c28505a605c1ef47db7"
+      },
+      "source_person_id": 521394,
+      "source_spec": "artifacts/stage6/comparison/compact_a/s6_05/accepted/spec.json"
+    },
+    {
+      "anonymous_label": "Case C",
+      "case": "s6_09",
+      "chart_files": [
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/focus-observations.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/original-panel-1.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/original-panel-2.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/original-panel-3.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/original-panel-4.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/original-panel-5.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/original-panel-6.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/principal-assessments.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/charts/principal-observations.svg"
+      ],
+      "duplicate_claims": [],
+      "html": "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/observations/index.html",
+      "layout": "observations",
+      "method": "compact_a",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 55,
+        "kind": "observation_limits",
+        "person_id": 558146,
+        "profile": "mid",
+        "question_id": "s6_09",
+        "role": "researcher",
+        "split": "development",
+        "text": "What is my recent mean clicks per eligible day, and what limits follow from administrative eligibility and unknown logging completeness? Also show recent weekly means of nonbanked submissions and scheduled assessments without recorded submission, with assessment record states. What can these measurements establish? Earlier weeks 0\u20133; recent weeks 4\u20137; information through day 55."
+      },
+      "selection_status": "agent repaired",
+      "slug": "observations",
+      "source": "artifacts/stage6/comparison/compact_a/s6_09/accepted",
+      "source_hashes": {
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/bound.json": "b263cbb4c33ae523f7f2efa586530326db22f7b0242917a044b5447f9da5d407",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/evidence.json": "d94ae00612dc0560ad62f1f8cbd035e27aa057f0b91cd3d925027c12a9152d9f",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/question.json": "10b8407b9e1eb82b049e7add7b305895fba5fd69b60479a08b9d0c9018d1ae77",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/selection_provenance.json": "1f272f7149bb917747ec08532e41b66bd77f89e91ca0ff141ac714eb0a57573a",
+        "artifacts/stage6/comparison/compact_a/s6_09/accepted/spec.json": "8cdbbbaf2e3def881b0ef15af83afcff15cda04b3c3d5d0a5ca8aeb8419ca18d"
+      },
+      "source_person_id": 558146,
+      "source_spec": "artifacts/stage6/comparison/compact_a/s6_09/accepted/spec.json"
+    },
+    {
+      "anonymous_label": "Case D",
+      "case": "s6_17",
+      "chart_files": [
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/charts/focus-assessments.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/charts/original-panel-1.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/charts/original-panel-2.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/charts/original-panel-3.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/charts/original-panel-4.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/charts/original-panel-5.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/charts/principal-assessments.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/charts/principal-trajectory.svg"
+      ],
+      "duplicate_claims": [],
+      "html": "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/assessments/index.html",
+      "layout": "assessments",
+      "method": "compact_a",
+      "question": {
+        "course": "AAA_2013J",
+        "cutoff_day": 83,
+        "kind": "assessment_availability",
+        "person_id": 157568,
+        "profile": "standard",
+        "question_id": "s6_17",
+        "role": "researcher",
+        "split": "development",
+        "text": "What are my recent observed-week means for nonbanked submissions and scheduled assessments without a recorded submission? Include dated assessment record states. Can these records establish my marks or learning progress? Earlier weeks 0\u20133; recent weeks 8\u201311; information through day 83."
+      },
+      "selection_status": "agent original",
+      "slug": "assessments",
+      "source": "artifacts/stage6/comparison/compact_a/s6_17/accepted",
+      "source_hashes": {
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/bound.json": "7b948c874ddbf554fb7039a9d057f4afa1628f566e2c8c12f3ee3791ccb54948",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/evidence.json": "1843f6d9037b8f39d69700a866036b687b66d312209aa1acd5c6eec41cb68024",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/question.json": "af4b92dd3ce1a8443628ab9e9530ed32a27b656f25cf5f0d3bafae602748b046",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/selection_provenance.json": "21d211ba55e503d16aff232de02cfea5be02af5e25a1b604c7b5db8ae5226ded",
+        "artifacts/stage6/comparison/compact_a/s6_17/accepted/spec.json": "79a6714273a00e197566c21f79aa0e059b181b9de3850f4d1c404249842eac28"
+      },
+      "source_person_id": 157568,
+      "source_spec": "artifacts/stage6/comparison/compact_a/s6_17/accepted/spec.json"
+    },
+    {
+      "anonymous_label": "Case E",
+      "case": "s6_15",
+      "chart_files": [
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/charts/focus-trajectory.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/charts/original-panel-1.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/charts/original-panel-2.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/charts/original-panel-3.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/charts/original-panel-4.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/charts/original-panel-5.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/charts/principal-observations.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/charts/principal-trajectory.svg"
+      ],
+      "duplicate_claims": [
+        {
+          "evidence_id": "s2_0b2d8e34c67e47538724",
+          "evidence_ids": [
+            "s2_0b2d8e34c67e47538724",
+            "s2_e614faf3632f424d4592"
+          ],
+          "origin": "method_selected",
+          "original_indices": [
+            2,
+            3
+          ],
+          "original_text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient personal comparison from weeks 0\u20133 (4 observed weeks) to weeks 10\u201311 (0 observed weeks).",
+          "template": "personal_change"
+        }
+      ],
+      "html": "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/incomplete/index.html",
+      "layout": "support",
+      "method": "compact_a",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "insufficient_support",
+        "person_id": 542396,
+        "profile": "narrow",
+        "question_id": "s6_15",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is there enough observed support to compare my recent clicks per eligible day with my own earlier mean and with presentation peers? Answer each comparison separately, saying which is unsupported if necessary. Earlier weeks 0\u20133; recent weeks 10\u201311; information through day 83."
+      },
+      "selection_status": "agent original",
+      "slug": "incomplete",
+      "source": "artifacts/stage6/comparison/compact_a/s6_15/accepted",
+      "source_hashes": {
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/bound.json": "682af4643aae79e29d18fa3e3c984b7c8da26ed881c220af0633279ad72c9f61",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/evidence.json": "858e2b92699a8fa9063e73ebb7ffd832fe8a34d0e84775e903c3086960109f40",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/question.json": "4b816f23b14e98c71cfd078334951e5c8b76ce5fc1b40749f3faefb7e9759740",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/selection_provenance.json": "4a5fdd7c768a31eb2526a898508afde9c1c2f927167673b40f2056331f1cc48d",
+        "artifacts/stage6/comparison/compact_a/s6_15/accepted/spec.json": "a9d98d77e489ce45185a502dd8988c1f1c589935e08c4127ef459e5f7ade66b8"
+      },
+      "source_person_id": 542396,
+      "source_spec": "artifacts/stage6/comparison/compact_a/s6_15/accepted/spec.json"
+    },
+    {
+      "anonymous_label": "Case E",
+      "case": "s6_15",
+      "chart_files": [
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/baseline/charts/focus-trajectory.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/baseline/charts/original-panel-1.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/baseline/charts/original-panel-2.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/baseline/charts/original-panel-3.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/baseline/charts/principal-observations.svg",
+        "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/baseline/charts/principal-trajectory.svg"
+      ],
+      "duplicate_claims": [],
+      "html": "/home/resort/Documents/repos/AgenticPerformanceMonitor/artifacts/presentation_v1/gallery/baseline/index.html",
+      "layout": "support",
+      "method": "baseline",
+      "question": {
+        "course": "BBB_2013B",
+        "cutoff_day": 83,
+        "kind": "insufficient_support",
+        "person_id": 542396,
+        "profile": "narrow",
+        "question_id": "s6_15",
+        "role": "researcher",
+        "split": "development",
+        "text": "Is there enough observed support to compare my recent clicks per eligible day with my own earlier mean and with presentation peers? Answer each comparison separately, saying which is unsupported if necessary. Earlier weeks 0\u20133; recent weeks 10\u201311; information through day 83."
+      },
+      "selection_status": "deterministic enumeration baseline",
+      "slug": "baseline",
+      "source": "artifacts/stage6/comparison/baseline/s6_15/accepted",
+      "source_hashes": {
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/bound.json": "171edec019ae5996e1d3c3687453eb12f5beb6662ce61ecbe93152cf99235491",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/evidence.json": "c48a4d64d820779d2cb3220dd8b777d2d6fc60911100466d9f12fbc750d1ac5f",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/question.json": "4b816f23b14e98c71cfd078334951e5c8b76ce5fc1b40749f3faefb7e9759740",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/selection_provenance.json": "96fb498ed8afcc70f0adc124540ade4d9143b1ca70a8ad35dafb74df9958b468",
+        "artifacts/stage6/comparison/baseline/s6_15/accepted/spec.json": "481605f87194e5852a00bea156fdbc2f431973293217519e5fd74e9b55de8a50"
+      },
+      "source_person_id": 542396,
+      "source_spec": "artifacts/stage6/comparison/baseline/s6_15/accepted/spec.json"
+    }
+  ],
+  "new_inference_generations": 0,
+  "numerical_check": "Saved evidence digests are checked on build; separate verify.py runs the historical source-bound validator. Neither check establishes completeness.",
+  "scope": "Read-only saved selected evidence; no agent, evaluator, backend or reserved-data execution",
+  "selection_rule": "User-prespecified compact_a 01/05/09/17; incomplete 15 and its baseline. All candidates suitable; no replacements.",
+  "software_hashes": {
+    "src/trajectory_dashboards/presentation_v1/__init__.py": "831f133003c02afac69bb2b7ea312f4a9c953dc1451a3ab0f5a973c4bf6a40f9",
+    "src/trajectory_dashboards/presentation_v1/charts.py": "dd2cdd2583c531032ab1e95c8f012f8250b23c49fecb49048b71c6240be75e02",
+    "src/trajectory_dashboards/presentation_v1/focus.py": "b20b69c41b34cc85189d88f771713e39ea9a566656c6dfb54f0ea973021477ef",
+    "src/trajectory_dashboards/presentation_v1/interaction.js": "d82ae17899a300a07277efd58c841855eedd8f9f39dc165814b0776a638384c8",
+    "src/trajectory_dashboards/presentation_v1/model.py": "48abe31f5e8543fecdbd9039760aaf7e9cf289e9c103a10edd2913839f624798",
+    "src/trajectory_dashboards/presentation_v1/render.py": "155b026486fc62d3bdeaf043a84947cfca232435fde6476e8a71dbc9569165ff",
+    "src/trajectory_dashboards/presentation_v1/style.css": "1972bc2c67ec416674421247ecba40080022668b6834ad901df7e1d339d505c7"
+  },
+  "starting_commit": "960c1dec9ccef105c2b6f23125be6e54a55847bf"
+}
