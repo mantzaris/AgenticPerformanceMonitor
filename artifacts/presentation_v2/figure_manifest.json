@@ -1,0 +1,401 @@
+{
+  "template_manifest": "artifacts/predraft_v1/template/manifest.json",
+  "template_manifest_sha256": "e75c166bcae30a2c4b8526b274d4002aa73d446502c6302d0da5a26da380a8dd",
+  "textwidth_mm": 158.0134,
+  "columnsep_mm": 8,
+  "panel_width_mm": 75.0067,
+  "font": "Local DejaVu Sans",
+  "export_dpi": 300,
+  "figures": [
+    {
+      "name": "figure1",
+      "width_mm": 158.0134,
+      "height_mm": 183.86860317777777,
+      "natural_height_mm": 183.86860317777777,
+      "global_scale": 1,
+      "minimum_critical_font_pt": 8.504696692913386,
+      "recommended": true,
+      "format": "Raster browser captures with vector panel lettering/editorial annotations; not a vector dashboard.",
+      "panels": [
+        {
+          "capture": "personal",
+          "sha256": "c588cddf0e279b99988d838bd7c42b7b02bd3a52408ee22009a971b9a9b8017c",
+          "selector": ".figure-surface",
+          "crop_css_px": {
+            "height": 1179.75,
+            "width": 500,
+            "x": 24,
+            "y": -0.703125
+          },
+          "control_state": null,
+          "width_mm": 75.0067,
+          "minimum_critical_font_pt": 8.504696692913386,
+          "external_annotation": ""
+        },
+        {
+          "capture": "observations",
+          "sha256": "cf54239df0867b3af2973cb04a02ff02a520281265648fef864399d034f13fbd",
+          "selector": ".figure-surface",
+          "crop_css_px": {
+            "height": 1149,
+            "width": 500,
+            "x": 24,
+            "y": -0.703125
+          },
+          "control_state": null,
+          "width_mm": 75.0067,
+          "minimum_critical_font_pt": 8.504696692913386,
+          "external_annotation": ""
+        }
+      ],
+      "pdf_sha256": "1689b4510eade80a9999230bdaf4f7fafab19ac1cfdd9f4ee18b0456007eabf2",
+      "png_sha256": "a5bf3b97974e1d60d92e6e3806a9bf98e157d59ec5082f815efaa116efe2cd48"
+    },
+    {
+      "name": "figure2",
+      "width_mm": 158.0134,
+      "height_mm": 104.17793884160756,
+      "natural_height_mm": 104.17793884160756,
+      "global_scale": 1,
+      "minimum_critical_font_pt": 8.797505087614132,
+      "recommended": true,
+      "format": "Raster browser captures with vector panel lettering/editorial annotations; not a vector dashboard.",
+      "panels": [
+        {
+          "capture": "reference-course",
+          "sha256": "54978bfbccb9d7748d04a99b40b7b1f28f669ad0ef8f460cac4dee0b977740cc",
+          "selector": ".switch-excerpt",
+          "crop_css_px": {
+            "height": 570.359375,
+            "width": 470,
+            "x": 39,
+            "y": 0.296875
+          },
+          "control_state": {
+            "evidence_id": "s2_c7a142ff4621aa246c1d",
+            "focal_window": [
+              8,
+              11
+            ],
+            "mode": "saved-analysis-only",
+            "reference": "course",
+            "reference_window": [
+              8,
+              11
+            ],
+            "summary": {
+              "baseline_mean": 37.92857142857142,
+              "baseline_observations": 4,
+              "baseline_window": [
+                0,
+                3
+              ],
+              "contrast": 0.04344501798115097,
+              "focal_eligible_days": 28,
+              "focal_mean": 3.5,
+              "focal_observations": 4,
+              "peer_ci_high": 3.8750189596509172,
+              "peer_ci_low": 3.075428001767113,
+              "peer_mean": 3.456554982018849,
+              "personal_change": -34.42857142857142,
+              "personal_status": "supported",
+              "recent_mean": 3.5,
+              "recent_observations": 4,
+              "recent_window": [
+                8,
+                11
+              ]
+            }
+          },
+          "width_mm": 75.0067,
+          "minimum_critical_font_pt": 8.797505087614132,
+          "external_annotation": ""
+        },
+        {
+          "capture": "reference-early_stage",
+          "sha256": "bf691c8433f523ff3d1c71e72a4153279da2db56e832d3c4d9c379936aa778d2",
+          "selector": ".switch-excerpt",
+          "crop_css_px": {
+            "height": 570.359375,
+            "width": 470,
+            "x": 39,
+            "y": 279.296875
+          },
+          "control_state": {
+            "evidence_id": "s2_ea133cfd118a844e9a9d",
+            "focal_window": [
+              8,
+              11
+            ],
+            "mode": "saved-analysis-only",
+            "reference": "early_stage",
+            "reference_window": [
+              0,
+              3
+            ],
+            "summary": {
+              "baseline_mean": 37.92857142857142,
+              "baseline_observations": 4,
+              "baseline_window": [
+                0,
+                3
+              ],
+              "contrast": -3.4804074496228745,
+              "focal_eligible_days": 28,
+              "focal_mean": 3.5,
+              "focal_observations": 4,
+              "peer_ci_high": 7.583035687901046,
+              "peer_ci_low": 6.497984123466172,
+              "peer_mean": 6.9804074496228745,
+              "personal_change": -34.42857142857142,
+              "personal_status": "supported",
+              "recent_mean": 3.5,
+              "recent_observations": 4,
+              "recent_window": [
+                8,
+                11
+              ]
+            }
+          },
+          "width_mm": 75.0067,
+          "minimum_critical_font_pt": 8.797505087614132,
+          "external_annotation": ""
+        }
+      ],
+      "pdf_sha256": "12c6311bff5b0cb3a366e9d8f36cc86dbb8e31010cdb347765735814adbe574f",
+      "png_sha256": "8abd549b9f41473d95f34df41ecba4265ddea2e0fe0376e4ebbcbfd419acc28a"
+    },
+    {
+      "name": "figureS1",
+      "width_mm": 158.0134,
+      "height_mm": 114.70716244979918,
+      "natural_height_mm": 114.70716244979918,
+      "global_scale": 1,
+      "minimum_critical_font_pt": 8.538852101318662,
+      "recommended": true,
+      "format": "Raster browser captures with vector panel lettering/editorial annotations; not a vector dashboard.",
+      "panels": [
+        {
+          "capture": "incomplete-answers",
+          "sha256": "67c5aea56125fa91469f34a5f77f831fe414490d32818ff8bf57ddec954fbda9",
+          "selector": ".excerpt-content",
+          "crop_css_px": {
+            "height": 606.5,
+            "width": 498,
+            "x": 25,
+            "y": 276.296875
+          },
+          "control_state": null,
+          "width_mm": 75.0067,
+          "minimum_critical_font_pt": 8.538852101318662,
+          "external_annotation": "Selected peer answers: weeks 0\u20133. The recent-peer answer is omitted."
+        },
+        {
+          "capture": "baseline-answers",
+          "sha256": "5b0bfb67364b651913b836c8def1baf5e610fd1ed05701e3c59236353d2532d6",
+          "selector": ".excerpt-content",
+          "crop_css_px": {
+            "height": 418.5,
+            "width": 498,
+            "x": 25,
+            "y": 297.296875
+          },
+          "control_state": null,
+          "width_mm": 75.0067,
+          "minimum_critical_font_pt": 8.538852101318662,
+          "external_annotation": "Explicit recent-peer insufficiency. Personal insufficiency remains separate."
+        }
+      ],
+      "pdf_sha256": "564b09c7b1a85fb124473c7921a8bbc6b7604d80be5d6b0a845e3b8db4b9631c",
+      "png_sha256": "a5e9c6a4af5e17d29922dd2f64ab8e28683d69778143248af976302367f43905"
+    },
+    {
+      "name": "figureS2",
+      "width_mm": 158.0134,
+      "height_mm": 184.16862997777775,
+      "natural_height_mm": 184.16862997777775,
+      "global_scale": 1,
+      "minimum_critical_font_pt": 8.269654782357284,
+      "recommended": true,
+      "format": "Raster browser captures with vector panel lettering/editorial annotations; not a vector dashboard.",
+      "panels": [
+        {
+          "capture": "references",
+          "sha256": "6d54d6ed19ddec9c56ad7e3f2542c8cea2771eabe8717513662f1dae4e628b18",
+          "selector": ".figure-surface",
+          "crop_css_px": {
+            "height": 1061.359375,
+            "width": 500,
+            "x": 24,
+            "y": 39.296875
+          },
+          "control_state": {
+            "evidence_id": "s2_c7a142ff4621aa246c1d",
+            "focal_window": [
+              8,
+              11
+            ],
+            "mode": "saved-analysis-only",
+            "reference": "course",
+            "reference_window": [
+              8,
+              11
+            ],
+            "summary": {
+              "baseline_mean": 37.92857142857142,
+              "baseline_observations": 4,
+              "baseline_window": [
+                0,
+                3
+              ],
+              "contrast": 0.04344501798115097,
+              "focal_eligible_days": 28,
+              "focal_mean": 3.5,
+              "focal_observations": 4,
+              "peer_ci_high": 3.8750189596509172,
+              "peer_ci_low": 3.075428001767113,
+              "peer_mean": 3.456554982018849,
+              "personal_change": -34.42857142857142,
+              "personal_status": "supported",
+              "recent_mean": 3.5,
+              "recent_observations": 4,
+              "recent_window": [
+                8,
+                11
+              ]
+            }
+          },
+          "width_mm": 75.0067,
+          "minimum_critical_font_pt": 8.269654782357284,
+          "external_annotation": ""
+        },
+        {
+          "capture": "assessments",
+          "sha256": "af96955dfbde13e54258966c96d472a46b2042861a7177ad741e2beb091295a9",
+          "selector": ".figure-surface",
+          "crop_css_px": {
+            "height": 1182.046875,
+            "width": 500,
+            "x": 24,
+            "y": -0.703125
+          },
+          "control_state": null,
+          "width_mm": 75.0067,
+          "minimum_critical_font_pt": 8.504696692913386,
+          "external_annotation": ""
+        }
+      ],
+      "pdf_sha256": "4e5503c991a9c46ee282747d54f1a132ac1481670e69117869923a38fbc3ac58",
+      "png_sha256": "bac31d0a83c37dcad4b855e7bbe5e3bb984aff864c6a212466684df88116d040"
+    },
+    {
+      "name": "figure1_grid",
+      "width_mm": 158.0134,
+      "height_mm": 235.0,
+      "natural_height_mm": 376.0372331555556,
+      "global_scale": 0.6249381159093557,
+      "minimum_critical_font_pt": 5.168022478907154,
+      "recommended": false,
+      "format": "Raster browser captures with vector panel lettering/editorial annotations; not a vector dashboard.",
+      "panels": [
+        {
+          "capture": "personal",
+          "sha256": "c588cddf0e279b99988d838bd7c42b7b02bd3a52408ee22009a971b9a9b8017c",
+          "selector": ".figure-surface",
+          "crop_css_px": {
+            "height": 1179.75,
+            "width": 500,
+            "x": 24,
+            "y": -0.703125
+          },
+          "control_state": null,
+          "width_mm": 46.874545778578266,
+          "minimum_critical_font_pt": 5.31490912764982,
+          "external_annotation": ""
+        },
+        {
+          "capture": "references",
+          "sha256": "6d54d6ed19ddec9c56ad7e3f2542c8cea2771eabe8717513662f1dae4e628b18",
+          "selector": ".figure-surface",
+          "crop_css_px": {
+            "height": 1061.359375,
+            "width": 500,
+            "x": 24,
+            "y": 39.296875
+          },
+          "control_state": {
+            "evidence_id": "s2_c7a142ff4621aa246c1d",
+            "focal_window": [
+              8,
+              11
+            ],
+            "mode": "saved-analysis-only",
+            "reference": "course",
+            "reference_window": [
+              8,
+              11
+            ],
+            "summary": {
+              "baseline_mean": 37.92857142857142,
+              "baseline_observations": 4,
+              "baseline_window": [
+                0,
+                3
+              ],
+              "contrast": 0.04344501798115097,
+              "focal_eligible_days": 28,
+              "focal_mean": 3.5,
+              "focal_observations": 4,
+              "peer_ci_high": 3.8750189596509172,
+              "peer_ci_low": 3.075428001767113,
+              "peer_mean": 3.456554982018849,
+              "personal_change": -34.42857142857142,
+              "personal_status": "supported",
+              "recent_mean": 3.5,
+              "recent_observations": 4,
+              "recent_window": [
+                8,
+                11
+              ]
+            }
+          },
+          "width_mm": 46.874545778578266,
+          "minimum_critical_font_pt": 5.168022478907154,
+          "external_annotation": ""
+        },
+        {
+          "capture": "observations",
+          "sha256": "cf54239df0867b3af2973cb04a02ff02a520281265648fef864399d034f13fbd",
+          "selector": ".figure-surface",
+          "crop_css_px": {
+            "height": 1149,
+            "width": 500,
+            "x": 24,
+            "y": -0.703125
+          },
+          "control_state": null,
+          "width_mm": 46.874545778578266,
+          "minimum_critical_font_pt": 5.31490912764982,
+          "external_annotation": ""
+        },
+        {
+          "capture": "assessments",
+          "sha256": "af96955dfbde13e54258966c96d472a46b2042861a7177ad741e2beb091295a9",
+          "selector": ".figure-surface",
+          "crop_css_px": {
+            "height": 1182.046875,
+            "width": 500,
+            "x": 24,
+            "y": -0.703125
+          },
+          "control_state": null,
+          "width_mm": 46.874545778578266,
+          "minimum_critical_font_pt": 5.31490912764982,
+          "external_annotation": ""
+        }
+      ],
+      "pdf_sha256": "aed6d5a48b04d3ae6e49beb6236501c821eef8bf84586105f2590e13e354c950",
+      "png_sha256": "107f3b53faff675d8102bf38e980f099b13be33d70a055dd397ccc573d6e3067"
+    }
+  ]
+}

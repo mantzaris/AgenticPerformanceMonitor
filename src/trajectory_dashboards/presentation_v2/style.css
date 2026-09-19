@@ -1,0 +1,49 @@
+/* Presentation v2: reuse scientific content and chart geometry, improve reading. */
+.presentation-v2{background:#f4f6f7;color:#192e38}
+.presentation-v2 [hidden]{display:none!important}
+.skip-link{position:absolute;top:-100px;left:16px;background:white;padding:12px;z-index:5}
+.skip-link:focus{top:12px}
+.presentation-v2 .responsibility{background:white;border:1px solid #d9e2e5;border-radius:8px;padding:18px 22px;margin-top:20px;font-size:15px}
+.presentation-v2 .responsibility dl{display:grid;grid-template-columns:180px 1fr;gap:10px 20px}
+.presentation-v2 .responsibility dt,.presentation-v2 .responsibility dd{margin:0}
+.presentation-v2 .reference-definition{font-size:14px;line-height:1.5;color:#425e69;margin:16px 0;max-width:900px}
+.presentation-v2 .source-status{margin:0;padding:9px 24px;border-top:1px solid #d9e2e5;font-size:13px;color:#425e69;background:#f5f8f8}
+.presentation-v2 .saved-permalink{font-size:13px;display:block;margin:4px 0 8px}
+.presentation-v2 #reference-warning{padding:12px;border-left:3px solid #986126;background:#fcf1d8;font-size:16px}
+.wide-view main,.wide-view .site-nav{max-width:1240px}
+.wide-view h1{font-size:30px;max-width:960px;letter-spacing:-.5px}
+.wide-view .figure-surface>header{padding:24px 28px;background:#fcfefe}
+.wide-view .context-line span{background:#edf3f4;border:0;border-radius:4px;padding:5px 10px}
+.wide-view .context-line{gap:8px;font-size:15px}
+.wide-view .answer-card{padding:20px;border-radius:6px}
+.wide-view .personal-values strong{font-size:38px}
+.wide-view .personal-values span,.wide-view .compare-values span{font-size:15px}
+.wide-view .personal-values small,.wide-view .fine,.wide-view .unit,.wide-view .window-line,.wide-view .counts{font-size:14px}
+.wide-view .card-label{font-size:16px}
+.wide-view .origin{font-size:12px}
+.wide-view .evidence-link{font-size:14px}
+.wide-view .chart-note{font-size:14px;margin-top:18px}
+.wide-view .compare-values strong{font-size:29px}
+.wide-view .reference-control{background:#f4f8f8;padding:14px;border-radius:6px}
+.wide-view .reference-control label,.wide-view .reference-control select{font-size:16px}
+.wide-view .reference-control select{max-width:560px}
+.wide-view .reference-control .saved-permalink{margin:0}
+.wide-view .interpretation{font-size:14px;line-height:1.55}
+.wide-view .surface-footer{font-size:13px;padding:13px 24px}
+.wide-view .all-contrasts{gap:20px}
+.wide-view .all-contrasts div,.wide-view .all-contrasts b{font-size:14px}
+.wide-view .unavailable-row b{font-size:16px}
+.wide-view .unavailable-row strong{font-size:18px}
+.wide-view .unavailable-row span{font-size:14px}
+.wide-view .evidence-record summary{font-size:15px}
+.wide-view .below-surface{padding-top:12px}
+.preparation.presentation-v2 .source-status{font-size:20px;padding:10px 14px}
+.preparation.presentation-v2 .saved-permalink{font-size:20px;margin:8px 0}
+.preparation.presentation-v2 .responsibility{font-size:17px}
+.preparation.presentation-v2 .reference-definition{font-size:17px}
+@media(max-width:800px){
+ .wide-view .figure-surface>header{padding:20px}.wide-view h1{font-size:25px}
+ .wide-view .reference-control{display:grid}.wide-view .reference-control select{width:100%;max-width:100%;white-space:normal}
+ .presentation-v2 .responsibility dl{grid-template-columns:1fr;gap:4px}.presentation-v2 .responsibility dt{margin-top:10px}
+ .wide-view .source-status{padding:10px 20px}.wide-view .all-contrasts{gap:12px}
+}

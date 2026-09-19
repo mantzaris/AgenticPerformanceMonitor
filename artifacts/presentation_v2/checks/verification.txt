@@ -1,0 +1,56 @@
+{
+  "historical_files_unchanged": 7799,
+  "starting_commit": "dd4023f01e8f717cf005f7394e33ac35ab34cf12",
+  "new_experimental_generations": 0,
+  "reserved_observations_opened": false,
+  "evaluator_executed": false,
+  "cases": [
+    {
+      "slug": "personal",
+      "records": 2,
+      "saved_sources_and_chart_values": "PASS",
+      "historical_status": "agent original",
+      "original_source_bound_replay": "PASS"
+    },
+    {
+      "slug": "references",
+      "records": 3,
+      "saved_sources_and_chart_values": "PASS",
+      "historical_status": "agent original",
+      "original_source_bound_replay": "PASS"
+    },
+    {
+      "slug": "observations",
+      "records": 3,
+      "saved_sources_and_chart_values": "PASS",
+      "historical_status": "agent repaired",
+      "original_source_bound_replay": "PASS"
+    },
+    {
+      "slug": "assessments",
+      "records": 2,
+      "saved_sources_and_chart_values": "PASS",
+      "historical_status": "agent original",
+      "original_source_bound_replay": "PASS"
+    },
+    {
+      "slug": "incomplete",
+      "records": 4,
+      "saved_sources_and_chart_values": "PASS",
+      "historical_status": "agent original",
+      "original_source_bound_replay": "PASS"
+    },
+    {
+      "slug": "baseline",
+      "records": 1,
+      "saved_sources_and_chart_values": "PASS",
+      "historical_status": "deterministic enumeration baseline",
+      "original_source_bound_replay": "PASS"
+    }
+  ],
+  "browser": "23 captures; values and saved-state URLs checked, no errors/external requests",
+  "figures": "Four readable candidates; four-panel reduction explicitly not recommended",
+  "official_template": "Four pages; unmodified official files, 158.0134 mm width",
+  "analytical_dispatcher_calls": 0,
+  "validation_scope": "Unchanged source-bound verifier recomputed checks from the saved development bundle; no new analytical request, model, evaluator or reserved observations."
+}

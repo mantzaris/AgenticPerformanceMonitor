@@ -1,0 +1,73 @@
+{
+  "anonymous_label": "Case E",
+  "answer_completeness_evaluated": false,
+  "changes": [
+    "responsive visual hierarchy",
+    "recent selected peer card first in personal view",
+    "visible historical selection status",
+    "responsibility expander",
+    "saved-reference URL state",
+    "inherited template-sized excerpts and native vector charts"
+  ],
+  "historical_selection_status": "deterministic enumeration baseline",
+  "layout": "support",
+  "new_substantive_answers": false,
+  "original_panels": [
+    {
+      "evidence_id": "s2_0b2d8e34c67e47538724",
+      "kind": "trajectory",
+      "origin": "method_selected",
+      "original_index": 0,
+      "reason": null
+    },
+    {
+      "evidence_id": "s2_0b2d8e34c67e47538724",
+      "kind": "observation_status",
+      "origin": "method_selected",
+      "original_index": 1,
+      "reason": null
+    },
+    {
+      "evidence_id": "s2_0b2d8e34c67e47538724",
+      "kind": "comparison",
+      "origin": "method_selected",
+      "original_index": 2,
+      "reason": null
+    }
+  ],
+  "rendered_files": {
+    "figure.html": "46529a2dbd8e9fb35e7c8480b4c06730dbbfc9e17c634219c50bb030040e1ba3",
+    "index.html": "48c1d9df081b2dc6e8d24b7da79373bc711b46ce749b566bda0504f967b358d8"
+  },
+  "schema": "presentation-v2",
+  "selected_answer_evidence": [
+    {
+      "evidence_ids": [
+        "s2_0b2d8e34c67e47538724"
+      ],
+      "origin": "method_selected",
+      "original_indices": [
+        0
+      ],
+      "template": "comparison"
+    },
+    {
+      "evidence_ids": [
+        "s2_0b2d8e34c67e47538724"
+      ],
+      "origin": "method_selected",
+      "original_indices": [
+        1
+      ],
+      "template": "personal_change"
+    }
+  ],
+  "source_hashes": {
+    "artifacts/stage6/comparison/baseline/s6_15/accepted/bound.json": "171edec019ae5996e1d3c3687453eb12f5beb6662ce61ecbe93152cf99235491",
+    "artifacts/stage6/comparison/baseline/s6_15/accepted/evidence.json": "c48a4d64d820779d2cb3220dd8b777d2d6fc60911100466d9f12fbc750d1ac5f",
+    "artifacts/stage6/comparison/baseline/s6_15/accepted/question.json": "4b816f23b14e98c71cfd078334951e5c8b76ce5fc1b40749f3faefb7e9759740",
+    "artifacts/stage6/comparison/baseline/s6_15/accepted/selection_provenance.json": "96fb498ed8afcc70f0adc124540ade4d9143b1ca70a8ad35dafb74df9958b468",
+    "artifacts/stage6/comparison/baseline/s6_15/accepted/spec.json": "481605f87194e5852a00bea156fdbc2f431973293217519e5fd74e9b55de8a50"
+  },
+  "statistical_recomputation": false
+}

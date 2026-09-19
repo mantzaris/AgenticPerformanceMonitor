@@ -1,0 +1,104 @@
+{
+  "anonymous_label": "Case C",
+  "answer_completeness_evaluated": false,
+  "changes": [
+    "responsive visual hierarchy",
+    "recent selected peer card first in personal view",
+    "visible historical selection status",
+    "responsibility expander",
+    "saved-reference URL state",
+    "inherited template-sized excerpts and native vector charts"
+  ],
+  "historical_selection_status": "agent repaired",
+  "layout": "observations",
+  "new_substantive_answers": false,
+  "original_panels": [
+    {
+      "evidence_id": "s2_6e150ab0aa9dbfd9caa7",
+      "kind": "comparison",
+      "origin": "method_selected",
+      "original_index": 0,
+      "reason": null
+    },
+    {
+      "evidence_id": "s2_7cab3dea1afc42e00ef4",
+      "kind": "comparison",
+      "origin": "method_selected",
+      "original_index": 1,
+      "reason": null
+    },
+    {
+      "evidence_id": "s2_300470308e6da1b90a04",
+      "kind": "comparison",
+      "origin": "method_selected",
+      "original_index": 2,
+      "reason": null
+    },
+    {
+      "evidence_id": "s2_6e150ab0aa9dbfd9caa7",
+      "kind": "trajectory",
+      "origin": "compiler_supplied",
+      "original_index": 3,
+      "reason": "common trajectory requirement"
+    },
+    {
+      "evidence_id": "s2_6e150ab0aa9dbfd9caa7",
+      "kind": "observation_status",
+      "origin": "compiler_supplied",
+      "original_index": 4,
+      "reason": "common observation context"
+    },
+    {
+      "evidence_id": "s2_7cab3dea1afc42e00ef4",
+      "kind": "assessment_status",
+      "origin": "compiler_supplied",
+      "original_index": 5,
+      "reason": "common assessment context"
+    }
+  ],
+  "rendered_files": {
+    "figure.html": "181638427b45b544f00c1f6939c4dad7544213b2755c26e9793136c9210ae423",
+    "index.html": "a3228126f3a9108e59552147bfe19ec31724839126f5d755ff8906b16784b1d9"
+  },
+  "schema": "presentation-v2",
+  "selected_answer_evidence": [
+    {
+      "evidence_ids": [
+        "s2_6e150ab0aa9dbfd9caa7"
+      ],
+      "origin": "method_selected",
+      "original_indices": [
+        0
+      ],
+      "template": "comparison"
+    },
+    {
+      "evidence_ids": [
+        "s2_7cab3dea1afc42e00ef4"
+      ],
+      "origin": "method_selected",
+      "original_indices": [
+        1
+      ],
+      "template": "comparison"
+    },
+    {
+      "evidence_ids": [
+        "s2_300470308e6da1b90a04"
+      ],
+      "origin": "method_selected",
+      "original_indices": [
+        2
+      ],
+      "template": "comparison"
+    }
+  ],
+  "source_hashes": {
+    "artifacts/stage6/comparison/compact_a/s6_09/accepted/bound.json": "b263cbb4c33ae523f7f2efa586530326db22f7b0242917a044b5447f9da5d407",
+    "artifacts/stage6/comparison/compact_a/s6_09/accepted/evidence.json": "d94ae00612dc0560ad62f1f8cbd035e27aa057f0b91cd3d925027c12a9152d9f",
+    "artifacts/stage6/comparison/compact_a/s6_09/accepted/question.json": "10b8407b9e1eb82b049e7add7b305895fba5fd69b60479a08b9d0c9018d1ae77",
+    "artifacts/stage6/comparison/compact_a/s6_09/accepted/selection_provenance.json": "1f272f7149bb917747ec08532e41b66bd77f89e91ca0ff141ac714eb0a57573a",
+    "artifacts/stage6/comparison/compact_a/s6_09/accepted/spec.json": "8cdbbbaf2e3def881b0ef15af83afcff15cda04b3c3d5d0a5ca8aeb8419ca18d"
+  },
+  "statistical_recomputation": false
+}
