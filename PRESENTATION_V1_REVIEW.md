@@ -40,6 +40,8 @@ two-panel Figure 1 and Figure S2 retain approximately 8.0 pt critical text at
 180 mm width. Individual captures use device scale factor 3; composites use
 300 dpi. PDFs contain raster browser captures plus vector editorial labels.
 The separately exported native SVG charts are genuine vectors.
+PDF exports are marked as binary within this package so Git does not display
+their compressed contents as text diffs.
 
 ## Views and source relationship
 
