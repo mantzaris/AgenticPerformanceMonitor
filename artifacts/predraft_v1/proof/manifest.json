@@ -1,0 +1,47 @@
+{
+  "template_files": {
+    "apalike.sty": "183bdccc3608e9db948dbd1cdffec3e2a476650dad223c7a3294325371fc0339",
+    "SCITEPRESS.sty": "d4a8482e5b2772a279b881012bedd813023f3c614287e02d5c648497ade3bf14"
+  },
+  "article_cls_sha256": "23e48b9a27539b6589503b6b5c5ff1451b58edfb245a0fa4c5847bb94392d32c",
+  "source_sha256": "114cc2dfcf29cacac41dd9f0bb7ce9e9905d8b8dcb76620981a1bf218092b399",
+  "pdf_sha256": "9c84a37bd80dab75494ab289045cc5faa5897104c946b605b3e011a5f755f4aa",
+  "pages": 6,
+  "dimensions_tex_pt": {
+    "TEXTWIDTH": "449.59116",
+    "COLUMNSEP": "22.76228",
+    "TEXTHEIGHT": "628.79474"
+  },
+  "pdf_dimensions": "A4, 210 x 297 mm",
+  "normal_figures": "figure* [tp], clearpage between isolated layout proofs",
+  "caption_font": "Unmodified SCITEPRESS caption package font=small (9 pt)",
+  "geometry_changes": false,
+  "source_date_epoch": "1789792909",
+  "pdflatex": "pdfTeX 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian)",
+  "figures": [
+    {
+      "path": "figures/figure1.pdf",
+      "sha256": "b88518cadf21ca102f0f1b72ddedc0bb0d7e0a088f98301daf03455ec29aac66"
+    },
+    {
+      "path": "figures/figure2.pdf",
+      "sha256": "d0c8cc39a62de776aaa3ae82ddef073eef960a800c24a6bb8b5bce1dd4fff1c9"
+    },
+    {
+      "path": "figures/figure3.pdf",
+      "sha256": "05fc306b26900a2aad5b7956c4e778a18804907fab4637cf7e2364c045682cc4"
+    },
+    {
+      "path": "figures/figure4.pdf",
+      "sha256": "7ab7f068e25f2a1a330e152015b4a4aafc6c2b8597133c7596c7f66fe15de4ad"
+    },
+    {
+      "path": "figures/figureS1.pdf",
+      "sha256": "b4ab59ab58289e1ba7190e5c6ef15fce189f3317543911626dd23b92494af1b7"
+    },
+    {
+      "path": "figures/figureS2.pdf",
+      "sha256": "addeeda1c6e37b06e128f8d04ee4007b92365068ceeb3d3107cb574fac5b0abe"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "agent_loop": "src/trajectory_dashboards/stage4/agents.py:episode, reused by stage6/adapter.py",
+  "evidence": "src/trajectory_dashboards/stage2/backend.py:Engine.analyze",
+  "validation": "src/trajectory_dashboards/stage2/integrity.py:validate",
+  "binding": "src/trajectory_dashboards/stage6/binding.py:compile_selection, resolve",
+  "compiler": "src/trajectory_dashboards/stage4/semantic.py:compile_answer",
+  "original_render": "src/trajectory_dashboards/stage4/display.py:render",
+  "presentation": "src/trajectory_dashboards/predraft_v1/render.py; inherited presentation_v1/interaction.js",
+  "completeness": "src/trajectory_dashboards/stage3/evaluation.py; stage4/evaluation.py provenance projection",
+  "precision_note": "Compiler performs validation internally and episode validates again before saving; diagram groups these into a recheck edge. A retains authored scope/support. B/C derive them. Tools return evidence to the model during the iterative episode; no model runs in this preparation stage."
+}

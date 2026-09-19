@@ -1,0 +1,27 @@
+# Proposed figure captions — pre-draft candidates
+
+These captions are also included in the official-template proof. The JSON file is the reproduction source.
+
+## figure1
+
+Adaptation to two analytical situations in saved Stage 6 development cases, rendered by the new deterministic presentation layer. (a) Compact A selects personal change and peer comparisons for s6_01; the excerpt emphasizes the earlier-to-recent change and selected recent-peer answer. Differences use unrounded values. (b) Compact A, historically accepted after one repair, selects insufficient-support comparisons for s6_09. Its original compiler supplied the observation timeline and grade-availability context. Recorded zeros, administrative ineligibility and unavailable recent quantities remain distinct. Presentation peers are other development students in the same course offering, with task focal people excluded. All numbers were calculated by deterministic tools. Shading is a 95% peer-mean bootstrap interval, not an individual or change interval. Layout adaptation is implemented presentation behavior, not evidence of improved accuracy or usability.
+
+## figure2
+
+Controlled reference-period change for compact A's saved s6_05 development answer. These excerpts capture a real browser selector reading already validated results; no agent investigation or statistical recomputation occurs. The person, recorded-click measure, focal weeks 8-11 and zero-based 0-8 scale remain fixed. Only the selected reference result changes: same-offering peers in weeks 8-11 versus weeks 0-3. Eligible membership can differ across periods, as the displayed distinct-person and person-week counts show. Whiskers are 95% person-bootstrap confidence intervals for the peer mean, not prediction intervals or intervals for the difference. The agent selected both comparisons; deterministic tools supplied values and this new presentation supplied the layout. Earlier peers are not a causally adjusted or necessarily fairer reference.
+
+## figure3
+
+Implemented division of responsibilities, traced to the saved Stage 6 execution path. The model requests deterministic analyses and selects analytical answers; it does not author these layouts or unrestricted frontend code. Explicit binding in C resolves only returned evidence, while B and C derive redundant metadata. Numerical and scope checks can trigger a bounded repair or rejection. The original compiler supplies required structure and tagged context, but no missing comparison claim. The new presentation reads saved accepted artifacts and applies deterministic layouts and charts; its saved-reference selector does not call the model. Numerical validity and requested-answer completeness are separate properties. Completeness is assessed offline and remains subject to pending scientific review. This preparation stage executes none of the model or analytical investigation paths.
+
+## figure4
+
+Frozen Stage 6 development results on the same 24 people per condition (96 method/case slots). Counts are mutually exclusive and derived directly from the preserved per-case report. Method selections mean deterministic selections for enumeration and model selections for A-C. The second category adds visible complete answers requiring original compiler-supplied requested context; it is not additional model success. Accepted incomplete and no accepted output remain in the denominator. B17-20 visibly display requested recent assessment means within personal-change claims, an equivalent form not credited by the frozen focal-item predicate. Those four disputed cases remain in the incomplete category pending human adjudication. No scores were revised, significance test added or held-out evaluation performed. Enumeration covers a small predefined task/reference registry, not unrestricted natural-language understanding.
+
+## figureS1
+
+Correct source-bound numbers with an incomplete answer in saved development case s6_15. Both captures are faithful answer-only excerpts: (a) compact A and (b) deterministic enumeration. Editorial labels outside the captures identify the requested recent window (weeks 10-11), the agent-selected earlier peer answers (weeks 0-3), and the baseline's explicit recent-peer insufficiency answer. Both retain a separately scoped personal-insufficiency answer. The agent's omission is preserved; its retrieved recent evidence is not converted into a missing peer claim. The original compiler supplied required context, and the new presentation only rearranges selected content. Intervals concern peer means; unavailable does not mean zero. Full original dashboards, questions, trajectories and provenance remain linked and are the basis for human completeness review.
+
+## figureS2
+
+Assessment activity in compact A's saved s6_17 development answer, retained as a supplementary view. Model-selected submission and scheduled non-submission measures use weeks 8-11, with same-offering peer comparisons. Model-selected dated assessment states are snapshots at their displayed dates; a later submission does not retroactively alter an earlier snapshot. The original compiler supplies required context and standard qualifications, and the new deterministic presentation emphasizes measures and events. All values and peer-mean intervals come from the saved analytical tools. Marks and banked-credit approval timing are unavailable; these records are not achievement ratings or evidence of learning. This is a new rendering of an existing development output, with no new inference or usability evaluation.

@@ -1,0 +1,176 @@
+{
+  "template_manifest": "template/manifest.json",
+  "textwidth_mm": 158.0134,
+  "columnsep_mm": 8,
+  "panel_width_mm": 75.0067,
+  "device_scale_factor": 3,
+  "screenshot_font": "DejaVu Sans",
+  "raster_export_dpi": 300,
+  "critical_svg_text": "22 SVG units at 500-unit canvas, 470 CSS px or 440 CSS px content widths; \u22658.7 pt in these placements.",
+  "figures": [
+    {
+      "name": "figure1",
+      "width_mm": 158.0134,
+      "height_mm": 175.46785277777775,
+      "pdf_sha256": "b88518cadf21ca102f0f1b72ddedc0bb0d7e0a088f98301daf03455ec29aac66",
+      "minimum_critical_font_pt": 8.504696692913386,
+      "panels": [
+        {
+          "capture": "personal",
+          "capture_sha256": "9e7dc5c54676384c9fecdc6bfc91f348f33bc55459008af232af0ab8f4d37f34",
+          "crop_css_px": {
+            "height": 1123.75,
+            "width": 500,
+            "x": 24,
+            "y": 72.296875
+          },
+          "capture_selector": ".figure-surface",
+          "physical_width_mm": 75.0067,
+          "minimum_body_font_pt": 8.504696692913386,
+          "external_annotation": ""
+        },
+        {
+          "capture": "observations",
+          "capture_sha256": "ba4d68e2096f03d29601ebc3858bdd607a5b88343fdd96802db4916a32a5b23e",
+          "crop_css_px": {
+            "height": 1066,
+            "width": 500,
+            "x": 24,
+            "y": 72.296875
+          },
+          "capture_selector": ".figure-surface",
+          "physical_width_mm": 75.0067,
+          "minimum_body_font_pt": 8.504696692913386,
+          "external_annotation": ""
+        }
+      ],
+      "format": "Raster browser captures; vector panel labels/editorial annotations. Not a vector dashboard.",
+      "global_scaling": 1,
+      "png_sha256": "49214df8f940da11831c2f093883b775333b807039a8ffc081216bfbb0c8ef87"
+    },
+    {
+      "name": "figure2",
+      "width_mm": 158.0134,
+      "height_mm": 98.59233352245863,
+      "pdf_sha256": "d0c8cc39a62de776aaa3ae82ddef073eef960a800c24a6bb8b5bce1dd4fff1c9",
+      "minimum_critical_font_pt": 8.797505087614132,
+      "panels": [
+        {
+          "capture": "reference-course",
+          "capture_sha256": "49ea3b27ad0dfbcfaa9efce51243b195bb8d3a9a2fa1975a3cfe62e43f62ec2d",
+          "crop_css_px": {
+            "height": 535.359375,
+            "width": 470,
+            "x": 39,
+            "y": -537.703125
+          },
+          "capture_selector": ".switch-excerpt",
+          "physical_width_mm": 75.0067,
+          "minimum_body_font_pt": 8.797505087614132,
+          "external_annotation": ""
+        },
+        {
+          "capture": "reference-early_stage",
+          "capture_sha256": "1b5f3d70124da491eb4d8c740f77cabf0a83b8fbbe665c71b78597782b2c1d93",
+          "crop_css_px": {
+            "height": 535.359375,
+            "width": 470,
+            "x": 39,
+            "y": -537.703125
+          },
+          "capture_selector": ".switch-excerpt",
+          "physical_width_mm": 75.0067,
+          "minimum_body_font_pt": 8.797505087614132,
+          "external_annotation": ""
+        }
+      ],
+      "format": "Raster browser captures; vector panel labels/editorial annotations. Not a vector dashboard.",
+      "global_scaling": 1,
+      "png_sha256": "2ab31a456833a7e7a718bf8300d008faabad5e06a36fcd72cc90383905013670"
+    },
+    {
+      "name": "figureS1",
+      "width_mm": 158.0134,
+      "height_mm": 114.70716244979918,
+      "pdf_sha256": "b4ab59ab58289e1ba7190e5c6ef15fce189f3317543911626dd23b92494af1b7",
+      "minimum_critical_font_pt": 8.538852101318662,
+      "panels": [
+        {
+          "capture": "incomplete-answers",
+          "capture_sha256": "67c5aea56125fa91469f34a5f77f831fe414490d32818ff8bf57ddec954fbda9",
+          "crop_css_px": {
+            "height": 606.5,
+            "width": 498,
+            "x": 25,
+            "y": 297.296875
+          },
+          "capture_selector": ".excerpt-content",
+          "physical_width_mm": 75.0067,
+          "minimum_body_font_pt": 8.538852101318662,
+          "external_annotation": "Agent-selected peer answers: weeks 0\u20133. The recent-peer answer is omitted."
+        },
+        {
+          "capture": "baseline-answers",
+          "capture_sha256": "5b0bfb67364b651913b836c8def1baf5e610fd1ed05701e3c59236353d2532d6",
+          "crop_css_px": {
+            "height": 418.5,
+            "width": 498,
+            "x": 25,
+            "y": 297.296875
+          },
+          "capture_selector": ".excerpt-content",
+          "physical_width_mm": 75.0067,
+          "minimum_body_font_pt": 8.538852101318662,
+          "external_annotation": "Baseline: explicit recent-peer insufficiency. The personal answer remains separate."
+        }
+      ],
+      "format": "Raster browser captures; vector panel labels/editorial annotations. Not a vector dashboard.",
+      "global_scaling": 1,
+      "png_sha256": "8104bb9b70c72b707cfc1d0f14ffdc0844bbab42de70e9a25e74c6c421c1facc"
+    },
+    {
+      "name": "figureS2",
+      "width_mm": 75.0067,
+      "height_mm": 175.76787957777776,
+      "pdf_sha256": "addeeda1c6e37b06e128f8d04ee4007b92365068ceeb3d3107cb574fac5b0abe",
+      "minimum_critical_font_pt": 8.504696692913386,
+      "panels": [
+        {
+          "capture": "assessments",
+          "capture_sha256": "cd97877dc01140372bdc98bf1aa4a32cfbac65951a928b5704932c70c20529bb",
+          "crop_css_px": {
+            "height": 1126.046875,
+            "width": 500,
+            "x": 24,
+            "y": 72.296875
+          },
+          "capture_selector": ".figure-surface",
+          "physical_width_mm": 75.0067,
+          "minimum_body_font_pt": 8.504696692913386,
+          "external_annotation": ""
+        }
+      ],
+      "format": "Raster browser captures; vector panel labels/editorial annotations. Not a vector dashboard.",
+      "global_scaling": 1,
+      "png_sha256": "7b9bd71223a905eed4c0abd43fd25d15c97afeb461d26cff3f84ec16e16ff8fe"
+    },
+    {
+      "name": "figure3",
+      "width_mm": 158.0134,
+      "height_mm": 116.83999999999999,
+      "minimum_critical_font_pt": 8,
+      "format": "Genuine vector PDF and SVG (text, paths, rectangles); not a screenshot.",
+      "pdf_sha256": "05fc306b26900a2aad5b7956c4e778a18804907fab4637cf7e2364c045682cc4",
+      "png_sha256": "f6622419f32a79261707e6521dd40bf2acb45b18184df0fa75825663cc3144ff"
+    },
+    {
+      "name": "figure4",
+      "width_mm": 158.0134,
+      "height_mm": 85.09,
+      "minimum_critical_font_pt": 8.5,
+      "format": "Genuine vector PDF and SVG (text, paths, rectangles); not a screenshot.",
+      "pdf_sha256": "7ab7f068e25f2a1a330e152015b4a4aafc6c2b8597133c7596c7f66fe15de4ad",
+      "png_sha256": "fcf16c9c068165b017871acd5f2573a6c1690b23bd4a72a50eadb81afb097b99"
+    }
+  ]
+}

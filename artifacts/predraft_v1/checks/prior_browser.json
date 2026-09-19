@@ -1,0 +1,104 @@
+{
+  "browser": "153.0.8010.36",
+  "records": [
+    {
+      "view": "personal",
+      "question": "How has my recorded click rate changed, and how does it compare with peers?",
+      "surface": {
+        "x": 74,
+        "y": 52.296875,
+        "width": 952,
+        "height": 1151.234375
+      }
+    },
+    {
+      "view": "references",
+      "question": "How does my recent click rate compare across peer definitions?",
+      "surface": {
+        "x": 74,
+        "y": 52.296875,
+        "width": 952,
+        "height": 1194.1875
+      }
+    },
+    {
+      "view": "observations",
+      "question": "What can my recent activity and assessment records establish?",
+      "surface": {
+        "x": 74,
+        "y": 52.296875,
+        "width": 952,
+        "height": 1052.59375
+      }
+    },
+    {
+      "view": "assessments",
+      "question": "What do my assessment records show about submissions and learning?",
+      "surface": {
+        "x": 74,
+        "y": 52.296875,
+        "width": 952,
+        "height": 1091.453125
+      }
+    },
+    {
+      "view": "incomplete",
+      "question": "Can my recent click rate be compared with my history and with peers?",
+      "surface": {
+        "x": 74,
+        "y": 52.296875,
+        "width": 952,
+        "height": 1266.375
+      }
+    },
+    {
+      "view": "baseline",
+      "question": "Can my recent click rate be compared with my history and with peers?",
+      "surface": {
+        "x": 74,
+        "y": 52.296875,
+        "width": 952,
+        "height": 1098.4375
+      }
+    },
+    {
+      "actual_earlier_reference_state": {
+        "evidence_id": "s2_ea133cfd118a844e9a9d",
+        "reference": "early_stage",
+        "focal_window": [
+          8,
+          11
+        ],
+        "reference_window": [
+          0,
+          3
+        ],
+        "summary": {
+          "baseline_mean": 37.92857142857142,
+          "baseline_observations": 4,
+          "baseline_window": [
+            0,
+            3
+          ],
+          "contrast": -3.4804074496228745,
+          "focal_eligible_days": 28,
+          "focal_mean": 3.5,
+          "focal_observations": 4,
+          "peer_ci_high": 7.583035687901046,
+          "peer_ci_low": 6.497984123466172,
+          "peer_mean": 6.9804074496228745,
+          "personal_change": -34.42857142857142,
+          "personal_status": "supported",
+          "recent_mean": 3.5,
+          "recent_observations": 4,
+          "recent_window": [
+            8,
+            11
+          ]
+        },
+        "mode": "saved-analysis-only"
+      }
+    }
+  ],
+  "errors": []
+}
