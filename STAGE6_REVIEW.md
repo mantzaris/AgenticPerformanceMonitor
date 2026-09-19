@@ -17,8 +17,12 @@ remain unopened. Work and commits are on `main`, with no force-push.
 
 Starting commit: `2828c07c86c518106d3add6320279585ec6c22ac`.
 Construction execution: `09882f579b4fa406fcd3f129cd9b7857d610d63f`.
-Completed pre-freeze implementation: `2999aed`.
+Completed pre-freeze implementation: `2999aed53280117b7b19ee4c21b0ebf9a5b18599`.
 Frozen comparison execution: `949019eceb9b0278d1836e1544689c9829bb7b10`.
+Complete results/review commit: `857d065f27c9080d36938fac30aa153bb87bf9d7`.
+The final handoff commit adds [publication metadata](artifacts/stage6/publication.json);
+resolve its full SHA with `git log -1 --format=%H -- artifacts/stage6/publication.json`.
+Its SHA and actual push status are also reported in the session completion.
 
 ## Read first
 

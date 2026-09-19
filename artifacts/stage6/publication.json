@@ -1,0 +1,20 @@
+{
+  "attempted_generations": 185,
+  "branch": "main",
+  "comparison_execution_commit": "949019eceb9b0278d1836e1544689c9829bb7b10",
+  "construction_execution_commit": "09882f579b4fa406fcd3f129cd9b7857d610d63f",
+  "elapsed_seconds_to_publication_preparation": 4298.326451,
+  "final_commit_resolution": "git log -1 --format=%H -- artifacts/stage6/publication.json",
+  "model_process_seconds": 1719.020583906211,
+  "model_processes_stopped": true,
+  "pod_terminated": false,
+  "primary_report_sha256": "06d58fcbe4772443ab94887eb3f55a7ee927dcad60afad0bd86d370d06c5f7ce",
+  "primary_scores_sha256": "f3c90c3c628aec3160ae3ec0007bdc8a56f67a79a1176c4521a6a97af0a3b427",
+  "publication_prepared_utc": "2026-09-19T00:30:54.326451+00:00",
+  "push_verification": "Final SHA and actual push verification reported after push in the session completion; compare git rev-parse HEAD origin/main",
+  "readiness": "Completed Stage 6; no agent passed the gate; publication and agent final validation blocked pending scientific/rubric review",
+  "results_commit": "857d065f27c9080d36938fac30aa153bb87bf9d7",
+  "stage": 6,
+  "starting_commit": "2828c07c86c518106d3add6320279585ec6c22ac",
+  "target": "origin/main"
+}
