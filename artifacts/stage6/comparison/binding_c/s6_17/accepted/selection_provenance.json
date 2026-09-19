@@ -1,0 +1,307 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "compiler_supplied",
+    "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+    "scope": "selected"
+  },
+  "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "binding_c",
+  "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+  "original_selection": {
+    "answers": [
+      {
+        "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+      },
+      {
+        "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11"
+      },
+      {
+        "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+      },
+      {
+        "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+      },
+      {
+        "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+      },
+      {
+        "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3"
+      },
+      {
+        "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+      },
+      {
+        "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        6
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        7
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    }
+  ],
+  "resolved_bindings": [
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_daac9acb9551c1cf1f13"
+      ],
+      "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+      "original_selection": {
+        "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+      },
+      "resolved_evidence_id": "s2_daac9acb9551c1cf1f13"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_79e8145fe0b9f4b4fd35"
+      ],
+      "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11",
+      "original_selection": {
+        "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11"
+      },
+      "resolved_evidence_id": "s2_79e8145fe0b9f4b4fd35"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "recorded_context",
+        "scope": "context",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_daac9acb9551c1cf1f13"
+      ],
+      "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+      "original_selection": {
+        "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+      },
+      "resolved_evidence_id": "s2_daac9acb9551c1cf1f13"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "recorded_context",
+        "scope": "context",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_daac9acb9551c1cf1f13"
+      ],
+      "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+      "original_selection": {
+        "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+      },
+      "resolved_evidence_id": "s2_daac9acb9551c1cf1f13"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_bf934d9a368921851d89"
+      ],
+      "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_bf934d9a368921851d89"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_27783ad93b40d30bdadb"
+      ],
+      "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_27783ad93b40d30bdadb"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "recorded_context",
+        "scope": "context",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_bf934d9a368921851d89"
+      ],
+      "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_bf934d9a368921851d89"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "recorded_context",
+        "scope": "context",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_bf934d9a368921851d89"
+      ],
+      "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_bf934d9a368921851d89"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_daac9acb9551c1cf1f13",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_daac9acb9551c1cf1f13",
+        "kind": "assessment_status",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_daac9acb9551c1cf1f13",
+        "kind": "observation_status",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_bf934d9a368921851d89",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_27783ad93b40d30bdadb",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_bf934d9a368921851d89",
+        "kind": "assessment_status",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_bf934d9a368921851d89",
+        "kind": "observation_status",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

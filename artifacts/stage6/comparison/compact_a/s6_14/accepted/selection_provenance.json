@@ -1,0 +1,144 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "method_selected",
+    "scope": "selected"
+  },
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "semantic",
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_7bcc2c467ab283bae350",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_7bcc2c467ab283bae350",
+        "kind": "personal_change",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_2e7f2ae8095acd0f4a80",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_2e7f2ae8095acd0f4a80",
+        "kind": "personal_change",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_4fef982988b3cbbfced4",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_4fef982988b3cbbfced4",
+        "kind": "personal_change",
+        "support": "insufficient_evidence"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

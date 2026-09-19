@@ -1,0 +1,159 @@
+{
+  "human_review": "PENDING",
+  "records": [
+    {
+      "bound_path": "artifacts/stage6/comparison/derived_b/s6_17/accepted/bound.json",
+      "bound_sha256": "f7811c6078097518fe0d0f906b10285a2892b81bbfd7a5e66e171b8bcf7a449b",
+      "claims": [
+        {
+          "evidence_id": "s2_daac9acb9551c1cf1f13",
+          "selection_origin": "method_selected",
+          "template": "personal_change",
+          "text": "nonbanked_submissions (non-banked submissions / week): Personal mean changed from 0.25 in weeks 0\u20133 (4 observed weeks) to 0.25 in weeks 8\u201311 (4 observed weeks): change 0.00 non-banked submissions / week. This descriptive personal change has no uncertainty interval.",
+          "wording_and_values_origin": "deterministic compiler"
+        },
+        {
+          "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+          "selection_origin": "method_selected",
+          "template": "personal_change",
+          "text": "scheduled_no_submission (scheduled assessments without recorded submission / week): Personal mean changed from 0.00 in weeks 0\u20133 (4 observed weeks) to 0.00 in weeks 8\u201311 (4 observed weeks): change 0.00 scheduled assessments without recorded submission / week. This descriptive personal change has no uncertainty interval.",
+          "wording_and_values_origin": "deterministic compiler"
+        }
+      ],
+      "condition": "derived_b",
+      "finding": "Frozen focal predicate omits supported recent means explicitly displayed within personal-change claims",
+      "question_id": "s6_17",
+      "review_status": "Codex display/trace observation; external human review pending; primary score unchanged"
+    },
+    {
+      "bound_path": "artifacts/stage6/comparison/derived_b/s6_18/accepted/bound.json",
+      "bound_sha256": "f55cf6a480bae0c703afbc1456666f8b611bc3081c43782b713ab26704d4c3fe",
+      "claims": [
+        {
+          "evidence_id": "s2_77c07205ac54e34bbf41",
+          "selection_origin": "method_selected",
+          "template": "personal_change",
+          "text": "nonbanked_submissions (non-banked submissions / week): Personal mean changed from 0.25 in weeks 0\u20133 (4 observed weeks) to 0.00 in weeks 8\u201311 (4 observed weeks): change -0.25 non-banked submissions / week. This descriptive personal change has no uncertainty interval.",
+          "wording_and_values_origin": "deterministic compiler"
+        },
+        {
+          "evidence_id": "s2_00027a474d866e14fd30",
+          "selection_origin": "method_selected",
+          "template": "personal_change",
+          "text": "scheduled_no_submission (scheduled assessments without recorded submission / week): Personal mean changed from 0.00 in weeks 0\u20133 (4 observed weeks) to 0.00 in weeks 8\u201311 (4 observed weeks): change 0.00 scheduled assessments without recorded submission / week. This descriptive personal change has no uncertainty interval.",
+          "wording_and_values_origin": "deterministic compiler"
+        }
+      ],
+      "condition": "derived_b",
+      "finding": "Frozen focal predicate omits supported recent means explicitly displayed within personal-change claims",
+      "question_id": "s6_18",
+      "review_status": "Codex display/trace observation; external human review pending; primary score unchanged"
+    },
+    {
+      "bound_path": "artifacts/stage6/comparison/derived_b/s6_19/accepted/bound.json",
+      "bound_sha256": "86393b89c295e0173a276a1d97561bd8ad8976a799730497b62d95aded428386",
+      "claims": [
+        {
+          "evidence_id": "s2_a357708dd24ed838dd59",
+          "selection_origin": "method_selected",
+          "template": "personal_change",
+          "text": "nonbanked_submissions (non-banked submissions / week): Personal mean changed from 0.25 in weeks 0\u20133 (4 observed weeks) to 0.25 in weeks 8\u201311 (4 observed weeks): change 0.00 non-banked submissions / week. This descriptive personal change has no uncertainty interval.",
+          "wording_and_values_origin": "deterministic compiler"
+        },
+        {
+          "evidence_id": "s2_88264b953ec1083d6e94",
+          "selection_origin": "method_selected",
+          "template": "personal_change",
+          "text": "scheduled_no_submission (scheduled assessments without recorded submission / week): Personal mean changed from 0.00 in weeks 0\u20133 (4 observed weeks) to 0.00 in weeks 8\u201311 (4 observed weeks): change 0.00 scheduled assessments without recorded submission / week. This descriptive personal change has no uncertainty interval.",
+          "wording_and_values_origin": "deterministic compiler"
+        }
+      ],
+      "condition": "derived_b",
+      "finding": "Frozen focal predicate omits supported recent means explicitly displayed within personal-change claims",
+      "question_id": "s6_19",
+      "review_status": "Codex display/trace observation; external human review pending; primary score unchanged"
+    },
+    {
+      "bound_path": "artifacts/stage6/comparison/derived_b/s6_20/accepted/bound.json",
+      "bound_sha256": "6c81631aa1611a42a2458fcda0817f887b300bf4d7377891bace37ed43ee90d8",
+      "claims": [
+        {
+          "evidence_id": "s2_278b5f93fb7c65ade603",
+          "selection_origin": "method_selected",
+          "template": "personal_change",
+          "text": "nonbanked_submissions (non-banked submissions / week): Personal mean changed from 0.25 in weeks 0\u20133 (4 observed weeks) to 0.25 in weeks 8\u201311 (4 observed weeks): change 0.00 non-banked submissions / week. This descriptive personal change has no uncertainty interval.",
+          "wording_and_values_origin": "deterministic compiler"
+        },
+        {
+          "evidence_id": "s2_59ef35a54e96ce7f3232",
+          "selection_origin": "method_selected",
+          "template": "personal_change",
+          "text": "scheduled_no_submission (scheduled assessments without recorded submission / week): Personal mean changed from 0.00 in weeks 0\u20133 (4 observed weeks) to 0.00 in weeks 8\u201311 (4 observed weeks): change 0.00 scheduled assessments without recorded submission / week. This descriptive personal change has no uncertainty interval.",
+          "wording_and_values_origin": "deterministic compiler"
+        }
+      ],
+      "condition": "derived_b",
+      "finding": "Frozen focal predicate omits supported recent means explicitly displayed within personal-change claims",
+      "question_id": "s6_20",
+      "review_status": "Codex display/trace observation; external human review pending; primary score unchanged"
+    },
+    {
+      "condition": "binding_c",
+      "finding": "Valid baseline click-rate answer selected while recent focal mean requested; additional wrong-window mechanism annotation.",
+      "question_id": "s6_12",
+      "sequence_path": "artifacts/stage6/comparison/binding_c/s6_12/sequence.json",
+      "sequence_sha256": "e54d2dba1046e24db41b7c135176c66a31358bff02ecbf78003767114f406d8f"
+    },
+    {
+      "condition": "derived_b",
+      "finding": "Common panel contract exceeds ten panels at first final; repaired. Frozen automatic taxonomy reports schema only.",
+      "question_id": "s6_23",
+      "sequence_path": "artifacts/stage6/comparison/derived_b/s6_23/sequence.json",
+      "sequence_sha256": "1bd60bdbc81348ef180d1ddfd152529d43cf6912e9a0bec01797ae79cbee9a77"
+    },
+    {
+      "condition": "compact_a",
+      "finding": "Peer answer selections paired with personal-scope insufficiency conclusion; rejected before and after repair.",
+      "question_id": "s6_12",
+      "sequence_path": "artifacts/stage6/comparison/compact_a/s6_12/sequence.json",
+      "sequence_sha256": "daae6c30016ed9035e65d25dc57b23987fdd1ee494e7dc57a58800f95b17b132"
+    },
+    {
+      "condition": "compact_a",
+      "finding": "Recent course-peer evidence retrieved but only earlier peer answers and personal insufficiency selected.",
+      "question_id": "s6_15",
+      "sequence_path": "artifacts/stage6/comparison/compact_a/s6_15/sequence.json",
+      "sequence_sha256": "d84a63ad556426927ca78a2a06791fd72ee52fe70911a7d9b5c4a8d8028ba19c"
+    },
+    {
+      "condition": "compact_a",
+      "finding": "Unknown ID then invalid descriptive scope; final rejected.",
+      "question_id": "s6_22",
+      "sequence_path": "artifacts/stage6/comparison/compact_a/s6_22/sequence.json",
+      "sequence_sha256": "1104dffdcd53759a6f32d096d2f6b5bb9151212cfb87bb02d03016eac5cf181c"
+    },
+    {
+      "condition": "binding_c",
+      "finding": "Invalid batches produce zero evidence; invented handles are unresolved and rejected.",
+      "question_id": "s6_18",
+      "sequence_path": "artifacts/stage6/comparison/binding_c/s6_18/sequence.json",
+      "sequence_sha256": "36448e5c8bf079819ae76d4b8cec38b9e2c3014d82e8d0f6e8374247f963a331"
+    },
+    {
+      "condition": "binding_c",
+      "finding": "Invalid batches produce zero evidence; invented handles are unresolved and rejected.",
+      "question_id": "s6_19",
+      "sequence_path": "artifacts/stage6/comparison/binding_c/s6_19/sequence.json",
+      "sequence_sha256": "1cd51be95c5763da7103b799e27dcf24ddd2ba691c047ac36adbe57856225cf8"
+    },
+    {
+      "condition": "binding_c",
+      "finding": "Invalid batches produce zero evidence; invented handles are unresolved and rejected.",
+      "question_id": "s6_20",
+      "sequence_path": "artifacts/stage6/comparison/binding_c/s6_20/sequence.json",
+      "sequence_sha256": "6f59cdb1be20c4d3ec474d35f2f59837433fadd0b6a286a363b140f16bb1ea55"
+    }
+  ],
+  "type": "Post-freeze descriptive trace/display inspection, not revised primary scoring",
+  "utc": "2026-09-19T00:20:18.775358+00:00"
+}

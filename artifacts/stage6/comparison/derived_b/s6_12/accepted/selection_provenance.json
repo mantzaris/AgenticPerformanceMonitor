@@ -1,0 +1,262 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "compiler_supplied",
+    "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+    "scope": "selected"
+  },
+  "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "derived_b",
+  "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+  "original_selection": {
+    "answers": [
+      {
+        "evidence_id": "s2_79c9d5107e73f7862908",
+        "kind": "peer_comparison"
+      },
+      {
+        "evidence_id": "s2_79c9d5107e73f7862908",
+        "kind": "measurement_limit"
+      },
+      {
+        "evidence_id": "s2_7e65b4cd0a0283e884e0",
+        "kind": "peer_comparison"
+      },
+      {
+        "evidence_id": "s2_7e65b4cd0a0283e884e0",
+        "kind": "measurement_limit"
+      },
+      {
+        "evidence_id": "s2_6a9e6d961ea2af187188",
+        "kind": "peer_comparison"
+      },
+      {
+        "evidence_id": "s2_6a9e6d961ea2af187188",
+        "kind": "measurement_limit"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common assessment context"
+    }
+  ],
+  "resolved_bindings": [
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_79c9d5107e73f7862908"
+      ],
+      "identity": "peer_comparison|person=721259|course=AAA_2013J|cutoff=83|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "evidence_id": "s2_79c9d5107e73f7862908",
+        "kind": "peer_comparison"
+      },
+      "resolved_evidence_id": "s2_79c9d5107e73f7862908"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "unavailable_measurement",
+        "scope": "measurement",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_79c9d5107e73f7862908"
+      ],
+      "identity": "measurement_limit|person=721259|course=AAA_2013J|cutoff=83|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "evidence_id": "s2_79c9d5107e73f7862908",
+        "kind": "measurement_limit"
+      },
+      "resolved_evidence_id": "s2_79c9d5107e73f7862908"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_7e65b4cd0a0283e884e0"
+      ],
+      "identity": "peer_comparison|person=721259|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "evidence_id": "s2_7e65b4cd0a0283e884e0",
+        "kind": "peer_comparison"
+      },
+      "resolved_evidence_id": "s2_7e65b4cd0a0283e884e0"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "unavailable_measurement",
+        "scope": "measurement",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_7e65b4cd0a0283e884e0"
+      ],
+      "identity": "measurement_limit|person=721259|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "evidence_id": "s2_7e65b4cd0a0283e884e0",
+        "kind": "measurement_limit"
+      },
+      "resolved_evidence_id": "s2_7e65b4cd0a0283e884e0"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_6a9e6d961ea2af187188"
+      ],
+      "identity": "peer_comparison|person=721259|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "evidence_id": "s2_6a9e6d961ea2af187188",
+        "kind": "peer_comparison"
+      },
+      "resolved_evidence_id": "s2_6a9e6d961ea2af187188"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "unavailable_measurement",
+        "scope": "measurement",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_6a9e6d961ea2af187188"
+      ],
+      "identity": "measurement_limit|person=721259|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "evidence_id": "s2_6a9e6d961ea2af187188",
+        "kind": "measurement_limit"
+      },
+      "resolved_evidence_id": "s2_6a9e6d961ea2af187188"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_79c9d5107e73f7862908",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_79c9d5107e73f7862908",
+        "kind": "measurement_limit",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_7e65b4cd0a0283e884e0",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_7e65b4cd0a0283e884e0",
+        "kind": "measurement_limit",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_6a9e6d961ea2af187188",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_6a9e6d961ea2af187188",
+        "kind": "measurement_limit",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "allocated_bytes": 29549748736,
+  "budget_partition": "comparison",
+  "completed_utc": "2026-09-19T00:05:53.160688+00:00",
+  "completion_tokens": 260,
+  "cuda_event_ms": 11629.009765625,
+  "elapsed_seconds": 11.676237910054624,
+  "eos_reached": true,
+  "finish_reason": "eos",
+  "generation": 157,
+  "input_device": "cuda:0",
+  "last_generated_token_id": 151645,
+  "method": "derived_b",
+  "model_key": "qwen14b",
+  "nvidia_smi_own_process": [
+    "137800, /workspace/apm-stage1/.venv/bin/python, 34922"
+  ],
+  "output_device": "cuda:0",
+  "output_token_ceiling": 1500,
+  "peak_allocated_bytes": 31015143936,
+  "peak_reserved_bytes": 36071014400,
+  "phase": "action_2",
+  "process_id": "qwen14b_comparison_02",
+  "prompt_tokens": 4562,
+  "question_id": "s6_20",
+  "started_utc": "2026-09-19T00:05:41.484431+00:00",
+  "status": "completed"
+}

@@ -1,0 +1,155 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "compiler_supplied",
+    "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+    "scope": "selected"
+  },
+  "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "binding_c",
+  "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+  "original_selection": {
+    "answers": [
+      {
+        "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=10:11|reference=course|reference_window=10:11"
+      },
+      {
+        "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3"
+      },
+      {
+        "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=10:11|reference=early_stage|reference_window=0:3"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    }
+  ],
+  "resolved_bindings": [
+    {
+      "derived_metadata": {
+        "answer_state": "supported_insufficiency",
+        "scope": "peer",
+        "support": "insufficient_evidence"
+      },
+      "equivalent_evidence_ids": [
+        "s2_0b2d8e34c67e47538724"
+      ],
+      "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=10:11|reference=course|reference_window=10:11",
+      "original_selection": {
+        "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=10:11|reference=course|reference_window=10:11"
+      },
+      "resolved_evidence_id": "s2_0b2d8e34c67e47538724"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_5c9c2355ddbb30accbb4"
+      ],
+      "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_5c9c2355ddbb30accbb4"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "supported_insufficiency",
+        "scope": "peer",
+        "support": "insufficient_evidence"
+      },
+      "equivalent_evidence_ids": [
+        "s2_e614faf3632f424d4592"
+      ],
+      "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=10:11|reference=early_stage|reference_window=0:3",
+      "original_selection": {
+        "identity": "peer_comparison|person=542396|course=BBB_2013B|cutoff=83|feature=clicks_per_eligible_day|focal=10:11|reference=early_stage|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_e614faf3632f424d4592"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_0b2d8e34c67e47538724",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_5c9c2355ddbb30accbb4",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_e614faf3632f424d4592",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

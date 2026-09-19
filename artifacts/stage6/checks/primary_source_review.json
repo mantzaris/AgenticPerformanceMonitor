@@ -1,0 +1,27 @@
+{
+  "external_scientific_review": "PENDING",
+  "reviewed_utc": "2026-09-18T23:49:42.164947+00:00",
+  "scope": "Focused primary-source overlap check, not broad literature review",
+  "sources": [
+    {
+      "relation": "Natural-language analytic attributes/tasks and Vega-Lite specifications are established.",
+      "title": "NL4DV official author project and linked research",
+      "url": "https://nl4dv.github.io/nl4dv/"
+    },
+    {
+      "relation": "LLM analytic specifications with phrase mappings, tasks and visualization design; semantic intermediates are established.",
+      "title": "Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models",
+      "url": "https://arxiv.org/abs/2408.13391"
+    },
+    {
+      "relation": "Logical visualization design constraints; deterministic constraints are not a novelty claim.",
+      "title": "Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco",
+      "url": "https://www.domoritz.de/papers/2018-Draco-InfoVis.pdf"
+    },
+    {
+      "relation": "Entities, activities, agents and derivations; provenance is established.",
+      "title": "PROV-DM: The PROV Data Model",
+      "url": "https://www.w3.org/TR/prov-dm/"
+    }
+  ]
+}

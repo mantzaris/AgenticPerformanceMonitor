@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-09-19T00:05:36.553357+00:00",
+  "completion_tokens": 456,
+  "condition": "binding_c",
+  "elapsed_seconds": 20.379502518102527,
+  "error": "ValueError: Unresolved binding: unknown or mismatched feature/window/reference/scope identity; copy an exact returned catalogue identity. No substitution is allowed.",
+  "fallback": false,
+  "first_attempt_valid": false,
+  "generations": 4,
+  "method": "semantic",
+  "model_key": "qwen14b",
+  "prompt_tokens": 9436,
+  "question_id": "s6_20",
+  "redundant_requests": 0,
+  "repairs": 1,
+  "started_utc": "2026-09-19T00:05:16.172721+00:00",
+  "status": "failed",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 0,
+  "tool_calls_executed": 0
+}

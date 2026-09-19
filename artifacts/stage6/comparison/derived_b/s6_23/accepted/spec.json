@@ -1,0 +1,93 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_df255cd6b49c3851d080",
+      "template": "comparison"
+    },
+    {
+      "evidence_id": "s2_df255cd6b49c3851d080",
+      "template": "personal_change"
+    },
+    {
+      "evidence_id": "s2_7918d366d7e079347be1",
+      "template": "comparison"
+    },
+    {
+      "evidence_id": "s2_7918d366d7e079347be1",
+      "template": "personal_change"
+    },
+    {
+      "evidence_id": "s2_7cff5069dd0630dded09",
+      "template": "comparison"
+    },
+    {
+      "evidence_id": "s2_7cff5069dd0630dded09",
+      "template": "personal_change"
+    },
+    {
+      "evidence_id": "s2_1b7743d3ddaa6d550cbf",
+      "template": "comparison"
+    },
+    {
+      "evidence_id": "s2_1b7743d3ddaa6d550cbf",
+      "template": "personal_change"
+    },
+    {
+      "evidence_id": "s2_ea03ba8df1c6547fac14",
+      "template": "comparison"
+    }
+  ],
+  "conclusion": "descriptive",
+  "cutoff_day": 69,
+  "evidence_ids": [
+    "s2_df255cd6b49c3851d080",
+    "s2_7918d366d7e079347be1",
+    "s2_7cff5069dd0630dded09",
+    "s2_1b7743d3ddaa6d550cbf",
+    "s2_ea03ba8df1c6547fac14"
+  ],
+  "followups": [],
+  "panels": [
+    {
+      "evidence_id": "s2_df255cd6b49c3851d080",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_df255cd6b49c3851d080",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_7918d366d7e079347be1",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_7918d366d7e079347be1",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_7cff5069dd0630dded09",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_7cff5069dd0630dded09",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_1b7743d3ddaa6d550cbf",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_1b7743d3ddaa6d550cbf",
+      "kind": "trajectory"
+    },
+    {
+      "evidence_id": "s2_ea03ba8df1c6547fac14",
+      "kind": "comparison"
+    },
+    {
+      "evidence_id": "s2_df255cd6b49c3851d080",
+      "kind": "observation_status"
+    }
+  ],
+  "question_id": "s6_23"
+}

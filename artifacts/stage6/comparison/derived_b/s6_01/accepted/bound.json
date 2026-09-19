@@ -1,0 +1,213 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_b47f4d08db82284c0809",
+      "selection_origin": "method_selected",
+      "template": "personal_change",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Personal mean changed from 14.07 in weeks 0\u20133 (4 observed weeks) to 3.54 in weeks 8\u201311 (4 observed weeks): change -10.54 recorded clicks / eligible day. This descriptive personal change has no uncertainty interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_b47f4d08db82284c0809",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 14.07; peer mean 13.03; difference 1.04 recorded clicks / eligible day, focal weeks 0\u20133. 221 distinct peers / 880 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133. Peer mean 95% bootstrap interval [11.69, 14.44]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_5608108cc34c5e38a21d",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 3.54; peer mean 4.22; difference -0.68 recorded clicks / eligible day, focal weeks 8\u201311. 218 distinct peers / 867 person-weeks; 4 observed focal weeks. Reference: AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311. Peer mean 95% bootstrap interval [3.45, 4.98]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_5608108cc34c5e38a21d": "358a0bd522877f8fb00a4f1ae431c28f52cb74cdf4d7b879f06a19cd939f87a0",
+    "s2_b47f4d08db82284c0809": "966c05f5d5d9b25a5e93ed7f4516920e767e67102b5393f3fd47bff1c8fc0df6"
+  },
+  "interface_provenance": {
+    "additional_analyses": 0,
+    "boilerplate": "Standard renderer caveats; not agent investigation",
+    "claims": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "origin": "compiler_supplied",
+      "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+      "scope": "selected"
+    },
+    "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+    "inserted_comparison_or_personal_claims": 0,
+    "interface": "derived_b",
+    "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+    "original_selection": {
+      "answers": [
+        {
+          "evidence_id": "s2_b47f4d08db82284c0809",
+          "kind": "personal_change"
+        },
+        {
+          "evidence_id": "s2_b47f4d08db82284c0809",
+          "kind": "peer_comparison"
+        },
+        {
+          "evidence_id": "s2_5608108cc34c5e38a21d",
+          "kind": "peer_comparison"
+        }
+      ]
+    },
+    "panels": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "common observation context"
+      }
+    ],
+    "resolved_bindings": [
+      {
+        "derived_metadata": {
+          "answer_state": "answered",
+          "scope": "personal",
+          "support": "describe"
+        },
+        "equivalent_evidence_ids": [
+          "s2_b47f4d08db82284c0809"
+        ],
+        "identity": "personal_change|person=1105478|course=AAA_2013J|cutoff=83|feature=clicks_per_eligible_day|earlier=0:3|recent=8:11",
+        "original_selection": {
+          "evidence_id": "s2_b47f4d08db82284c0809",
+          "kind": "personal_change"
+        },
+        "resolved_evidence_id": "s2_b47f4d08db82284c0809"
+      },
+      {
+        "derived_metadata": {
+          "answer_state": "answered",
+          "scope": "peer",
+          "support": "describe"
+        },
+        "equivalent_evidence_ids": [
+          "s2_b47f4d08db82284c0809"
+        ],
+        "identity": "peer_comparison|person=1105478|course=AAA_2013J|cutoff=83|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3",
+        "original_selection": {
+          "evidence_id": "s2_b47f4d08db82284c0809",
+          "kind": "peer_comparison"
+        },
+        "resolved_evidence_id": "s2_b47f4d08db82284c0809"
+      },
+      {
+        "derived_metadata": {
+          "answer_state": "answered",
+          "scope": "peer",
+          "support": "describe"
+        },
+        "equivalent_evidence_ids": [
+          "s2_5608108cc34c5e38a21d"
+        ],
+        "identity": "peer_comparison|person=1105478|course=AAA_2013J|cutoff=83|feature=clicks_per_eligible_day|focal=8:11|reference=course|reference_window=8:11",
+        "original_selection": {
+          "evidence_id": "s2_5608108cc34c5e38a21d",
+          "kind": "peer_comparison"
+        },
+        "resolved_evidence_id": "s2_5608108cc34c5e38a21d"
+      }
+    ],
+    "semantic_answer": {
+      "answers": [
+        {
+          "evidence_id": "s2_b47f4d08db82284c0809",
+          "kind": "personal_change",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_b47f4d08db82284c0809",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_5608108cc34c5e38a21d",
+          "kind": "peer_comparison",
+          "support": "describe"
+        }
+      ],
+      "conclusion": {
+        "evidence_ids": [],
+        "kind": "descriptive",
+        "scope": "selected"
+      }
+    }
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      3
+    ],
+    "cutoff_day": 83,
+    "recent": [
+      8,
+      11
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}

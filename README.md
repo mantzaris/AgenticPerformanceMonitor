@@ -1,15 +1,21 @@
 # Reference-sensitive longitudinal dashboards
 
-OULAD research prototype. Start with **[STAGE5_REVIEW.md](STAGE5_REVIEW.md)** for
-the controlled Qwen2.5-7B versus 14B checkpoint comparison on twelve fresh development
-people, using unchanged full and compact interfaces. Complete valid answers were
-12/12 for enumeration, 6/12 and 2/12 for 7B full/compact, and 7/12 and 9/12 for 14B
-full/compact. The larger compact condition improved substantially but missed the
-11/12 target; retain enumeration operationally and review the remaining answer-binding
-failures before another bounded study. The unchanged **[Stage 4](STAGE4_REVIEW.md)**,
-**[Stage 3](STAGE3_REVIEW.md)**, **[Stage 2](STAGE2_REVIEW.md)** and
-**[Stage 1](STAGE1_REVIEW.md)** handoffs preserve earlier work. The reserved
-population and full research evaluation remain untouched.
+OULAD research prototype. Start with **[STAGE6_REVIEW.md](STAGE6_REVIEW.md)** for
+the 24-person answer-binding ablation. Frozen complete-visible scores were 24/24
+for enumeration, 21/24 for unchanged 14B compact, and 15/24 each for derived metadata
+and explicit binding. Model-selected completeness was 18/24, 14/24 and 11/24 for
+the three agents. Four derived-metadata assessment pages expose a documented
+[scoring caveat](docs/stage6/SCORING_CAVEAT.md); primary scores are preserved.
+No agent passed the combined engineering gate. Retain enumeration and stop further
+tuning of this interface approach on the same registry. External scientific/rubric
+review is pending; reserved observations and final evaluation remain unopened.
+
+Stage 6 [reproduction commands](docs/stage6/REPRODUCTION.md) replay saved outputs
+without inference. The [human review packet](artifacts/stage6/human_review/README.md)
+and [contribution assessment](docs/stage6/CONTRIBUTION.md) describe the next review
+needs. Preserved handoffs: **[Stage 5](STAGE5_REVIEW.md)**,
+**[Stage 4](STAGE4_REVIEW.md)**, **[Stage 3](STAGE3_REVIEW.md)**,
+**[Stage 2](STAGE2_REVIEW.md)** and **[Stage 1](STAGE1_REVIEW.md)**.
 
 Stage 5 [reproduction commands](docs/stage5/REPRODUCTION.md) replay and recompile
 saved dashboards without inference, with explicit method/compiler provenance.

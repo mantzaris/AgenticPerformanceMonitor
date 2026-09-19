@@ -1,0 +1,4 @@
+{
+  "error": "ValidationError: 1 validation error for BindingAction\nrequests.3.tool\n  Input should be 'analyze' [type=literal_error, input_value='measurement_limit', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error",
+  "raw_output": "{\"action\": \"analyze\", \"requests\": [{\"tool\": \"analyze\", \"question_id\": \"s6_10\", \"feature\": \"clicks_per_eligible_day\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_10\", \"feature\": \"nonbanked_submissions\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_10\", \"feature\": \"scheduled_no_submission\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"measurement_limit\", \"question_id\": \"s6_10\", \"feature\": \"clicks_per_eligible_day\", \"reference\": \"course\", \"window\": \"recent\"}]}"
+}

@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-09-18T23:48:15.394614+00:00",
+  "completion_tokens": 286,
+  "condition": "compact_a",
+  "elapsed_seconds": 13.606276611797512,
+  "fallback": false,
+  "first_attempt_valid": true,
+  "generations": 2,
+  "method": "semantic",
+  "model_key": "qwen14b",
+  "prompt_tokens": 5852,
+  "question_id": "s6_02",
+  "redundant_requests": 0,
+  "repairs": 0,
+  "started_utc": "2026-09-18T23:48:01.786623+00:00",
+  "status": "agent_generated_and_accepted",
+  "subsequent_analysis_after_results": false,
+  "tool_calls_attempted": 2,
+  "tool_calls_executed": 2
+}

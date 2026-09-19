@@ -1,0 +1,30 @@
+[
+  {
+    "feature": "nonbanked_submissions",
+    "question_id": "s6_17",
+    "reference": "course",
+    "tool": "analyze",
+    "window": "recent"
+  },
+  {
+    "feature": "nonbanked_submissions",
+    "question_id": "s6_17",
+    "reference": "early_stage",
+    "tool": "analyze",
+    "window": "recent"
+  },
+  {
+    "feature": "nonbanked_submissions",
+    "question_id": "s6_17",
+    "reference": "same_prior_attempt",
+    "tool": "analyze",
+    "window": "recent"
+  },
+  {
+    "feature": "scheduled_no_submission",
+    "question_id": "s6_17",
+    "reference": "course",
+    "tool": "analyze",
+    "window": "recent"
+  }
+]

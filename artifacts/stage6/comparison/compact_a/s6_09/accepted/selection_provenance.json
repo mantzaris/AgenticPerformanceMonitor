@@ -1,0 +1,105 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [
+      "s2_6e150ab0aa9dbfd9caa7",
+      "s2_7cab3dea1afc42e00ef4",
+      "s2_300470308e6da1b90a04"
+    ],
+    "kind": "insufficient_evidence",
+    "origin": "method_selected",
+    "scope": "peer"
+  },
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "semantic",
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common assessment context"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_6e150ab0aa9dbfd9caa7",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_7cab3dea1afc42e00ef4",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      },
+      {
+        "evidence_id": "s2_300470308e6da1b90a04",
+        "kind": "peer_comparison",
+        "support": "insufficient_evidence"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [
+        "s2_6e150ab0aa9dbfd9caa7",
+        "s2_7cab3dea1afc42e00ef4",
+        "s2_300470308e6da1b90a04"
+      ],
+      "kind": "insufficient_evidence",
+      "scope": "peer"
+    }
+  }
+}

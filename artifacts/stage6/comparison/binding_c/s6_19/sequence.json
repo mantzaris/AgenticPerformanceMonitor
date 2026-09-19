@@ -1,0 +1,163 @@
+[
+  {
+    "generation_metadata": {
+      "allocated_bytes": 29549683712,
+      "budget_partition": "comparison",
+      "completed_utc": "2026-09-19T00:04:50.521961+00:00",
+      "completion_tokens": 235,
+      "cuda_event_ms": 9431.2607421875,
+      "elapsed_seconds": 9.474153927061707,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 146,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "binding_c",
+      "model_key": "qwen14b",
+      "nvidia_smi_own_process": [
+        "137800, /workspace/apm-stage1/.venv/bin/python, 34922"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 30151541248,
+      "peak_reserved_bytes": 36071014400,
+      "phase": "action_1",
+      "process_id": "qwen14b_comparison_02",
+      "prompt_tokens": 1871,
+      "question_id": "s6_19",
+      "started_utc": "2026-09-19T00:04:41.047785+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\"action\": \"analyze\", \"requests\": [{\"tool\": \"analyze\", \"question_id\": \"s6_19\", \"feature\": \"nonbanked_submissions\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_19\", \"feature\": \"scheduled_no_submission\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_19\", \"feature\": \"nonbanked_submissions\", \"reference\": \"course\", \"window\": \"baseline\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_19\", \"feature\": \"scheduled_no_submission\", \"reference\": \"course\", \"window\": \"baseline\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_19\", \"feature\": \"observation_status\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_19\", \"feature\": \"assessment_status\", \"reference\": \"course\", \"window\": \"recent\"}]}",
+    "turn": 1,
+    "validation_error": "ValidationError: 2 validation errors for BindingAction\nrequests.4.feature\n  Input should be 'clicks_per_eligible_day', 'active_days', 'distinct_resources', 'nonbanked_submissions' or 'scheduled_no_submission' [type=literal_error, input_value='observation_status', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nrequests.5.feature\n  Input should be 'clicks_per_eligible_day', 'active_days', 'distinct_resources', 'nonbanked_submissions' or 'scheduled_no_submission' [type=literal_error, input_value='assessment_status', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+  },
+  {
+    "generation_metadata": {
+      "allocated_bytes": 29549693952,
+      "budget_partition": "comparison",
+      "completed_utc": "2026-09-19T00:04:54.439452+00:00",
+      "completion_tokens": 83,
+      "cuda_event_ms": 3865.0693359375,
+      "elapsed_seconds": 3.9137701792642474,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 147,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "binding_c",
+      "model_key": "qwen14b",
+      "nvidia_smi_own_process": [
+        "137800, /workspace/apm-stage1/.venv/bin/python, 34922"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 30315076608,
+      "peak_reserved_bytes": 36071014400,
+      "phase": "action_2",
+      "process_id": "qwen14b_comparison_02",
+      "prompt_tokens": 2356,
+      "question_id": "s6_19",
+      "started_utc": "2026-09-19T00:04:50.525663+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\"action\": \"analyze\", \"requests\": [{\"tool\": \"analyze\", \"question_id\": \"s6_19\", \"feature\": \"observation_status\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_19\", \"feature\": \"assessment_status\", \"reference\": \"course\", \"window\": \"recent\"}]}",
+    "turn": 2,
+    "validation_error": "ValidationError: 2 validation errors for BindingAction\nrequests.0.feature\n  Input should be 'clicks_per_eligible_day', 'active_days', 'distinct_resources', 'nonbanked_submissions' or 'scheduled_no_submission' [type=literal_error, input_value='observation_status', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error\nrequests.1.feature\n  Input should be 'clicks_per_eligible_day', 'active_days', 'distinct_resources', 'nonbanked_submissions' or 'scheduled_no_submission' [type=literal_error, input_value='assessment_status', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+  },
+  {
+    "action": "final",
+    "generation_metadata": {
+      "allocated_bytes": 29549701120,
+      "budget_partition": "comparison",
+      "completed_utc": "2026-09-19T00:04:57.778991+00:00",
+      "completion_tokens": 65,
+      "cuda_event_ms": 3285.6123046875,
+      "elapsed_seconds": 3.33626010408625,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 148,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "binding_c",
+      "model_key": "qwen14b",
+      "nvidia_smi_own_process": [
+        "137800, /workspace/apm-stage1/.venv/bin/python, 34922"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 30410103296,
+      "peak_reserved_bytes": 36071014400,
+      "phase": "action_3",
+      "process_id": "qwen14b_comparison_02",
+      "prompt_tokens": 2678,
+      "question_id": "s6_19",
+      "started_utc": "2026-09-19T00:04:54.442712+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\"action\": \"final\", \"answers\": [{\"identity\": \"personal_change_nonbanked_submissions_course_recent\"}, {\"identity\": \"personal_change_scheduled_no_submission_course_recent\"}, {\"identity\": \"personal_change_nonbanked_submissions_course_baseline\"}, {\"identity\": \"personal_change_scheduled_no_submission_course_baseline\"}]}",
+    "semantic_answer": {
+      "answers": [
+        {
+          "identity": "personal_change_nonbanked_submissions_course_recent"
+        },
+        {
+          "identity": "personal_change_scheduled_no_submission_course_recent"
+        },
+        {
+          "identity": "personal_change_nonbanked_submissions_course_baseline"
+        },
+        {
+          "identity": "personal_change_scheduled_no_submission_course_baseline"
+        }
+      ]
+    },
+    "turn": 3,
+    "validation_error": "ValueError: Unresolved binding: unknown or mismatched feature/window/reference/scope identity; copy an exact returned catalogue identity. No substitution is allowed."
+  },
+  {
+    "action": "final",
+    "generation_metadata": {
+      "allocated_bytes": 29549705216,
+      "budget_partition": "comparison",
+      "completed_utc": "2026-09-19T00:05:00.137396+00:00",
+      "completion_tokens": 38,
+      "cuda_event_ms": 2302.28369140625,
+      "elapsed_seconds": 2.354349389206618,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 149,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "binding_c",
+      "model_key": "qwen14b",
+      "nvidia_smi_own_process": [
+        "137800, /workspace/apm-stage1/.venv/bin/python, 34922"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 30466430976,
+      "peak_reserved_bytes": 36071014400,
+      "phase": "repair",
+      "process_id": "qwen14b_comparison_02",
+      "prompt_tokens": 2838,
+      "question_id": "s6_19",
+      "started_utc": "2026-09-19T00:04:57.783025+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\"action\": \"final\", \"answers\": [{\"identity\": \"personal_change_nonbanked_submissions_course_recent\"}, {\"identity\": \"personal_change_scheduled_no_submission_course_recent\"}]}",
+    "semantic_answer": {
+      "answers": [
+        {
+          "identity": "personal_change_nonbanked_submissions_course_recent"
+        },
+        {
+          "identity": "personal_change_scheduled_no_submission_course_recent"
+        }
+      ]
+    },
+    "stopping_decision": "failed final; repair unavailable",
+    "turn": 4,
+    "validation_error": "ValueError: Unresolved binding: unknown or mismatched feature/window/reference/scope identity; copy an exact returned catalogue identity. No substitution is allowed."
+  }
+]

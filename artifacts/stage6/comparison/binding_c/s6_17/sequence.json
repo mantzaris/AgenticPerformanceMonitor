@@ -1,0 +1,716 @@
+[
+  {
+    "generation_metadata": {
+      "allocated_bytes": 29549683200,
+      "budget_partition": "comparison",
+      "completed_utc": "2026-09-19T00:02:10.326142+00:00",
+      "completion_tokens": 123,
+      "cuda_event_ms": 5191.60205078125,
+      "elapsed_seconds": 5.23284988803789,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 127,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "binding_c",
+      "model_key": "qwen14b",
+      "nvidia_smi_own_process": [
+        "137800, /workspace/apm-stage1/.venv/bin/python, 34922"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 30151262720,
+      "peak_reserved_bytes": 36071014400,
+      "phase": "action_1",
+      "process_id": "qwen14b_comparison_02",
+      "prompt_tokens": 1870,
+      "question_id": "s6_17",
+      "started_utc": "2026-09-19T00:02:05.093274+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\"action\": \"analyze\", \"requests\": [{\"tool\": \"analyze\", \"question_id\": \"s6_17\", \"feature\": \"nonbanked_submissions\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_17\", \"feature\": \"scheduled_no_submission\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_17\", \"feature\": \"observation_status\", \"reference\": \"course\", \"window\": \"recent\"}]}",
+    "turn": 1,
+    "validation_error": "ValidationError: 1 validation error for BindingAction\nrequests.2.feature\n  Input should be 'clicks_per_eligible_day', 'active_days', 'distinct_resources', 'nonbanked_submissions' or 'scheduled_no_submission' [type=literal_error, input_value='observation_status', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+  },
+  {
+    "action": "analyze",
+    "generation_metadata": {
+      "allocated_bytes": 29549689856,
+      "budget_partition": "comparison",
+      "completed_utc": "2026-09-19T00:02:17.201312+00:00",
+      "completion_tokens": 163,
+      "cuda_event_ms": 6825.1025390625,
+      "elapsed_seconds": 6.872195297386497,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 128,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "binding_c",
+      "model_key": "qwen14b",
+      "nvidia_smi_own_process": [
+        "137800, /workspace/apm-stage1/.venv/bin/python, 34922"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 30247439872,
+      "peak_reserved_bytes": 36071014400,
+      "phase": "action_2",
+      "process_id": "qwen14b_comparison_02",
+      "prompt_tokens": 2165,
+      "question_id": "s6_17",
+      "started_utc": "2026-09-19T00:02:10.329099+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\"action\": \"analyze\", \"requests\": [{\"tool\": \"analyze\", \"question_id\": \"s6_17\", \"feature\": \"nonbanked_submissions\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_17\", \"feature\": \"scheduled_no_submission\", \"reference\": \"course\", \"window\": \"recent\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_17\", \"feature\": \"nonbanked_submissions\", \"reference\": \"course\", \"window\": \"baseline\"}, {\"tool\": \"analyze\", \"question_id\": \"s6_17\", \"feature\": \"scheduled_no_submission\", \"reference\": \"course\", \"window\": \"baseline\"}]}",
+    "tool_results": [
+      {
+        "request": {
+          "feature": "nonbanked_submissions",
+          "question_id": "s6_17",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "recent"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "available_answers": [
+            {
+              "derived_metadata": {
+                "answer_state": "answered",
+                "scope": "peer",
+                "support": "describe"
+              },
+              "evidence_id": "s2_daac9acb9551c1cf1f13",
+              "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+              "kind": "peer_comparison"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "answered",
+                "scope": "personal",
+                "support": "describe"
+              },
+              "evidence_id": "s2_daac9acb9551c1cf1f13",
+              "identity": "personal_change|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|earlier=0:3|recent=8:11",
+              "kind": "personal_change"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "recorded_context",
+                "scope": "context",
+                "support": "describe"
+              },
+              "evidence_id": "s2_daac9acb9551c1cf1f13",
+              "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+              "kind": "assessment_status"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "recorded_context",
+                "scope": "context",
+                "support": "describe"
+              },
+              "evidence_id": "s2_daac9acb9551c1cf1f13",
+              "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+              "kind": "observation_status"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "unavailable_measurement",
+                "scope": "measurement",
+                "support": "describe"
+              },
+              "evidence_id": "s2_daac9acb9551c1cf1f13",
+              "identity": "measurement_limit|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+              "kind": "measurement_limit"
+            }
+          ],
+          "evidence_id": "s2_daac9acb9551c1cf1f13",
+          "feature": "nonbanked_submissions",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity",
+            "zero_recorded_activity"
+          ],
+          "observations": 867,
+          "people": 218,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.25,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": 0.1834862385321101,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.25,
+            "focal_observations": 4,
+            "peer_ci_high": 0.08256880733944955,
+            "peer_ci_low": 0.051605504587155966,
+            "peer_mean": 0.06651376146788991,
+            "personal_change": 0.0,
+            "personal_status": "supported",
+            "recent_mean": 0.25,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "non-banked submissions / week",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "scheduled_no_submission",
+          "question_id": "s6_17",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "recent"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "available_answers": [
+            {
+              "derived_metadata": {
+                "answer_state": "answered",
+                "scope": "peer",
+                "support": "describe"
+              },
+              "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+              "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11",
+              "kind": "peer_comparison"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "answered",
+                "scope": "personal",
+                "support": "describe"
+              },
+              "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+              "identity": "personal_change|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|earlier=0:3|recent=8:11",
+              "kind": "personal_change"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "recorded_context",
+                "scope": "context",
+                "support": "describe"
+              },
+              "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+              "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11",
+              "kind": "assessment_status"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "recorded_context",
+                "scope": "context",
+                "support": "describe"
+              },
+              "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+              "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11",
+              "kind": "observation_status"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "unavailable_measurement",
+                "scope": "measurement",
+                "support": "describe"
+              },
+              "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+              "identity": "measurement_limit|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11",
+              "kind": "measurement_limit"
+            }
+          ],
+          "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+          "feature": "scheduled_no_submission",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity",
+            "zero_recorded_activity"
+          ],
+          "observations": 867,
+          "people": 218,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.0,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": 0.0,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.0,
+            "focal_observations": 4,
+            "peer_ci_high": 0.0,
+            "peer_ci_low": 0.0,
+            "peer_mean": 0.0,
+            "personal_change": 0.0,
+            "personal_status": "supported",
+            "recent_mean": 0.0,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "scheduled assessments without recorded submission / week",
+          "window": [
+            8,
+            11
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "nonbanked_submissions",
+          "question_id": "s6_17",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "baseline"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "available_answers": [
+            {
+              "derived_metadata": {
+                "answer_state": "answered",
+                "scope": "peer",
+                "support": "describe"
+              },
+              "evidence_id": "s2_bf934d9a368921851d89",
+              "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+              "kind": "peer_comparison"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "answered",
+                "scope": "personal",
+                "support": "describe"
+              },
+              "evidence_id": "s2_bf934d9a368921851d89",
+              "identity": "personal_change|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|earlier=0:3|recent=8:11",
+              "kind": "personal_change"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "recorded_context",
+                "scope": "context",
+                "support": "describe"
+              },
+              "evidence_id": "s2_bf934d9a368921851d89",
+              "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+              "kind": "assessment_status"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "recorded_context",
+                "scope": "context",
+                "support": "describe"
+              },
+              "evidence_id": "s2_bf934d9a368921851d89",
+              "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+              "kind": "observation_status"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "unavailable_measurement",
+                "scope": "measurement",
+                "support": "describe"
+              },
+              "evidence_id": "s2_bf934d9a368921851d89",
+              "identity": "measurement_limit|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3",
+              "kind": "measurement_limit"
+            }
+          ],
+          "evidence_id": "s2_bf934d9a368921851d89",
+          "feature": "nonbanked_submissions",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity",
+            "zero_recorded_activity"
+          ],
+          "observations": 880,
+          "people": 221,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.25,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": 0.01583710407239819,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.25,
+            "focal_observations": 4,
+            "peer_ci_high": 0.2409502262443439,
+            "peer_ci_low": 0.2251131221719457,
+            "peer_mean": 0.2341628959276018,
+            "personal_change": 0.0,
+            "personal_status": "supported",
+            "recent_mean": 0.25,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "non-banked submissions / week",
+          "window": [
+            0,
+            3
+          ]
+        }
+      },
+      {
+        "request": {
+          "feature": "scheduled_no_submission",
+          "question_id": "s6_17",
+          "reference": "course",
+          "tool": "analyze",
+          "window": "baseline"
+        },
+        "result": {
+          "assessment_states": [
+            "no_nonbanked_submission_by_week_end",
+            "nonbanked_submission_recorded"
+          ],
+          "available_answers": [
+            {
+              "derived_metadata": {
+                "answer_state": "answered",
+                "scope": "peer",
+                "support": "describe"
+              },
+              "evidence_id": "s2_27783ad93b40d30bdadb",
+              "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3",
+              "kind": "peer_comparison"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "answered",
+                "scope": "personal",
+                "support": "describe"
+              },
+              "evidence_id": "s2_27783ad93b40d30bdadb",
+              "identity": "personal_change|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|earlier=0:3|recent=8:11",
+              "kind": "personal_change"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "recorded_context",
+                "scope": "context",
+                "support": "describe"
+              },
+              "evidence_id": "s2_27783ad93b40d30bdadb",
+              "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3",
+              "kind": "assessment_status"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "recorded_context",
+                "scope": "context",
+                "support": "describe"
+              },
+              "evidence_id": "s2_27783ad93b40d30bdadb",
+              "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3",
+              "kind": "observation_status"
+            },
+            {
+              "derived_metadata": {
+                "answer_state": "unavailable_measurement",
+                "scope": "measurement",
+                "support": "describe"
+              },
+              "evidence_id": "s2_27783ad93b40d30bdadb",
+              "identity": "measurement_limit|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3",
+              "kind": "measurement_limit"
+            }
+          ],
+          "evidence_id": "s2_27783ad93b40d30bdadb",
+          "feature": "scheduled_no_submission",
+          "limitations": [
+            "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+            "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+            "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+            "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+            "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+            "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+            "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+            "All task focal people are excluded from the fixed development reference pool.",
+            "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+          ],
+          "observation_states": [
+            "recorded_activity",
+            "zero_recorded_activity"
+          ],
+          "observations": 880,
+          "people": 221,
+          "reference": "course",
+          "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20133",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "summary": {
+            "baseline_mean": 0.0,
+            "baseline_observations": 4,
+            "baseline_window": [
+              0,
+              3
+            ],
+            "contrast": -0.042986425339366516,
+            "focal_eligible_days": 28.0,
+            "focal_mean": 0.0,
+            "focal_observations": 4,
+            "peer_ci_high": 0.057692307692307696,
+            "peer_ci_low": 0.030542986425339366,
+            "peer_mean": 0.042986425339366516,
+            "personal_change": 0.0,
+            "personal_status": "supported",
+            "recent_mean": 0.0,
+            "recent_observations": 4,
+            "recent_window": [
+              8,
+              11
+            ]
+          },
+          "uncertainty": {
+            "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+            "level": 0.95,
+            "method": "person_cluster_percentile_bootstrap",
+            "replicates": 500,
+            "resampling_unit": "person with within-window history kept together",
+            "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+          },
+          "unit": "scheduled assessments without recorded submission / week",
+          "window": [
+            0,
+            3
+          ]
+        }
+      }
+    ],
+    "turn": 2
+  },
+  {
+    "action": "final",
+    "generation_metadata": {
+      "allocated_bytes": 29549818368,
+      "budget_partition": "comparison",
+      "completed_utc": "2026-09-19T00:02:39.228461+00:00",
+      "completion_tokens": 479,
+      "cuda_event_ms": 21845.01953125,
+      "elapsed_seconds": 21.897026267834008,
+      "eos_reached": true,
+      "finish_reason": "eos",
+      "generation": 129,
+      "input_device": "cuda:0",
+      "last_generated_token_id": 151645,
+      "method": "binding_c",
+      "model_key": "qwen14b",
+      "nvidia_smi_own_process": [
+        "137800, /workspace/apm-stage1/.venv/bin/python, 34922"
+      ],
+      "output_device": "cuda:0",
+      "output_token_ceiling": 1500,
+      "peak_allocated_bytes": 31923586560,
+      "peak_reserved_bytes": 36071014400,
+      "phase": "action_3",
+      "process_id": "qwen14b_comparison_02",
+      "prompt_tokens": 7394,
+      "question_id": "s6_17",
+      "started_utc": "2026-09-19T00:02:17.331416+00:00",
+      "status": "completed"
+    },
+    "raw_output": "{\"action\": \"final\", \"answers\": [{\"identity\": \"peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11\"}, {\"identity\": \"peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11\"}, {\"identity\": \"assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11\"}, {\"identity\": \"observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11\"}, {\"identity\": \"peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3\"}, {\"identity\": \"peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3\"}, {\"identity\": \"assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3\"}, {\"identity\": \"observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3\"}]}",
+    "semantic_answer": {
+      "answers": [
+        {
+          "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+        },
+        {
+          "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11"
+        },
+        {
+          "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+        },
+        {
+          "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11"
+        },
+        {
+          "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+        },
+        {
+          "identity": "peer_comparison|person=157568|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=0:3|reference=course|reference_window=0:3"
+        },
+        {
+          "identity": "assessment_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+        },
+        {
+          "identity": "observation_status|person=157568|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=0:3|reference=course|reference_window=0:3"
+        }
+      ]
+    },
+    "specification": {
+      "claims": [
+        {
+          "evidence_id": "s2_daac9acb9551c1cf1f13",
+          "template": "comparison"
+        },
+        {
+          "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+          "template": "comparison"
+        },
+        {
+          "evidence_id": "s2_bf934d9a368921851d89",
+          "template": "comparison"
+        },
+        {
+          "evidence_id": "s2_27783ad93b40d30bdadb",
+          "template": "comparison"
+        }
+      ],
+      "conclusion": "descriptive",
+      "cutoff_day": 83,
+      "evidence_ids": [
+        "s2_daac9acb9551c1cf1f13",
+        "s2_79e8145fe0b9f4b4fd35",
+        "s2_bf934d9a368921851d89",
+        "s2_27783ad93b40d30bdadb"
+      ],
+      "followups": [],
+      "panels": [
+        {
+          "evidence_id": "s2_daac9acb9551c1cf1f13",
+          "kind": "comparison"
+        },
+        {
+          "evidence_id": "s2_79e8145fe0b9f4b4fd35",
+          "kind": "comparison"
+        },
+        {
+          "evidence_id": "s2_daac9acb9551c1cf1f13",
+          "kind": "assessment_status"
+        },
+        {
+          "evidence_id": "s2_daac9acb9551c1cf1f13",
+          "kind": "observation_status"
+        },
+        {
+          "evidence_id": "s2_bf934d9a368921851d89",
+          "kind": "comparison"
+        },
+        {
+          "evidence_id": "s2_27783ad93b40d30bdadb",
+          "kind": "comparison"
+        },
+        {
+          "evidence_id": "s2_bf934d9a368921851d89",
+          "kind": "assessment_status"
+        },
+        {
+          "evidence_id": "s2_bf934d9a368921851d89",
+          "kind": "observation_status"
+        },
+        {
+          "evidence_id": "s2_daac9acb9551c1cf1f13",
+          "kind": "trajectory"
+        }
+      ],
+      "question_id": "s6_17"
+    },
+    "stopping_decision": "valid final specification",
+    "turn": 3
+  }
+]

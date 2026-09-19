@@ -1,0 +1,1229 @@
+{
+  "records": [
+    {
+      "candidate_people": 222,
+      "case_id": "s6_01",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "personal_change",
+      "person_id": 1105478,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 221,
+      "case_id": "s6_02",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "personal_change",
+      "person_id": 102806,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1060,
+      "case_id": "s6_03",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "personal_change",
+      "person_id": 1971393,
+      "profile": "mid",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4207,
+          "peer_people": 1065,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "window": [
+            4,
+            7
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1059,
+      "case_id": "s6_04",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "personal_change",
+      "person_id": 554206,
+      "profile": "mid",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4207,
+          "peer_people": 1065,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "window": [
+            4,
+            7
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 194,
+      "case_id": "s6_05",
+      "course": "BBB_2013B",
+      "criterion": "repeat",
+      "family": "reference_sensitivity",
+      "person_id": 521394,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4028,
+          "peer_people": 1024,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4451,
+          "peer_people": 1128,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "early_stage",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 774,
+          "peer_people": 197,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "same_prior_attempt",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 193,
+      "case_id": "s6_06",
+      "course": "BBB_2013B",
+      "criterion": "repeat",
+      "family": "reference_sensitivity",
+      "person_id": 122524,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4028,
+          "peer_people": 1024,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4451,
+          "peer_people": 1128,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "early_stage",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 774,
+          "peer_people": 197,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "same_prior_attempt",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 815,
+      "case_id": "s6_07",
+      "course": "BBB_2013B",
+      "criterion": "first",
+      "family": "reference_sensitivity",
+      "person_id": 525683,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4028,
+          "peer_people": 1024,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4451,
+          "peer_people": 1128,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "early_stage",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 3254,
+          "peer_people": 827,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "same_prior_attempt",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 814,
+      "case_id": "s6_08",
+      "course": "BBB_2013B",
+      "criterion": "first",
+      "family": "reference_sensitivity",
+      "person_id": 550322,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4028,
+          "peer_people": 1024,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4451,
+          "peer_people": 1128,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "early_stage",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 3254,
+          "peer_people": 827,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "same_prior_attempt",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 84,
+      "case_id": "s6_09",
+      "course": "BBB_2013B",
+      "criterion": "partial",
+      "family": "observation_limits",
+      "person_id": 558146,
+      "profile": "mid",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4207,
+          "peer_people": 1065,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            4,
+            7
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "nonbanked_submissions",
+          "observations": 4207,
+          "peer_people": 1065,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            4,
+            7
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "scheduled_no_submission",
+          "observations": 4207,
+          "peer_people": 1065,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            4,
+            7
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 83,
+      "case_id": "s6_10",
+      "course": "BBB_2013B",
+      "criterion": "partial",
+      "family": "observation_limits",
+      "person_id": 535303,
+      "profile": "mid",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4207,
+          "peer_people": 1065,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            4,
+            7
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "nonbanked_submissions",
+          "observations": 4207,
+          "peer_people": 1065,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            4,
+            7
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "scheduled_no_submission",
+          "observations": 4207,
+          "peer_people": 1065,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            4,
+            7
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 8,
+      "case_id": "s6_11",
+      "course": "AAA_2013J",
+      "criterion": "partial",
+      "family": "observation_limits",
+      "person_id": 334333,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 2,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "nonbanked_submissions",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 2,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "scheduled_no_submission",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 2,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 7,
+      "case_id": "s6_12",
+      "course": "AAA_2013J",
+      "criterion": "partial",
+      "family": "observation_limits",
+      "person_id": 721259,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "nonbanked_submissions",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "scheduled_no_submission",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 32,
+      "case_id": "s6_13",
+      "course": "BBB_2013B",
+      "criterion": "insufficient",
+      "family": "insufficient_support",
+      "person_id": 530245,
+      "profile": "short",
+      "support": [
+        {
+          "baseline_observations": 1,
+          "feature": "clicks_per_eligible_day",
+          "observations": 2203,
+          "peer_people": 1105,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            2,
+            3
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            2,
+            3
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 31,
+      "case_id": "s6_14",
+      "course": "BBB_2013B",
+      "criterion": "insufficient",
+      "family": "insufficient_support",
+      "person_id": 542602,
+      "profile": "short",
+      "support": [
+        {
+          "baseline_observations": 2,
+          "feature": "clicks_per_eligible_day",
+          "observations": 2203,
+          "peer_people": 1105,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            2,
+            3
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            2,
+            3
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 134,
+      "case_id": "s6_15",
+      "course": "BBB_2013B",
+      "criterion": "insufficient",
+      "family": "insufficient_support",
+      "person_id": 542396,
+      "profile": "narrow",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 1997,
+          "peer_people": 1001,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            10,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            10,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 133,
+      "case_id": "s6_16",
+      "course": "BBB_2013B",
+      "criterion": "insufficient",
+      "family": "insufficient_support",
+      "person_id": 476855,
+      "profile": "narrow",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 1997,
+          "peer_people": 1001,
+          "personal_status": "insufficient_evidence",
+          "recent_observations": 0,
+          "reference": "course",
+          "reference_window": [
+            10,
+            11
+          ],
+          "status": "insufficient_evidence",
+          "window": [
+            10,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 220,
+      "case_id": "s6_17",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "assessment_availability",
+      "person_id": 157568,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "nonbanked_submissions",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "scheduled_no_submission",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 219,
+      "case_id": "s6_18",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "assessment_availability",
+      "person_id": 1035023,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "nonbanked_submissions",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "scheduled_no_submission",
+          "observations": 867,
+          "peer_people": 218,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1005,
+      "case_id": "s6_19",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "assessment_availability",
+      "person_id": 531427,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "nonbanked_submissions",
+          "observations": 4028,
+          "peer_people": 1024,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "scheduled_no_submission",
+          "observations": 4028,
+          "peer_people": 1024,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1004,
+      "case_id": "s6_20",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "assessment_availability",
+      "person_id": 490514,
+      "profile": "standard",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "nonbanked_submissions",
+          "observations": 4028,
+          "peer_people": 1024,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "scheduled_no_submission",
+          "observations": 4028,
+          "peer_people": 1024,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            8,
+            11
+          ],
+          "status": "supported",
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 219,
+      "case_id": "s6_21",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "alternate_windows",
+      "person_id": 2194100,
+      "profile": "mid",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 873,
+          "peer_people": 220,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "window": [
+            4,
+            7
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 880,
+          "peer_people": 221,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "early_stage",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "window": [
+            4,
+            7
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 873,
+          "peer_people": 220,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "same_prior_attempt",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "window": [
+            4,
+            7
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 218,
+      "case_id": "s6_22",
+      "course": "AAA_2013J",
+      "criterion": "adequate",
+      "family": "alternate_windows",
+      "person_id": 380953,
+      "profile": "mid",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 873,
+          "peer_people": 220,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "window": [
+            4,
+            7
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 880,
+          "peer_people": 221,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "early_stage",
+          "reference_window": [
+            0,
+            3
+          ],
+          "status": "supported",
+          "window": [
+            4,
+            7
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 873,
+          "peer_people": 220,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "same_prior_attempt",
+          "reference_window": [
+            4,
+            7
+          ],
+          "status": "supported",
+          "window": [
+            4,
+            7
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1026,
+      "case_id": "s6_23",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "alternate_windows",
+      "person_id": 532668,
+      "profile": "alternate",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4115,
+          "peer_people": 1050,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            6,
+            9
+          ],
+          "status": "supported",
+          "window": [
+            6,
+            9
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4326,
+          "peer_people": 1105,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "early_stage",
+          "reference_window": [
+            2,
+            5
+          ],
+          "status": "supported",
+          "window": [
+            6,
+            9
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 3321,
+          "peer_people": 846,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "same_prior_attempt",
+          "reference_window": [
+            6,
+            9
+          ],
+          "status": "supported",
+          "window": [
+            6,
+            9
+          ]
+        }
+      ],
+      "synthetic": false
+    },
+    {
+      "candidate_people": 1025,
+      "case_id": "s6_24",
+      "course": "BBB_2013B",
+      "criterion": "adequate",
+      "family": "alternate_windows",
+      "person_id": 554374,
+      "profile": "alternate",
+      "support": [
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4115,
+          "peer_people": 1050,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "course",
+          "reference_window": [
+            6,
+            9
+          ],
+          "status": "supported",
+          "window": [
+            6,
+            9
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 4326,
+          "peer_people": 1105,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "early_stage",
+          "reference_window": [
+            2,
+            5
+          ],
+          "status": "supported",
+          "window": [
+            6,
+            9
+          ]
+        },
+        {
+          "baseline_observations": 4,
+          "feature": "clicks_per_eligible_day",
+          "observations": 3321,
+          "peer_people": 846,
+          "personal_status": "supported",
+          "recent_observations": 4,
+          "reference": "same_prior_attempt",
+          "reference_window": [
+            6,
+            9
+          ],
+          "status": "supported",
+          "window": [
+            6,
+            9
+          ]
+        }
+      ],
+      "synthetic": false
+    }
+  ],
+  "source": "Frozen independent facts and structural selection manifest only; no method outputs used"
+}

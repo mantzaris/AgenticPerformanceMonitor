@@ -1,0 +1,11 @@
+{
+  "analysis_device": "CPU on the same RTX 6000 Ada host",
+  "attempted": 24,
+  "completed_utc": "2026-09-18T23:46:41.749469+00:00",
+  "elapsed_seconds": 35.61687702126801,
+  "episode_seconds": 35.398908752948046,
+  "execution_commit": "949019eceb9b0278d1836e1544689c9829bb7b10",
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "note": "No model process or GPU inference is started for this method; shared input initialization excluded from individual episode latencies.",
+  "shared_initialization_seconds": 0.10350423213094473
+}

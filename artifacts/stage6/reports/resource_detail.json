@@ -1,0 +1,47 @@
+{
+  "all_comparison_generations_reached_eos": true,
+  "conditions": {
+    "baseline": {
+      "ambiguous_binding_episodes": 0,
+      "finish_reasons": {},
+      "generation_failures": 0,
+      "median_episode_seconds": 1.1822441641706973,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0
+    },
+    "binding_c": {
+      "ambiguous_binding_episodes": 0,
+      "finish_reasons": {
+        "eos": 63
+      },
+      "generation_failures": 0,
+      "median_episode_seconds": 21.192852306179702,
+      "peak_allocated_bytes": 32834377216,
+      "peak_reserved_bytes": 37826330624
+    },
+    "compact_a": {
+      "ambiguous_binding_episodes": 0,
+      "finish_reasons": {
+        "eos": 52
+      },
+      "generation_failures": 0,
+      "median_episode_seconds": 17.065969730494544,
+      "peak_allocated_bytes": 31739760128,
+      "peak_reserved_bytes": 37826330624
+    },
+    "derived_b": {
+      "ambiguous_binding_episodes": 0,
+      "finish_reasons": {
+        "eos": 53
+      },
+      "generation_failures": 0,
+      "median_episode_seconds": 16.87051556794904,
+      "peak_allocated_bytes": 33050570752,
+      "peak_reserved_bytes": 37826330624
+    }
+  },
+  "max_actual_output_tokens": 491,
+  "max_actual_prompt_tokens": 10888,
+  "type": "Descriptive summary of saved execution metadata, no scores changed",
+  "utc": "2026-09-19T00:22:42.743481+00:00"
+}

@@ -1,0 +1,4 @@
+{
+  "error": "ValidationError: 1 validation error for DerivedAction\n  Value error, analyze requires requests and no answers [type=value_error, input_value={'action': 'analyze', 're...02627d17d30877bfd064'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error",
+  "raw_output": "{\n  \"action\": \"analyze\",\n  \"requests\": [\n    {\n      \"tool\": \"analyze\",\n      \"question_id\": \"s6_10\",\n      \"feature\": \"clicks_per_eligible_day\",\n      \"reference\": \"course\",\n      \"window\": \"baseline\"\n    }\n  ],\n  \"answers\": [\n    {\n      \"kind\": \"measurement_limit\",\n      \"evidence_id\": \"s2_2b8d0a0c759a20cc3484\"\n    },\n    {\n      \"kind\": \"measurement_limit\",\n      \"evidence_id\": \"s2_dab7ea82a8c5799e42d7\"\n    },\n    {\n      \"kind\": \"measurement_limit\",\n      \"evidence_id\": \"s2_02627d17d30877bfd064\"\n    }\n  ]\n}"
+}

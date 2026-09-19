@@ -1,0 +1,261 @@
+{
+  "created_utc": "2026-09-19T00:13:21.577928+00:00",
+  "summaries": [
+    {
+      "condition": "baseline",
+      "denominator": 24,
+      "attempted": 24,
+      "first_final_valid": 24,
+      "valid_after_repair": 24,
+      "complete_visible": 24,
+      "complete_method_selected": 24,
+      "insufficient_cases_both_answered": 4,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 0,
+      "accepted_dashboard_omissions": 0,
+      "oracle_retrieved_upper_bound": 24,
+      "scoped_insufficiency_items": 8,
+      "error_episode_counts": {},
+      "selection_mismatch_episode_counts": {},
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "compiler_supplied_answer_items": 0,
+      "tool_calls": 84,
+      "duplicate_exact_calls": 0,
+      "duplicate_equivalent_calls": 0,
+      "generations": 0,
+      "repairs": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "episode_seconds": 35.398908752948046,
+      "generation_seconds": 0,
+      "compiler_added_panels": 0,
+      "compiler_added_claims": 0,
+      "derived_metadata_records": 0,
+      "neutral_compiler_headings": 0,
+      "fallbacks": 0,
+      "failed_questions": [],
+      "unattempted_questions": [],
+      "engineering_gate_met": true
+    },
+    {
+      "condition": "compact_a",
+      "denominator": 24,
+      "attempted": 24,
+      "first_final_valid": 21,
+      "valid_after_repair": 22,
+      "complete_visible": 21,
+      "complete_method_selected": 18,
+      "insufficient_cases_both_answered": 3,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 12,
+      "accepted_dashboard_omissions": 1,
+      "oracle_retrieved_upper_bound": 24,
+      "scoped_insufficiency_items": 7,
+      "error_episode_counts": {
+        "scope": 2,
+        "identifier": 1,
+        "json_or_schema": 1
+      },
+      "selection_mismatch_episode_counts": {
+        "wrong_peer_personal_kind_for_requested_answer": 1,
+        "wrong_reference_for_requested_answer": 1,
+        "wrong_window_for_requested_answer": 1
+      },
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "compiler_supplied_answer_items": 7,
+      "tool_calls": 76,
+      "duplicate_exact_calls": 0,
+      "duplicate_equivalent_calls": 5,
+      "generations": 52,
+      "repairs": 3,
+      "prompt_tokens": 178794,
+      "completion_tokens": 10274,
+      "episode_seconds": 484.6381027819589,
+      "generation_seconds": 458.7594519853592,
+      "compiler_added_panels": 32,
+      "compiler_added_claims": 0,
+      "derived_metadata_records": 0,
+      "neutral_compiler_headings": 0,
+      "fallbacks": 0,
+      "failed_questions": [
+        "s6_12",
+        "s6_22"
+      ],
+      "unattempted_questions": [],
+      "engineering_gate_met": false
+    },
+    {
+      "condition": "derived_b",
+      "denominator": 24,
+      "attempted": 24,
+      "first_final_valid": 22,
+      "valid_after_repair": 24,
+      "complete_visible": 15,
+      "complete_method_selected": 14,
+      "insufficient_cases_both_answered": 2,
+      "missing_analysis_items": 0,
+      "retrieved_but_omitted_items": 19,
+      "accepted_dashboard_omissions": 19,
+      "oracle_retrieved_upper_bound": 24,
+      "scoped_insufficiency_items": 6,
+      "error_episode_counts": {
+        "json_or_schema": 4
+      },
+      "selection_mismatch_episode_counts": {
+        "wrong_peer_personal_kind_for_requested_answer": 2
+      },
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "compiler_supplied_answer_items": 12,
+      "tool_calls": 79,
+      "duplicate_exact_calls": 0,
+      "duplicate_equivalent_calls": 8,
+      "generations": 53,
+      "repairs": 2,
+      "prompt_tokens": 238675,
+      "completion_tokens": 10012,
+      "episode_seconds": 504.2055944390595,
+      "generation_seconds": 474.9537921966985,
+      "compiler_added_panels": 37,
+      "compiler_added_claims": 0,
+      "derived_metadata_records": 114,
+      "neutral_compiler_headings": 24,
+      "fallbacks": 0,
+      "failed_questions": [],
+      "unattempted_questions": [],
+      "engineering_gate_met": false
+    },
+    {
+      "condition": "binding_c",
+      "denominator": 24,
+      "attempted": 24,
+      "first_final_valid": 21,
+      "valid_after_repair": 21,
+      "complete_visible": 15,
+      "complete_method_selected": 11,
+      "insufficient_cases_both_answered": 1,
+      "missing_analysis_items": 9,
+      "retrieved_but_omitted_items": 9,
+      "accepted_dashboard_omissions": 6,
+      "oracle_retrieved_upper_bound": 21,
+      "scoped_insufficiency_items": 5,
+      "error_episode_counts": {
+        "json_or_schema": 7,
+        "unresolved_binding": 3
+      },
+      "selection_mismatch_episode_counts": {
+        "wrong_peer_personal_kind_for_requested_answer": 5
+      },
+      "unsupported_quantitative_attempts_rejected": 0,
+      "unsupported_accepted_quantitative_answers": 0,
+      "compiler_supplied_answer_items": 12,
+      "tool_calls": 82,
+      "duplicate_exact_calls": 4,
+      "duplicate_equivalent_calls": 12,
+      "generations": 63,
+      "repairs": 3,
+      "prompt_tokens": 262031,
+      "completion_tokens": 10695,
+      "episode_seconds": 536.3182487096637,
+      "generation_seconds": 508.33353871293366,
+      "compiler_added_panels": 37,
+      "compiler_added_claims": 0,
+      "derived_metadata_records": 80,
+      "neutral_compiler_headings": 21,
+      "fallbacks": 0,
+      "failed_questions": [
+        "s6_18",
+        "s6_19",
+        "s6_20"
+      ],
+      "unattempted_questions": [],
+      "engineering_gate_met": false
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparison": "complete_intervention",
+      "left": "compact_a",
+      "right": "binding_c",
+      "denominator": 24,
+      "outcomes": {
+        "both_complete": 14,
+        "both_incomplete": 2,
+        "left_only_complete": 7,
+        "right_only_complete": 1
+      },
+      "selected_outcomes": {
+        "both_complete": 10,
+        "both_incomplete": 5,
+        "left_only_complete": 8,
+        "right_only_complete": 1
+      },
+      "net_complete_gain": -6
+    },
+    {
+      "comparison": "identity_ablation",
+      "left": "derived_b",
+      "right": "binding_c",
+      "denominator": 24,
+      "outcomes": {
+        "both_complete": 12,
+        "right_only_complete": 3,
+        "both_incomplete": 6,
+        "left_only_complete": 3
+      },
+      "selected_outcomes": {
+        "both_complete": 11,
+        "both_incomplete": 10,
+        "left_only_complete": 3
+      },
+      "net_complete_gain": 0
+    },
+    {
+      "comparison": "metadata_package",
+      "left": "compact_a",
+      "right": "derived_b",
+      "denominator": 24,
+      "outcomes": {
+        "both_complete": 14,
+        "left_only_complete": 7,
+        "both_incomplete": 2,
+        "right_only_complete": 1
+      },
+      "selected_outcomes": {
+        "both_complete": 13,
+        "both_incomplete": 5,
+        "left_only_complete": 5,
+        "right_only_complete": 1
+      },
+      "net_complete_gain": -6
+    }
+  ],
+  "generation_partitions": {
+    "setup": 17,
+    "comparison": 168
+  },
+  "total_generations": 185,
+  "model_process_seconds": 1719.020583906211,
+  "model_processes": [
+    {
+      "utc": "2026-09-18T23:32:20.897179+00:00",
+      "event": "process_finished",
+      "process_id": "qwen14b_construction_01",
+      "elapsed_seconds": 153.0170250320807,
+      "generation_count": 16,
+      "status": "completed"
+    },
+    {
+      "utc": "2026-09-19T00:12:48.062883+00:00",
+      "event": "process_finished",
+      "process_id": "qwen14b_comparison_02",
+      "elapsed_seconds": 1566.0035588741302,
+      "generation_count": 185,
+      "status": "completed"
+    }
+  ],
+  "unclosed_processes": [],
+  "interpretation": "24 paired development people in known families; no prior-stage pooling, held-out/generalization or human-review claim."
+}

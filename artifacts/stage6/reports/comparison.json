@@ -1,0 +1,261 @@
+{
+  "created_utc": "2026-09-19T00:13:21.577928+00:00",
+  "generation_partitions": {
+    "comparison": 168,
+    "setup": 17
+  },
+  "interpretation": "24 paired development people in known families; no prior-stage pooling, held-out/generalization or human-review claim.",
+  "model_process_seconds": 1719.020583906211,
+  "model_processes": [
+    {
+      "elapsed_seconds": 153.0170250320807,
+      "event": "process_finished",
+      "generation_count": 16,
+      "process_id": "qwen14b_construction_01",
+      "status": "completed",
+      "utc": "2026-09-18T23:32:20.897179+00:00"
+    },
+    {
+      "elapsed_seconds": 1566.0035588741302,
+      "event": "process_finished",
+      "generation_count": 185,
+      "process_id": "qwen14b_comparison_02",
+      "status": "completed",
+      "utc": "2026-09-19T00:12:48.062883+00:00"
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparison": "complete_intervention",
+      "denominator": 24,
+      "left": "compact_a",
+      "net_complete_gain": -6,
+      "outcomes": {
+        "both_complete": 14,
+        "both_incomplete": 2,
+        "left_only_complete": 7,
+        "right_only_complete": 1
+      },
+      "right": "binding_c",
+      "selected_outcomes": {
+        "both_complete": 10,
+        "both_incomplete": 5,
+        "left_only_complete": 8,
+        "right_only_complete": 1
+      }
+    },
+    {
+      "comparison": "identity_ablation",
+      "denominator": 24,
+      "left": "derived_b",
+      "net_complete_gain": 0,
+      "outcomes": {
+        "both_complete": 12,
+        "both_incomplete": 6,
+        "left_only_complete": 3,
+        "right_only_complete": 3
+      },
+      "right": "binding_c",
+      "selected_outcomes": {
+        "both_complete": 11,
+        "both_incomplete": 10,
+        "left_only_complete": 3
+      }
+    },
+    {
+      "comparison": "metadata_package",
+      "denominator": 24,
+      "left": "compact_a",
+      "net_complete_gain": -6,
+      "outcomes": {
+        "both_complete": 14,
+        "both_incomplete": 2,
+        "left_only_complete": 7,
+        "right_only_complete": 1
+      },
+      "right": "derived_b",
+      "selected_outcomes": {
+        "both_complete": 13,
+        "both_incomplete": 5,
+        "left_only_complete": 5,
+        "right_only_complete": 1
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "accepted_dashboard_omissions": 0,
+      "attempted": 24,
+      "compiler_added_claims": 0,
+      "compiler_added_panels": 0,
+      "compiler_supplied_answer_items": 0,
+      "complete_method_selected": 24,
+      "complete_visible": 24,
+      "completion_tokens": 0,
+      "condition": "baseline",
+      "denominator": 24,
+      "derived_metadata_records": 0,
+      "duplicate_equivalent_calls": 0,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": true,
+      "episode_seconds": 35.398908752948046,
+      "error_episode_counts": {},
+      "failed_questions": [],
+      "fallbacks": 0,
+      "first_final_valid": 24,
+      "generation_seconds": 0,
+      "generations": 0,
+      "insufficient_cases_both_answered": 4,
+      "missing_analysis_items": 0,
+      "neutral_compiler_headings": 0,
+      "oracle_retrieved_upper_bound": 24,
+      "prompt_tokens": 0,
+      "repairs": 0,
+      "retrieved_but_omitted_items": 0,
+      "scoped_insufficiency_items": 8,
+      "selection_mismatch_episode_counts": {},
+      "tool_calls": 84,
+      "unattempted_questions": [],
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 24
+    },
+    {
+      "accepted_dashboard_omissions": 1,
+      "attempted": 24,
+      "compiler_added_claims": 0,
+      "compiler_added_panels": 32,
+      "compiler_supplied_answer_items": 7,
+      "complete_method_selected": 18,
+      "complete_visible": 21,
+      "completion_tokens": 10274,
+      "condition": "compact_a",
+      "denominator": 24,
+      "derived_metadata_records": 0,
+      "duplicate_equivalent_calls": 5,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": false,
+      "episode_seconds": 484.6381027819589,
+      "error_episode_counts": {
+        "identifier": 1,
+        "json_or_schema": 1,
+        "scope": 2
+      },
+      "failed_questions": [
+        "s6_12",
+        "s6_22"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 21,
+      "generation_seconds": 458.7594519853592,
+      "generations": 52,
+      "insufficient_cases_both_answered": 3,
+      "missing_analysis_items": 0,
+      "neutral_compiler_headings": 0,
+      "oracle_retrieved_upper_bound": 24,
+      "prompt_tokens": 178794,
+      "repairs": 3,
+      "retrieved_but_omitted_items": 12,
+      "scoped_insufficiency_items": 7,
+      "selection_mismatch_episode_counts": {
+        "wrong_peer_personal_kind_for_requested_answer": 1,
+        "wrong_reference_for_requested_answer": 1,
+        "wrong_window_for_requested_answer": 1
+      },
+      "tool_calls": 76,
+      "unattempted_questions": [],
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 22
+    },
+    {
+      "accepted_dashboard_omissions": 19,
+      "attempted": 24,
+      "compiler_added_claims": 0,
+      "compiler_added_panels": 37,
+      "compiler_supplied_answer_items": 12,
+      "complete_method_selected": 14,
+      "complete_visible": 15,
+      "completion_tokens": 10012,
+      "condition": "derived_b",
+      "denominator": 24,
+      "derived_metadata_records": 114,
+      "duplicate_equivalent_calls": 8,
+      "duplicate_exact_calls": 0,
+      "engineering_gate_met": false,
+      "episode_seconds": 504.2055944390595,
+      "error_episode_counts": {
+        "json_or_schema": 4
+      },
+      "failed_questions": [],
+      "fallbacks": 0,
+      "first_final_valid": 22,
+      "generation_seconds": 474.9537921966985,
+      "generations": 53,
+      "insufficient_cases_both_answered": 2,
+      "missing_analysis_items": 0,
+      "neutral_compiler_headings": 24,
+      "oracle_retrieved_upper_bound": 24,
+      "prompt_tokens": 238675,
+      "repairs": 2,
+      "retrieved_but_omitted_items": 19,
+      "scoped_insufficiency_items": 6,
+      "selection_mismatch_episode_counts": {
+        "wrong_peer_personal_kind_for_requested_answer": 2
+      },
+      "tool_calls": 79,
+      "unattempted_questions": [],
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 24
+    },
+    {
+      "accepted_dashboard_omissions": 6,
+      "attempted": 24,
+      "compiler_added_claims": 0,
+      "compiler_added_panels": 37,
+      "compiler_supplied_answer_items": 12,
+      "complete_method_selected": 11,
+      "complete_visible": 15,
+      "completion_tokens": 10695,
+      "condition": "binding_c",
+      "denominator": 24,
+      "derived_metadata_records": 80,
+      "duplicate_equivalent_calls": 12,
+      "duplicate_exact_calls": 4,
+      "engineering_gate_met": false,
+      "episode_seconds": 536.3182487096637,
+      "error_episode_counts": {
+        "json_or_schema": 7,
+        "unresolved_binding": 3
+      },
+      "failed_questions": [
+        "s6_18",
+        "s6_19",
+        "s6_20"
+      ],
+      "fallbacks": 0,
+      "first_final_valid": 21,
+      "generation_seconds": 508.33353871293366,
+      "generations": 63,
+      "insufficient_cases_both_answered": 1,
+      "missing_analysis_items": 9,
+      "neutral_compiler_headings": 21,
+      "oracle_retrieved_upper_bound": 21,
+      "prompt_tokens": 262031,
+      "repairs": 3,
+      "retrieved_but_omitted_items": 9,
+      "scoped_insufficiency_items": 5,
+      "selection_mismatch_episode_counts": {
+        "wrong_peer_personal_kind_for_requested_answer": 5
+      },
+      "tool_calls": 82,
+      "unattempted_questions": [],
+      "unsupported_accepted_quantitative_answers": 0,
+      "unsupported_quantitative_attempts_rejected": 0,
+      "valid_after_repair": 21
+    }
+  ],
+  "total_generations": 185,
+  "unclosed_processes": []
+}

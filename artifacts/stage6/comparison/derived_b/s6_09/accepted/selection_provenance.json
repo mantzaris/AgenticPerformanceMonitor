@@ -1,0 +1,155 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "compiler_supplied",
+    "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+    "scope": "selected"
+  },
+  "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "derived_b",
+  "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+  "original_selection": {
+    "answers": [
+      {
+        "evidence_id": "s2_6e150ab0aa9dbfd9caa7",
+        "kind": "measurement_limit"
+      },
+      {
+        "evidence_id": "s2_7cab3dea1afc42e00ef4",
+        "kind": "measurement_limit"
+      },
+      {
+        "evidence_id": "s2_300470308e6da1b90a04",
+        "kind": "measurement_limit"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common assessment context"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "per-evidence quantitative panel requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "per-evidence quantitative panel requirement"
+    }
+  ],
+  "resolved_bindings": [
+    {
+      "derived_metadata": {
+        "answer_state": "unavailable_measurement",
+        "scope": "measurement",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_6e150ab0aa9dbfd9caa7"
+      ],
+      "identity": "measurement_limit|person=558146|course=BBB_2013B|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=course|reference_window=4:7",
+      "original_selection": {
+        "evidence_id": "s2_6e150ab0aa9dbfd9caa7",
+        "kind": "measurement_limit"
+      },
+      "resolved_evidence_id": "s2_6e150ab0aa9dbfd9caa7"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "unavailable_measurement",
+        "scope": "measurement",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_7cab3dea1afc42e00ef4"
+      ],
+      "identity": "measurement_limit|person=558146|course=BBB_2013B|cutoff=55|feature=nonbanked_submissions|focal=4:7|reference=course|reference_window=4:7",
+      "original_selection": {
+        "evidence_id": "s2_7cab3dea1afc42e00ef4",
+        "kind": "measurement_limit"
+      },
+      "resolved_evidence_id": "s2_7cab3dea1afc42e00ef4"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "unavailable_measurement",
+        "scope": "measurement",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_300470308e6da1b90a04"
+      ],
+      "identity": "measurement_limit|person=558146|course=BBB_2013B|cutoff=55|feature=scheduled_no_submission|focal=4:7|reference=course|reference_window=4:7",
+      "original_selection": {
+        "evidence_id": "s2_300470308e6da1b90a04",
+        "kind": "measurement_limit"
+      },
+      "resolved_evidence_id": "s2_300470308e6da1b90a04"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_6e150ab0aa9dbfd9caa7",
+        "kind": "measurement_limit",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_7cab3dea1afc42e00ef4",
+        "kind": "measurement_limit",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_300470308e6da1b90a04",
+        "kind": "measurement_limit",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

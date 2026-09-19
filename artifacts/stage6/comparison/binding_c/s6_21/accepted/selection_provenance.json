@@ -1,0 +1,266 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "compiler_supplied",
+    "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+    "scope": "selected"
+  },
+  "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "binding_c",
+  "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+  "original_selection": {
+    "answers": [
+      {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=course|reference_window=4:7"
+      },
+      {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=same_prior_attempt|reference_window=4:7"
+      },
+      {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=early_stage|reference_window=0:3"
+      },
+      {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3"
+      },
+      {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=same_prior_attempt|reference_window=0:3"
+      },
+      {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=early_stage|reference_window=0:3"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    }
+  ],
+  "resolved_bindings": [
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_fee3ffe2eff3497dd6ca"
+      ],
+      "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=course|reference_window=4:7",
+      "original_selection": {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=course|reference_window=4:7"
+      },
+      "resolved_evidence_id": "s2_fee3ffe2eff3497dd6ca"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_5ef5b31478adf186f016"
+      ],
+      "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=same_prior_attempt|reference_window=4:7",
+      "original_selection": {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=same_prior_attempt|reference_window=4:7"
+      },
+      "resolved_evidence_id": "s2_5ef5b31478adf186f016"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_76284e059c8880cab88a"
+      ],
+      "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=early_stage|reference_window=0:3",
+      "original_selection": {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=4:7|reference=early_stage|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_76284e059c8880cab88a"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_769705b8cfa32e0180e0"
+      ],
+      "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3",
+      "original_selection": {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=course|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_769705b8cfa32e0180e0"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_6fb0602af0693366ea52"
+      ],
+      "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=same_prior_attempt|reference_window=0:3",
+      "original_selection": {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=same_prior_attempt|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_6fb0602af0693366ea52"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_b43fc7e179bd3c364e90"
+      ],
+      "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=early_stage|reference_window=0:3",
+      "original_selection": {
+        "identity": "peer_comparison|person=2194100|course=AAA_2013J|cutoff=55|feature=clicks_per_eligible_day|focal=0:3|reference=early_stage|reference_window=0:3"
+      },
+      "resolved_evidence_id": "s2_b43fc7e179bd3c364e90"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_fee3ffe2eff3497dd6ca",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_5ef5b31478adf186f016",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_76284e059c8880cab88a",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_769705b8cfa32e0180e0",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_6fb0602af0693366ea52",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_b43fc7e179bd3c364e90",
+        "kind": "peer_comparison",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

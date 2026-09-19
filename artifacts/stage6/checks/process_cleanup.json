@@ -1,0 +1,20 @@
+{
+  "gpu_compute_processes": [],
+  "model_processes": [
+    {
+      "pid": 132649,
+      "pid_still_present": false,
+      "process_id": "qwen14b_construction_01"
+    },
+    {
+      "pid": 137800,
+      "pid_still_present": false,
+      "process_id": "qwen14b_comparison_02"
+    }
+  ],
+  "pod_terminated": false,
+  "stage6_model_processes_stopped": true,
+  "stage6_servers_started": 0,
+  "status": "PASS",
+  "utc": "2026-09-19T00:13:40.541346+00:00"
+}

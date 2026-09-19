@@ -1,0 +1,26 @@
+{
+  "action": "analyze",
+  "requests": [
+    {
+      "tool": "analyze",
+      "question_id": "s6_09",
+      "feature": "clicks_per_eligible_day",
+      "reference": "course",
+      "window": "baseline"
+    }
+  ],
+  "answers": [
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "s2_6e150ab0aa9dbfd9caa7"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "s2_7cab3dea1afc42e00ef4"
+    },
+    {
+      "kind": "measurement_limit",
+      "evidence_id": "s2_300470308e6da1b90a04"
+    }
+  ]
+}

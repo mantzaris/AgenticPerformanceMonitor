@@ -1,0 +1,240 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "compiler_supplied",
+    "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+    "scope": "selected"
+  },
+  "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "derived_b",
+  "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+  "original_selection": {
+    "answers": [
+      {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "personal_change"
+      },
+      {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "assessment_status"
+      },
+      {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "observation_status"
+      },
+      {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "personal_change"
+      },
+      {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "assessment_status"
+      },
+      {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "observation_status"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "resolved_bindings": [
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "personal",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_77c07205ac54e34bbf41"
+      ],
+      "identity": "personal_change|person=1035023|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|earlier=0:3|recent=8:11",
+      "original_selection": {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "personal_change"
+      },
+      "resolved_evidence_id": "s2_77c07205ac54e34bbf41"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "recorded_context",
+        "scope": "context",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_77c07205ac54e34bbf41"
+      ],
+      "identity": "assessment_status|person=1035023|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+      "original_selection": {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "assessment_status"
+      },
+      "resolved_evidence_id": "s2_77c07205ac54e34bbf41"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "recorded_context",
+        "scope": "context",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_77c07205ac54e34bbf41"
+      ],
+      "identity": "observation_status|person=1035023|course=AAA_2013J|cutoff=83|feature=nonbanked_submissions|focal=8:11|reference=course|reference_window=8:11",
+      "original_selection": {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "observation_status"
+      },
+      "resolved_evidence_id": "s2_77c07205ac54e34bbf41"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "personal",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_00027a474d866e14fd30"
+      ],
+      "identity": "personal_change|person=1035023|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|earlier=0:3|recent=8:11",
+      "original_selection": {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "personal_change"
+      },
+      "resolved_evidence_id": "s2_00027a474d866e14fd30"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "recorded_context",
+        "scope": "context",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_00027a474d866e14fd30"
+      ],
+      "identity": "assessment_status|person=1035023|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11",
+      "original_selection": {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "assessment_status"
+      },
+      "resolved_evidence_id": "s2_00027a474d866e14fd30"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "recorded_context",
+        "scope": "context",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_00027a474d866e14fd30"
+      ],
+      "identity": "observation_status|person=1035023|course=AAA_2013J|cutoff=83|feature=scheduled_no_submission|focal=8:11|reference=course|reference_window=8:11",
+      "original_selection": {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "observation_status"
+      },
+      "resolved_evidence_id": "s2_00027a474d866e14fd30"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "personal_change",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "assessment_status",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_77c07205ac54e34bbf41",
+        "kind": "observation_status",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "personal_change",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "assessment_status",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_00027a474d866e14fd30",
+        "kind": "observation_status",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

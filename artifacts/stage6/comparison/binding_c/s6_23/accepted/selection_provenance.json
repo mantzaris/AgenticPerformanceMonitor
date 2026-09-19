@@ -1,0 +1,266 @@
+{
+  "additional_analyses": 0,
+  "boilerplate": "Standard renderer caveats; not agent investigation",
+  "claims": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    }
+  ],
+  "conclusion": {
+    "evidence_ids": [],
+    "kind": "descriptive",
+    "origin": "compiler_supplied",
+    "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+    "scope": "selected"
+  },
+  "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+  "inserted_comparison_or_personal_claims": 0,
+  "interface": "binding_c",
+  "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+  "original_selection": {
+    "answers": [
+      {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=course|reference_window=6:9"
+      },
+      {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=same_prior_attempt|reference_window=6:9"
+      },
+      {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=early_stage|reference_window=2:5"
+      },
+      {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=course|reference_window=2:5"
+      },
+      {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=same_prior_attempt|reference_window=2:5"
+      },
+      {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=early_stage|reference_window=2:5"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "answer_indices": [
+        0
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        1
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        2
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        3
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        4
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [
+        5
+      ],
+      "origin": "method_selected",
+      "reason": null
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common trajectory requirement"
+    },
+    {
+      "answer_indices": [],
+      "origin": "compiler_supplied",
+      "reason": "common observation context"
+    }
+  ],
+  "resolved_bindings": [
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_df255cd6b49c3851d080"
+      ],
+      "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=course|reference_window=6:9",
+      "original_selection": {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=course|reference_window=6:9"
+      },
+      "resolved_evidence_id": "s2_df255cd6b49c3851d080"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_7cff5069dd0630dded09"
+      ],
+      "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=same_prior_attempt|reference_window=6:9",
+      "original_selection": {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=same_prior_attempt|reference_window=6:9"
+      },
+      "resolved_evidence_id": "s2_7cff5069dd0630dded09"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_ea03ba8df1c6547fac14"
+      ],
+      "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=early_stage|reference_window=2:5",
+      "original_selection": {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=6:9|reference=early_stage|reference_window=2:5"
+      },
+      "resolved_evidence_id": "s2_ea03ba8df1c6547fac14"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_7918d366d7e079347be1"
+      ],
+      "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=course|reference_window=2:5",
+      "original_selection": {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=course|reference_window=2:5"
+      },
+      "resolved_evidence_id": "s2_7918d366d7e079347be1"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_1b7743d3ddaa6d550cbf"
+      ],
+      "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=same_prior_attempt|reference_window=2:5",
+      "original_selection": {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=same_prior_attempt|reference_window=2:5"
+      },
+      "resolved_evidence_id": "s2_1b7743d3ddaa6d550cbf"
+    },
+    {
+      "derived_metadata": {
+        "answer_state": "answered",
+        "scope": "peer",
+        "support": "describe"
+      },
+      "equivalent_evidence_ids": [
+        "s2_bd8d33c30aa16b31f0dd"
+      ],
+      "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=early_stage|reference_window=2:5",
+      "original_selection": {
+        "identity": "peer_comparison|person=532668|course=BBB_2013B|cutoff=69|feature=clicks_per_eligible_day|focal=2:5|reference=early_stage|reference_window=2:5"
+      },
+      "resolved_evidence_id": "s2_bd8d33c30aa16b31f0dd"
+    }
+  ],
+  "semantic_answer": {
+    "answers": [
+      {
+        "evidence_id": "s2_df255cd6b49c3851d080",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_7cff5069dd0630dded09",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_ea03ba8df1c6547fac14",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_7918d366d7e079347be1",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_1b7743d3ddaa6d550cbf",
+        "kind": "peer_comparison",
+        "support": "describe"
+      },
+      {
+        "evidence_id": "s2_bd8d33c30aa16b31f0dd",
+        "kind": "peer_comparison",
+        "support": "describe"
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "scope": "selected"
+    }
+  }
+}

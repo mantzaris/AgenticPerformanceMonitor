@@ -1,0 +1,5699 @@
+{
+  "s2_25f11170ac0d8cb01b4f": {
+    "assessment_status": [
+      {
+        "as_of_day": 20,
+        "assessment_id": 1752,
+        "course": "AAA_2013J",
+        "due_day": 19,
+        "person_id": 334333,
+        "score_status": "withheld_release_time_unknown",
+        "state": "nonbanked_submission_recorded",
+        "week": 2
+      },
+      {
+        "as_of_day": 55,
+        "assessment_id": 1753,
+        "course": "AAA_2013J",
+        "due_day": 54,
+        "person_id": 334333,
+        "score_status": "withheld_release_time_unknown",
+        "state": "no_nonbanked_submission_by_week_end",
+        "week": 7
+      }
+    ],
+    "cutoff_day": 83,
+    "evidence_id": "s2_25f11170ac0d8cb01b4f",
+    "feature": "clicks_per_eligible_day",
+    "focal_id": 334333,
+    "limitations": [
+      "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+      "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+      "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+      "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+      "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+      "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+      "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+      "All task focal people are excluded from the fixed development reference pool.",
+      "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+    ],
+    "observation_status": [
+      {
+        "eligible_days": 7.0,
+        "end_day": 6,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 0,
+        "value": 4.428571428571429,
+        "week": 0
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 13,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 7,
+        "value": 2.142857142857143,
+        "week": 1
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 20,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 14,
+        "value": 8.857142857142858,
+        "week": 2
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 27,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 21,
+        "value": 1.0,
+        "week": 3
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 34,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 28,
+        "value": 1.0,
+        "week": 4
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 41,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 35,
+        "value": 4.571428571428571,
+        "week": 5
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 48,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 42,
+        "value": 0.14285714285714285,
+        "week": 6
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 55,
+        "logging_completeness": "unknown",
+        "observation_status": "zero_recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 49,
+        "value": 0.0,
+        "week": 7
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 62,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 56,
+        "value": 2.142857142857143,
+        "week": 8
+      },
+      {
+        "eligible_days": 2.0,
+        "end_day": 69,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 63,
+        "value": 1.5,
+        "week": 9
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 76,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 70,
+        "value": null,
+        "week": 10
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 83,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 77,
+        "value": null,
+        "week": 11
+      }
+    ],
+    "observations": 867,
+    "peer_ids": [
+      32885,
+      38053,
+      45642,
+      52130,
+      53025,
+      57506,
+      58873,
+      62155,
+      70464,
+      71361,
+      74372,
+      77367,
+      91265,
+      94961,
+      101781,
+      102952,
+      104476,
+      106247,
+      111717,
+      114017,
+      116692,
+      123044,
+      127582,
+      129955,
+      132976,
+      134143,
+      135400,
+      144801,
+      146188,
+      147756,
+      148993,
+      151358,
+      155550,
+      155854,
+      155984,
+      168936,
+      175991,
+      180753,
+      183096,
+      183947,
+      186149,
+      187100,
+      189879,
+      192183,
+      202635,
+      205350,
+      205719,
+      228082,
+      229179,
+      229361,
+      235507,
+      236284,
+      240712,
+      240884,
+      242793,
+      246834,
+      248270,
+      256815,
+      258392,
+      258894,
+      260355,
+      262011,
+      262934,
+      268073,
+      271251,
+      277880,
+      281250,
+      282821,
+      286488,
+      290201,
+      290757,
+      291334,
+      294570,
+      294594,
+      295741,
+      296332,
+      300398,
+      302302,
+      305152,
+      307061,
+      307866,
+      311917,
+      312782,
+      318933,
+      319047,
+      324084,
+      324282,
+      332789,
+      336207,
+      341872,
+      342972,
+      343446,
+      345068,
+      345357,
+      346843,
+      350188,
+      357668,
+      364177,
+      365642,
+      366483,
+      368824,
+      368963,
+      376439,
+      386924,
+      388885,
+      390890,
+      393207,
+      404804,
+      415969,
+      420087,
+      441018,
+      441888,
+      442442,
+      444677,
+      470588,
+      494424,
+      495284,
+      498857,
+      544103,
+      550383,
+      564450,
+      568601,
+      572652,
+      581129,
+      606143,
+      704156,
+      705379,
+      749412,
+      760729,
+      905042,
+      949618,
+      958987,
+      968578,
+      969076,
+      971027,
+      1352868,
+      1414443,
+      1465690,
+      1618738,
+      1620151,
+      1626710,
+      1640609,
+      1758449,
+      1765788,
+      1801229,
+      1801641,
+      1847830,
+      1860318,
+      1889577,
+      1894188,
+      1938355,
+      1942396,
+      2011876,
+      2012966,
+      2051699,
+      2062879,
+      2065691,
+      2073016,
+      2080474,
+      2083877,
+      2084066,
+      2104505,
+      2122180,
+      2153153,
+      2155014,
+      2164705,
+      2171627,
+      2197016,
+      2208424,
+      2229865,
+      2268379,
+      2278464,
+      2293923,
+      2312620,
+      2339528,
+      2344901,
+      2358056,
+      2358969,
+      2364471,
+      2367155,
+      2369266,
+      2411778,
+      2437837,
+      2449878,
+      2456480,
+      2460080,
+      2461190,
+      2482700,
+      2518069,
+      2521459,
+      2523736,
+      2529279,
+      2536991,
+      2550279,
+      2551220,
+      2552472,
+      2555340,
+      2559575,
+      2562034,
+      2574528,
+      2586560,
+      2594139,
+      2599352,
+      2613116,
+      2617002,
+      2620584,
+      2639449,
+      2639540,
+      2639641,
+      2641155,
+      2645733,
+      2650282,
+      2669816,
+      2671132,
+      2676809,
+      2689958,
+      2694424,
+      2698257
+    ],
+    "peer_summary_rows": [
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 32885,
+        "value": 2.678571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 38053,
+        "value": 4.642857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 45642,
+        "value": 1.9642857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 52130,
+        "value": 5.321428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 53025,
+        "value": 14.464285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 57506,
+        "value": 2.892857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 58873,
+        "value": 2.5357142857142856
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 62155,
+        "value": 16.75
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 70464,
+        "value": 1.8571428571428572
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 71361,
+        "value": 8.642857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 74372,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 77367,
+        "value": 0.35714285714285715
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 91265,
+        "value": 4.178571428571429
+      },
+      {
+        "eligible_days": 16.0,
+        "observations": 3,
+        "person_id": 94961,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 101781,
+        "value": 7.5
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 102952,
+        "value": 0.10714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 104476,
+        "value": 3.071428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 106247,
+        "value": 2.4285714285714284
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 111717,
+        "value": 9.035714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 114017,
+        "value": 0.17857142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 116692,
+        "value": 3.857142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 123044,
+        "value": 4.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 127582,
+        "value": 1.7857142857142856
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 129955,
+        "value": 2.3571428571428568
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 132976,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 134143,
+        "value": 8.178571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 135400,
+        "value": 0.03571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 144801,
+        "value": 17.5
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 146188,
+        "value": 2.142857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 147756,
+        "value": 0.35714285714285715
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 148993,
+        "value": 6.428571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 151358,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155550,
+        "value": 0.35714285714285715
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155854,
+        "value": 5.0357142857142865
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155984,
+        "value": 4.142857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 168936,
+        "value": 0.07142857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 175991,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 180753,
+        "value": 5.142857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 183096,
+        "value": 4.464285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 183947,
+        "value": 0.5357142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 186149,
+        "value": 13.535714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 187100,
+        "value": 19.321428571428573
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 189879,
+        "value": 5.642857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 192183,
+        "value": 7.285714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 202635,
+        "value": 4.357142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 205350,
+        "value": 1.8571428571428572
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 205719,
+        "value": 1.0357142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 228082,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 229179,
+        "value": 0.07142857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 229361,
+        "value": 1.4285714285714284
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 235507,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 236284,
+        "value": 0.03571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 240712,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 240884,
+        "value": 0.07142857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 242793,
+        "value": 0.10714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 246834,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 248270,
+        "value": 2.571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 256815,
+        "value": 0.8928571428571428
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 258392,
+        "value": 1.4642857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 258894,
+        "value": 14.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 260355,
+        "value": 0.2857142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 262011,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 262934,
+        "value": 2.5357142857142856
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 268073,
+        "value": 3.892857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 271251,
+        "value": 4.964285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 277880,
+        "value": 7.571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 281250,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 282821,
+        "value": 6.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 286488,
+        "value": 2.678571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 290201,
+        "value": 6.392857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 290757,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 291334,
+        "value": 17.571428571428573
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 294570,
+        "value": 6.071428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 294594,
+        "value": 1.7142857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 295741,
+        "value": 1.1071428571428572
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 296332,
+        "value": 8.321428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 300398,
+        "value": 5.071428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 302302,
+        "value": 0.9285714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 305152,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 307061,
+        "value": 0.42857142857142855
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 307866,
+        "value": 6.035714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 311917,
+        "value": 8.607142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 312782,
+        "value": 0.42857142857142855
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 318933,
+        "value": 4.571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 319047,
+        "value": 11.75
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 324084,
+        "value": 3.821428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 324282,
+        "value": 0.2142857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 332789,
+        "value": 0.6785714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 336207,
+        "value": 4.035714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 341872,
+        "value": 1.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 342972,
+        "value": 1.0714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 343446,
+        "value": 20.321428571428573
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 345068,
+        "value": 2.642857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 345357,
+        "value": 7.285714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 346843,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 350188,
+        "value": 0.10714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 357668,
+        "value": 0.03571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 364177,
+        "value": 3.107142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 365642,
+        "value": 2.892857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 366483,
+        "value": 3.392857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 368824,
+        "value": 0.8214285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 368963,
+        "value": 3.6785714285714284
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 376439,
+        "value": 4.321428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 386924,
+        "value": 0.2142857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 388885,
+        "value": 0.3928571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 390890,
+        "value": 1.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 393207,
+        "value": 0.14285714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 404804,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 415969,
+        "value": 4.5
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 420087,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 441018,
+        "value": 0.10714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 441888,
+        "value": 0.03571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 442442,
+        "value": 3.0357142857142856
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 444677,
+        "value": 4.857142857142857
+      },
+      {
+        "eligible_days": 17.0,
+        "observations": 3,
+        "person_id": 470588,
+        "value": 0.19047619047619047
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 494424,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 495284,
+        "value": 0.8214285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 498857,
+        "value": 3.0714285714285716
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 544103,
+        "value": 3.2857142857142856
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 550383,
+        "value": 4.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 564450,
+        "value": 0.07142857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 568601,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 572652,
+        "value": 0.17857142857142855
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 581129,
+        "value": 0.10714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 606143,
+        "value": 0.6428571428571428
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 704156,
+        "value": 12.107142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 705379,
+        "value": 9.285714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 749412,
+        "value": 12.357142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 760729,
+        "value": 28.42857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 905042,
+        "value": 1.3928571428571428
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 949618,
+        "value": 3.178571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 958987,
+        "value": 2.392857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 968578,
+        "value": 0.6785714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 969076,
+        "value": 10.785714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 971027,
+        "value": 4.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1352868,
+        "value": 4.071428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1414443,
+        "value": 6.642857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1465690,
+        "value": 3.4285714285714284
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1618738,
+        "value": 3.107142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1620151,
+        "value": 0.6428571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1626710,
+        "value": 21.428571428571427
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1640609,
+        "value": 18.535714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1758449,
+        "value": 20.035714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1765788,
+        "value": 23.464285714285715
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1801229,
+        "value": 1.5714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1801641,
+        "value": 1.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1847830,
+        "value": 10.285714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1860318,
+        "value": 20.214285714285715
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1889577,
+        "value": 1.6071428571428572
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1894188,
+        "value": 7.428571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1938355,
+        "value": 4.035714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1942396,
+        "value": 0.3571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2011876,
+        "value": 0.42857142857142855
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2012966,
+        "value": 0.21428571428571427
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2051699,
+        "value": 2.571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2062879,
+        "value": 4.714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2065691,
+        "value": 24.571428571428573
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2073016,
+        "value": 3.357142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2080474,
+        "value": 3.035714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2083877,
+        "value": 1.1071428571428572
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2084066,
+        "value": 4.75
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2104505,
+        "value": 0.2857142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2122180,
+        "value": 10.142857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2153153,
+        "value": 8.571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2155014,
+        "value": 2.928571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2164705,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2171627,
+        "value": 5.107142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2197016,
+        "value": 3.8214285714285716
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2208424,
+        "value": 2.571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2229865,
+        "value": 4.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2268379,
+        "value": 4.071428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2278464,
+        "value": 0.2857142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2293923,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2312620,
+        "value": 4.678571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2339528,
+        "value": 0.03571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2344901,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2358056,
+        "value": 2.1785714285714284
+      },
+      {
+        "eligible_days": 2.0,
+        "observations": 1,
+        "person_id": 2358969,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2364471,
+        "value": 22.571428571428573
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2367155,
+        "value": 2.357142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2369266,
+        "value": 7.857142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2411778,
+        "value": 0.3571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2437837,
+        "value": 3.4642857142857144
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2449878,
+        "value": 0.4642857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2456480,
+        "value": 0.03571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2460080,
+        "value": 1.5357142857142856
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2461190,
+        "value": 2.857142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2482700,
+        "value": 3.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2518069,
+        "value": 2.428571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2521459,
+        "value": 4.035714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2523736,
+        "value": 1.1428571428571428
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2529279,
+        "value": 2.571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2536991,
+        "value": 5.107142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2550279,
+        "value": 9.607142857142858
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2551220,
+        "value": 2.142857142857143
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2552472,
+        "value": 2.2142857142857144
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2555340,
+        "value": 18.32142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2559575,
+        "value": 1.0714285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2562034,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2574528,
+        "value": 0.3571428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2586560,
+        "value": 7.392857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2594139,
+        "value": 3.1785714285714284
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2599352,
+        "value": 0.07142857142857142
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2613116,
+        "value": 3.7142857142857144
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2617002,
+        "value": 0.5357142857142857
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2620584,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639449,
+        "value": 0.5
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639540,
+        "value": 6.321428571428571
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639641,
+        "value": 4.75
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2641155,
+        "value": 14.214285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2645733,
+        "value": 2.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2650282,
+        "value": 0.39285714285714285
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2669816,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2671132,
+        "value": 7.5
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2676809,
+        "value": 1.8214285714285714
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2689958,
+        "value": 9.428571428571429
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2694424,
+        "value": 12.535714285714286
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2698257,
+        "value": 0.9642857142857144
+      }
+    ],
+    "people": 218,
+    "provenance": {
+      "aggregation": "Equal weight per eligible person, equal weight per observed week within person; trajectories use same-week peers, including for the early-stage reference.",
+      "config_sha256": "365a428ea8b8a4f3d323229b64fc310c8c1a2fc7c1182c89f3350a742a873c88",
+      "executed_utc": "2026-09-18T23:56:25.084723+00:00",
+      "minimum_peer_people": 20,
+      "request_sha256": "d1b026a0762d848e64b1ea89c0c21a952844f597512dd8cef32e46e06eb909e4",
+      "seed": 92913602,
+      "source_bundle_sha256": "8d3191c0bce66772af43d39fccb42778968fad5cadd8047ddefacb255891e8e4"
+    },
+    "question_id": "s6_11",
+    "reference": "course",
+    "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+    "reference_window": [
+      8,
+      11
+    ],
+    "request": {
+      "feature": "clicks_per_eligible_day",
+      "question_id": "s6_11",
+      "reference": "course",
+      "tool": "analyze",
+      "window": "recent"
+    },
+    "status": "supported",
+    "summary": {
+      "baseline_mean": 4.107142857142858,
+      "baseline_observations": 4,
+      "baseline_window": [
+        0,
+        3
+      ],
+      "contrast": -2.393730886850153,
+      "focal_eligible_days": 9.0,
+      "focal_mean": 1.8214285714285714,
+      "focal_observations": 2,
+      "peer_ci_high": 5.052260812581913,
+      "peer_ci_low": 3.5363600371341195,
+      "peer_mean": 4.215159458278724,
+      "personal_change": -2.2857142857142865,
+      "personal_status": "supported",
+      "recent_mean": 1.8214285714285714,
+      "recent_observations": 2,
+      "recent_window": [
+        8,
+        11
+      ]
+    },
+    "trajectory": [
+      {
+        "end_day": 6,
+        "focal_value": 4.428571428571429,
+        "peer_ci_high": 14.10812863606981,
+        "peer_ci_low": 10.795345830639947,
+        "peer_mean": 12.399482870071106,
+        "peer_observations": 221,
+        "peer_people": 221,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 2.142857142857143,
+        "peer_ci_high": 16.3381512605042,
+        "peer_ci_low": 12.806881060116353,
+        "peer_mean": 14.59754363283775,
+        "peer_observations": 221,
+        "peer_people": 221,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 8.857142857142858,
+        "peer_ci_high": 18.609311806914544,
+        "peer_ci_low": 14.841503587736463,
+        "peer_mean": 16.65362035225049,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 1.0,
+        "peer_ci_high": 9.805675146771035,
+        "peer_ci_low": 7.350212002609263,
+        "peer_mean": 8.587736464448794,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 1.0,
+        "peer_ci_high": 8.577739726027396,
+        "peer_ci_low": 6.372407045009785,
+        "peer_mean": 7.42791911285062,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 4.571428571428571,
+        "peer_ci_high": 8.416997051114024,
+        "peer_ci_low": 5.924508519003932,
+        "peer_mean": 7.211500655307995,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 0.14285714285714285,
+        "peer_ci_high": 8.139990170380079,
+        "peer_ci_low": 5.98132372214941,
+        "peer_mean": 7.001965923984273,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 0.0,
+        "peer_ci_high": 8.993856487549149,
+        "peer_ci_low": 6.9713794233289645,
+        "peer_mean": 7.977719528178245,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 2.142857142857143,
+        "peer_ci_high": 6.2978374836172994,
+        "peer_ci_low": 4.4682503276539975,
+        "peer_mean": 5.340104849279162,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 1.5,
+        "peer_ci_high": 5.334216589861751,
+        "peer_ci_low": 3.6079328505595787,
+        "peer_mean": 4.4463462804476634,
+        "peer_observations": 217,
+        "peer_people": 217,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": null,
+        "peer_ci_high": 5.647267939433837,
+        "peer_ci_low": 3.5804805793285057,
+        "peer_mean": 4.5115207373271895,
+        "peer_observations": 217,
+        "peer_people": 217,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": null,
+        "peer_ci_high": 3.2952491694352153,
+        "peer_ci_low": 1.986013289036545,
+        "peer_mean": 2.6392026578073087,
+        "peer_observations": 215,
+        "peer_people": 215,
+        "reference": "course",
+        "unit": "recorded clicks / eligible day",
+        "week": 11
+      }
+    ],
+    "uncertainty": {
+      "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+      "level": 0.95,
+      "method": "person_cluster_percentile_bootstrap",
+      "replicates": 500,
+      "resampling_unit": "person with within-window history kept together",
+      "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+    },
+    "unit": "recorded clicks / eligible day",
+    "window": [
+      8,
+      11
+    ]
+  },
+  "s2_95cb0ebbfa6e2680e3fc": {
+    "assessment_status": [
+      {
+        "as_of_day": 20,
+        "assessment_id": 1752,
+        "course": "AAA_2013J",
+        "due_day": 19,
+        "person_id": 334333,
+        "score_status": "withheld_release_time_unknown",
+        "state": "nonbanked_submission_recorded",
+        "week": 2
+      },
+      {
+        "as_of_day": 55,
+        "assessment_id": 1753,
+        "course": "AAA_2013J",
+        "due_day": 54,
+        "person_id": 334333,
+        "score_status": "withheld_release_time_unknown",
+        "state": "no_nonbanked_submission_by_week_end",
+        "week": 7
+      }
+    ],
+    "cutoff_day": 83,
+    "evidence_id": "s2_95cb0ebbfa6e2680e3fc",
+    "feature": "scheduled_no_submission",
+    "focal_id": 334333,
+    "limitations": [
+      "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+      "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+      "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+      "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+      "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+      "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+      "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+      "All task focal people are excluded from the fixed development reference pool.",
+      "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+    ],
+    "observation_status": [
+      {
+        "eligible_days": 7.0,
+        "end_day": 6,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 0,
+        "value": 0.0,
+        "week": 0
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 13,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 7,
+        "value": 0.0,
+        "week": 1
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 20,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 14,
+        "value": 0.0,
+        "week": 2
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 27,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 21,
+        "value": 0.0,
+        "week": 3
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 34,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 28,
+        "value": 0.0,
+        "week": 4
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 41,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 35,
+        "value": 0.0,
+        "week": 5
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 48,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 42,
+        "value": 0.0,
+        "week": 6
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 55,
+        "logging_completeness": "unknown",
+        "observation_status": "zero_recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 49,
+        "value": 1.0,
+        "week": 7
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 62,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 56,
+        "value": 0.0,
+        "week": 8
+      },
+      {
+        "eligible_days": 2.0,
+        "end_day": 69,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 63,
+        "value": 0.0,
+        "week": 9
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 76,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 70,
+        "value": null,
+        "week": 10
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 83,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 77,
+        "value": null,
+        "week": 11
+      }
+    ],
+    "observations": 867,
+    "peer_ids": [
+      32885,
+      38053,
+      45642,
+      52130,
+      53025,
+      57506,
+      58873,
+      62155,
+      70464,
+      71361,
+      74372,
+      77367,
+      91265,
+      94961,
+      101781,
+      102952,
+      104476,
+      106247,
+      111717,
+      114017,
+      116692,
+      123044,
+      127582,
+      129955,
+      132976,
+      134143,
+      135400,
+      144801,
+      146188,
+      147756,
+      148993,
+      151358,
+      155550,
+      155854,
+      155984,
+      168936,
+      175991,
+      180753,
+      183096,
+      183947,
+      186149,
+      187100,
+      189879,
+      192183,
+      202635,
+      205350,
+      205719,
+      228082,
+      229179,
+      229361,
+      235507,
+      236284,
+      240712,
+      240884,
+      242793,
+      246834,
+      248270,
+      256815,
+      258392,
+      258894,
+      260355,
+      262011,
+      262934,
+      268073,
+      271251,
+      277880,
+      281250,
+      282821,
+      286488,
+      290201,
+      290757,
+      291334,
+      294570,
+      294594,
+      295741,
+      296332,
+      300398,
+      302302,
+      305152,
+      307061,
+      307866,
+      311917,
+      312782,
+      318933,
+      319047,
+      324084,
+      324282,
+      332789,
+      336207,
+      341872,
+      342972,
+      343446,
+      345068,
+      345357,
+      346843,
+      350188,
+      357668,
+      364177,
+      365642,
+      366483,
+      368824,
+      368963,
+      376439,
+      386924,
+      388885,
+      390890,
+      393207,
+      404804,
+      415969,
+      420087,
+      441018,
+      441888,
+      442442,
+      444677,
+      470588,
+      494424,
+      495284,
+      498857,
+      544103,
+      550383,
+      564450,
+      568601,
+      572652,
+      581129,
+      606143,
+      704156,
+      705379,
+      749412,
+      760729,
+      905042,
+      949618,
+      958987,
+      968578,
+      969076,
+      971027,
+      1352868,
+      1414443,
+      1465690,
+      1618738,
+      1620151,
+      1626710,
+      1640609,
+      1758449,
+      1765788,
+      1801229,
+      1801641,
+      1847830,
+      1860318,
+      1889577,
+      1894188,
+      1938355,
+      1942396,
+      2011876,
+      2012966,
+      2051699,
+      2062879,
+      2065691,
+      2073016,
+      2080474,
+      2083877,
+      2084066,
+      2104505,
+      2122180,
+      2153153,
+      2155014,
+      2164705,
+      2171627,
+      2197016,
+      2208424,
+      2229865,
+      2268379,
+      2278464,
+      2293923,
+      2312620,
+      2339528,
+      2344901,
+      2358056,
+      2358969,
+      2364471,
+      2367155,
+      2369266,
+      2411778,
+      2437837,
+      2449878,
+      2456480,
+      2460080,
+      2461190,
+      2482700,
+      2518069,
+      2521459,
+      2523736,
+      2529279,
+      2536991,
+      2550279,
+      2551220,
+      2552472,
+      2555340,
+      2559575,
+      2562034,
+      2574528,
+      2586560,
+      2594139,
+      2599352,
+      2613116,
+      2617002,
+      2620584,
+      2639449,
+      2639540,
+      2639641,
+      2641155,
+      2645733,
+      2650282,
+      2669816,
+      2671132,
+      2676809,
+      2689958,
+      2694424,
+      2698257
+    ],
+    "peer_summary_rows": [
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 32885,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 38053,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 45642,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 52130,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 53025,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 57506,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 58873,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 62155,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 70464,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 71361,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 74372,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 77367,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 91265,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 16.0,
+        "observations": 3,
+        "person_id": 94961,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 101781,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 102952,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 104476,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 106247,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 111717,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 114017,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 116692,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 123044,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 127582,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 129955,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 132976,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 134143,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 135400,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 144801,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 146188,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 147756,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 148993,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 151358,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155550,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155854,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155984,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 168936,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 175991,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 180753,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 183096,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 183947,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 186149,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 187100,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 189879,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 192183,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 202635,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 205350,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 205719,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 228082,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 229179,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 229361,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 235507,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 236284,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 240712,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 240884,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 242793,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 246834,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 248270,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 256815,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 258392,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 258894,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 260355,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 262011,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 262934,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 268073,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 271251,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 277880,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 281250,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 282821,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 286488,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 290201,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 290757,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 291334,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 294570,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 294594,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 295741,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 296332,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 300398,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 302302,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 305152,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 307061,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 307866,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 311917,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 312782,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 318933,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 319047,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 324084,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 324282,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 332789,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 336207,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 341872,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 342972,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 343446,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 345068,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 345357,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 346843,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 350188,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 357668,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 364177,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 365642,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 366483,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 368824,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 368963,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 376439,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 386924,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 388885,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 390890,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 393207,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 404804,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 415969,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 420087,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 441018,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 441888,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 442442,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 444677,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 17.0,
+        "observations": 3,
+        "person_id": 470588,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 494424,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 495284,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 498857,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 544103,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 550383,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 564450,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 568601,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 572652,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 581129,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 606143,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 704156,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 705379,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 749412,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 760729,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 905042,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 949618,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 958987,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 968578,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 969076,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 971027,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1352868,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1414443,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1465690,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1618738,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1620151,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1626710,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1640609,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1758449,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1765788,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1801229,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1801641,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1847830,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1860318,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1889577,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1894188,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1938355,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1942396,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2011876,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2012966,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2051699,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2062879,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2065691,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2073016,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2080474,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2083877,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2084066,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2104505,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2122180,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2153153,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2155014,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2164705,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2171627,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2197016,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2208424,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2229865,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2268379,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2278464,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2293923,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2312620,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2339528,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2344901,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2358056,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 2.0,
+        "observations": 1,
+        "person_id": 2358969,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2364471,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2367155,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2369266,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2411778,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2437837,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2449878,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2456480,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2460080,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2461190,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2482700,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2518069,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2521459,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2523736,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2529279,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2536991,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2550279,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2551220,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2552472,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2555340,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2559575,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2562034,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2574528,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2586560,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2594139,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2599352,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2613116,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2617002,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2620584,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639449,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639540,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639641,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2641155,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2645733,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2650282,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2669816,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2671132,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2676809,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2689958,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2694424,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2698257,
+        "value": 0.0
+      }
+    ],
+    "people": 218,
+    "provenance": {
+      "aggregation": "Equal weight per eligible person, equal weight per observed week within person; trajectories use same-week peers, including for the early-stage reference.",
+      "config_sha256": "365a428ea8b8a4f3d323229b64fc310c8c1a2fc7c1182c89f3350a742a873c88",
+      "executed_utc": "2026-09-18T23:56:25.136985+00:00",
+      "minimum_peer_people": 20,
+      "request_sha256": "648af5adfc7b9d07b63fe44369bbd71b03c6973c695082c2fa8b9869aee0b978",
+      "seed": 194956305,
+      "source_bundle_sha256": "8d3191c0bce66772af43d39fccb42778968fad5cadd8047ddefacb255891e8e4"
+    },
+    "question_id": "s6_11",
+    "reference": "course",
+    "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+    "reference_window": [
+      8,
+      11
+    ],
+    "request": {
+      "feature": "scheduled_no_submission",
+      "question_id": "s6_11",
+      "reference": "course",
+      "tool": "analyze",
+      "window": "recent"
+    },
+    "status": "supported",
+    "summary": {
+      "baseline_mean": 0.0,
+      "baseline_observations": 4,
+      "baseline_window": [
+        0,
+        3
+      ],
+      "contrast": 0.0,
+      "focal_eligible_days": 9.0,
+      "focal_mean": 0.0,
+      "focal_observations": 2,
+      "peer_ci_high": 0.0,
+      "peer_ci_low": 0.0,
+      "peer_mean": 0.0,
+      "personal_change": 0.0,
+      "personal_status": "supported",
+      "recent_mean": 0.0,
+      "recent_observations": 2,
+      "recent_window": [
+        8,
+        11
+      ]
+    },
+    "trajectory": [
+      {
+        "end_day": 6,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 221,
+        "peer_people": 221,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 221,
+        "peer_people": 221,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.2237442922374429,
+        "peer_ci_low": 0.1232876712328767,
+        "peer_mean": 0.1735159817351598,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 1.0,
+        "peer_ci_high": 0.3944954128440367,
+        "peer_ci_low": 0.2706422018348624,
+        "peer_mean": 0.3348623853211009,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 217,
+        "peer_people": 217,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 217,
+        "peer_people": 217,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 215,
+        "peer_people": 215,
+        "reference": "course",
+        "unit": "scheduled assessments without recorded submission / week",
+        "week": 11
+      }
+    ],
+    "uncertainty": {
+      "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+      "level": 0.95,
+      "method": "person_cluster_percentile_bootstrap",
+      "replicates": 500,
+      "resampling_unit": "person with within-window history kept together",
+      "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+    },
+    "unit": "scheduled assessments without recorded submission / week",
+    "window": [
+      8,
+      11
+    ]
+  },
+  "s2_e82b0760ba692118b3d2": {
+    "assessment_status": [
+      {
+        "as_of_day": 20,
+        "assessment_id": 1752,
+        "course": "AAA_2013J",
+        "due_day": 19,
+        "person_id": 334333,
+        "score_status": "withheld_release_time_unknown",
+        "state": "nonbanked_submission_recorded",
+        "week": 2
+      },
+      {
+        "as_of_day": 55,
+        "assessment_id": 1753,
+        "course": "AAA_2013J",
+        "due_day": 54,
+        "person_id": 334333,
+        "score_status": "withheld_release_time_unknown",
+        "state": "no_nonbanked_submission_by_week_end",
+        "week": 7
+      }
+    ],
+    "cutoff_day": 83,
+    "evidence_id": "s2_e82b0760ba692118b3d2",
+    "feature": "nonbanked_submissions",
+    "focal_id": 334333,
+    "limitations": [
+      "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+      "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+      "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+      "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+      "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+      "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+      "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+      "All task focal people are excluded from the fixed development reference pool.",
+      "Earlier-stage peers answer a different descriptive question; they are not a causal or automatically fairer adjustment."
+    ],
+    "observation_status": [
+      {
+        "eligible_days": 7.0,
+        "end_day": 6,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 0,
+        "value": 0.0,
+        "week": 0
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 13,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 7,
+        "value": 0.0,
+        "week": 1
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 20,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 14,
+        "value": 1.0,
+        "week": 2
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 27,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 21,
+        "value": 0.0,
+        "week": 3
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 34,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 28,
+        "value": 0.0,
+        "week": 4
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 41,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 35,
+        "value": 0.0,
+        "week": 5
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 48,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 42,
+        "value": 0.0,
+        "week": 6
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 55,
+        "logging_completeness": "unknown",
+        "observation_status": "zero_recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 49,
+        "value": 0.0,
+        "week": 7
+      },
+      {
+        "eligible_days": 7.0,
+        "end_day": 62,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 56,
+        "value": 0.0,
+        "week": 8
+      },
+      {
+        "eligible_days": 2.0,
+        "end_day": 69,
+        "logging_completeness": "unknown",
+        "observation_status": "recorded_activity",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 63,
+        "value": 0.0,
+        "week": 9
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 76,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 70,
+        "value": null,
+        "week": 10
+      },
+      {
+        "eligible_days": 0.0,
+        "end_day": 83,
+        "logging_completeness": "unknown",
+        "observation_status": "ineligible",
+        "score_status": "withheld_release_time_unknown",
+        "start_day": 77,
+        "value": null,
+        "week": 11
+      }
+    ],
+    "observations": 867,
+    "peer_ids": [
+      32885,
+      38053,
+      45642,
+      52130,
+      53025,
+      57506,
+      58873,
+      62155,
+      70464,
+      71361,
+      74372,
+      77367,
+      91265,
+      94961,
+      101781,
+      102952,
+      104476,
+      106247,
+      111717,
+      114017,
+      116692,
+      123044,
+      127582,
+      129955,
+      132976,
+      134143,
+      135400,
+      144801,
+      146188,
+      147756,
+      148993,
+      151358,
+      155550,
+      155854,
+      155984,
+      168936,
+      175991,
+      180753,
+      183096,
+      183947,
+      186149,
+      187100,
+      189879,
+      192183,
+      202635,
+      205350,
+      205719,
+      228082,
+      229179,
+      229361,
+      235507,
+      236284,
+      240712,
+      240884,
+      242793,
+      246834,
+      248270,
+      256815,
+      258392,
+      258894,
+      260355,
+      262011,
+      262934,
+      268073,
+      271251,
+      277880,
+      281250,
+      282821,
+      286488,
+      290201,
+      290757,
+      291334,
+      294570,
+      294594,
+      295741,
+      296332,
+      300398,
+      302302,
+      305152,
+      307061,
+      307866,
+      311917,
+      312782,
+      318933,
+      319047,
+      324084,
+      324282,
+      332789,
+      336207,
+      341872,
+      342972,
+      343446,
+      345068,
+      345357,
+      346843,
+      350188,
+      357668,
+      364177,
+      365642,
+      366483,
+      368824,
+      368963,
+      376439,
+      386924,
+      388885,
+      390890,
+      393207,
+      404804,
+      415969,
+      420087,
+      441018,
+      441888,
+      442442,
+      444677,
+      470588,
+      494424,
+      495284,
+      498857,
+      544103,
+      550383,
+      564450,
+      568601,
+      572652,
+      581129,
+      606143,
+      704156,
+      705379,
+      749412,
+      760729,
+      905042,
+      949618,
+      958987,
+      968578,
+      969076,
+      971027,
+      1352868,
+      1414443,
+      1465690,
+      1618738,
+      1620151,
+      1626710,
+      1640609,
+      1758449,
+      1765788,
+      1801229,
+      1801641,
+      1847830,
+      1860318,
+      1889577,
+      1894188,
+      1938355,
+      1942396,
+      2011876,
+      2012966,
+      2051699,
+      2062879,
+      2065691,
+      2073016,
+      2080474,
+      2083877,
+      2084066,
+      2104505,
+      2122180,
+      2153153,
+      2155014,
+      2164705,
+      2171627,
+      2197016,
+      2208424,
+      2229865,
+      2268379,
+      2278464,
+      2293923,
+      2312620,
+      2339528,
+      2344901,
+      2358056,
+      2358969,
+      2364471,
+      2367155,
+      2369266,
+      2411778,
+      2437837,
+      2449878,
+      2456480,
+      2460080,
+      2461190,
+      2482700,
+      2518069,
+      2521459,
+      2523736,
+      2529279,
+      2536991,
+      2550279,
+      2551220,
+      2552472,
+      2555340,
+      2559575,
+      2562034,
+      2574528,
+      2586560,
+      2594139,
+      2599352,
+      2613116,
+      2617002,
+      2620584,
+      2639449,
+      2639540,
+      2639641,
+      2641155,
+      2645733,
+      2650282,
+      2669816,
+      2671132,
+      2676809,
+      2689958,
+      2694424,
+      2698257
+    ],
+    "peer_summary_rows": [
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 32885,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 38053,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 45642,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 52130,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 53025,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 57506,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 58873,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 62155,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 70464,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 71361,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 74372,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 77367,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 91265,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 16.0,
+        "observations": 3,
+        "person_id": 94961,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 101781,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 102952,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 104476,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 106247,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 111717,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 114017,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 116692,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 123044,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 127582,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 129955,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 132976,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 134143,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 135400,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 144801,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 146188,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 147756,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 148993,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 151358,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155550,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155854,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 155984,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 168936,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 175991,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 180753,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 183096,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 183947,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 186149,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 187100,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 189879,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 192183,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 202635,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 205350,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 205719,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 228082,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 229179,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 229361,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 235507,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 236284,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 240712,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 240884,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 242793,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 246834,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 248270,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 256815,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 258392,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 258894,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 260355,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 262011,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 262934,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 268073,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 271251,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 277880,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 281250,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 282821,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 286488,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 290201,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 290757,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 291334,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 294570,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 294594,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 295741,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 296332,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 300398,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 302302,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 305152,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 307061,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 307866,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 311917,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 312782,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 318933,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 319047,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 324084,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 324282,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 332789,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 336207,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 341872,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 342972,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 343446,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 345068,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 345357,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 346843,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 350188,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 357668,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 364177,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 365642,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 366483,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 368824,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 368963,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 376439,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 386924,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 388885,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 390890,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 393207,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 404804,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 415969,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 420087,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 441018,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 441888,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 442442,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 444677,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 17.0,
+        "observations": 3,
+        "person_id": 470588,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 494424,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 495284,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 498857,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 544103,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 550383,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 564450,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 568601,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 572652,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 581129,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 606143,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 704156,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 705379,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 749412,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 760729,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 905042,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 949618,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 958987,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 968578,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 969076,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 971027,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1352868,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1414443,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1465690,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1618738,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1620151,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1626710,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1640609,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1758449,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1765788,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1801229,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1801641,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1847830,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1860318,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1889577,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1894188,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1938355,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 1942396,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2011876,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2012966,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2051699,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2062879,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2065691,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2073016,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2080474,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2083877,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2084066,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2104505,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2122180,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2153153,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2155014,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2164705,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2171627,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2197016,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2208424,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2229865,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2268379,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2278464,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2293923,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2312620,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2339528,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2344901,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2358056,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 2.0,
+        "observations": 1,
+        "person_id": 2358969,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2364471,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2367155,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2369266,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2411778,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2437837,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2449878,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2456480,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2460080,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2461190,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2482700,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2518069,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2521459,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2523736,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2529279,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2536991,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2550279,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2551220,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2552472,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2555340,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2559575,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2562034,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2574528,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2586560,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2594139,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2599352,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2613116,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2617002,
+        "value": 0.25
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2620584,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639449,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639540,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2639641,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2641155,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2645733,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2650282,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2669816,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2671132,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2676809,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2689958,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2694424,
+        "value": 0.0
+      },
+      {
+        "eligible_days": 28.0,
+        "observations": 4,
+        "person_id": 2698257,
+        "value": 0.0
+      }
+    ],
+    "people": 218,
+    "provenance": {
+      "aggregation": "Equal weight per eligible person, equal weight per observed week within person; trajectories use same-week peers, including for the early-stage reference.",
+      "config_sha256": "365a428ea8b8a4f3d323229b64fc310c8c1a2fc7c1182c89f3350a742a873c88",
+      "executed_utc": "2026-09-18T23:56:25.111320+00:00",
+      "minimum_peer_people": 20,
+      "request_sha256": "dd33c39e0159f56a5c49b91d102ae6cae20502cd7d81305d97087aa5ffe0910f",
+      "seed": 113364001,
+      "source_bundle_sha256": "8d3191c0bce66772af43d39fccb42778968fad5cadd8047ddefacb255891e8e4"
+    },
+    "question_id": "s6_11",
+    "reference": "course",
+    "reference_label": "AAA_2013J: Other development people in this presentation, excluding all task focal people; reference weeks 8\u201311",
+    "reference_window": [
+      8,
+      11
+    ],
+    "request": {
+      "feature": "nonbanked_submissions",
+      "question_id": "s6_11",
+      "reference": "course",
+      "tool": "analyze",
+      "window": "recent"
+    },
+    "status": "supported",
+    "summary": {
+      "baseline_mean": 0.25,
+      "baseline_observations": 4,
+      "baseline_window": [
+        0,
+        3
+      ],
+      "contrast": -0.06651376146788991,
+      "focal_eligible_days": 9.0,
+      "focal_mean": 0.0,
+      "focal_observations": 2,
+      "peer_ci_high": 0.08142201834862385,
+      "peer_ci_low": 0.051605504587155966,
+      "peer_mean": 0.06651376146788991,
+      "personal_change": -0.25,
+      "personal_status": "supported",
+      "recent_mean": 0.0,
+      "recent_observations": 2,
+      "recent_window": [
+        8,
+        11
+      ]
+    },
+    "trajectory": [
+      {
+        "end_day": 6,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 221,
+        "peer_people": 221,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 0
+      },
+      {
+        "end_day": 13,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.03619909502262444,
+        "peer_ci_low": 0.004524886877828055,
+        "peer_mean": 0.01809954751131222,
+        "peer_observations": 221,
+        "peer_people": 221,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 1
+      },
+      {
+        "end_day": 20,
+        "focal_value": 1.0,
+        "peer_ci_high": 0.8562785388127853,
+        "peer_ci_low": 0.755593607305936,
+        "peer_mean": 0.8082191780821918,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 2
+      },
+      {
+        "end_day": 27,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.1598173515981735,
+        "peer_ci_low": 0.0776255707762557,
+        "peer_mean": 0.1187214611872146,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 3
+      },
+      {
+        "end_day": 34,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.0365296803652968,
+        "peer_ci_low": 0.0045662100456621,
+        "peer_mean": 0.0182648401826484,
+        "peer_observations": 219,
+        "peer_people": 219,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 4
+      },
+      {
+        "end_day": 41,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.022935779816513763,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.009174311926605505,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 5
+      },
+      {
+        "end_day": 48,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.04128440366972477,
+        "peer_ci_low": 0.0045871559633027525,
+        "peer_mean": 0.01834862385321101,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 6
+      },
+      {
+        "end_day": 55,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.7110091743119266,
+        "peer_ci_low": 0.5871559633027523,
+        "peer_mean": 0.6513761467889908,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 7
+      },
+      {
+        "end_day": 62,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.25011467889908245,
+        "peer_ci_low": 0.14678899082568808,
+        "peer_mean": 0.19724770642201836,
+        "peer_observations": 218,
+        "peer_people": 218,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 8
+      },
+      {
+        "end_day": 69,
+        "focal_value": 0.0,
+        "peer_ci_high": 0.08755760368663594,
+        "peer_ci_low": 0.027649769585253458,
+        "peer_mean": 0.055299539170506916,
+        "peer_observations": 217,
+        "peer_people": 217,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 9
+      },
+      {
+        "end_day": 76,
+        "focal_value": null,
+        "peer_ci_high": 0.03225806451612903,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.013824884792626729,
+        "peer_observations": 217,
+        "peer_people": 217,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 10
+      },
+      {
+        "end_day": 83,
+        "focal_value": null,
+        "peer_ci_high": 0.0,
+        "peer_ci_low": 0.0,
+        "peer_mean": 0.0,
+        "peer_observations": 215,
+        "peer_people": 215,
+        "reference": "course",
+        "unit": "non-banked submissions / week",
+        "week": 11
+      }
+    ],
+    "uncertainty": {
+      "label": "95% bootstrap interval for peer mean; not individual prediction uncertainty",
+      "level": 0.95,
+      "method": "person_cluster_percentile_bootstrap",
+      "replicates": 500,
+      "resampling_unit": "person with within-window history kept together",
+      "scope": "Pointwise descriptive intervals; no interval for a focal contrast, personal change or reference difference"
+    },
+    "unit": "non-banked submissions / week",
+    "window": [
+      8,
+      11
+    ]
+  }
+}

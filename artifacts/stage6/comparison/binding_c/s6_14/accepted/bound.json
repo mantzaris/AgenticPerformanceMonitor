@@ -1,0 +1,258 @@
+{
+  "claims": [
+    {
+      "evidence_id": "s2_7bcc2c467ab283bae350",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 0.00; peer mean 7.33; difference -7.33 recorded clicks / eligible day, focal weeks 0\u20131. 1128 distinct peers / 2248 person-weeks; 2 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 0\u20131. Peer mean 95% bootstrap interval [6.78, 7.89]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_bd549d38c3321e5f2d6c",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Focal mean 0.00; peer mean 7.33; difference -7.33 recorded clicks / eligible day, focal weeks 0\u20131. 1128 distinct peers / 2248 person-weeks; 2 observed focal weeks. Reference: BBB_2013B: Presentation peers during the question's earlier baseline window, excluding all task focal people; reference weeks 0\u20131. Peer mean 95% bootstrap interval [6.79, 7.96]; not an individual prediction interval.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_2e7f2ae8095acd0f4a80",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 2\u20133. 1105 distinct peers / 2203 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Other development people in this presentation, excluding all task focal people; reference weeks 2\u20133.",
+      "wording_and_values_origin": "deterministic compiler"
+    },
+    {
+      "evidence_id": "s2_088de928264b29038392",
+      "selection_origin": "method_selected",
+      "template": "comparison",
+      "text": "clicks_per_eligible_day (recorded clicks / eligible day): Insufficient evidence for a focal clicks per eligible day comparison in weeks 2\u20133. 890 distinct peers / 1773 person-weeks; 0 observed focal weeks. Reference: BBB_2013B: Same binary prior-attempt group in this presentation, excluding all task focal people (first_attempt); reference weeks 2\u20133.",
+      "wording_and_values_origin": "deterministic compiler"
+    }
+  ],
+  "compiler_supplied_context": [
+    "Recorded clicks are not effort, ability, learning or study time; logging completeness is unknown.",
+    "Registration approximates opportunity, not actual exposure. The withdrawal day is the first ineligible day.",
+    "Assessment scores and banked credit are withheld: grade-release and banking-approval times are unknown.",
+    "Scheduled assessments are opportunities, not verified individual obligations; exemptions may be unobserved.",
+    "Source interaction rows can repeat; sums preserve all source rows and are not verified unique click events.",
+    "Peer means describe eligible observed person-weeks; changing eligibility and informative withdrawal can change composition.",
+    "Exploratory development analysis only; no causal, significance, anomaly or prediction claim.",
+    "Earlier-stage references answer a different question; they are not automatically fairer or causally adjusted.",
+    "All task focal people are excluded from the shared development peer pool."
+  ],
+  "conclusion": "Descriptive results; no claim that the interpretation changes across references.",
+  "evidence_hashes": {
+    "s2_088de928264b29038392": "e53e214310a1103719018579e13a32d0e174d8a7d4ffd009413b6f9ba806d1ee",
+    "s2_2e7f2ae8095acd0f4a80": "b51c28652ed30950e20d961fb1b30c575e6a4cd668b594a3340f4f51af77a12c",
+    "s2_7bcc2c467ab283bae350": "29c904a96da8b62db901f00b7e1f71aef35bccc27b8325ea1970d4d7591bbfdc",
+    "s2_bd549d38c3321e5f2d6c": "97689d11b425fe1f3447819a5b050a075836037a62df0289ca3646248db54788"
+  },
+  "interface_provenance": {
+    "additional_analyses": 0,
+    "boilerplate": "Standard renderer caveats; not agent investigation",
+    "claims": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          3
+        ],
+        "origin": "method_selected",
+        "reason": null
+      }
+    ],
+    "conclusion": {
+      "evidence_ids": [],
+      "kind": "descriptive",
+      "origin": "compiler_supplied",
+      "reason": "neutral descriptive heading; no substantive cross-reference conclusion inferred",
+      "scope": "selected"
+    },
+    "equivalence_rule": "Exact personal temporal/numerical signature; lexicographically smallest returned ID; no peer meaning in personal identity",
+    "inserted_comparison_or_personal_claims": 0,
+    "interface": "binding_c",
+    "metadata_origin": "compiler_derived_from_explicit_selection_and_validated_evidence",
+    "original_selection": {
+      "answers": [
+        {
+          "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=0:1|reference=course|reference_window=0:1"
+        },
+        {
+          "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=0:1|reference=early_stage|reference_window=0:1"
+        },
+        {
+          "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=2:3|reference=course|reference_window=2:3"
+        },
+        {
+          "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=2:3|reference=same_prior_attempt|reference_window=2:3"
+        }
+      ]
+    },
+    "panels": [
+      {
+        "answer_indices": [
+          0
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          1
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          2
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [
+          3
+        ],
+        "origin": "method_selected",
+        "reason": null
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "common trajectory requirement"
+      },
+      {
+        "answer_indices": [],
+        "origin": "compiler_supplied",
+        "reason": "common observation context"
+      }
+    ],
+    "resolved_bindings": [
+      {
+        "derived_metadata": {
+          "answer_state": "answered",
+          "scope": "peer",
+          "support": "describe"
+        },
+        "equivalent_evidence_ids": [
+          "s2_7bcc2c467ab283bae350"
+        ],
+        "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=0:1|reference=course|reference_window=0:1",
+        "original_selection": {
+          "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=0:1|reference=course|reference_window=0:1"
+        },
+        "resolved_evidence_id": "s2_7bcc2c467ab283bae350"
+      },
+      {
+        "derived_metadata": {
+          "answer_state": "answered",
+          "scope": "peer",
+          "support": "describe"
+        },
+        "equivalent_evidence_ids": [
+          "s2_bd549d38c3321e5f2d6c"
+        ],
+        "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=0:1|reference=early_stage|reference_window=0:1",
+        "original_selection": {
+          "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=0:1|reference=early_stage|reference_window=0:1"
+        },
+        "resolved_evidence_id": "s2_bd549d38c3321e5f2d6c"
+      },
+      {
+        "derived_metadata": {
+          "answer_state": "supported_insufficiency",
+          "scope": "peer",
+          "support": "insufficient_evidence"
+        },
+        "equivalent_evidence_ids": [
+          "s2_2e7f2ae8095acd0f4a80"
+        ],
+        "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=2:3|reference=course|reference_window=2:3",
+        "original_selection": {
+          "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=2:3|reference=course|reference_window=2:3"
+        },
+        "resolved_evidence_id": "s2_2e7f2ae8095acd0f4a80"
+      },
+      {
+        "derived_metadata": {
+          "answer_state": "supported_insufficiency",
+          "scope": "peer",
+          "support": "insufficient_evidence"
+        },
+        "equivalent_evidence_ids": [
+          "s2_088de928264b29038392"
+        ],
+        "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=2:3|reference=same_prior_attempt|reference_window=2:3",
+        "original_selection": {
+          "identity": "peer_comparison|person=542602|course=BBB_2013B|cutoff=27|feature=clicks_per_eligible_day|focal=2:3|reference=same_prior_attempt|reference_window=2:3"
+        },
+        "resolved_evidence_id": "s2_088de928264b29038392"
+      }
+    ],
+    "semantic_answer": {
+      "answers": [
+        {
+          "evidence_id": "s2_7bcc2c467ab283bae350",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_bd549d38c3321e5f2d6c",
+          "kind": "peer_comparison",
+          "support": "describe"
+        },
+        {
+          "evidence_id": "s2_2e7f2ae8095acd0f4a80",
+          "kind": "peer_comparison",
+          "support": "insufficient_evidence"
+        },
+        {
+          "evidence_id": "s2_088de928264b29038392",
+          "kind": "peer_comparison",
+          "support": "insufficient_evidence"
+        }
+      ],
+      "conclusion": {
+        "evidence_ids": [],
+        "kind": "descriptive",
+        "scope": "selected"
+      }
+    }
+  },
+  "numeric_values_origin": "analytical results only; model schema accepts no arbitrary numbers/text",
+  "parent": null,
+  "profile": {
+    "baseline": [
+      0,
+      1
+    ],
+    "cutoff_day": 27,
+    "recent": [
+      2,
+      3
+    ]
+  },
+  "selection_origin": "agent original",
+  "validation": "PASS",
+  "validator": "independent row-wise/source-bound numerical verification"
+}
