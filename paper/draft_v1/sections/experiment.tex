@@ -1,0 +1,33 @@
+\section{\uppercase{Experiment}}
+\label{sec:experiment}
+\noindent Four conditions answer the same questions for 24 new development people, four per known family. Earlier development established the backend, generic policy, compiler, and evaluator; its focal people are excluded. Those earlier results motivate the ablation but are not pooled as confirmation evidence.\draftassist
+
+\subsection{Cases and Shared Information}
+Six families cover personal change with peers; comparisons across named references; observation availability; separate personal/recent-peer insufficiency; submission and scheduled non-submission means with assessment/grade context; and alternate earlier/recent windows. Reference questions do not automatically require personal change or a changed conclusion.
+
+The frozen profiles use earlier/recent week pairs 0--3/8--11 at day~83, 0--3/4--7 at day~55, 0--1/2--3 at day~27, 0--3/10--11 at day~83, and 2--5/6--9 at day~69. Each question names the requested measure, windows, and cutoff. Candidate selection uses administrative eligibility and prior-attempt status where relevant. In particular, the insufficient-support family requires fewer than two recent eligible weeks and at least one earlier eligible week. It is not selected by searching for model failures or extreme activity.
+
+Each structural slot selects the unused eligible person minimizing SHA256(seed, case, person), with seed \texttt{stage6-structural-v1-20260918}. All 57 previous and 24 new focal people are excluded from the shared reference pool across registrations. All cases are real observations. Separate row-loop calculations checked 52 fact records; this is an independent calculation path, not human review.
+
+Conditions share public questions, family labels, definitions, references, windows, and interpretation rules. Hidden facts serve scoring and offline diagnosis only. Tasks, prompts, code, schemas, sources, settings, scoring, and order were frozen before inference, without post-freeze tuning or reruns until success.
+
+\subsection{Conditions and Ablation}
+\textbf{Enumeration} applies rules to the public task/reference registry, enumerating admissible references for relevant features and adding assessment measures where required. It shares the backend, validator, renderer, and six-call ceiling. Routing by public family makes it a strong registry baseline, not an unrestricted language interpreter.
+
+\textbf{A: compact} selects answer kinds and returned identifiers, with model-authored support and scoped conclusion; its existing compiler builds the layout. \textbf{B: derived metadata} retains kind/identifier selection but derives support/scope, uses a neutral heading, and adds a mechanical catalogue of returned answers. B versus A tests this package, not metadata deletion alone.
+
+\textbf{C: explicit binding} selects exact handles using B's metadata behavior and identical catalogue. C versus B tests identity representation under equivalent information; C versus A tests the entire intervention. All agents share the generic policy, and none receives hidden requirements or automatic missing comparisons. Valid irrelevant selections remain possible.
+
+\subsection{Model, Budgets and Ordering}
+All agents use Qwen2.5-14B-Instruct \cite{qwenReport,qwenCheckpoint}, pinned to revision \texttt{cf98f3b3bbb457ad9e2bb}\allowbreak\texttt{7baf9a0125b6b88caa8}. The Transformers 4.55.2 backend uses the checkpoint's tokenizer and chat template, Torch 2.8.0+cu128, CUDA~12.8, BF16, and scaled dot-product attention. All parameters, inputs, and generated outputs resided on one RTX~6000 Ada GPU; there was no quantization or CPU offload. Process residency, per-generation device timing, and CUDA profiling substantiate GPU execution, rather than a CUDA-availability check alone.
+
+Greedy decoding permits 16,000 input and 1,500 output tokens. Episodes allow six analytical calls, four generations, and one final repair using integrity errors and existing evidence, never completeness feedback. Invalid actions, failed specifications, and repairs are retained. There is no constrained decoding, training, or fallback success.
+
+Enumeration ran on the same host's CPU. Six A/B/C permutations repeat four times, balancing positions and pair order. One model load served 72 agent episodes; all 96 method/case slots were attempted once. Timing is descriptive, and greedy decoding does not measure stochastic repeatability.
+
+\subsection{Endpoints and Their Limits}
+An \emph{accepted output} passes schema, support/scope, evidence, numerical, and rendering checks. First-final validity excludes later repairs but allows prior tool errors. \emph{Complete visible answers} require acceptance and every requested answer under the frozen evaluator. Required context is separately tracked and present for all visibly complete cases; optional panels earn no automatic answer credit.
+
+\emph{Completeness through method selections} uses the same predicates after projecting out compiler-only claims, panels, and boilerplate. Selections are deterministic for enumeration and model choices for agents; neither means model-calculated numbers. Insufficiency must match the feature, window, and comparison, without excusing other omissions.
+
+Paired complete valid visible answers are primary; selected completeness, validity, costs, and failures are secondary. All slots remain in denominators. An offline oracle-assisted retrieved-evidence upper bound uses hidden requirements only for diagnosis. No significance tests are added. The prespecified gate was 22/24 visibly complete, zero accepted unsupported quantities, and both answers on all four insufficiency cases; it is not a conference acceptance criterion.

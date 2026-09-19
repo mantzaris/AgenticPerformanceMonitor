@@ -1,0 +1,43 @@
+\section{\uppercase{Data and Analytical Definitions}}
+\label{sec:data}
+\noindent We use the Open University Learning Analytics Dataset (OULAD), which links course offerings, registrations, assessments, and virtual learning environment interactions \cite{oulad}. The creator-deposited UCI archive is distributed under CC BY~4.0 \cite{ouladDataset}. An audit of the retrieved archive counted 28,785 distinct people, 32,593 person--course-offering registrations, 173,912 assessment records, and 10,655,280 interaction rows. These are different units: a person can register more than once. The audit checked duplicate keys and many-to-one joins and aggregated interaction and assessment streams before combining weekly features.\draftassist
+
+\subsection{Development Population and Time}
+The offerings AAA\_2013J and BBB\_2013B were selected lexically from different modules, requiring 100 development people with eight fully eligible weeks and two dated non-examination assessments by day~83. Their 254 and 1,269 development registrations contained 1,523 distinct people. Selection used structure rather than activity magnitude.
+
+A person-identifier hash assigned approximately 70\% to development, grouping all registrations together; 8,583 people were reserved. A global structural audit preceded preparation, but reserved observations were not used for analytical case selection, fitting, prompt development, or this comparison. This is a development study.
+
+The unit is a person--offering--week. Day~0 is the offering's start; week~$w$ covers $7w$ through $7w+6$. Only complete weeks ending by the cutoff are available. Registration starts eligibility; withdrawal is the first ineligible day. Future withdrawal is masked, and unknown registration gives unknown eligibility. These are retrospective availability rules, not a validated real-time feed.
+
+\subsection{Recorded Measures and Availability}
+For person $i$ in week $w$, let $d_{iw}$ be the number of administratively eligible days and $c_{iw}$ the sum of recorded clicks on those days. Recorded click rate is
+\begin{equation}
+x_{iw}=c_{iw}/d_{iw},\qquad d_{iw}>0.
+\label{eq:rate}
+\end{equation}
+It is unavailable without eligible days or known eligibility. An eligible week without recorded clicks is zero. Logging completeness remains unknown: absent clicks prove neither logging failure nor lack of effort. Clicks do not measure ability, study time, or learning.
+
+The small feature registry also includes days with positive recorded activity, distinct recorded resources, non-banked submissions, and scheduled assessments without a recorded submission. These are weekly counts. A non-banked submission is counted in its recorded submission week within eligibility and the cutoff. The scheduled measure counts dated non-examination assessments due in an eligible part of the week without a non-banked submission recorded by that week's end. It is a record-based opportunity measure, not a verified failure to meet an individual obligation: exemptions are not established. A later submission does not rewrite an earlier dated status snapshot.
+
+Scores are withheld because submission dates do not establish grade release. Banked assessments transferred from an earlier offering are excluded from prospective counts; banking-approval availability is unknown. Grade unavailability is a measurement limitation, not sample-size insufficiency. Future activity, final results, and future withdrawal are absent from agent-visible inputs. All conditions share these rules.
+
+Primary analysis sums repeated source rows. The audit found 787,170 exact duplicate excess rows and 2,195,960 excess rows under a candidate person--offering--site--day key, which is not asserted to identify unique events. An earlier bounded exact-row-removal sensitivity check does not establish robustness for all present cases. This data interpretation remains unresolved.
+
+\subsection{Estimands, References and Support}
+Let $O_i(W)$ contain eligible, nonmissing weeks for a feature in window $W$. The person's window mean, unavailable if this set is empty, is
+\begin{equation}
+m_i(W)=\frac{1}{|O_i(W)|}\sum_{w\in O_i(W)}x_{iw}.
+\label{eq:person}
+\end{equation}
+Weeks receive equal weight, including partial weeks after rate calculation. This is not pooled clicks per eligible day. Personal change $\Delta_i=m_i(W_r)-m_i(W_b)$ requires at least two observed weeks in both recent and earlier windows.
+
+For a reference definition $g$ and reference window $W_g$, let $P_g$ contain eligible reference people with at least one nonmissing week. The peer mean and descriptive contrast are
+\begin{align}
+\mu_g(W_g)&=\frac{1}{|P_g|}\sum_{j\in P_g}m_j(W_g),\\
+D_{i,g}&=m_i(W_r)-\mu_g(W_g).
+\end{align}
+People receive equal weight. Contrasts require 20 peers and two focal weeks; raw means can exist without contrast support. These are prototype thresholds, not validated educational decision rules.
+
+The registry offers three reference families: other development students in the same offering; those additionally sharing first-attempt versus repeat-attempt status; and same-offering peers measured in the earlier window. The focal person and all designated development-task focal people are excluded across registrations. The earlier-period comparison changes time, and eligible membership can also change. It is not automatically fairer, causally adjusted, or matched on actual exposure. Unequal observed histories and changing composition remain part of these descriptive estimands. Weekly reference trajectories always use same-week eligible peers, including when a separate window summary uses an earlier reference period.
+
+Peer-mean uncertainty uses 500 seeded nonparametric bootstrap resamples of people with replacement, retaining each person's within-window mean, and the 2.5th and 97.5th percentiles \cite{efron}. Weekly bands use separate same-week resampling and are pointwise, not simultaneous. Fewer than two peers gives no interval. These intervals concern a peer mean under the specified resampling procedure; they are not individual prediction intervals or intervals for personal change, $D_{i,g}$, or differences between reference definitions. The latter quantities have no estimated uncertainty here. Deterministic seeds support replay, not inferential generalization beyond these selected offerings. The dashboards use this descriptive backend only; a separate exploratory mixed-model artifact is not a validated detector and contributes no dashboard claim.

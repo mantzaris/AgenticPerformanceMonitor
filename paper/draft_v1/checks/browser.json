@@ -1,0 +1,154 @@
+{
+  "browser_flags": [
+    "--no-sandbox",
+    "--disable-gpu"
+  ],
+  "page_viewport": {
+    "width": 850,
+    "height": 1200
+  },
+  "page_device_scale_factor": 1,
+  "pdf_sha256": "0065edd8e58fab37675156f02e7a9daee64caf62321cd793dc904b25ac8143a8",
+  "pages": [
+    {
+      "page": 1,
+      "image": "checks/pages/page_96dpi-01.png",
+      "sha256": "f2cdc2152af16e5fd41848b493eeaf7e79f79966508511d9e2c21fd2318c2ed9",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 2,
+      "image": "checks/pages/page_96dpi-02.png",
+      "sha256": "79bb2a248d45a4f7f038fda242ad5431c6afcdd9aa429e1508ff9a7596aac99d",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 3,
+      "image": "checks/pages/page_96dpi-03.png",
+      "sha256": "48a52360d82fbe76e547a48813143890eeb4b8bbb9034311d40b1edbb93b9e35",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 4,
+      "image": "checks/pages/page_96dpi-04.png",
+      "sha256": "95320a46d2755dd24998eb9c979b07d2cab324853923fcca6f3742084933844b",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 5,
+      "image": "checks/pages/page_96dpi-05.png",
+      "sha256": "e30a605595362de049c84c1538184d24691283470b6f348b7ac8be688da08096",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 6,
+      "image": "checks/pages/page_96dpi-06.png",
+      "sha256": "a475b6dda0bbbc9fed28c4f88e9ae646e3794f508c13dd74250c1254be98e45f",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 7,
+      "image": "checks/pages/page_96dpi-07.png",
+      "sha256": "1888711d406199f70ceb6053f169316a732ce1e21625a71eaec774089a996b34",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 8,
+      "image": "checks/pages/page_96dpi-08.png",
+      "sha256": "67b1d1d077cd604a8c34992193cab16fb1319b6f95d050174e12c8af209fa914",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 9,
+      "image": "checks/pages/page_96dpi-09.png",
+      "sha256": "c470d4660ee1b92d0d987e6b57c8cc2bdfe51d6e3d207d576c2b086fc138c523",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 10,
+      "image": "checks/pages/page_96dpi-10.png",
+      "sha256": "f56e56d15b6c832365a81eec0cc0ea7e7092f3676b5a9d2af5b5ee2b869984f6",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 11,
+      "image": "checks/pages/page_96dpi-11.png",
+      "sha256": "0ee85da8f806d5b053cf205327df1ac0c69a855c72c815e301d0c001f6be23ba",
+      "loaded_in_browser": true
+    },
+    {
+      "page": 12,
+      "image": "checks/pages/page_96dpi-12.png",
+      "sha256": "c5ca765a300a176a91ae0de6b8ba849468d850877ddee4589a0bd650196c349e",
+      "loaded_in_browser": true
+    }
+  ],
+  "errors": [],
+  "external_requests": [],
+  "raster_panel_text": [
+    {
+      "capture_name": "personal",
+      "source": "artifacts/predraft_v1/gallery/personal/figure.html",
+      "source_sha256": "5c5aac406598c32245c47c3070978fb102bfa83f045c4cf6b6fa9a423ac94cae",
+      "selector": ".figure-surface",
+      "action": null,
+      "text": "Case A \u00b7 saved development case How did my click rate change? Earlier weeks 0\u20133 Recent weeks 8\u201311 \u00b7 through day 83 Personal change 14.07 \u2192 3.54 \u221210.54 recorded clicks / eligible day 4 earlier / 4 recent observed weeks. Difference calculated before rounding. recorded clicks / eligible day Earlier Recent 0 20 40 0 1 2 3 4 5 6 7 8 9 10 11 Week since course offering began \u25cf Person \u2501 Same-week peers Presentation peers Person weeks 8\u201311; reference weeks 8\u201311. Person 3.54 \u00b7 peer 4.22 Difference  \u22120.68  recorded clicks / eligible day Peer mean 95% CI [3.45, 4.98]. 218 peers / 867 person-weeks. Clicks are not effort or learning. Shading: 95% peer-mean CI. Uncertainty for the change was not estimated. Qwen2.5-14B \u00b7 compact A Saved selections \u00b7 deterministic values",
+      "nonwhitespace_characters": 630
+    },
+    {
+      "capture_name": "reference-course",
+      "source": "artifacts/predraft_v1/gallery/references/figure.html",
+      "source_sha256": "b44061e56fcccc722cd71da7c0acb037fc82c3fa452ba69eb10ffa2e2db261c2",
+      "selector": ".switch-excerpt",
+      "action": {
+        "event": "select_option",
+        "selector": "#reference-select",
+        "value": "s2_c7a142ff4621aa246c1d"
+      },
+      "text": "View saved analysis 0 4 8 recorded clicks / eligible day \u25cf Person \u25a0 Peer mean + 95% CI Person weeks 8\u201311 Reference weeks 8\u201311 Person  3.50  \u00b7 peer  3.46 Difference  +0.04 Peer mean 95% CI [3.08, 3.88]. 1,024 peers / 4,028 person-weeks. Evidence  \u2197 Recent presentation peers",
+      "nonwhitespace_characters": 221
+    },
+    {
+      "capture_name": "reference-early_stage",
+      "source": "artifacts/predraft_v1/gallery/references/figure.html",
+      "source_sha256": "b44061e56fcccc722cd71da7c0acb037fc82c3fa452ba69eb10ffa2e2db261c2",
+      "selector": ".switch-excerpt",
+      "action": {
+        "event": "select_option",
+        "selector": "#reference-select",
+        "value": "s2_ea133cfd118a844e9a9d"
+      },
+      "text": "View saved analysis 0 4 8 recorded clicks / eligible day \u25cf Person \u25a0 Peer mean + 95% CI Person weeks 8\u201311 Reference weeks 0\u20133 Person  3.50  \u00b7 peer  6.98 Difference  \u22123.48 Peer mean 95% CI [6.50, 7.58]. 1,128 peers / 4,451 person-weeks. Evidence  \u2197 Presentation peers \u00b7 earlier period",
+      "nonwhitespace_characters": 228
+    },
+    {
+      "capture_name": "observations",
+      "source": "artifacts/predraft_v1/gallery/observations/figure.html",
+      "source_sha256": "c375219061e31a64f1d3c3b2457adcc181fb15c4140cb82393ca54ebca2fce4c",
+      "selector": ".figure-surface",
+      "action": null,
+      "text": "Case C \u00b7 saved development case What is available during these recent weeks? Earlier weeks 0\u20133 Recent weeks 4\u20137 \u00b7 through day 55 0 observed recent weeks Selected peer comparisons have insufficient support. Original compiler: observation timeline Week / click-record state 0 0 1 0 2 0 3 0 4 \u00d7 5 \u00d7 6 \u00d7 7 \u00d7 Earlier 0\u20133 Recent 4\u20137 0 Recorded zero \u00d7 Ineligible \u25cf Recorded clicks ? Unknown Clicks / eligible day Unavailable Non-banked submissions / week Unavailable Scheduled non-submissions / week Unavailable Presentation peers, weeks 4\u20137: 1,065 people / 4,207 person-weeks. Unavailable is not zero. Eligibility is administrative; logging completeness is unknown. Grades unavailable: release times unknown (original compiler context). Qwen2.5-14B \u00b7 compact A Saved selections \u00b7 deterministic values",
+      "nonwhitespace_characters": 672
+    },
+    {
+      "capture_name": "incomplete-answers",
+      "source": "artifacts/predraft_v1/gallery/incomplete/figure.html",
+      "source_sha256": "dba1e6e4bfc8056869a1a3757457f839bde8608e241f05a34db7805818b08b3c",
+      "selector": ".excerpt-content",
+      "action": null,
+      "text": "Personal comparison unavailable Earlier weeks 0\u20133: 4 observed weeks. Recent weeks 10\u201311: 0 observed weeks. recorded clicks / eligible day Presentation peers Person weeks 0\u20133; reference weeks 0\u20133. Person 0.32 \u00b7 peer 6.98 \u00b7 \u0394 \u22126.66. Peer mean 95% CI [6.45, 7.59]. 1,128 peers / 4,451 person-weeks. Presentation peers \u00b7 earlier period Person weeks 0\u20133; reference weeks 0\u20133. Person 0.32 \u00b7 peer 6.98 \u00b7 \u0394 \u22126.66. Peer mean 95% CI [6.46, 7.52]. 1,128 peers / 4,451 person-weeks.",
+      "nonwhitespace_characters": 394
+    },
+    {
+      "capture_name": "baseline-answers",
+      "source": "artifacts/predraft_v1/gallery/baseline/figure.html",
+      "source_sha256": "4bbe31c1ce2bb06c5616cf5a2ed8b29876ccfd02b040f1d21b1e1c3257503c48",
+      "selector": ".excerpt-content",
+      "action": null,
+      "text": "Personal comparison unavailable Earlier weeks 0\u20133: 4 observed weeks. Recent weeks 10\u201311: 0 observed weeks. recorded clicks / eligible day Presentation peers Person weeks 10\u201311; reference weeks 10\u201311. Peer comparison unavailable 0 observed focal weeks. 1,001 peers / 1,997 person-weeks.",
+      "nonwhitespace_characters": 246
+    }
+  ],
+  "browser": "153.0.8010.36",
+  "browser_closed": true
+}

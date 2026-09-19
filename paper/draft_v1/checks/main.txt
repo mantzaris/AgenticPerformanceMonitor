@@ -1,0 +1,604 @@
+    Evidence-Grounded Agentic Dashboards: Numerical Validity, Answer
+                Completeness, and Adaptive Presentation
+
+
+
+
+Keywords:       Analytical Agents, Longitudinal Data, Evidence Provenance, Answer Completeness, Adaptive Dashboards.
+
+Abstract:       Longitudinal dashboards must distinguish changes in a person’s recorded activity from differences due to the
+                comparison population, time window, or availability of observations. We study a division of responsibilities in
+                which an agent requests analyses and selects answers, deterministic tools calculate descriptive quantities, and
+                validated evidence drives a controlled compiler and adaptive presentation. A frozen development comparison
+                uses 24 people from two Open University course offerings, six question families, deterministic enumeration,
+                and three Qwen2.5-14B-Instruct selection interfaces. The interfaces retain authored support metadata, derive
+                that metadata, or additionally require explicit analytical identities. Enumeration produced 24/24 complete vis-
+                ible answers; the agent interfaces produced 21/24, 15/24, and 15/24, respectively. Completeness attributable to
+                model selections was 18/24, 14/24, and 11/24. Explicit identity selection did not improve the frozen endpoint.
+                Accepted outputs could contain correct numbers yet omit the requested comparison. Four derived-metadata
+                outputs expose an unresolved equivalent-answer scoring limitation; human adjudication and held-out evalu-
+                ation remain pending. New renderings of saved cases illustrate adaptive presentation without establishing a
+                usability benefit. The findings support separate accounting for numerical integrity, requested-answer coverage,
+                and compiler contributions within a bounded task registry. Writing assistance is disclosed (OpenAI, 2026).
+
+
+
+1    INTRODUCTION                                                 quantities; validation checks evidence; and a com-
+                                                                  piler constructs claims and panels. A later presen-
+A longitudinal question such as “Has my activity                  tation layer adapts saved content to personal change,
+changed, and am I different from my peers?” con-                  reference comparisons, limited observations, and as-
+tains several analytical choices. Activity must be op-            sessment records. This bounded application permits
+erationalized; earlier and recent periods must be de-             studying selection failures without delegating arith-
+fined; peers must be identified; and eligibility and              metic or unrestricted frontend code to the model.
+measurement availability must be checked. The same                    The empirical focus is a controlled comparison of
+recorded value may be close to a contemporary course              three selection interfaces using the same checkpoint
+mean yet below that course’s earlier mean. An absent              and analytical backend. A compact interface is com-
+recent value may indicate administrative ineligibility,           pared with derived support/scope metadata and with
+while an eligible week with no recorded clicks is a               additional explicit analytical identity. The hypothesis
+recorded zero. A dashboard that obscures these dis-               is that making feature, windows, reference, and peer-
+tinctions can mislead even when its displayed arith-              versus-personal meaning explicit reduces incomplete-
+metic is correct.1                                                ness. Deterministic enumeration answers the same
+    Retrieving a useful result, selecting the intended            task families.
+comparison, and displaying all requested answers are                  Three research questions guide the study. First,
+different accomplishments. A source-bound valida-                 does explicit answer identity improve complete valid
+tor can verify a returned result without establishing             visible answers under fixed tool and inference bud-
+that it answers the requested window. A compiler can              gets? Second, how do conclusions change when com-
+supply essential context that the agent did not select.           pleteness attributable to method selections is sepa-
+Evaluating only rendering success or agreement with               rated from completeness supplied by compiler con-
+source numbers would conflate these responsibilities.             text? Third, what do saved failures reveal about the
+    We investigate this distinction in educational lon-           distinction between retrieving evidence, binding it
+gitudinal dashboards. A model selects predefined                  correctly, and answering the question?
+analyses and answers; deterministic tools calculate                   The contribution is an implemented responsibil-
+                                                                  ity separation, a paired development ablation, and an
+    1 Writing assistance: OpenAI Codex (OpenAI, 2026);            analysis of completeness failures and evaluation am-
+see Section 9.
+biguities. The negative result is informative: valid      faction of chart and data requirements, and readabil-
+bindings do not prevent irrelevant selection, and ac-     ity; its annotation design allows multiple acceptable
+ceptance need not imply coverage. Documented              charts rather than exact matching to one representa-
+equivalent-answer forms require human adjudication.       tion (Chen et al., 2024). This is particularly relevant
+The findings do not establish agent superiority, unre-    to our unresolved scoring issue: correct requested
+stricted understanding, or a usability gain.              means can appear in a supported claim type that a
+                                                          frozen predicate does not recognize. Our contribution
+                                                          is not the general observation that visualization qual-
+2    RELATED WORK                                         ity is multidimensional. It is an artifact-grounded ex-
+                                                          amination of numerical validity, longitudinal answer
+Natural-language visualization already separates in-      coverage, and compiler attribution in a tightly con-
+terpretation from graphical specification. NL4DV          trolled task setting. Unlike VisEval’s broader bench-
+maps data and queries to attributes, analytical tasks,    mark, the present comparison is small, developmen-
+and Vega-Lite specifications (Narechania et al.,          tal, and has no completed independent human adjudi-
+2021). NL4DV-LLM adds prompting with ambiguity            cation.
+handling and conversation (Sah et al., 2024); its er-          W3C PROV-DM describes entities, activities,
+ror analysis includes missing tasks and misleading at-    agents, and derivations (Moreau and Missier, 2013).
+tribute bindings. Neither structured representation nor   Our distinction among evidence, selections, compiler
+the existence of omissions is a novelty claim here.2      additions, and later rendering applies these principles
+    LLM-based visualization systems vary in what          without claiming PROV conformance. It enables sep-
+they delegate. LIDA combines data summarization,          arate accounting for selected answers and supplied
+goal exploration, generation and evaluation of vi-        context. The contribution concerns responsibility and
+sualization code, and infographic generation (Dibia,      completeness, not the introduction of tool use, struc-
+2023). Data Formulator 2 combines graphical and           tured output, or provenance.
+natural-language inputs, generates data transforma-
+tions, and preserves branches of an iterative author-
+ing history (Wang et al., 2025). These systems es-        3     DATA AND ANALYTICAL
+tablish broader authoring and interaction capabilities          DEFINITIONS
+than the fixed analyses used here. Our model neither
+writes analysis programs nor designs arbitrary lay-       We use the Open University Learning Analytics
+outs. The question is reliability of answer selection     Dataset (OULAD), which links course offerings, reg-
+when computation and rendering are controlled. The        istrations, assessments, and virtual learning envi-
+saved-reference selector only reads existing results.     ronment interactions (Kuzilek et al., 2017). The
+    InsightBench evaluates multi-step analytical          creator-deposited UCI archive is distributed under CC
+agents that formulate questions, analyze answers, and     BY 4.0 (Kuzilek et al., 2015). An audit of the re-
+summarize insights using datasets with planted pat-       trieved archive counted 28,785 distinct people, 32,593
+terns (Sahu et al., 2025). Our comparison addresses       person–course-offering registrations, 173,912 assess-
+explicit longitudinal questions on unmodified obser-      ment records, and 10,655,280 interaction rows. These
+vations and tracks which requested answers reach the      are different units: a person can register more than
+dashboard. It does not evaluate open-ended insight        once. The audit checked duplicate keys and many-to-
+discovery or its broader analytical capabilities.         one joins and aggregated interaction and assessment
+    Vega-Lite defines concise visual encodings and in-    streams before combining weekly features.3
+teractions that compile into lower-level specifications
+(Satyanarayan et al., 2017). Draco expresses visual-
+ization design knowledge as hard and soft constraints     3.1    Development Population and Time
+(Moritz et al., 2019). Our fixed contracts apply es-
+tablished ideas about constrained representations, not    The offerings AAA_2013J and BBB_2013B were
+a new visualization grammar or solver. The issue is       selected lexically from different modules, requiring
+whether the model selects the intended analytical an-     100 development people with eight fully eligible
+swer before a valid display is constructed.               weeks and two dated non-examination assessments by
+    Evaluation must also extend beyond syntactic suc-     day 83. Their 254 and 1,269 development registra-
+cess. VisEval distinguishes executable validity, satis-   tions contained 1,523 distinct people. Selection used
+    2 Writing assistance: OpenAI Codex (OpenAI, 2026);        3 Writing assistance: OpenAI Codex (OpenAI, 2026);
+see Section 9.                                            see Section 9.
+structure rather than activity magnitude.                   2,195,960 excess rows under a candidate person–
+     A person-identifier hash assigned approximately        offering–site–day key, which is not asserted to iden-
+70% to development, grouping all registrations to-          tify unique events. An earlier bounded exact-row-
+gether; 8,583 people were reserved. A global struc-         removal sensitivity check does not establish robust-
+tural audit preceded preparation, but reserved obser-       ness for all present cases. This data interpretation re-
+vations were not used for analytical case selection, fit-   mains unresolved.
+ting, prompt development, or this comparison. This is
+a development study.                                        3.3    Estimands, References and Support
+     The unit is a person–offering–week. Day 0 is the
+offering’s start; week w covers 7w through 7w + 6.          Let Oi (W ) contain eligible, nonmissing weeks for a
+Only complete weeks ending by the cutoff are avail-         feature in window W . The person’s window mean,
+able. Registration starts eligibility; withdrawal is the    unavailable if this set is empty, is
+first ineligible day. Future withdrawal is masked,
+and unknown registration gives unknown eligibility.                                     1
+                                                                        mi (W ) =               ∑ xiw .         (2)
+These are retrospective availability rules, not a vali-                             |Oi (W )| w∈O (W )
+                                                                                                     i
+dated real-time feed.
+                                                            Weeks receive equal weight, including partial weeks
+                                                            after rate calculation. This is not pooled clicks per
+3.2    Recorded Measures and Availability                   eligible day. Personal change ∆i = mi (Wr ) − mi (Wb )
+                                                            requires at least two observed weeks in both recent
+For person i in week w, let diw be the number of
+                                                            and earlier windows.
+administratively eligible days and ciw the sum of
+                                                                For a reference definition g and reference window
+recorded clicks on those days. Recorded click rate
+                                                            Wg , let Pg contain eligible reference people with at
+is
+                                                            least one nonmissing week. The peer mean and de-
+             xiw = ciw /diw ,  diw > 0.        (1)
+                                                            scriptive contrast are
+It is unavailable without eligible days or known eli-
+gibility. An eligible week without recorded clicks is                                  1
+                                                                         µg (Wg ) =           ∑ m j (Wg ),      (3)
+zero. Logging completeness remains unknown: ab-                                       |Pg |   j∈Pg
+sent clicks prove neither logging failure nor lack of
+                                                                            Di,g = mi (Wr ) − µg (Wg ).         (4)
+effort. Clicks do not measure ability, study time, or
+learning.                                                   People receive equal weight. Contrasts require 20
+     The small feature registry also includes days with     peers and two focal weeks; raw means can exist with-
+positive recorded activity, distinct recorded resources,    out contrast support. These are prototype thresholds,
+non-banked submissions, and scheduled assessments           not validated educational decision rules.
+without a recorded submission. These are weekly                 The registry offers three reference families: other
+counts. A non-banked submission is counted in its           development students in the same offering; those ad-
+recorded submission week within eligibility and the         ditionally sharing first-attempt versus repeat-attempt
+cutoff. The scheduled measure counts dated non-             status; and same-offering peers measured in the ear-
+examination assessments due in an eligible part of the      lier window. The focal person and all designated
+week without a non-banked submission recorded by            development-task focal people are excluded across
+that week’s end. It is a record-based opportunity mea-      registrations. The earlier-period comparison changes
+sure, not a verified failure to meet an individual obli-    time, and eligible membership can also change. It is
+gation: exemptions are not established. A later sub-        not automatically fairer, causally adjusted, or matched
+mission does not rewrite an earlier dated status snap-      on actual exposure. Unequal observed histories and
+shot.                                                       changing composition remain part of these descriptive
+     Scores are withheld because submission dates do        estimands. Weekly reference trajectories always use
+not establish grade release. Banked assessments             same-week eligible peers, including when a separate
+transferred from an earlier offering are excluded from      window summary uses an earlier reference period.
+prospective counts; banking-approval availability is            Peer-mean uncertainty uses 500 seeded nonpara-
+unknown. Grade unavailability is a measurement lim-         metric bootstrap resamples of people with replace-
+itation, not sample-size insufficiency. Future activity,    ment, retaining each person’s within-window mean,
+final results, and future withdrawal are absent from        and the 2.5th and 97.5th percentiles (Efron, 1979).
+agent-visible inputs. All conditions share these rules.     Weekly bands use separate same-week resampling
+     Primary analysis sums repeated source rows. The        and are pointwise, not simultaneous. Fewer than two
+audit found 787,170 exact duplicate excess rows and         peers gives no interval. These intervals concern a peer
+mean under the specified resampling procedure; they          Resolution chooses a stable returned identifier and re-
+are not individual prediction intervals or intervals for     tains aliases; it creates no peer answer.
+personal change, Di,g , or differences between refer-            Validation reconstructs expectations from the
+ence definitions. The latter quantities have no esti-        trusted development bundle, checking summaries,
+mated uncertainty here. Deterministic seeds support          trajectories, counts, interval endpoints, units, refer-
+replay, not inferential generalization beyond these se-      ences, windows, eligibility, and cutoff. A recom-
+lected offerings. The dashboards use this descriptive        puted content hash cannot legitimize mutated values.
+backend only; a separate exploratory mixed-model ar-         Numerical text binds to validated fields; unsupported
+tifact is not a validated detector and contributes no        scope or identifiers fail despite valid JSON. This es-
+dashboard claim.                                             tablishes fidelity to the implementation, not scientific
+                                                             adequacy or question completeness.
+
+4     SYSTEM AND                                             4.2    Compiler and Provenance
+      RESPONSIBILITY                                         The vocabulary comprises peer comparison, personal
+      BOUNDARIES                                             change, assessment status, observation status, and
+                                                             measurement limitation. Peer selections produce
+Figure 1 traces the system. Public context supplies          comparison claims/panels; personal selections pro-
+the person, offering, cutoff, windows, task family,          duce personal claims/trajectories. Support rules yield
+question, and shared feature/reference definitions. A        descriptive or scoped-insufficiency wording. Un-
+typed interface permits analytical batches, inspection       known grades remain unavailable measurements.
+of compact results, and subsequent requests or final-            The common contract supplies required trajecto-
+ization. Hidden evaluator requirements never enter           ries, observation/assessment context, and qualifica-
+model context, and generated analysis code is not ex-        tions, but no missing comparison or personal claim.
+ecuted.4                                                     Supplied timelines or grade limitations can neverthe-
+                                                             less answer a requested item. Provenance separates
+4.1    Evidence, Binding and Validation                      selections, resolutions, metadata, and compiler addi-
+                                                             tions. Every number is calculated and inserted deter-
+Evidence records retain features, units, fo-                 ministically: “model-selected” means chosen content,
+cal/reference windows, counts, estimates, sup-               never model-authored arithmetic.
+port, observation/assessment states, uncertainty,
+source/configuration hashes, seeds, and execution            4.3    Adaptive Presentation of Saved
+metadata. Model context omits raw rows; full
+evidence remains available for inspection.
+                                                                    Answers
+    A peer answer has analytical identity
+                                                             Publication views postdate the experiment and reor-
+                Ipeer = (i, o,t, f ,W f , g,Wg ),     (5)    ganize saved content without new evidence, changed
+                                                             windows, repaired omissions, or rescoring. Layout
+where i is the focal person, o the offering, t the cutoff,   follows semantics, not case identifiers. Exact per-
+ f the feature, W f the focal window, g the reference        sonal duplicates may collapse with checked equiva-
+definition, and Wg its window. A personal-history            lence and preserved multiplicity; distinct peer claims
+identity instead contains                                    remain in expanded views. Completeness is judged
+                Ipersonal = (i, o,t, f ,Wb ,Wr ).     (6)    from full original dashboards, not publication crops.
+                                                                 Figure 2 contrasts a personal trajectory with a se-
+Personal meaning excludes irrelevant peer definitions.       lected peer comparison against a view of recorded ze-
+Exact readable handles are generated only from re-           ros, ineligibility, and unavailable quantities. The orig-
+turned evidence, not hidden desired answers.                 inal compiler supplied the latter’s observation time-
+    Unknown, ambiguous, or altered identities fail           line and grade context; presentation did not discover
+without substitution or added analysis. Personal sum-        them. Assessment views instead emphasize observed-
+maries repeated across evidence records are equiva-          week submission measures and dated states. All
+lent only if person, feature, units, cutoff, windows,        views provide an expandable evidence inspector and
+means, counts, change, and support agree exactly.            source-method information.
+                                                                 Reference comparisons use aligned scales and ex-
+    4 Writing assistance: OpenAI Codex (OpenAI, 2026);       plicit focal and reference windows. In Figure 4, a
+see Section 9.                                               working selector switches between two comparisons
+    Implemented division of responsibilities
+
+                                 Question + analytical context
+                                 Feature, person, windows and cutoff
+
+
+                                                          request
+      Agent: requests + selections                                     Deterministic analytical tools
+      Chooses analyses and answer content                              Recorded measures, peers, support,
+      A/B/C interfaces; no frontend code                               counts and peer-mean intervals
+                                                           result
+                       selection                                                                   evidence
+      repair
+
+
+      Binding + numerical validation                       valid       Original compiler + renderer
+      Returned evidence only; scope/support                            Selected claims → numerical wording
+      checked; B/C derive metadata.                                    Required context + fixed structure
+      Invalid final → one repair or rejection                          No missing comparison added
+                                           compiled specification rechecked
+
+
+
+                                                            read
+      Saved accepted artifacts                                         New deterministic presentation
+      Spec, evidence, bound answers,                                   Semantic layout, charts, excerpts
+      selection / compiler provenance                                  Dashboard + evidence inspector
+
+                                                          Saved-reference selector reads saved records only.
+    Completeness: separate offline evaluator + pending human review; never an integrity guarantee.
+Figure 1: Implemented responsibilities. The agent chooses analytical requests and answer content; deterministic tools cal-
+culate values. Binding and validation can reject a final answer or permit one repair. The original compiler supplies tagged
+structure and context, without adding a missing comparison claim. A later presentation layer reads saved accepted artifacts;
+its reference selector does not call the model. Numerical validity and question completeness are checked separately.
+
+
+already selected by the same agent. It updates the               pooled as confirmation evidence.5
+highlighted result, counts, labels, chart, and evidence
+link together. The focal measurement stays fixed                 5.1    Cases and Shared Information
+while the reference period changes. This is viewing
+saved analysis, not a new investigation or statistical           Six families cover personal change with peers; com-
+recomputation. Full and excerpted views retain the               parisons across named references; observation avail-
+distinction between unavailability and zero, and peer-           ability; separate personal/recent-peer insufficiency;
+mean intervals are not repurposed as uncertainty for a           submission and scheduled non-submission means
+contrast.                                                        with assessment/grade context; and alternate ear-
+                                                                 lier/recent windows. Reference questions do not au-
+                                                                 tomatically require personal change or a changed con-
+5     EXPERIMENT                                                 clusion.
+                                                                     The frozen profiles use earlier/recent week pairs
+Four conditions answer the same questions for 24 new             0–3/8–11 at day 83, 0–3/4–7 at day 55, 0–1/2–3 at
+development people, four per known family. Earlier               day 27, 0–3/10–11 at day 83, and 2–5/6–9 at day 69.
+development established the backend, generic policy,             Each question names the requested measure, win-
+compiler, and evaluator; its focal people are excluded.          dows, and cutoff. Candidate selection uses adminis-
+Those earlier results motivate the ablation but are not          trative eligibility and prior-attempt status where rel-
+                                                                    5 Writing  assistance: OpenAI Codex (OpenAI, 2026);
+                                                                 see Section 9.
+(a) Personal progress                                              (b) Limited observations
+
+
+
+
+Figure 2: New renderings of saved development answers from compact condition A. (a) Case 01: selected personal change
+and recent-peer context. The unrounded means produce the displayed change; the shaded band is a pointwise 95% peer-
+mean bootstrap interval, not uncertainty for personal change. (b) Case 09: recorded zero activity is distinct from ineligibility
+and unavailable recent quantities. This answer was accepted after one historical repair; its original compiler supplied the
+observation timeline and grade-availability context. Anonymous display aliases differ from experimental condition labels.
+Deterministic presentation adaptation establishes neither improved accuracy nor usability.
+
+
+evant. In particular, the insufficient-support family                 Each structural slot selects the unused eligible per-
+requires fewer than two recent eligible weeks and at               son minimizing SHA256(seed, case, person), with
+least one earlier eligible week. It is not selected by             seed stage6-structural-v1-20260918. All 57
+searching for model failures or extreme activity.                  previous and 24 new focal people are excluded from
+the shared reference pool across registrations. All        feedback. Invalid actions, failed specifications, and
+cases are real observations. Separate row-loop calcu-      repairs are retained. There is no constrained decod-
+lations checked 52 fact records; this is an independent    ing, training, or fallback success.
+calculation path, not human review.                            Enumeration ran on the same host’s CPU. Six
+    Conditions share public questions, family labels,      A/B/C permutations repeat four times, balancing po-
+definitions, references, windows, and interpretation       sitions and pair order. One model load served 72
+rules. Hidden facts serve scoring and offline diagno-      agent episodes; all 96 method/case slots were at-
+sis only. Tasks, prompts, code, schemas, sources, set-     tempted once. Timing is descriptive, and greedy de-
+tings, scoring, and order were frozen before inference,    coding does not measure stochastic repeatability.
+without post-freeze tuning or reruns until success.
+                                                           5.4    Endpoints and Their Limits
+5.2    Conditions and Ablation
+                                                           An accepted output passes schema, support/scope,
+Enumeration applies rules to the public                    evidence, numerical, and rendering checks. First-final
+task/reference registry, enumerating admissible            validity excludes later repairs but allows prior tool
+references for relevant features and adding assess-        errors. Complete visible answers require acceptance
+ment measures where required. It shares the backend,       and every requested answer under the frozen evalua-
+validator, renderer, and six-call ceiling. Routing by      tor. Required context is separately tracked and present
+public family makes it a strong registry baseline, not     for all visibly complete cases; optional panels earn no
+an unrestricted language interpreter.                      automatic answer credit.
+    A: compact selects answer kinds and returned               Completeness through method selections uses the
+identifiers, with model-authored support and scoped        same predicates after projecting out compiler-only
+conclusion; its existing compiler builds the layout.       claims, panels, and boilerplate. Selections are de-
+B: derived metadata retains kind/identifier selection      terministic for enumeration and model choices for
+but derives support/scope, uses a neutral heading, and     agents; neither means model-calculated numbers. In-
+adds a mechanical catalogue of returned answers. B         sufficiency must match the feature, window, and com-
+versus A tests this package, not metadata deletion         parison, without excusing other omissions.
+alone.                                                         Paired complete valid visible answers are primary;
+    C: explicit binding selects exact handles using        selected completeness, validity, costs, and failures are
+B’s metadata behavior and identical catalogue. C ver-      secondary. All slots remain in denominators. An of-
+sus B tests identity representation under equivalent in-   fline oracle-assisted retrieved-evidence upper bound
+formation; C versus A tests the entire intervention.       uses hidden requirements only for diagnosis. No sig-
+All agents share the generic policy, and none receives     nificance tests are added. The prespecified gate was
+hidden requirements or automatic missing compar-           22/24 visibly complete, zero accepted unsupported
+isons. Valid irrelevant selections remain possible.        quantities, and both answers on all four insufficiency
+                                                           cases; it is not a conference acceptance criterion.
+5.3    Model, Budgets and Ordering
+All agents use Qwen2.5-14B-Instruct (Qwen,                 6     RESULTS
+2024b; Qwen, 2024a), pinned to revision
+cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8.                  All 96 method/case slots were attempted. Table 1 and
+The Transformers 4.55.2 backend uses the                   Figure 3 are generated directly from frozen machine-
+checkpoint’s tokenizer and chat template, Torch            readable reports. Enumeration answered 24/24 ques-
+2.8.0+cu128, CUDA 12.8, BF16, and scaled dot-              tions completely through its own selections. A pro-
+product attention.    All parameters, inputs, and          duced 21/24 complete visible answers, B 15/24, and
+generated outputs resided on one RTX 6000 Ada              C 15/24. Model-selected completeness was 18/24,
+GPU; there was no quantization or CPU offload.             14/24, and 11/24, respectively. These frozen values
+Process residency, per-generation device timing, and       include the scoring caveat discussed below; they are
+CUDA profiling substantiate GPU execution, rather          not newly adjudicated accuracy estimates.6
+than a CUDA-availability check alone.
+    Greedy decoding permits 16,000 input and 1,500
+output tokens. Episodes allow six analytical calls,
+four generations, and one final repair using integrity         6 Writing assistance: OpenAI Codex (OpenAI, 2026);
+errors and existing evidence, never completeness           see Section 9.
+Table 1: Frozen outcomes. Every main endpoint retains all 24 cases per condition. “Selected complete” excludes compiler-
+supplied requested answers; enumeration’s selections are deterministic. “Both insuff.” uses the four cases requesting separate
+personal and peer insufficiency answers. B’s completeness has the answer-form caveat in Section 6.3.
+   Condition           First valid Accepted Visible complete Selected complete Both insuff. answers
+   Enumeration              24/24     24/24            24/24             24/24                  4/4
+   A: compact               21/24     22/24            21/24             18/24                  3/4
+   B: derived metadata      22/24     24/24            15/24             14/24                  2/4
+   C: explicit binding      21/24     21/24            15/24             11/24                  1/4
+
+ Frozen development comparison
+
+
+            Enumeration                                                   24
+
+             A · compact                                      18                                        3       1     2
+
+ B · derived metadata                                 14                             1                  9
+
+      C · explicit binding                      11                             4                  6                 3
+
+                             0             4             8           12         16                       20               24
+                                                   Cases (24 paired people per condition)
+
+        Complete: method selections                                   Complete: required compiler context
+
+        Accepted, incomplete (frozen rule)                            No accepted output
+
+  Counts are exclusive; all 96 slots retained. B17–20 answer-form caveat remains pending.
+Figure 3: Frozen development comparison on 24 paired people. Categories are mutually exclusive: complete through method
+selections; otherwise complete with required compiler context; otherwise accepted but incomplete; or no accepted output. All
+numbers, even in model-selected answers, come from deterministic tools. B17–20 visibly contain requested recent means in
+personal-change claims that the frozen focal predicate does not credit. These four cases remain in the incomplete category
+pending human adjudication. No score is revised here.
+
+                                                                   Table 2: Paired visible completeness on the same 24 people.
+6.1     Validity, Completeness and                                 “Right only” and “Left only” refer to the named contrast.
+        Attribution                                                Counts are descriptive, with no significance test.
+                                                                    Right − left Both Right only Left only Neither
+B achieved 24 accepted outputs, compared with 22                    C−A            14          1         7       2
+for A and 21 for C, but its frozen visible complete-                C−B            12          3         3       6
+ness remained lower than A’s. Successful final repairs              B−A            14          1         7       2
+were one of three for A, two of two for B, and zero
+of three for C. Rejections remained in the denomina-
+                                                                   complete cases relative to A and has no net gain over
+tor; there were no infrastructure-blocked episodes or
+                                                                   B: three improve and three regress. Selected com-
+deterministic fallbacks. No agent met the combined
+                                                                   pleteness is seven below A and three below B. These
+engineering target.
+                                                                   frozen results do not support a binding benefit; dis-
+    Compiler-supplied requested context completed
+                                                                   puted B judgments qualify the equality with C.
+three additional A cases, one B case, and four C cases.
+Its 32, 37, and 37 added panels contained no added
+comparison or personal-change claim. Panel count is
+not a quality score. Supplied grade limitations, for ex-
+ample, can answer a request without model selection.
+    In paired outcomes (Table 2), C loses six visible
+6.2    Evidence Retrieval and Failure                      6.4    Recorded Cost
+       Mechanisms
+                                                           Table 3 retains failures and repairs. Enumeration used
+The offline diagnostic found sufficient returned evi-      more calls but far less episode time and no infer-
+dence for all 24 questions in both A and B, and 21         ence. C used more generations and equivalent re-
+in C. In case 15, A nevertheless selected peer com-        peated analyses than either control without higher
+parisons for weeks 0–3 when asked about weeks 10–          completeness. This supports enumeration’s opera-
+11. Returned recent evidence supported a separate          tional economy within the registry.
+personal-insufficiency answer, but its peer answer             Including setup/construction, 185 generations
+was omitted (Figure 5). Correct earlier-window bind-       used 1,719.02 s of model-process time (28.65 min),
+ing does not establish relevance.                          including loading/cleanup: 153.02 s construction
+    C12 selected an earlier result for a requested re-     and 1,566.00 s comparison. Shared comparison
+cent mean. Invalid C18–20 analysis batches re-             loading/profiling took 37.55/1.65 s.       Peak allo-
+turned no evidence; final/repair handles remained un-      cated/reserved memory was 30.78/35.23 GiB; maxi-
+resolved. No catalogue had been returned, so its con-      mum input was 10,888 tokens. Process time, episode
+tents alone cannot explain those failures. A09 re-         latency, and implementation wall time differ and do
+paired peer selections paired with personal conclusion     not establish billing time. Manuscript preparation ran
+scope; A12 did not. A22 retained invalid scope; B23        no experimental inference.
+repaired a panel-limit error. These are trace observa-
+tions, not established cognitive causes.
+    All 168 comparison generations reached end-of-         7     DISCUSSION AND
+sequence, with at most 491 output tokens: failures               LIMITATIONS
+were not output-limit truncation. Source checks de-
+tected no accepted unsupported quantitative answer
+                                                           Correct computation and exact binding cannot en-
+among 91 accepted dashboards. This bounded result
+                                                           sure selection of the requested result. Case 15 con-
+establishes agreement with checked fields/support
+                                                           tains personal insufficiency but substitutes valid ear-
+rules, not universal semantic correctness or complete-
+                                                           lier comparisons for the requested recent-peer answer.
+ness.
+                                                           Silently inserting that answer would hide the selection
+                                                           failure being studied.7
+6.3    Unresolved Answer-Equivalence
+       Caveat                                              7.1    What the Ablation Establishes
+B17–20 display both requested recent assessment            Explicit identity yielded no frozen visible gain over
+means within supported personal-change claims. The         B and lower completeness than A. B’s higher ac-
+frozen focal-item predicate recognizes a comparison        ceptance did not establish better coverage, and its
+panel or a supported comparison claim, but does not        catalogue prevents attributing effects solely to meta-
+inspect a personal-change claim for that mean. It          data derivation. Traces expose selection relevance,
+therefore classifies eight requested items as retrieved    malformed requests, and incomplete scope coverage
+but omitted even though their feature, units, recent       without isolating their causal contributions.
+window, and values appear on the page. This is an               Counting all visible context as agent reasoning
+evaluation representation limitation, not a numerical      would overstate model responsibility; treating every
+failure. B remains 15/24 visible complete and 14/24        frozen omission as literal absence would misdescribe
+selected complete in every reported table and figure;      B17–20. Provenance and equivalent-answer adjudi-
+no disputed case receives new credit.                      cation are both needed. Additional panels alone do
+    C21/C23 display earlier and recent means in peer       not establish a better answer.
+claims without an explicit personal-change answer;              Enumeration remains the operational baseline. Its
+equivalence is a separate unresolved question. Un-         public task-family label and small registry make ex-
+available forms and scoped insufficiency also require      haustive rules feasible; success does not establish
+review. All 96 original slots, including rejections, are   unrestricted language understanding. Agent bene-
+prepared for two reviewers and adjudication, but no        fits for ambiguous requests, larger registries, or other
+ratings exist. Automated inspection is not indepen-
+dent human review, and frozen completeness is not a
+settled measurement construct.                                 7 Writing assistance: OpenAI Codex (OpenAI, 2026);
+                                                           see Section 9.
+Case B · focal weeks 8–11 · day 83 · same person, measurement and scale
+
+(a) Recent presentation peers                                    (b) Earlier-period peers
+
+
+
+
+Figure 4: A saved reference-period change in condition A, case 05. Both comparisons were model-selected. Browser excerpts
+show the selector reading validated records, not recomputing statistics. The person, focal weeks 8–11, units, and scale stay
+fixed; the reference changes from weeks 8–11 to weeks 0–3. Eligible membership differs (1,024 versus 1,128 people).
+Whiskers are 95% bootstrap intervals for peer means, not for contrasts. The later presentation layer supplies the layout.
+Earlier peers are not necessarily fairer or causally adjusted.
+Table 3: Recorded comparison costs summed over 24 cases per condition. Episode time includes analytical and rendering
+work; shared model loading/profiling is separate. a Exact/equivalent repeated requests use the frozen signatures; equivalent
+requests share feature, group and window meaning. Input/output token totals count repeated context, failures, and repairs.
+        Condition           Tools Repeateda Generations Input / output tokens Episode s Median s
+        Enumeration           84       0/0            0                  0/0      35.40    1.18
+        A: compact            76       0/5           52    178,794 / 10,274     484.64    17.07
+        B: derived metadata   79       0/8           53    238,675 / 10,012     504.21    16.87
+        C: explicit binding   82      4 / 12         63    262,031 / 10,695     536.32    21.19
+
+
+domains remain untested. Neither a per-case best-                events. In A17, recent weeks 8–11 have 0.25 non-
+condition mixture nor further indefinite prompt tuning           banked submissions per observed week and zero
+is justified.                                                    scheduled non-submissions, while a day-55 snapshot
+                                                                 records no submission for the day-54 assessment.
+7.2    Presentation as an Inspectable                            Their temporal scopes differ; later submissions do not
+                                                                 rewrite earlier snapshots. Grades and banking ap-
+       System Behavior                                           proval remain unavailable, not achievement ratings.
+                                                                 This is implemented adaptation, not measured usabil-
+Figure 4 holds the focal rate at 3.50 clicks per eligi-
+                                                                 ity or accuracy improvement.
+ble day while switching recent/earlier peer means of
+3.46/6.98. Saved differences are +0.04/−3.48, calcu-
+lated before rounding. Changed period and member-                7.3    Threats to Interpretation
+ship remain visible. This shows reference dependence
+of a description, not causation or reference superior-           There are 24 development people from two offer-
+ity.                                                             ings, not 96 independent observations. Families and
+     The assessment view foregrounds measures and                wording conventions were known. One checkpoint,
+Requested: recent weeks 10–11, compared with own history and presentation peers
+
+(a) Saved agent selections                                        (b) Saved enumeration selections
+
+
+
+
+                                                                  Baseline: explicit recent-peer insufficiency. The
+                                                                  personal answer remains separate.
+
+
+
+
+Agent-selected peer answers: weeks 0–3. The
+recent-peer answer is omitted.
+Figure 5: Correct source-bound values with an incomplete answer, case 15. The request concerns weeks 10–11 and separately
+asks about own history and peers. (a) A selects earlier peer answers for weeks 0–3 and retains a personal-insufficiency answer.
+(b) Enumeration explicitly supplies the recent-peer insufficiency answer, also retaining personal insufficiency. Reviewer
+annotations outside the faithful excerpts identify the mismatch; the agent’s missing answer is not inserted. Full original
+dashboards, not these cropped views, determine the frozen judgment. Intervals describe peer means; unavailable is not zero.
+
+
+greedy episode, and environment do not establish ro-              meration controls, and prespecified outcomes before
+bustness across models, paraphrases, runs, or deploy-             reserved-data evaluation. The internal gate is not a
+ments. Reserved people remain unevaluated; earlier                conference acceptance requirement; its failure limits
+development is not independent confirmation.                      operational claims, rather than automatically invali-
+    The rubric needs adjudication against question                dating a negative development study.
+meaning. Numerical agreement cannot settle refer-
+ence appropriateness, support thresholds, or equiva-
+lent answers. Independent forms for all 96 slots re-              8     CONCLUSION
+main blank; human review and usability evaluation
+are pending.                                                      The implemented pipeline separates model selection,
+    Repeated rows, unknown logging and grade tim-                 deterministic calculation, evidence binding, compiler
+ing, eligibility, changing peers, and unequal histories           context, and adaptive presentation. In 24 develop-
+limit measurement interpretation. Bootstrap intervals             ment cases, explicit identity did not improve frozen
+do not quantify measurement error, causality, or in-              completeness; enumeration remained complete and
+dividual risk. No prediction, anomaly detection, or               cheaper. Valid source-bound numbers could accom-
+assessment of ability is validated. Presentation does             pany wrong-window answers or omissions, while
+not remedy these limits.                                          compiler context could supply an unselected answer.8
+    Any adjudicated reanalysis must be separately
+versioned as post hoc. Stronger reliability claims need               8 Writing assistance: OpenAI Codex (OpenAI, 2026);
+a fixed system/scorer, person-level sampling, enu-                see Section 9.
+    The findings support separate responsibility and      Moritz, D., Wang, C., Nelson, G. L., Lin, H., Smith,
+coverage accounting, not general claims about agents          A. M., Howe, B., and Heer, J. (2019). For-
+or usability. Equivalent-answer and measurement               malizing visualization design knowledge as con-
+judgments require review before any fixed validation          straints: Actionable and extensible models in
+study. This is a bounded development analysis of              Draco. IEEE Transactions on Visualization and
+completeness and its failure modes.                           Computer Graphics, 25(1):438–448. https://doi.
+                                                              org/10.1109/TVCG.2018.2865240.
+                                                          Narechania, A., Srinivasan, A., and Stasko, J. (2021).
+9    AI ASSISTANCE DISCLOSURE                                 NL4DV: A toolkit for generating analytic speci-
+                                                              fications for data visualization from natural lan-
+OpenAI Codex (OpenAI, 2026) assisted all sections,            guage queries. IEEE Transactions on Visual-
+the abstract, captions, bibliography, implementation,         ization and Computer Graphics, 27(2):369–379.
+and figure/verification code, including substantive           https://doi.org/10.1109/TVCG.2020.3030378.
+drafting and source tracing. This differs from the ex-    OpenAI (2026). Codex. Software; accessed 19
+perimental Qwen checkpoint; drafting ran no experi-           September 2026. Writing and implementation
+mental generations. Figures depict saved data or pro-         assistance, distinct from experimental models.
+grammatic diagrams. Assisted checks are not inde-             https://openai.com/codex/.
+pendent human review. Author verification, adjudica-      Qwen (2024a). Qwen2.5-14B-Instruct: Model card
+tion, and disclosure placement remain pending. No             and checkpoint. Hugging Face, official Qwen
+AI system is an author.                                       release. Apache 2.0; pinned revision specified in
+                                                              Section 5. https://huggingface.co/Qwen/Qwen2.
+                                                              5-14B-Instruct.
+REFERENCES                                                Qwen (2024b).           Qwen2.5 technical report.
+                                                              arXiv:2412.15115.             https://arxiv.org/abs/
+Chen, N., Zhang, Y., Xu, J., Ren, K., and Yang, Y.            2412.15115.
+    (2024). VisEval: A benchmark for data visu-           Sah, S., Mitra, R., Narechania, A., Endert, A.,
+    alization in the era of large language models.            Stasko, J., and Dou, W. (2024). Generat-
+    arXiv:2407.00981v2. https://arxiv.org/abs/2407.           ing analytic specifications for data visualization
+    00981v2.                                                  from natural language queries using large lan-
+Dibia, V. (2023). LIDA: A tool for automatic gen-             guage models. NLVIZ Workshop, IEEE VIS;
+    eration of grammar-agnostic visualizations and            arXiv:2408.13391. https://arxiv.org/abs/2408.
+    infographics using large language models. In              13391.
+    Proceedings of the 61st Annual Meeting of the         Sahu, G., Puri, A., Rodriguez, J., Abaskohi, A.,
+    Association for Computational Linguistics (Vol-           Chegini, M., Drouin, A., Taslakian, P., Zant-
+    ume 3: System Demonstrations), pages 113–                 edeschi, V., Lacoste, A., Vazquez, D., Chapados,
+    126. Association for Computational Linguistics.           N., Pal, C., Mudumba, S. R., and Laradji, I. H.
+    https://doi.org/10.18653/v1/2023.acl-demo.11.             (2025). InsightBench: Evaluating business an-
+Efron, B. (1979). Bootstrap methods: Another look             alytics agents through multi-step insight gener-
+    at the jackknife. The Annals of Statistics, 7(1):1–       ation. In International Conference on Learning
+    26. https://doi.org/10.1214/aos/1176344552.               Representations. https://openreview.net/forum?
+Kuzilek, J., Hlosta, M., and Zdrahal, Z. (2015). Open         id=ZGqd0cbBvm.
+    university learning analytics dataset. UCI Ma-        Satyanarayan, A., Moritz, D., Wongsuphasawat, K.,
+    chine Learning Repository. Dataset, CC BY 4.0.            and Heer, J. (2017). Vega-Lite: A grammar of in-
+    https://doi.org/10.24432/C5KK69.                          teractive graphics. IEEE Transactions on Visual-
+Kuzilek, J., Hlosta, M., and Zdrahal, Z. (2017). Open         ization and Computer Graphics, 23(1):341–350.
+    university learning analytics dataset. Scientific         https://doi.org/10.1109/TVCG.2016.2599030.
+    Data, 4:170171. https://doi.org/10.1038/sdata.        Wang, C., Lee, B., Drucker, S. M., Marshall, D.,
+    2017.171.                                                 and Gao, J. (2025). Data Formulator 2: It-
+Moreau, L. and Missier, P. (2013).              PROV-         erative creation of data visualizations, with AI
+    DM: The PROV data model. W3C recom-                       transforming data along the way. In Proceed-
+    mendation, editors, World Wide Web Consor-                ings of the 2025 CHI Conference on Human Fac-
+    tium. 30 April. https://www.w3.org/TR/2013/               tors in Computing Systems, pages 1–17. ACM.
+    REC-prov-dm-20130430/.                                    https://doi.org/10.1145/3706598.3713296.
+

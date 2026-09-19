@@ -1,0 +1,808 @@
+{
+  "source": "artifacts/stage6/reports/per_case.json",
+  "source_sha256": "f3c90c3c628aec3160ae3ec0007bdc8a56f67a79a1176c4521a6a97af0a3b427",
+  "definition": "Mutually exclusive: selected complete; otherwise visible complete; otherwise accepted; otherwise no accepted output. No rescoring.",
+  "categories": [
+    "complete_method_selected",
+    "complete_compiler_context",
+    "accepted_incomplete",
+    "no_accepted_output"
+  ],
+  "counts": {
+    "baseline": [
+      24,
+      0,
+      0,
+      0
+    ],
+    "compact_a": [
+      18,
+      3,
+      1,
+      2
+    ],
+    "derived_b": [
+      14,
+      1,
+      9,
+      0
+    ],
+    "binding_c": [
+      11,
+      4,
+      6,
+      3
+    ]
+  },
+  "records": [
+    {
+      "condition": "baseline",
+      "question_id": "s6_01",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_01",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_01",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_01",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_02",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_02",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_02",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_02",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_03",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_03",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_03",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_03",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_04",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_04",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_04",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_04",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_05",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_05",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_05",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_05",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_06",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_06",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_06",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_06",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_07",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_07",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_07",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_07",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_08",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_08",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_08",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_08",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_09",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_09",
+      "category": "complete_compiler_context",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_09",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_09",
+      "category": "complete_compiler_context",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_10",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_10",
+      "category": "complete_compiler_context",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_10",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_10",
+      "category": "complete_compiler_context",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_11",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_11",
+      "category": "complete_compiler_context",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_11",
+      "category": "complete_compiler_context",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_11",
+      "category": "complete_compiler_context",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_12",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_12",
+      "category": "no_accepted_output",
+      "valid_after_repair": false,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_12",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_12",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_13",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_13",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_13",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_13",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_14",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_14",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_14",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_14",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_15",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_15",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_15",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_15",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_16",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_16",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_16",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_16",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_17",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_17",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_17",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_17",
+      "category": "complete_compiler_context",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_18",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_18",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_18",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_18",
+      "category": "no_accepted_output",
+      "valid_after_repair": false,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_19",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_19",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_19",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_19",
+      "category": "no_accepted_output",
+      "valid_after_repair": false,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_20",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_20",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_20",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_20",
+      "category": "no_accepted_output",
+      "valid_after_repair": false,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_21",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_21",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_21",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_21",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_22",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_22",
+      "category": "no_accepted_output",
+      "valid_after_repair": false,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_22",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_22",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_23",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_23",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_23",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_23",
+      "category": "accepted_incomplete",
+      "valid_after_repair": true,
+      "complete_requested_coverage": false,
+      "complete_method_selected_coverage": false
+    },
+    {
+      "condition": "baseline",
+      "question_id": "s6_24",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "compact_a",
+      "question_id": "s6_24",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "derived_b",
+      "question_id": "s6_24",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    },
+    {
+      "condition": "binding_c",
+      "question_id": "s6_24",
+      "category": "complete_method_selected",
+      "valid_after_repair": true,
+      "complete_requested_coverage": true,
+      "complete_method_selected_coverage": true
+    }
+  ],
+  "caveat": "B17\u201320 are disputed equivalent answer forms; frozen categories preserved."
+}

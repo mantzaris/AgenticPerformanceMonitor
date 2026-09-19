@@ -1,0 +1,485 @@
+[
+  {
+    "id": "template",
+    "url": "https://www.scitepress.org/documents/SCITEPRESS_Conference_Latex.zip",
+    "status": 200,
+    "sha256": "ec6cfaa11962e08d5c6a402124f21c3bca3591397521406ab6d1889398a3807a",
+    "bytes": 650144,
+    "retrieved_utc": "2026-09-19T06:06:12.260173+00:00"
+  },
+  {
+    "id": "nl4dv_pdf",
+    "url": "https://arxiv.org/pdf/2008.10723",
+    "status": 200,
+    "sha256": "01c367031d857e69a64cfaf7e10b95ab97fc30549da5d744e9529014678ea874",
+    "bytes": 2326768,
+    "retrieved_utc": "2026-09-19T06:06:11.728014+00:00"
+  },
+  {
+    "id": "draco_meta",
+    "url": "https://api.crossref.org/works/10.1109/TVCG.2018.2865240",
+    "status": 429,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "retrieved_utc": "2026-09-19T06:06:11.546190+00:00"
+  },
+  {
+    "id": "nl4dv_meta",
+    "url": "https://api.crossref.org/works/10.1109/TVCG.2020.3030378",
+    "status": 200,
+    "sha256": "f13fe03f3747e358a57e0a4268bfdbf234e7a339c9cc65811424c280dae9df49",
+    "bytes": 10236,
+    "retrieved_utc": "2026-09-19T06:06:11.567831+00:00",
+    "metadata": {
+      "title": [
+        "NL4DV: A Toolkit for Generating Analytic Specifications for Data Visualization from Natural Language Queries"
+      ],
+      "author": [
+        {
+          "given": "Arpit",
+          "family": "Narechania",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arjun",
+          "family": "Srinivasan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John",
+          "family": "Stasko",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Visualization and Computer Graphics"
+      ],
+      "volume": "27",
+      "issue": "2",
+      "page": "369-379",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            2
+          ]
+        ]
+      },
+      "DOI": "10.1109/tvcg.2020.3030378"
+    }
+  },
+  {
+    "id": "vis_meta",
+    "url": "https://api.crossref.org/works/10.1109/TVCG.2024.3456320",
+    "status": 429,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "retrieved_utc": "2026-09-19T06:06:11.551966+00:00"
+  },
+  {
+    "id": "efron_pdf",
+    "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/Bootstrap-Methods-Another-Look-at-the-Jackknife/10.1214/aos/1176344552.pdf",
+    "status": 200,
+    "sha256": "1771c45c71879c5eb921507ef5b3d6f25c29c134a7df72e614dd7d6fe16b9360",
+    "bytes": 1167,
+    "retrieved_utc": "2026-09-19T06:06:11.600994+00:00"
+  },
+  {
+    "id": "qwen_card",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/raw/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/README.md",
+    "status": 200,
+    "sha256": "7ea9d73d5e0a0381121db8bfb04dee739c7b8d3c6cb25af7121e75c9d7cac94c",
+    "bytes": 6010,
+    "retrieved_utc": "2026-09-19T06:06:11.736037+00:00"
+  },
+  {
+    "id": "oulad",
+    "url": "https://www.nature.com/articles/sdata2017171",
+    "status": 200,
+    "sha256": "0bbb2cff0c3e716a9c74ead6104814181a93b04e2851db58a1a531290cf154ac",
+    "bytes": 261484,
+    "retrieved_utc": "2026-09-19T06:06:12.984778+00:00"
+  },
+  {
+    "id": "df2_meta",
+    "url": "https://api.crossref.org/works/10.1145/3706598.3713296",
+    "status": 200,
+    "sha256": "b5511e2231a187adbd7ad167b5ba389565d59cca3b4f459056b0963a74f1a1c9",
+    "bytes": 20321,
+    "retrieved_utc": "2026-09-19T06:06:11.744151+00:00",
+    "metadata": {
+      "title": [
+        "Data Formulator 2: Iterative Creation of Data Visualizations, with AI Transforming Data Along the Way"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5933-6620",
+          "authenticated-orcid": false,
+          "given": "Chenglong",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, Washington, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4217-627X",
+          "authenticated-orcid": false,
+          "given": "Bongshin",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Yonsei University, Seoul, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5022-9343",
+          "authenticated-orcid": false,
+          "given": "Steven M.",
+          "family": "Drucker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, Washington, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-6592-3926",
+          "authenticated-orcid": false,
+          "given": "Dan",
+          "family": "Marshall",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, Washington, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5702-6143",
+          "authenticated-orcid": false,
+          "given": "Jianfeng",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Redmond, Washington, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "1-17",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            25
+          ]
+        ]
+      },
+      "DOI": "10.1145/3706598.3713296"
+    }
+  },
+  {
+    "id": "vega_meta",
+    "url": "https://api.crossref.org/works/10.1109/TVCG.2016.2599030",
+    "status": 200,
+    "sha256": "eb67cbb5c5c806a9a61e2d9108b7c606a3dd1b87f5c45d8c93325c8c7ea3c936",
+    "bytes": 6012,
+    "retrieved_utc": "2026-09-19T06:06:11.780496+00:00",
+    "metadata": {
+      "title": [
+        "Vega-Lite: A Grammar of Interactive Graphics"
+      ],
+      "author": [
+        {
+          "given": "Arvind",
+          "family": "Satyanarayan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dominik",
+          "family": "Moritz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kanit",
+          "family": "Wongsuphasawat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeffrey",
+          "family": "Heer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Visualization and Computer Graphics"
+      ],
+      "volume": "23",
+      "issue": "1",
+      "page": "341-350",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1109/tvcg.2016.2599030"
+    }
+  },
+  {
+    "id": "draco_meta_retry",
+    "url": "https://api.crossref.org/works/10.1109/TVCG.2018.2865240",
+    "status": 200,
+    "bytes": 11478,
+    "sha256": "bc04f39e743181a11a5d30f4a05bcad8635c4bdcddc2aa5791e3440557deabe3",
+    "retrieved_utc": "2026-09-19T06:09:10.250781+00:00",
+    "metadata": {
+      "title": [
+        "Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco"
+      ],
+      "author": [
+        {
+          "given": "Dominik",
+          "family": "Moritz",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chenglong",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Greg L.",
+          "family": "Nelson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Halden",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adam M.",
+          "family": "Smith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bill",
+          "family": "Howe",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeffrey",
+          "family": "Heer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Visualization and Computer Graphics"
+      ],
+      "volume": "25",
+      "issue": "1",
+      "page": "438-448",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1109/tvcg.2018.2865240"
+    }
+  },
+  {
+    "id": "viseval_abs",
+    "url": "https://arxiv.org/abs/2407.00981",
+    "status": 200,
+    "bytes": 41830,
+    "sha256": "b8b60ee975475789b15138d12aa9102c4be48c22b5508fffc3e19337511309b1",
+    "retrieved_utc": "2026-09-19T06:09:10.486142+00:00"
+  },
+  {
+    "id": "efron_scan",
+    "url": "https://www.math.ntu.edu.tw/~hchen/teaching/LargeSample/references/Efron79.pdf",
+    "status": 200,
+    "bytes": 2336874,
+    "sha256": "8f341a0b65090f758d48e956e2eaafc95078f4e0e5d746a5b2a3ebb1c277ba91",
+    "retrieved_utc": "2026-09-19T06:09:14.343570+00:00"
+  },
+  {
+    "id": "vega_pdf",
+    "url": "https://www.domoritz.de/papers/2017-VegaLite-InfoVis.pdf",
+    "status": 200,
+    "bytes": 7265280,
+    "sha256": "52145eafb8847da349d13721f11f6b61237099cb92fd23dc18605a6a3335f04f",
+    "retrieved_utc": "2026-09-19T06:09:15.234520+00:00"
+  },
+  {
+    "id": "guidelines",
+    "url": "https://icaart.scitevents.org/Guidelines.aspx",
+    "status": 200,
+    "bytes": 51884,
+    "sha256": "3d1aedc53be00484fdee13b6e752e49a037d70a9197773a2518d7d746361b056",
+    "retrieved_utc": "2026-09-19T06:09:16.388911+00:00"
+  },
+  {
+    "id": "ai_guidance",
+    "url": "https://icaart.scitevents.org/AiTools.aspx",
+    "status": 200,
+    "bytes": 35438,
+    "sha256": "126d76aead4ad6a519772b8b27307c0feca703ea9d64403c7a2a61a712147fcc",
+    "retrieved_utc": "2026-09-19T06:09:17.259614+00:00"
+  },
+  {
+    "id": "templates_page",
+    "url": "https://icaart.scitevents.org/Templates.aspx",
+    "status": 200,
+    "bytes": 32152,
+    "sha256": "84a5b099ecda198407af8c10e3c87f3ada9973d6b4c048e3cc91010fe18ff38b",
+    "retrieved_utc": "2026-09-19T06:09:17.844852+00:00"
+  }
+]

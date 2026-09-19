@@ -1,0 +1,25 @@
+{
+  "command": "python3 paper/draft_v1/scripts/build.py",
+  "recorded_environment": "TeX Live 2019, Python 3.8.10, Matplotlib 3.1.2, PyPDF2 1.26.0; fixed SOURCE_DATE_EPOCH=1789797600",
+  "compared_outputs": 15,
+  "changed_outputs": [],
+  "exact_byte_reproduction": true,
+  "hashes": {
+    "main.pdf": "0065edd8e58fab37675156f02e7a9daee64caf62321cd793dc904b25ac8143a8",
+    "figures/adaptation.pdf": "7bc2d1f4a981c7a2338e09f71ca534804a8526e5e2b95e7ff408ba7156218997",
+    "figures/architecture.png": "d8a604263cff4cab8ea412f795f5fe589b8ef32370ae5004d986352c0aa61954",
+    "figures/reference_switch.pdf": "2fe7ccaf91bb69a96bc9832b7c8d0d89c55504c64b661525325e42b697b79a11",
+    "figures/results.png": "b03b867e22b996344d9b17b3607f5ebe43daa35cd771adf8949fa04972add63b",
+    "figures/results.svg": "2415030f3011f1c9e61e2ea8b4be316e486c5775712049ff921230ce95a3a636",
+    "figures/failure.pdf": "2b461c20548288e2d96269a3a46c6df920a1371466374d6e0366bef96f13ba59",
+    "figures/results.pdf": "31ba08e0345903394f9ce86e6766960c1082dc45bc86d7dbbaab53f6aa6eef13",
+    "figures/assessment.pdf": "010cf89e587f4a7e16c8be670b0fbbb5b2325c3406d3a60bda2b1751e8cbf1d4",
+    "figures/architecture.pdf": "d1580c2d6908ee0868d80a35c3d78c14b6a7417c194ef57fb167e17542d74df8",
+    "figures/architecture.svg": "1328cc5fdf55afe7c5740b12cfbca51b620925ad8873bd5d5a328d8cdc6b3949",
+    "generated/costs.tex": "0540217c003f395413f5d04e50fae8fc2642a3370fc8e79d017ab147c52d19c9",
+    "generated/paired.tex": "d7452a4d98f6ae20a9b679c93239cd5407a064c607441a490662948522d7f74c",
+    "generated/outcomes.tex": "bf7cfd4f50fdf055d36b9dd837d97807741841c1a728a3d396671ac9b21bc044",
+    "generated/numbers.tex": "62891bc8e88f167cefcb9bfebc3b32a5dc2d541c23153cfdd1404c4ed7377695"
+  },
+  "scope": "Manuscript, publication figures, and generated LaTeX tables/macros rebuilt from preserved saved artifacts. No experimental rerun."
+}

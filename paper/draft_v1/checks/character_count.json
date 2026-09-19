@@ -1,0 +1,14 @@
+{
+  "pages": 12,
+  "pdf_sha256": "0065edd8e58fab37675156f02e7a9daee64caf62321cd793dc904b25ac8143a8",
+  "pdf_extracted_nonwhitespace_characters": 37958,
+  "additional_raster_figure_characters": 2391,
+  "combined_nonwhitespace_characters": 40349,
+  "conservative_glyph_allowance": 500,
+  "combined_with_allowance": 40849,
+  "rule_minimum": 10000,
+  "rule_maximum": 50000,
+  "within_range_even_with_allowance": true,
+  "method": "pdftotext -layout, remove all Unicode whitespace; add visible DOM text (including SVG text and only selected options) from the six raster panels actually included. Native PDF chart/diagram text, captions, bibliography, tables, footnotes and title are already in extracted PDF text. No score recomputation.",
+  "limitations": "A reproducible estimate, not the proprietary submission counter. Hyphenation, ligatures, math extraction and symbolic glyphs can differ; an additional 500-character allowance is reported, not claimed as an exact correction. CSS physical size depends on display scaling."
+}

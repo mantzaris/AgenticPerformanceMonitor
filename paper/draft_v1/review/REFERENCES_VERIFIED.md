@@ -1,0 +1,32 @@
+# Focused primary-source verification
+
+Checked during drafting on 19 September 2026. These are assisted source checks,
+not independent human scientific review. Bibliography metadata and paper contents
+were inspected; search snippets were used only to locate sources. No retrieved
+copyrighted paper is added to Git. Download hashes/statuses and selected publisher
+metadata are in [primary_retrievals.json](primary_retrievals.json).
+
+| BibTeX key | Supported manuscript statement and inspected content | Primary source / metadata |
+| --- | --- | --- |
+| `nl4dv` | Dataset/query to attributes, tasks and Vega-Lite analytic specification. Author PDF introduction and representation examples. | [Author preprint](https://arxiv.org/abs/2008.10723), [author project/citation](https://nl4dv.github.io/nl4dv/), publisher-deposited DOI metadata: Narechania, Srinivasan, Stasko; TVCG 27(2), 369–379, 2021, [DOI](https://doi.org/10.1109/TVCG.2020.3030378). |
+| `sah2024` | Prompted analytic specifications, conversation/ambiguity; missing tasks and misleading encodings already reported. §§1, 2.2–2.3, 3 inspected; no cross-benchmark score comparison adopted. | [Full paper](https://arxiv.org/html/2408.13391v1), author project confirms NLVIZ at IEEE VIS 2024. Six authors match the title page; cited as workshop/preprint, without invented proceedings pages. |
+| `lida` | Summarization, goals, generated/refined/executed visualization code and infographics. Pipeline and §§2–3 inspected. | [ACL paper](https://aclanthology.org/2023.acl-demo.11.pdf), [official bibliographic record](https://aclanthology.org/2023.acl-demo.11/): Victor Dibia, ACL 2023 System Demonstrations, 113–126, DOI 10.18653/v1/2023.acl-demo.11. |
+| `dataformulator2` | Combined GUI/NL, model-generated transformations, branching history. §§1, 3 inspected. No usability transfer is claimed for our system. | [Author version](https://arxiv.org/html/2408.16119v2), [publisher DOI](https://doi.org/10.1145/3706598.3713296): Wang, Lee, Drucker, Marshall, Gao; CHI 2025, 1–17. Updated title follows the 2025 version, not the older preprint title. |
+| `vegalite` | Declarative encodings/interaction and compilation. Author PDF abstract and design introduction. | [Author PDF](https://www.domoritz.de/papers/2017-VegaLite-InfoVis.pdf), [DOI](https://doi.org/10.1109/TVCG.2016.2599030): Satyanarayan, Moritz, Wongsuphasawat, Heer; TVCG 23(1), 341–350, 2017. |
+| `draco` | Hard/soft visualization constraints. §§2.3–4 inspected; no claim of a new constraint solver here. | [Author PDF](https://www.domoritz.de/papers/2018-Draco-InfoVis.pdf), [DOI](https://doi.org/10.1109/TVCG.2018.2865240): seven authors checked; TVCG 25(1), 438–448, **2019** journal year (2018 conference/online record). |
+| `viseval` | Distinct validity, legality and readability; acceptable alternatives to exact matching. §§2.2–3 inspected. We explicitly acknowledge this prior multidimensional evaluation work. | [Full v2](https://arxiv.org/html/2407.00981v2), [metadata](https://arxiv.org/abs/2407.00981). Chen, Zhang, Xu, **Kan Ren**, Yang; arXiv 2024, version 2. V1 HTML renders the fourth name differently; v2 citation metadata gives `Ren, Kan`, used in BibTeX. No unverified journal DOI/pages adopted. |
+| `insightbench` | Multi-step question formulation, analysis and summaries using planted patterns; narrower fixed-question scope here. Introduction and dataset construction inspected. | [Official ICLR 2025 paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/0dfe31d6e703e138d46a7d2fced38b7c-Paper-Conference.pdf), [OpenReview](https://openreview.net/forum?id=ZGqd0cbBvm). Fourteen authors transcribed from the published title page; no benchmark performance claim imported. |
+| `prov` | Entities, activities, agents, derivation. PROV-DM overview, concepts and editors inspected. No conformance claim. | [W3C Recommendation](https://www.w3.org/TR/2013/REC-prov-dm-20130430/), editors Luc Moreau and Paolo Missier, 30 April 2013. |
+| `oulad` | Dataset relationships, registration/activity/assessment fields, banked meaning. Data Records and table definitions inspected in publisher HTML. | [Scientific Data article](https://doi.org/10.1038/sdata.2017.171): Kuzilek, Hlosta, Zdrahal; 4:170171, 2017. Web parser failed once; direct publisher HTML retrieval succeeded. Study-specific row counts come from the repository audit, not this citation alone. |
+| `ouladDataset` | Creator archive and CC BY 4.0. | [UCI record](https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset), authors as above, 2015, DOI [10.24432/C5KK69](https://doi.org/10.24432/C5KK69). |
+| `efron` | Nonparametric resampling foundation only; actual 500-resample percentile procedure is implementation evidence. Original article §2 inspected in a scanned copy. | [DOI](https://doi.org/10.1214/aos/1176344552), [original article scan hosted by NTU](https://www.math.ntu.edu.tw/~hchen/teaching/LargeSample/references/Efron79.pdf), journal metadata also checked via JSTOR. Bradley Efron; Annals of Statistics 7(1), 1–26, 1979. Project Euclid returned a challenge page, not a usable PDF. |
+| `qwenReport` | Model-family identification, not a borrowed performance claim. | [Technical report](https://arxiv.org/abs/2412.15115), 2024; group attribution `Qwen` follows the arXiv author record. Actual experimental settings come from saved runtime records. |
+| `qwenCheckpoint` | Official instruction checkpoint, license and configuration. | [Pinned card](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/blob/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/README.md). Direct pinned raw-card retrieval succeeded; Apache 2.0, Transformers configuration and 2024 release citation checked. No weights downloaded. |
+| `openaiCodex` | Identification of drafting/code assistance, separate from Qwen experimentation. | [Official software page](https://openai.com/codex/), accessed 19 September 2026. `2026` is the software access/citation year, not an invented release date. Exact underlying service revision is not claimed. |
+
+Access limitations are narrowed rather than concealed: VisEval is cited as its
+verified preprint version; Efron's original article was read via an academic scan;
+transient Crossref throttling for Draco was resolved on a bounded retry. No claim
+of being first, of comprehensive literature coverage, or of novelty from schemas,
+tools, constraints or provenance is made. A final author literature/novelty review
+remains necessary, especially for the intended contribution's scope.

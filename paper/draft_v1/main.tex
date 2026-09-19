@@ -1,0 +1,39 @@
+\documentclass[a4paper,twoside]{article}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{pslatex}
+\usepackage{apalike}
+\usepackage{algorithm2e}
+\usepackage[bottom]{footmisc}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{SCITEPRESS}
+\pdfinfo{/Title (Evidence-Grounded Agentic Dashboards: Numerical Validity, Answer Completeness, and Adaptive Presentation) /Author () /Subject (Anonymous author-review manuscript draft) /Keywords (Analytical agents; evidence provenance; longitudinal dashboards)}
+\input{generated/numbers}
+\newcommand{\draftassist}{\footnote{Writing assistance: OpenAI Codex \cite{openaiCodex}; see Section~\ref{sec:disclosure}.}}
+\begin{document}
+\title{Evidence-Grounded Agentic Dashboards: Numerical Validity, Answer Completeness, and Adaptive Presentation}
+\author{}
+\keywords{Analytical Agents, Longitudinal Data, Evidence Provenance, Answer Completeness, Adaptive Dashboards.}
+\abstract{Longitudinal dashboards must distinguish changes in a person's recorded activity from differences due to the comparison population, time window, or availability of observations. We study a division of responsibilities in which an agent requests analyses and selects answers, deterministic tools calculate descriptive quantities, and validated evidence drives a controlled compiler and adaptive presentation. A frozen development comparison uses 24 people from two Open University course offerings, six question families, deterministic enumeration, and three Qwen2.5-14B-Instruct selection interfaces. The interfaces retain authored support metadata, derive that metadata, or additionally require explicit analytical identities. Enumeration produced \EnumVisible/24 complete visible answers; the agent interfaces produced \AVisible/24, \BVisible/24, and \CVisible/24, respectively. Completeness attributable to model selections was \ASelected/24, \BSelected/24, and \CSelected/24. Explicit identity selection did not improve the frozen endpoint. Accepted outputs could contain correct numbers yet omit the requested comparison. Four derived-metadata outputs expose an unresolved equivalent-answer scoring limitation; human adjudication and held-out evaluation remain pending. New renderings of saved cases illustrate adaptive presentation without establishing a usability benefit. The findings support separate accounting for numerical integrity, requested-answer coverage, and compiler contributions within a bounded task registry. Writing assistance is disclosed \cite{openaiCodex}.}
+\onecolumn\maketitle\normalsize\setcounter{footnote}{0}\vfill
+\input{sections/introduction}
+\input{sections/related}
+\input{sections/data}
+\input{sections/system}
+\input{sections/experiment}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+\section{\uppercase{AI Assistance Disclosure}}
+\label{sec:disclosure}
+\noindent OpenAI Codex \cite{openaiCodex} assisted all sections, the abstract, captions, bibliography, implementation, and figure/verification code, including substantive drafting and source tracing. This differs from the experimental Qwen checkpoint; drafting ran no experimental generations. Figures depict saved data or programmatic diagrams. Assisted checks are not independent human review. Author verification, adjudication, and disclosure placement remain pending. No AI system is an author.
+\bibliographystyle{apalike}
+\bibliography{references}
+\end{document}
