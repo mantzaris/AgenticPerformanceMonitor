@@ -33,8 +33,9 @@ episodes nor runs analyses on source observations.
 
 ## Publication asset mapping
 
-All main figures use the official **158.0134 mm** text width. Captions are in their
-section sources; original captions and captures remain unchanged.
+All main figures use the official **158.0134 mm** text width. Captions, section prose,
+and source-generated result macros/tables are in `main.tex`; original captions and
+captures remain unchanged.
 
 | Paper asset | Preserved source | Publication operation / minimum critical text |
 | --- | --- | --- |

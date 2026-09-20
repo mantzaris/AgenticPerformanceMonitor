@@ -17,9 +17,14 @@ python3 paper/draft_v1/scripts/build.py
 python3 paper/draft_v1/scripts/verify.py
 ```
 
-The first command regenerates tables from saved reports, publication figures from
-the preserved plotting path/captures, and runs pdfLaTeX/BibTeX/pdfLaTeX twice. The
-second renders every page, opens it in CPU-only Chromium, checks the saved reference
+The first command refreshes the marked result macros and tables directly in
+`main.tex` from saved reports, regenerates publication figures from the preserved
+plotting path/captures, and runs pdfLaTeX/BibTeX/pdfLaTeX twice. All manuscript prose,
+captions, equations and tables are in this single `.tex` file; there are no section
+files or LaTeX `\input` dependencies. Bibliography, figures and official template
+assets remain separate. Edit prose directly in `main.tex`; blocks between
+`% BEGIN GENERATED:` and `% END GENERATED:` are maintained by `scripts/generate.py`.
+The second command renders every page, opens it in CPU-only Chromium, checks the saved reference
 states, and counts raster-panel text. The third performs manuscript-specific
 consistency/preservation checks. None calls an evaluator, analytical dispatcher,
 model, GPU, external service, or reserved data source. Chromium may need the local
@@ -52,11 +57,14 @@ Current-source verification is in [venue notes](review/VENUE_AND_TEMPLATE.md).
 
 Sources and accountability:
 
-- [Organized prose](sections/), [main.tex](main.tex), [bibliography](references.bib).
+- [Complete LaTeX source](main.tex), [bibliography](references.bib).
 - [Claim/figure/table provenance](review/CLAIM_TO_EVIDENCE.md),
   [reference checks](review/REFERENCES_VERIFIED.md), [generated manifests](generated/).
 - [Verification](checks/verification.json), [count method](checks/character_count.json),
   [browser record](checks/browser.json), [inspection notes](review/INSPECTION.md).
+- [Single-file refactor check](checks/single_file_refactor.json): clean builds before
+  and after consolidation produce byte-identical PDFs; the pre-existing local PDF
+  edit was preserved.
 - [Original full review packet](../../artifacts/predraft_v1/human_review/index.html)
   remains pending and unchanged. Internal links in these notes are intentionally
   absent from the anonymous PDF.

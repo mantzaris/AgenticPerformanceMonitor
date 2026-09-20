@@ -15,6 +15,13 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 def main():
     checks={}
+    source=(HERE/'main.tex').read_text()
+    assert sorted(p.relative_to(HERE).as_posix() for p in HERE.rglob('*.tex'))==['main.tex']
+    assert not re.search(r'\\(?:input|include)\b',source)
+    for name in ['numbers','outcomes','paired','costs']:
+        assert source.splitlines().count(f'% BEGIN GENERATED: {name}')==1
+        assert source.splitlines().count(f'% END GENERATED: {name}')==1
+    checks['single_file_source']='All prose, captions, equations and generated result blocks are in main.tex; no external LaTeX fragments.'
     old=read(HERE/'checks/historical_inventory.json')
     changed=[p for p,h in old['files'].items() if not (ROOT/p).exists() or sha(ROOT/p)!=h]
     assert not changed,changed

@@ -40,9 +40,10 @@ effect, unrestricted understanding, usability gain or general reliability is cla
 
 ## Deliverables
 
-- [LaTeX entry point](paper/draft_v1/main.tex), [organized sections](paper/draft_v1/sections/),
+- [Complete single-file LaTeX source](paper/draft_v1/main.tex),
   [bibliography](paper/draft_v1/references.bib), [build README](paper/draft_v1/README.md).
-- [Publication figures](paper/draft_v1/figures/), [generated tables and provenance](paper/draft_v1/generated/).
+- [Publication figures](paper/draft_v1/figures/), [generated result data and provenance](paper/draft_v1/generated/).
+  Generated tables and result macros are embedded in marked blocks in `main.tex`.
   The assessment figure is retained as an unused author-review candidate;
   the main paper does not rely on a supplement.
 - [All page proofs](paper/draft_v1/checks/pages.html),

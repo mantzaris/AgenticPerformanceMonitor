@@ -1,0 +1,17 @@
+{
+  "starting_commit": "e39ab068254be725a80a289834dc3395956a0648",
+  "initial_status": " M paper/draft_v1/main.pdf\n",
+  "existing_working_pdf_sha256": "1318b499c1bdcffac7c855ec4e9b15aec15ed8a5cd4959e3d4835db6f66cc633",
+  "baseline_build_pdf_sha256": "0065edd8e58fab37675156f02e7a9daee64caf62321cd793dc904b25ac8143a8",
+  "refactored_build_pdf_sha256": "0065edd8e58fab37675156f02e7a9daee64caf62321cd793dc904b25ac8143a8",
+  "pdf_byte_identical": true,
+  "extracted_text_identical": true,
+  "existing_working_pdf_preserved": true,
+  "pages": 12,
+  "only_manuscript_tex": "paper/draft_v1/main.tex",
+  "inlined_fragments_removed": 12,
+  "regeneration_idempotent": true,
+  "marker_checks": "Prose preserved; missing/duplicate markers rejected without writing.",
+  "manuscript_consistency_checks": "PASS on isolated clean build, including source structure, frozen-result preservation, PDF and prior proof hashes, citations, fonts and page count.",
+  "build": "Fixed-epoch pdfLaTeX, BibTeX, pdfLaTeX twice in an isolated copy; existing working PDF never overwritten."
+}
