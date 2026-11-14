@@ -41,7 +41,7 @@ def main():
     for label, pattern in [
         ("title", r"\\title\{([^\n]+)\}"),
         ("abstract", r"\\abstract\{(.*?)\}\n\\onecolumn"),
-        ("conclusion", r"\\section\{\\uppercase\{Conclusion\}\}(.*?)%\\section\{\\uppercase\{AI Assistance Disclosure\}\}"),
+        ("conclusion", r"\\section\{\\uppercase\{Conclusion\}\}(.*?)%?\\section\{\\uppercase\{AI Assistance Disclosure\}\}"),
         ("introduction", r"\\section\{\\uppercase\{Introduction\}\}(.*?)\\section\{\\uppercase\{Related Work\}\}"),
     ]:
         assert re.search(pattern, old, re.S).group(1).strip() == re.search(pattern, new, re.S).group(1).strip(), label

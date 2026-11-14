@@ -1,7 +1,7 @@
 \documentclass[a4paper,twoside]{article}
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised/main.tex    Sat Nov 14 12:25:02 2026
-%DIF ADD /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised2/main.tex   Sat Nov 14 12:57:17 2026
+%DIF ADD /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised2/main.tex   Sat Nov 14 13:00:24 2026
 \usepackage{graphicx}
 \usepackage{calc}
 \usepackage{amssymb}
@@ -286,25 +286,29 @@ The comparison covers 24 development people from two offerings\DIFdelbegin \DIFd
 }
 
 \DIFadd{We have not tested whether users understand the adaptive views better than a fixed dashboard}\DIFaddend . A user study should compare interpretation accuracy, \DIFdelbegin \DIFdel{completion time , and missing-value/reference errors against a fixed dashboard; no such outcomes are available. New analyses here reuse development cases and do not replace independent validation. Any adjudicated scores should be reported separately from the frozen results.
-}\DIFdelend \DIFaddbegin \DIFadd{time to answer, and mistakes about missing values and peer groups. Neither the additional statistical tests nor the duplicate-row check answers that usability question.
-}
-
-\DIFaddend OpenAI Codex \cite{openaiCodex} assisted with the programming environment, figure production and language editing.
-
+ OpenAI Codex \mbox{%DIFAUXCMD
+\cite{openaiCodex} }\hspace{0pt}%DIFAUXCMD
+assisted with the programming environment, figure production and language editing}\DIFdelend \DIFaddbegin \DIFadd{time to answer, and mistakes about missing values and peer groups. Neither the additional statistical tests nor the duplicate-row check answers that usability question}\DIFaddend .
 
 \section{\uppercase{Conclusion}}
 \label{sec:conclusion}
 \noindent \DIFaddbegin \DIFadd{The implemented dashboards connect agent selections with deterministic calculations, traceable evidence, and reusable presentation templates. Personal timelines, peer comparisons, observation summaries, and assessment views support different questions through shared analyses. Operators can inspect supporting records and switch among saved comparisons while retaining their analytical context.
 }
 
-\DIFaddend Across 24 development cases, explicit analytical identifiers did not improve frozen completeness, while enumeration remained complete and cheaper. \DIFaddbegin \DIFadd{The evaluation nevertheless provides concrete guidance for system development. }\DIFaddend Correctly calculated values can refer to the wrong period or leave a question partly unanswered, while automatically supplied context can complete an answer without model selection\DIFaddbegin \DIFadd{. Tracking these contributions separately makes both successful behavior and remaining selection problems visible.
+\DIFaddend Across 24 development cases, explicit analytical identifiers did not improve frozen completeness, while enumeration remained complete and cheaper. \DIFaddbegin \DIFadd{The evaluation nevertheless provides concrete guidance for system development. }\DIFaddend Correctly calculated values can refer to the wrong period or leave a question partly unanswered, while automatically supplied context can complete an answer without model selection. \DIFaddbegin \DIFadd{Tracking these contributions separately makes both successful behavior and remaining selection problems visible.
 }
 
-\DIFadd{The contribution combines a working tool, interface examples, and reproducible evaluation of answer completeness}\DIFaddend . Answer equivalence and measurement choices require review before validation on reserved data. Evaluation should examine operator understanding and usability.
+\DIFadd{The contribution combines a working tool, interface examples, and reproducible evaluation of answer completeness. }\DIFaddend Answer equivalence and measurement choices require review before validation on reserved data. Evaluation should examine operator understanding and usability.
 
-%\section{\uppercase{AI Assistance Disclosure}}
-%\label{sec:disclosure}
-%\noindent OpenAI Codex \cite{openaiCodex} assisted with the develop. The experimental model was Qwen2.5-14B-Instruct. Figures depict saved results or programmatic diagrams. The authors retain responsibility for the content.
+%DIF < \section{\uppercase{AI Assistance Disclosure}}
+%DIF < \label{sec:disclosure}
+%DIF < \noindent OpenAI Codex \cite{openaiCodex} assisted with the develop. The experimental model was Qwen2.5-14B-Instruct. Figures depict saved results or programmatic diagrams. The authors retain responsibility for the content.
+\DIFaddbegin \section{\uppercase{AI Assistance Disclosure}}
+\label{sec:disclosure}
+\noindent \DIFadd{OpenAI Codex \mbox{%DIFAUXCMD
+\cite{openaiCodex} }\hspace{0pt}%DIFAUXCMD
+was used to assist with code generation, figure production, and language editing of the manuscript draft.
+}\DIFaddend 
 
 
 \bibliographystyle{apalike}

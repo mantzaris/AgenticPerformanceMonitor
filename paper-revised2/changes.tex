@@ -1,7 +1,7 @@
 \documentclass[a4paper,twoside]{article}
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL /home/resort/Documents/repos/AgenticPerformanceMonitor/paper/draft_v1/main.tex   Sat Nov 14 11:57:01 2026
-%DIF ADD /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised2/main.tex   Sat Nov 14 12:57:17 2026
+%DIF ADD /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised2/main.tex   Sat Nov 14 13:00:24 2026
 \usepackage{graphicx}
 \usepackage{calc}
 \usepackage{amssymb}
@@ -483,7 +483,7 @@ C21/C23 \DIFdelbegin \DIFdel{display }\DIFdelend \DIFaddbegin \DIFadd{show }\DIF
 \DIFdelFL{79 }%DIFDELCMD < & %%%
 \DIFdelFL{0 / 8 }%DIFDELCMD < & %%%
 \DIFdelFL{53 }%DIFDELCMD < & %%%
-\DIFdelFL{238,675 / 10}\DIFdelendFL , \DIFdelbeginFL \DIFdelFL{012 }%DIFDELCMD < & %%%
+\DIFdelFL{238,675 / 10,012 }%DIFDELCMD < & %%%
 \DIFdelFL{504.21 }%DIFDELCMD < & %%%
 \DIFdelFL{16.87 }%DIFDELCMD < \\
 %DIFDELCMD < %%%
@@ -491,7 +491,7 @@ C21/C23 \DIFdelbegin \DIFdel{display }\DIFdelend \DIFaddbegin \DIFadd{show }\DIF
 \DIFdelFL{82 }%DIFDELCMD < & %%%
 \DIFdelFL{4 / 12 }%DIFDELCMD < & %%%
 \DIFdelFL{63 }%DIFDELCMD < & %%%
-\DIFdelFL{262,031 / 10, 695 }%DIFDELCMD < & %%%
+\DIFdelFL{262}\DIFdelendFL , \DIFdelbeginFL \DIFdelFL{031 / 10, 695 }%DIFDELCMD < & %%%
 \DIFdelFL{536.32 }%DIFDELCMD < & %%%
 \DIFdelFL{21.19 }%DIFDELCMD < \\
 %DIFDELCMD < \hline
@@ -548,15 +548,13 @@ B changes both metadata handling and catalogue availability, so its comparison w
 \DIFdelbegin \DIFdel{Assessment views preserve the timing needed to interpret apparently conflicting records. In A17, weeks~8--11 contain 0.25 non-banked submissions per observed week and zero scheduled non-submissions. A day-55 snapshot nevertheless records no submission for the day-54 assessment. These summaries describe different periods, and later submissions do not rewrite earlier snapshots. Grades and banking approval remain unavailable. The examples demonstrate implemented adaptation, while its effects on operator understanding and usability require direct evaluation}\DIFdelend \DIFaddbegin \DIFadd{These figures show how recorded activity can be presented and compared. They do not show improved grades or knowledge acquisition: no teaching intervention or learning-outcome study was conducted. A study with students would be needed to establish such benefits}\DIFaddend .
 
 \subsection{\DIFdelbegin \DIFdel{Scope and }\DIFdelend Further Validation}
-The comparison covers 24 development people from two offerings. \DIFdelbegin \DIFdel{Its 96 outputs are paired method comparisons, not independent participants. }\DIFdelend Task families and wording were known, and one checkpoint with greedy decoding does not establish performance across models, paraphrases, or deployments. Reserved people remain unevaluated\DIFdelbegin \DIFdel{, and earlier development provides no independent confirmation. The next validation step should resolve these judgments before fixing the system, evaluator, outcomes, and person-level sampling plan for reserved data. Any revised scoring should preserve the original results and be reported as a separate post hoc analysis. This progression builds on the implemented tool and its documented examples while keeping stronger reliability claims tied to independent evidence.
-}\DIFdelend \DIFaddbegin \DIFadd{. Human review of answer completeness should precede an evaluation on those independent cases, with the scoring rules fixed in advance.
+The comparison covers 24 development people from two offerings. \DIFdelbegin \DIFdel{Its 96 outputs are paired method comparisons, not independent participants. }\DIFdelend Task families and wording were known, and one checkpoint with greedy decoding does not establish performance across models, paraphrases, or deployments. Reserved people remain unevaluated\DIFdelbegin \DIFdel{, and earlier development provides no independent confirmation. The next validation step should resolve these judgments before fixing the system, evaluator, outcomes, }\DIFdelend \DIFaddbegin \DIFadd{. Human review of answer completeness should precede an evaluation on those independent cases, with the scoring rules fixed in advance.
 }
 
-\DIFadd{We have not tested whether users understand the adaptive views better than a fixed dashboard. A user study should compare interpretation accuracy, time to answer, and mistakes about missing values and peer groups. Neither the additional statistical tests nor the duplicate-row check answers that usability question.
-}
-
-\DIFaddend OpenAI Codex \cite{openaiCodex} assisted with the programming environment, figure production and language editing.
-
+\DIFadd{We have not tested whether users understand the adaptive views better than a fixed dashboard. A user study should compare interpretation accuracy, time to answer, }\DIFaddend and \DIFdelbegin \DIFdel{person-level sampling plan for reserved data. Any revised scoring should preserve the original results and be reported as a separate post hoc analysis. This progression builds on the implemented tool and its documented examples while keeping stronger reliability claims tied to independent evidence.
+ OpenAI Codex \mbox{%DIFAUXCMD
+\cite{openaiCodex} }\hspace{0pt}%DIFAUXCMD
+assisted with the programming environment, figure production and language editing}\DIFdelend \DIFaddbegin \DIFadd{mistakes about missing values and peer groups. Neither the additional statistical tests nor the duplicate-row check answers that usability question}\DIFaddend .
 
 \section{\uppercase{Conclusion}}
 \label{sec:conclusion}
@@ -566,9 +564,15 @@ Across 24 development cases, explicit analytical identifiers did not improve fro
 
 The contribution combines a working tool, interface examples, and reproducible evaluation of answer completeness. Answer equivalence and measurement choices require review before validation on reserved data. Evaluation should examine operator understanding and usability.
 
-%\section{\uppercase{AI Assistance Disclosure}}
-%\label{sec:disclosure}
-%\noindent OpenAI Codex \cite{openaiCodex} assisted with the develop. The experimental model was Qwen2.5-14B-Instruct. Figures depict saved results or programmatic diagrams. The authors retain responsibility for the content.
+%DIF < \section{\uppercase{AI Assistance Disclosure}}
+%DIF < \label{sec:disclosure}
+%DIF < \noindent OpenAI Codex \cite{openaiCodex} assisted with the develop. The experimental model was Qwen2.5-14B-Instruct. Figures depict saved results or programmatic diagrams. The authors retain responsibility for the content.
+\DIFaddbegin \section{\uppercase{AI Assistance Disclosure}}
+\label{sec:disclosure}
+\noindent \DIFadd{OpenAI Codex \mbox{%DIFAUXCMD
+\cite{openaiCodex} }\hspace{0pt}%DIFAUXCMD
+was used to assist with code generation, figure production, and language editing of the manuscript draft.
+}\DIFaddend 
 
 
 \bibliographystyle{apalike}

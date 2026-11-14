@@ -279,7 +279,7 @@
  
  \begin{table*}[!t]
  \caption{Frozen outcomes. Every main endpoint retains all 24 cases per condition. ``Selected complete'' excludes compiler-supplied requested answers; enumeration's selections are deterministic. ``Both insuff.'' uses the four cases requesting separate personal and peer insufficiency answers. B's completeness has the answer-form caveat in Section~\ref{sec:caveat}.}
-@@ -257,134 +171,54 @@
+@@ -257,135 +171,52 @@
  \space % Preserve the trailing space from the original table input.
  \end{table*}
  
@@ -436,6 +436,7 @@
 - OpenAI Codex \cite{openaiCodex} assisted with the programming environment, figure production and language editing.
 -
 -
+-
 +\subsection{When an Agent Might Help}
 +Enumeration answered all questions and was cheaper. For this small set of predefined tasks, the study shows no advantage in completeness or running time. An agent might help when a question is ambiguous, needs clarification, or combines analyses not covered by existing rules. We did not test those situations. A useful next comparison would give both approaches the same opportunity to ask clarifying questions and the same analysis budget.
 +
@@ -448,28 +449,28 @@
 +The comparison covers 24 development people from two offerings. Task families and wording were known, and one checkpoint with greedy decoding does not establish performance across models, paraphrases, or deployments. Reserved people remain unevaluated. Human review of answer completeness should precede an evaluation on those independent cases, with the scoring rules fixed in advance.
 +
 +We have not tested whether users understand the adaptive views better than a fixed dashboard. A user study should compare interpretation accuracy, time to answer, and mistakes about missing values and peer groups. Neither the additional statistical tests nor the duplicate-row check answers that usability question.
-+
-+OpenAI Codex \cite{openaiCodex} assisted with the programming environment, figure production and language editing.
- 
  
  \section{\uppercase{Conclusion}}
-@@ -393,18 +227,13 @@
+ \label{sec:conclusion}
+@@ -393,16 +224,11 @@
  
  Across 24 development cases, explicit analytical identifiers did not improve frozen completeness, while enumeration remained complete and cheaper. The evaluation nevertheless provides concrete guidance for system development. Correctly calculated values can refer to the wrong period or leave a question partly unanswered, while automatically supplied context can complete an answer without model selection. Tracking these contributions separately makes both successful behavior and remaining selection problems visible.
  
 -The contribution combines a working tool, interface examples, and reproducible evaluation of answer completeness. Answer equivalence and measurement choices require review before validation on reserved data. Evaluation should examine operator understanding and usability. 
 -
 -
+-
+-%\section{\uppercase{AI Assistance Disclosure}}
+-%\label{sec:disclosure}
+-%\noindent OpenAI Codex \cite{openaiCodex} assisted with the develop. The experimental model was Qwen2.5-14B-Instruct. Figures depict saved results or programmatic diagrams. The authors retain responsibility for the content.
+-
+-
+-
 +The contribution combines a working tool, interface examples, and reproducible evaluation of answer completeness. Answer equivalence and measurement choices require review before validation on reserved data. Evaluation should examine operator understanding and usability.
++
++\section{\uppercase{AI Assistance Disclosure}}
++\label{sec:disclosure}
++\noindent OpenAI Codex \cite{openaiCodex} was used to assist with code generation, figure production, and language editing of the manuscript draft.
  
- %\section{\uppercase{AI Assistance Disclosure}}
- %\label{sec:disclosure}
- %\noindent OpenAI Codex \cite{openaiCodex} assisted with the develop. The experimental model was Qwen2.5-14B-Instruct. Figures depict saved results or programmatic diagrams. The authors retain responsibility for the content.
  
- 
--
--
--
  \bibliographystyle{apalike}
- \bibliography{references}
- \end{document}
