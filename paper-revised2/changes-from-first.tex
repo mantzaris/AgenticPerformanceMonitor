@@ -1,0 +1,300 @@
+\documentclass[a4paper,twoside]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised/main.tex    Sat Nov 14 12:25:02 2026
+%DIF ADD /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised2/main.tex   Sat Nov 14 12:51:41 2026
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{pslatex}
+\usepackage{apalike}
+\usepackage{algorithm2e}
+\usepackage[bottom]{footmisc}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{SCITEPRESS}
+\pdfinfo{/Title (Agentic Dashboards: Numerical Validity, Answer Completeness, and with Adaptive Presentation) /Author () /Subject (Anonymous author-review manuscript draft) /Keywords (Analytical agents; evidence provenance; longitudinal dashboards)}
+% BEGIN GENERATED: numbers
+\newcommand{\EnumVisible}{24}
+\newcommand{\EnumSelected}{24}
+\newcommand{\EnumAccepted}{24}
+\newcommand{\AVisible}{21}
+\newcommand{\ASelected}{18}
+\newcommand{\AAccepted}{22}
+\newcommand{\BVisible}{15}
+\newcommand{\BSelected}{14}
+\newcommand{\BAccepted}{24}
+\newcommand{\CVisible}{15}
+\newcommand{\CSelected}{11}
+\newcommand{\CAccepted}{21}
+% END GENERATED: numbers
+\newcommand{\draftassist}{\footnote{Writing assistance: OpenAI Codex \cite{openaiCodex}; see Section~\ref{sec:disclosure}.}}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+\title{Agentic Dashboards: Numerical Validity, Answer Completeness, and Adaptive Presentation}
+\author{}
+\keywords{Analytical Agents, Longitudinal Data, Evidence Provenance, Answer Completeness, Adaptive Dashboards.}
+\abstract{A question such as "Has this student's activity changed, and how does it compare with their peers?" often requires a dashboard to bring several kinds of information together. We present an agentic dashboard system that organizes real educational activity and assessment records into views suited to different questions. A language model chooses predefined analyses and selects results. Deterministic tools calculate the quantities, validation links them to supporting records, and presentation templates arrange the selected information. The dashboards highlight personal change, compare peer groups and time periods, distinguish recorded zeros from unavailable observations, and present assessment histories. Users can switch among saved comparisons and inspect the evidence behind displayed values. We evaluate three selection interfaces using Qwen2.5-14B-Instruct on 24 development cases from two Open University course offerings. The interfaces produced \AVisible, \BVisible, and \CVisible\ complete visible answers, respectively, compared with \EnumVisible\ for a deterministic baseline. We also distinguish answers selected by the model from information added automatically by the dashboard software. The saved outputs reveal that correct, traceable values can still refer to the wrong period or leave part of a question unanswered. More explicit analytical labels did not improve the original completeness scores, and some equivalent answer forms still require human review. The contribution combines a working adaptive dashboard system, concrete interface examples, and a comparative evaluation showing how analysis selection, evidence checking, and presentation jointly shape the answers users receive.}
+\onecolumn\maketitle\normalsize\setcounter{footnote}{0}\vfill
+
+
+\section{\uppercase{Introduction}}
+\label{sec:intro}
+\noindent Dashboards can help people understand how their activity changes over time and how it compares with that of others. The most useful view, however, depends on the question. A student asking about recent progress needs a comparison with their own earlier activity. A student asking how they compare with others needs a suitable peer group. If recent observations are unavailable, the dashboard should explain the gap instead of suggesting a trend.
+This paper develops an agentic dashboard tool around that idea. Using educational activity and assessment records, the tool presents views for personal change, peer comparisons, limited observations, and assessment history. Each view brings the relevant information into focus. For example, a reference selector lets the user explore saved comparisons, while an observation timeline distinguishes weeks with no recorded activity from periods when the student was not eligible to participate.
+
+The system combines a language model with predefined analysis tools and presentation templates. The model chooses analyses and selects results to answer the question. The tools calculate the values, and the software checks their supporting records before assembling the dashboard. A separate presentation layer arranges the selected information into the different views. This division makes the displayed results traceable while allowing the content to vary across questions.
+We examine three ways of providing analytical information to the model. These range from a compact interface to richer descriptions of data availability and comparison scope, followed by explicit labels identifying the measure, periods, and reference group. The same model and calculation tools are used throughout. A deterministic baseline selects the required analyses through predefined rules for the same question families.
+
+The evaluation asks whether clearer analytical descriptions help the model produce more complete answers. It also distinguishes information selected by the model from context added automatically by the dashboard software. Inspecting the saved outputs shows where the system answers the question successfully and where it retrieves correct information but chooses an unsuitable comparison or leaves part of the question unanswered.
+The contribution is a working dashboard system, a comparison of its selection interfaces, and concrete examples of its behavior. More explicit labels did not improve the original completeness scores. Some alternative answer forms still require human review. The interface examples illustrate practical adaptation, while the evaluation identifies limitations to address in further development.
+
+
+\section{\uppercase{Related Work}}
+\label{sec:related}
+\noindent NL4DV connects natural language queries to data attributes, analytical tasks, and Vega-Lite specifications \cite{nl4dv}. NL4DV-LLM extends this approach with conversational interaction and ambiguity handling \cite{sah2024}.
+\DIFaddbegin 
+
+\DIFaddend LIDA combines data summarization, goal exploration, visualization code generation and evaluation, and infographic generation \cite{lida}. Data Formulator~2 supports iterative authoring through graphical and natural language inputs, generated data transformations, and branching histories \cite{dataformulator2}. Our system adopts a narrower division of work. The model selects predefined analyses and results, while calculation tools and presentation templates produce the dashboard.
+\DIFaddbegin 
+
+\DIFaddend Vega-Lite expresses visual encodings and interactions through specifications that compile into graphical displays \cite{vegalite}. Draco represents visualization design knowledge through hard and soft constraints \cite{draco}. InsightBench studies agents that formulate questions, perform analyses, and summarize insights using datasets containing planted patterns \cite{insightbench}. Here, the questions are supplied, and the observations come from real educational records. We examine whether the model selects enough information to answer each question.
+\DIFaddbegin 
+
+\DIFaddend VisEval further distinguishes executable validity, satisfaction of chart and data requirements, and readability \cite{viseval}. Its acceptance of multiple valid charts is particularly relevant to assessing our dashboards. A requested value may appear in different supported answer forms, so checking one expected representation can miss a valid response. This motivates separate checks of numerical support and answer completeness. Some equivalent forms in our development comparison still require human \DIFdelbegin \DIFdel{adjudication.
+}\DIFdelend \DIFaddbegin \DIFadd{review.
+}
+
+\DIFaddend W3C PROV-DM provides concepts for describing entities, activities, agents, and derivations \cite{prov}. This perspective motivates tracking the source results, model selections, automatically supplied context, and final presentation separately.
+
+\section{\uppercase{Data and Analytical Definitions}}
+\label{sec:data}
+\noindent We use the Open University Learning Analytics Dataset (OULAD), which links course offerings, registrations, assessments, and virtual learning environment interactions \cite{oulad}. The creator deposited UCI archive is distributed under CC BY~4.0 \cite{ouladDataset}. Our audit counted 28,785 distinct people, 32,593 registrations, 173,912 assessment records, and 10,655,280 interaction rows. We checked duplicate keys and many-to-one joins and aggregated interaction and assessment records before constructing weekly features.
+
+\subsection{Development Population and Time}
+We selected AAA\_2013J and BBB\_2013B in \DIFdelbegin \DIFdel{lexical }\DIFdelend \DIFaddbegin \DIFadd{alphabetical }\DIFaddend order, requiring \DIFaddbegin \DIFadd{at least }\DIFaddend 100 development \DIFdelbegin \DIFdel{people }\DIFdelend \DIFaddbegin \DIFadd{students }\DIFaddend with eight fully eligible weeks and two dated non-examination assessments by day~83. The offerings contained 254 and 1,269 development registrations, representing 1,523 distinct people. A hash assigned approximately 70\% of people to development and reserved 8,583 people, keeping all registrations for each person together. Reserved observations were not used for case selection, fitting, prompt development, or the present comparison.
+
+Week~$w$ covers days $7w$ through $7w+6$ from the offering's start. Only calendar weeks ending by the cutoff are included. Eligibility starts at registration and ends before the withdrawal day. Future withdrawal is masked, and unknown registration leaves eligibility unknown. These rules reconstruct availability retrospectively and have not been validated as a real-time feed.
+
+\subsection{Recorded Measures and Availability}
+For person $i$ in week $w$, recorded clicks per eligible day are $x_{iw}=c_{iw}/d_{iw}$\DIFdelbegin \DIFdel{when eligible days$d_{iw}>0$}\DIFdelend \DIFaddbegin \DIFadd{, where $c_{iw}$ counts clicks on $d_{iw}>0$ eligible days}\DIFaddend . Unknown eligibility or no eligible days makes the rate unavailable; an eligible week without recorded clicks receives zero. Logging completeness remains unknown. Click counts do not measure ability, study time, or learning.
+
+Other weekly measures are days with positive activity, distinct resources, non-banked submissions, and scheduled assessments without a recorded submission. Submissions count in their recorded week within eligibility and the cutoff. The scheduled measure counts dated non-examination assessments due during eligibility without a non-banked submission by that week's end. Unknown exemptions prevent interpreting every missing submission as an unmet obligation. Later submissions do not rewrite earlier status snapshots.
+
+Inputs exclude future activity, final results, and future withdrawal. Scores are withheld because submission dates do not establish grade availability. Banked assessments are excluded because approval timing is unknown. The \DIFdelbegin \DIFdel{primary analysis preserves repeated source rows: the }\DIFdelend \DIFaddbegin \DIFadd{original calculations retain repeated rows. The }\DIFaddend audit found 787,170 \DIFdelbegin \DIFdel{exact duplicate excess rows}\DIFdelend \DIFaddbegin \DIFadd{extra copies of identical rows, }\DIFaddend and 2,195,960 \DIFdelbegin \DIFdel{excess rows under a candidate person-offering-site-day key. That key is not assumed to identify unique }\DIFdelend \DIFaddbegin \DIFadd{extra rows sharing the same person, offering, site, and day. These combinations do not necessarily identify individual }\DIFaddend events. Section~\ref{sec:sensitivity} \DIFdelbegin \DIFdel{reports a post hoc exact-row sensitivity for }\DIFdelend \DIFaddbegin \DIFadd{checks how removing exact duplicates affects }\DIFaddend the current cases.
+
+\subsection{Personal and Peer Comparisons}
+Let $O_i(W)$ contain eligible weeks with recorded values in period $W$. The person's mean is
+\begin{equation}
+m_i(W)=\frac{1}{|O_i(W)|}\sum_{w\in O_i(W)}x_{iw},
+\end{equation}
+unavailable when $O_i(W)$ is empty. Weeks receive equal weight, including partial weeks after calculating daily rates; this differs from pooling clicks and eligible days. \DIFdelbegin \DIFdel{Personal }\DIFdelend \DIFaddbegin \DIFadd{For earlier period $W_b$ and recent period $W_r$, personal }\DIFaddend change $\Delta_i=m_i(W_r)-m_i(W_b)$ requires two observed weeks in each period.
+
+For reference group $g$ in period $W_g$, peers with at least one nonmissing week form $P_g$. Their equally weighted mean is $\mu_g(W_g)=|P_g|^{-1}\sum_{j\in P_g}m_j(W_g)$, and the focal difference is $D_{i,g}=m_i(W_r)-\mu_g(W_g)$. Comparisons require 20 peers and two focal weeks; individual means can remain available below these prototype thresholds.
+
+The three reference groups include other development students in the offering, those sharing first-attempt or repeat-attempt status, and offering peers in the earlier period. All task participants are excluded across registrations. Earlier-period comparisons change time and potentially membership; they are not necessarily fairer or causally adjusted. Weekly trajectories always use same-week peers.
+
+We draw 500 seeded bootstrap samples of people, retaining their period means, and use the 2.5th and 97.5th percentiles \cite{efron}. Weekly bands repeat this separately by week. No interval is shown with fewer than two peers. Intervals concern peer means only, not individual predictions, personal change, focal differences, or differences between references.
+
+\section{\uppercase{From Questions to Dashboards}}
+\label{sec:system}
+\noindent The model receives the person, offering, cutoff, periods, task family, question, and shared feature/reference definitions. Structured requests let it run analytical batches, inspect compact results, and request more information or finish. Evaluation-only requirements remain hidden, and generated analysis code is not executed.
+
+\subsection{Evidence and Answer Validation}
+Evidence records \DIFdelbegin \DIFdel{retain features}\DIFdelend \DIFaddbegin \DIFadd{connect each result to its feature}\DIFaddend , units, periods, counts, estimates, support, observation and assessment states, \DIFdelbegin \DIFdel{uncertainty, and source/configuration hashes}\DIFdelend \DIFaddbegin \DIFadd{and uncertainty. They also retain source and configuration hashes, random seeds, and execution details}\DIFaddend . The model receives summaries rather than raw rows\DIFdelbegin \DIFdel{. Each peer comparison is identified by $I_{\mathrm{peer}}=(i,o,t,f,W_f,g,W_g)$: }\DIFdelend \DIFaddbegin \DIFadd{, while full evidence remains available for inspection.
+}
+
+\DIFadd{Each peer-comparison label identifies the }\DIFaddend person, offering, cutoff, \DIFdelbegin \DIFdel{feature, focal period, reference group, and reference period. A personal comparison instead uses $I_{\mathrm{personal}}=(i,o,t,f,W_b,W_r)$, omitting peer meaning. Identifiers are generated only for returned evidence, without hidden expected answers. }%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{Unknown , ambiguous, or altered identifiers are rejectedwithout substitution. Repeated personal summaries are equivalent only when their person, feature}\DIFdelend \DIFaddbegin \DIFadd{measure, periods, and peer group. Personal-change labels identify the earlier and recent periods without a peer group. Labels can refer only to returned results. Unknown or ambiguous labels are rejected. For the same person, measure}\DIFaddend , units, \DIFdelbegin \DIFdel{cutoff, periods, means}\DIFdelend \DIFaddbegin \DIFadd{and cutoff, repeated personal summaries can share a label only when their values, periods}\DIFaddend , counts, \DIFdelbegin \DIFdel{change, and support match exactly.
+One returned identifier is selected consistently and its alternatives preserved.
+}\DIFdelend \DIFaddbegin \DIFadd{and support agree exactly.
+}\DIFaddend 
+
+Validation \DIFdelbegin \DIFdel{independently checks }\DIFdelend \DIFaddbegin \DIFadd{checks results against the trusted development data, including }\DIFaddend summaries, trajectories, counts, intervals, units, groups, periods, and eligibility\DIFdelbegin \DIFdel{against trusted development data}\DIFdelend . Changing values and recomputing their hash cannot bypass these checks. \DIFdelbegin \DIFdel{Numerical consistency does not establish answer completeness}\DIFdelend \DIFaddbegin \DIFadd{These checks establish consistency with the implementation, while scientific adequacy and answer completeness require separate assessment}\DIFaddend .
+
+\subsection{Building and Tracing Answers}
+Selected peer comparisons become claims and panels; personal results become claims and trajectories. Support rules determine whether wording describes a result or explains insufficient observations. Unknown grades remain unavailable measurements. The compiler\DIFaddbegin \DIFadd{, which builds the dashboard, }\DIFaddend adds required timelines \DIFdelbegin \DIFdel{, observation and assessment context, and qualifications without filling in missing comparison or personal claims}\DIFdelend \DIFaddbegin \DIFadd{and explanations about available records. It does not add missing peer or personal comparisons}\DIFaddend . These additions can still answer a requested item, such as grade availability. \DIFdelbegin \DIFdel{Provenance records modelselections, identifier resolution, metadata, and compiler additions separately}\DIFdelend \DIFaddbegin \DIFadd{The saved record distinguishes the model's choices from information added by the software}\DIFaddend . All numerical calculation and insertion are deterministic.
+
+\subsection{Adaptive Presentation of Saved Answers}
+The publication views reorganize saved content after the experiment. They introduce no evidence, corrected omissions, or revised scores. Layout follows content rather than case identifiers. Equivalent personal duplicates may be combined with original multiplicity recorded; distinct peer claims remain available. Evaluation uses complete original dashboards.
+
+Figure~\ref{fig:adaptation} shows personal and limited-observation views. All views retain expandable evidence, zero/unavailable distinctions, and intervals for peer means only. Figure~\ref{fig:reference} switches between saved model-selected comparisons: values, counts, labels, charts, and evidence links update together without recalculation or new analysis.
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/adaptation.pdf}
+\caption{Saved compact-A answers. (a) Case 01: personal change and recent peer context; change uses unrounded means. Shading gives pointwise 95\% bootstrap intervals for peer means, not personal change. (b) Case 09: zeros, ineligibility, and unavailable recent values. Its observation timeline and grade context were compiler supplied; acceptance followed one repair. These examples do not establish educational or usability improvements.}
+\label{fig:adaptation}
+\end{figure*}
+
+\section{\uppercase{Experiment}}
+\label{sec:experiment}
+\noindent Four conditions answer identical questions about 24 additional development participants, four per question family. Earlier development established the backend, policy, compiler, and evaluator; its participants are excluded and its results are not pooled here.
+
+\subsection{Cases and Shared Information}
+The six families address personal change alongside peers, named reference groups, observation availability, separate personal/peer insufficiency, assessment means with grade context, and alternative periods. Profiles compare weeks 0--3 with 8--11 at day~83, 0--3 with 4--7 at day~55, 0--1 with 2--3 at day~27, 0--3 with 10--11 at day~83, and 2--5 with 6--9 at day~69. Questions specify measure, periods, and cutoff.
+
+Selection uses administrative eligibility and previous attempt status where relevant, never activity magnitudes or model outcomes. Insufficiency cases require fewer than two recent eligible weeks and at least one earlier week. We choose the unused eligible person with the smallest SHA256(seed, case, person), using seed \texttt{stage6-structural-v1-20260918}. All 57 previous and 24 new task participants are excluded from peer pools across registrations. Separate row-based calculations checked 52 fact records; this is computational checking, not human review.
+
+All conditions share questions, family labels, definitions, and interpretation rules. Tasks, prompts, code, sources, settings, scoring, and order were frozen before inference, without subsequent tuning or reruns to obtain success. Hidden facts support only scoring and diagnosis.
+
+\subsection{Conditions and Ablation}
+\textbf{Enumeration} follows rules for public families and references using the shared backend, validator, renderer, and six-call limit. Family labels make it a strong baseline for defined tasks, without implying general language understanding.
+
+\textbf{A, compact} selects answer types and returned identifiers, with \DIFdelbegin \DIFdel{model-specified }\DIFdelend \DIFaddbegin \DIFadd{the model specifying }\DIFaddend support and conclusion scope. \DIFaddbegin \DIFadd{The existing compiler constructs the dashboard.
+}
+
+\DIFaddend \textbf{B, derived metadata} retains these selections but \DIFdelbegin \DIFdel{derives }\DIFdelend \DIFaddbegin \DIFadd{determines }\DIFaddend support and scope \DIFaddbegin \DIFadd{automatically}\DIFaddend , uses a neutral heading, and supplies a catalogue of returned answers. \DIFdelbegin \DIFdel{B--A tests that }\DIFdelend \DIFaddbegin \DIFadd{Comparing B with A therefore tests this }\DIFaddend combined interface change.
+\DIFaddbegin 
+
+\DIFaddend \textbf{C, explicit binding} selects exact analytical \DIFdelbegin \DIFdel{identifiers with }\DIFdelend \DIFaddbegin \DIFadd{labels while retaining }\DIFaddend B's \DIFaddbegin \DIFadd{automatic }\DIFaddend metadata and identical catalogue. \DIFdelbegin \DIFdel{C--B tests selection representation; C--A tests the full intervention. No interface supplies hidden requirements or }\DIFdelend \DIFaddbegin \DIFadd{Comparing C with B tests how answers are identified while keeping available information equivalent. None receives hidden scoring requirements or automatically supplied }\DIFaddend missing comparisons. \DIFaddbegin \DIFadd{An agent can still select a valid result that does not answer the question.
+}\DIFaddend 
+
+\subsection{Model, Budgets and Outcomes}
+Agents use Qwen2.5-14B-Instruct \cite{qwenReport,qwenCheckpoint}, revision \texttt{cf98f3b3bbb457ad9e2bb}\allowbreak\texttt{7baf9a0125b6b88caa8}, Transformers 4.55.2, greedy decoding, and BF16 on one RTX~6000 Ada GPU without quantization or offload. Limits are 16,000 input and 1,500 output tokens, six analytical calls, four generations, and one final repair using integrity errors and existing evidence, without completeness feedback. No fallback answers are supplied.
+
+Six A/B/C orderings repeat four times, balancing positions and pair order. \DIFdelbegin \DIFdel{All 96 method /case slots ran }\DIFdelend \DIFaddbegin \DIFadd{Each method answered each of the 24 questions }\DIFaddend once; enumeration used the host CPU. An accepted output passes format, scope, support, evidence, numerical, and rendering checks. \DIFaddbegin \DIFadd{First final validity excludes repairs but allows earlier tool errors. }\DIFaddend Complete visible answers \DIFdelbegin \DIFdel{additionally satisfy every frozen requirement }\DIFdelend \DIFaddbegin \DIFadd{also meet every scoring requirement set before the experiment}\DIFaddend . Method-selected completeness \DIFdelbegin \DIFdel{excludes compiler-only claims, panels, and wording. All }\DIFdelend \DIFaddbegin \DIFadd{counts only answers selected by the agent or baseline rules. Failed }\DIFaddend cases remain in \DIFdelbegin \DIFdel{denominators; optional content earns no automatic }\DIFdelend \DIFaddbegin \DIFadd{the totals, and extra panels earn no }\DIFaddend credit. The prespecified target required 22/24 complete visible answers, no accepted unsupported quantities, and separate personal/peer answers on all four insufficiency cases. \DIFdelbegin \DIFdel{The original comparison was descriptive; }\DIFdelend Section~\ref{sec:sensitivity} \DIFdelbegin \DIFdel{adds post hoc analyses }\DIFdelend \DIFaddbegin \DIFadd{reports additional analyses performed after the original experiment}\DIFaddend .
+
+
+\section{\uppercase{Results}}
+\label{sec:results}
+\noindent Table~\ref{tab:outcomes} \DIFdelbegin \DIFdel{retains }\DIFdelend \DIFaddbegin \DIFadd{reports the original scores for }\DIFaddend all 24 cases per condition\DIFdelbegin \DIFdel{and is generated from frozen reports}\DIFdelend . Enumeration answered every question through its own selections. A \DIFdelbegin \DIFdel{had the highest frozen agent completeness. These are not newly adjudicated accuracy estimates; }\DIFdelend \DIFaddbegin \DIFadd{produced the most complete agent answers. }\DIFaddend Section~\ref{sec:caveat} \DIFdelbegin \DIFdel{describes the scoring caveat}\DIFdelend \DIFaddbegin \DIFadd{explains a limitation of the scoring rule}\DIFaddend .
+
+\begin{table*}[!t]
+\caption{Frozen outcomes. Every main endpoint retains all 24 cases per condition. ``Selected complete'' excludes compiler-supplied requested answers; enumeration's selections are deterministic. ``Both insuff.'' uses the four cases requesting separate personal and peer insufficiency answers. B's completeness has the answer-form caveat in Section~\ref{sec:caveat}.}
+\label{tab:outcomes}
+\centering\setlength{\tabcolsep}{4pt}
+% BEGIN GENERATED: outcomes
+%% Generated from frozen reports; do not edit.
+\begin{tabular}{lrrrrr}
+\hline
+Condition & First valid & Accepted & Visible complete & Selected complete & Both insuff. answers \\
+\hline
+Enumeration & 24/24 & 24/24 & 24/24 & 24/24 & 4/4 \\
+A: compact & 21/24 & 22/24 & 21/24 & 18/24 & 3/4 \\
+B: derived metadata & 22/24 & 24/24 & 15/24 & 14/24 & 2/4 \\
+C: explicit binding & 21/24 & 21/24 & 15/24 & 11/24 & 1/4 \\
+\hline
+\end{tabular}
+% END GENERATED: outcomes
+\space % Preserve the trailing space from the original table input.
+\end{table*}
+
+
+\subsection{\DIFdelbegin \DIFdel{Validity, Completeness }\DIFdelend \DIFaddbegin \DIFadd{Accepted }\DIFaddend and \DIFdelbegin \DIFdel{Attribution}\DIFdelend \DIFaddbegin \DIFadd{Complete Answers}\DIFaddend }
+\DIFdelbegin \DIFdel{B accepted all }\DIFdelend \DIFaddbegin \DIFadd{All }\DIFaddend 24 \DIFdelbegin \DIFdel{outputs but had lower frozen completeness than }\DIFdelend \DIFaddbegin \DIFadd{B outputs passed validation, but fewer were scored complete than in }\DIFaddend A. Final repairs succeeded in one of three attempts for A, two of two for B, and zero of three for C. No agent met the combined target. \DIFdelbegin \DIFdel{Compiler context completed three additional }\DIFdelend \DIFaddbegin \DIFadd{Information added by the dashboard software completed three }\DIFaddend A cases, one B case, and four C cases\DIFdelbegin \DIFdel{, without adding comparison/change claims. Disputed B judgments qualify its equality with C}\DIFdelend \DIFaddbegin \DIFadd{. It added no missing peer or personal comparisons}\DIFaddend .
+
+
+
+\subsection{\DIFdelbegin \DIFdel{Evidence Retrieval and Failure Mechanisms}\DIFdelend \DIFaddbegin \DIFadd{Why Some Answers Were Incomplete}\DIFaddend }
+\DIFdelbegin \DIFdel{The offline diagnostic found sufficient returned evidence for }\DIFdelend \DIFaddbegin \DIFadd{Inspection of saved results found enough evidence to answer }\DIFaddend all 24 questions in \DIFdelbegin \DIFdel{both }\DIFdelend A and B, and 21 in C. In case~15, A nevertheless selected peer comparisons for weeks~0--3 when asked about weeks~10--11. Returned recent evidence supported a separate personal-insufficiency answer, but its peer answer was omitted. \DIFdelbegin \DIFdel{Correct earlier window binding does not establish relevance.
+Invalid }\DIFdelend \DIFaddbegin \DIFadd{The earlier comparison was correct but did not answer the recent-period question.
+In }\DIFaddend C18--20\DIFdelbegin \DIFdel{analysis batches }\DIFdelend \DIFaddbegin \DIFadd{, invalid requests }\DIFaddend returned no evidence\DIFdelbegin \DIFdel{; final /repair identifiers remained unresolved. No catalogue had been returned, so catalogue contents alone cannot explain these failures . All }\DIFdelend \DIFaddbegin \DIFadd{, so the final answers referred to results that had not been returned. These failures occurred before an answer catalogue was returned. None of the }\DIFaddend 168 \DIFdelbegin \DIFdel{comparison generations reached end-of-sequence below the output-token limit. Source checks detected no accepted unsupported quantitative answer among }\DIFdelend \DIFaddbegin \DIFadd{model responses reached the output limit. All }\DIFaddend 91 accepted dashboards \DIFdelbegin \DIFdel{; this establishes agreement with checked fields/support rules, not universal semantic correctness}\DIFdelend \DIFaddbegin \DIFadd{passed the numerical checks, although some left part of the question unanswered}\DIFaddend .
+
+\subsection{\DIFdelbegin \DIFdel{Unresolved Answer-Equivalence Caveat}\DIFdelend \DIFaddbegin \DIFadd{Answers the Scoring Rule Missed}\DIFaddend }
+\label{sec:caveat}
+\DIFaddbegin \DIFadd{In }\DIFaddend B17--20\DIFdelbegin \DIFdel{display both }\DIFdelend \DIFaddbegin \DIFadd{, the }\DIFaddend requested recent assessment means \DIFdelbegin \DIFdel{within supported }\DIFdelend \DIFaddbegin \DIFadd{appear in }\DIFaddend personal-change \DIFdelbegin \DIFdel{claims. The frozen focal predicate recognizes comparison panels/claims but misses these visible means . B remains }\DIFdelend \DIFaddbegin \DIFadd{statements. The scoring rule looks for these means in a comparison statement or chart and misses them in this form. If these four cases were counted as complete, B would rise from }\DIFaddend 15/24 \DIFdelbegin \DIFdel{visible and 14/24 selected complete in the frozen outcomes. Crediting only these four forms gives }\DIFdelend \DIFaddbegin \DIFadd{to }\DIFaddend 19/\DIFdelbegin \DIFdel{24 visible complete, below the target; selected completeness stays }\DIFdelend \DIFaddbegin \DIFadd{24. Its score based only on model selections would remain }\DIFaddend 14/24 because \DIFdelbegin \DIFdel{grade context is compiler supplied . This conditional calculation is not independent adjudication}\DIFdelend \DIFaddbegin \DIFadd{the software supplied the grade-availability explanation. We retain the original scores and report this alternative separately}\DIFaddend .
+
+C21/C23 \DIFdelbegin \DIFdel{display earlier /}\DIFdelend \DIFaddbegin \DIFadd{show earlier and }\DIFaddend recent means in peer \DIFdelbegin \DIFdel{claims without an explicit personal-change answer; equivalence is a separate question . All 96 slots are prepared for }\DIFdelend \DIFaddbegin \DIFadd{comparisons without explicitly stating personal change. Whether this answers the question also needs review. These cases have not yet been assessed by }\DIFaddend two independent human reviewers\DIFdelbegin \DIFdel{and adjudication, but no ratings exist. The requested two-reviewer validation remains outstanding; frozen completeness is not a settled measurement construct}\DIFdelend \DIFaddbegin \DIFadd{. The alternative count above does not replace that review}\DIFaddend .
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/reference_switch.pdf}
+\caption{Saved model-selected comparisons in A05. The focal person, weeks 8--11, units, and scale stay fixed; reference weeks change from 8--11 to 0--3 (1,024 versus 1,128 peers). The selector reads saved results without recalculation. Whiskers are 95\% bootstrap intervals for peer means, not contrasts. Earlier peers are not necessarily fairer or causally adjusted.}
+\label{fig:reference}
+\end{figure*}
+
+\subsection{\DIFdelbegin \DIFdel{Post Hoc Statistical and Data-Quality }\DIFdelend \DIFaddbegin \DIFadd{Additional }\DIFaddend Checks}
+\label{sec:sensitivity}
+\DIFdelbegin \DIFdel{To address statistical comparison, we applied }\DIFdelend \DIFaddbegin \DIFadd{We compared each pair of methods on the same 24 people using }\DIFaddend two-sided exact McNemar tests\DIFdelbegin \DIFdel{to paired complete-visible outcomes}\DIFdelend , with Holm adjustment \DIFdelbegin \DIFdel{across all six condition pairs. The unit is the person, not the 96 method/case slots. C--A and B--A each differ by $-25$ percentage points }\DIFdelend \DIFaddbegin \DIFadd{for the six comparisons. A completed six more answers than B or C, but these differences were not statistically significant }\DIFaddend (adjusted $p=0.2813$ \DIFdelbegin \DIFdel{); C--B differs by zero (}\DIFdelend \DIFaddbegin \DIFadd{each; B versus C, }\DIFaddend $p=1$). \DIFdelbegin \DIFdel{Against enumeration, A differs by $-12.5$ points }\DIFdelend \DIFaddbegin \DIFadd{Enumeration completed three more than A }\DIFaddend ($p=0.5000$) \DIFdelbegin \DIFdel{, and B and C each by $-37.5$ points }\DIFdelend \DIFaddbegin \DIFadd{and nine more than B or C }\DIFaddend ($p=0.0234$ each). \DIFdelbegin \DIFdel{Under the conditional }\DIFdelend \DIFaddbegin \DIFadd{Counting }\DIFaddend B17--20 \DIFdelbegin \DIFdel{credit, B differs from enumeration by $-20.8$ points }\DIFdelend \DIFaddbegin \DIFadd{as complete reduces its gap from enumeration to five cases }\DIFaddend ($p=0.3125$\DIFdelbegin \DIFdel{after the same six-test adjustment}\DIFdelend ). These \DIFdelbegin \DIFdel{exploratory tests assume independent paired cases; shared course/reference pools and structural selection limit inferential interpretation. Non-rejection does not establish equivalence or held-out reliability}\DIFdelend \DIFaddbegin \DIFadd{tests were added after the experiment and assume independent cases. The selected students share courses and peer groups, so the results need confirmation on new cases. A nonsignificant result does not show that methods are equivalent}\DIFaddend .
+
+\DIFdelbegin \DIFdel{Using preserved features with exact repeated source rowsremoved, we repeated the numerical comparisons for the same 24 people, profiles, and 81 peer exclusions. Of 52 required feature/reference records, all }\DIFdelend \DIFaddbegin \DIFadd{We also repeated the calculations after removing exact duplicate rows, using the same students, periods, and peer groups. All }\DIFaddend 29 supported click-rate \DIFdelbegin \DIFdel{peer contrasts and all }\DIFdelend \DIFaddbegin \DIFadd{comparisons and }\DIFaddend 13 \DIFdelbegin \DIFdel{supported personal changes retained their signs. Median/maximum absolute peer-contrast shifts }\DIFdelend \DIFaddbegin \DIFadd{personal changes kept their direction. The median and largest changes in peer differences }\DIFaddend were 0.167 \DIFdelbegin \DIFdel{/}\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend 0.324 clicks per eligible day; the \DIFdelbegin \DIFdel{maximum personal-change shift }\DIFdelend \DIFaddbegin \DIFadd{largest change in personal differences }\DIFaddend was 1.393. \DIFdelbegin \DIFdel{All 16 assessment records, support statuses, and eight cross-reference direction conclusions were unchanged. In Figure~\ref{fig:reference}, +0.043 and $-3.480$ become +0.088 and $-3.335$. This post hoc check does not identify unique click eventsor establish robustness of agent selections. Intervals were not recomputed; no agents were rerun and completeness scores were }\DIFdelend \DIFaddbegin \DIFadd{Assessment summaries, support decisions, and all eight conclusions about changes in comparison direction stayed the same. Thus repeated rows affect magnitudes even where directions persist. Equal rows may represent real events, so removal is an alternative treatment, not a correction. We did not rerun agents or recalculate intervals; completeness scores remain }\DIFaddend unchanged.
+
+Across 24 cases, enumeration took 35.40~s, compared with 484.64, 504.21, and 536.32~s for A, B, and C. These \DIFdelbegin \DIFdel{descriptive episode }\DIFdelend totals include failed runs and repairs but exclude shared model loading\DIFdelbegin \DIFdel{; enumeration used no inference}\DIFdelend .
+
+
+\section{\uppercase{Discussion and Limitations}}
+\label{sec:discussion}
+\subsection{\DIFdelbegin \DIFdel{Lessons for Dashboard Design}\DIFdelend \DIFaddbegin \DIFadd{When an Agent Might Help}\DIFaddend }
+\DIFdelbegin \DIFdel{Automatically supplied context can complete an answer without model selection, while B17--20 show that an evaluator can miss equivalent answer forms. Both content and origin therefore matter. }%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{For these structured questions and the small reference registry, the results establish no added agent value over enumeration. A possible role is translating less structured or ambiguous questions into analytical choices when enumerating a larger library is impractical. That role requires a separate comparison using ambiguousquestions, clarification behavior, and matched budgets; it was not tested here}\DIFdelend \DIFaddbegin \DIFadd{Enumeration answered all questions and was cheaper. For this small set of predefined tasks, the study shows no advantage in completeness or running time. An agent might help when a question is ambiguous, needs clarification, or combines analyses not covered by existing rules. We did not test those situations. A useful next comparison would give both approaches the same opportunity to ask clarifying questions and the same analysis budget}\DIFaddend .
+
+\subsection{\DIFdelbegin \DIFdel{Adaptive Views and Operator Context}\DIFdelend \DIFaddbegin \DIFadd{What the Figures Show}\DIFaddend }
+In Figure~\ref{fig:reference}, the person's rate \DIFdelbegin \DIFdel{stays }\DIFdelend \DIFaddbegin \DIFadd{remains }\DIFaddend 3.50 clicks per eligible day while recent and earlier peer means are 3.46 and 6.98\DIFdelbegin \DIFdel{, giving differences }\DIFdelend \DIFaddbegin \DIFadd{. The corresponding differences are }\DIFaddend +0.04 and $-3.48$\DIFaddbegin \DIFadd{, calculated }\DIFaddend before rounding. \DIFdelbegin \DIFdel{Periods }\DIFdelend \DIFaddbegin \DIFadd{Displaying the periods }\DIFaddend and membership counts \DIFdelbegin \DIFdel{make }\DIFdelend \DIFaddbegin \DIFadd{makes }\DIFaddend the reference choice inspectable without \DIFdelbegin \DIFdel{implying a preferable or causal comparison}\DIFdelend \DIFaddbegin \DIFadd{suggesting that one group is inherently preferable or that the difference is causal}\DIFaddend .
+
+\DIFdelbegin \DIFdel{The graphical trajectories describe recorded activity , not knowledge acquisition. No dashboard }\DIFdelend \DIFaddbegin \DIFadd{These figures show how recorded activity can be presented and compared. They do not show improved grades or knowledge acquisition: no teaching }\DIFaddend intervention or learning-outcome study was conducted\DIFdelbegin \DIFdel{, so improvement in students ' results or learning cannot be inferred. Grades and banking approval remain unavailable. Effects on operator understanding and usability also require direct evaluation}\DIFdelend \DIFaddbegin \DIFadd{. A study with students would be needed to establish such benefits}\DIFaddend .
+
+\subsection{\DIFdelbegin \DIFdel{Scope and }\DIFdelend Further Validation}
+The comparison covers 24 development people from two offerings\DIFdelbegin \DIFdel{, with known }\DIFdelend \DIFaddbegin \DIFadd{. Task }\DIFaddend families and wording \DIFaddbegin \DIFadd{were known, }\DIFaddend and one checkpoint \DIFdelbegin \DIFdel{under greedy decoding . Additional independent test cases, preferably reserved people, have not been evaluated. Answer-equivalence judgments should be resolved before locking the system, evaluator, outcomes, and sampling plan for reserved data}\DIFdelend \DIFaddbegin \DIFadd{with greedy decoding does not establish performance across models, paraphrases, or deployments. Reserved people remain unevaluated. Human review of answer completeness should precede an evaluation on those independent cases, with the scoring rules fixed in advance.
+}
+
+\DIFadd{We have not tested whether users understand the adaptive views better than a fixed dashboard}\DIFaddend . A user study should compare interpretation accuracy, \DIFdelbegin \DIFdel{completion time , and missing-value/reference errors against a fixed dashboard; no such outcomes are available. New analyses here reuse development cases and do not replace independent validation. Any adjudicated scores should be reported separately from the frozen results.
+}\DIFdelend \DIFaddbegin \DIFadd{time to answer, and mistakes about missing values and peer groups. Neither the additional statistical tests nor the duplicate-row check answers that usability question.
+}
+
+\DIFaddend OpenAI Codex \cite{openaiCodex} assisted with the programming environment, figure production and language editing.
+
+
+\section{\uppercase{Conclusion}}
+\label{sec:conclusion}
+\noindent \DIFaddbegin \DIFadd{The implemented dashboards connect agent selections with deterministic calculations, traceable evidence, and reusable presentation templates. Personal timelines, peer comparisons, observation summaries, and assessment views support different questions through shared analyses. Operators can inspect supporting records and switch among saved comparisons while retaining their analytical context.
+}
+
+\DIFaddend Across 24 development cases, explicit analytical identifiers did not improve frozen completeness, while enumeration remained complete and cheaper. \DIFaddbegin \DIFadd{The evaluation nevertheless provides concrete guidance for system development. }\DIFaddend Correctly calculated values can refer to the wrong period or leave a question partly unanswered, while automatically supplied context can complete an answer without model selection\DIFaddbegin \DIFadd{. Tracking these contributions separately makes both successful behavior and remaining selection problems visible.
+}
+
+\DIFadd{The contribution combines a working tool, interface examples, and reproducible evaluation of answer completeness}\DIFaddend . Answer equivalence and measurement choices require review before validation on reserved data. Evaluation should examine operator understanding and usability.
+
+%\section{\uppercase{AI Assistance Disclosure}}
+%\label{sec:disclosure}
+%\noindent OpenAI Codex \cite{openaiCodex} assisted with the develop. The experimental model was Qwen2.5-14B-Instruct. Figures depict saved results or programmatic diagrams. The authors retain responsibility for the content.
+
+
+\bibliographystyle{apalike}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,48 @@
+ICAART 2027 paper 219 — second revision
+
+This version keeps the title, abstract, introduction, and conclusion exactly as
+submitted. The original results table, bibliography, and template are unchanged.
+The paper is eight pages, including references, using the short-paper allowance
+already verified at https://icaart.scitevents.org/Guidelines.aspx.
+
+What changed in this attempt
+
+The edits focus on explaining the reviewer issues in ordinary language:
+
+- The scoring section explains which answers were missed and why. It keeps the
+  original scores and identifies 19/24 as an alternative count, not a human rating.
+- The additional checks explain what the statistical comparison and duplicate-row
+  calculation show. They use the same verified analyses as the first revision.
+- The discussion says when an agent might help, what the figures actually show,
+  and what still needs to be tested.
+
+Dense phrases such as "frozen focal predicate" and "inferential interpretation"
+have been replaced with direct explanations. The original conclusion has been
+restored, paragraph breaks have been restored in related work, and the definition
+of "First valid" is explicit again. Necessary statistical names remain so readers
+can identify the methods. No new experiment or scoring change was made.
+
+The remaining shortening serves the eight-page limit: repeated explanations,
+duplicated figures/tables, and detailed implementation descriptions were reduced.
+The two dashboard illustrations remain. No font or margin changes were used.
+
+Reviewer requests and limits
+
+Reviewer 1: The discussion distinguishes activity plots from evidence of improved
+learning. No study of educational benefit exists, so no such benefit is claimed.
+
+Reviewer 2:
+1. Scoring: the four missed B answers and the alternative 19/24 count are explained.
+   Independent human ratings are still needed; they have not been invented.
+2. Independent cases: reserved students have not been evaluated. This remains a
+   limitation, and the added analyses do not claim to be an independent test.
+3. Statistics: paired tests and adjustment for six comparisons are reported.
+4. Agent value: the rule-based baseline remains preferable for the tested tasks;
+   possible value for unclear questions is described as untested.
+5. Duplicates: the calculation with exact repeated rows removed is reported.
+   Magnitudes change even where comparison directions remain the same.
+6. Usability: a user study is still needed; no user-study result is claimed.
+
+Read main.pdf for the paper. changes.pdf compares it with the submitted version.
+changes-from-first.pdf compares it with paper-revised/main.pdf. In both diff PDFs,
+red strikeout marks deletions and blue underline marks additions.
