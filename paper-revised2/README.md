@@ -9,7 +9,8 @@
 The title, abstract, introduction, conclusion, original outcome table,
 bibliography, and official style files are preserved. Edits focus on the reviewer
 requests and the short-paper length limit. The first revision remains untouched.
-The author block remains as in the anonymous submission.
+The author block includes Alexander V. Mantzaris and James H. Korris, with the
+affiliations and email addresses supplied by the authors.
 
 The statistical and duplicate-row results are reused unchanged from
 [the first revision's analysis directory](../paper-revised/analysis/). Their

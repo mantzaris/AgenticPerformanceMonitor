@@ -14,7 +14,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{url}
 \usepackage{SCITEPRESS}
-\pdfinfo{/Title (Agentic Dashboards: Numerical Validity, Answer Completeness, and with Adaptive Presentation) /Author () /Subject (Anonymous author-review manuscript draft) /Keywords (Analytical agents; evidence provenance; longitudinal dashboards)}
+\pdfinfo{/Title (Agentic Dashboards: Numerical Validity, Answer Completeness, and with Adaptive Presentation) /Author (Alexander V. Mantzaris; James H. Korris) /Subject (Revised ICAART 2027 short paper) /Keywords (Analytical agents; evidence provenance; longitudinal dashboards)}
 % BEGIN GENERATED: numbers
 \newcommand{\EnumVisible}{24}
 \newcommand{\EnumSelected}{24}
@@ -32,7 +32,11 @@
 \newcommand{\draftassist}{\footnote{Writing assistance: OpenAI Codex \cite{openaiCodex}; see Section~\ref{sec:disclosure}.}}
 \begin{document}
 \title{Agentic Dashboards: Numerical Validity, Answer Completeness, and Adaptive Presentation}
-\author{}
+\author{\authorname{Alexander V. Mantzaris\sup{1} and James H. Korris\sup{2}}
+\affiliation{\sup{1}Dr. Yvette Kanouff School of Data, Mathematical, and Statistical Sciences, UCF,\\
+4000 University Blvd, Orlando, FL, USA}
+\affiliation{\sup{2}Creative Technologies Inc.}
+\email{alexander.mantzaris@ucf.edu, james.korris@cretecinc.com}}
 \keywords{Analytical Agents, Longitudinal Data, Evidence Provenance, Answer Completeness, Adaptive Dashboards.}
 \abstract{A question such as "Has this student's activity changed, and how does it compare with their peers?" often requires a dashboard to bring several kinds of information together. We present an agentic dashboard system that organizes real educational activity and assessment records into views suited to different questions. A language model chooses predefined analyses and selects results. Deterministic tools calculate the quantities, validation links them to supporting records, and presentation templates arrange the selected information. The dashboards highlight personal change, compare peer groups and time periods, distinguish recorded zeros from unavailable observations, and present assessment histories. Users can switch among saved comparisons and inspect the evidence behind displayed values. We evaluate three selection interfaces using Qwen2.5-14B-Instruct on 24 development cases from two Open University course offerings. The interfaces produced \AVisible, \BVisible, and \CVisible\ complete visible answers, respectively, compared with \EnumVisible\ for a deterministic baseline. We also distinguish answers selected by the model from information added automatically by the dashboard software. The saved outputs reveal that correct, traceable values can still refer to the wrong period or leave part of a question unanswered. More explicit analytical labels did not improve the original completeness scores, and some equivalent answer forms still require human review. The contribution combines a working adaptive dashboard system, concrete interface examples, and a comparative evaluation showing how analysis selection, evidence checking, and presentation jointly shape the answers users receive.}
 \onecolumn\maketitle\normalsize\setcounter{footnote}{0}\vfill
@@ -112,7 +116,7 @@ Figure~\ref{fig:adaptation} shows personal and limited-observation views. All vi
 
 \begin{figure*}[!t]
 \centering
-\includegraphics[width=0.9\textwidth]{figures/adaptation.pdf}
+\includegraphics[width=0.85\textwidth]{figures/adaptation.pdf}
 \caption{Saved compact-A answers. (a) Case 01: personal change and recent peer context; change uses unrounded means. Shading gives pointwise 95\% bootstrap intervals for peer means, not personal change. (b) Case 09: zeros, ineligibility, and unavailable recent values. Its observation timeline and grade context were compiler supplied; acceptance followed one repair. These examples do not establish educational or usability improvements.}
 \label{fig:adaptation}
 \end{figure*}
@@ -185,7 +189,7 @@ C21/C23 show earlier and recent means in peer comparisons without explicitly sta
 
 \begin{figure*}[!t]
 \centering
-\includegraphics[width=0.9\textwidth]{figures/reference_switch.pdf}
+\includegraphics[width=0.85\textwidth]{figures/reference_switch.pdf}
 \caption{Saved model-selected comparisons in A05. The focal person, weeks 8--11, units, and scale stay fixed; reference weeks change from 8--11 to 0--3 (1,024 versus 1,128 peers). The selector reads saved results without recalculation. Whiskers are 95\% bootstrap intervals for peer means, not contrasts. Earlier peers are not necessarily fairer or causally adjusted.}
 \label{fig:reference}
 \end{figure*}

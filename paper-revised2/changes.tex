@@ -1,7 +1,7 @@
 \documentclass[a4paper,twoside]{article}
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL /home/resort/Documents/repos/AgenticPerformanceMonitor/paper/draft_v1/main.tex   Sat Nov 14 11:57:01 2026
-%DIF ADD /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised2/main.tex   Sat Nov 14 12:51:41 2026
+%DIF ADD /home/resort/Documents/repos/AgenticPerformanceMonitor/paper-revised2/main.tex   Sat Nov 14 12:57:17 2026
 \usepackage{graphicx}
 \usepackage{calc}
 \usepackage{amssymb}
@@ -17,7 +17,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage{url}
 \usepackage{SCITEPRESS}
-\pdfinfo{/Title (Agentic Dashboards: Numerical Validity, Answer Completeness, and with Adaptive Presentation) /Author () /Subject (Anonymous author-review manuscript draft) /Keywords (Analytical agents; evidence provenance; longitudinal dashboards)}
+%DIF 17c17
+%DIF < \pdfinfo{/Title (Agentic Dashboards: Numerical Validity, Answer Completeness, and with Adaptive Presentation) /Author () /Subject (Anonymous author-review manuscript draft) /Keywords (Analytical agents; evidence provenance; longitudinal dashboards)}
+%DIF -------
+\pdfinfo{/Title (Agentic Dashboards: Numerical Validity, Answer Completeness, and with Adaptive Presentation) /Author (Alexander V. Mantzaris; James H. Korris) /Subject (Revised ICAART 2027 short paper) /Keywords (Analytical agents; evidence provenance; longitudinal dashboards)} %DIF > 
+%DIF -------
 % BEGIN GENERATED: numbers
 \newcommand{\EnumVisible}{24}
 \newcommand{\EnumSelected}{24}
@@ -73,7 +77,11 @@
 
 \begin{document}
 \title{Agentic Dashboards: Numerical Validity, Answer Completeness, and Adaptive Presentation}
-\author{}
+\author{\DIFaddbegin \authorname{Alexander V. Mantzaris\sup{1} and James H. Korris\sup{2}}
+\affiliation{\sup{1}Dr. Yvette Kanouff School of Data, Mathematical, and Statistical Sciences, UCF,\\
+4000 University Blvd, Orlando, FL, USA}
+\affiliation{\sup{2}Creative Technologies Inc.}
+\email{alexander.mantzaris@ucf.edu, james.korris@cretecinc.com}\DIFaddend }
 \keywords{Analytical Agents, Longitudinal Data, Evidence Provenance, Answer Completeness, Adaptive Dashboards.}
 \abstract{A question such as "Has this student's activity changed, and how does it compare with their peers?" often requires a dashboard to bring several kinds of information together. We present an agentic dashboard system that organizes real educational activity and assessment records into views suited to different questions. A language model chooses predefined analyses and selects results. Deterministic tools calculate the quantities, validation links them to supporting records, and presentation templates arrange the selected information. The dashboards highlight personal change, compare peer groups and time periods, distinguish recorded zeros from unavailable observations, and present assessment histories. Users can switch among saved comparisons and inspect the evidence behind displayed values. We evaluate three selection interfaces using Qwen2.5-14B-Instruct on 24 development cases from two Open University course offerings. The interfaces produced \AVisible, \BVisible, and \CVisible\ complete visible answers, respectively, compared with \EnumVisible\ for a deterministic baseline. We also distinguish answers selected by the model from information added automatically by the dashboard software. The saved outputs reveal that correct, traceable values can still refer to the wrong period or leave part of a question unanswered. More explicit analytical labels did not improve the original completeness scores, and some equivalent answer forms still require human review. The contribution combines a working adaptive dashboard system, concrete interface examples, and a comparative evaluation showing how analysis selection, evidence checking, and presentation jointly shape the answers users receive.}
 \onecolumn\maketitle\normalsize\setcounter{footnote}{0}\vfill
@@ -239,7 +247,7 @@ Figure~\ref{fig:adaptation} shows \DIFdelbegin \DIFdel{how presentation changes 
 
 \begin{figure*}[!t]
 \centering
-\includegraphics[width=0.9\textwidth]{figures/adaptation.pdf}
+\includegraphics[width=0.85\textwidth]{figures/adaptation.pdf}
 \caption{\DIFaddFL{Saved compact-A answers. (a) Case 01: personal change and recent peer context; change uses unrounded means. Shading gives pointwise 95\% bootstrap intervals for peer means, not personal change. (b) Case 09: zeros, ineligibility, and unavailable recent values. Its observation timeline and grade context were compiler supplied; acceptance followed one repair. These examples do not establish educational or usability improvements.}}
 \label{fig:adaptation}
 \end{figure*}
@@ -419,7 +427,7 @@ C21/C23 \DIFdelbegin \DIFdel{display }\DIFdelend \DIFaddbegin \DIFadd{show }\DIF
 \centering
 \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=\textwidth]{figures/reference_switch.pdf}
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.9\textwidth]{figures/reference_switch.pdf}
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.85\textwidth]{figures/reference_switch.pdf}
 \DIFaddendFL \caption{\DIFdelbeginFL \DIFdelFL{A saved reference-period change in condition A, case~05. Both comparisons were }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{Saved }\DIFaddendFL model-selected \DIFdelbeginFL \DIFdelFL{. Browser excerpts show the selector reading validated records, not recomputing statistics}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{comparisons in A05}\DIFaddendFL . The \DIFaddbeginFL \DIFaddFL{focal }\DIFaddendFL person, \DIFdelbeginFL \DIFdelFL{focal }\DIFdelendFL weeks \DIFdelbeginFL \DIFdelFL{~8-11}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{8--11}\DIFaddendFL , units, and scale stay fixed\DIFdelbeginFL \DIFdelFL{and the }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{; }\DIFaddendFL reference \DIFdelbeginFL \DIFdelFL{changes from }\DIFdelendFL weeks \DIFdelbeginFL \DIFdelFL{~8-11 }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{change from 8--11 }\DIFaddendFL to \DIFdelbeginFL \DIFdelFL{weeks~0-3. Eligible membership differs }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{0--3 }\DIFaddendFL (1,024 versus 1,128 \DIFdelbeginFL \DIFdelFL{people}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{peers}\DIFaddendFL ). \DIFaddbeginFL \DIFaddFL{The selector reads saved results without recalculation. }\DIFaddendFL Whiskers are 95\% bootstrap intervals for peer means, not \DIFdelbeginFL \DIFdelFL{for }\DIFdelendFL contrasts. \DIFdelbeginFL \DIFdelFL{The later presentation layer supplies the layout. }\DIFdelendFL Earlier peers are not necessarily fairer or causally adjusted.}
 \label{fig:reference}
 \end{figure*}
@@ -475,7 +483,7 @@ C21/C23 \DIFdelbegin \DIFdel{display }\DIFdelend \DIFaddbegin \DIFadd{show }\DIF
 \DIFdelFL{79 }%DIFDELCMD < & %%%
 \DIFdelFL{0 / 8 }%DIFDELCMD < & %%%
 \DIFdelFL{53 }%DIFDELCMD < & %%%
-\DIFdelFL{238,675 / 10,012 }%DIFDELCMD < & %%%
+\DIFdelFL{238,675 / 10}\DIFdelendFL , \DIFdelbeginFL \DIFdelFL{012 }%DIFDELCMD < & %%%
 \DIFdelFL{504.21 }%DIFDELCMD < & %%%
 \DIFdelFL{16.87 }%DIFDELCMD < \\
 %DIFDELCMD < %%%
@@ -496,7 +504,7 @@ C21/C23 \DIFdelbegin \DIFdel{display }\DIFdelend \DIFaddbegin \DIFadd{show }\DIF
 %DIFDELCMD < 
 
 %DIFDELCMD < %%%
-\DIFdel{Including setup/construction, 185 generations used 1, 719.02~s of model-process time (28.65~min), including loading/cleanup: 153.02~s construction and 1}\DIFdelend , \DIFdelbegin \DIFdel{566.00~s comparison. Shared comparison loading/profiling took 37.55/1.65~s. Peak allocated/reserved memory was 30.78/35.23~GiB; maximum input was 10}\DIFdelend \DIFaddbegin \DIFadd{504.21, and 536.32~s for A, B}\DIFaddend , \DIFdelbegin \DIFdel{888 tokens. Process time, episode latency, and implementation wall time differ and do not establish billing time. Manuscript preparation ran no experimental inference. }\DIFdelend \DIFaddbegin \DIFadd{and C. These totals include failed runs and repairs but exclude shared model loading.
+\DIFdel{Including setup/construction, 185 generations used 1, 719.02~s of model-process time (28.65~min), including loading/cleanup: 153.02~s construction and 1,566.00~s comparison. Shared comparison loading/profiling took 37.55/1.65~s. Peak allocated/reserved memory was 30.78/35.23~GiB; maximum input was 10}\DIFdelend \DIFaddbegin \DIFadd{504.21, and 536.32~s for A, B}\DIFaddend , \DIFdelbegin \DIFdel{888 tokens. Process time, episode latency, and implementation wall time differ and do not establish billing time. Manuscript preparation ran no experimental inference. }\DIFdelend \DIFaddbegin \DIFadd{and C. These totals include failed runs and repairs but exclude shared model loading.
 }\DIFaddend 
 
 
