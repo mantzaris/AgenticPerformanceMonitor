@@ -1,0 +1,644 @@
+{
+  "analysis": "Post-hoc exact paired comparison of frozen visible completeness",
+  "conditional_changed_case_ids": [
+    "s6_17",
+    "s6_18",
+    "s6_19",
+    "s6_20"
+  ],
+  "conditional_credit_B17_to_B20": {
+    "comparisons": [
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_09",
+            "s6_10",
+            "s6_11",
+            "s6_13",
+            "s6_17",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_14",
+            "s6_16",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_23"
+          ],
+          "neither_complete": [
+            "s6_12",
+            "s6_15"
+          ],
+          "right_only": [
+            "s6_22"
+          ]
+        },
+        "counts": {
+          "both_complete": 14,
+          "left_only": 7,
+          "neither_complete": 2,
+          "right_only": 1
+        },
+        "difference_percentage_points_right_minus_left": -25.0,
+        "exact_p_fraction": "9/128",
+        "exact_two_sided_mcnemar_p": 0.0703125,
+        "holm_adjusted_p_fraction": "5/16",
+        "holm_adjusted_p_six_comparisons": 0.3125,
+        "left": "compact_a",
+        "net_complete_cases_right_minus_left": -6,
+        "paired_people": 24,
+        "right": "binding_c"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_11",
+            "s6_13",
+            "s6_17",
+            "s6_22",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_16",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_23"
+          ],
+          "neither_complete": [
+            "s6_12",
+            "s6_14",
+            "s6_15"
+          ],
+          "right_only": [
+            "s6_09",
+            "s6_10"
+          ]
+        },
+        "counts": {
+          "both_complete": 13,
+          "left_only": 6,
+          "neither_complete": 3,
+          "right_only": 2
+        },
+        "difference_percentage_points_right_minus_left": -16.666666666666668,
+        "exact_p_fraction": "37/128",
+        "exact_two_sided_mcnemar_p": 0.2890625,
+        "holm_adjusted_p_fraction": "3/4",
+        "holm_adjusted_p_six_comparisons": 0.75,
+        "left": "derived_b",
+        "net_complete_cases_right_minus_left": -4,
+        "paired_people": 24,
+        "right": "binding_c"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_11",
+            "s6_13",
+            "s6_16",
+            "s6_17",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_23",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_09",
+            "s6_10",
+            "s6_14"
+          ],
+          "neither_complete": [
+            "s6_12",
+            "s6_15"
+          ],
+          "right_only": [
+            "s6_22"
+          ]
+        },
+        "counts": {
+          "both_complete": 18,
+          "left_only": 3,
+          "neither_complete": 2,
+          "right_only": 1
+        },
+        "difference_percentage_points_right_minus_left": -8.333333333333334,
+        "exact_p_fraction": "5/8",
+        "exact_two_sided_mcnemar_p": 0.625,
+        "holm_adjusted_p_fraction": "3/4",
+        "holm_adjusted_p_six_comparisons": 0.75,
+        "left": "compact_a",
+        "net_complete_cases_right_minus_left": -2,
+        "paired_people": 24,
+        "right": "derived_b"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_09",
+            "s6_10",
+            "s6_11",
+            "s6_13",
+            "s6_14",
+            "s6_16",
+            "s6_17",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_23",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_12",
+            "s6_15",
+            "s6_22"
+          ],
+          "neither_complete": [],
+          "right_only": []
+        },
+        "counts": {
+          "both_complete": 21,
+          "left_only": 3,
+          "neither_complete": 0,
+          "right_only": 0
+        },
+        "difference_percentage_points_right_minus_left": -12.5,
+        "exact_p_fraction": "1/4",
+        "exact_two_sided_mcnemar_p": 0.25,
+        "holm_adjusted_p_fraction": "3/4",
+        "holm_adjusted_p_six_comparisons": 0.75,
+        "left": "baseline",
+        "net_complete_cases_right_minus_left": -3,
+        "paired_people": 24,
+        "right": "compact_a"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_11",
+            "s6_13",
+            "s6_16",
+            "s6_17",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_22",
+            "s6_23",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_09",
+            "s6_10",
+            "s6_12",
+            "s6_14",
+            "s6_15"
+          ],
+          "neither_complete": [],
+          "right_only": []
+        },
+        "counts": {
+          "both_complete": 19,
+          "left_only": 5,
+          "neither_complete": 0,
+          "right_only": 0
+        },
+        "difference_percentage_points_right_minus_left": -20.833333333333332,
+        "exact_p_fraction": "1/16",
+        "exact_two_sided_mcnemar_p": 0.0625,
+        "holm_adjusted_p_fraction": "5/16",
+        "holm_adjusted_p_six_comparisons": 0.3125,
+        "left": "baseline",
+        "net_complete_cases_right_minus_left": -5,
+        "paired_people": 24,
+        "right": "derived_b"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_09",
+            "s6_10",
+            "s6_11",
+            "s6_13",
+            "s6_17",
+            "s6_22",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_12",
+            "s6_14",
+            "s6_15",
+            "s6_16",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_23"
+          ],
+          "neither_complete": [],
+          "right_only": []
+        },
+        "counts": {
+          "both_complete": 15,
+          "left_only": 9,
+          "neither_complete": 0,
+          "right_only": 0
+        },
+        "difference_percentage_points_right_minus_left": -37.5,
+        "exact_p_fraction": "1/256",
+        "exact_two_sided_mcnemar_p": 0.00390625,
+        "holm_adjusted_p_fraction": "3/128",
+        "holm_adjusted_p_six_comparisons": 0.0234375,
+        "left": "baseline",
+        "net_complete_cases_right_minus_left": -9,
+        "paired_people": 24,
+        "right": "binding_c"
+      }
+    ],
+    "complete_visible": {
+      "baseline": 24,
+      "binding_c": 15,
+      "compact_a": 21,
+      "derived_b": 19
+    }
+  },
+  "endpoint": "complete_requested_coverage",
+  "frozen_primary": {
+    "comparisons": [
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_09",
+            "s6_10",
+            "s6_11",
+            "s6_13",
+            "s6_17",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_14",
+            "s6_16",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_23"
+          ],
+          "neither_complete": [
+            "s6_12",
+            "s6_15"
+          ],
+          "right_only": [
+            "s6_22"
+          ]
+        },
+        "counts": {
+          "both_complete": 14,
+          "left_only": 7,
+          "neither_complete": 2,
+          "right_only": 1
+        },
+        "difference_percentage_points_right_minus_left": -25.0,
+        "exact_p_fraction": "9/128",
+        "exact_two_sided_mcnemar_p": 0.0703125,
+        "holm_adjusted_p_fraction": "9/32",
+        "holm_adjusted_p_six_comparisons": 0.28125,
+        "left": "compact_a",
+        "net_complete_cases_right_minus_left": -6,
+        "paired_people": 24,
+        "right": "binding_c"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_11",
+            "s6_13",
+            "s6_22",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_16",
+            "s6_21",
+            "s6_23"
+          ],
+          "neither_complete": [
+            "s6_12",
+            "s6_14",
+            "s6_15",
+            "s6_18",
+            "s6_19",
+            "s6_20"
+          ],
+          "right_only": [
+            "s6_09",
+            "s6_10",
+            "s6_17"
+          ]
+        },
+        "counts": {
+          "both_complete": 12,
+          "left_only": 3,
+          "neither_complete": 6,
+          "right_only": 3
+        },
+        "difference_percentage_points_right_minus_left": 0.0,
+        "exact_p_fraction": "1",
+        "exact_two_sided_mcnemar_p": 1.0,
+        "holm_adjusted_p_fraction": "1",
+        "holm_adjusted_p_six_comparisons": 1.0,
+        "left": "derived_b",
+        "net_complete_cases_right_minus_left": 0,
+        "paired_people": 24,
+        "right": "binding_c"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_11",
+            "s6_13",
+            "s6_16",
+            "s6_21",
+            "s6_23",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_09",
+            "s6_10",
+            "s6_14",
+            "s6_17",
+            "s6_18",
+            "s6_19",
+            "s6_20"
+          ],
+          "neither_complete": [
+            "s6_12",
+            "s6_15"
+          ],
+          "right_only": [
+            "s6_22"
+          ]
+        },
+        "counts": {
+          "both_complete": 14,
+          "left_only": 7,
+          "neither_complete": 2,
+          "right_only": 1
+        },
+        "difference_percentage_points_right_minus_left": -25.0,
+        "exact_p_fraction": "9/128",
+        "exact_two_sided_mcnemar_p": 0.0703125,
+        "holm_adjusted_p_fraction": "9/32",
+        "holm_adjusted_p_six_comparisons": 0.28125,
+        "left": "compact_a",
+        "net_complete_cases_right_minus_left": -6,
+        "paired_people": 24,
+        "right": "derived_b"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_09",
+            "s6_10",
+            "s6_11",
+            "s6_13",
+            "s6_14",
+            "s6_16",
+            "s6_17",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_23",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_12",
+            "s6_15",
+            "s6_22"
+          ],
+          "neither_complete": [],
+          "right_only": []
+        },
+        "counts": {
+          "both_complete": 21,
+          "left_only": 3,
+          "neither_complete": 0,
+          "right_only": 0
+        },
+        "difference_percentage_points_right_minus_left": -12.5,
+        "exact_p_fraction": "1/4",
+        "exact_two_sided_mcnemar_p": 0.25,
+        "holm_adjusted_p_fraction": "1/2",
+        "holm_adjusted_p_six_comparisons": 0.5,
+        "left": "baseline",
+        "net_complete_cases_right_minus_left": -3,
+        "paired_people": 24,
+        "right": "compact_a"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_11",
+            "s6_13",
+            "s6_16",
+            "s6_21",
+            "s6_22",
+            "s6_23",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_09",
+            "s6_10",
+            "s6_12",
+            "s6_14",
+            "s6_15",
+            "s6_17",
+            "s6_18",
+            "s6_19",
+            "s6_20"
+          ],
+          "neither_complete": [],
+          "right_only": []
+        },
+        "counts": {
+          "both_complete": 15,
+          "left_only": 9,
+          "neither_complete": 0,
+          "right_only": 0
+        },
+        "difference_percentage_points_right_minus_left": -37.5,
+        "exact_p_fraction": "1/256",
+        "exact_two_sided_mcnemar_p": 0.00390625,
+        "holm_adjusted_p_fraction": "3/128",
+        "holm_adjusted_p_six_comparisons": 0.0234375,
+        "left": "baseline",
+        "net_complete_cases_right_minus_left": -9,
+        "paired_people": 24,
+        "right": "derived_b"
+      },
+      {
+        "case_ids": {
+          "both_complete": [
+            "s6_01",
+            "s6_02",
+            "s6_03",
+            "s6_04",
+            "s6_05",
+            "s6_06",
+            "s6_07",
+            "s6_08",
+            "s6_09",
+            "s6_10",
+            "s6_11",
+            "s6_13",
+            "s6_17",
+            "s6_22",
+            "s6_24"
+          ],
+          "left_only": [
+            "s6_12",
+            "s6_14",
+            "s6_15",
+            "s6_16",
+            "s6_18",
+            "s6_19",
+            "s6_20",
+            "s6_21",
+            "s6_23"
+          ],
+          "neither_complete": [],
+          "right_only": []
+        },
+        "counts": {
+          "both_complete": 15,
+          "left_only": 9,
+          "neither_complete": 0,
+          "right_only": 0
+        },
+        "difference_percentage_points_right_minus_left": -37.5,
+        "exact_p_fraction": "1/256",
+        "exact_two_sided_mcnemar_p": 0.00390625,
+        "holm_adjusted_p_fraction": "3/128",
+        "holm_adjusted_p_six_comparisons": 0.0234375,
+        "left": "baseline",
+        "net_complete_cases_right_minus_left": -9,
+        "paired_people": 24,
+        "right": "binding_c"
+      }
+    ],
+    "complete_visible": {
+      "baseline": 24,
+      "binding_c": 15,
+      "compact_a": 21,
+      "derived_b": 15
+    }
+  },
+  "multiplicity": "Holm adjustment across all six pairwise visible-completeness comparisons within each scenario",
+  "scope": [
+    "Added after review; not prespecified confirmatory inference.",
+    "Tests assume independent paired cases; shared course/reference pools and structural selection limit generalization.",
+    "No absence-of-difference or equivalence conclusion follows from a nonsignificant p-value.",
+    "No calibrated population confidence interval is claimed for these selected development cases.",
+    "The scenario crediting B17--20 is hypothetical sensitivity only; it is not corrected primary scoring or human review."
+  ],
+  "sources": {
+    "artifacts/stage6/reports/per_case.json": "f3c90c3c628aec3160ae3ec0007bdc8a56f67a79a1176c4521a6a97af0a3b427",
+    "artifacts/stage6/tasks/manifest.json": "8fa0864cb919e7bdae67ee81a75b1dc00b92c027fb6b2c189571a8733d931f91"
+  },
+  "test": "Two-sided exact McNemar test, conditional Binomial(left_only + right_only, 0.5); no continuity correction",
+  "unit": "24 paired development people, one question per person; failures remain incomplete"
+}

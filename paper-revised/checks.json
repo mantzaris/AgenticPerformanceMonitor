@@ -1,0 +1,24 @@
+{
+  "pages_including_references": 8,
+  "short_paper_limit": 8,
+  "length_rule": "https://icaart.scitevents.org/Guidelines.aspx",
+  "rule_checked_on": "2026-11-14",
+  "title_abstract_introduction_unchanged": true,
+  "frozen_numbers_and_outcome_table_unchanged": true,
+  "official_template_and_bibliography_unchanged": true,
+  "frozen_experiment_files_verified": 86,
+  "no_overfull_boxes_missing_glyphs_or_unresolved_references": true,
+  "submitted_pdf_sha256": "2a2d57dd4c214879219907201f2c29f792593cbb10b2c54993f3ecceffd1d3ff",
+  "submitted_tex_sha256": "e0b6224c12c6db8334515b75dd1abae2a38b18aec9245b3434991c0d9ded62cd",
+  "revised_pdf_sha256": "c84582439a98820783d0b2178cc95feb89a3609cdd2ab9a519994fd217e5f04a",
+  "revised_tex_sha256": "cd99396322dab8b9f6626f1a5eb9b23ac07627ed06b0cab730f3ea11592ce884",
+  "diff_pdf_sha256": "e6eb9d4f007d675f4e204934a08dd9f29810d44143f57172b47acd15600e0921",
+  "diff_deleted_references_use_submitted_numbers": {
+    "fig:architecture": 1,
+    "fig:results": 3,
+    "tab:paired": 2,
+    "tab:costs": 3,
+    "fig:failure": 5
+  },
+  "new_evidence": "Post hoc paired statistics and duplicate sensitivity only; no new inference or human ratings"
+}

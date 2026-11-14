@@ -1,0 +1,100 @@
+ICAART 2027 paper 219 — short-paper revision
+
+FILES
+main.pdf           Revised eight-page manuscript, including references.
+main.tex           Editable LaTeX source.
+changes.pdf        Readable comparison: red strikeout = deletion; blue underline = addition.
+changes.tex        Generated latexdiff source.
+changes.diff       Exact unified source diff.
+checks.json        Build, preservation, length, and hash checks.
+analysis/          Reproducible new post hoc analyses and their detailed outputs.
+
+BASELINE AND LENGTH
+The comparison is against paper/draft_v1/main.tex and its submitted PDF. The
+repository PDF was verified byte-for-byte identical to ICAART_2027_219.pdf.
+Submitted PDF SHA-256:
+2a2d57dd4c214879219907201f2c29f792593cbb10b2c54993f3ecceffd1d3ff
+
+Official ICAART 2027 Guidelines, checked 14 November 2026, allow eight pages for
+Short Papers, including references, tables, figures, and appendices:
+https://icaart.scitevents.org/Guidelines.aspx
+The eight-page base allowance is used; no paid extra pages or template changes.
+The comparison PDF is an editorial artifact and is not subject to that limit.
+
+PRESERVED
+Title, abstract, and introduction are unchanged. The original outcome table,
+frozen scores, experimental artifacts, bibliography, and official template are
+unchanged. The two retained figures use the original PDF assets. Their width and
+captions are shortened for space. The original anonymous author block is retained;
+authors/affiliations must be supplied before final camera-ready upload.
+
+LENGTH-ONLY CHANGES
+The submitted manuscript had twelve pages. To fit eight with the requested new
+analyses, the revision removes the architecture figure (already described in
+text), the results figure (duplicates the outcome table), and the failure figure
+(its A15 example remains in prose). The detailed cost table becomes a short
+sentence; paired counts remain available in the new statistical analysis instead
+of a separate table. Related work, data/system/method details, repeated discussion,
+and conclusion text are compressed. These cuts serve the length requirement,
+not a change of research scope. No font, margin, or template reduction was used.
+
+REVIEWER 1 — GRAPHICAL DEMONSTRATION / STUDENT LEARNING
+The original activity and reference-switch illustrations are retained. The revised
+discussion explicitly distinguishes recorded activity from knowledge acquisition:
+no intervention or learning-outcome study was conducted. Graphs cannot honestly
+show improvements caused by the dashboard. This is a clarified limitation, NOT
+new evidence of better student results; that requested demonstration remains
+unavailable.
+
+REVIEWER 2.1 — TWO INDEPENDENT EVALUATORS / UPDATED COMPLETENESS
+The B17–20 caveat remains explicit. A separately labeled conditional sensitivity
+credits those four answer forms: B becomes 19/24 visibly complete, while selected
+completeness remains 14/24. Frozen results remain 15/24 and 14/24. Statistical
+comparisons are also reported under the conditional scenario. This is NOT human
+adjudication. Two independent human reviewers have not supplied ratings, so this
+empirical request remains unfulfilled. AI editorial checks are not substitutes.
+
+REVIEWER 2.2 — INDEPENDENT TEST CASES
+No new agent runs or reserved-case evaluation were performed. The manuscript says
+so and identifies the necessary locked evaluation. Additional analyses of the
+same development cases do not satisfy this request. It remains unfulfilled.
+
+REVIEWER 2.3 — STATISTICAL COMPARISON
+Added post hoc exact two-sided McNemar tests on the 24 paired people, with Holm
+adjustment across all six condition pairs. All agent-to-agent adjusted p-values
+are at least 0.2813. Under frozen scoring, enumeration versus B and C gives
+adjusted p=0.0234; under conditional B17–20 credit, enumeration versus B becomes
+p=0.3125. The paper gives effect sizes and limits interpretation because cases
+were structurally selected and share course/reference pools. No equivalence or
+held-out generalization is claimed. Full calculations: analysis/paired_statistics.*.
+
+REVIEWER 2.4 — AGENT VALUE / AMBIGUOUS QUESTIONS
+The discussion now states that no added agent value over enumeration is established
+for this structured registry. It identifies ambiguous questions, clarification,
+and larger libraries as possible settings for a separately matched comparison.
+The discussion request is addressed; suggested ambiguous-question experiments
+were not performed.
+
+REVIEWER 2.5 — DUPLICATE-RECORD SENSITIVITY
+Added a new calculation using the preserved full development feature bundle with
+exact repeated source rows removed, with the same 24 people, profiles, weighting,
+thresholds, and 81 exclusions. The independent reducer checks 1,260 primary values
+against frozen evidence. Among 52 required feature/reference records, all 29
+supported click-rate contrast signs, all 13 supported personal-change directions,
+all support statuses, all 16 assessment summaries, and all eight reference-direction
+classifications remain unchanged. Numerical magnitudes do change and are reported.
+The illustrated A05 contrasts are checked explicitly. Bootstrap intervals were
+not recomputed; models and completeness scoring were not rerun. Exact equal rows
+need not be errors, so deletion is an alternative treatment, not a correction.
+Full calculations: analysis/duplicate_sensitivity.*.
+
+REVIEWER 2.6 — DASHBOARD USER STUDY
+The revision specifies interpretation accuracy, completion time, and errors about
+missing values/reference periods as comparison outcomes. No actual users or
+usability outcomes were supplied or invented. This empirical request remains
+unfulfilled.
+
+STATUS
+This is a revised short manuscript with the feasible statistical, data-quality,
+and discussion changes. It does not claim that the outstanding human review,
+independent-case, usability, or educational-benefit requests have been satisfied.

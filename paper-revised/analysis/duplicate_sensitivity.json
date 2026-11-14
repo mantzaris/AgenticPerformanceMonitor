@@ -1,0 +1,5428 @@
+{
+  "all_enumeration_requests": {
+    "absolute_click_peer_contrast_shift": {
+      "maximum": 0.32388832601598505,
+      "median": 0.1647468378725936,
+      "minimum": 0.002459754587413432,
+      "n": 39
+    },
+    "absolute_click_peer_mean_shift": {
+      "maximum": 0.35356446672236164,
+      "median": 0.28093083387200934,
+      "minimum": 0.1069790301441671,
+      "n": 60
+    },
+    "absolute_click_personal_change_shift": {
+      "maximum": 1.3928571428571388,
+      "median": 0.035714285714286476,
+      "minimum": 0.0,
+      "n": 13
+    },
+    "assessment_records": 24,
+    "assessment_records_unchanged": 24,
+    "click_peer_contrast_sign_changes": [],
+    "click_personal_change_sign_changes": [],
+    "click_records": 60,
+    "records": 84,
+    "support_status_changes": 0,
+    "supported_click_peer_contrasts": 39,
+    "supported_click_personal_changes": 13,
+    "unique_click_personal_summaries": 20
+  },
+  "alternative": "Preserved full development bundle formed by dropping exact equal interaction rows; assessment features unchanged",
+  "analysis": "Post-hoc exact-row sensitivity on the frozen Stage 6 development cases",
+  "checks": {
+    "assessment_file_identical": true,
+    "distinct_development_people": 1523,
+    "excluded_reference_people": 81,
+    "nonclick_fields_identical": true,
+    "primary_values_checked_against_frozen_evidence": 1260,
+    "reserved_observations_read": false,
+    "weekly_key_sets_identical": true,
+    "weekly_rows_each": 18276
+  },
+  "environment": {
+    "arithmetic": "Python standard library math.fsum",
+    "parquet_reader": "pyarrow 20.0.0"
+  },
+  "featured_case_05": [
+    {
+      "alternative": {
+        "baseline_mean": 36.35714285714286,
+        "baseline_observations": 4,
+        "contrast": 0.0877697172619043,
+        "focal_mean": 3.321428571428571,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.233658854166667,
+        "people": 1024,
+        "personal_change": -33.03571428571429,
+        "personal_status": "supported",
+        "recent_mean": 3.321428571428571,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 37.92857142857143,
+        "baseline_observations": 4,
+        "contrast": 0.04344501798115097,
+        "focal_mean": 3.5,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.456554982018849,
+        "people": 1024,
+        "personal_change": -34.42857142857143,
+        "personal_status": "supported",
+        "recent_mean": 3.5,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_05",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_05",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 36.35714285714286,
+        "baseline_observations": 4,
+        "contrast": -3.3350905521783183,
+        "focal_mean": 3.321428571428571,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": -33.03571428571429,
+        "personal_status": "supported",
+        "recent_mean": 3.321428571428571,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 37.92857142857143,
+        "baseline_observations": 4,
+        "contrast": -3.4804074496228745,
+        "focal_mean": 3.5,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": -34.42857142857143,
+        "personal_status": "supported",
+        "recent_mean": 3.5,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_05",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_05",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 36.35714285714286,
+        "baseline_observations": 4,
+        "contrast": 1.054677302393038,
+        "focal_mean": 3.321428571428571,
+        "focal_observations": 4,
+        "observations": 774,
+        "peer_mean": 2.266751269035533,
+        "people": 197,
+        "personal_change": -33.03571428571429,
+        "personal_status": "supported",
+        "recent_mean": 3.321428571428571,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 37.92857142857143,
+        "baseline_observations": 4,
+        "contrast": 1.066098622189993,
+        "focal_mean": 3.5,
+        "focal_observations": 4,
+        "observations": 774,
+        "peer_mean": 2.433901377810007,
+        "people": 197,
+        "personal_change": -34.42857142857143,
+        "personal_status": "supported",
+        "recent_mean": 3.5,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_05",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_05",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    }
+  ],
+  "historical_alternative_construction": {
+    "exact_duplicate_excess": 15937,
+    "limitation": "Exact equal source rows can represent repeated contributions, not necessarily ingestion errors. Neither interpretation proves unique click events.",
+    "source_rows": 193708
+  },
+  "limitations": [
+    "Exact equal source rows need not be erroneous; neither treatment identifies unique click events.",
+    "Only means, differences, directions, and support are recalculated; no bootstrap intervals are recomputed.",
+    "Original dashboards, figures, agent behavior and frozen completeness scores remain unchanged.",
+    "This is a development-data sensitivity analysis, not an independent test or a learning-outcome evaluation."
+  ],
+  "raw_deduplication_rerun": false,
+  "records": [
+    {
+      "alternative": {
+        "baseline_mean": 13.928571428571429,
+        "baseline_observations": 4,
+        "contrast": -0.6438947138488427,
+        "focal_mean": 3.4642857142857144,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 4.108180428134557,
+        "people": 218,
+        "personal_change": -10.464285714285715,
+        "personal_status": "supported",
+        "recent_mean": 3.4642857142857144,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 14.071428571428571,
+        "baseline_observations": 4,
+        "contrast": -0.6794451725644381,
+        "focal_mean": 3.535714285714286,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 4.215159458278724,
+        "people": 218,
+        "personal_change": -10.535714285714285,
+        "personal_status": "supported",
+        "recent_mean": 3.535714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_01",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_01",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 13.928571428571429,
+        "baseline_observations": 4,
+        "contrast": -9.288364576599871,
+        "focal_mean": 3.4642857142857144,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 12.752650290885585,
+        "people": 221,
+        "personal_change": -10.464285714285715,
+        "personal_status": "supported",
+        "recent_mean": 3.4642857142857144,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 14.071428571428571,
+        "baseline_observations": 4,
+        "contrast": -9.497866839043308,
+        "focal_mean": 3.535714285714286,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 13.033581124757594,
+        "people": 221,
+        "personal_change": -10.535714285714285,
+        "personal_status": "supported",
+        "recent_mean": 3.535714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_01",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_01",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 13.928571428571429,
+        "baseline_observations": 4,
+        "contrast": -0.6438947138488427,
+        "focal_mean": 3.4642857142857144,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 4.108180428134557,
+        "people": 218,
+        "personal_change": -10.464285714285715,
+        "personal_status": "supported",
+        "recent_mean": 3.4642857142857144,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 14.071428571428571,
+        "baseline_observations": 4,
+        "contrast": -0.6794451725644381,
+        "focal_mean": 3.535714285714286,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 4.215159458278724,
+        "people": 218,
+        "personal_change": -10.535714285714285,
+        "personal_status": "supported",
+        "recent_mean": 3.535714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_01",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_01",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 14.678571428571429,
+        "baseline_observations": 4,
+        "contrast": -1.4653232852774143,
+        "focal_mean": 2.642857142857143,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 4.108180428134557,
+        "people": 218,
+        "personal_change": -12.035714285714286,
+        "personal_status": "supported",
+        "recent_mean": 2.642857142857143,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 14.857142857142858,
+        "baseline_observations": 4,
+        "contrast": -1.3937308868501526,
+        "focal_mean": 2.8214285714285716,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 4.215159458278724,
+        "people": 218,
+        "personal_change": -12.035714285714286,
+        "personal_status": "supported",
+        "recent_mean": 2.8214285714285716,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_02",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_02",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 14.678571428571429,
+        "baseline_observations": 4,
+        "contrast": -10.109793148028443,
+        "focal_mean": 2.642857142857143,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 12.752650290885585,
+        "people": 221,
+        "personal_change": -12.035714285714286,
+        "personal_status": "supported",
+        "recent_mean": 2.642857142857143,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 14.857142857142858,
+        "baseline_observations": 4,
+        "contrast": -10.212152553329023,
+        "focal_mean": 2.8214285714285716,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 13.033581124757594,
+        "people": 221,
+        "personal_change": -12.035714285714286,
+        "personal_status": "supported",
+        "recent_mean": 2.8214285714285716,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_02",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_02",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 14.678571428571429,
+        "baseline_observations": 4,
+        "contrast": -1.4653232852774143,
+        "focal_mean": 2.642857142857143,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 4.108180428134557,
+        "people": 218,
+        "personal_change": -12.035714285714286,
+        "personal_status": "supported",
+        "recent_mean": 2.642857142857143,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 14.857142857142858,
+        "baseline_observations": 4,
+        "contrast": -1.3937308868501526,
+        "focal_mean": 2.8214285714285716,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 4.215159458278724,
+        "people": 218,
+        "personal_change": -12.035714285714286,
+        "personal_status": "supported",
+        "recent_mean": 2.8214285714285716,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_02",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_02",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 3.5357142857142856,
+        "baseline_observations": 4,
+        "contrast": -3.008815858111633,
+        "focal_mean": 2.714285714285714,
+        "focal_observations": 4,
+        "observations": 4207,
+        "peer_mean": 5.723101572397347,
+        "people": 1065,
+        "personal_change": -0.8214285714285716,
+        "personal_status": "supported",
+        "recent_mean": 2.714285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 3.678571428571429,
+        "baseline_observations": 4,
+        "contrast": -3.023727550488114,
+        "focal_mean": 3.0357142857142856,
+        "focal_observations": 4,
+        "observations": 4207,
+        "peer_mean": 6.059441836202399,
+        "people": 1065,
+        "personal_change": -0.6428571428571432,
+        "personal_status": "supported",
+        "recent_mean": 3.0357142857142856,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_03",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_03",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 3.5357142857142856,
+        "baseline_observations": 4,
+        "contrast": -3.9422334093211755,
+        "focal_mean": 2.714285714285714,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": -0.8214285714285716,
+        "personal_status": "supported",
+        "recent_mean": 2.714285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 3.678571428571429,
+        "baseline_observations": 4,
+        "contrast": -3.944693163908589,
+        "focal_mean": 3.0357142857142856,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": -0.6428571428571432,
+        "personal_status": "supported",
+        "recent_mean": 3.0357142857142856,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_03",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_03",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 3.5357142857142856,
+        "baseline_observations": 4,
+        "contrast": -3.3827021256845824,
+        "focal_mean": 2.714285714285714,
+        "focal_observations": 4,
+        "observations": 3387,
+        "peer_mean": 6.096987839970296,
+        "people": 855,
+        "personal_change": -0.8214285714285716,
+        "personal_status": "supported",
+        "recent_mean": 2.714285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 3.678571428571429,
+        "baseline_observations": 4,
+        "contrast": -3.4148380209783724,
+        "focal_mean": 3.0357142857142856,
+        "focal_observations": 4,
+        "observations": 3387,
+        "peer_mean": 6.450552306692658,
+        "people": 855,
+        "personal_change": -0.6428571428571432,
+        "personal_status": "supported",
+        "recent_mean": 3.0357142857142856,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_03",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_03",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 5.428571428571429,
+        "baseline_observations": 4,
+        "contrast": -3.1516730009687755,
+        "focal_mean": 2.5714285714285716,
+        "focal_observations": 4,
+        "observations": 4207,
+        "peer_mean": 5.723101572397347,
+        "people": 1065,
+        "personal_change": -2.857142857142857,
+        "personal_status": "supported",
+        "recent_mean": 2.5714285714285716,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 5.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -2.9165846933452566,
+        "focal_mean": 3.142857142857143,
+        "focal_observations": 4,
+        "observations": 4207,
+        "peer_mean": 6.059441836202399,
+        "people": 1065,
+        "personal_change": -2.4285714285714284,
+        "personal_status": "supported",
+        "recent_mean": 3.142857142857143,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_04",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_04",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 5.428571428571429,
+        "baseline_observations": 4,
+        "contrast": -4.085090552178318,
+        "focal_mean": 2.5714285714285716,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": -2.857142857142857,
+        "personal_status": "supported",
+        "recent_mean": 2.5714285714285716,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 5.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -3.8375503067657317,
+        "focal_mean": 3.142857142857143,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": -2.4285714285714284,
+        "personal_status": "supported",
+        "recent_mean": 3.142857142857143,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_04",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_04",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 5.428571428571429,
+        "baseline_observations": 4,
+        "contrast": -3.5255592685417247,
+        "focal_mean": 2.5714285714285716,
+        "focal_observations": 4,
+        "observations": 3387,
+        "peer_mean": 6.096987839970296,
+        "people": 855,
+        "personal_change": -2.857142857142857,
+        "personal_status": "supported",
+        "recent_mean": 2.5714285714285716,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "personal_change",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 5.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -3.307695163835515,
+        "focal_mean": 3.142857142857143,
+        "focal_observations": 4,
+        "observations": 3387,
+        "peer_mean": 6.450552306692658,
+        "people": 855,
+        "personal_change": -2.4285714285714284,
+        "personal_status": "supported",
+        "recent_mean": 3.142857142857143,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_04",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_04",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 36.35714285714286,
+        "baseline_observations": 4,
+        "contrast": 0.0877697172619043,
+        "focal_mean": 3.321428571428571,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.233658854166667,
+        "people": 1024,
+        "personal_change": -33.03571428571429,
+        "personal_status": "supported",
+        "recent_mean": 3.321428571428571,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 37.92857142857143,
+        "baseline_observations": 4,
+        "contrast": 0.04344501798115097,
+        "focal_mean": 3.5,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.456554982018849,
+        "people": 1024,
+        "personal_change": -34.42857142857143,
+        "personal_status": "supported",
+        "recent_mean": 3.5,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_05",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_05",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 36.35714285714286,
+        "baseline_observations": 4,
+        "contrast": -3.3350905521783183,
+        "focal_mean": 3.321428571428571,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": -33.03571428571429,
+        "personal_status": "supported",
+        "recent_mean": 3.321428571428571,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 37.92857142857143,
+        "baseline_observations": 4,
+        "contrast": -3.4804074496228745,
+        "focal_mean": 3.5,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": -34.42857142857143,
+        "personal_status": "supported",
+        "recent_mean": 3.5,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_05",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_05",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 36.35714285714286,
+        "baseline_observations": 4,
+        "contrast": 1.054677302393038,
+        "focal_mean": 3.321428571428571,
+        "focal_observations": 4,
+        "observations": 774,
+        "peer_mean": 2.266751269035533,
+        "people": 197,
+        "personal_change": -33.03571428571429,
+        "personal_status": "supported",
+        "recent_mean": 3.321428571428571,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 37.92857142857143,
+        "baseline_observations": 4,
+        "contrast": 1.066098622189993,
+        "focal_mean": 3.5,
+        "focal_observations": 4,
+        "observations": 774,
+        "peer_mean": 2.433901377810007,
+        "people": 197,
+        "personal_change": -34.42857142857143,
+        "personal_status": "supported",
+        "recent_mean": 3.5,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_05",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_05",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": -3.233658854166667,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.233658854166667,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": -3.456554982018849,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.456554982018849,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_06",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_06",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": -6.6565191236068895,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": -6.9804074496228745,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_06",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_06",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": -2.266751269035533,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 774,
+        "peer_mean": 2.266751269035533,
+        "people": 197,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": -2.433901377810007,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 774,
+        "peer_mean": 2.433901377810007,
+        "people": 197,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_06",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_06",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 21.285714285714285,
+        "baseline_observations": 4,
+        "contrast": 16.87348400297619,
+        "focal_mean": 20.107142857142858,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.233658854166667,
+        "people": 1024,
+        "personal_change": -1.178571428571427,
+        "personal_status": "supported",
+        "recent_mean": 20.107142857142858,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 21.678571428571427,
+        "baseline_observations": 4,
+        "contrast": 17.079159303695434,
+        "focal_mean": 20.535714285714285,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.456554982018849,
+        "people": 1024,
+        "personal_change": -1.1428571428571423,
+        "personal_status": "supported",
+        "recent_mean": 20.535714285714285,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_07",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_07",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 21.285714285714285,
+        "baseline_observations": 4,
+        "contrast": 13.450623733535968,
+        "focal_mean": 20.107142857142858,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": -1.178571428571427,
+        "personal_status": "supported",
+        "recent_mean": 20.107142857142858,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 21.678571428571427,
+        "baseline_observations": 4,
+        "contrast": 13.555306836091411,
+        "focal_mean": 20.535714285714285,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": -1.1428571428571423,
+        "personal_status": "supported",
+        "recent_mean": 20.535714285714285,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_07",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_07",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 21.285714285714285,
+        "baseline_observations": 4,
+        "contrast": 16.64315656129441,
+        "focal_mean": 20.107142857142858,
+        "focal_observations": 4,
+        "observations": 3254,
+        "peer_mean": 3.463986295848448,
+        "people": 827,
+        "personal_change": -1.178571428571427,
+        "personal_status": "supported",
+        "recent_mean": 20.107142857142858,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 21.678571428571427,
+        "baseline_observations": 4,
+        "contrast": 16.83555258056467,
+        "focal_mean": 20.535714285714285,
+        "focal_observations": 4,
+        "observations": 3254,
+        "peer_mean": 3.7001617051496134,
+        "people": 827,
+        "personal_change": -1.1428571428571423,
+        "personal_status": "supported",
+        "recent_mean": 20.535714285714285,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_07",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_07",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 4.357142857142858,
+        "baseline_observations": 4,
+        "contrast": -2.8050874255952385,
+        "focal_mean": 0.42857142857142855,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.233658854166667,
+        "people": 1024,
+        "personal_change": -3.9285714285714293,
+        "personal_status": "supported",
+        "recent_mean": 0.42857142857142855,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 5.357142857142858,
+        "baseline_observations": 4,
+        "contrast": -2.956554982018849,
+        "focal_mean": 0.5,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 3.456554982018849,
+        "people": 1024,
+        "personal_change": -4.857142857142858,
+        "personal_status": "supported",
+        "recent_mean": 0.5,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_08",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_08",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 4.357142857142858,
+        "baseline_observations": 4,
+        "contrast": -6.227947695035461,
+        "focal_mean": 0.42857142857142855,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": -3.9285714285714293,
+        "personal_status": "supported",
+        "recent_mean": 0.42857142857142855,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 5.357142857142858,
+        "baseline_observations": 4,
+        "contrast": -6.4804074496228745,
+        "focal_mean": 0.5,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": -4.857142857142858,
+        "personal_status": "supported",
+        "recent_mean": 0.5,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_08",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_08",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 4.357142857142858,
+        "baseline_observations": 4,
+        "contrast": -3.03541486727702,
+        "focal_mean": 0.42857142857142855,
+        "focal_observations": 4,
+        "observations": 3254,
+        "peer_mean": 3.463986295848448,
+        "people": 827,
+        "personal_change": -3.9285714285714293,
+        "personal_status": "supported",
+        "recent_mean": 0.42857142857142855,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "reference_sensitivity",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 5.357142857142858,
+        "baseline_observations": 4,
+        "contrast": -3.2001617051496134,
+        "focal_mean": 0.5,
+        "focal_observations": 4,
+        "observations": 3254,
+        "peer_mean": 3.7001617051496134,
+        "people": 827,
+        "personal_change": -4.857142857142858,
+        "personal_status": "supported",
+        "recent_mean": 0.5,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_08",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_08",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 5.723101572397347,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 6.059441836202399,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_09",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_09",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_09",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_09",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 3387,
+        "peer_mean": 6.096987839970296,
+        "people": 855,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 3387,
+        "peer_mean": 6.450552306692658,
+        "people": 855,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_09",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_09",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 0.1897496087636933,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 0.1897496087636933,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_09",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_09",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 0.32981220657276994,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 0.32981220657276994,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_09",
+      "request": {
+        "feature": "scheduled_no_submission",
+        "question_id": "s6_09",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 5.723101572397347,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 6.059441836202399,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_10",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_10",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_10",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_10",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 3387,
+        "peer_mean": 6.096987839970296,
+        "people": 855,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 3387,
+        "peer_mean": 6.450552306692658,
+        "people": 855,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_10",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_10",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 0.1897496087636933,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 0.1897496087636933,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_10",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_10",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 0.32981220657276994,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4207,
+        "peer_mean": 0.32981220657276994,
+        "people": 1065,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_10",
+      "request": {
+        "feature": "scheduled_no_submission",
+        "question_id": "s6_10",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 4.071428571428571,
+        "baseline_observations": 4,
+        "contrast": -2.286751856705986,
+        "focal_mean": 1.8214285714285714,
+        "focal_observations": 2,
+        "observations": 867,
+        "peer_mean": 4.108180428134557,
+        "people": 218,
+        "personal_change": -2.25,
+        "personal_status": "supported",
+        "recent_mean": 1.8214285714285714,
+        "recent_observations": 2,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 4.107142857142858,
+        "baseline_observations": 4,
+        "contrast": -2.393730886850153,
+        "focal_mean": 1.8214285714285714,
+        "focal_observations": 2,
+        "observations": 867,
+        "peer_mean": 4.215159458278724,
+        "people": 218,
+        "personal_change": -2.2857142857142865,
+        "personal_status": "supported",
+        "recent_mean": 1.8214285714285714,
+        "recent_observations": 2,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_11",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_11",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 4.071428571428571,
+        "baseline_observations": 4,
+        "contrast": -10.931221719457014,
+        "focal_mean": 1.8214285714285714,
+        "focal_observations": 2,
+        "observations": 880,
+        "peer_mean": 12.752650290885585,
+        "people": 221,
+        "personal_change": -2.25,
+        "personal_status": "supported",
+        "recent_mean": 1.8214285714285714,
+        "recent_observations": 2,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 4.107142857142858,
+        "baseline_observations": 4,
+        "contrast": -11.212152553329023,
+        "focal_mean": 1.8214285714285714,
+        "focal_observations": 2,
+        "observations": 880,
+        "peer_mean": 13.033581124757594,
+        "people": 221,
+        "personal_change": -2.2857142857142865,
+        "personal_status": "supported",
+        "recent_mean": 1.8214285714285714,
+        "recent_observations": 2,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_11",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_11",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 4.071428571428571,
+        "baseline_observations": 4,
+        "contrast": -2.286751856705986,
+        "focal_mean": 1.8214285714285714,
+        "focal_observations": 2,
+        "observations": 867,
+        "peer_mean": 4.108180428134557,
+        "people": 218,
+        "personal_change": -2.25,
+        "personal_status": "supported",
+        "recent_mean": 1.8214285714285714,
+        "recent_observations": 2,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 4.107142857142858,
+        "baseline_observations": 4,
+        "contrast": -2.393730886850153,
+        "focal_mean": 1.8214285714285714,
+        "focal_observations": 2,
+        "observations": 867,
+        "peer_mean": 4.215159458278724,
+        "people": 218,
+        "personal_change": -2.2857142857142865,
+        "personal_status": "supported",
+        "recent_mean": 1.8214285714285714,
+        "recent_observations": 2,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_11",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_11",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": -0.06651376146788991,
+        "focal_mean": 0.0,
+        "focal_observations": 2,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": -0.25,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 2,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": -0.06651376146788991,
+        "focal_mean": 0.0,
+        "focal_observations": 2,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": -0.25,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 2,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_11",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_11",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 2,
+        "observations": 867,
+        "peer_mean": 0.0,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 2,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 2,
+        "observations": 867,
+        "peer_mean": 0.0,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 2,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_11",
+      "request": {
+        "feature": "scheduled_no_submission",
+        "question_id": "s6_11",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 26.92857142857143,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 867,
+        "peer_mean": 4.108180428134557,
+        "people": 218,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 27.214285714285715,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 867,
+        "peer_mean": 4.215159458278724,
+        "people": 218,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_12",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_12",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 26.92857142857143,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 880,
+        "peer_mean": 12.752650290885585,
+        "people": 221,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 27.214285714285715,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 880,
+        "peer_mean": 13.033581124757594,
+        "people": 221,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_12",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_12",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 26.92857142857143,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 867,
+        "peer_mean": 4.108180428134557,
+        "people": 218,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 27.214285714285715,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 867,
+        "peer_mean": 4.215159458278724,
+        "people": 218,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_12",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_12",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_12",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_12",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 867,
+        "peer_mean": 0.0,
+        "people": 218,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "observation_limits",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 867,
+        "peer_mean": 0.0,
+        "people": 218,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_12",
+      "request": {
+        "feature": "scheduled_no_submission",
+        "question_id": "s6_12",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 11.0,
+        "baseline_observations": 1,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 2203,
+        "peer_mean": 6.415429864253394,
+        "people": 1105,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          2,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 11.0,
+        "baseline_observations": 1,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 2203,
+        "peer_mean": 6.748340874811463,
+        "people": 1105,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          2,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "question_id": "s6_13",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_13",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 11.0,
+        "baseline_observations": 1,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 2248,
+        "peer_mean": 7.01357121749409,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          1
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 11.0,
+        "baseline_observations": 1,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 2248,
+        "peer_mean": 7.333575016886186,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          1
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "question_id": "s6_13",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_13",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 11.0,
+        "baseline_observations": 1,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 430,
+        "peer_mean": 4.8930232558139535,
+        "people": 215,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          2,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 11.0,
+        "baseline_observations": 1,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 430,
+        "peer_mean": 5.164784053156145,
+        "people": 215,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          2,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "question_id": "s6_13",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_13",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 2,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 2203,
+        "peer_mean": 6.415429864253394,
+        "people": 1105,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          2,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 2,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 2203,
+        "peer_mean": 6.748340874811463,
+        "people": 1105,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          2,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "question_id": "s6_14",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_14",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 2,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 2248,
+        "peer_mean": 7.01357121749409,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          1
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 2,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 2248,
+        "peer_mean": 7.333575016886186,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          1
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "question_id": "s6_14",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_14",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 2,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 1773,
+        "peer_mean": 6.783202247191012,
+        "people": 890,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          2,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 2,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 1773,
+        "peer_mean": 7.130885500267523,
+        "people": 890,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          2,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          2,
+          3
+        ]
+      },
+      "question_id": "s6_14",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_14",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.2857142857142857,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 1997,
+        "peer_mean": 3.529522858094287,
+        "people": 1001,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          10,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.32142857142857145,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 1997,
+        "peer_mean": 3.823878502449931,
+        "people": 1001,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          10,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "question_id": "s6_15",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_15",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.2857142857142857,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.32142857142857145,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "question_id": "s6_15",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_15",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.2857142857142857,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 1614,
+        "peer_mean": 3.7976985108011068,
+        "people": 809,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          10,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.32142857142857145,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 1614,
+        "peer_mean": 4.109203013714756,
+        "people": 809,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          10,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "question_id": "s6_15",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_15",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 2.2857142857142856,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 1997,
+        "peer_mean": 3.529522858094287,
+        "people": 1001,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          10,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 2.357142857142857,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 1997,
+        "peer_mean": 3.823878502449931,
+        "people": 1001,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          10,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "question_id": "s6_16",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_16",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 2.2857142857142856,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4451,
+        "peer_mean": 6.6565191236068895,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 2.357142857142857,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 4451,
+        "peer_mean": 6.9804074496228745,
+        "people": 1128,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "question_id": "s6_16",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_16",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 2.2857142857142856,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 383,
+        "peer_mean": 2.3995535714285716,
+        "people": 192,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          10,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "insufficient_support",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 2.357142857142857,
+        "baseline_observations": 4,
+        "contrast": null,
+        "focal_mean": null,
+        "focal_observations": 0,
+        "observations": 383,
+        "peer_mean": 2.6216517857142856,
+        "people": 192,
+        "personal_change": null,
+        "personal_status": "insufficient_evidence",
+        "recent_mean": null,
+        "recent_observations": 0,
+        "reference_window": [
+          10,
+          11
+        ],
+        "status": "insufficient_evidence",
+        "window": [
+          10,
+          11
+        ]
+      },
+      "question_id": "s6_16",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_16",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.1834862385321101,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.1834862385321101,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_17",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_17",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.01583710407239819,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 0.2341628959276018,
+        "people": 221,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.01583710407239819,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 0.2341628959276018,
+        "people": 221,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_17",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_17",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.1834862385321101,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.1834862385321101,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_17",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_17",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.0,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.0,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_17",
+      "request": {
+        "feature": "scheduled_no_submission",
+        "question_id": "s6_17",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": -0.06651376146788991,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": -0.25,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": -0.06651376146788991,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": -0.25,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_18",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_18",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": -0.2341628959276018,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 0.2341628959276018,
+        "people": 221,
+        "personal_change": -0.25,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": -0.2341628959276018,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 0.2341628959276018,
+        "people": 221,
+        "personal_change": -0.25,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_18",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_18",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": -0.06651376146788991,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": -0.25,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": -0.06651376146788991,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.06651376146788991,
+        "people": 218,
+        "personal_change": -0.25,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_18",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_18",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.0,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 867,
+        "peer_mean": 0.0,
+        "people": 218,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_18",
+      "request": {
+        "feature": "scheduled_no_submission",
+        "question_id": "s6_18",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.019694010416666657,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 0.23030598958333334,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.019694010416666657,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 0.23030598958333334,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_19",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_19",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.05067966903073284,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 0.19932033096926716,
+        "people": 1128,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.05067966903073284,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 0.19932033096926716,
+        "people": 1128,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_19",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_19",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.01571946795646917,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 3254,
+        "peer_mean": 0.23428053204353083,
+        "people": 827,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.01571946795646917,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 3254,
+        "peer_mean": 0.23428053204353083,
+        "people": 827,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_19",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_19",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 0.0,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 0.0,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_19",
+      "request": {
+        "feature": "scheduled_no_submission",
+        "question_id": "s6_19",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.019694010416666657,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 0.23030598958333334,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.019694010416666657,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 0.23030598958333334,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_20",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_20",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.05067966903073284,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 0.19932033096926716,
+        "people": 1128,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.05067966903073284,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 4451,
+        "peer_mean": 0.19932033096926716,
+        "people": 1128,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_20",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_20",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.01571946795646917,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 3254,
+        "peer_mean": 0.23428053204353083,
+        "people": 827,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.25,
+        "baseline_observations": 4,
+        "contrast": 0.01571946795646917,
+        "focal_mean": 0.25,
+        "focal_observations": 4,
+        "observations": 3254,
+        "peer_mean": 0.23428053204353083,
+        "people": 827,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.25,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_20",
+      "request": {
+        "feature": "nonbanked_submissions",
+        "question_id": "s6_20",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": false
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 0.0,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "assessment_availability",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.0,
+        "baseline_observations": 4,
+        "contrast": 0.0,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4028,
+        "peer_mean": 0.0,
+        "people": 1024,
+        "personal_change": 0.0,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          8,
+          11
+        ],
+        "status": "supported",
+        "window": [
+          8,
+          11
+        ]
+      },
+      "question_id": "s6_20",
+      "request": {
+        "feature": "scheduled_no_submission",
+        "question_id": "s6_20",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 17.678571428571427,
+        "baseline_observations": 4,
+        "contrast": -1.2293019480519485,
+        "focal_mean": 5.964285714285714,
+        "focal_observations": 4,
+        "observations": 873,
+        "peer_mean": 7.193587662337663,
+        "people": 220,
+        "personal_change": -11.714285714285712,
+        "personal_status": "supported",
+        "recent_mean": 5.964285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 17.892857142857142,
+        "baseline_observations": 4,
+        "contrast": -1.3856331168831169,
+        "focal_mean": 5.964285714285714,
+        "focal_observations": 4,
+        "observations": 873,
+        "peer_mean": 7.349918831168831,
+        "people": 220,
+        "personal_change": -11.928571428571427,
+        "personal_status": "supported",
+        "recent_mean": 5.964285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_21",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_21",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 17.678571428571427,
+        "baseline_observations": 4,
+        "contrast": -6.788364576599871,
+        "focal_mean": 5.964285714285714,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 12.752650290885585,
+        "people": 221,
+        "personal_change": -11.714285714285712,
+        "personal_status": "supported",
+        "recent_mean": 5.964285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 17.892857142857142,
+        "baseline_observations": 4,
+        "contrast": -7.06929541047188,
+        "focal_mean": 5.964285714285714,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 13.033581124757594,
+        "people": 221,
+        "personal_change": -11.928571428571427,
+        "personal_status": "supported",
+        "recent_mean": 5.964285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_21",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_21",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 17.678571428571427,
+        "baseline_observations": 4,
+        "contrast": -1.2293019480519485,
+        "focal_mean": 5.964285714285714,
+        "focal_observations": 4,
+        "observations": 873,
+        "peer_mean": 7.193587662337663,
+        "people": 220,
+        "personal_change": -11.714285714285712,
+        "personal_status": "supported",
+        "recent_mean": 5.964285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 17.892857142857142,
+        "baseline_observations": 4,
+        "contrast": -1.3856331168831169,
+        "focal_mean": 5.964285714285714,
+        "focal_observations": 4,
+        "observations": 873,
+        "peer_mean": 7.349918831168831,
+        "people": 220,
+        "personal_change": -11.928571428571427,
+        "personal_status": "supported",
+        "recent_mean": 5.964285714285714,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_21",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_21",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 9.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -0.1578733766233773,
+        "focal_mean": 7.035714285714286,
+        "focal_observations": 4,
+        "observations": 873,
+        "peer_mean": 7.193587662337663,
+        "people": 220,
+        "personal_change": -2.5357142857142856,
+        "personal_status": "supported",
+        "recent_mean": 7.035714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 9.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -0.3142045454545457,
+        "focal_mean": 7.035714285714286,
+        "focal_observations": 4,
+        "observations": 873,
+        "peer_mean": 7.349918831168831,
+        "people": 220,
+        "personal_change": -2.5357142857142856,
+        "personal_status": "supported",
+        "recent_mean": 7.035714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_22",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_22",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 9.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -5.716936005171299,
+        "focal_mean": 7.035714285714286,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 12.752650290885585,
+        "people": 221,
+        "personal_change": -2.5357142857142856,
+        "personal_status": "supported",
+        "recent_mean": 7.035714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 9.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -5.997866839043309,
+        "focal_mean": 7.035714285714286,
+        "focal_observations": 4,
+        "observations": 880,
+        "peer_mean": 13.033581124757594,
+        "people": 221,
+        "personal_change": -2.5357142857142856,
+        "personal_status": "supported",
+        "recent_mean": 7.035714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          0,
+          3
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_22",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_22",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 9.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -0.1578733766233773,
+        "focal_mean": 7.035714285714286,
+        "focal_observations": 4,
+        "observations": 873,
+        "peer_mean": 7.193587662337663,
+        "people": 220,
+        "personal_change": -2.5357142857142856,
+        "personal_status": "supported",
+        "recent_mean": 7.035714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 9.571428571428571,
+        "baseline_observations": 4,
+        "contrast": -0.3142045454545457,
+        "focal_mean": 7.035714285714286,
+        "focal_observations": 4,
+        "observations": 873,
+        "peer_mean": 7.349918831168831,
+        "people": 220,
+        "personal_change": -2.5357142857142856,
+        "personal_status": "supported",
+        "recent_mean": 7.035714285714286,
+        "recent_observations": 4,
+        "reference_window": [
+          4,
+          7
+        ],
+        "status": "supported",
+        "window": [
+          4,
+          7
+        ]
+      },
+      "question_id": "s6_22",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_22",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.5,
+        "baseline_observations": 4,
+        "contrast": -4.552697278911564,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4115,
+        "peer_mean": 4.552697278911564,
+        "people": 1050,
+        "personal_change": -0.5,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          6,
+          9
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.5,
+        "baseline_observations": 4,
+        "contrast": -4.811450113378685,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4115,
+        "peer_mean": 4.811450113378685,
+        "people": 1050,
+        "personal_change": -0.5,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          6,
+          9
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "question_id": "s6_23",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_23",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.5,
+        "baseline_observations": 4,
+        "contrast": -5.803325791855204,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4326,
+        "peer_mean": 5.803325791855204,
+        "people": 1105,
+        "personal_change": -0.5,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          2,
+          5
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.5,
+        "baseline_observations": 4,
+        "contrast": -6.122649572649572,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 4326,
+        "peer_mean": 6.122649572649572,
+        "people": 1105,
+        "personal_change": -0.5,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          2,
+          5
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "question_id": "s6_23",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_23",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 0.5,
+        "baseline_observations": 4,
+        "contrast": -4.8095660249915575,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 3321,
+        "peer_mean": 4.8095660249915575,
+        "people": 846,
+        "personal_change": -0.5,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          6,
+          9
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 0.5,
+        "baseline_observations": 4,
+        "contrast": -5.078056399864911,
+        "focal_mean": 0.0,
+        "focal_observations": 4,
+        "observations": 3321,
+        "peer_mean": 5.078056399864911,
+        "people": 846,
+        "personal_change": -0.5,
+        "personal_status": "supported",
+        "recent_mean": 0.0,
+        "recent_observations": 4,
+        "reference_window": [
+          6,
+          9
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "question_id": "s6_23",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_23",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 1.1785714285714286,
+        "baseline_observations": 4,
+        "contrast": -3.58841156462585,
+        "focal_mean": 0.9642857142857142,
+        "focal_observations": 4,
+        "observations": 4115,
+        "peer_mean": 4.552697278911564,
+        "people": 1050,
+        "personal_change": -0.2142857142857144,
+        "personal_status": "supported",
+        "recent_mean": 0.9642857142857142,
+        "recent_observations": 4,
+        "reference_window": [
+          6,
+          9
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 1.25,
+        "baseline_observations": 4,
+        "contrast": -3.7757358276643993,
+        "focal_mean": 1.0357142857142856,
+        "focal_observations": 4,
+        "observations": 4115,
+        "peer_mean": 4.811450113378685,
+        "people": 1050,
+        "personal_change": -0.2142857142857144,
+        "personal_status": "supported",
+        "recent_mean": 1.0357142857142856,
+        "recent_observations": 4,
+        "reference_window": [
+          6,
+          9
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "question_id": "s6_24",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_24",
+        "reference": "course",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 1.1785714285714286,
+        "baseline_observations": 4,
+        "contrast": -4.839040077569489,
+        "focal_mean": 0.9642857142857142,
+        "focal_observations": 4,
+        "observations": 4326,
+        "peer_mean": 5.803325791855204,
+        "people": 1105,
+        "personal_change": -0.2142857142857144,
+        "personal_status": "supported",
+        "recent_mean": 0.9642857142857142,
+        "recent_observations": 4,
+        "reference_window": [
+          2,
+          5
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 1.25,
+        "baseline_observations": 4,
+        "contrast": -5.086935286935287,
+        "focal_mean": 1.0357142857142856,
+        "focal_observations": 4,
+        "observations": 4326,
+        "peer_mean": 6.122649572649572,
+        "people": 1105,
+        "personal_change": -0.2142857142857144,
+        "personal_status": "supported",
+        "recent_mean": 1.0357142857142856,
+        "recent_observations": 4,
+        "reference_window": [
+          2,
+          5
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "question_id": "s6_24",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_24",
+        "reference": "early_stage",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    },
+    {
+      "alternative": {
+        "baseline_mean": 1.1785714285714286,
+        "baseline_observations": 4,
+        "contrast": -3.845280310705843,
+        "focal_mean": 0.9642857142857142,
+        "focal_observations": 4,
+        "observations": 3321,
+        "peer_mean": 4.8095660249915575,
+        "people": 846,
+        "personal_change": -0.2142857142857144,
+        "personal_status": "supported",
+        "recent_mean": 0.9642857142857142,
+        "recent_observations": 4,
+        "reference_window": [
+          6,
+          9
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "contrast_direction_changed": false,
+      "family": "alternate_windows",
+      "personal_direction_changed": false,
+      "primary": {
+        "baseline_mean": 1.25,
+        "baseline_observations": 4,
+        "contrast": -4.0423421141506255,
+        "focal_mean": 1.0357142857142856,
+        "focal_observations": 4,
+        "observations": 3321,
+        "peer_mean": 5.078056399864911,
+        "people": 846,
+        "personal_change": -0.2142857142857144,
+        "personal_status": "supported",
+        "recent_mean": 1.0357142857142856,
+        "recent_observations": 4,
+        "reference_window": [
+          6,
+          9
+        ],
+        "status": "supported",
+        "window": [
+          6,
+          9
+        ]
+      },
+      "question_id": "s6_24",
+      "request": {
+        "feature": "clicks_per_eligible_day",
+        "question_id": "s6_24",
+        "reference": "same_prior_attempt",
+        "tool": "analyze",
+        "window": "recent"
+      },
+      "required_fact": true
+    }
+  ],
+  "reference_direction_questions": [
+    {
+      "alternative": "direction_differs",
+      "changed": false,
+      "primary": "direction_differs",
+      "question_id": "s6_05"
+    },
+    {
+      "alternative": "same_direction",
+      "changed": false,
+      "primary": "same_direction",
+      "question_id": "s6_06"
+    },
+    {
+      "alternative": "same_direction",
+      "changed": false,
+      "primary": "same_direction",
+      "question_id": "s6_07"
+    },
+    {
+      "alternative": "same_direction",
+      "changed": false,
+      "primary": "same_direction",
+      "question_id": "s6_08"
+    },
+    {
+      "alternative": "same_direction",
+      "changed": false,
+      "primary": "same_direction",
+      "question_id": "s6_21"
+    },
+    {
+      "alternative": "same_direction",
+      "changed": false,
+      "primary": "same_direction",
+      "question_id": "s6_22"
+    },
+    {
+      "alternative": "same_direction",
+      "changed": false,
+      "primary": "same_direction",
+      "question_id": "s6_23"
+    },
+    {
+      "alternative": "same_direction",
+      "changed": false,
+      "primary": "same_direction",
+      "question_id": "s6_24"
+    }
+  ],
+  "required_fact_records": {
+    "absolute_click_peer_contrast_shift": {
+      "maximum": 0.32388832601598505,
+      "median": 0.16715010877447378,
+      "minimum": 0.011421319796955043,
+      "n": 29
+    },
+    "absolute_click_peer_mean_shift": {
+      "maximum": 0.33634026380505233,
+      "median": 0.2636216046702371,
+      "minimum": 0.1069790301441671,
+      "n": 36
+    },
+    "absolute_click_personal_change_shift": {
+      "maximum": 1.3928571428571388,
+      "median": 0.035714285714286476,
+      "minimum": 0.0,
+      "n": 13
+    },
+    "assessment_records": 16,
+    "assessment_records_unchanged": 16,
+    "click_peer_contrast_sign_changes": [],
+    "click_personal_change_sign_changes": [],
+    "click_records": 36,
+    "records": 52,
+    "support_status_changes": 0,
+    "supported_click_peer_contrasts": 29,
+    "supported_click_personal_changes": 13,
+    "unique_click_personal_summaries": 20
+  },
+  "scope": "Same 24 people, profiles, equal-person/within-person-week estimator, thresholds, and 81 exclusions; no model reruns or rescoring",
+  "source_hashes": {
+    "artifacts/data/splits.json": "019b1744e922c4e0ac7474b95e26fccc97556f30ee17cee99488d21ebc189e92",
+    "artifacts/stage2/statistics/exact_row_sensitivity_source/assessment_status.parquet": "78ce825cf83a18ba5bc834b3ef69f00a5224b210112bd38b98a4fe4979625342",
+    "artifacts/stage2/statistics/exact_row_sensitivity_source/manifest.json": "cbe572b5d86c05f159d2c5dc7778c231f690c70ceb7c2fb86f08e412affe73ed",
+    "artifacts/stage2/statistics/exact_row_sensitivity_source/weekly.parquet": "4d1fb1a0573dc8753b7d0f88f8e296008d72c2ed2f9ffdc728cce14a5baf8480",
+    "artifacts/stage2/statistics/sensitivity.json": "5a4f4d9ae9c26e753423ed0db84b34280d8a58ddd08298b03608073365a6e376",
+    "artifacts/stage6/comparison/baseline/s6_01/requests.json": "789875581a4d6ea4f87c5912df67a3c2b35e356b4427cfe1e4910a6ecc914348",
+    "artifacts/stage6/comparison/baseline/s6_01/tool_results.json": "37b43d9d4d207b50f2691646f9e35eee3334577b76119eec585abe785f043ee9",
+    "artifacts/stage6/comparison/baseline/s6_02/requests.json": "d1bb7a3909cbc3e937554378acc256248b2e468620a1485bca7dba19fc44416f",
+    "artifacts/stage6/comparison/baseline/s6_02/tool_results.json": "7ef8c94498a5320bccf6130a41c9ea6dc2c976530ddab6f69bec4324888d31a2",
+    "artifacts/stage6/comparison/baseline/s6_03/requests.json": "f2d3d00c33973b10ed7893bed85b6f3b4879a37a783ab82729a74e13439c761f",
+    "artifacts/stage6/comparison/baseline/s6_03/tool_results.json": "099c16931a7f27305eb37beb3ede0adaaa4403ed67ba9565b654158eddf7c13e",
+    "artifacts/stage6/comparison/baseline/s6_04/requests.json": "3a472cec12b300d6043a8ae2727145258be82509d94605fe73f1c4a0da7f1080",
+    "artifacts/stage6/comparison/baseline/s6_04/tool_results.json": "641b1dbefa824962d2f4b13f1a873a09aa79035c0c6b10421a2020596b1c1d89",
+    "artifacts/stage6/comparison/baseline/s6_05/requests.json": "f136d4b86a08695f303b670dc78d65bf34b91936143865b77367b22429b9bcda",
+    "artifacts/stage6/comparison/baseline/s6_05/tool_results.json": "e93d9f48c4a8e0421f9a9b85e20269327af73d7aa8f1f4852e1aadc73bbb48c3",
+    "artifacts/stage6/comparison/baseline/s6_06/requests.json": "c02584275be4af749cf8d8d5835c22ec00bc8a6d541a94c016757919d9d14916",
+    "artifacts/stage6/comparison/baseline/s6_06/tool_results.json": "2ed5f3ee0138af88f9c4ba83072ef78a06e0422179ca15625db98a21c9bab0a5",
+    "artifacts/stage6/comparison/baseline/s6_07/requests.json": "01b204e6bac0363daa41c652ce4b187734ffe24ea99ce2e3ef239fbccc0703b3",
+    "artifacts/stage6/comparison/baseline/s6_07/tool_results.json": "0255394e7e0380bf9f364472ed4d6bc061e0c110ad98e2b539e4e38d3fc75a8a",
+    "artifacts/stage6/comparison/baseline/s6_08/requests.json": "94b8aebb15fe62e142ec8f522b72c55df40e24bc51804f8ed7ca5a84395bf3f4",
+    "artifacts/stage6/comparison/baseline/s6_08/tool_results.json": "a802239c47714008abe04de938b68359a2c5cdf2ead3900baf477ba0d0dd7ed8",
+    "artifacts/stage6/comparison/baseline/s6_09/requests.json": "f90e0a9709a917c165024062bb535302091fc144deef14407c6066f54236868b",
+    "artifacts/stage6/comparison/baseline/s6_09/tool_results.json": "9057993cd6d38d31f3f4b078b765293f9855fa3d59707266244fddd404f8e201",
+    "artifacts/stage6/comparison/baseline/s6_10/requests.json": "46b7b66562da96f80946d8f56e900ecf762a2435712ac6528391d76a85933eff",
+    "artifacts/stage6/comparison/baseline/s6_10/tool_results.json": "59a2875ed8e271d079d3412f618fae2555f12bd5097fe5a167202ddeb442280a",
+    "artifacts/stage6/comparison/baseline/s6_11/requests.json": "c6cf0e056afed51e49f3a280b9a93c7a148caf36ecd47d5ac219f938e32c7390",
+    "artifacts/stage6/comparison/baseline/s6_11/tool_results.json": "08a7470937064c4c6df27e3e2924b672c222ea379d7c2da8572b89f813c74e44",
+    "artifacts/stage6/comparison/baseline/s6_12/requests.json": "ffe8d5da0768958c7ea9f05fcd44e9ef7186a6f48c1f376b43cb8d05a7a1b505",
+    "artifacts/stage6/comparison/baseline/s6_12/tool_results.json": "0f353cb8486d5ad6d0fab4289f879a4544fc61ce6c6862b9901d3e8ff90e655f",
+    "artifacts/stage6/comparison/baseline/s6_13/requests.json": "f4f1219d83b05fff1124c3ec6210fbdaebfb4a6956a0eb730a4a18f34688a384",
+    "artifacts/stage6/comparison/baseline/s6_13/tool_results.json": "6fae7f82445865ebf7570b8f64c1eecec58a4ad336dfc3ec64bdb70c83aacb25",
+    "artifacts/stage6/comparison/baseline/s6_14/requests.json": "8399a46dc0e9f9ee7701901f560d7363e5acaef943b91056caff8c770c79c2c4",
+    "artifacts/stage6/comparison/baseline/s6_14/tool_results.json": "65988558d5f5e3b6a308442d403f78fa3152f5095e7b98b51c34073499f517ae",
+    "artifacts/stage6/comparison/baseline/s6_15/requests.json": "99c4b9bad698b996324d20efc907ffcf9961c85e1c36dcc52b7e4d644179f104",
+    "artifacts/stage6/comparison/baseline/s6_15/tool_results.json": "767bf352521b45312a5d4fb520e76b1d658a45ef12b22caddc13f49e7c5b909a",
+    "artifacts/stage6/comparison/baseline/s6_16/requests.json": "696856544d5482deddafaf141ac96f537c45b97f95c8ff9213584238c78e5fea",
+    "artifacts/stage6/comparison/baseline/s6_16/tool_results.json": "9beb856795e6fae882c6712260a5a62c8d79c03f016bb969e9ce9434a97d328c",
+    "artifacts/stage6/comparison/baseline/s6_17/requests.json": "4d6d8d90c04230a36345031d1f55546fae8c4742891600f901912966cf70a00b",
+    "artifacts/stage6/comparison/baseline/s6_17/tool_results.json": "6486852649fdc594da9f1b3c88f7d2c54785b1e594120448c41c5c2554c47af8",
+    "artifacts/stage6/comparison/baseline/s6_18/requests.json": "8e9d896b74baab945ae7fc8c09cfc6b63891a2fa5fced5d2eec2bcd90bc85111",
+    "artifacts/stage6/comparison/baseline/s6_18/tool_results.json": "77b1d9b42d6a8b606e5a8b08e7ab2961689e291b13d7fb631fb17c910f8f3680",
+    "artifacts/stage6/comparison/baseline/s6_19/requests.json": "2496efd029f86cb57c9586ec97752c2c534f4ad1118c8ecd29a3c1b2738f0bb1",
+    "artifacts/stage6/comparison/baseline/s6_19/tool_results.json": "297e3e8d1e907d23b17f8a74aba48b2f150ce35d5b5f839d4dcd05c6d12f01f9",
+    "artifacts/stage6/comparison/baseline/s6_20/requests.json": "76737b57ce293b0bbbdac9618a0bec4a8d64573250b1fbca5dc9c0cb317cad27",
+    "artifacts/stage6/comparison/baseline/s6_20/tool_results.json": "2dfc0389093b0912c5f9204154416bf75271fa69400e6fa767cd64e4b151222d",
+    "artifacts/stage6/comparison/baseline/s6_21/requests.json": "f9feed0c99665a966a7fda6908552ba78e2f32c549fad95734b2bffd3250bc93",
+    "artifacts/stage6/comparison/baseline/s6_21/tool_results.json": "79c3b44a5cc8c23624755a78f712e7f48fffdbfb190f01e8e8c7cbb148d61dd4",
+    "artifacts/stage6/comparison/baseline/s6_22/requests.json": "90825e217833d7d1e12562e9b7b8bf642197f4aff927bc826a962ef3cddd4e15",
+    "artifacts/stage6/comparison/baseline/s6_22/tool_results.json": "eb549bccfac8ee3cd0ec490a82ffe4269eb9a3dce009026574f7916010a734ba",
+    "artifacts/stage6/comparison/baseline/s6_23/requests.json": "f0ea2cbfcb70d047725ff326c18091603b4b308e0e0aa6cb5fe2064e820b55dd",
+    "artifacts/stage6/comparison/baseline/s6_23/tool_results.json": "5d79a01656275034ed51c8503ca934e7867f8821f3af4322f95e7f393ede3ee5",
+    "artifacts/stage6/comparison/baseline/s6_24/requests.json": "40c8145452b2916b18d5d78c5221141bd81f922b0a973dbf64587ff3449caacc",
+    "artifacts/stage6/comparison/baseline/s6_24/tool_results.json": "b40b129550c5183ad9b3ca67d26f2b78aa68128f678e57d3351c3b11cf618286",
+    "artifacts/stage6/evaluator_only/rubrics.json": "b0e91a96bd07c8728621aaa4670a514ea7225067dc2487c0cb4aa74936f6bb04",
+    "artifacts/stage6/source/assessment_status.parquet": "78ce825cf83a18ba5bc834b3ef69f00a5224b210112bd38b98a4fe4979625342",
+    "artifacts/stage6/source/manifest.json": "c52fe17a7964aa8b329f148b3eb861531cd748624d4cc76b28ee3b78fb5d7232",
+    "artifacts/stage6/source/weekly.parquet": "b894b2a583ef387203806b6c92c14037a9f3e61fe28b05837117e17d8de88200",
+    "artifacts/stage6/tasks/manifest.json": "8fa0864cb919e7bdae67ee81a75b1dc00b92c027fb6b2c189571a8733d931f91",
+    "configs/stage6.json": "041f73c82d2f5bb4aea58ea47820b51fa6409f7a30a5578ab84d81f1d58bd381",
+    "paper-revised/analysis/duplicate_sensitivity.py": "56ef2969869d6d987fb3a7b13beedecf9777262e93c18da8569946fc97a0e50e",
+    "scripts/stage2/statistical_checks.py": "099a71b546d827fdbcb84b8e37f25fc571c29dc5bece8850ad9189606ba3abb0"
+  }
+}

@@ -1,0 +1,67 @@
+POST-HOC PAIRED STATISTICAL ANALYSIS
+
+Purpose: Reviewer 2, point 3 (statistical comparison).
+Source: artifacts/stage6/reports/per_case.json; 24 paired people, four conditions.
+Endpoint: complete valid visible answers, using unchanged frozen judgments.
+Reproduce: python3 paper-revised/analysis/paired_statistics.py
+
+The two-sided exact McNemar test conditions on the number of discordant pairs
+and uses a Binomial(n_discordant, 0.5) null. We apply Holm adjustment jointly to
+all six pairwise comparisons of the four conditions. No continuity correction
+or 96-independent-observation approximation is used. This analysis was added
+after review and is exploratory, not prespecified confirmatory inference.
+
+FROZEN PRIMARY OUTCOMES
+
+Contrast     Right only  Left only  Difference (percentage points)  Exact p   Holm p
+C - A            1          7                -25.00                  .07031   .28125
+C - B            3          3                  0.00                 1.00000  1.00000
+B - A            1          7                -25.00                  .07031   .28125
+A - Enum.        0          3                -12.50                  .25000   .50000
+B - Enum.        0          9                -37.50                  .00391   .02344
+C - Enum.        0          9                -37.50                  .00391   .02344
+
+A = compact; B = derived metadata; C = explicit binding.
+Complete visible counts are Enum./A/B/C = 24/21/15/15, out of 24 each.
+At a conventional .05 threshold, only enumeration versus B and C survives the
+six-test correction. The agent contrasts do not establish superiority or
+equivalence. These structurally selected development cases share course and
+reference data; the exact calculation does not validate population sampling,
+independence under shared influences, or performance on reserved participants.
+
+CONDITIONAL ANSWER-FORM SENSITIVITY (NOT HUMAN ADJUDICATION)
+
+If and only if B17--20 receive visible-completeness credit, counts become
+Enum./A/B/C = 24/21/19/15. This is a hypothetical endpoint sensitivity, not a
+replacement of any primary judgment and not revised method-selected scoring.
+
+Contrast     Right only  Left only  Difference (percentage points)  Exact p   Holm p
+C - A            1          7                -25.00                  .07031   .31250
+C - B            2          6                -16.67                  .28906   .75000
+B - A            1          3                 -8.33                  .62500   .75000
+A - Enum.        0          3                -12.50                  .25000   .75000
+B - Enum.        0          5                -20.83                  .06250   .31250
+C - Enum.        0          9                -37.50                  .00391   .02344
+
+Only enumeration versus C survives the six-test correction in this scenario.
+This dependence on disputed answer forms is a reason to retain the caveat and
+seek independent adjudication rather than treating the frozen metric as settled.
+
+VALIDATION
+
+All 96 source rows and 24 distinct task people are checked. Complete counts
+match 24/21/15/15 exactly. Known exact p-values and Holm examples are asserted
+in the script. The exact-test implementation was also checked against
+scipy.stats.binomtest for all 325 possible nonnegative discordance-count pairs
+with sum at most 24, agreeing to absolute tolerance 1e-14. The script and output
+use no external runtime package, random draw, network request, or model call.
+
+MANUSCRIPT WORDING SUGGESTION
+
+"A post hoc paired analysis uses two-sided exact McNemar tests with Holm
+adjustment across all six condition pairs. For C--A, C--B, and B--A, adjusted
+p-values are .281, 1.000, and .281; enumeration versus A/B/C gives .500/.023/.023.
+Crediting only disputed B17--20 changes enumeration versus B to .313 and C--B
+to .750. These exploratory tests retain person pairing but do not establish
+equivalence, resolve answer-form validity, or generalize beyond the selected
+development cases."
