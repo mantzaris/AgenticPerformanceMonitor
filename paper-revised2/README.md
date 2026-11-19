@@ -1,6 +1,8 @@
 # ICAART 2027 — second revision
 
 - [Paper](main.pdf) — eight pages, including references.
+- [LaTeX source ZIP](ICAART_2027_219_source.zip) — manuscript, comparison sources,
+  bibliography, style files, figures, and standalone build instructions; use `main.tex`.
 - [Diff against the submitted version](changes.pdf).
 - [Diff against the first revision](changes-from-first.pdf).
 - [Short revision notes](REVISION_NOTES.txt).
